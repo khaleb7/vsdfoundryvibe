@@ -1,0 +1,562 @@
+<form class="sheetform {{cssClass}}" autocomplete="off">
+  <div class="charsheet vsd-form-wrapper">
+    <header class="vsd-form-header">
+      <div class="form-logo-row">
+        <img class="header-logo" src="systems/vsd/icons/darkmaster_logo.png" alt="Against the Darkmaster" />
+        <div class="form-identity">
+          {{#with system.sheetData.headerinfo as |item|}}
+          <div class="form-id-row">
+            <label class="uline-field grow">
+              <input class="actorname" name="name" type="text" value="{{../actor.name}}" placeholder="Character Name" />
+              <span>Character Name</span>
+            </label>
+            <label class="uline-field narrow">
+              <span class="readonly">{{item.level}}</span>
+              <span>Lvl</span>
+            </label>
+            <label class="uline-field narrow item" data-item-id="{{item.experience._id}}">
+              <span class="readonly">{{item.experience.system.value}}</span>
+              <span>XP</span>
+            </label>
+            <label class="uline-field narrow item" data-item-id="{{item.experience._id}}">
+              <span class="readonly">{{item.experience.system.max}}</span>
+              <span>Next Lvl</span>
+            </label>
+          </div>
+          <div class="form-id-row">
+            <label class="uline-field grow">
+              <span class="readonly">{{item.kin}}</span>
+              <span>Kin</span>
+            </label>
+            <label class="uline-field grow">
+              <span class="readonly">{{item.culture}}</span>
+              <span>Culture</span>
+            </label>
+            <label class="uline-field grow">
+              <span class="readonly">{{item.vocation}}</span>
+              <span>Vocation</span>
+            </label>
+          </div>
+          {{/with}}
+        </div>
+        <img class="portrait" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
+      </div>
+      <nav class="sheet-nav tabs" data-group="primary">
+        <a class="tabtitle" data-tab="skills">Character</a>
+        <a class="tabtitle" data-tab="combat">Combat</a>
+        <a class="tabtitle" data-tab="magic">Magic</a>
+        <a class="tabtitle" data-tab="notes">Notes</a>
+      </nav>
+    </header>
+
+    <section class="sheet-body">
+      {{!-- ========== PAGE 1: Character ========== --}}
+      <div class="tab form-page character-page" data-tab="skills" data-group="primary">
+        <div class="form-two-col">
+          <div class="form-col left">
+            <section class="form-section">
+              <h3 class="form-section-title">Passions</h3>
+              <div class="form-grid-area">
+                {{#each system.sheetData.disadvantages as |item|}}
+                <div class="item passion-line" data-item-id="{{item._id}}">
+                  <label class="item-edit">{{item.name}}</label>
+                  <input class="iteminput" type="text" value="{{item.system.notes}}" data-dtype="String" data-name="system.notes" />
+                </div>
+                {{/each}}
+                {{#each system.sheetData.advantages as |item|}}
+                <div class="item passion-line" data-item-id="{{item._id}}">
+                  <label class="item-edit">{{item.name}}</label>
+                  <input class="iteminput" type="text" value="{{item.system.notes}}" data-dtype="String" data-name="system.notes" />
+                </div>
+                {{/each}}
+              </div>
+            </section>
+
+            <section class="form-section drive-section">
+              <h3 class="form-section-title item" data-item-id="{{system.dynamic.drive._id}}">Drive Points</h3>
+              <div class="drive-point-markers" data-item-id="{{system.dynamic.drive._id}}" data-name="system.attr">
+                {{#times 5}}
+                <div class="drive-point click-value" data-value="{{@index}}">
+                  <i class="{{#if (lt ../system.dynamic.drive.system.value @index)}}far{{else}}fas{{/if}} fa-gem"></i>
+                </div>
+                {{/times}}
+              </div>
+            </section>
+
+            <section class="form-section heroic-section">
+              <h3 class="form-section-title item" data-item-id="{{system.dynamic.hero._id}}">Heroic Path</h3>
+              <div class="heroic-path-markers form-heroic" data-item-id="{{system.dynamic.hero._id}}" data-name="system.attr">
+                {{#times 100}}
+                {{#if (isModulus @index 10 0)}}
+                <div class="heroic-path-point click-value" data-value="{{@index}}" title="{{@index}}">
+                  <i class="{{#if (lt ../system.dynamic.hero.system.value @index)}}far{{else}}fas{{/if}} fa-gem"></i>
+                  <span class="hp-label">{{@index}}</span>
+                </div>
+                {{/if}}
+                {{/times}}
+              </div>
+            </section>
+
+            <section class="form-section">
+              <h3 class="form-section-title">Stats</h3>
+              <div class="form-table stats-table">
+                <div class="form-row header">
+                  <div class="cell name"></div>
+                  <div class="cell">Base</div>
+                  <div class="cell">Kin</div>
+                  <div class="cell">Spec</div>
+                  <div class="cell tot">TOT</div>
+                </div>
+                {{#each system.sheetData.statinfo as |item|}}
+                <div class="form-row item" data-item-id="{{item._id}}" title="{{item.title}}">
+                  <div class="cell name">
+                    <a class="rollmacro roll-label" data-type="Primary" data-target="{{item.name}}">
+                      {{localize (concat 'local.system.stats.' item.name)}} ({{localize (concat 'local.system.stats.' item.abbr)}})
+                    </a>
+                  </div>
+                  <div class="cell">{{item.base}}</div>
+                  <div class="cell">{{item.kin}}</div>
+                  <div class="cell">{{item.spec}}</div>
+                  <div class="cell tot">{{item.total}}</div>
+                </div>
+                {{/each}}
+              </div>
+            </section>
+
+            <section class="form-section">
+              <h3 class="form-section-title">Save Rolls</h3>
+              <div class="form-table saves-table">
+                <div class="form-row header">
+                  <div class="cell name"></div>
+                  <div class="cell">Stat</div>
+                  <div class="cell">Lvl</div>
+                  <div class="cell">Kin</div>
+                  <div class="cell">Spec</div>
+                  <div class="cell tot">TOT</div>
+                </div>
+                {{#each system.sheetData.saveinfo as |item|}}
+                <div class="form-row item" data-item-id="{{item._id}}" title="{{item.title}}">
+                  <div class="cell name">
+                    <a class="rollmacro roll-label" data-category="block" data-target="{{item.name}}">
+                      {{localize (concat 'local.system.saves.' item.name)}}
+                    </a>
+                  </div>
+                  <div class="cell">{{item.stat}}</div>
+                  <div class="cell">{{item.level}}</div>
+                  <div class="cell">{{item.kin}}</div>
+                  <div class="cell">{{item.spec}}</div>
+                  <div class="cell tot">{{item.total}}</div>
+                </div>
+                {{/each}}
+              </div>
+            </section>
+
+            <section class="form-section">
+              <h3 class="form-section-title">Special Traits &amp; Backgrounds</h3>
+              <div class="form-grid-area traits-area">
+                {{#each system.sheetData.perks as |item|}}
+                <div class="item trait-line" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                  <a class="rollable roll-label" data-name="{{item.name}}" data-roll="{{item.system.notes}}" data-type="tochat">{{item.name}}</a>
+                </div>
+                {{/each}}
+                {{#each system.sheetData.quirks as |item|}}
+                <div class="item trait-line" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                  <a class="rollable roll-label" data-name="{{item.name}}" data-roll="{{item.system.notes}}" data-type="tochat">{{item.name}}</a>
+                </div>
+                {{/each}}
+                {{#each system.sheetData.charactertraits as |item|}}
+                <div class="item trait-line" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                  <a class="rollable roll-label" data-name="{{item.name}}" data-roll="{{item.system.notes}}" data-type="tochat">{{item.name}}</a>
+                </div>
+                {{/each}}
+              </div>
+            </section>
+          </div>
+
+          <div class="form-col right">
+            <section class="form-section skills-section">
+              <h3 class="form-section-title">Skills</h3>
+              <div class="form-table skills-table">
+                <div class="form-row header skill-cols">
+                  <div class="cell name"></div>
+                  <div class="cell">Stat</div>
+                  <div class="cell">#Ranks &amp; Bonus</div>
+                  <div class="cell">Voc</div>
+                  <div class="cell">Kin</div>
+                  <div class="cell">Spec</div>
+                  <div class="cell">Item</div>
+                  <div class="cell tot">TOT</div>
+                </div>
+                {{#each system.sheetData.skillinfo as |category|}}
+                {{#unless (eq category.name "Spell Lores")}}
+                <div class="form-row cat-header">
+                  <div class="cell name">{{localize (concat 'local.system.skillcats.' category.name)}}</div>
+                  <div class="cell dp" colspan="7">DP/Lvl: {{category.devpts}}</div>
+                </div>
+                {{#each category.data as |item|}}
+                {{#if item}}
+                <div class="form-row skill-cols item" data-item-id="{{item._id}}" title="{{item.title}}">
+                  <div class="cell name">
+                    {{#if (or (eq item.name "Body") (eq item.name "Armor"))}}
+                    <a class="rollmacro roll-label" data-category="check" data-target="{{item.name}}">
+                      {{#if item.standard}}{{localize (concat 'local.system.skills.' item.name)}}{{else}}{{item.name}}{{/if}}
+                    </a>
+                    {{else}}
+                    <a class="rollmacro roll-label" data-category="{{item.type}}" data-target="{{item.name}}">
+                      {{#if item.standard}}{{localize (concat 'local.system.skills.' item.name)}}{{else}}{{item.name}}{{/if}}
+                      {{#unless (eq item.statabbr "nil")}} ({{localize (concat 'local.system.stats.' item.statabbr)}}){{/unless}}
+                    </a>
+                    {{/if}}
+                  </div>
+                  <div class="cell">{{item.stat}}</div>
+                  <div class="cell">{{item.ranks}} [{{item.value}}]</div>
+                  <div class="cell">{{item.voc}}</div>
+                  <div class="cell">{{item.kin}}</div>
+                  <div class="cell">{{item.spec}}</div>
+                  <div class="cell"></div>
+                  <div class="cell tot">{{item.total}}</div>
+                </div>
+                {{/if}}
+                {{/each}}
+                {{/unless}}
+                {{/each}}
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      {{!-- ========== PAGE 2: Combat ========== --}}
+      <div class="tab form-page combat-page" data-tab="combat" data-group="primary">
+        {{#with system.sheetData.headerinfo as |item|}}
+        <div class="form-top-bar">
+          <div class="hp-block item" data-item-id="{{item.hitpoints._id}}">
+            <h3 class="form-section-title">Hit Points</h3>
+            <div class="hp-fields">
+              <label>
+                <span>Total</span>
+                <span class="boxed">{{item.hitpoints.system.max}}</span>
+              </label>
+              <label>
+                <span>Current</span>
+                <input class="iteminput boxed" type="text" value="{{item.hitpoints.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.hitpoints.system.abbr}}" />
+              </label>
+            </div>
+          </div>
+          <div class="wounds-block">
+            <h3 class="form-section-title">Wounds</h3>
+            <div class="hp-fields">
+              <label>
+                <span>Bleed</span>
+                <span class="boxed">{{item.woundsbleed}}</span>
+              </label>
+              <label>
+                <span>Penalties</span>
+                <span class="boxed">{{item.woundspen}}</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-two-col conditions-defense">
+          <section class="form-section">
+            <h3 class="form-section-title">Conditions</h3>
+            <div class="conditions-grid">
+              {{#each ../system.sheetData.conditions as |cond|}}
+              {{#unless cond.system.alwaysOn}}
+              <div class="item modifier{{#if cond.system.inEffect}} inEffect{{/if}}" data-item-id="{{cond._id}}" title="{{cond.system.notes}}">
+                <label class="item-toggle">{{cond.name}}</label>
+              </div>
+              {{/unless}}
+              {{/each}}
+            </div>
+            <div class="injuries-list">
+              <h4>Injuries</h4>
+              {{#each ../system.sheetData.hitlocations as |wound|}}
+              <div class="item injury-line" data-item-id="{{wound._id}}">
+                <span class="item-edit">{{wound.name}}</span>
+                <span>{{wound.system.injuryType}}</span>
+                <span>{{numberFormat wound.system.damage decimals=0 sign=true}}</span>
+              </div>
+              {{/each}}
+            </div>
+          </section>
+
+          <section class="form-section">
+            <h3 class="form-section-title">Defense</h3>
+            <div class="defense-breakdown">
+              <div class="def-line"><span>SWI Bonus</span><span class="uline">{{../system.sheetData.statinfo.swi.total}}</span></div>
+              <div class="def-line"><span>Shield Bonus</span><span class="uline">{{item.defence.meshield}}</span></div>
+              <div class="def-line"><span>Item Bonus</span><span class="uline"></span></div>
+              <div class="def-line"><span>Spec Bonus</span><span class="uline">{{#if item.defence.parry}}{{item.defence.parry.system.value}}{{/if}}</span></div>
+              <div class="def-totals">
+                <label>Melee Defense <span class="boxed">{{item.defence.meleeDB}}</span></label>
+                <label>Ranged Defense <span class="boxed">{{item.defence.missileDB}}</span></label>
+              </div>
+              <div class="def-line">
+                <span>Shield Position</span>
+                <select class="value select" name="system.defence.shieldposition">
+                  {{#if (eq item.defence.meshield 0)}}
+                  {{selectOptions ../config.selectOptions.withoutshield selected=item.defence.shieldposition valueAttr="value" labelAttr="label" localize=true}}
+                  {{else}}
+                  {{selectOptions ../config.selectOptions.withshield selected=item.defence.shieldposition valueAttr="value" labelAttr="label" localize=true}}
+                  {{/if}}
+                </select>
+              </div>
+            </div>
+          </section>
+        </div>
+        {{/with}}
+
+        <section class="form-section">
+          <h3 class="form-section-title">Armor and Shield</h3>
+          <div class="form-table armor-table">
+            <div class="form-row header armor-cols">
+              <div class="cell">Armor / Shield</div>
+              <div class="cell">Type</div>
+              <div class="cell">Zones Protected</div>
+              <div class="cell">Max SWI to DEF</div>
+              <div class="cell">Move Penalty</div>
+              <div class="cell">CMB Penalty</div>
+              <div class="cell">Perception Penalty</div>
+              <div class="cell">Melee Bonus</div>
+              <div class="cell">Ranged Bonus</div>
+              <div class="cell">Qualities</div>
+            </div>
+            {{#each system.sheetData.defenceinfo as |arm|}}
+            <div class="form-row armor-cols item" data-item-id="{{arm._id}}">
+              <div class="cell name">
+                <input class="iteminput" type="checkbox" {{checked arm.inEffect}} data-dtype="Boolean" data-name="system.inEffect" />
+                <span class="item-edit">{{arm.name}}</span>
+              </div>
+              <div class="cell">{{arm.type}}</div>
+              <div class="cell">{{arm.protects}}</div>
+              <div class="cell">{{arm.maxswi}}</div>
+              <div class="cell">{{arm.movepen}}</div>
+              <div class="cell">{{arm.cmbpen}}</div>
+              <div class="cell">{{arm.perpen}}</div>
+              <div class="cell">{{arm.melee}}</div>
+              <div class="cell">{{arm.missile}}</div>
+              <div class="cell">{{arm.qualities}}</div>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+        <section class="form-section">
+          <h3 class="form-section-title">Weapons &amp; Attack</h3>
+          <div class="form-table weapons-table">
+            <div class="form-row header weapon-cols">
+              <div class="cell">Weapons / Attacks</div>
+              <div class="cell">Hands</div>
+              <div class="cell">Length</div>
+              <div class="cell">Skill(s) Used</div>
+              <div class="cell">CR</div>
+              <div class="cell">Attack Table</div>
+              <div class="cell">Maximum Result</div>
+              <div class="cell">Primary Critical</div>
+              <div class="cell">Alternate Critical</div>
+              <div class="cell">Base Range</div>
+              <div class="cell">Qualities</div>
+            </div>
+            {{#each system.sheetData.allattacks as |atk|}}
+            <div class="form-row weapon-cols item" data-item-id="{{atk._id}}">
+              <div class="cell name">
+                <a class="rollmacro roll-label" data-type="Attack" data-target="{{atk.name}}">{{atk.attackname}}</a>
+              </div>
+              <div class="cell">{{#if (eq atk.type "Melee-Attack")}}1{{else}}-{{/if}}</div>
+              <div class="cell">{{#if (eq atk.type "Melee-Attack")}}{{atk.system.reach}}{{else}}-{{/if}}</div>
+              <div class="cell">{{atk.system.formula}}</div>
+              <div class="cell">{{atk.system.armourDiv}}</div>
+              <div class="cell">{{atk.attacktable}}</div>
+              <div class="cell">{{atk.system.accuracy}}</div>
+              <div class="cell">
+                <a class="rollmacro" data-category="dodge" data-target="{{atk.critname}}">{{atk.criticaltable}}</a>
+              </div>
+              <div class="cell">{{atk.system.secondary}}</div>
+              <div class="cell">{{#if (eq atk.type "Ranged-Attack")}}{{atk.system.range}}{{else}}-{{/if}}</div>
+              <div class="cell">{{atk.system.notes}}</div>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+        {{#with system.sheetData.headerinfo as |item|}}
+        <div class="form-two-col wealth-move">
+          <section class="form-section item" data-item-id="{{item.wealth._id}}">
+            <h3 class="form-section-title">Wealth</h3>
+            <div class="inline-fields">
+              <label>Wealth Level
+                <select class="iteminput" data-name="system.label">
+                  {{selectOptions item.wealth.system.entries selected=item.wealth.system.label valueAttr="label" labelAttr="label" localize=false}}
+                </select>
+              </label>
+              <label>Status <span class="uline">{{item.wealth.system.value}}</span></label>
+            </div>
+          </section>
+          <section class="form-section">
+            <h3 class="form-section-title">Movement</h3>
+            <div class="inline-fields">
+              <label class="item" data-item-id="{{item.encumbrance._id}}">Encumbrance Level
+                <select class="iteminput" data-name="system.label">
+                  {{selectOptions item.encumbrance.system.entries selected=item.encumbrance.system.label valueAttr="label" labelAttr="label" localize=false}}
+                </select>
+              </label>
+              <label class="item" data-item-id="{{item.move._id}}">Move Rate
+                <span class="uline">{{item.move.system.moddedvalue}} m</span>
+              </label>
+            </div>
+          </section>
+        </div>
+        {{/with}}
+
+        <section class="form-section">
+          <h3 class="form-section-title">Equipment</h3>
+          <div class="form-table equipment-table">
+            <div class="form-row header equip-cols">
+              <div class="cell loc">Location</div>
+              <div class="cell desc">Items and Descriptions</div>
+            </div>
+            {{#each system.sheetData.equipment as |eq|}}
+            <div class="form-row equip-cols item" data-item-id="{{eq._id}}">
+              <div class="cell loc">{{eq.system.notes}}</div>
+              <div class="cell desc">
+                <span class="item-edit">{{eq.name}}</span>
+                {{#if eq.system.quantity}} ×{{eq.system.quantity}}{{/if}}
+                — {{{eq.system.description}}}
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+      </div>
+
+      {{!-- ========== PAGE 3: Magic ========== --}}
+      <div class="tab form-page magic-page" data-tab="magic" data-group="primary">
+        {{#with system.sheetData.headerinfo as |item|}}
+        <section class="form-section mp-section item" data-item-id="{{item.magicpoints._id}}">
+          <h3 class="form-section-title">Magic Points</h3>
+          <div class="mp-fields">
+            <label>TOT <span class="boxed">{{item.magicpoints.system.max}}</span></label>
+            <label>Current
+              <input class="iteminput boxed" type="text" value="{{item.magicpoints.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.magicpoints.system.abbr}}" />
+            </label>
+          </div>
+        </section>
+        {{/with}}
+
+        <section class="form-section">
+          <h3 class="form-section-title">Spell Lores
+            {{#with system.sheetData.skillinfo.Spells as |spells|}}
+            <span class="dp-inline">DP/Lvl: {{spells.devpts}}</span>
+            {{/with}}
+          </h3>
+          <div class="form-table skills-table">
+            <div class="form-row header skill-cols">
+              <div class="cell name">Lore</div>
+              <div class="cell">Stat</div>
+              <div class="cell">#Ranks &amp; Bonus</div>
+              <div class="cell">Voc</div>
+              <div class="cell">Kin</div>
+              <div class="cell">Spec</div>
+              <div class="cell">Item</div>
+              <div class="cell tot">TOT</div>
+            </div>
+            {{#with system.sheetData.skillinfo.Spells}}
+            {{#each data as |item|}}
+            {{#if item}}
+            <div class="form-row skill-cols item" data-item-id="{{item._id}}" title="{{item.title}}">
+              <div class="cell name">
+                <a class="rollmacro roll-label" data-category="spell" data-target="{{item.name}}">{{item.name}}</a>
+              </div>
+              <div class="cell">{{item.stat}}</div>
+              <div class="cell">{{item.ranks}} [{{item.value}}]</div>
+              <div class="cell">{{item.voc}}</div>
+              <div class="cell">{{item.kin}}</div>
+              <div class="cell">{{item.spec}}</div>
+              <div class="cell"></div>
+              <div class="cell tot">{{item.total}}</div>
+            </div>
+            {{/if}}
+            {{/each}}
+            {{/with}}
+          </div>
+        </section>
+
+        <section class="form-section">
+          <h3 class="form-section-title">Additional Spells</h3>
+          <div class="form-table spells-extra-table">
+            <div class="form-row header spell-extra-cols">
+              <div class="cell">Spell Name</div>
+              <div class="cell">Level</div>
+              <div class="cell">CR</div>
+              <div class="cell">Attack Table</div>
+              <div class="cell">Critical</div>
+              <div class="cell">CMB</div>
+            </div>
+            {{#each system.sheetData.spellattacks as |atk|}}
+            <div class="form-row spell-extra-cols item" data-item-id="{{atk._id}}">
+              <div class="cell name">
+                <a class="rollmacro roll-label" data-type="Attack" data-target="{{atk.name}}">{{atk.attackname}}</a>
+              </div>
+              <div class="cell"></div>
+              <div class="cell">{{atk.system.armourDiv}}</div>
+              <div class="cell">{{atk.attacktable}}</div>
+              <div class="cell">{{atk.criticaltable}}</div>
+              <div class="cell">{{atk.cmb}}</div>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+        <section class="form-section">
+          <h3 class="form-section-title">Magic Items &amp; Items of Power</h3>
+          <div class="magic-items-grid">
+            {{#each system.sheetData.equipment as |eq|}}
+            <div class="magic-item item" data-item-id="{{eq._id}}">
+              <div class="item-edit name">{{eq.name}}</div>
+              <div class="meta">Type: {{eq.system.availability}}</div>
+              <div class="powers">{{{eq.system.description}}}</div>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+      </div>
+
+      {{!-- ========== PAGE 4: Notes ========== --}}
+      <div class="tab form-page notes-page" data-tab="notes" data-group="primary">
+        <div class="form-two-col animals-row">
+          <section class="form-section">
+            <h3 class="form-section-title">Companion / Totemic Animal</h3>
+            <p class="form-hint">Record companion details in notes below, or add a Trait named for the companion.</p>
+          </section>
+          <section class="form-section">
+            <h3 class="form-section-title">Riding Animal</h3>
+            <p class="form-hint">Record mount details in notes below.</p>
+          </section>
+        </div>
+
+        <section class="form-section">
+          <h3 class="form-section-title">Character and Campaign Notes</h3>
+          <div class="biography">
+            {{editor enrichment.system.biography target="system.biography" engine="prosemirror" button=true owner=owner editable=editable}}
+          </div>
+          <textarea class="form-notes" rows="12" name="system.notes">{{{system.notes}}}</textarea>
+        </section>
+
+        <section class="form-section">
+          <h3 class="form-section-title">Experience Points Tracking</h3>
+          <div class="xp-hooks">
+            {{#each system.sheetData.experienceHooks as |item|}}
+            <div class="item xp-line" data-item-id="{{item._id}}">
+              <input class="iteminput" type="checkbox" data-name="system.applied" {{checked item.system.applied}} data-dtype="Boolean" />
+              <label class="item-edit">{{item.name}}</label>
+              <input class="iteminput grow" type="text" value="{{item.system.notes}}" data-dtype="String" data-name="system.notes" />
+            </div>
+            {{/each}}
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</form>

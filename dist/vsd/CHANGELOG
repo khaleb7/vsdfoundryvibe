@@ -1,3 +1,8 @@
+14.0.4
+- Added Form Fillable Character Sheet (PDF-style layout) as the default for new PCs.
+- Classic sheet remains available and is forced for VsD monster/NPC imports.
+- Click skill, lore, weapon, save, or stat names on the form sheet to roll via the existing modifier dialog.
+
 14.0.3
 - Dragging Kin/Vocation Containers onto a PC sheet now auto-deploys packed Modifiers/Traits (ActorSheetV2 drop return shape fixed).
 - Sheet form controls use paper background + ink text (fixes black-on-black inputs under Theme V2).

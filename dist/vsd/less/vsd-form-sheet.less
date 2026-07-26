@@ -1,0 +1,510 @@
+/* Form-fillable PDF-style character sheet (scoped) */
+.vsd-form-sheet {
+  .window-content {
+    background: #f7f5f0;
+    color: #1a1a1a;
+  }
+
+  .vsd-form-wrapper {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+    font-size: 12px;
+    padding: 0.25rem 0.5rem 0.75rem;
+  }
+
+  .vsd-form-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #f7f5f0;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #c8c4bb;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-logo-row {
+    display: grid;
+    grid-template-columns: auto 1fr 72px;
+    gap: 0.75rem;
+    align-items: start;
+  }
+
+  .header-logo {
+    height: 52px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .portrait {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border: 1px solid #888;
+    border-radius: 0;
+  }
+
+  .form-identity {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .form-id-row {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-end;
+  }
+
+  .uline-field {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+
+    &.grow {
+      flex: 1;
+    }
+
+    &.narrow {
+      width: 4.5rem;
+      flex: 0 0 auto;
+    }
+
+    > span:last-child {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: #555;
+      margin-top: 1px;
+    }
+
+    input,
+    .readonly {
+      border: none;
+      border-bottom: 1px solid #333;
+      border-radius: 0;
+      background: transparent;
+      height: 1.4rem;
+      padding: 0 2px;
+      font-family: inherit;
+      font-size: 13px;
+      width: 100%;
+    }
+
+    .readonly {
+      display: block;
+      line-height: 1.4rem;
+      min-height: 1.4rem;
+    }
+  }
+
+  .actorname {
+    font-weight: bold;
+    font-size: 15px !important;
+  }
+
+  .sheet-nav {
+    display: flex;
+    gap: 0.25rem;
+    margin-top: 0.5rem;
+
+    .tabtitle {
+      flex: 1;
+      text-align: center;
+      padding: 0.35rem 0.5rem;
+      background: #d9d5cc;
+      color: #222;
+      border: 1px solid #b0aaa0;
+      font-variant: small-caps;
+      font-weight: bold;
+      text-decoration: none;
+
+      &.active {
+        background: #4a4640;
+        color: #f7f5f0;
+      }
+    }
+  }
+
+  .sheet-body {
+    max-height: calc(100% - 140px);
+    overflow: auto;
+  }
+
+  .form-section {
+    margin-bottom: 0.65rem;
+  }
+
+  .form-section-title {
+    margin: 0 0 0.35rem;
+    padding: 0.2rem 0.45rem;
+    background: #cfcabe;
+    color: #1a1a1a;
+    font-size: 13px;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+    border: none;
+  }
+
+  .form-two-col {
+    display: grid;
+    grid-template-columns: 1fr 1.35fr;
+    gap: 0.75rem;
+
+    &.conditions-defense,
+    &.wealth-move,
+    &.animals-row {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .form-grid-area {
+    min-height: 4rem;
+    padding: 0.35rem;
+    background:
+      linear-gradient(#e8e4db 1px, transparent 1px) 0 0 / 100% 18px,
+      linear-gradient(90deg, #e8e4db 1px, transparent 1px) 0 0 / 18px 100%;
+    background-color: #faf8f3;
+    border: 1px solid #c8c4bb;
+  }
+
+  .passion-line,
+  .trait-line {
+    display: flex;
+    gap: 0.35rem;
+    align-items: center;
+    margin-bottom: 0.2rem;
+
+    label,
+    .item-edit {
+      min-width: 5rem;
+      font-weight: bold;
+    }
+
+    input {
+      flex: 1;
+      border: none;
+      border-bottom: 1px solid #666;
+      border-radius: 0;
+      background: transparent;
+    }
+  }
+
+  .drive-point-markers {
+    display: flex;
+    gap: 0.55rem;
+    padding: 0.35rem 0.5rem;
+  }
+
+  .drive-point,
+  .heroic-path-point {
+    cursor: pointer;
+    color: #333;
+
+    i {
+      font-size: 14px;
+    }
+  }
+
+  .form-heroic {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    padding: 0.35rem 0.5rem;
+    align-items: flex-start;
+
+    .heroic-path-point {
+      position: relative;
+      text-align: center;
+      min-width: 1.4rem;
+
+      i {
+        font-size: 14px;
+      }
+
+      .hp-label {
+        display: block;
+        font-size: 9px;
+        line-height: 1.1;
+        color: #666;
+        margin-top: 2px;
+      }
+    }
+  }
+
+  .form-table {
+    width: 100%;
+    border: 1px solid #b0aaa0;
+  }
+
+  .form-row {
+    display: grid;
+    align-items: center;
+    border-bottom: 1px solid #ddd9d0;
+    min-height: 1.35rem;
+
+    &.header {
+      background: #e5e1d7;
+      font-size: 10px;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &.cat-header {
+      background: #ece8df;
+      font-weight: bold;
+      font-variant: small-caps;
+      grid-template-columns: 1fr auto;
+
+      .dp {
+        padding-right: 0.35rem;
+        font-size: 10px;
+        text-align: right;
+      }
+    }
+
+    .cell {
+      padding: 1px 3px;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      &.name {
+        text-align: left;
+      }
+
+      &.tot {
+        background: #f0ede6;
+        font-weight: bold;
+        border-left: 1px solid #b0aaa0;
+      }
+    }
+  }
+
+  .stats-table .form-row,
+  .saves-table .form-row:not(.cat-header) {
+    grid-template-columns: 1.6fr repeat(3, 0.7fr) 0.75fr;
+  }
+
+  .saves-table .form-row:not(.cat-header) {
+    grid-template-columns: 1.2fr repeat(4, 0.65fr) 0.75fr;
+  }
+
+  .skill-cols {
+    grid-template-columns: 1.8fr repeat(6, 0.7fr) 0.75fr;
+  }
+
+  .armor-cols {
+    grid-template-columns: 1.4fr 0.5fr 1fr repeat(6, 0.7fr) 1fr;
+    font-size: 11px;
+  }
+
+  .weapon-cols {
+    grid-template-columns: 1.3fr 0.45fr 0.5fr 1fr 0.4fr 0.9fr 0.55fr 0.9fr 0.7fr 0.7fr 1fr;
+    font-size: 10px;
+  }
+
+  .equip-cols {
+    grid-template-columns: 0.7fr 2.5fr;
+
+    .loc,
+    .desc {
+      text-align: left;
+      white-space: normal;
+    }
+  }
+
+  .spell-extra-cols {
+    grid-template-columns: 1.5fr repeat(5, 0.8fr);
+  }
+
+  .roll-label {
+    color: #1a1a1a;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      color: #6b2a1f;
+      text-decoration: underline;
+    }
+  }
+
+  .form-top-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .hp-fields,
+  .mp-fields,
+  .inline-fields,
+  .def-totals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 0.35rem 0.5rem;
+    align-items: center;
+  }
+
+  .boxed {
+    display: inline-block;
+    min-width: 2.5rem;
+    padding: 0.15rem 0.35rem;
+    border: 1px solid #333;
+    background: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  input.boxed {
+    width: 3rem;
+    height: auto;
+    margin: 0;
+  }
+
+  .conditions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    padding: 0.35rem;
+
+    .modifier {
+      padding: 0.15rem 0.4rem;
+      border: 1px solid #aaa;
+      background: #f3f0ea;
+      cursor: pointer;
+
+      &.inEffect {
+        background: #4a4640;
+        color: #f7f5f0;
+      }
+    }
+  }
+
+  .defense-breakdown {
+    padding: 0.35rem 0.5rem;
+
+    .def-line {
+      display: grid;
+      grid-template-columns: 8rem 1fr;
+      gap: 0.5rem;
+      align-items: end;
+      margin-bottom: 0.25rem;
+
+      .uline {
+        border-bottom: 1px solid #333;
+        min-height: 1.2rem;
+        text-align: center;
+      }
+    }
+  }
+
+  .injuries-list {
+    padding: 0.35rem 0.5rem;
+
+    h4 {
+      margin: 0.25rem 0;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    .injury-line {
+      display: flex;
+      gap: 0.5rem;
+      border-bottom: 1px solid #ddd;
+      padding: 0.1rem 0;
+    }
+  }
+
+  .magic-items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+
+    .magic-item {
+      border: 1px solid #c8c4bb;
+      padding: 0.35rem;
+      background: #faf8f3;
+
+      .name {
+        font-weight: bold;
+        border-bottom: 1px solid #333;
+        margin-bottom: 0.25rem;
+      }
+
+      .meta {
+        font-size: 11px;
+        color: #555;
+      }
+
+      .powers {
+        font-size: 11px;
+        margin-top: 0.25rem;
+      }
+    }
+  }
+
+  .dp-inline {
+    float: right;
+    font-weight: normal;
+    font-size: 11px;
+  }
+
+  .form-hint {
+    margin: 0.35rem;
+    color: #666;
+    font-style: italic;
+  }
+
+  .biography {
+    min-height: 120px;
+    border: 1px solid #c8c4bb;
+    background: #fff;
+    margin-bottom: 0.35rem;
+
+    .editor {
+      min-height: 120px;
+    }
+  }
+
+  .form-notes {
+    width: 100%;
+    border: 1px solid #c8c4bb;
+    background:
+      linear-gradient(#e8e4db 1px, transparent 1px) 0 0 / 100% 18px;
+    background-color: #faf8f3;
+    font-family: inherit;
+    resize: vertical;
+  }
+
+  .xp-hooks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.35rem;
+  }
+
+  .xp-line {
+    display: flex;
+    gap: 0.35rem;
+    align-items: center;
+
+    .grow {
+      flex: 1;
+      border: none;
+      border-bottom: 1px solid #666;
+      border-radius: 0;
+      background: transparent;
+    }
+  }
+
+  select {
+    font-family: inherit;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    background: transparent;
+  }
+}

@@ -1,0 +1,128 @@
+name: Lithe and Graceful
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: yvviYqUImc9FMTxQ
+      name: Lithe and Graceful
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: kID1LsCrOjHGkFAY
+      sort: 576172
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.qWDBSLRzz1zCaP0A
+      system:
+        notes: >-
+          Lithe and Graceful: Your kin must assign one of their three highest
+          Stat Values to their Bearing before Kin Modifiers are applied. They
+          get a +10 bonus to their Acrobatics skill, and a +20 bonus to their
+          Stealth Rolls in any natural environment.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: true
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Acrobatics
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689440001643
+        modifiedTime: 1689508224826
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - _id: nYGnwa6oqCmJqbK3
+      name: Lithe and Graceful (In Nature)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: kID1LsCrOjHGkFAY
+      sort: 200000
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.9jj0B7Je8tF7U4AD
+      system:
+        notes: >-
+          Lithe and Graceful: Your kin must assign one of their three highest
+          Stat Values to their Bearing before Kin Modifiers are applied. They
+          get a +10 bonus to their Acrobatics skill, and a +20 bonus to their
+          Stealth Rolls in any natural environment.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '+20'
+            category: skill
+            targets: Stealth
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689440003787
+        modifiedTime: 1689508166567
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485644
+  modifiedTime: 1697655934967
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: 2i1tlZ2jpnSp2jWz
+sort: 0
+_key: '!items!2i1tlZ2jpnSp2jWz'
+

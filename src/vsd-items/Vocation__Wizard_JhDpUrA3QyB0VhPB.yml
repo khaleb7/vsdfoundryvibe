@@ -1,0 +1,185 @@
+folder: X2A9C0U09t5jbIKV
+name: 'Vocation: Wizard'
+type: Container
+img: icons/skills/trades/construction-mason-bricklayer-red.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped:
+    - u7UpdzqdOSNOFjy7
+    - ebDT8XkoJazrwc8i
+  entries:
+    - name: 'Vocation: Wizard (modifiers)'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: nzenJvOYicdXBzd3
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.Item.zOZaiPdrQ9KELfae
+      system:
+        notes: ''
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: true
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: skill
+            targets: Deceive, Healer
+          '1':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Charisma, Songs
+          '2':
+            value: 15
+            formula: '15'
+            category: skill
+            targets: Arcana, Cultures
+          '3':
+            value: 15
+            formula: '15'
+            category: spell
+            targets: ''
+          '4':
+            value: 15
+            formula: '15'
+            category: attack
+            targets: >-
+              Channel, Command, Eldritch, Elven, Heroic, Mind, Skirmish, Spell,
+              Trick, Weapon, Aspect, Chant, Cleans, Commun, Detect, Heal, Lore,
+              Master, Miracle, Movement, Nature, Necro, Soul, Dark, Earth,
+              Enchant, Illus, Sound
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        sGlDK3lZYQBI8GMZ: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.30'
+        coreVersion: '11.305'
+        createdTime: 1676409485537
+        modifiedTime: 1689511622392
+        lastModifiedBy: sGlDK3lZYQBI8GMZ
+      _id: aXCQ5gCRMds5bEnT
+      sort: 0
+    - name: 'Vocation: Wizard'
+      type: Variable
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: nzenJvOYicdXBzd3
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.Item.c3bNSDCRZ4x02D5r
+      system:
+        notes: |
+          Magic Stat: WIT
+          Spell Lores:
+           WSD - Detections
+           WIT - Earth Mould
+           WIT - Eldritch Fire
+           WIT - Eldritch Frost
+           WIT - Eldritch Hand
+           BEA - Eldritch Might
+           WIT - Eldritch Movement
+           WIT - Eldritch Storm
+           WIT - Eldritch Tide
+           BEA - Eldritch Visions
+           WIT - Eldritch Wards
+           WIT - Enchantment
+           WIT - Illusions
+           BEA - Mind Control
+           WIT - Sounds & Lights
+        chartype: CharacterVsD
+        group: Variable
+        value: 0
+        formula: '0'
+        label: Armor
+        entries:
+          '0':
+            value: 0
+            formula: '0'
+            label: Armor
+          '1':
+            value: 0
+            formula: '0'
+            label: Combat
+          '2':
+            value: 1
+            formula: '1'
+            label: Adventuring
+          '3':
+            value: 1
+            formula: '1'
+            label: Roguery
+          '4':
+            value: 5
+            formula: '5'
+            label: Lore
+          '5':
+            value: 5
+            formula: '5'
+            label: Spells
+          '6':
+            value: 0
+            formula: '0'
+            label: Body
+          '7':
+            value: 3
+            formula: '3'
+            label: MP per Level
+        temporary: false
+        once: false
+        sort: -1
+        moddedformula: '0'
+        moddedvalue: 0
+      ownership:
+        default: 0
+        sGlDK3lZYQBI8GMZ: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.Item.c3bNSDCRZ4x02D5r
+        duplicateSource: null
+        coreVersion: '12.343'
+        systemId: vsd
+        systemVersion: '12.289'
+        createdTime: 1755872474946
+        modifiedTime: 1755876593821
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+      _id: g3b8s4I3lB1M5yB6
+      sort: 0
+effects: []
+ownership:
+  default: 0
+  sGlDK3lZYQBI8GMZ: 3
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '12.289'
+  coreVersion: '12.343'
+  createdTime: 1689511657905
+  modifiedTime: 1755876913153
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: JhDpUrA3QyB0VhPB
+sort: 200000
+_key: '!items!JhDpUrA3QyB0VhPB'
+

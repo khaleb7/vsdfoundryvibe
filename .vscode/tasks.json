@@ -1,0 +1,44 @@
+// Less configuration
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Less Compile",
+			"type": "shell",
+			"command": "lessc ./less/vsd.less ./vsd.css",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "YAML to LDB",
+			"type": "shell",
+			"command": "npm run pullYMLtoLDB",
+			"problemMatcher": []
+		},
+		{
+			"label": "LDB to YAML",
+			"type": "shell",
+			"command": "npm run pushLDBtoYML",
+			"problemMatcher": []
+		},
+		{
+			"label": "Clean Databases",
+			"type": "shell",
+			"command": "echo Databases Cleaned",
+			"dependsOrder": "sequence",
+			"dependsOn":["LDB to YAML","YAML to LDB"],
+			"problemMatcher": []
+		},
+		{
+			"type": "gulp",
+			"task": "default",
+			"problemMatcher": [],
+			"label": "gulp: default"
+		}
+	]
+  }

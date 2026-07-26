@@ -1,0 +1,17 @@
+name: Armor and Shields
+sorting: a
+folder: null
+type: Item
+_id: Bxxo1AxxBitNbUjx
+sort: 100000
+color: '#0060ff'
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.42'
+  coreVersion: '11.307'
+  createdTime: 1689513719653
+  modifiedTime: 1691664561971
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+_key: '!folders!Bxxo1AxxBitNbUjx'
+

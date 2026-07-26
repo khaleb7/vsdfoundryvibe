@@ -1,0 +1,10 @@
+{
+    "name": "{{spell}}",
+    "type": "Rollable",
+    "data": {
+      "notes": "A spell in the Lore \"{{spelllore}}\"",
+      "value": 0,
+      "formula": "@{{spelllore-ref}}",
+      "category": "spell"
+    }
+  }

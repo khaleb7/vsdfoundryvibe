@@ -1,21 +1,28 @@
-﻿# V13/V14 Breakage Inventory (static analysis of vsd 12.290)
+﻿# V13/V14 Breakage Inventory (status after 14.0.0)
 
-## Blocking
-1. system.json compatibility.maximum = 12 — blocks install on 13/14
-2. template.json / System#template — removed in V14; need documentTypes + TypeDataModels
-3. ActorSheet / ItemSheet (AppV1) — V13 removed default sheet fallbacks; CSS Layers break AppV1 styling
-4. CombatTracker AppV1 subclass — V13 CombatTracker is ApplicationV2 (PARTS)
+## Done
+1. `system.json` — `maximum: 12` removed; `minimum` 13, `verified` 14
+2. `template.json` / `System#template` — removed; `documentTypes` + TypeDataModels in `module/data/models.js`
+3. ActorSheet / ItemSheet — migrated to ApplicationV2 (`ActorSheetV2` / `ItemSheetV2`)
+4. CombatTracker — ApplicationV2 `PARTS` in `module/combat/VsDCombat.js`
+5. Scene controls — V13+ keyed object API (`controls.tokens.tools`)
+6. Sheet registration — `foundry.documents.collections` + AppV2 classes
+7. Status effect fields — `name` / `img` (not `label` / `icon`)
+8. Token action toggles — `Token#toggleEffect` replaced with ActiveEffect / `toggleStatusEffect`
+9. Chat hooks — `renderChatMessage` → `renderChatMessageHTML`
+10. Pack paths — all six packs use LevelDB folder paths (no stale `.db` entries)
+11. Manifest URLs — `khaleb7/vsdfoundryvibe` GitHub Release assets
 
-## High risk
-5. MyDialog extends Dialog (AppV1) — this.element assumed jQuery (element[0])
-6. TokenEffects uses e.label, e.icon, doc.effects, overlayEffect — removed/changed V14
-7. getSceneControlButtons: controls[0].tools.push — V13 controls are keyed objects
-8. Sheet registration: Actors.registerSheet / ActorSheet globals may need foundry.documents.collections + appv1/appv2 paths
-9. ContextMenu + jQuery html.find throughout sheets
-10. loadTemplates / Handlebars helpers — still OK but prefer foundry.applications.handlebars.loadTemplates
+## Residual / non-blocking
+5. `MyDialog` still extends AppV1 `Dialog` (dual element handling in place; DialogV2 later)
+9. ContextMenu + jQuery `html.find` still used in sheet `_onRender` (works while jQuery is present)
+10. `loadTemplates` — prefer `foundry.applications.handlebars.loadTemplates` over time
+- `TokenEffects.patchCore()` remains commented out; core + CONFIG status effects preferred
+- Macros still use AppV1 Dialog patterns
 
-## Already OK / low risk
-- statusEffectsVsD already uses name + img
-- Open-ended oe modifier uses foundry.dice.terms.DiceTerm
-- Math.clamp already used in token.js
-- No {{#select}} / colorPicker in templates
+## Manual smoke checklist (Foundry 14)
+- [ ] Install via manifest URL; all six packs open
+- [ ] Open CharacterVsD actor sheet and item sheets
+- [ ] Combat tracker action declaration UI
+- [ ] Toggle Action modifier with a controlled token (status icon sync)
+- [ ] Chat crit/damage/defence drag targets

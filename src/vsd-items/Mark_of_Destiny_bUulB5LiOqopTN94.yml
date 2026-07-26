@@ -1,0 +1,92 @@
+name: Mark of Destiny
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.TCRL0tzJNzFrmBqC
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Mark of Destiny
+      type: Trait
+      system:
+        notes: >-
+          You carry a strange mark on your body, that was there since you were
+          born or since a very particular occasion. Sometimes it throbs or
+          causes you discomfort, as if to warn you of something. You still
+          haven't figured out the secret it hides, but one thing is certain: 
+          your own destiny is tightly connected to it.
+
+          - Minor (cost 1 BP):  You have a unique permanent mark (a scar, a
+          birthmark, a tattoo, or anything similar) on a prominent part of your
+          body. Describe it, then choose one of the following:  servants of the
+          Darkmaster, magic, or a specific kind of creature (demons, orcs,
+          undead, etc). Your mark will always warn you when you're in the
+          presence of what you chose (you decide how; it could throb, glow
+          softly, cause you migraines, bleed, etc). You get a -10 penalty to all
+          Perception Rolls to notice anything else when your mark is 'active',
+          because of the distraction.
+
+          - Major (cost 3 BPs):  You also gain an additional Passion, named
+          'Destiny' representing your uncommon fate. Write it together with the
+          GM and the rest of the group, and remember to link it to your mark
+          somehow (i.e.:  'the blood of the ancient Archmages flows in my
+          veins', or 'I carry the mark of the Dragonslayer of legends'). This
+          Passion works exactly like the others, but cannot be changed, unless
+          you fulfill your destiny.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Mark of Destiny (Focus)
+      type: Modifier
+      system:
+        notes: >-
+          Your mark will always warn you when you’re in the presence of your
+          chosen force or creature. You get a -10 penalty to all Perception
+          Rolls to notice anything else when your mark is 'active', because of
+          the distraction.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -10
+            formula: '-10'
+            category: skill
+            targets: Perception
+        tempName: Mark of Destiny (Focus)
+    - name: Destiny
+      type: Trait
+      system:
+        notes: Your mark connects you to a Destiny.
+        chartype: CharacterVsD
+        category: disadvantage
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485214
+  modifiedTime: 1697655935030
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.TCRL0tzJNzFrmBqC
+  duplicateSource: null
+_id: bUulB5LiOqopTN94
+sort: 0
+_key: '!items!bUulB5LiOqopTN94'
+

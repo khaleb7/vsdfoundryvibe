@@ -1,0 +1,50 @@
+name: Pack Animal-Ride Mod
+type: Modifier
+img: icons/svg/mystery-man.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.Job9UiDPi63UXzoi
+system:
+  notes: |-
+    Availability: Common
+    Description: Usually a Donkey, Mule, Horse or Pony
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: false
+  attack: false
+  defence: false
+  skill: true
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - formula: '-10'
+      category: skill
+      targets: Ride
+      value: -10
+      moddedvalue: -10
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485333
+  modifiedTime: 1697655935987
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.Job9UiDPi63UXzoi
+  duplicateSource: null
+_id: 6gR58EDOMK2LSnXd
+sort: 0
+_key: '!items!6gR58EDOMK2LSnXd'
+

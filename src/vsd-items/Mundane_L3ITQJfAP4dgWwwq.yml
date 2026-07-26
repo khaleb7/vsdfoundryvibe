@@ -1,0 +1,88 @@
+name: Mundane
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.lSp2kfrY2acy4xO4
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Mundane
+      type: Trait
+      system:
+        notes: >-
+          You're pretty sure this is all a mistake. You're nothing like those
+          great heroes of legend, you're just an ordinary fellow. Fate, however,
+          works in mysterious ways, and sometimes small hands must perform the
+          deeds which turn the wheels of the world. 
+
+          - Minor (cost 1 BP):  At the end of each session, if you haven't spent
+          Drive during the session, you gain a point of Drive.
+
+          - Major (cost 3 BPs):  Additionally, you gain a +30 bonus to your Save
+          Rolls and Defense against magic, but you also suffer a -20 penalty to
+          your Attunement Rolls and Spell Casting Rolls.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Mundane (Magic)
+      type: Modifier
+      system:
+        notes: >-
+          You gain a +30 bonus to your Save Rolls and Defense against magic, but
+          you also suffer a -20 penalty to your Attunement Rolls and Spell
+          Casting Rolls.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: true
+        skill: true
+        spell: true
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 30
+            formula: '30'
+            category: defence
+            targets: Willpower, Toughness
+          '1':
+            value: -20
+            formula: '-20'
+            category: spell
+            targets: ''
+          '2':
+            value: 30
+            formula: '30'
+            category: reaction
+            targets: Missile, Melee
+          '3':
+            value: -20
+            formula: '-20'
+            category: skill
+            targets: Arcana
+        tempName: Mundane (Magic)
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485229
+  modifiedTime: 1697655935000
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.lSp2kfrY2acy4xO4
+  duplicateSource: null
+_id: L3ITQJfAP4dgWwwq
+sort: 0
+_key: '!items!L3ITQJfAP4dgWwwq'
+

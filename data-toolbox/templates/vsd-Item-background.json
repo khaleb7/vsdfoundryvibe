@@ -1,0 +1,9 @@
+{
+  "name": "{{background}}",
+  "type": "Trait",
+  "data": {
+    "notes": "\t{{intro}}\n- {{minor}}\n- {{major}}",
+    "chartype": "CharacterVsD",
+    "category": "quirk"
+  }
+}

@@ -1,0 +1,67 @@
+name: Difficulty
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: Possible difficulty levels for any action. Linked to effects by a modifier.
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '+0'
+  label: '+0: Standard'
+  entries:
+    '0':
+      value: 0
+      formula: '+0'
+      label: '+0: Standard'
+    '1':
+      value: -10
+      formula: '-10'
+      label: '-10: Challenging'
+    '2':
+      value: -20
+      formula: '-20'
+      label: '-20: Hard'
+    '3':
+      value: -30
+      formula: '-30'
+      label: '-30: Very Hard'
+    '4':
+      value: -40
+      formula: '-40'
+      label: '-40: Extremely Hard'
+    '5':
+      value: -50
+      formula: '-50'
+      label: '-50: Heroic'
+    '6':
+      value: -70
+      formula: '-70'
+      label: '-70: Insane'
+  temporary: false
+  once: true
+  forceUpdate: false
+  sort: -1
+  moddedformula: '+0'
+  moddedvalue: 0
+ownership:
+  default: 0
+  sGlDK3lZYQBI8GMZ: 3
+  cwpZyEuSkQ36r9mu: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1698671518307
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: igjO3mRdJ2v5NuSB
+sort: 8000000
+_key: '!items!igjO3mRdJ2v5NuSB'
+

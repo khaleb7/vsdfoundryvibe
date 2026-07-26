@@ -1,0 +1,155 @@
+name: Sling
+type: Container
+img: systems/vsd/icons/items/weapons/sling.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.fhyTFr3EwryXR48T
+  exportSource:
+    world: sotnwthursday
+    system: vsd
+    coreVersion: 0.8.9
+    systemVersion: '1.14'
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Sling (Rock)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      system:
+        notes: note
+        chartype: CharacterVsD
+        group: Modifier
+        sort: -1
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -10
+            formula: '-10'
+            category: attack
+            targets: 'Ranged: Sling'
+      folder: null
+      permission:
+        default: 0
+        OxYGvqLVXSV3pvbk: 3
+        WgNy8FgwzcbcgRCp: 3
+    - name: 'Ranged: Sling - 1st Rd (Impact)'
+      type: Ranged-Attack
+      img: systems/vsd/icons/items/weapons/sling.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: -
+          Attack Table: Missile
+          Max: 110
+          Crit Table: Impact
+          Range: 15
+          Qualities: Load (1)
+        chartype: CharacterVsD
+        group: Ranged-Attack
+        damage: 7.3 Missile Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 7
+        minST: oe
+        accuracy: 110
+        range: '15'
+        rof: 5
+        shots: ''
+        bulk: 0
+        recoil: ''
+        value: 0
+        formula: '@ranged -20'
+        sort: -1
+      folder: null
+      _id: NPYlaCPRGinC9bXT
+      effects: []
+      sort: 0
+      ownership:
+        default: 0
+        UiCXq4VUwQ5S2thO: 3
+      flags: {}
+      _stats:
+        compendiumSource: Actor.hG8h91FtPOwqZlpR.Item.NPYlaCPRGinC9bXT
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744529991984
+        modifiedTime: 1744530062266
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+    - name: 'Ranged: Sling - 2nd Rd (Impact)'
+      type: Ranged-Attack
+      img: systems/vsd/icons/items/weapons/sling.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: -
+          Attack Table: Missile
+          Max: 130
+          Crit Table: Impact
+          Range: 15
+          Qualities: Load (1)
+        chartype: CharacterVsD
+        group: Ranged-Attack
+        damage: 7.3 Missile Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 7
+        minST: oe
+        accuracy: 130
+        range: '15'
+        rof: 5
+        shots: ''
+        bulk: 0
+        recoil: ''
+        value: 0
+        formula: '@ranged +10'
+        sort: -1
+      folder: null
+      _id: 1HzMGV80mYTXJjNV
+      effects: []
+      sort: 0
+      ownership:
+        default: 0
+        UiCXq4VUwQ5S2thO: 3
+      flags: {}
+      _stats:
+        compendiumSource: Actor.hG8h91FtPOwqZlpR.Item.1HzMGV80mYTXJjNV
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744529991984
+        modifiedTime: 1744530089528
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '12.285'
+  coreVersion: '12.331'
+  createdTime: 1676409490239
+  modifiedTime: 1744530208817
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.fhyTFr3EwryXR48T
+  duplicateSource: null
+_id: bsPCLoeNugX3Q4r7
+sort: 0
+_key: '!items!bsPCLoeNugX3Q4r7'
+

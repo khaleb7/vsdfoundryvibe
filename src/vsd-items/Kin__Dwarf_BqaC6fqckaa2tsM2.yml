@@ -1,0 +1,374 @@
+name: 'Kin: Dwarf'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: bx3DO3Ay1PNAdNOX
+      name: Dark Sight
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 100000
+      flags:
+        core:
+          sourceId: Actor.cNp0PZCK00ZEAv22.Item.wBmj0F3Rv0NsGaRd
+      system:
+        notes: >-
+          Dark Sight: Your Kin can see up to 30 m in Dim Light (treating the
+          first 15 m as if they were standing in Bright Light); and up to 3 m in
+          Total Darkness.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460176749
+        modifiedTime: 1703270602283
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: 9LHikq9nHflyCuj7
+      name: Forgekin (Craft)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 200000
+      flags:
+        core:
+          sourceId: Actor.cNp0PZCK00ZEAv22.Item.GzHwHeuG9GKB6Fub
+      system:
+        notes: >-
+          Forgekin: Your kin get a +30 bonus to their Save Rolls and Defense
+          against heat and cold attacks, and to all their Rolls to work metals,
+          stone, and gems, and to craft items using these materials.
+          Additionally, any metal item successfully created by them will always
+          be at least of High Quality.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 30
+            formula: '+30'
+            category: skill
+            targets: Craft
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460192499
+        modifiedTime: 1703270637448
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: YtGeWNEQmIYkRXlg
+      name: Forgekin (Heat and Cold Tolerance)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 150000
+      flags:
+        core:
+          sourceId: Actor.cNp0PZCK00ZEAv22.Item.X9xd0pWlxIWYAkPS
+      system:
+        notes: >-
+          Forgekin: Your kin get a +30 bonus to their Save Rolls and Defense
+          against heat and cold attacks, and to all their Rolls to work metals,
+          stone, and gems, and to craft items using these materials.
+          Additionally, any metal item successfully created by them will always
+          be at least of High Quality.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 30
+            formula: '+30'
+            category: defence
+            targets: Toughness, Willpower
+          '1':
+            value: 30
+            formula: '+30'
+            category: reaction
+            targets: Missile, Melee
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460196524
+        modifiedTime: 1703270642625
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: DN2XAiYZtT2oK4OR
+      name: 'Kin: Dwarf'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 300000
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: |-
+          Special Traits:
+          - Dark Sight
+          - Forgekin
+          - Stoneborn
+          - Superstitious
+          Cultures: Deep, Hill or Weald
+          Wealth: 1
+          Background: 4
+          Magic Points: 0
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: BRN, WSD
+          '1':
+            value: -5
+            formula: '-5'
+            category: primary
+            targets: SWI, BEA
+          '2':
+            value: 15
+            formula: '15'
+            category: primary
+            targets: FOR
+          '3':
+            value: 20
+            formula: '20'
+            category: defence
+            targets: Toughness, Willpower
+          '4':
+            value: 40
+            formula: '40'
+            category: reaction
+            targets: Body
+          '5':
+            value: 40
+            formula: '40'
+            category: primary
+            targets: KinVoc
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460204883
+        modifiedTime: 1703270653231
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: IzIk1d48dGgX0vS2
+      name: Stoneborn (Cannot Swim)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 125000
+      flags:
+        core:
+          sourceId: Actor.cNp0PZCK00ZEAv22.Item.3QUd1UeE9CVPtm3Z
+      system:
+        notes: >-
+          Stoneborn: Your kin cannot swim, but get a +20 bonus to their Nature
+          and Wandering Rolls while underground.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -100
+            formula: '-100'
+            category: skill
+            targets: Athletics
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460213435
+        modifiedTime: 1703270659095
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: 9ZFYcVqnsNsBq78z
+      name: Stoneborn (Underground)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 137500
+      flags:
+        core:
+          sourceId: Actor.cNp0PZCK00ZEAv22.Item.4FNOzUicKiMLyoVn
+      system:
+        notes: >-
+          Stoneborn: Your kin cannot swim, but get a +20 bonus to their Nature
+          and Wandering Rolls while underground.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '+20'
+            category: skill
+            targets: Nature, Wandering
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460215803
+        modifiedTime: 1703270664926
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: oPEEl8OZnYlWcByY
+      name: Superstitious
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 112500
+      flags:
+        core:
+          sourceId: Actor.cNp0PZCK00ZEAv22.Item.6bLVHBF2cuo1XhKk
+      system:
+        notes: 'Superstitious: Your Kin can’t be Wizards, Champions or Dabblers.'
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460219843
+        modifiedTime: 1703270622613
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703270731395
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: BqaC6fqckaa2tsM2
+sort: 700000
+_key: '!items!BqaC6fqckaa2tsM2'
+

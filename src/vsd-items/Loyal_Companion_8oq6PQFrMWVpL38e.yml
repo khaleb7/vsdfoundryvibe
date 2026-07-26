@@ -1,0 +1,48 @@
+name: Loyal Companion
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.e56LgGyqHyRZsc86
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Loyal Companion
+      type: Trait
+      system:
+        notes: >-
+          Your companion is more than a simple animal to you. It's your friend,
+          your shadow; it's part of yourself.
+
+          - Minor (cost 1 BP):  You gain a loyal Small or Medium-sized animal of
+          your choosing, who travels with you and follows your orders blindly. 
+
+          - Major (cost 3 BPs):  Your companion can be up to Large in size, or
+          the bond you have with it is strengthened, granting you the ability to
+          communicate with it at a basic level (exchanging concepts like fear,
+          joy, enemies, attack, etc) without speaking. You must be able to see
+          each other to use this ability.
+        chartype: CharacterVsD
+        category: quirk
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485221
+  modifiedTime: 1697655934978
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.e56LgGyqHyRZsc86
+  duplicateSource: null
+_id: 8oq6PQFrMWVpL38e
+sort: 0
+_key: '!items!8oq6PQFrMWVpL38e'
+

@@ -1,0 +1,17 @@
+name: FANCombat
+sorting: a
+folder: lS2E3Pe2AclQDTmR
+type: Item
+_id: Yi4jE8C6OAEco2z7
+sort: 100000
+color: '#9b3b3b'
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.55'
+  coreVersion: '11.308'
+  createdTime: 1697996869202
+  modifiedTime: 1698069329076
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+_key: '!folders!Yi4jE8C6OAEco2z7'
+

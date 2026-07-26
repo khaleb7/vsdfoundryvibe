@@ -1,0 +1,53 @@
+name: 'Channeling: Punishment Divine (Lightning)'
+type: Ranged-Attack
+img: systems/vsd/icons/items/attackspells/lightning-storm.svg
+effects: []
+folder: huRuIB2kU4rQcUnb
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-spell-attacks.Item.gJoRLQVSe0S3GfY4
+  cf:
+    id: null
+    color: '#000000'
+system:
+  notes: |-
+    Weave: 10th
+    Area of Effect: 10 m radius
+    Duration: 1 rnd/lvl
+    Save: N
+    Attack Table: Bolt
+    Max: 175
+    Crit Table: Lightning
+    Range: 0 (self)
+  chartype: CharacterVsD
+  group: Ranged-Attack
+  damage: 7.6 Bolt Spells Attack Table
+  damageType: 7.14 Lightning Critical Strikes Table
+  secondary: none
+  armourDiv: 10
+  minST: oe
+  accuracy: 175
+  range: 0 (self)
+  rof: 5
+  shots: ''
+  bulk: 0
+  recoil: ''
+  value: 0
+  formula: '@channeling'
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490159
+  modifiedTime: 1697655935028
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-spell-attacks.Item.gJoRLQVSe0S3GfY4
+  duplicateSource: null
+_id: aE77w27iEb8bC4Qj
+sort: 0
+_key: '!items!aE77w27iEb8bC4Qj'
+

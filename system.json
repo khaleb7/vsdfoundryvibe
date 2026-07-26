@@ -2,10 +2,10 @@
   "id": "vsd",
   "title": "Against the Darkmaster",
   "description": "Community Foundry V13/V14 continuation of the Against the Darkmaster system (originally by James Huddleston / Open Ended Games). Not an official Open Ended Games release.",
-  "version": "13.0.0",
+  "version": "14.0.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "authors": [
     {
@@ -32,7 +32,7 @@
       "name": "vsd-macros",
       "label": "VsD Macros",
       "system": "vsd",
-      "path": "packs/vsd-macros.db",
+      "path": "packs/vsd-macros",
       "type": "Macro",
       "banner": "systems/vsd/icons/darkmaster_logo_offset.png",
       "flags": {}
@@ -41,7 +41,7 @@
       "name": "vsd-items",
       "label": "VsD Items",
       "system": "vsd",
-      "path": "packs/vsd-items.db",
+      "path": "packs/vsd-items",
       "type": "Item",
       "banner": "systems/vsd/icons/darkmaster_logo_offset.png",
       "flags": {}
@@ -154,10 +154,10 @@
     "units": "m"
   },
   "primaryTokenAttribute": "tracked.hp",
-  "url": "https://github.com/OWNER/vsd",
-  "manifest": "https://github.com/OWNER/vsd/releases/latest/download/system.json",
-  "download": "https://github.com/OWNER/vsd/releases/latest/download/vsd.zip",
+  "url": "https://github.com/khaleb7/vsdfoundryvibe",
+  "manifest": "https://github.com/khaleb7/vsdfoundryvibe/releases/latest/download/system.json",
+  "download": "https://github.com/khaleb7/vsdfoundryvibe/releases/latest/download/vsd.zip",
   "license": "LICENSE",
   "readme": "README.md",
-  "bugs": "https://github.com/OWNER/vsd/issues"
+  "bugs": "https://github.com/khaleb7/vsdfoundryvibe/issues"
 }

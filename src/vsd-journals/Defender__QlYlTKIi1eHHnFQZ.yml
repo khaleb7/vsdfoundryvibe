@@ -1,0 +1,61 @@
+name: Defender*
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.EmyZExWgRdlXBFTD
+pages:
+  - name: Defender*
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Heroic Defense"> <td>Lore:</td> <td>Heroic Defense </td>
+        </tr> <tr> <td>Weave:</td> <td>5th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Heroic Defense" data-weave="5th"
+        data-spell="Defender*" data-range="5 m" data-aoe="1 attack"
+        data-duration="-" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Defender* </td> </tr> <tr> <td>Range:</td> <td>5 m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>1 attack </td> </tr> <tr>
+        <td>Duration:</td> <td>- </td> </tr> <tr> <td>Save:</td> <td>N </td>
+        </tr> </tbody> </table>
+    _id: e126rytgMwZII9NS
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!QlYlTKIi1eHHnFQZ.e126rytgMwZII9NS'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105636
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.EmyZExWgRdlXBFTD
+  duplicateSource: null
+_id: QlYlTKIi1eHHnFQZ
+sort: 0
+_key: '!journal!QlYlTKIi1eHHnFQZ'
+

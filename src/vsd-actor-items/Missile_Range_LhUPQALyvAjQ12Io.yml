@@ -1,0 +1,47 @@
+name: Missile Range
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: Each step of the weapon Base Range imposes penalties on the attack.
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: Base
+  entries:
+    - value: 0
+      formula: '0'
+      label: Base
+    - value: -25
+      formula: '-25'
+      label: Medium
+    - value: -50
+      formula: '-50'
+      label: Long
+    - value: -75
+      formula: '-75'
+      label: Extreme
+  temporary: false
+  once: false
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377515264
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: LhUPQALyvAjQ12Io
+sort: 1500000
+_key: '!items!LhUPQALyvAjQ12Io'
+

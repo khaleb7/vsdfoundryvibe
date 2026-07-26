@@ -1,0 +1,168 @@
+name: Sun Sensitivity
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: YljQsUXL4yzkm1gw
+      name: Sun Sensitivity (Dusk or Dawn)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: ew7OYChPqVTRw9Bp
+      sort: 106250
+      flags:
+        core:
+          sourceId: Actor.z3fVfSpOgB6IkZnu.Item.BVnpylLcAC5y4OHi
+      system:
+        notes: >-
+          Sun Sensitivity: Your kin loathe sunlight. They’re almost blind in
+          full daylight (suffering a -60 penalty to all their actions) and find
+          difficult to get around even on cloudy days or during dusk and dawn
+          (-20 to their activities in these cases).
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: true
+        spell: true
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -20
+            formula: '-20'
+            category: attack
+            targets: ''
+          '1':
+            value: -20
+            formula: '-20'
+            category: skill
+            targets: ''
+          '2':
+            value: -20
+            formula: '-20'
+            category: defence
+            targets: ''
+          '3':
+            value: -20
+            formula: '-20'
+            category: spell
+            targets: ''
+          '4':
+            value: -20
+            formula: '-20'
+            category: reaction
+            targets: ''
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689459682318
+        modifiedTime: 1689508779420
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - _id: X0kDy2pRxw2EmcI0
+      name: Sun Sensitivity (Full Daylight)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: ew7OYChPqVTRw9Bp
+      sort: 103125
+      flags:
+        core:
+          sourceId: Actor.z3fVfSpOgB6IkZnu.Item.VubWnmf304i9T6rv
+      system:
+        notes: >-
+          Sun Sensitivity: Your kin loathe sunlight. They’re almost blind in
+          full daylight (suffering a -60 penalty to all their actions) and find
+          difficult to get around even on cloudy days or during dusk and dawn
+          (-20 to their activities in these cases).
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: true
+        spell: true
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -60
+            formula: '-60'
+            category: attack
+            targets: ''
+          '1':
+            value: -60
+            formula: '-60'
+            category: skill
+            targets: ''
+          '2':
+            value: -60
+            formula: '-60'
+            category: defence
+            targets: ''
+          '3':
+            value: -60
+            formula: '-60'
+            category: spell
+            targets: ''
+          '4':
+            value: -60
+            formula: '-60'
+            category: reaction
+            targets: ''
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689459686390
+        modifiedTime: 1689508798941
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485651
+  modifiedTime: 1697655935064
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: u5yoJMRoYPmX2ReS
+sort: 1100000
+_key: '!items!u5yoJMRoYPmX2ReS'
+

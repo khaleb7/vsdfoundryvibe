@@ -1,0 +1,104 @@
+name: Rending Claws
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Brawl: Large Claw/Talon (Beast)'
+      type: Melee-Attack
+      sort: 104688
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-weapons.ge3HdROOs8VLycde
+      img: icons/creatures/claws/claw-straight-orange.webp
+      effects: []
+      folder: 1xJFGI5ep2jpDDD5
+      system:
+        notes: |-
+          Hands: 2H
+          Length: Hand
+          Attack Table: Beast
+          Max: 140
+          1st Crit Table: Cut
+          2nd Crit Table: Pierce
+          Range: -
+          Qualities: 90/120/140/150/175
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 140
+        damage: 7.7 Beast Attack Table
+        damageType: 7.10 Cut Critical Strikes Table
+        secondary: 7.11 Pierce Critical Strikes Table
+        armourDiv: 2
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        5AmFKy3msaSz6yGf: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1667230691556
+        modifiedTime: 1689509397983
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+      _id: bfoZISQYIDHdhjSb
+    - _id: E3ETraQA8yl92mVc
+      name: Rending Claws
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: 1xJFGI5ep2jpDDD5
+      sort: 106250
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.3kkHrqt8Iqay3M8i
+      system:
+        notes: >-
+          Rending Claws: Your Kin’s unarmed attacks are treated like Large Claws
+          and resolved on the Beast Attack Table.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689459583085
+        modifiedTime: 1689509190969
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485620
+  modifiedTime: 1697655935030
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: bQo6N75u6vmetwRk
+sort: 500000
+_key: '!items!bQo6N75u6vmetwRk'
+

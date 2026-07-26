@@ -1,0 +1,135 @@
+name: Forgekin
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: VhFHAUeGjhvLUHlG
+      name: Forgekin (Craft)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: nACtOyjO49XyJpp6
+      sort: 150000
+      flags:
+        core:
+          sourceId: Actor.cNp0PZCK00ZEAv22.Item.GzHwHeuG9GKB6Fub
+      system:
+        notes: >-
+          Forgekin: Your kin get a +30 bonus to their Save Rolls and Defense
+          against heat and cold attacks, and to all their Rolls to work metals,
+          stone, and gems, and to craft items using these materials.
+          Additionally, any metal item successfully created by them will always
+          be at least of High Quality.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 30
+            formula: '+30'
+            category: skill
+            targets: Craft
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689460192499
+        modifiedTime: 1689460538414
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - _id: EDr6L97mTyq0W3hw
+      name: Forgekin (Heat and Cold Tolerance)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: nACtOyjO49XyJpp6
+      sort: 300000
+      flags:
+        core:
+          sourceId: Actor.cNp0PZCK00ZEAv22.Item.X9xd0pWlxIWYAkPS
+      system:
+        notes: >-
+          Forgekin: Your kin get a +30 bonus to their Save Rolls and Defense
+          against heat and cold attacks, and to all their Rolls to work metals,
+          stone, and gems, and to craft items using these materials.
+          Additionally, any metal item successfully created by them will always
+          be at least of High Quality.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 30
+            formula: '+30'
+            category: defence
+            targets: Toughness, Willpower
+          '1':
+            value: 30
+            formula: '+30'
+            category: reaction
+            targets: Missile, Melee
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689460196524
+        modifiedTime: 1689460505147
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485633
+  modifiedTime: 1697655934996
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: IxTv9e4TOghEYvUZ
+sort: 2900000
+_key: '!items!IxTv9e4TOghEYvUZ'
+

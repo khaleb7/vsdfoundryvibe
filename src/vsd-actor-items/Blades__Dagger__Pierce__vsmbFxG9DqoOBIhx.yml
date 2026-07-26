@@ -1,0 +1,46 @@
+name: 'Blades: Dagger (Pierce)'
+type: Melee-Attack
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: |-
+    Hands: 1H
+    Length: Hand
+    Attack Table: Edged
+    Max: 120
+    Crit Table: Pierce
+    Range: -
+    Qualities: Backstab
+  chartype: CharacterVsD
+  group: Melee-Attack
+  weight: 120
+  damage: 7.1 Edged Attack Table
+  damageType: 7.11 Pierce Critical Strikes Table
+  secondary: none
+  armourDiv: 1
+  minST: oe
+  reach: 5
+  value: 0
+  formula: '@blades'
+  sort: -1
+  moddedvalue: 0
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689520738683
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: vsmbFxG9DqoOBIhx
+sort: 8900000
+_key: '!items!vsmbFxG9DqoOBIhx'
+

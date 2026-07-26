@@ -1,0 +1,32 @@
+name: Cooking
+type: Rollable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: xS9Ebif3Ng5jYWof
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-skills.Item.wuKMUe4YiLycU3pM
+system:
+  notes: Adventuring
+  chartype: CharacterVsD
+  group: skill
+  value: 0
+  formula: '0'
+  category: skill
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488321
+  modifiedTime: 1697655934999
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-skills.Item.wuKMUe4YiLycU3pM
+  duplicateSource: null
+_id: KoEvpQT25YtSyzZM
+sort: 0
+_key: '!items!KoEvpQT25YtSyzZM'
+

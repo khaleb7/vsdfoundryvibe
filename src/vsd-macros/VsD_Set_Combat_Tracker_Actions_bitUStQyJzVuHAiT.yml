@@ -1,0 +1,55 @@
+name: VsD Set Combat Tracker Actions
+type: script
+scope: global
+author: cwpZyEuSkQ36r9mu
+img: icons/svg/combat.svg
+command: >-
+  CONFIG.system.combat = [
+    { action: "Select", initiative: 90 },
+    { action: "Move", initiative: 61 },
+    { action: "Spell A", initiative: 51 },
+    { action: "Ranged A", initiative: 41 },
+    { action: "Longest Melee Plus", initiative: 37 },
+    { action: "Longest Melee", initiative: 36 },
+    { action: "Long Melee", initiative: 35 },
+    { action: "Medium Melee", initiative: 34 },
+    { action: "Short Melee", initiative: 33 },
+    { action: "Hand Melee", initiative: 32 },
+    { action: "Hand Melee Minus", initiative: 31 },
+    { action: "Ranged B", initiative: 21 },
+    { action: "Spell B", initiative: 11 },
+    { action: "Other Action", initiative: 1 },
+    { action: "Wait - Ready", initiative: 0 }
+  ];
+
+  let declaredactions = CONFIG.system.combat;
+
+  let temp = "";
+
+  for (let i = 0; i < declaredactions.length; i++) {
+
+  temp += declaredactions[i].action + ",\n";
+
+  }
+
+  ui.notifications.info(`The Combat Actions for Declaration have been set
+  to:\n${temp}`);
+folder: 6S4cMmMbJkZJpebI
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.38'
+  coreVersion: '12.331'
+  createdTime: 1689589330134
+  modifiedTime: 1742379367082
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: null
+  duplicateSource: null
+_id: bitUStQyJzVuHAiT
+sort: 1300000
+_key: '!macros!bitUStQyJzVuHAiT'
+

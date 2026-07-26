@@ -1,0 +1,34 @@
+name: Burrow
+type: Primary-Attribute
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The movement rate when burrowing
+  chartype: CharacterVsD
+  group: Primary-Attribute
+  abbr: burrow
+  attr: 0
+  value: 0
+  forceUpdate: false
+  sort: -1
+  tempattr: 0
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667222028017
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: yT2n8eV0eRNAvdq1
+sort: 10000000
+_key: '!items!yT2n8eV0eRNAvdq1'
+

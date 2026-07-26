@@ -1,0 +1,49 @@
+name: Difficulty
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The modifier link for a Variable
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: false
+  defence: false
+  skill: true
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '@difficulty'
+      category: skill
+      targets: ''
+      moddedformula: '0'
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Difficulty (Standard)
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377421732
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: LJ68vpDfUujB4511
+sort: 8100000
+_key: '!items!LJ68vpDfUujB4511'
+

@@ -1,0 +1,18 @@
+{
+    "name": "{{spelllore}}: {{spell}} ({{crit}})",
+    "type": "Ranged-Attack",
+    "data": {
+        "notes": "Weave: {{weave}}\nArea of Effect: {{aoe}}\nDuration: {{duration}}\nSave: {{save}}\nAttack Table: {{attack}}\nMax: {{max}}\nCrit Table: {{crit}}\nRange: {{range}}",
+        "chartype": "CharacterVsD",
+        "value": 0,
+        "formula": "@{{spelllore-ref}}",
+        "damage": "{{attacktable}}",
+        "damageType": "{{crittable}}",
+        "armourDiv": 10,
+        "minST": "oe",
+        "accuracy": "{{max}}",
+        "range": "{{range}}",
+        "rof": 5,
+        "moddedvalue": 0
+    }
+}

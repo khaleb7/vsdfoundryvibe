@@ -1,0 +1,70 @@
+name: Loremaster
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.nV22Kd3WoEoTk66r
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Loremaster
+      type: Trait
+      system:
+        notes: >-
+          You are a scholar, a chronicler, a sage. You spent years studying the
+          history of the world and are always well-informed on anything that
+          happens around you.
+
+          - Minor (cost 1 BP):  You gain one rank in either the Songs & Tales or
+          the Cultures Skill. Whenever you travel to a place you have never
+          visited before in game, you may ask the GM to reveal an interesting
+          rumor, piece of lore, or little-known historical fact about your
+          destination.
+
+          - Major (cost 3 BPs):  You gain the benefits of the Minor Tier.
+          Additionally, choose a specific field of knowledge, such as Dwarven
+          history or Elvish runes. Treat all Failure results you score in Songs
+          & Tales or Cultures Skill Rolls concerning the field of knowledge
+          you've chosen as if they were Partial Success results (Critical
+          Failure results are not influenced by this ability).
+        chartype: CharacterVsD
+        category: quirk
+    - name: 'Ranks:  Loremaster'
+      type: Variable
+      system:
+        notes: You gain one rank in either the Songs & Tales or Cultures skill.
+        chartype: CharacterVsD
+        value: 4
+        formula: '4'
+        label: Armor
+        entries:
+          '0':
+            value: 1
+            formula: '1'
+            label: Songs & Tales
+          '1':
+            value: 1
+            formula: '1'
+            label: Cultures
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485231
+  modifiedTime: 1697655934996
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.nV22Kd3WoEoTk66r
+  duplicateSource: null
+_id: J68AijXkXF8hMYky
+sort: 0
+_key: '!items!J68AijXkXF8hMYky'
+

@@ -1,0 +1,62 @@
+name: MRR Spell Type
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: Modifiers to a spell failure roll. Linked to effects by a modifier.
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: Not Applicable
+  entries:
+    - value: -20
+      formula: '-20'
+      label: Healing
+    - value: -20
+      formula: '-20'
+      label: Spirit-Related
+    - value: -20
+      formula: '-20'
+      label: Light
+    - value: -10
+      formula: '-10'
+      label: Natural
+    - value: -10
+      formula: '-10'
+      label: Elven
+    - value: -10
+      formula: '-10'
+      label: Illusory
+    - value: 20
+      formula: '+20'
+      label: Attack
+    - value: 30
+      formula: '+30'
+      label: Dark
+    - value: 0
+      formula: '0'
+      label: Not Applicable
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689520876606
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: YpDeAvqR0vd37iOh
+sort: 900000
+_key: '!items!YpDeAvqR0vd37iOh'
+

@@ -1,0 +1,66 @@
+name: Drive Bonus
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: >-
+    The bonus applied to all attack, skill and save rolls made during the
+    current scene due to spending a point of Drive. Edit the entries if more
+    than one point was spent.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: true
+  defence: true
+  skill: true
+  spell: true
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    '0':
+      value: 0
+      formula: '@drive_point_bonus'
+      category: attack
+      targets: ''
+    '1':
+      value: 0
+      formula: '@drive_point_bonus'
+      category: skill
+      targets: ''
+    '2':
+      value: 0
+      formula: '@drive_point_bonus'
+      category: defence
+      targets: Will, Tough
+    '3':
+      value: 0
+      formula: '@drive_point_bonus'
+      category: spell
+      targets: ''
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.330'
+  systemId: vsd
+  systemVersion: '12.274'
+  createdTime: 1723035096996
+  modifiedTime: 1723035096996
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+_id: ehpg7aj3Dj6py9j4
+sort: 0
+_key: '!items!ehpg7aj3Dj6py9j4'
+

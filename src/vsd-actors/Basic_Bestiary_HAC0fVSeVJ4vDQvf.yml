@@ -1,0 +1,20 @@
+name: Basic Bestiary
+type: Actor
+folder: null
+_id: HAC0fVSeVJ4vDQvf
+sorting: a
+sort: 100000
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.58'
+  coreVersion: '12.331'
+  createdTime: 1689520174591
+  modifiedTime: 1742320941708
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: null
+  duplicateSource: null
+color: '#0060ff'
+description: ''
+_key: '!folders!HAC0fVSeVJ4vDQvf'
+

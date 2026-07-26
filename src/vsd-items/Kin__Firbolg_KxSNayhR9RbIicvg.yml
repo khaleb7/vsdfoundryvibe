@@ -1,0 +1,454 @@
+name: 'Kin: Firbolg'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: Ch4YtkEdCBuMpe1N
+      name: Doomed
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 100000
+      flags:
+        core:
+          sourceId: Actor.ekIxl5TSigHQsRkp.Item.yqtdGb7eechFWbW5
+      system:
+        notes: >-
+          Doomed: Because of the Darkmaster’s curse, all of your Kin have an
+          additional Passion called Doom. Players must generate their
+          character’s Doom by rolling on the Doom Table [p42]. Doom works
+          exactly like any other Passion, but cannot be changed unless the
+          Darkmaster is defeated. When facing a situation concerning their Doom,
+          your Kin suffer a -20 penalty to all their Rolls and add 20 to the
+          result of any Critical Strike they receive.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: true
+        spell: true
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -20
+            formula: '-20'
+            category: attack
+            targets: ''
+          '1':
+            value: -20
+            formula: '-20'
+            category: skill
+            targets: ''
+          '2':
+            value: -20
+            formula: '-20'
+            category: defence
+            targets: ''
+          '3':
+            value: -20
+            formula: '-20'
+            category: spell
+            targets: ''
+          '4':
+            value: -20
+            formula: '-20'
+            category: reaction
+            targets: Missile, Melee
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460014421
+        modifiedTime: 1703270811028
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: DXCnSuJBwDVykuzT
+      name: Giantkin
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 0
+      flags:
+        core:
+          sourceId: Actor.ekIxl5TSigHQsRkp.Item.2SQCKv5WzTWZW447
+      system:
+        notes: >-
+          Giantkin: Your Kin are Large in Size and reduce any Critical Strike
+          they receive by one Severity degree (Criticals reduced under the
+          Superficial Severity are ignored altogether).
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460019684
+        modifiedTime: 1703270764048
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: W4cgNiMGWDALZti7
+      name: Imposing
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -100000
+      flags:
+        core:
+          sourceId: Actor.ekIxl5TSigHQsRkp.Item.EHXaieMpeS5Lr8cN
+      system:
+        notes: 'Imposing: Your kin get a +15 bonus to their Charisma Skill.'
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 15
+            formula: '15'
+            category: skill
+            targets: Charisma
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460025236
+        modifiedTime: 1703270819259
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: eUFCB95iD6p4dVR2
+      name: 'Kin: Firbolg'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -75000
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: |-
+          Special Traits:
+          - Giantkin
+          - Keen Sight
+          - Imposing
+          - Doomed
+          Cultures: Weald, Noble, Hill, or Arctic
+          Wealth: 1
+          Background: 1
+          Magic Points: 1
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 15
+            formula: '15'
+            category: primary
+            targets: BRN
+          '1':
+            value: -5
+            formula: '-5'
+            category: primary
+            targets: SWI
+          '2':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: FOR, BEA
+          '3':
+            value: -10
+            formula: '-10'
+            category: primary
+            targets: WSD
+          '4':
+            value: 10
+            formula: '10'
+            category: defence
+            targets: Willpower
+          '5':
+            value: 50
+            formula: '50'
+            category: reaction
+            targets: Body
+          '6':
+            value: 50
+            formula: '50'
+            category: primary
+            targets: KinVoc
+          '7':
+            value: 1
+            formula: '1'
+            category: primary
+            targets: KinMP
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460034108
+        modifiedTime: 1703270851877
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: MjkLBgg8ZqRAfhOO
+      name: Missile Range (Keen Sight)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -150000
+      flags:
+        core:
+          sourceId: Actor.ekIxl5TSigHQsRkp.Item.YYfhKmdeo4vqG0ER
+      system:
+        notes: >-
+          Keen Sight: Your kin have an excellent eye-sight. They gain a +15
+          bonus to all sight-related Perception Rolls and reduce Range penalties
+          for their ranged attacks by 5 points.
+        chartype: CharacterVsD
+        group: Modifier
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 0
+            formula: '@missile_range_keen_sight'
+            category: attack
+            targets: Ranged
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460054372
+        modifiedTime: 1703270880314
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: jjabiAFBOUlydUcV
+      name: Missile Range (Keen Sight)
+      type: Variable
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -300000
+      flags:
+        core:
+          sourceId: Actor.ekIxl5TSigHQsRkp.Item.oqUQM0dNcnUrSs4F
+      system:
+        notes: >-
+          Keen Sight: Your kin have an excellent eye-sight. They gain a +15
+          bonus to all sight-related Perception Rolls and reduce Range penalties
+          for their ranged attacks by 5 points.
+        chartype: CharacterVsD
+        group: Variable
+        value: 0
+        formula: '0'
+        label: Base
+        entries:
+          '0':
+            value: 0
+            formula: '0'
+            label: Base
+          '1':
+            value: -20
+            formula: '-20'
+            label: Medium
+          '2':
+            value: -45
+            formula: '-45'
+            label: Long
+          '3':
+            value: -70
+            formula: '-70'
+            label: Extreme
+        temporary: false
+        once: true
+        sort: -1
+        moddedformula: '0'
+        moddedvalue: 0
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459990149
+        modifiedTime: 1703271299076
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - name: Keen Sight
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: null
+      sort: 203125
+      flags:
+        core:
+          sourceId: Actor.I9PwNHK35JBlpDve.Item.STE5BW8bLz1g8KHj
+      system:
+        notes: >-
+          Keen Sight: Your kin have an excellent eye-sight. They gain a +15
+          bonus to all sight-related Perception Rolls and reduce Range penalties
+          for their ranged attacks by 5 points.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1703274382211
+        modifiedTime: 1703274493659
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+      _id: Pw34ENZ7u65udGaC
+    - _id: EgRQz7Jd2JD7vbGZ
+      name: Keen Sight
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: null
+      sort: 101173
+      flags:
+        core:
+          sourceId: Actor.ekIxl5TSigHQsRkp.Item.Jyv17HN8UB6og7c3
+      system:
+        notes: >-
+          Keen Sight: Your kin have an excellent eye-sight. They gain a +15
+          bonus to all sight-related Perception Rolls and reduce Range penalties
+          for their ranged attacks by 5 points.
+        chartype: CharacterVsD
+        group: Modifier
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 15
+            formula: '+15'
+            category: skill
+            targets: Perception
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460030837
+        modifiedTime: 1703274520146
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703274532486
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: KxSNayhR9RbIicvg
+sort: 500000
+_key: '!items!KxSNayhR9RbIicvg'
+

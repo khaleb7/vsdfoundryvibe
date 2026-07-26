@@ -1,0 +1,61 @@
+name: Banish Fatigue
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.vOF4LXfEwfX7v34l
+pages:
+  - name: Banish Fatigue
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Soul Soothing"> <td>Lore:</td> <td>Soul Soothing </td> </tr>
+        <tr> <td>Weave:</td> <td>4th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Soul Soothing" data-weave="4th"
+        data-spell="Banish Fatigue" data-range="20 m" data-aoe="1 target"
+        data-duration="1 min/lvl" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Banish Fatigue </td> </tr> <tr> <td>Range:</td> <td>20
+        m </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td> </tr>
+        <tr> <td>Duration:</td> <td>1 min/lvl </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: 0BHO2AbSsoNK4Oxn
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!iV9DMTXntNwRLmoq.0BHO2AbSsoNK4Oxn'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106433
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.vOF4LXfEwfX7v34l
+  duplicateSource: null
+_id: iV9DMTXntNwRLmoq
+sort: 0
+_key: '!journal!iV9DMTXntNwRLmoq'
+

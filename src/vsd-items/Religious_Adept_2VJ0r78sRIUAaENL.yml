@@ -1,0 +1,95 @@
+name: Religious Adept
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.tJCgMNtvDgNLAZoP
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Religious Adept
+      type: Trait
+      system:
+        notes: >-
+          You are a member of an established religious order:  either of the
+          clergy of some god's church or some cult.
+
+          - Minor (cost 1 BP):  You are an initiate adept of the cult/church.
+          You always carry with you a holy symbol that identifies you as a
+          member of your cult or church. Write your Nature or Allegiance to
+          reflect either your religious creed or your loyalty to your
+          cult/church. Other members of the church or cult will try to help you
+          in times of need, giving you protection and shelter. You also gain a
+          special +20 bonus to all Charisma and Deceive Rolls made against other
+          followers of your belief.
+
+          - Major (3 BPs):  You are a member of the clergy, a 'true priest'. In
+          addition to the benefits of the Minor Tier, choose a non-attack Spell
+          of the Fifth Weave or less that doesn't require a Save Roll related to
+          your belief. You can cast the chosen Spell once per day without
+          spending MPs or making a Spell Casting Roll. Initiates and adepts of
+          your cult/church will listen to your words and obey your provisions.
+          However, you are disliked by the clergy and members of an opposing
+          cult or church.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Religious Adept (Spell Name)
+      type: Pool
+      system:
+        notes: >-
+          You may cast a fifth weave spell of your choice, related to your
+          belief, that does not require a saving roll, once per day with no roll
+          or MP expended.
+        chartype: CharacterVsD
+        abbr: RA5
+        name: ''
+        state: ''
+        min: 0
+        value: 1
+        max: 1
+    - name: Religious Adept (Believers)
+      type: Modifier
+      system:
+        notes: >-
+          You gain a special +20 bonus to all Charisma and Deceive Rolls made
+          against other followers of your belief.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '20'
+            category: skill
+            targets: Charisma, Deceive
+        tempName: Religious Adept (Believers)
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485234
+  modifiedTime: 1697655934966
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.tJCgMNtvDgNLAZoP
+  duplicateSource: null
+_id: 2VJ0r78sRIUAaENL
+sort: 0
+_key: '!items!2VJ0r78sRIUAaENL'
+

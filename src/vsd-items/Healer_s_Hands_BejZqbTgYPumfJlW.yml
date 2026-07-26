@@ -1,0 +1,100 @@
+name: Healer's Hands
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.8vF0PZ9Niwv5MORk
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Healer's Hands
+      type: Trait
+      system:
+        notes: >-
+          Some heroes are known for their might in battle, but you know that
+          even a greater strength is required to mend what's broken. Yours are
+          the hands of a healer, casting a pure light in a world besieged by
+          Shadow. 
+
+          - Minor (cost 1 BP):  You gain a special +10 bonus to your Healer
+          Skill, and a +10 bonus to your Nature Skill Rolls to find healing
+          herbs.
+
+          - Major (cost 3 BPs):  Additionally, whenever you treat one of your
+          companions or administer them a healing herb, you may choose one of
+          the following options:  have the patient recover a number of HPs equal
+          to your ranks in the Healer Skill (not your Skill bonus); grant them a
+          special bonus to a SR made to resist the effects of a disease or
+          poison equal to double your number of ranks in the Healer Skill;
+          reduce the recovery time of a treated Injury by one day for every 5
+          ranks you have in the Healer Skill.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Healer's Hands
+      type: Modifier
+      system:
+        notes: You gain a special +10 bonus to your Healer Skill.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Healer
+        tempName: Healer's Hands
+    - name: Healer's Hands (Herbs)
+      type: Modifier
+      system:
+        notes: >-
+          You gain a special +10 bonus to your Nature Skill Rolls to find
+          healing herbs.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Nature
+        tempName: Healer's Hands (Herbs)
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485202
+  modifiedTime: 1697655934982
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.8vF0PZ9Niwv5MORk
+  duplicateSource: null
+_id: BejZqbTgYPumfJlW
+sort: 0
+_key: '!items!BejZqbTgYPumfJlW'
+

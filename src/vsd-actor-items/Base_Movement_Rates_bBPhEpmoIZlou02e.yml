@@ -1,0 +1,65 @@
+name: Base Movement Rates
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: character
+  inEffect: true
+  alwaysOn: true
+  attack: true
+  defence: false
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 15
+      formula: '15'
+      category: primary
+      targets: Land
+      moddedvalue: 15
+    - value: 0
+      formula: '0'
+      category: primary
+      targets: Flight
+      moddedvalue: 0
+    - value: 0
+      formula: '0'
+      category: primary
+      targets: Swim
+      moddedvalue: 0
+    - value: 0
+      formula: '0'
+      category: primary
+      targets: Burrow
+      moddedvalue: 0
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Flanking Attack
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667222159573
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: bBPhEpmoIZlou02e
+sort: 12300000
+_key: '!items!bBPhEpmoIZlou02e'
+

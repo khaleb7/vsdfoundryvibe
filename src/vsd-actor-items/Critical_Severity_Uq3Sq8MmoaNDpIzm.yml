@@ -1,0 +1,49 @@
+name: Critical Severity
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The modifier link for a Variable
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: false
+  defence: true
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '@critical_severity'
+      category: defence
+      targets: Critical
+      moddedformula: '0'
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Critical Severity (Superficial)
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377398880
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: Uq3Sq8MmoaNDpIzm
+sort: 11000000
+_key: '!items!Uq3Sq8MmoaNDpIzm'
+

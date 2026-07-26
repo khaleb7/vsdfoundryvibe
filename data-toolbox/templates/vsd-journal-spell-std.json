@@ -1,0 +1,5 @@
+{
+    "name": "{{spell}}",
+    "content": "<table class=\"spell-choice\"> <tbody> <tr class=\"open-journal\" data-table=\"{{spelllore}}\"> <td>Lore:</td> <td>{{spelllore}} </td> </tr> <tr> <td>Weave:</td> <td>{{weave}} </td> </tr> <tr class=\"rollable\" data-type=\"spell\" data-table=\"{{spelllore}}\" data-weave=\"{{weave}}\" data-spell=\"{{spell}}\" data-range=\"{{range}}\" data-aoe=\"{{aoe}}\" data-duration=\"{{duration}}\" data-save=\"{{save}}\"> <td>Spell:</td> <td class=\"spellname\">{{spell}} </td> </tr> <tr> <td>Range:</td> <td>{{range}} </td> </tr> <tr> <td>Area of Effect:</td> <td>{{aoe}} </td> </tr> <tr> <td>Duration:</td> <td>{{duration}} </td> </tr> <tr> <td>Save:</td> <td>{{save}} </td> </tr> </tbody> </table>",
+    "type": "journal"
+}

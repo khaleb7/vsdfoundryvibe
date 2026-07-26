@@ -1,0 +1,17 @@
+name: Kin Templates
+sorting: a
+folder: null
+type: Item
+_id: xHkK3TLKCWJk6luU
+sort: 1100000
+color: '#0060ff'
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.42'
+  coreVersion: '11.307'
+  createdTime: 1689510240905
+  modifiedTime: 1691664561971
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+_key: '!folders!xHkK3TLKCWJk6luU'
+

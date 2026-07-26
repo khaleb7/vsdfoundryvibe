@@ -1,0 +1,47 @@
+name: Set Actor Link
+type: script
+author: cwpZyEuSkQ36r9mu
+img: icons/magic/control/energy-stream-link-white.webp
+scope: global
+command: |-
+  /**
+   * Change the folderName to the items folder from which you want
+   * to copy the contents onto your selected token actor.
+   */
+
+  main()
+  async function main() {
+      const folderName = "dummy folder";
+      const actorLink = true;
+
+      const folderId = game.collections.get("Folder").getName(folderName).id;
+      const actors = game.collections.get("Actor").filter(function (actor) {
+          return actor.folder?.id == folderId;
+      });
+      console.log("Folder Contents: ", actors);
+
+      actors.forEach(async function (actor) {
+          const actordata = actor.system;
+          await actor.update({"prototypeToken.actorLink" : actorLink});
+          console.log("Actor Link", actor.prototypeToken.actorLink);
+      });
+  }
+folder: 6S4cMmMbJkZJpebI
+sort: 1200000
+flags:
+  core: {}
+_id: WgT1AU7hDrNjqfum
+ownership:
+  default: 0
+  UiCXq4VUwQ5S2thO: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.38'
+  coreVersion: '12.331'
+  createdTime: 1690237903527
+  modifiedTime: 1742379367082
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: null
+  duplicateSource: null
+_key: '!macros!WgT1AU7hDrNjqfum'
+

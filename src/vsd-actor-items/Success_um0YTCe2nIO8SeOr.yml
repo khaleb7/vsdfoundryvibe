@@ -1,0 +1,32 @@
+folder: null
+name: Success
+type: Trait
+img: icons/svg/item-bag.svg
+system:
+  notes: |-
+    You completed a mission or quest, or ended a significant story arc.*
+    XP: 1-5
+  chartype: CharacterVsD
+  group: experience
+  applied: false
+  category: experience
+effects: []
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689517555259
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: um0YTCe2nIO8SeOr
+sort: 4500000
+_key: '!items!um0YTCe2nIO8SeOr'
+

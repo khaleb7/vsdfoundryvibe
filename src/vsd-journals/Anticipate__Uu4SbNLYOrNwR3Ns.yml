@@ -1,0 +1,61 @@
+name: Anticipate*
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.HLOjjRCcK6KjB6FP
+pages:
+  - name: Anticipate*
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Communion"> <td>Lore:</td> <td>Communion </td> </tr> <tr>
+        <td>Weave:</td> <td>2nd </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Communion" data-weave="2nd"
+        data-spell="Anticipate*" data-range="15m" data-aoe="1 target"
+        data-duration="1 rnd/lvl" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Anticipate* </td> </tr> <tr> <td>Range:</td> <td>15m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td> </tr> <tr>
+        <td>Duration:</td> <td>1 rnd/lvl </td> </tr> <tr> <td>Save:</td> <td>N
+        </td> </tr> </tbody> </table>
+    _id: uIgzexGcYZ6MBhvc
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!Uu4SbNLYOrNwR3Ns.uIgzexGcYZ6MBhvc'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.HLOjjRCcK6KjB6FP
+  duplicateSource: null
+_id: Uu4SbNLYOrNwR3Ns
+sort: 0
+_key: '!journal!Uu4SbNLYOrNwR3Ns'
+

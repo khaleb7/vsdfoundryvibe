@@ -1,0 +1,31 @@
+name: Superstitious
+type: Trait
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: 'Superstitious: Your Kin can’t be Wizards, Champions or Dabblers.'
+  chartype: CharacterVsD
+  group: kin
+  applied: false
+  category: perk
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689460219843
+  modifiedTime: 1697655934979
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: A1nXSeUzZxZMLMw4
+sort: 3100000
+_key: '!items!A1nXSeUzZxZMLMw4'
+

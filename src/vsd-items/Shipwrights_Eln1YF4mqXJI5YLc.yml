@@ -1,0 +1,50 @@
+name: Shipwrights
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Shipwrights: Your kin are renowned sailors, and gain a +20 bonus to all
+    their Rolls made to build, repair, or pilot ships.
+  chartype: CharacterVsD
+  group: kin
+  inEffect: false
+  alwaysOn: false
+  attack: false
+  defence: false
+  skill: true
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 20
+      formula: '+20'
+      category: skill
+      targets: ''
+      moddedvalue: 20
+  temporary: false
+  once: true
+  condition: true
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689448345250
+  modifiedTime: 1697655936574
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: Eln1YF4mqXJI5YLc
+sort: 0
+_key: '!items!Eln1YF4mqXJI5YLc'
+

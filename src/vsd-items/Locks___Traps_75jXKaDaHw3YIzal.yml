@@ -1,0 +1,32 @@
+name: Locks & Traps
+type: Rollable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: xS9Ebif3Ng5jYWof
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-skills.Item.sklhyD3RFrmbJ0o1
+system:
+  notes: note
+  chartype: CharacterVsD
+  group: skill
+  value: 10
+  formula: '0'
+  category: skill
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488316
+  modifiedTime: 1697655934975
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-skills.Item.sklhyD3RFrmbJ0o1
+  duplicateSource: null
+_id: 75jXKaDaHw3YIzal
+sort: 0
+_key: '!items!75jXKaDaHw3YIzal'
+

@@ -1,0 +1,311 @@
+name: 'Kin: Wildfolk'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: 4LmP5aTOA5ljthaN
+      name: Animal Empathy
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 100000
+      flags:
+        core:
+          sourceId: Actor.zWODSAaieTYQcNWx.Item.r7y6gLSWua3mGEZr
+      system:
+        notes: >-
+          Animal Empathy: Your Kin’s connection with the spirits of Nature grant
+          them a basic understanding of animal behaviour. They instinctively
+          understand the emotional state (nervous, hungry, afraid, etc)
+          displayed by any animal they see. This does not extend to beast-like
+          monsters or animals under any kind of magical influence, which will
+          simply feel “wrong” to any of your Kin observing them.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459428676
+        modifiedTime: 1703275853654
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: Rwd3xF9nn5S822rt
+      name: Aversion to Iron
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 200000
+      flags:
+        core:
+          sourceId: Actor.zWODSAaieTYQcNWx.Item.76RHADrwthszuN9b
+      system:
+        notes: >-
+          Aversion to Iron: Your Kin avoid touching or wearing iron and other
+          metals on their bare skin, as doing so causes them an unpleasant
+          sensation of cold and numbness. They suffer double the normal Action
+          Penalties for wearing metal armor.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459434496
+        modifiedTime: 1703275856072
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: dvKf88VtNUjww5ve
+      name: Bloodhound
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 0
+      flags:
+        core:
+          sourceId: Actor.zWODSAaieTYQcNWx.Item.xXp0qGKKDV4KmQ2T
+      system:
+        notes: >-
+          Bloodhound: Your kin are master trackers and their noses are
+          incredibly sensitive. They gain a +25 bonus to Hunting Rolls made to
+          track their prey, and a +10 to their Perception skill.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 25
+            formula: '+25'
+            category: skill
+            targets: Hunting
+          '1':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Perception
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459456360
+        modifiedTime: 1703275914725
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: f330lJmq9opubkDU
+      name: Dark Sight
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 50000
+      flags:
+        core:
+          sourceId: Actor.zWODSAaieTYQcNWx.Item.1H7fTGpFwoiOw6w2
+      system:
+        notes: >-
+          Dark Sight: Your Kin can see up to 30 m in Dim Light (treating the
+          first 15 m as if they were standing in Bright Light); and up to 3 m in
+          Total Darkness.
+        chartype: CharacterVsD
+        group: perk
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459440823
+        modifiedTime: 1703275863522
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: TF4A6RBkEP0p6KgF
+      name: 'Kin: Wildfolk'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 75000
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: |-
+          Special Traits:
+          - Woodcrafty
+          - Bloodhound
+          - Animal Empathy
+          - Dark Sight
+          - Aversion to Iron
+          Cultures: Woad, Weald, Fey or Arctic
+          Wealth: 0
+          Background: 4
+          Magic Points: 1
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: false
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: BRN, SWI, BEA
+          '1':
+            value: 10
+            formula: '10'
+            category: primary
+            targets: FOR, WSD
+          '2':
+            value: 30
+            formula: '30'
+            category: reaction
+            targets: Body
+          '3':
+            value: 30
+            formula: '30'
+            category: primary
+            targets: KinVoc
+          '4':
+            value: 1
+            formula: '1'
+            category: primary
+            targets: KinMP
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459523512
+        modifiedTime: 1703275914062
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: PrLuKOSl7KOB02sC
+      name: Woodcrafty
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 300000
+      flags:
+        core:
+          sourceId: Actor.zWODSAaieTYQcNWx.Item.i0kDEnJpjjs12FXN
+      system:
+        notes: >-
+          Woodcrafty: Your kin get a special +15 bonus to their Nature and
+          Wandering Rolls to forage and navigate in woods, forests, jungles, and
+          similar terrains. Additionally, they count only as half a group member
+          (rounding up) for the purpose of calculating their group’s size when
+          Camping.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 15
+            formula: '+15'
+            category: skill
+            targets: Nature, Wandering
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459459991
+        modifiedTime: 1703275913085
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703275939428
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: 1pJ9gl1zQmJNP00o
+sort: 0
+_key: '!items!1pJ9gl1zQmJNP00o'
+

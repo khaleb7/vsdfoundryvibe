@@ -1170,90 +1170,61 @@ Hooks.on("renderChatLog", (log, html, data) => {
 
 });
 
-Hooks.on("renderChatMessage", async (app, html, msg) => {
-  const actor = game.actors.get(msg.message.speaker.actor) || null;
-  const $html = asJQuery(html);
-  const root = $html?.[0] ?? html;
+Hooks.on("renderChatMessageHTML", (message, html) => {
+  const actor = game.actors.get(message.speaker?.actor) || null;
+  const root = html instanceof HTMLElement ? html : (html?.[0] ?? html);
+  if (!(root instanceof HTMLElement)) return;
 
   // the Narrative Tools module with left-justification instead of centred
   if (CONFIG.system.narrateJustifyLeft) {
-    root?.classList?.add('left');
+    root.classList.add("left");
+  }
+
+  root.querySelectorAll(".rollable").forEach((el) => {
+    el.addEventListener("click", (ev) => actor?.sheet._onRoll(ev));
+  });
+
+  root.querySelectorAll(".rollmacro").forEach((el) => {
+    el.addEventListener("click", (ev) => actor?.sheet._rollmacro(ev));
+  });
+
+  const makeDraggable = (selector, buildPayload) => {
+    root.querySelectorAll(selector).forEach((exp) => {
+      exp.setAttribute("draggable", "true");
+      exp.addEventListener("dragstart", (ev) => {
+        ev.dataTransfer.setData("text/plain", JSON.stringify(buildPayload(exp)));
+      });
+    });
   };
 
-  // process the rollable item
-  $html.on('click', '.rollable', ev => {
-    actor?.sheet._onRoll(ev);
-  });
+  makeDraggable(".critresult", (exp) => ({
+    type: exp.dataset.type,
+    message: exp.dataset.message,
+    woundtitle: exp.dataset.woundtitle,
+    condition: exp.dataset.condition,
+    hits: exp.dataset.hits,
+    bleed: exp.dataset.bleed,
+    action: exp.dataset.action,
+    effect: exp.dataset.effect,
+  }));
 
-  // process the rollmacro item
-  $html.on('click', '.rollmacro', ev => {
-    actor?.sheet._rollmacro(ev);
-  });
+  makeDraggable(".damageresult", (exp) => ({
+    type: exp.dataset.type,
+    hits: exp.dataset.hits,
+  }));
 
-  $html.find(".critresult").each(function () {
-    let exp = $(this)[0]
-    exp.setAttribute("draggable", true)
-    exp.addEventListener('dragstart', ev => {
-      let dataTransfer = {
-        type: $(exp).attr("data-type"),
-        message: $(exp).attr("data-message"),
-        woundtitle: $(exp).attr("data-woundtitle"),
-        condition: $(exp).attr("data-condition"),
-        hits: $(exp).attr("data-hits"),
-        bleed: $(exp).attr("data-bleed"),
-        action: $(exp).attr("data-action"),
-        effect: $(exp).attr("data-effect")
-      }
-      ev.dataTransfer.setData("text/plain", JSON.stringify(dataTransfer));
-    })
-  });
+  makeDraggable(".dynamicitem", (exp) => ({
+    type: exp.dataset.type,
+    id: exp.parentNode?.parentNode?.dataset?.messageId,
+  }));
 
-  $html.find(".damageresult").each(function () {
-    let exp = $(this)[0]
-    exp.setAttribute("draggable", true)
-    exp.addEventListener('dragstart', ev => {
-      let dataTransfer = {
-        type: $(exp).attr("data-type"),
-        hits: $(exp).attr("data-hits")
-      }
-      ev.dataTransfer.setData("text/plain", JSON.stringify(dataTransfer));
-    })
-  });
+  makeDraggable(".defencevalue", (exp) => ({
+    type: exp.dataset.type,
+    db: exp.dataset.db,
+  }));
 
-  $html.find(".dynamicitem").each(function () {
-    let exp = $(this)[0]
-    exp.setAttribute("draggable", true)
-    exp.addEventListener('dragstart', ev => {
-      let dataTransfer = {
-        type: $(exp).attr("data-type"),
-        id: exp.parentNode.parentNode.dataset.messageId
-      }
-      ev.dataTransfer.setData("text/plain", JSON.stringify(dataTransfer));
-    })
-  });
-
-  $html.find(".defencevalue").each(function () {
-    let exp = $(this)[0]
-    exp.setAttribute("draggable", true)
-    exp.addEventListener('dragstart', ev => {
-      let dataTransfer = {
-        type: $(exp).attr("data-type"),
-        db: $(exp).attr("data-db")
-      }
-      ev.dataTransfer.setData("text/plain", JSON.stringify(dataTransfer));
-    })
-  });
-
-  $html.find(".critseverity").each(function () {
-    let exp = $(this)[0]
-    exp.setAttribute("draggable", true)
-    exp.addEventListener('dragstart', ev => {
-      let dataTransfer = {
-        type: $(exp).attr("data-type"),
-        crit: $(exp).attr("data-crit")
-      }
-      ev.dataTransfer.setData("text/plain", JSON.stringify(dataTransfer));
-    })
-  });
-
+  makeDraggable(".critseverity", (exp) => ({
+    type: exp.dataset.type,
+    crit: exp.dataset.crit,
+  }));
 });

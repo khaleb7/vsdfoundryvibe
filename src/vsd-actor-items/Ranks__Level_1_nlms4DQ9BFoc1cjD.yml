@@ -1,0 +1,107 @@
+name: 'Ranks: Level 1'
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: These are the ranks provided by the 1st level of the character.
+  chartype: CharacterVsD
+  group: character
+  value: 0
+  formula: '0'
+  label: Armor
+  entries:
+    - value: 0
+      formula: '0'
+      label: Armor
+    - value: 0
+      formula: '0'
+      label: Blunt
+    - value: 0
+      formula: '0'
+      label: Blades
+    - value: 0
+      formula: '0'
+      label: Ranged
+    - value: 0
+      formula: '0'
+      label: Polearms
+    - value: 0
+      formula: '0'
+      label: Brawl
+    - value: 0
+      formula: '0'
+      label: Athletics
+    - value: 0
+      formula: '0'
+      label: Ride
+    - value: 0
+      formula: '0'
+      label: Hunting
+    - value: 0
+      formula: '0'
+      label: Nature
+    - value: 0
+      formula: '0'
+      label: Wandering
+    - value: 0
+      formula: '0'
+      label: Acrobatics
+    - value: 0
+      formula: '0'
+      label: Stealth
+    - value: 0
+      formula: '0'
+      label: Locks & Traps
+    - value: 0
+      formula: '0'
+      label: Perception
+    - value: 0
+      formula: '0'
+      label: Deceive
+    - value: 0
+      formula: '0'
+      label: Arcana
+    - value: 0
+      formula: '0'
+      label: Charisma
+    - value: 0
+      formula: '0'
+      label: Cultures
+    - value: 0
+      formula: '0'
+      label: Healer
+    - value: 0
+      formula: '0'
+      label: Songs & Tales
+    - value: 0
+      formula: '0'
+      label: Body
+    - value: 0
+      formula: '0'
+      label: Spell Lores
+    - value: 1
+      formula: '1'
+      label: Level
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689520903606
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: nlms4DQ9BFoc1cjD
+sort: 3200000
+_key: '!items!nlms4DQ9BFoc1cjD'
+

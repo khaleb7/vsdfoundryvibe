@@ -1,0 +1,61 @@
+name: Animate Thrall
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.Kszj6H2Uj7AMHlbH
+pages:
+  - name: Animate Thrall
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Necromancy"> <td>Lore:</td> <td>Necromancy </td> </tr> <tr>
+        <td>Weave:</td> <td>5th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Necromancy" data-weave="5th"
+        data-spell="Animate Thrall" data-range="3 m" data-aoe="1 target"
+        data-duration="P" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Animate Thrall </td> </tr> <tr> <td>Range:</td> <td>3
+        m </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td> </tr>
+        <tr> <td>Duration:</td> <td>P </td> </tr> <tr> <td>Save:</td> <td>N
+        </td> </tr> </tbody> </table>
+    _id: 1nnlgAtrzWRUqfHN
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!Tq0TuiJ5n8h3s6du.1nnlgAtrzWRUqfHN'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.Kszj6H2Uj7AMHlbH
+  duplicateSource: null
+_id: Tq0TuiJ5n8h3s6du
+sort: 0
+_key: '!journal!Tq0TuiJ5n8h3s6du'
+

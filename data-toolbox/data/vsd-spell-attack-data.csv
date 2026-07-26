@@ -1,0 +1,19 @@
+﻿spelllore,weave,spell,range,aoe,duration,save,description,warp1,warp2,warp3,spelllore-ref,attack,crit,attacktable,crittable,max
+Channeling,10th,Punishment Divine,0 (self),10 m radius,1 rnd/lvl,N,,,,,channeling,Bolt,Lightning,7.6 Bolt Spells Attack Table,7.14 Lightning Critical Strikes Table,175
+Dark Sorcery,6th,Dark Bolt,30 m,1 target,-,N,,,,,dark-sorcery,Bolt,Dark,7.6 Bolt Spells Attack Table,7.16 Dark Magic Critical Strikes,150
+Dark Sorcery,8th,Demon's Breath,0 (self),15 m × 6 m cone,-,N,,,,,dark-sorcery,Area,Dark,7.5 Area Spells Attack Table,7.16 Dark Magic Critical Strikes,140
+Earth Mould,5th,Rock Shards,0 (self),3 m cone,-,N,,,,,earth-mould,Area,Pierce,7.5 Area Spells Attack Table,7.11 Pierce Critical Strikes Table,130
+Earth Mould,8th,The Riven Earth,30 m,3 m radius,-,N,,,,,earth-mould,Area,Impact,7.5 Area Spells Attack Table,7.9 Impact Critical Strikes Table,175
+Eldritch Fire,6th,Fire Bolt,30 m,1 target,-,N,,,,,eldritch-fire,Bolt,Fire,7.6 Bolt Spells Attack Table,7.13 Fire Critical Strikes Table,150
+Eldritch Fire,8th,Fireball,30 m,3 m radius,-,N,,,,,eldritch-fire,Area,Fire,7.5 Area Spells Attack Table,7.13 Fire Critical Strikes Table,175
+Eldritch Frost,6th,Frost Bolt,30 m,1 target,-,N,,,,,eldritch-frost,Bolt,Frost,7.6 Bolt Spells Attack Table,7.15 Frost Critical Strikes Table,140
+Eldritch Frost,7th,Cold Ball,30 m,6 m radius,-,N,,,,,eldritch-frost,Area,Frost,7.5 Area Spells Attack Table,7.15 Frost Critical Strikes Table,130
+Eldritch Frost,9th,Cone of Cold,0 (self),15 m x 3 m cone,-,N,,,,,eldritch-frost,Area,Frost,7.5 Area Spells Attack Table,7.15 Frost Critical Strikes Table,140
+Eldritch Storm,2nd,Thunderbolt,30 m,1 target,-,N,,,,,eldritch-storm,Bolt,Lightning,7.6 Bolt Spells Attack Table,7.14 Lightning Critical Strikes Table,110
+Eldritch Storm,8th,Lightning Ball,30 m,3 m radius,-,N,,,,,eldritch-storm,Area,Lightning,7.5 Area Spells Attack Table,7.14 Lightning Critical Strikes Table,150
+Eldritch Storm,10th,Lightning Bolt,30 m,1 target,-,N,,,,,eldritch-storm,Bolt,Lightning,7.6 Bolt Spells Attack Table,7.14 Lightning Critical Strikes Table,175
+Eldritch Tide,4th,Water Blast,30 m,1 target,-,N,,,,,eldritch-tide,Bolt,Impact,7.6 Bolt Spells Attack Table,7.9 Impact Critical Strikes Table,120
+Eldritch Tide,8th,Whirpool,30 m,6 m radius,-,N,,,,,eldritch-tide,Area,Impact,7.5 Area Spells Attack Table,7.9 Impact Critical Strikes Table,130
+Eldritch Tide,10th,Tidal Wave,30 m,10 m × 10 m × 10 m,-,N,,,,,eldritch-tide,Area,Impact,7.5 Area Spells Attack Table,7.9 Impact Critical Strikes Table,175
+Skirmishing Mastery,10th,Rain of Arrows,30 m,6 m radius,-,N,,,,,skirmishing-mastery,Area,Pierce,7.5 Area Spells Attack Table,7.11 Pierce Critical Strikes Table,150
+Weapon Mastery,10th,Whirlwind of Steel,0 (self),1.5m radius,-,N,,,,,weapon-mastery,Area,Cut,7.5 Area Spells Attack Table,7.10 Cut Critical Strikes Table,175

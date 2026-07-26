@@ -1,0 +1,53 @@
+name: CMB Penalty
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: null
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: false
+  defence: false
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    '0':
+      value: 0
+      formula: '@cmbpen'
+      category: attack
+      targets: Blunt, Blades, Ranged, Polearms, Brawl
+    '1':
+      value: 0
+      formula: '@cmbpen'
+      category: skill
+      targets: Blunt, Blades, Ranged, Polearms, Brawl
+  temporary: false
+  once: false
+  condition: false
+ownership:
+  default: 0
+  UiCXq4VUwQ5S2thO: 3
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '12.282'
+  coreVersion: '12.331'
+  createdTime: 1667230823840
+  modifiedTime: 1742311904190
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: null
+  duplicateSource: null
+_id: hrYFsFvEItOKh242
+sort: 10200000
+_key: '!items!hrYFsFvEItOKh242'
+

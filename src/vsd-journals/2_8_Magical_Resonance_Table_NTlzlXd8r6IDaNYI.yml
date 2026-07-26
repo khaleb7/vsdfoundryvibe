@@ -1,0 +1,204 @@
+name: 2.8 Magical Resonance Table
+folder: CUIqKKkavMRUhsGr
+flags:
+  exportSource:
+    world: vsd-vsd-test
+    system: vsd
+    coreVersion: 0.7.9
+    systemVersion: '0.45'
+  core:
+    sourceId: Compendium.vsd.vsd-misc-tables.JournalEntry.AHDCXIZjxpHALkxx
+pages:
+  - name: 2.8 Magical Resonance Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="magicalresonancetable">
+
+        <tbody>
+
+        <tr class="tableheaderrow">
+
+        <td class="roll">Roll</td>
+
+        <td class="resultdescription">Result</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="magicalresonance"
+        data-table="2.8 Magical Resonance Table" data-roll="40 or less"
+        data-result="Nothing: An inquisitive shadow passes over the caster, but
+        soon its attention is drawn somewhere else. The character is safe, for
+        now.">
+
+        <td class="roll">40 or less</td>
+
+        <td class="resultdescription">Nothing: An inquisitive shadow passes over
+        the caster, but soon its attention is drawn somewhere else. The
+        character is safe, for now.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="magicalresonance"
+        data-table="2.8 Magical Resonance Table" data-roll="41-60 "
+        data-result="Awareness: The Darkmaster is aware of the caster’s presence
+        but unable to locate their current position. The next Spell the
+        character casts within the next hour automatically results in a Magical
+        Resonance Roll.">
+
+        <td class="roll">41-60</td>
+
+        <td class="resultdescription">Awareness: The Darkmaster is aware of the
+        caster’s presence but unable to locate their current position. The next
+        Spell the character casts within the next hour automatically results in
+        a Magical Resonance Roll.</td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">61-80</td>
+
+        <td class="resultdescription">Attention: The GM chooses one:
+
+        <ul>
+
+        <li class="rollable" data-type="magicalresonance" data-table="2.8
+        Magical Resonance Table" data-roll="61-80" data-result="Attention: The
+        Darkmaster becomes aware of the general position of the caster, and will
+        send agents and spies to investigate.">The Darkmaster becomes aware of
+        the general position of the caster, and will send agents and spies to
+        investigate.</li>
+
+        <li class="rollable" data-type="magicalresonance" data-table="2.8
+        Magical Resonance Table" data-roll="61-80" data-result="Attention: The
+        caster is plagued by a terrifying vision sent by the Darkmaster, and
+        becomes Stunned.">The caster is plagued by a terrifying vision sent by
+        the Darkmaster, and becomes Stunned.</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">81-90</td>
+
+        <td class="resultdescription">Pursuit: The GM chooses one:<br />
+
+        <ul>
+
+        <li class="rollable" data-type="magicalresonance" data-table="2.8
+        Magical Resonance Table" data-roll="81-90" data-result="Pursuit: The
+        caster has been located and deemed worthy of the Darkmaster attention. A
+        small band of servants will be sent to kidnap or apprehend the caster
+        and their allies.">The caster has been located and deemed worthy of the
+        Darkmaster attention. A small band of servants will be sent to kidnap or
+        apprehend the caster and their allies.</li>
+
+        <li class="rollable" data-type="magicalresonance" data-table="2.8
+        Magical Resonance Table" data-roll="81-90" data-result="Pursuit: The
+        caster’s mind is assailed by nightmarish visions. The caster is
+        oblivious to their surroundings and is unable to take Full or Half
+        Actions until they pass an Assessment Roll.">The caster’s mind is
+        assailed by nightmarish visions. The caster is oblivious to their
+        surroundings and is unable to take Full or Half Actions until they pass
+        an Assessment Roll.</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">91-100</td>
+
+        <td class="resultdescription">Assault: The GM chooses one:<br />
+
+        <ul>
+
+        <li class="rollable" data-type="magicalresonance" data-table="2.8
+        Magical Resonance Table" data-roll="91-100" data-result="Assault: The
+        Darkmaster has located the caster, and will send a band of capable
+        servants to destroy them.">The Darkmaster has located the caster, and
+        will send a band of capable servants to destroy them.</li>
+
+        <li class="rollable" data-type="magicalresonance" data-table="2.8
+        Magical Resonance Table" data-roll="91-100" data-result="Assault: The
+        caster’s mind is scorched by the baleful eye of the Darkmaster. The
+        caster falls to the ground, unable to act for 1d10 Rounds, and must
+        choose between losing all their remaining MPs or answering truthfully to
+        a single question the Darkmaster asks in their mind.">The caster’s mind
+        is scorched by the baleful eye of the Darkmaster. The caster falls to
+        the ground, unable to act for 1d10 Rounds, and must choose between
+        losing all their remaining MPs or answering truthfully to a single
+        question the Darkmaster asks in their mind.</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="magicalresonance"
+        data-table="2.8 Magical Resonance Table" data-roll="101 or more"
+        data-result="Lieutenant: The character has been found by a
+        overwhelmingly powerful servant of the Darkmaster, sent to bring them
+        over to the dark side or utterly destroy them.">
+
+        <td class="roll">101 or more</td>
+
+        <td class="resultdescription">Lieutenant: The character has been found
+        by a overwhelmingly powerful servant of the Darkmaster, sent to bring
+        them over to the dark side or utterly destroy them.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+    _id: z7EzLy2aScOccmOC
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!NTlzlXd8r6IDaNYI.z7EzLy2aScOccmOC'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519512416
+  modifiedTime: 1689519567801
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-misc-tables.JournalEntry.AHDCXIZjxpHALkxx
+  duplicateSource: null
+_id: NTlzlXd8r6IDaNYI
+sort: 0
+_key: '!journal!NTlzlXd8r6IDaNYI'
+

@@ -1,0 +1,50 @@
+name: Flanking Attack
+type: Modifier
+flags:
+  core: {}
+img: systems/vsd/icons/flanking.png
+effects: []
+folder: null
+system:
+  notes: You are making a flanking attack
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: false
+  alwaysOn: true
+  attack: true
+  defence: false
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    '0':
+      value: 15
+      formula: '+15'
+      category: attack
+      targets: ''
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Flanking Attack
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+  UiCXq4VUwQ5S2thO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: vsd
+  systemVersion: '12.282'
+  createdTime: 1742311931586
+  modifiedTime: 1742316835239
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+_id: MwFuppmVZgt4Ujmd
+sort: 0
+_key: '!items!MwFuppmVZgt4Ujmd'
+

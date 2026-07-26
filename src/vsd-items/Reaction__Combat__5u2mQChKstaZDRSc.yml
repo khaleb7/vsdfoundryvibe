@@ -1,0 +1,33 @@
+name: Reaction (Combat)
+type: Defence
+img: icons/svg/mystery-man.svg
+effects: []
+folder: 77heDBYLBGUcZitt
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-saves-criticals-and-failures.Item.XZWraJO8AgfbBudu
+system:
+  notes: 3.4 Reaction Rolls (Combat) Table
+  chartype: CharacterVsD
+  group: dodge
+  weight: 0
+  value: 0
+  formula: '0'
+  category: dodge
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485779
+  modifiedTime: 1697655934973
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-saves-criticals-and-failures.Item.XZWraJO8AgfbBudu
+  duplicateSource: null
+_id: 5u2mQChKstaZDRSc
+sort: 0
+_key: '!items!5u2mQChKstaZDRSc'
+

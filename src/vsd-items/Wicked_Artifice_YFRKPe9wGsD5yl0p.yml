@@ -1,0 +1,51 @@
+name: Wicked Artifice
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Wicked Artifice: While your kin seldom make beautiful things,they often
+    create clever mechanisms and contraptions. Your kin gain a special +15 bonus
+    to their Locks & Traps Skill.
+  chartype: CharacterVsD
+  group: kin
+  inEffect: false
+  alwaysOn: true
+  attack: false
+  defence: false
+  skill: true
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 15
+      formula: '+15'
+      category: skill
+      targets: Locks & Traps
+      moddedvalue: 15
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689459697871
+  modifiedTime: 1697655937958
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: YFRKPe9wGsD5yl0p
+sort: 1500000
+_key: '!items!YFRKPe9wGsD5yl0p'
+

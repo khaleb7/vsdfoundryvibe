@@ -1,0 +1,38 @@
+name: Wits
+type: Primary-Attribute
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: >-
+    Measures a character’s reasoning, cleverness, mnemonic ability and mental
+    agility.
+
+    Wits value modifies the number of Magic Points a Wizard character gains at
+    each level.
+  chartype: CharacterVsD
+  group: Primary-Attribute
+  abbr: WIT
+  attr: 0
+  value: 0
+  forceUpdate: false
+  sort: -1
+  tempattr: 0
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377611683
+  modifiedTime: 1704377611683
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: ccDZS0PG3gQiDjwt
+sort: 0
+_key: '!items!ccDZS0PG3gQiDjwt'
+

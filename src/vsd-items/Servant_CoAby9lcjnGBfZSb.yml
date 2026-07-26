@@ -1,0 +1,35 @@
+name: Servant
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.n4aQIETisB1MQ9le
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '2'
+  weight: 0
+  availability: Common
+  description: >-
+    Personal assistant, cooking meals and washing clothes and doing homeworks -
+    for a year.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485388
+  modifiedTime: 1697655934986
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.n4aQIETisB1MQ9le
+  duplicateSource: null
+_id: CoAby9lcjnGBfZSb
+sort: 0
+_key: '!items!CoAby9lcjnGBfZSb'
+

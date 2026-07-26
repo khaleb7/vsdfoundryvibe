@@ -1,0 +1,212 @@
+name: Keen Sight
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: VYFfV3rgxDBI4Ive
+      name: Keen Sight
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: 1yGg8GzVyTskVU9D
+      sort: 375000
+      flags:
+        core:
+          sourceId: Actor.ekIxl5TSigHQsRkp.Item.Jyv17HN8UB6og7c3
+      system:
+        notes: >-
+          Keen Sight: Your kin have an excellent eye-sight. They gain a +15
+          bonus to all sight-related Perception Rolls and reduce Range penalties
+          for their ranged attacks by 5 points.
+        chartype: CharacterVsD
+        group: Modifier
+        inEffect: false
+        alwaysOn: true
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 15
+            formula: '+15'
+            category: skill
+            targets: Perception
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689460030837
+        modifiedTime: 1689460887293
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - _id: gAulDIyHPVhm6G8f
+      name: Keen Sight
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: 1yGg8GzVyTskVU9D
+      sort: 450000
+      flags:
+        core:
+          sourceId: Actor.ekIxl5TSigHQsRkp.Item.gb0ZULtpsmRkgJOD
+      system:
+        notes: >-
+          Keen Sight: Your Kin have an excellent eye-sight. They gain a +15
+          bonus to all sight-related Perception Rolls and reduce Range penalties
+          for their ranged attacks by 5 points.
+        chartype: CharacterVsD
+        group: perk
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689460027972
+        modifiedTime: 1689460027972
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - _id: 2EgljniSiDmk2eox
+      name: Missile Range (Keen Sight)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: 1yGg8GzVyTskVU9D
+      sort: 425000
+      flags:
+        core:
+          sourceId: Actor.ekIxl5TSigHQsRkp.Item.YYfhKmdeo4vqG0ER
+      system:
+        notes: >-
+          Keen Sight: Your kin have an excellent eye-sight. They gain a +15
+          bonus to all sight-related Perception Rolls and reduce Range penalties
+          for their ranged attacks by 5 points.
+        chartype: CharacterVsD
+        group: Modifier
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 0
+            formula: '@missile_range_keen_sight'
+            category: attack
+            targets: Ranged
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689460054372
+        modifiedTime: 1689460339952
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - _id: Te8Ig8PbHsB9koLH
+      name: Missile Range (Keen Sight)
+      type: Variable
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: 1yGg8GzVyTskVU9D
+      sort: 100000
+      flags:
+        core:
+          sourceId: Actor.ekIxl5TSigHQsRkp.Item.oqUQM0dNcnUrSs4F
+      system:
+        notes: >-
+          Keen Sight: Your kin have an excellent eye-sight. They gain a +15
+          bonus to all sight-related Perception Rolls and reduce Range penalties
+          for their ranged attacks by 5 points.
+        chartype: CharacterVsD
+        group: Variable
+        value: 0
+        formula: '0'
+        label: Base
+        entries:
+          '0':
+            value: null
+            formula: ''
+            label: ''
+          '1':
+            value: 0
+            formula: '0'
+            label: Base
+          '2':
+            value: -20
+            formula: '-20'
+            label: Medium
+          '3':
+            value: -45
+            formula: '-45'
+            label: Long
+          '4':
+            value: -70
+            formula: '-70'
+            label: Extreme
+        temporary: false
+        once: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689459990149
+        modifiedTime: 1689459990149
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485649
+  modifiedTime: 1697655935065
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: uaBrnKk29MBq9soy
+sort: 2700000
+_key: '!items!uaBrnKk29MBq9soy'
+

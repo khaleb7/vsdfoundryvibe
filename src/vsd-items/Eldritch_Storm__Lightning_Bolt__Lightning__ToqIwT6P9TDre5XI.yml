@@ -1,0 +1,53 @@
+name: 'Eldritch Storm: Lightning Bolt (Lightning)'
+type: Ranged-Attack
+img: systems/vsd/icons/items/attackspells/focused-lightning.svg
+effects: []
+folder: huRuIB2kU4rQcUnb
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-spell-attacks.Item.WnZQ83TkBCsx7LwQ
+  cf:
+    id: null
+    color: '#000000'
+system:
+  notes: |-
+    Weave: 10th
+    Area of Effect: 1 target
+    Duration: -
+    Save: N
+    Attack Table: Bolt
+    Max: 175
+    Crit Table: Lightning
+    Range: 30 m
+  chartype: CharacterVsD
+  group: Ranged-Attack
+  damage: 7.6 Bolt Spells Attack Table
+  damageType: 7.14 Lightning Critical Strikes Table
+  secondary: none
+  armourDiv: 10
+  minST: oe
+  accuracy: 175
+  range: 30 m
+  rof: 5
+  shots: ''
+  bulk: 0
+  recoil: ''
+  value: 0
+  formula: '@eldritch_storm'
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490155
+  modifiedTime: 1697655935017
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-spell-attacks.Item.WnZQ83TkBCsx7LwQ
+  duplicateSource: null
+_id: ToqIwT6P9TDre5XI
+sort: 0
+_key: '!items!ToqIwT6P9TDre5XI'
+

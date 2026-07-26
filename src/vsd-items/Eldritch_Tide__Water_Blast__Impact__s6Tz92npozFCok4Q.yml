@@ -1,0 +1,53 @@
+name: 'Eldritch Tide: Water Blast (Impact)'
+type: Ranged-Attack
+img: systems/vsd/icons/items/attackspells/water-bolt.svg
+effects: []
+folder: huRuIB2kU4rQcUnb
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-spell-attacks.Item.wfu3umx2rbhlj58v
+  cf:
+    id: null
+    color: '#000000'
+system:
+  notes: |-
+    Weave: 4th
+    Area of Effect: 1 target
+    Duration: -
+    Save: N
+    Attack Table: Bolt
+    Max: 120
+    Crit Table: Impact
+    Range: 30 m
+  chartype: CharacterVsD
+  group: Ranged-Attack
+  damage: 7.6 Bolt Spells Attack Table
+  damageType: 7.9 Impact Critical Strikes Table
+  secondary: none
+  armourDiv: 10
+  minST: oe
+  accuracy: 120
+  range: 30 m
+  rof: 5
+  shots: ''
+  bulk: 0
+  recoil: ''
+  value: 0
+  formula: '@eldritch_tide'
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490162
+  modifiedTime: 1697655935059
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-spell-attacks.Item.wfu3umx2rbhlj58v
+  duplicateSource: null
+_id: s6Tz92npozFCok4Q
+sort: 0
+_key: '!items!s6Tz92npozFCok4Q'
+

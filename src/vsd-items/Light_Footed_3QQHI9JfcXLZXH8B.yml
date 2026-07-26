@@ -1,0 +1,35 @@
+name: Light-Footed
+type: Trait
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Light-Footed: Rough Terrain does not affect the movements of Elves, as long
+    as they are unencumbered and wearing light or no armor. Additionally, each
+    elf counts only as half a group member (rounding up) for the purpose of
+    calculating their group’s size when Camping.
+  chartype: CharacterVsD
+  group: kin
+  applied: false
+  category: perk
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689439951356
+  modifiedTime: 1697655934968
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: 3QQHI9JfcXLZXH8B
+sort: 900000
+_key: '!items!3QQHI9JfcXLZXH8B'
+

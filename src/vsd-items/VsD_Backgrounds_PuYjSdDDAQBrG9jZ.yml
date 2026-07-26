@@ -1,0 +1,16 @@
+name: VsD Backgrounds
+type: Item
+folder: null
+_id: PuYjSdDDAQBrG9jZ
+sorting: a
+sort: 300000
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.42'
+  coreVersion: '11.307'
+  createdTime: 1689515786197
+  modifiedTime: 1691664561971
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+_key: '!folders!PuYjSdDDAQBrG9jZ'
+

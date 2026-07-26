@@ -1,0 +1,73 @@
+name: Fleet-Footed
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.IrZBBMvMSMX0RJsZ
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Fleet-Footed
+      type: Trait
+      system:
+        notes: >-
+          You move like the wind, leaving everyone else behind you. When you
+          run, you can truly show them the meaning of haste.
+
+          - Minor (cost 1 BP):  Increase your Move Rate by 5 meters. You can
+          travel up to 1.5x the normal overland distance per day, as long as
+          you're on foot and Unencumbered or Lightly Encumbered.
+
+          - Major (cost 3 BPs):  Additionally, as long as you're Unencumbered or
+          Lightly Encumbered, you can Disengage as a Free Action and gain a
+          special +20 bonus to your DEF for the rest of the Round if you take a
+          Movement Action.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Fleet-Footed
+      type: Modifier
+      system:
+        notes: >-
+          As long as you are Unencumbered or Lightly Encumbered, you can
+          Disengage as a Free Action and gain a special +20 bonus to your DEF
+          for the rest of the Round if you take a Movement Action.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '20'
+            category: reaction
+            targets: Melee, Missile
+        tempName: Fleet-Footed
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485208
+  modifiedTime: 1697655934965
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.IrZBBMvMSMX0RJsZ
+  duplicateSource: null
+_id: 29OzlsIoLLJP9iJG
+sort: 0
+_key: '!items!29OzlsIoLLJP9iJG'
+

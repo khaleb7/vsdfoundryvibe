@@ -1,0 +1,61 @@
+name: Becalm
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.iq3SWZjjDeWfHzBE
+pages:
+  - name: Becalm
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Eldritch Storm"> <td>Lore:</td> <td>Eldritch Storm </td>
+        </tr> <tr> <td>Weave:</td> <td>5th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Eldritch Storm" data-weave="5th"
+        data-spell="Becalm" data-range="30 m" data-aoe="3 m radius"
+        data-duration="C" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Becalm </td> </tr> <tr> <td>Range:</td> <td>30 m </td>
+        </tr> <tr> <td>Area of Effect:</td> <td>3 m radius </td> </tr> <tr>
+        <td>Duration:</td> <td>C </td> </tr> <tr> <td>Save:</td> <td>N </td>
+        </tr> </tbody> </table>
+    _id: f6MkYEy1a2v4CsAS
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!GhyOCP4kBe0ItEap.f6MkYEy1a2v4CsAS'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106199
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.iq3SWZjjDeWfHzBE
+  duplicateSource: null
+_id: GhyOCP4kBe0ItEap
+sort: 0
+_key: '!journal!GhyOCP4kBe0ItEap'
+

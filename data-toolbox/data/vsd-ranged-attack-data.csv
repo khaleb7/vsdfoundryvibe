@@ -1,0 +1,12 @@
+﻿name,hands,skill,clumsy,length,attack,max,crit,range,qualities,skillname,attacktable,crittable,formula
+Composite Bow,2H,Ranged,5,-,Missile,150,Pierce,25,"Load (1), Quick Load",Ranged,7.3 Missile Attack Table,7.11 Pierce Critical Strikes Table,@ranged
+Heavy Crossbow,2H,Ranged,4,-,Missile,175,Pierce,30,Load (2),Ranged,7.3 Missile Attack Table,7.11 Pierce Critical Strikes Table,@ranged
+Light Crossbow,2H,Ranged,3,-,Missile,150,Pierce,20,Load (1),Ranged,7.3 Missile Attack Table,7.11 Pierce Critical Strikes Table,@ranged
+Long Bow,2H,Ranged,6,-,Missile,175,Pierce,35,Load (1),Ranged,7.3 Missile Attack Table,7.11 Pierce Critical Strikes Table,@ranged
+Short Bow,2H,Ranged,4,-,Missile,140,Pierce,20,"Load (1), Quick Load",Ranged,7.3 Missile Attack Table,7.11 Pierce Critical Strikes Table,@ranged
+Sling,1H,Ranged -20,7,-,Missile,110,Impact,15,Load (1),Ranged,7.3 Missile Attack Table,7.9 Impact Critical Strikes Table,@ranged -20
+Sling,1H,Ranged +10,7,-,Missile,130,Impact,15,Load (1),Ranged,7.3 Missile Attack Table,7.9 Impact Critical Strikes Table,@ranged +10
+Thrown Axe,1H,Ranged,4,-,Missile,120,Cut,3,,Ranged,7.3 Missile Attack Table,7.10 Cut Critical Strikes Table,@ranged
+Thrown Dagger,1H,Ranged,2,-,Missile,110,Pierce,3,,Ranged,7.3 Missile Attack Table,7.11 Pierce Critical Strikes Table,@ranged
+Thrown Javelin,1H,Ranged,3,-,Missile,140,Pierce,10,,Ranged,7.3 Missile Attack Table,7.11 Pierce Critical Strikes Table,@ranged
+Thrown Spear,1H,Ranged,3,-,Missile,130,Pierce,5,,Ranged,7.3 Missile Attack Table,7.11 Pierce Critical Strikes Table,@ranged

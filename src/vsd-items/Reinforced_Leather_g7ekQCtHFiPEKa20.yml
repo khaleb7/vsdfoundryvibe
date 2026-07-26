@@ -1,0 +1,63 @@
+name: Reinforced Leather
+type: Modifier
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Bxxo1AxxBitNbUjx
+flags:
+  core: {}
+system:
+  notes: |-
+    Fare: 2
+    Type: Light
+    Protects: Torso, Arms, Legs
+    Qualities: Metal
+    Max SWI: +20
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: false
+  attack: true
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '0'
+      category: reaction
+      targets: ''
+      moddedvalue: 0
+    - value: -30
+      formula: '-30'
+      category: primary
+      targets: ArmPen
+      moddedvalue: -30
+    - value: -5
+      formula: '-5'
+      category: primary
+      targets: CMBPen
+      moddedvalue: -5
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  8VtokmkrTaxXr4Uk: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485123
+  modifiedTime: 1697655938659
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: g7ekQCtHFiPEKa20
+sort: 1200000
+_key: '!items!g7ekQCtHFiPEKa20'
+

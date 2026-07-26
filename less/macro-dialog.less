@@ -1,0 +1,257 @@
+.mydialog {
+  .SabonLT(normal);
+  font-variant: small-caps;
+  font-size: inherit;
+  overflow: visible;
+
+  .rollables {
+
+    .rollablename {
+      .roundedcard();
+
+      .name {
+        .Ubuntu(bolder, smaller);
+        padding-bottom: 2px;
+      }
+    }
+
+    .attackitem {
+      .col2();
+      .roundedcard();
+
+      .attackname {
+        grid-area: ~"1/1/2/3";
+        .Ubuntu(bolder, smaller);
+        padding-bottom: 4px;
+      }
+
+      .skill {
+        grid-area: ~"2/1/3/2";
+        .Ubuntu(bolder, smaller);
+      }
+
+      .damage {
+        grid-area: ~"2/2/3/3";
+        .Ubuntu(bolder, smaller);
+      }
+    }
+
+    .entry {
+      .rollablecard();
+      .Ubuntu(bolder, smaller);
+      align-items: baseline;
+      background-color: @ranged-colour;
+    }
+
+    .melee {
+      border-color: @melee-colour;
+    }
+
+    .ranged {
+      border-color: @ranged-colour;
+    }
+
+    .spell {
+      border-color: blueviolet;
+    }
+  }
+
+  .defences {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: auto;
+
+    .toprow {
+      display: grid;
+      grid-template-columns: 28% 44% 28%;
+    }
+
+    .midrow {
+      display: grid;
+      grid-template-columns: 28% 44% 28%;
+    }
+
+    .bottomrow {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+
+    .centre {
+      text-align: center;
+    }
+
+    .right {
+      text-align: right;
+    }
+  }
+
+  .modifiers {
+    .diagmod {
+      .roundedcard();
+      background-color: rgba(192, 0, 192, 0.25);
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      align-items: baseline;
+    }
+
+    .diavar {
+      .roundedcard();
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: baseline;
+
+      .iteminput {
+        height: auto;
+      }
+    }
+
+    .diapool {
+      .roundedcard();
+      display: grid;
+      grid-template-columns: auto 15% 15%;
+
+      .iteminput {
+        height: auto;
+      }
+    }
+
+    .diamod {
+      .roundedcard();
+      display: grid;
+    }
+  }
+
+  .rollmacros {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-items: center;
+
+    .actionimage {
+      width: 42px;
+      border-radius: 5px;
+    }
+  }
+
+  .vsd-classic-header {
+    display: grid;
+    grid-auto-rows: auto;
+    background-color: unset;
+    border-radius: 5px;
+
+    .content {
+      .layout {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .defences {
+          display: grid;
+          grid-template-rows: repeat(3, auto);
+          grid-template-columns: auto;
+
+          .toprow {
+            display: grid;
+            grid-template-columns: 28% 44% 28%;
+          }
+
+          .midrow {
+            display: grid;
+            grid-template-columns: 28% 44% 28%;
+          }
+
+          .bottomrow {
+            display: grid;
+            grid-template-columns: 50% 50%;
+          }
+        }
+
+        .headinfo {
+          padding: 3px;
+          border: 2px solid maroon;
+          border-radius: 5px;
+          margin: 2px;
+          text-align: center;
+          background-color: unset;
+          color: unset;
+          font-size: smaller;
+          font-weight: bold;
+        }
+
+        .diavalue {
+          background: none;
+          border: none;
+          width: auto;
+          height: auto;
+          color: unset;
+        }
+
+        .diaselect {
+          margin: 0px;
+          border: none;
+          height: auto;
+          color: unset;
+        }
+      }
+
+      .withend {
+        background-color: coral;
+      }
+
+      .can {
+        background-color: palegreen;
+      }
+
+      .maynot {
+        background-color: red;
+      }
+    }
+  }
+
+  .movement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .movementoptions {
+
+      .actionimage {
+        width: 40px;
+        border-radius: 5px;
+      }
+
+      .actionimage.active {
+        border: 5px solid maroon;
+      }
+
+      .moverate {
+        .roundedcard();
+        display: grid;
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+
+        .mrname {
+          color: maroon;
+          font-weight: bold;
+        }
+
+        .mrvalue {
+          font-weight: bold;
+        }
+      }
+
+      .forward {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+      }
+
+      .backward {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+      }
+    }
+  }
+
+  .status-effects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

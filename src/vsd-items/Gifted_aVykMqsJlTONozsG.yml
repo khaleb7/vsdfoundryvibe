@@ -1,0 +1,78 @@
+name: Gifted
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.dp98UBUdm8fXZROm
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Gifted
+      type: Trait
+      system:
+        notes: >-
+          You're known among your kin for your extraordinary might, cunningness,
+          or charm.
+
+          - Minor (cost 1 BP):  Increase the total value of a Stat of your
+          choice by 5. Add a title, moniker, or epithet that describe the trait
+          your known for to your name (e.g.:  Tharos the Mighty, Illydriel the
+          Fair, etc).
+
+          - Major (cost 3 BPs):  You can also increase the total value of a Stat
+          of your choice (including the one you've already chosen) by another 5
+          points.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Gifted
+      type: Modifier
+      system:
+        notes: >-
+          Type the three letter abbreviation of the chosen attribute ALL CAPS
+          into the first entry for minor (then delete the second) and the second
+          entry for major, or use one entry with a formula of 10.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: Primary Attribute ABBR
+          '1':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: Second Primary Attribute ABBR
+        tempName: Gifted
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485219
+  modifiedTime: 1697655935028
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.dp98UBUdm8fXZROm
+  duplicateSource: null
+_id: aVykMqsJlTONozsG
+sort: 0
+_key: '!items!aVykMqsJlTONozsG'
+

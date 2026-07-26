@@ -1,0 +1,32 @@
+name: Wandering
+type: Rollable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: xS9Ebif3Ng5jYWof
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-skills.Item.ktTai8xkWkV7Y69i
+system:
+  notes: note
+  chartype: CharacterVsD
+  group: skill
+  value: 10
+  formula: '0'
+  category: skill
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488308
+  modifiedTime: 1697655935014
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-skills.Item.ktTai8xkWkV7Y69i
+  duplicateSource: null
+_id: RS6GX7SrM7SPDnxx
+sort: 0
+_key: '!items!RS6GX7SrM7SPDnxx'
+

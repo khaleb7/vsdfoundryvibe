@@ -1,0 +1,1582 @@
+{
+  "character": {
+    "Version": "2",
+    "name": "Robbie",
+    "level": "3",
+    "race": "Stone Troll",
+    "culture": "Hill",
+    "subCulture": "Default",
+    "profession": "Rogue",
+    "realms": {
+      "realm": {
+        "name": "Willpower"
+      }
+    },
+    "primeStats": {
+      "primeStat": {
+        "shortName": "BEA"
+      }
+    },
+    "bodyDevelopmentProgression": {
+      "progression": "0/5/2/1/1"
+    },
+    "powerPointProgression": {
+      "progression": "0/1/1/1/1"
+    },
+    "abilities": {
+      "injuryRecoveryMultiplier": "1",
+      "initiativeBonus": "0",
+      "offensiveBonus": "-5",
+      "movingManeuverBonus": "0",
+      "spellCastingBonus": "0",
+      "strideModification": "0",
+      "spellsPerLevel": "5",
+      "criticalResolution": "Heroic",
+      "naturalArmorType": "2",
+      "sizeCategory": "Large",
+      "excellentMemory": "false",
+      "defensiveSizeAdjustment": "0"
+    },
+    "resistances": null,
+    "armor": {
+      "rating": "1",
+      "armorPieces": {
+        "armorPiece": {
+          "armorPartName": "Armor",
+          "armorRating": "1",
+          "dbBonus": "0",
+          "mmBonus": "-10",
+          "quicknessBonus": "0",
+          "missileBonus": "0",
+          "perceptionBonus": "0",
+          "spellCastingBonus": "0"
+        }
+      }
+    },
+    "defense": {
+      "defensiveModifications": {
+        "defensiveModification": {
+          "concept": "Full Shield",
+          "bonusOrPenalty": "25"
+        }
+      }
+    },
+    "magicalEnergy": {
+      "baseAdjustment": "0",
+      "castingCostModifier": "0",
+      "multiplier": "1",
+      "recoveryMultiplier": "1"
+    },
+    "description": {
+      "height": "2.73",
+      "weight": "213",
+      "eyeColor": "Black",
+      "hairColor": "None"
+    },
+    "playerKeptRecords": {
+      "playerKeptRecord": [
+        {
+          "name": "Drive Points",
+          "value": "0"
+        },
+        {
+          "name": "Heroic Path",
+          "value": "0"
+        },
+        {
+          "name": "Wealth",
+          "value": "0"
+        }
+      ]
+    },
+    "trainingPackages": null,
+    "notes": {
+      "#cdata": "Passions\nMotivation: Find different gemstones\nNature: Analyze value in all actions and things\nAllegiance: People with shiny things are more trustworthy, dull clothing means dull morals.\n\nCulture: Hill\n\nKin Information\n• Night Sight: Trolls can see in natural moonlight or starlight as if it were day, and up to 30 m in Dim Light (treating the first 15 m as if they were standing in Bright Light). They can see up to 3 m even in Total Darkness.\n• Hulking Brute: Stone Trolls are Large in Size and reduce any Critical Strike they receive by one Severity degree (Criticals reduced under the Superficial Severity are ignored altogether). They also ignore any Stun result when receiving a critical from a non-magical attack.\n• Stone Skin: Trolls' bare skin counts as Light Armor.\n• Rending Claws: Trolls' unarmed attacks are treated like Large Claws and resolved on the Beast Attack Table.\n• Feral Predator: Stone Trolls gain a +20 bonus to their Hunting and Wandering Skills, as well as to all their Stealth Rolls in any natural environment.\n• Sun Cursed: Stone Trolls are blinded by daylight (suffering a -30 penalty to all their actions) and immediately turn to stone if exposed to direct sunlight. While in this state, they're essentially stone statues: they cannot take Actions and are oblivious to their surroundings; they don't need to breathe and are impervious to most attacks. They're treated as resting for healing purposes, doubling their HPs recovery rate. The effects of any form of Bleeding, poison, or disease from which they are suffering are temporarily halted. They revert to their original state once they're no longer exposed to sunlight.\n• Superstitious: Trolls can't be Wizards, Champions, or Dabblers.\n• Suggested Cultures: Deep (Cave Trolls), Woad (Forest Trolls), Arctic (Ice Trolls), or Marauding.\n• Starting Wealth Level: 0\n\nBackground Options\n1 - Burglar (Minor): You are trained as a professional burglar, or expert treasure-hunter, if you prefer. Your services are usually sought by those who´d like to acquire precious (and often carefully guarded) items with a certain discretion. You gain one rank in Stealth and one rank in Locks & Traps. Additionally, you can always eyeball the approximate value of any precious item you see, even with a single glance.\n1 - Healer´s Hands (Minor): Some heroes are known for their might in battle, but you know that even a greater strength is required to mend what´s broken. Yours are the hands of a healer, casting a pure light in a world besieged by Shadow. You gain a special +10 bonus to your Healer Skill, and a +10 bonus to your Nature Skill Rolls to find healing herbs.\n1 - Gifted (Minor): You´re known among your kin for your extraordinary might, cunningness, or charm. Increase the total value of a Stat of your choice by 5. Add a title, moniker, or epithet that describe the trait your known for to your name (e.g.: Tharos the Mighty, Illydriel the Fair, etc). --> Swiftness (\"Flash\" Robbie)\n\nArmor has a -10 to Move because of the shield (Offset by armor skill)\nAbilities: Offensive Bonus has a -5 because of the shield\n"
+    },
+    "avatar": null,
+    "developmentHistory": {
+      "levelUp": [
+        {
+          "newLevel": "3",
+          "statGains": null,
+          "skillDevelopments": {
+            "skillDevelopment": [
+              {
+                "skillName": "Wandering",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Athletics",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Blunt",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Locks & Traps",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Intimidation",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Nature",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Perception",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Healer",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Brawl",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Armor",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Body",
+                "numberOfRanks": "1"
+              }
+            ]
+          },
+          "trainingPackages": null
+        },
+        {
+          "newLevel": "2",
+          "statGains": null,
+          "skillDevelopments": {
+            "skillDevelopment": [
+              {
+                "skillName": "Assassination",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Stealth",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Blunt",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Songs & Tales",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Hunting",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Nature",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Perception",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Cooking",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Ranged",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Body",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Armor",
+                "numberOfRanks": "1"
+              }
+            ]
+          },
+          "trainingPackages": null
+        },
+        {
+          "newLevel": "1",
+          "statGains": null,
+          "skillDevelopments": {
+            "skillDevelopment": [
+              {
+                "skillName": "Wandering",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Brawl",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Body",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Athletics",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Stealth",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Blunt",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Intimidation",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Hunting",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Nature",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Healer",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Perception",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Ranged",
+                "numberOfRanks": "1"
+              },
+              {
+                "skillName": "Assassination",
+                "numberOfRanks": "2"
+              },
+              {
+                "skillName": "Armor",
+                "numberOfRanks": "1"
+              }
+            ]
+          },
+          "trainingPackages": null
+        }
+      ]
+    },
+    "inventory": {
+      "item": [
+        {
+          "name": "Full Shield",
+          "reference": "Shield",
+          "weightInPounds": "0.0",
+          "organicLivingComposition": "0.0",
+          "organicNonLivingComposition": "0.0",
+          "effect": "Protects Shield arm, Torso.",
+          "description": "Qualities: Rigid. Move Actions Penalty: -10 CMB Penalty: -5 Melee DEF Bonus: +25 Missile DEF Bonus: +25",
+          "carriedItems": {
+            "carriedItem": {
+              "quantity": "1",
+              "location": "Worn"
+            }
+          }
+        },
+        {
+          "name": "Hide tunic",
+          "reference": "Culture",
+          "weightInPounds": "0",
+          "organicLivingComposition": "0.0",
+          "organicNonLivingComposition": "0.0",
+          "effect": "",
+          "description": "Chosen from Culture",
+          "carriedItems": {
+            "carriedItem": {
+              "quantity": "1",
+              "location": "Worn"
+            }
+          }
+        },
+        {
+          "name": "Iron pitons",
+          "reference": "Culture",
+          "weightInPounds": "0",
+          "organicLivingComposition": "0.0",
+          "organicNonLivingComposition": "0.0",
+          "effect": "",
+          "description": "Chosen from Culture",
+          "carriedItems": {
+            "carriedItem": {
+              "quantity": "1",
+              "location": "Backpack"
+            }
+          }
+        },
+        {
+          "name": "Quarterstaff",
+          "reference": "Culture",
+          "weightInPounds": "0",
+          "organicLivingComposition": "0.0",
+          "organicNonLivingComposition": "0.0",
+          "effect": "",
+          "description": "Chosen from Culture",
+          "carriedItems": {
+            "carriedItem": {
+              "quantity": "1",
+              "location": "Back"
+            }
+          }
+        },
+        {
+          "name": "Rope",
+          "reference": "Culture",
+          "weightInPounds": "0",
+          "organicLivingComposition": "0.0",
+          "organicNonLivingComposition": "0.0",
+          "effect": "",
+          "description": "Chosen from Culture",
+          "carriedItems": {
+            "carriedItem": {
+              "quantity": "1",
+              "location": "Backpack"
+            }
+          }
+        },
+        {
+          "name": "Woolen skirt",
+          "reference": "Culture",
+          "weightInPounds": "0",
+          "organicLivingComposition": "0.0",
+          "organicNonLivingComposition": "0.0",
+          "effect": "",
+          "description": "Chosen from Culture",
+          "carriedItems": {
+            "carriedItem": {
+              "quantity": "1",
+              "location": "Worn"
+            }
+          }
+        }
+      ]
+    },
+    "favoriteSkills": {
+      "favoriteSkill": [
+        {
+          "skillName": "Blunt (Troll Mace)",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Offensive Bonus",
+          "Stats": {
+            "Stat": {
+              "shortName": "BRN"
+            }
+          }
+        },
+        {
+          "skillName": "Brawl (Claws)",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Offensive Bonus",
+          "Stats": {
+            "Stat": {
+              "shortName": "BRN"
+            }
+          }
+        },
+        {
+          "skillName": "Ranged (Shuriken)",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Offensive Bonus",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        }
+      ]
+    },
+    "remainingDevelopmentPoints": "0",
+    "stats": {
+      "stat": [
+        {
+          "shortName": "BRN",
+          "temporary": "-5",
+          "potential": "-5",
+          "specialBonus": "0"
+        },
+        {
+          "shortName": "SWI",
+          "temporary": "25",
+          "potential": "25",
+          "specialBonus": "5"
+        },
+        {
+          "shortName": "FOR",
+          "temporary": "5",
+          "potential": "5",
+          "specialBonus": "0"
+        },
+        {
+          "shortName": "WIT",
+          "temporary": "20",
+          "potential": "20",
+          "specialBonus": "0"
+        },
+        {
+          "shortName": "WSD",
+          "temporary": "15",
+          "potential": "15",
+          "specialBonus": "0"
+        },
+        {
+          "shortName": "BEA",
+          "temporary": "-10",
+          "potential": "-10",
+          "specialBonus": "0"
+        }
+      ]
+    },
+    "categories": {
+      "category": [
+        {
+          "categoryName": "Adventuring",
+          "groupName": "Adventuring",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "developmentModifier": "4"
+        },
+        {
+          "categoryName": "Armor",
+          "groupName": "Armor",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "developmentModifier": "1"
+        },
+        {
+          "categoryName": "Body",
+          "groupName": "Body",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "developmentModifier": "1"
+        },
+        {
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "developmentModifier": "3"
+        },
+        {
+          "categoryName": "Lore",
+          "groupName": "Lore",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "developmentModifier": "1"
+        },
+        {
+          "categoryName": "Magic Points",
+          "groupName": "Magic Points",
+          "cost": "2/*",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "developmentModifier": "0"
+        },
+        {
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "developmentModifier": "5"
+        },
+        {
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "developmentModifier": "0"
+        }
+      ]
+    },
+    "skills": {
+      "skill": [
+        {
+          "skillName": "Athletics",
+          "categoryName": "Adventuring",
+          "groupName": "Adventuring",
+          "classification": "Moving Maneuver",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BRN"
+            }
+          }
+        },
+        {
+          "skillName": "Cooking",
+          "categoryName": "Adventuring",
+          "groupName": "Adventuring",
+          "classification": "Static Maneuver",
+          "cost": "1/0",
+          "ranks": "2",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        {
+          "skillName": "Hunting",
+          "categoryName": "Adventuring",
+          "groupName": "Adventuring",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WIT"
+            }
+          }
+        },
+        {
+          "skillName": "Hunting (natural environment)",
+          "categoryName": "Adventuring",
+          "groupName": "Adventuring",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "20",
+          "Stats": {
+            "Stat": {
+              "shortName": "WIT"
+            }
+          }
+        },
+        {
+          "skillName": "Nature",
+          "categoryName": "Adventuring",
+          "groupName": "Adventuring",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "5",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Nature (find healing herbs)",
+          "categoryName": "Adventuring",
+          "groupName": "Adventuring",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "5",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "10",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Ride",
+          "categoryName": "Adventuring",
+          "groupName": "Adventuring",
+          "classification": "Moving Maneuver",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        {
+          "skillName": "Wandering",
+          "categoryName": "Adventuring",
+          "groupName": "Adventuring",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "3",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Wandering (natural environment)",
+          "categoryName": "Adventuring",
+          "groupName": "Adventuring",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "3",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "20",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Armor",
+          "categoryName": "Armor",
+          "groupName": "Armor",
+          "classification": "Special Maneuver",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0"
+        },
+        {
+          "skillName": "Body",
+          "categoryName": "Body",
+          "groupName": "Body",
+          "classification": "Special Maneuver",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "60",
+          "Stats": {
+            "Stat": {
+              "shortName": "FOR"
+            }
+          }
+        },
+        {
+          "skillName": "Battle Frenzy",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Moving Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Blades",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Special Maneuver",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "10",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BRN"
+            }
+          }
+        },
+        {
+          "skillName": "Blunt",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Special Maneuver",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BRN"
+            }
+          }
+        },
+        {
+          "skillName": "Blunt (Troll Mace)",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Offensive Bonus",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "tableName": "Blunt",
+          "effectAdjustment": "0",
+          "failure": "5",
+          "effect": "Impact",
+          "Stats": {
+            "Stat": {
+              "shortName": "BRN"
+            }
+          }
+        },
+        {
+          "skillName": "Brawl",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Special Maneuver",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BRN"
+            }
+          }
+        },
+        {
+          "skillName": "Brawl (Claws)",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Offensive Bonus",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "0",
+          "tableName": "Beast",
+          "effectAdjustment": "0",
+          "failure": "2",
+          "effect": "Cut",
+          "maximumResult": "140",
+          "Stats": {
+            "Stat": {
+              "shortName": "BRN"
+            }
+          }
+        },
+        {
+          "skillName": "Dual Weapons Training",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Special Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0"
+        },
+        {
+          "skillName": "Intimidation",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Static Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BEA"
+            }
+          }
+        },
+        {
+          "skillName": "Polearms",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Special Maneuver",
+          "cost": "1/1",
+          "ranks": "2",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BRN"
+            }
+          }
+        },
+        {
+          "skillName": "Ranged",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Special Maneuver",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        {
+          "skillName": "Ranged (Shuriken)",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Offensive Bonus",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "5",
+          "specialBonus": "0",
+          "tableName": "Missile",
+          "effectAdjustment": "0",
+          "failure": "3",
+          "effect": "Pierce",
+          "maximumResult": "130",
+          "conditions": "0-10:0;11-20:-25;21-30:-50;31-40:-75",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        {
+          "skillName": "Swashbuckling",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Special Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0"
+        },
+        {
+          "skillName": "Warfare",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Static Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WIT"
+            }
+          }
+        },
+        {
+          "skillName": "Weapon Specialization",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Special Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0"
+        },
+        {
+          "skillName": "Arcana",
+          "categoryName": "Lore",
+          "groupName": "Lore",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WIT"
+            }
+          }
+        },
+        {
+          "skillName": "Charisma",
+          "categoryName": "Lore",
+          "groupName": "Lore",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "1",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BEA"
+            }
+          }
+        },
+        {
+          "skillName": "Craftsmanship",
+          "categoryName": "Lore",
+          "groupName": "Lore",
+          "classification": "Static Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Cultures",
+          "categoryName": "Lore",
+          "groupName": "Lore",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WIT"
+            }
+          }
+        },
+        {
+          "skillName": "Healer",
+          "categoryName": "Lore",
+          "groupName": "Lore",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "2",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "10",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Meditation",
+          "categoryName": "Lore",
+          "groupName": "Lore",
+          "classification": "Static Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Scholarship",
+          "categoryName": "Lore",
+          "groupName": "Lore",
+          "classification": "Static Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WIT"
+            }
+          }
+        },
+        {
+          "skillName": "Songs & Tales",
+          "categoryName": "Lore",
+          "groupName": "Lore",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BEA"
+            }
+          }
+        },
+        {
+          "skillName": "Stewardship",
+          "categoryName": "Lore",
+          "groupName": "Lore",
+          "classification": "Static Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Magic Points",
+          "categoryName": "Magic Points",
+          "groupName": "Magic Points",
+          "classification": "Special Maneuver",
+          "cost": "2/*",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BEA"
+            }
+          }
+        },
+        {
+          "skillName": "Acrobatics",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Moving Maneuver",
+          "cost": "1/1",
+          "ranks": "2",
+          "itemBonus": "0",
+          "professionBonus": "20",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        {
+          "skillName": "Assassination",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Static Maneuver",
+          "cost": "1/0",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        {
+          "skillName": "Deceive",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "20",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WIT"
+            }
+          }
+        },
+        {
+          "skillName": "Intimidation",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Static Maneuver",
+          "cost": "1/0",
+          "ranks": "4",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BEA"
+            }
+          }
+        },
+        {
+          "skillName": "Locks & Traps",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "3",
+          "itemBonus": "0",
+          "professionBonus": "20",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WIT"
+            }
+          }
+        },
+        {
+          "skillName": "Perception",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Static Maneuver",
+          "cost": "1/1",
+          "ranks": "6",
+          "itemBonus": "0",
+          "professionBonus": "20",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Quick Draw",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Special Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0"
+        },
+        {
+          "skillName": "Stealth",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Moving Maneuver",
+          "cost": "1/1",
+          "ranks": "7",
+          "itemBonus": "0",
+          "professionBonus": "20",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        {
+          "skillName": "Stealth (natural environment)",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Moving Maneuver",
+          "cost": "1/1",
+          "ranks": "7",
+          "itemBonus": "0",
+          "professionBonus": "20",
+          "specialBonus": "20",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        {
+          "skillName": "Swift Step",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Moving Maneuver",
+          "cost": "1/0",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        {
+          "skillName": "Chanting",
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "classification": "Spell Casting Maneuver",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Cleansing",
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "classification": "Spell Casting Maneuver",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Detections",
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "classification": "Spell Casting Maneuver",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Eldritch Might",
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "classification": "Spell Casting Maneuver",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BEA"
+            }
+          }
+        },
+        {
+          "skillName": "Eldritch Visions",
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "classification": "Spell Casting Maneuver",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "BEA"
+            }
+          }
+        },
+        {
+          "skillName": "Eldritch Wards",
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "classification": "Spell Casting Maneuver",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WIT"
+            }
+          }
+        },
+        {
+          "skillName": "Lore of Nature",
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "classification": "Spell Casting Maneuver",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Movements of Nature",
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "classification": "Spell Casting Maneuver",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Natures Path",
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "classification": "Spell Casting Maneuver",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WSD"
+            }
+          }
+        },
+        {
+          "skillName": "Sounds & Lights",
+          "categoryName": "Spell Lores",
+          "groupName": "Spell Lores",
+          "classification": "Spell Casting Maneuver",
+          "cost": "2/2",
+          "ranks": "0",
+          "itemBonus": "0",
+          "professionBonus": "0",
+          "specialBonus": "0",
+          "Stats": {
+            "Stat": {
+              "shortName": "WIT"
+            }
+          }
+        }
+      ]
+    },
+    "rankBindings": {
+      "skillWithRankBinding": [
+        {
+          "conversionRatio": "1",
+          "skillDefinition": {
+            "skillName": "Wandering (natural environment)",
+            "categoryName": "Adventuring",
+            "groupName": "Adventuring",
+            "classification": "Static Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "WSD"
+              }
+            }
+          },
+          "sourceDefinition": {
+            "skillName": "Wandering",
+            "categoryName": "Adventuring",
+            "groupName": "Adventuring",
+            "classification": "Static Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "WSD"
+              }
+            }
+          }
+        },
+        {
+          "conversionRatio": "1",
+          "skillDefinition": {
+            "skillName": "Ranged (Shuriken)",
+            "categoryName": "Combat",
+            "groupName": "Combat",
+            "classification": "Offensive Bonus",
+            "Stats": {
+              "Stat": {
+                "shortName": "SWI"
+              }
+            }
+          },
+          "sourceDefinition": {
+            "skillName": "Ranged",
+            "categoryName": "Combat",
+            "groupName": "Combat",
+            "classification": "Special Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "SWI"
+              }
+            }
+          }
+        },
+        {
+          "conversionRatio": "1",
+          "skillDefinition": {
+            "skillName": "Brawl (Claws)",
+            "categoryName": "Combat",
+            "groupName": "Combat",
+            "classification": "Offensive Bonus",
+            "Stats": {
+              "Stat": {
+                "shortName": "BRN"
+              }
+            }
+          },
+          "sourceDefinition": {
+            "skillName": "Brawl",
+            "categoryName": "Combat",
+            "groupName": "Combat",
+            "classification": "Special Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "BRN"
+              }
+            }
+          }
+        },
+        {
+          "conversionRatio": "1",
+          "skillDefinition": {
+            "skillName": "Blunt (Troll Mace)",
+            "categoryName": "Combat",
+            "groupName": "Combat",
+            "classification": "Offensive Bonus",
+            "Stats": {
+              "Stat": {
+                "shortName": "BRN"
+              }
+            }
+          },
+          "sourceDefinition": {
+            "skillName": "Blunt",
+            "categoryName": "Combat",
+            "groupName": "Combat",
+            "classification": "Special Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "BRN"
+              }
+            }
+          }
+        },
+        {
+          "conversionRatio": "1",
+          "skillDefinition": {
+            "skillName": "Nature (find healing herbs)",
+            "categoryName": "Adventuring",
+            "groupName": "Adventuring",
+            "classification": "Static Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "WSD"
+              }
+            }
+          },
+          "sourceDefinition": {
+            "skillName": "Nature",
+            "categoryName": "Adventuring",
+            "groupName": "Adventuring",
+            "classification": "Static Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "WSD"
+              }
+            }
+          }
+        },
+        {
+          "conversionRatio": "1",
+          "skillDefinition": {
+            "skillName": "Stealth (natural environment)",
+            "categoryName": "Roguery",
+            "groupName": "Roguery",
+            "classification": "Moving Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "SWI"
+              }
+            }
+          },
+          "sourceDefinition": {
+            "skillName": "Stealth",
+            "categoryName": "Roguery",
+            "groupName": "Roguery",
+            "classification": "Moving Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "SWI"
+              }
+            }
+          }
+        },
+        {
+          "conversionRatio": "1",
+          "skillDefinition": {
+            "skillName": "Hunting (natural environment)",
+            "categoryName": "Adventuring",
+            "groupName": "Adventuring",
+            "classification": "Static Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "WIT"
+              }
+            }
+          },
+          "sourceDefinition": {
+            "skillName": "Hunting",
+            "categoryName": "Adventuring",
+            "groupName": "Adventuring",
+            "classification": "Static Maneuver",
+            "Stats": {
+              "Stat": {
+                "shortName": "WIT"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

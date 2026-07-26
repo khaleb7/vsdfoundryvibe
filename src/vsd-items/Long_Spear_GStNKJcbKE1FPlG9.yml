@@ -1,0 +1,143 @@
+name: Long Spear
+type: Container
+img: systems/vsd/icons/items/weapons/spear-feather.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.1PLYncBvpvefYJvY
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Reach Weapon (Long Spear)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      system:
+        notes: note
+        chartype: CharacterVsD
+        group: Modifier
+        sort: -1
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -20
+            formula: '-20'
+            category: attack
+            targets: 'Polearms: Long Spear'
+      folder: null
+      permission:
+        default: 0
+        OxYGvqLVXSV3pvbk: 3
+    - name: Mighty Attack
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      system:
+        notes: note
+        chartype: CharacterVsD
+        group: Modifier
+        sort: -1
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '+20'
+            category: attack
+            targets: ''
+      folder: null
+      permission:
+        default: 0
+        OxYGvqLVXSV3pvbk: 3
+    - name: 'Polearms: Long Spear (Pierce)'
+      type: Melee-Attack
+      img: systems/vsd/icons/items/weapons/spear-feather.svg
+      system:
+        notes: |-
+          Hands: 2H
+          Length: Longest
+          Attack Table: Edged
+          Max: 175
+          Crit Table: Pierce
+          Range: -
+          Qualities: Reach, Mighty
+        chartype: CharacterVsD
+        group: Melee-Attack
+        sort: -1
+        value: 0
+        formula: '@polearms'
+        damage: 7.1 Edged Attack Table
+        damageType: 7.11 Pierce Critical Strikes Table
+        armourDiv: 6
+        minST: oe
+        weight: 175
+        reach: 5
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+    - name: Long Spear (Set to Receive Charge)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      system:
+        notes: Can be set against charge for +20 CMB but no parry.
+        chartype: CharacterVsD
+        group: Modifier
+        sort: -1
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '20'
+            category: attack
+            targets: 'Polearms: Long Spear'
+      folder: null
+      permission:
+        default: 0
+        OxYGvqLVXSV3pvbk: 3
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490211
+  modifiedTime: 1697655934991
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.1PLYncBvpvefYJvY
+  duplicateSource: null
+_id: GStNKJcbKE1FPlG9
+sort: 0
+_key: '!items!GStNKJcbKE1FPlG9'
+

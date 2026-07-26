@@ -1,0 +1,33 @@
+name: Rations, Preserved
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.XMWMmLJxyfpzZYES
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '1'
+  weight: 0
+  availability: Common
+  description: 1 week worth.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485363
+  modifiedTime: 1697655934984
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.XMWMmLJxyfpzZYES
+  duplicateSource: null
+_id: C2Tcvh53hXBsGgND
+sort: 0
+_key: '!items!C2Tcvh53hXBsGgND'
+

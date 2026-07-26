@@ -1,0 +1,61 @@
+name: Water Walk
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.W8JdOrf3MXO1kgy2
+pages:
+  - name: Water Walk
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Movements of Nature"> <td>Lore:</td> <td>Movements of Nature
+        </td> </tr> <tr> <td>Weave:</td> <td>5th </td> </tr> <tr
+        class="rollable" data-type="spell" data-table="Movements of Nature"
+        data-weave="5th" data-spell="Water Walk" data-range="0 (self)"
+        data-aoe="caster" data-duration="1 min/lvl" data-save="N">
+        <td>Spell:</td> <td class="spellname">Water Walk </td> </tr> <tr>
+        <td>Range:</td> <td>0 (self) </td> </tr> <tr> <td>Area of Effect:</td>
+        <td>caster </td> </tr> <tr> <td>Duration:</td> <td>1 min/lvl </td> </tr>
+        <tr> <td>Save:</td> <td>N </td> </tr> </tbody> </table>
+    _id: aFJciVRVtOmo6Nr8
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!mkTEXhLhoPrU14ng.aFJciVRVtOmo6Nr8'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106199
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.W8JdOrf3MXO1kgy2
+  duplicateSource: null
+_id: mkTEXhLhoPrU14ng
+sort: 0
+_key: '!journal!mkTEXhLhoPrU14ng'
+

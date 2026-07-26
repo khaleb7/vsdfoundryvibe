@@ -1,0 +1,111 @@
+name: Unbreakable Bond
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.1N8n1emJMQAQdXSx
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Unbreakable Bond
+      type: Trait
+      system:
+        notes: >-
+          The road may be dark before you, but you're not alone to face it. You
+          formed a strong bond with another member of your fellowship. Together,
+          you can overcome any adversity.
+
+          - Minor (cost 1 BP):  Select one of your companions and write your
+          Allegiance about them. You gain a +10 bonus to your Rolls made to Help
+          the chosen character. Moreover, you always know when your chosen
+          companion is in danger, even if you aren't able to see each other or
+          are separated by a great distance.
+
+          - Major (cost 3 BPs):  Additionally, as long as you and the chosen
+          companion are within sight of each other, both of you gain a +5 bonus
+          to your DEF and Save Rolls.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Unbreakable Bond (In Sight)
+      type: Modifier
+      system:
+        notes: >-
+          As long as you and your chosen companion are within sight of each
+          other, both of you gain a +5 bonus to your DEF and Save Rolls.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: reaction
+            targets: Melee, Missile
+          '1':
+            value: 5
+            formula: '5'
+            category: defence
+            targets: Willpower, Toughness
+        tempName: Unbreakable Bond (In Sight)
+    - name: Unbreakable Bond (Help)
+      type: Modifier
+      system:
+        notes: You gain a +10 bonus to your Rolls made to Help the chosen character.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: true
+        spell: true
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: attack
+            targets: ''
+          '1':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: ''
+          '2':
+            value: 10
+            formula: '10'
+            category: spell
+            targets: ''
+        tempName: Unbreakable Bond (Help)
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485195
+  modifiedTime: 1697655935008
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.1N8n1emJMQAQdXSx
+  duplicateSource: null
+_id: OaTKhVgfyPWM6mKJ
+sort: 0
+_key: '!items!OaTKhVgfyPWM6mKJ'
+

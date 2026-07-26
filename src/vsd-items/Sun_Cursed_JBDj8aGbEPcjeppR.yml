@@ -1,0 +1,72 @@
+name: Sun Cursed
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Sun Cursed: Your kin are blinded by daylight (suffering a -30 penalty to all
+    their actions) and immediately turn to stone if exposed to direct sunlight.
+    While in this state, they’re essentially stone statues: they cannot take
+    Actions and are oblivious to their surroundings; they don’t need to breathe
+    and are impervious to most attacks. They’re treated as resting for healing
+    purposes, doubling their HPs recovery rate. The effects of any form of
+    Bleeding, poison, or disease from which they are suffering are temporarily
+    halted. They revert to their original state once they’re no longer exposed
+    to sunlight.
+  chartype: CharacterVsD
+  group: kin
+  inEffect: false
+  alwaysOn: false
+  attack: true
+  defence: true
+  skill: true
+  spell: true
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: -30
+      formula: '-30'
+      category: attack
+      targets: ''
+      moddedvalue: -30
+    - value: -30
+      formula: '-30'
+      category: defence
+      targets: ''
+      moddedvalue: -30
+    - value: -30
+      formula: '-30'
+      category: skill
+      targets: ''
+      moddedvalue: -30
+    - value: -30
+      formula: '-30'
+      category: spell
+      targets: ''
+      moddedvalue: -30
+  temporary: false
+  once: true
+  condition: true
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689509749176
+  modifiedTime: 1697655936917
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: JBDj8aGbEPcjeppR
+sort: 200000
+_key: '!items!JBDj8aGbEPcjeppR'
+

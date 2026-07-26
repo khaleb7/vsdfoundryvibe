@@ -1,0 +1,17 @@
+name: Spell Attacks
+type: Item
+folder: null
+_id: huRuIB2kU4rQcUnb
+sorting: a
+sort: 900000
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.42'
+  coreVersion: '11.307'
+  createdTime: 1689515385517
+  modifiedTime: 1691664561971
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+color: '#0060ff'
+_key: '!folders!huRuIB2kU4rQcUnb'
+

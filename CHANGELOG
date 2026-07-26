@@ -1,3 +1,12 @@
+14.0.0
+- Foundry V14 compliance pass (system id remains `vsd`).
+- Fixed pack paths for vsd-macros and vsd-items (LevelDB folders, not missing `.db` files).
+- Replaced removed Token#toggleEffect with ActiveEffect / Actor#toggleStatusEffect (img/name).
+- Migrated chat hook from renderChatMessage to renderChatMessageHTML.
+- Removed template.json from the shipped system (documentTypes + TypeDataModels only).
+- Manifest URLs point at khaleb7/vsdfoundryvibe GitHub Release assets.
+- Compatibility: minimum 13, verified 14.
+
 13.0.0
 - Community Foundry V13/V14 port (system id remains `vsd`).
 - Migrated Actor/Item sheets to ApplicationV2 (HandlebarsApplicationMixin + ActorSheetV2/ItemSheetV2).

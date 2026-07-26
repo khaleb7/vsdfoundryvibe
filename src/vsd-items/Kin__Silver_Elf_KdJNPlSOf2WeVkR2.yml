@@ -1,0 +1,428 @@
+name: 'Kin: Silver Elf'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: SShceJOSr4IIFuLC
+      name: Fair and Wise
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 100000
+      flags:
+        core:
+          sourceId: Actor.91fcbk5khdLL0xV0.Item.in12vOKz5kjha9vl
+      system:
+        notes: >-
+          Fair and Wise: Your kin must assign one of their two highest Stat
+          Values to their Bearing before Kin Modifiers are applied. They also
+          get a special +10 bonus to their Songs & Tales and Charisma Skills.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Songs & Tales, Charisma
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689448315034
+        modifiedTime: 1703274410955
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: H6VidO6rikss7VP9
+      name: Immortal (vs Cold)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 187500
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.41tIlmdrQ7iCUyC4
+      system:
+        notes: >-
+          Immortal: Your kin do not age, are immune to disease, and are
+          resistant to the effects of natural cold (gaining a +10 bonus against
+          any Cold-based threat). They don’t need to sleep, and will gain the
+          benefits of a night’s rest simply by meditating for 3 hours.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: defence
+            targets: Willpower, Toughness
+          '1':
+            value: 10
+            formula: '+10'
+            category: reaction
+            targets: Melee, Missile
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689439978029
+        modifiedTime: 1703274416641
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: gQ08TW7yzCoNSl15
+      name: Keen Senses
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 137500
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.nSxyGXNQb25Wa2Kv
+      system:
+        notes: >-
+          Keen Senses: Your kin have superior senses that grant them a special
+          +10 bonus to their Perception Skill. Additionally, they can see in
+          natural moonlight or starlight as if it were day, and up to 30m in Dim
+          Light (treating the first 15 m as if they were standing in Bright
+          Light).
+        chartype: CharacterVsD
+        group: Modifier
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Perception
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689439981619
+        modifiedTime: 1703274424361
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: zy8FH5JhwCpTgHjd
+      name: Keen Senses
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 162500
+      flags:
+        core:
+          sourceId: Actor.I9PwNHK35JBlpDve.Item.STE5BW8bLz1g8KHj
+      system:
+        notes: >-
+          Keen Senses: Your Kin have superior senses that grant them a special
+          +10 bonus to their Perception Skill. Additionally, they can see in
+          natural moonlight or starlight as if it were day, and up to 30m in Dim
+          Light (treating the first 15 m as if they were standing in Bright
+          Light).
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1703274382211
+        modifiedTime: 1703274382211
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: QTeOSgVBb5usVbdm
+      name: 'Kin: Silver Elf'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 200000
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: |-
+          Special Traits:
+          - Keen Senses
+          - Immortal
+          - Light-Footed
+          - Shipwrights
+          - Fair and Wise
+          - Lore of the Ages
+          Cultures: Fey or Seafaring
+          Wealth: 1
+          Background: 3
+          Magic Points: 4
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: primary
+            targets: SWI, BEA
+          '1':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: FOR, WIT, WSD
+          '2':
+            value: 10
+            formula: '10'
+            category: defence
+            targets: Toughness
+          '3':
+            value: 20
+            formula: '20'
+            category: reaction
+            targets: Body
+          '4':
+            value: 20
+            formula: '20'
+            category: primary
+            targets: KinVoc
+          '5':
+            value: 4
+            formula: '4'
+            category: primary
+            targets: KinMP
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689448329758
+        modifiedTime: 1703274625915
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: QR5atI4vDlD224OF
+      name: Light-Footed
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 150000
+      flags:
+        core:
+          sourceId: Actor.91fcbk5khdLL0xV0.Item.FVKASjSD15TICEdP
+      system:
+        notes: >-
+          Light-Footed: Rough Terrain does not affect the movements of Elves, as
+          long as they are unencumbered and wearing light or no armor.
+          Additionally, each elf counts only as half a group member (rounding
+          up) for the purpose of calculating their group’s size when Camping.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689448237762
+        modifiedTime: 1703274370694
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: fVMJ94t7QTJFveI9
+      name: 'Ranks: Lore of the Ages'
+      type: Variable
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 175000
+      flags:
+        core:
+          sourceId: Actor.91fcbk5khdLL0xV0.Item.cWDiVDsXC1PExR3x
+      system:
+        notes: >-
+          Lore of the Ages: Your kin gain access to two Kin Spell Lores: Elven
+          Lore and Spell Songs (see Magic chapter for more information about Kin
+          Spell Lores). They also gain 2 ranks to distribute among these Spell
+          Lores as they see fit.
+        chartype: CharacterVsD
+        group: kin
+        value: 1
+        formula: '1'
+        label: Spell Songs
+        entries:
+          '0':
+            value: 1
+            formula: '1'
+            label: Elven Lore
+          '1':
+            value: 1
+            formula: '1'
+            label: Spell Songs
+        temporary: false
+        once: false
+        sort: -1
+        moddedformula: '1'
+        moddedvalue: 1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689448247634
+        modifiedTime: 1703274606002
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: BzQYsaG7hVwNMeW8
+      name: Shipwrights
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 125000
+      flags:
+        core:
+          sourceId: Actor.91fcbk5khdLL0xV0.Item.zKg0f4km5nDNzQFs
+      system:
+        notes: >-
+          Shipwrights: Your kin are renowned sailors, and gain a +20 bonus to
+          all their Rolls made to build, repair, or pilot ships.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '+20'
+            category: skill
+            targets: ''
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689448345250
+        modifiedTime: 1703274610946
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703274636250
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: KdJNPlSOf2WeVkR2
+sort: 0
+_key: '!items!KdJNPlSOf2WeVkR2'
+

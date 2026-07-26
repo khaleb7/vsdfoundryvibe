@@ -1,0 +1,547 @@
+<character><Version>2</Version>
+<name>Robbie</name>
+<level>3</level>
+<race>Stone Troll</race>
+<culture>Hill</culture>
+<subCulture>Default</subCulture>
+<profession>Rogue</profession>
+<realms>
+<realm name="Willpower"/>
+</realms>
+<primeStats>
+<primeStat shortName="BEA"/>
+</primeStats>
+<bodyDevelopmentProgression progression="0/5/2/1/1"/>
+<powerPointProgression progression="0/1/1/1/1"/>
+<abilities injuryRecoveryMultiplier="1" initiativeBonus="0" offensiveBonus="-5" movingManeuverBonus="0" spellCastingBonus="0" strideModification="0" spellsPerLevel="5" criticalResolution="Heroic" naturalArmorType="2" sizeCategory="Large" excellentMemory="false" defensiveSizeAdjustment="0"/>
+<resistances>
+</resistances>
+<armor rating="1">
+<armorPieces>
+<armorPiece armorPartName="Armor" armorRating="1" dbBonus="0" mmBonus="-10" quicknessBonus="0" missileBonus="0" perceptionBonus="0" spellCastingBonus="0"/>
+</armorPieces>
+</armor>
+<defense>
+<defensiveModifications>
+<defensiveModification concept="Full Shield" bonusOrPenalty="25"/>
+</defensiveModifications>
+</defense>
+<magicalEnergy baseAdjustment="0" castingCostModifier="0" multiplier="1" recoveryMultiplier="1"/>
+<description height="2.73" weight="213" eyeColor="Black" hairColor="None"/>
+<playerKeptRecords>
+<playerKeptRecord name="Drive Points" value="0"/>
+<playerKeptRecord name="Heroic Path" value="0"/>
+<playerKeptRecord name="Wealth" value="0"/>
+</playerKeptRecords>
+<trainingPackages>
+</trainingPackages>
+<notes><![CDATA[Passions
+Motivation: Find different gemstones
+Nature: Analyze value in all actions and things
+Allegiance: People with shiny things are more trustworthy, dull clothing means dull morals.
+
+Culture: Hill
+
+Kin Information
+• Night Sight: Trolls can see in natural moonlight or starlight as if it were day, and up to 30 m in Dim Light (treating the first 15 m as if they were standing in Bright Light). They can see up to 3 m even in Total Darkness.
+• Hulking Brute: Stone Trolls are Large in Size and reduce any Critical Strike they receive by one Severity degree (Criticals reduced under the Superficial Severity are ignored altogether). They also ignore any Stun result when receiving a critical from a non-magical attack.
+• Stone Skin: Trolls' bare skin counts as Light Armor.
+• Rending Claws: Trolls' unarmed attacks are treated like Large Claws and resolved on the Beast Attack Table.
+• Feral Predator: Stone Trolls gain a +20 bonus to their Hunting and Wandering Skills, as well as to all their Stealth Rolls in any natural environment.
+• Sun Cursed: Stone Trolls are blinded by daylight (suffering a -30 penalty to all their actions) and immediately turn to stone if exposed to direct sunlight. While in this state, they're essentially stone statues: they cannot take Actions and are oblivious to their surroundings; they don't need to breathe and are impervious to most attacks. They're treated as resting for healing purposes, doubling their HPs recovery rate. The effects of any form of Bleeding, poison, or disease from which they are suffering are temporarily halted. They revert to their original state once they're no longer exposed to sunlight.
+• Superstitious: Trolls can't be Wizards, Champions, or Dabblers.
+• Suggested Cultures: Deep (Cave Trolls), Woad (Forest Trolls), Arctic (Ice Trolls), or Marauding.
+• Starting Wealth Level: 0
+
+Background Options
+1 - Burglar (Minor): You are trained as a professional burglar, or expert treasure-hunter, if you prefer. Your services are usually sought by those who´d like to acquire precious (and often carefully guarded) items with a certain discretion. You gain one rank in Stealth and one rank in Locks & Traps. Additionally, you can always eyeball the approximate value of any precious item you see, even with a single glance.
+1 - Healer´s Hands (Minor): Some heroes are known for their might in battle, but you know that even a greater strength is required to mend what´s broken. Yours are the hands of a healer, casting a pure light in a world besieged by Shadow. You gain a special +10 bonus to your Healer Skill, and a +10 bonus to your Nature Skill Rolls to find healing herbs.
+1 - Gifted (Minor): You´re known among your kin for your extraordinary might, cunningness, or charm. Increase the total value of a Stat of your choice by 5. Add a title, moniker, or epithet that describe the trait your known for to your name (e.g.: Tharos the Mighty, Illydriel the Fair, etc). --> Swiftness ("Flash" Robbie)
+
+Armor has a -10 to Move because of the shield (Offset by armor skill)
+Abilities: Offensive Bonus has a -5 because of the shield
+]]></notes>
+<avatar/>
+<developmentHistory>
+<levelUp newLevel="3">
+<statGains>
+</statGains>
+<skillDevelopments>
+<skillDevelopment skillName="Wandering" numberOfRanks="1"/>
+<skillDevelopment skillName="Athletics" numberOfRanks="1"/>
+<skillDevelopment skillName="Blunt" numberOfRanks="2"/>
+<skillDevelopment skillName="Locks &amp; Traps" numberOfRanks="2"/>
+<skillDevelopment skillName="Intimidation" numberOfRanks="2"/>
+<skillDevelopment skillName="Nature" numberOfRanks="2"/>
+<skillDevelopment skillName="Perception" numberOfRanks="2"/>
+<skillDevelopment skillName="Healer" numberOfRanks="1"/>
+<skillDevelopment skillName="Brawl" numberOfRanks="1"/>
+<skillDevelopment skillName="Armor" numberOfRanks="1"/>
+<skillDevelopment skillName="Body" numberOfRanks="1"/>
+</skillDevelopments>
+<trainingPackages>
+</trainingPackages>
+</levelUp>
+<levelUp newLevel="2">
+<statGains>
+</statGains>
+<skillDevelopments>
+<skillDevelopment skillName="Assassination" numberOfRanks="2"/>
+<skillDevelopment skillName="Stealth" numberOfRanks="2"/>
+<skillDevelopment skillName="Blunt" numberOfRanks="1"/>
+<skillDevelopment skillName="Songs &amp; Tales" numberOfRanks="1"/>
+<skillDevelopment skillName="Hunting" numberOfRanks="2"/>
+<skillDevelopment skillName="Nature" numberOfRanks="1"/>
+<skillDevelopment skillName="Perception" numberOfRanks="2"/>
+<skillDevelopment skillName="Cooking" numberOfRanks="2"/>
+<skillDevelopment skillName="Ranged" numberOfRanks="2"/>
+<skillDevelopment skillName="Body" numberOfRanks="1"/>
+<skillDevelopment skillName="Armor" numberOfRanks="1"/>
+</skillDevelopments>
+<trainingPackages>
+</trainingPackages>
+</levelUp>
+<levelUp newLevel="1">
+<statGains>
+</statGains>
+<skillDevelopments>
+<skillDevelopment skillName="Wandering" numberOfRanks="1"/>
+<skillDevelopment skillName="Brawl" numberOfRanks="1"/>
+<skillDevelopment skillName="Body" numberOfRanks="1"/>
+<skillDevelopment skillName="Athletics" numberOfRanks="1"/>
+<skillDevelopment skillName="Stealth" numberOfRanks="2"/>
+<skillDevelopment skillName="Blunt" numberOfRanks="1"/>
+<skillDevelopment skillName="Intimidation" numberOfRanks="2"/>
+<skillDevelopment skillName="Hunting" numberOfRanks="1"/>
+<skillDevelopment skillName="Nature" numberOfRanks="1"/>
+<skillDevelopment skillName="Healer" numberOfRanks="1"/>
+<skillDevelopment skillName="Perception" numberOfRanks="1"/>
+<skillDevelopment skillName="Ranged" numberOfRanks="1"/>
+<skillDevelopment skillName="Assassination" numberOfRanks="2"/>
+<skillDevelopment skillName="Armor" numberOfRanks="1"/>
+</skillDevelopments>
+<trainingPackages>
+</trainingPackages>
+</levelUp>
+</developmentHistory>
+<inventory>
+<item name="Full Shield" reference="Shield" weightInPounds="0.0" organicLivingComposition="0.0" organicNonLivingComposition="0.0" effect="Protects Shield arm, Torso." description="Qualities: Rigid.
+Move Actions Penalty: -10
+CMB Penalty: -5
+Melee DEF Bonus: +25
+Missile DEF Bonus: +25">
+<carriedItems>
+<carriedItem quantity="1" location="Worn"/>
+</carriedItems>
+</item>
+<item name="Hide tunic" reference="Culture" weightInPounds="0" organicLivingComposition="0.0" organicNonLivingComposition="0.0" effect="" description="Chosen from Culture">
+<carriedItems>
+<carriedItem quantity="1" location="Worn"/>
+</carriedItems>
+</item>
+<item name="Iron pitons" reference="Culture" weightInPounds="0" organicLivingComposition="0.0" organicNonLivingComposition="0.0" effect="" description="Chosen from Culture">
+<carriedItems>
+<carriedItem quantity="1" location="Backpack"/>
+</carriedItems>
+</item>
+<item name="Quarterstaff" reference="Culture" weightInPounds="0" organicLivingComposition="0.0" organicNonLivingComposition="0.0" effect="" description="Chosen from Culture">
+<carriedItems>
+<carriedItem quantity="1" location="Back"/>
+</carriedItems>
+</item>
+<item name="Rope" reference="Culture" weightInPounds="0" organicLivingComposition="0.0" organicNonLivingComposition="0.0" effect="" description="Chosen from Culture">
+<carriedItems>
+<carriedItem quantity="1" location="Backpack"/>
+</carriedItems>
+</item>
+<item name="Woolen skirt" reference="Culture" weightInPounds="0" organicLivingComposition="0.0" organicNonLivingComposition="0.0" effect="" description="Chosen from Culture">
+<carriedItems>
+<carriedItem quantity="1" location="Worn"/>
+</carriedItems>
+</item>
+</inventory>
+<favoriteSkills>
+<favoriteSkill skillName="Blunt (Troll Mace)" categoryName="Combat" groupName="Combat" classification="Offensive Bonus">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</favoriteSkill>
+<favoriteSkill skillName="Brawl (Claws)" categoryName="Combat" groupName="Combat" classification="Offensive Bonus">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</favoriteSkill>
+<favoriteSkill skillName="Ranged (Shuriken)" categoryName="Combat" groupName="Combat" classification="Offensive Bonus">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</favoriteSkill>
+</favoriteSkills>
+<remainingDevelopmentPoints>0</remainingDevelopmentPoints>
+<stats>
+<stat shortName="BRN" temporary="-5" potential="-5" specialBonus="0"/>
+<stat shortName="SWI" temporary="25" potential="25" specialBonus="5"/>
+<stat shortName="FOR" temporary="5" potential="5" specialBonus="0"/>
+<stat shortName="WIT" temporary="20" potential="20" specialBonus="0"/>
+<stat shortName="WSD" temporary="15" potential="15" specialBonus="0"/>
+<stat shortName="BEA" temporary="-10" potential="-10" specialBonus="0"/>
+</stats>
+<categories>
+<category categoryName="Adventuring" groupName="Adventuring" cost="1/1" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0" developmentModifier="4"/>
+<category categoryName="Armor" groupName="Armor" cost="1/1" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0" developmentModifier="1"/>
+<category categoryName="Body" groupName="Body" cost="1/1" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0" developmentModifier="1"/>
+<category categoryName="Combat" groupName="Combat" cost="1/1" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0" developmentModifier="3"/>
+<category categoryName="Lore" groupName="Lore" cost="1/1" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0" developmentModifier="1"/>
+<category categoryName="Magic Points" groupName="Magic Points" cost="2/*" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0" developmentModifier="0"/>
+<category categoryName="Roguery" groupName="Roguery" cost="1/1" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0" developmentModifier="5"/>
+<category categoryName="Spell Lores" groupName="Spell Lores" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0" developmentModifier="0"/>
+</categories>
+<skills>
+<skill skillName="Athletics" categoryName="Adventuring" groupName="Adventuring" classification="Moving Maneuver" cost="1/1" ranks="4" itemBonus="0" professionBonus="5" specialBonus="0">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</skill>
+<skill skillName="Cooking" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver" cost="1/0" ranks="2" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skill>
+<skill skillName="Hunting" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver" cost="1/1" ranks="4" itemBonus="0" professionBonus="5" specialBonus="0">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skill>
+<skill skillName="Hunting (natural environment)" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver" cost="1/1" ranks="4" itemBonus="0" professionBonus="5" specialBonus="20">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skill>
+<skill skillName="Nature" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver" cost="1/1" ranks="5" itemBonus="0" professionBonus="5" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Nature (find healing herbs)" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver" cost="1/1" ranks="5" itemBonus="0" professionBonus="5" specialBonus="10">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Ride" categoryName="Adventuring" groupName="Adventuring" classification="Moving Maneuver" cost="1/1" ranks="0" itemBonus="0" professionBonus="5" specialBonus="0">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skill>
+<skill skillName="Wandering" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver" cost="1/1" ranks="3" itemBonus="0" professionBonus="5" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Wandering (natural environment)" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver" cost="1/1" ranks="3" itemBonus="0" professionBonus="5" specialBonus="20">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Armor" categoryName="Armor" groupName="Armor" classification="Special Maneuver" cost="1/1" ranks="4" itemBonus="0" professionBonus="0" specialBonus="0">
+</skill>
+<skill skillName="Body" categoryName="Body" groupName="Body" classification="Special Maneuver" cost="1/1" ranks="4" itemBonus="0" professionBonus="5" specialBonus="60">
+<Stats>
+<Stat shortName="FOR"/>
+</Stats>
+</skill>
+<skill skillName="Battle Frenzy" categoryName="Combat" groupName="Combat" classification="Moving Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Blades" categoryName="Combat" groupName="Combat" classification="Special Maneuver" cost="1/1" ranks="0" itemBonus="0" professionBonus="10" specialBonus="0">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</skill>
+<skill skillName="Blunt" categoryName="Combat" groupName="Combat" classification="Special Maneuver" cost="1/1" ranks="4" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</skill>
+<skill skillName="Blunt (Troll Mace)" categoryName="Combat" groupName="Combat" classification="Offensive Bonus" cost="1/1" ranks="4" itemBonus="0" professionBonus="0" specialBonus="0" tableName="Blunt" effectAdjustment="0" failure="5" effect="Impact">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</skill>
+<skill skillName="Brawl" categoryName="Combat" groupName="Combat" classification="Special Maneuver" cost="1/1" ranks="4" itemBonus="0" professionBonus="5" specialBonus="0">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</skill>
+<skill skillName="Brawl (Claws)" categoryName="Combat" groupName="Combat" classification="Offensive Bonus" cost="1/1" ranks="4" itemBonus="0" professionBonus="5" specialBonus="0" tableName="Beast" effectAdjustment="0" failure="2" effect="Cut" maximumResult="140">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</skill>
+<skill skillName="Dual Weapons Training" categoryName="Combat" groupName="Combat" classification="Special Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+</skill>
+<skill skillName="Intimidation" categoryName="Combat" groupName="Combat" classification="Static Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="BEA"/>
+</Stats>
+</skill>
+<skill skillName="Polearms" categoryName="Combat" groupName="Combat" classification="Special Maneuver" cost="1/1" ranks="2" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</skill>
+<skill skillName="Ranged" categoryName="Combat" groupName="Combat" classification="Special Maneuver" cost="1/1" ranks="4" itemBonus="0" professionBonus="5" specialBonus="0">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skill>
+<skill skillName="Ranged (Shuriken)" categoryName="Combat" groupName="Combat" classification="Offensive Bonus" cost="1/1" ranks="4" itemBonus="0" professionBonus="5" specialBonus="0" tableName="Missile" effectAdjustment="0" failure="3" effect="Pierce" maximumResult="130" conditions="0-10:0;11-20:-25;21-30:-50;31-40:-75">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skill>
+<skill skillName="Swashbuckling" categoryName="Combat" groupName="Combat" classification="Special Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+</skill>
+<skill skillName="Warfare" categoryName="Combat" groupName="Combat" classification="Static Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skill>
+<skill skillName="Weapon Specialization" categoryName="Combat" groupName="Combat" classification="Special Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+</skill>
+<skill skillName="Arcana" categoryName="Lore" groupName="Lore" classification="Static Maneuver" cost="1/1" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skill>
+<skill skillName="Charisma" categoryName="Lore" groupName="Lore" classification="Static Maneuver" cost="1/1" ranks="1" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="BEA"/>
+</Stats>
+</skill>
+<skill skillName="Craftsmanship" categoryName="Lore" groupName="Lore" classification="Static Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Cultures" categoryName="Lore" groupName="Lore" classification="Static Maneuver" cost="1/1" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skill>
+<skill skillName="Healer" categoryName="Lore" groupName="Lore" classification="Static Maneuver" cost="1/1" ranks="2" itemBonus="0" professionBonus="0" specialBonus="10">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Meditation" categoryName="Lore" groupName="Lore" classification="Static Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Scholarship" categoryName="Lore" groupName="Lore" classification="Static Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skill>
+<skill skillName="Songs &amp; Tales" categoryName="Lore" groupName="Lore" classification="Static Maneuver" cost="1/1" ranks="4" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="BEA"/>
+</Stats>
+</skill>
+<skill skillName="Stewardship" categoryName="Lore" groupName="Lore" classification="Static Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Magic Points" categoryName="Magic Points" groupName="Magic Points" classification="Special Maneuver" cost="2/*" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="BEA"/>
+</Stats>
+</skill>
+<skill skillName="Acrobatics" categoryName="Roguery" groupName="Roguery" classification="Moving Maneuver" cost="1/1" ranks="2" itemBonus="0" professionBonus="20" specialBonus="0">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skill>
+<skill skillName="Assassination" categoryName="Roguery" groupName="Roguery" classification="Static Maneuver" cost="1/0" ranks="4" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skill>
+<skill skillName="Deceive" categoryName="Roguery" groupName="Roguery" classification="Static Maneuver" cost="1/1" ranks="0" itemBonus="0" professionBonus="20" specialBonus="0">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skill>
+<skill skillName="Intimidation" categoryName="Roguery" groupName="Roguery" classification="Static Maneuver" cost="1/0" ranks="4" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="BEA"/>
+</Stats>
+</skill>
+<skill skillName="Locks &amp; Traps" categoryName="Roguery" groupName="Roguery" classification="Static Maneuver" cost="1/1" ranks="3" itemBonus="0" professionBonus="20" specialBonus="0">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skill>
+<skill skillName="Perception" categoryName="Roguery" groupName="Roguery" classification="Static Maneuver" cost="1/1" ranks="6" itemBonus="0" professionBonus="20" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Quick Draw" categoryName="Roguery" groupName="Roguery" classification="Special Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+</skill>
+<skill skillName="Stealth" categoryName="Roguery" groupName="Roguery" classification="Moving Maneuver" cost="1/1" ranks="7" itemBonus="0" professionBonus="20" specialBonus="0">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skill>
+<skill skillName="Stealth (natural environment)" categoryName="Roguery" groupName="Roguery" classification="Moving Maneuver" cost="1/1" ranks="7" itemBonus="0" professionBonus="20" specialBonus="20">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skill>
+<skill skillName="Swift Step" categoryName="Roguery" groupName="Roguery" classification="Moving Maneuver" cost="1/0" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skill>
+<skill skillName="Chanting" categoryName="Spell Lores" groupName="Spell Lores" classification="Spell Casting Maneuver" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Cleansing" categoryName="Spell Lores" groupName="Spell Lores" classification="Spell Casting Maneuver" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Detections" categoryName="Spell Lores" groupName="Spell Lores" classification="Spell Casting Maneuver" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Eldritch Might" categoryName="Spell Lores" groupName="Spell Lores" classification="Spell Casting Maneuver" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="BEA"/>
+</Stats>
+</skill>
+<skill skillName="Eldritch Visions" categoryName="Spell Lores" groupName="Spell Lores" classification="Spell Casting Maneuver" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="BEA"/>
+</Stats>
+</skill>
+<skill skillName="Eldritch Wards" categoryName="Spell Lores" groupName="Spell Lores" classification="Spell Casting Maneuver" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skill>
+<skill skillName="Lore of Nature" categoryName="Spell Lores" groupName="Spell Lores" classification="Spell Casting Maneuver" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Movements of Nature" categoryName="Spell Lores" groupName="Spell Lores" classification="Spell Casting Maneuver" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Natures Path" categoryName="Spell Lores" groupName="Spell Lores" classification="Spell Casting Maneuver" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skill>
+<skill skillName="Sounds &amp; Lights" categoryName="Spell Lores" groupName="Spell Lores" classification="Spell Casting Maneuver" cost="2/2" ranks="0" itemBonus="0" professionBonus="0" specialBonus="0">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skill>
+</skills>
+<rankBindings>
+<skillWithRankBinding conversionRatio="1">
+<skillDefinition skillName="Wandering (natural environment)" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skillDefinition>
+<sourceDefinition skillName="Wandering" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</sourceDefinition>
+</skillWithRankBinding>
+<skillWithRankBinding conversionRatio="1">
+<skillDefinition skillName="Ranged (Shuriken)" categoryName="Combat" groupName="Combat" classification="Offensive Bonus">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skillDefinition>
+<sourceDefinition skillName="Ranged" categoryName="Combat" groupName="Combat" classification="Special Maneuver">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</sourceDefinition>
+</skillWithRankBinding>
+<skillWithRankBinding conversionRatio="1">
+<skillDefinition skillName="Brawl (Claws)" categoryName="Combat" groupName="Combat" classification="Offensive Bonus">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</skillDefinition>
+<sourceDefinition skillName="Brawl" categoryName="Combat" groupName="Combat" classification="Special Maneuver">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</sourceDefinition>
+</skillWithRankBinding>
+<skillWithRankBinding conversionRatio="1">
+<skillDefinition skillName="Blunt (Troll Mace)" categoryName="Combat" groupName="Combat" classification="Offensive Bonus">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</skillDefinition>
+<sourceDefinition skillName="Blunt" categoryName="Combat" groupName="Combat" classification="Special Maneuver">
+<Stats>
+<Stat shortName="BRN"/>
+</Stats>
+</sourceDefinition>
+</skillWithRankBinding>
+<skillWithRankBinding conversionRatio="1">
+<skillDefinition skillName="Nature (find healing herbs)" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</skillDefinition>
+<sourceDefinition skillName="Nature" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver">
+<Stats>
+<Stat shortName="WSD"/>
+</Stats>
+</sourceDefinition>
+</skillWithRankBinding>
+<skillWithRankBinding conversionRatio="1">
+<skillDefinition skillName="Stealth (natural environment)" categoryName="Roguery" groupName="Roguery" classification="Moving Maneuver">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</skillDefinition>
+<sourceDefinition skillName="Stealth" categoryName="Roguery" groupName="Roguery" classification="Moving Maneuver">
+<Stats>
+<Stat shortName="SWI"/>
+</Stats>
+</sourceDefinition>
+</skillWithRankBinding>
+<skillWithRankBinding conversionRatio="1">
+<skillDefinition skillName="Hunting (natural environment)" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</skillDefinition>
+<sourceDefinition skillName="Hunting" categoryName="Adventuring" groupName="Adventuring" classification="Static Maneuver">
+<Stats>
+<Stat shortName="WIT"/>
+</Stats>
+</sourceDefinition>
+</skillWithRankBinding>
+</rankBindings>
+</character>

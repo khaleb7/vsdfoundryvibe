@@ -1,0 +1,56 @@
+name: Bloodhound
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Bloodhound: Your kin are master trackers and their noses are incredibly
+    sensitive. They gain a +25 bonus to Hunting Rolls made to track their prey,
+    and a +10 to their Perception skill.
+  chartype: CharacterVsD
+  group: kin
+  inEffect: false
+  alwaysOn: true
+  attack: false
+  defence: false
+  skill: true
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 25
+      formula: '+25'
+      category: skill
+      targets: Hunting
+      moddedvalue: 25
+    - value: 10
+      formula: '+10'
+      category: skill
+      targets: Perception
+      moddedvalue: 10
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689459456360
+  modifiedTime: 1697655936836
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: IU2IndcVnQBMU4i0
+sort: 0
+_key: '!items!IU2IndcVnQBMU4i0'
+

@@ -1,0 +1,69 @@
+name: Burglar
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.ZrVIe5ppehvACxeW
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Burglar
+      type: Trait
+      system:
+        notes: >-
+          You are trained as a professional burglar, or expert treasure-hunter,
+          if you prefer. Your services are usually sought by those who'd like to
+          acquire precious (and often carefully guarded) items with a certain
+          discretion.
+
+          - Minor (cost 1 BP):  You gain one rank in Stealth and one rank in
+          Locks & Traps. Additionally, you can always eyeball the approximate
+          value of any precious item you see, even with a single glance.
+
+          - Major (3 BPs):  Moreover, whenever you attack an opponent
+          bare-handed or using a Hand weapon, you may use a Free Action to make
+          a Stealth Roll. If you succeed, you may pilfer a non-fixed small item
+          within your reach, as long as no one is holding or wielding it.
+          However, you've stolen something from someone, and now they'll be
+          hunting you to get it back.
+        chartype: CharacterVsD
+        category: quirk
+    - name: 'Ranks:  Burglar'
+      type: Variable
+      system:
+        notes: You gain one rank in Stealth and one rank in Locks & Traps.
+        chartype: CharacterVsD
+        value: 0
+        formula: ''
+        label: ''
+        entries:
+          '0':
+            value: 1
+            formula: '1'
+            label: Stealth
+          '1':
+            value: 1
+            formula: '1'
+            label: Locks & Traps
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485217
+  modifiedTime: 1697655934979
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.ZrVIe5ppehvACxeW
+  duplicateSource: null
+_id: A0E8NuKBfrclArST
+sort: 0
+_key: '!items!A0E8NuKBfrclArST'
+

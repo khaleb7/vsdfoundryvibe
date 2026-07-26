@@ -1,0 +1,50 @@
+﻿name,hands,skill,clumsy,length,attack,max,crit,range,qualities,skillname,attacktable,crittable,formula
+Arming Sword,1H,Blades,3,Long,Edged,140,Cut,-,Martial,Blades,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@blades
+Armored Fist,1H,Brawl,1,Hand,Unarmed,120,Impact,-,90/120/140/150/175,Brawl,7.4 Unarmed/Grapple Attack Table,7.9 Impact Critical Strikes Table,@brawl
+Ball & Chain,1H,Blunt,8,Short,Blunt,150,Impact,-,Unreliable,Blunt,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@blunt
+Bardiche,2H,Polearm,7,Longest,Edged,175,Cut,-,"Reach, Mighty",Polearm,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@polearm
+Bardiche,2H,Polearm,7,Longest,Edged,175,Pierce,-,"Reach, Mighty",Polearm,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@polearm
+Battle Axe,1H,Blunt,5,Long,Edged,150,Cut,-,Hand and Half,Blunt,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@blunt
+Battle Axe,1H,Blades -20,5,Long,Edged,150,Impact,-,Hand and Half,Blades,7.1 Edged Attack Table,7.9 Impact Critical Strikes Table,@blades -20
+Battle Axe,1H,Blunt,5,Long,Edged,150,Impact,-,Hand and Half,Blunt,7.1 Edged Attack Table,7.9 Impact Critical Strikes Table,@blunt
+Battle Axe,1H,Blades -20,5,Long,Edged,150,Cut,-,Hand and Half,Blades,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@blades -20
+Club,1H,Blunt,4,Hand,Blunt,110,Impact,-,,Blunt,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@blunt
+Dagger,1H,Brawl,1,Hand,Edged,120,Pierce,-,Backstab,Brawl,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@brawl
+Dagger,1H,Blades,1,Hand,Edged,120,Pierce,-,Backstab,Blades,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@blades
+Falchion,1H,Blades,5,Short,Edged,150,Cut,-,Martial,Blades,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@blades
+Flail,2H,Blunt,8,Long,Blunt,175,Impact,-,"Unrealiable, Heavy, Mighty",Blunt,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@blunt
+Footman's Mace,2H,Blunt,5,Long,Blunt,150,Impact,-,"Heavy, Mighty, Martial",Blunt,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@blunt
+Grappling,2H,Brawl,5,Hand,Unarmed,120,Grapple,-,80/120/140/150/175,Brawl,7.4 Unarmed/Grapple Attack Table,7.12 Grapple Critical Strikes Table,@brawl
+Greataxe,2H,Polearms,6,Long,Edged,175,Cut,-,"Heavy, Mighty",Polearms,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@polearms
+Greataxe,2H,Blunt -10,6,Long,Edged,175,Impact,-,"Heavy, Mighty",Blunt,7.1 Edged Attack Table,7.9 Impact Critical Strikes Table,@blunt -10
+Greataxe,2H,Polearms,6,Long,Edged,175,Impact,-,"Heavy, Mighty",Polearms,7.1 Edged Attack Table,7.9 Impact Critical Strikes Table,@polearms
+Greataxe,2H,Blunt -10,6,Long,Edged,175,Cut,-,"Heavy, Mighty",Blunt,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@blunt -10
+Halberd,2H,Polearm,6,Longest,Edged,150,Cut,-,"Mighty, Martial",Polearm,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@polearm
+Halberd,2H,Polearm,6,Longest,Edged,150,Pierce,-,"Mighty, Martial",Polearm,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@polearm
+Handaxe,1H,Blunt,2,Hand,Blunt,130,Cut,-,,Blunt,7.2 Blunt Attack Table,7.10 Cut Critical Strikes Table,@blunt
+Handaxe,1H,Blades -20,2,Hand,Blunt,130,Impact,-,,Blades,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@blades -20
+Handaxe,1H,Blunt,2,Hand,Blunt,130,Impact,-,,Blunt,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@blunt
+Handaxe,1H,Blades -20,2,Hand,Blunt,130,Cut,-,,Blades,7.2 Blunt Attack Table,7.10 Cut Critical Strikes Table,@blades -20
+Heavy Mace,1H,Blunt,3,Short,Blunt,140,Impact,-,Martial,Blunt,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@blunt
+Kick,1H,Brawl,4,Hand,Unarmed,120,Impact,-,90/120/140/150/175,Brawl,7.4 Unarmed/Grapple Attack Table,7.9 Impact Critical Strikes Table,@brawl
+Lance,2H,Polearm,8,Longest,Edged,175,Pierce,-,Mighty,Polearm,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@polearm
+Light Mace,1H,Blunt,2,Short,Blunt,120,Impact,-,Martial,Blunt,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@blunt
+Long Spear,2H,Polearm,6,Longest,Edged,175,Pierce,-,"Reach, Mighty",Polearm,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@polearm
+Longsword,1H,Blades,4,Long,Edged,150,Cut,-,"Hand and a Half, Martial",Blades,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@blades
+Longsword,1H,Blades,4,Long,Edged,150,Pierce,-,"Hand and a Half, Martial",Blades,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@blades
+Mattock,2H,Blunt,5,Long,Blunt,175,Impact,-,"Heavy, Mighty",Blunt,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@blunt
+Mattock,2H,Blunt,5,Long,Blunt,175,Pierce,-,"Heavy, Mighty",Blunt,7.2 Blunt Attack Table,7.11 Pierce Critical Strikes Table,@blunt
+Punch,1H,Brawl,1,Hand,Unarmed,110,Impact,-,80/110/130/150/175,Brawl,7.4 Unarmed/Grapple Attack Table,7.9 Impact Critical Strikes Table,@brawl
+Quarterstaff,2H,Polearm,6,Long,Blunt,130,Impact,-,,Polearm,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@polearm
+Rapier,1H,Blades,4,Long,Edged,130,Pierce,-,Martial,Blades,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@blades
+Rapier,1H,Blades,4,Long,Edged,130,Cut,-,Martial,Blades,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@blades
+Scimitar,1H,Blades,3,Short,Edged,140,Cut,-,Martial,Blades,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@blades
+Short Spear,1H,Polearm,5,Long,Edged,140,Pierce,-,Hand and a Half,Polearm,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@polearm
+Short Sword,1H,Blades,2,Short,Edged,130,Cut,-,Backstab,Blades,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@blades
+Short Sword,1H,Blades,2,Short,Edged,130,Pierce,-,Backstab,Blades,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@blades
+Two Handed Sword,2H,Blades,6,Long,Edged,175,Cut,-,"Heavy, Mighty",Blades,7.1 Edged Attack Table,7.10 Cut Critical Strikes Table,@blades
+Two Handed Sword,2H,Blades,6,Long,Edged,175,Pierce,-,"Heavy, Mighty",Blades,7.1 Edged Attack Table,7.11 Pierce Critical Strikes Table,@blades
+War Hammer,1H,Blunt,4,Short,Blunt,130,Impact,-,Martial,Blunt,7.2 Blunt Attack Table,7.9 Impact Critical Strikes Table,@blunt
+War Hammer,1H,Blunt,4,Short,Blunt,130,Pierce,-,Martial,Blunt,7.2 Blunt Attack Table,7.11 Pierce Critical Strikes Table,@blunt
+Whip,1H,Blunt,8,Longest,Blunt,130,Grapple,-,"Heavy, Reach, Martial",Blunt,7.2 Blunt Attack Table,7.12 Grapple Critical Strikes Table,@blunt
+Whip,1H,Blunt,8,Longest,Blunt,130,Cut,-,"Heavy, Reach, Martial",Blunt,7.2 Blunt Attack Table,7.10 Cut Critical Strikes Table,@blunt

@@ -1,0 +1,169 @@
+folder: X2A9C0U09t5jbIKV
+name: 'Vocation: Warrior'
+type: Container
+img: icons/skills/trades/construction-mason-bricklayer-red.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped:
+    - Uq94VqKlTxZ8T6J3
+    - WzH3nMtuV75KPLXQ
+  entries:
+    - name: 'Vocation: Warrior (modifiers)'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: nzenJvOYicdXBzd3
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.Item.cGiMr2pwJMXGJnkY
+      system:
+        notes: ''
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 15
+            formula: '15'
+            category: reaction
+            targets: Body
+          '1':
+            value: 15
+            formula: '15'
+            category: primary
+            targets: KinVoc
+          '2':
+            value: 20
+            formula: '20'
+            category: attack
+            targets: Blunt, Blades, Polearms, Ranged, Brawl
+          '3':
+            value: 20
+            formula: '20'
+            category: skill
+            targets: Blunt, Blades, Polearms, Ranged, Brawl
+          '4':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Athletics, Ride
+          '5':
+            value: 5
+            formula: '5'
+            category: skill
+            targets: Hunting, Nature, Wandering
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        sGlDK3lZYQBI8GMZ: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.30'
+        coreVersion: '11.305'
+        createdTime: 1676409485524
+        modifiedTime: 1689511614231
+        lastModifiedBy: sGlDK3lZYQBI8GMZ
+      _id: srdaotwbnmXrD7a8
+      sort: 0
+    - name: 'Vocation: Warrior'
+      type: Variable
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: nzenJvOYicdXBzd3
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.Item.mfdLDsR4T907mNj0
+      system:
+        notes: 'Magic Stat: BEA'
+        chartype: CharacterVsD
+        group: Variable
+        value: 2
+        formula: '2'
+        label: Armor
+        entries:
+          '0':
+            value: 2
+            formula: '2'
+            label: Armor
+          '1':
+            value: 5
+            formula: '5'
+            label: Combat
+          '2':
+            value: 4
+            formula: '4'
+            label: Adventuring
+          '3':
+            value: 2
+            formula: '2'
+            label: Roguery
+          '4':
+            value: 0
+            formula: '0'
+            label: Lore
+          '5':
+            value: 0
+            formula: '0'
+            label: Spells
+          '6':
+            value: 2
+            formula: '2'
+            label: Body
+          '7':
+            value: 0
+            formula: '0'
+            label: MP per Level
+        temporary: false
+        once: false
+        sort: -1
+        moddedformula: '2'
+        moddedvalue: 2
+      ownership:
+        default: 0
+        sGlDK3lZYQBI8GMZ: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.Item.mfdLDsR4T907mNj0
+        duplicateSource: null
+        coreVersion: '12.343'
+        systemId: vsd
+        systemVersion: '12.289'
+        createdTime: 1755872468555
+        modifiedTime: 1755875445954
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+      _id: KouBSQTYd8R0cR1Q
+      sort: 0
+effects: []
+ownership:
+  default: 0
+  sGlDK3lZYQBI8GMZ: 3
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '12.289'
+  coreVersion: '12.343'
+  createdTime: 1689511657905
+  modifiedTime: 1755876922685
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: cP7zrqVZbcNALLcj
+sort: 300000
+_key: '!items!cP7zrqVZbcNALLcj'
+

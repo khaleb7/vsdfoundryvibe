@@ -1,0 +1,36 @@
+name: Toughness Saving Roll
+type: Defence
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: >-
+    Toughness Save Rolls (TSR) represent a character’s innate resistance to
+    physical threats, such as fatigue, poison, disease, and similar effects.
+  chartype: CharacterVsD
+  group: block
+  weight: 0
+  value: 0
+  formula: '0'
+  category: block
+  forceUpdate: false
+  sort: -1
+  moddedvalue: 5
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377589549
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: 6oR8JyvDdFqF26y9
+sort: 5100000
+_key: '!items!6oR8JyvDdFqF26y9'
+

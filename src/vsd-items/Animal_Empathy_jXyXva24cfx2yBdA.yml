@@ -1,0 +1,37 @@
+name: Animal Empathy
+type: Trait
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Animal Empathy: Your Kin’s connection with the spirits of Nature grant them
+    a basic understanding of animal behaviour. They instinctively understand the
+    emotional state (nervous, hungry, afraid, etc) displayed by any animal they
+    see. This does not extend to beast-like monsters or animals under any kind
+    of magical influence, which will simply feel “wrong” to any of your Kin
+    observing them.
+  chartype: CharacterVsD
+  group: kin
+  applied: false
+  category: perk
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689459428676
+  modifiedTime: 1697655935046
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: jXyXva24cfx2yBdA
+sort: 0
+_key: '!items!jXyXva24cfx2yBdA'
+

@@ -1,0 +1,61 @@
+name: Animal Healing
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.L6YD2oqniddcIdEc
+pages:
+  - name: Animal Healing
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Master of Animals"> <td>Lore:</td> <td>Master of Animals
+        </td> </tr> <tr> <td>Weave:</td> <td>9th </td> </tr> <tr
+        class="rollable" data-type="spell" data-table="Master of Animals"
+        data-weave="9th" data-spell="Animal Healing" data-range="0 (touch)"
+        data-aoe="1 animal" data-duration="-" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Animal Healing </td> </tr> <tr> <td>Range:</td> <td>0
+        (touch) </td> </tr> <tr> <td>Area of Effect:</td> <td>1 animal </td>
+        </tr> <tr> <td>Duration:</td> <td>- </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: Yb34fKsjQIqm8yOs
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!cjD7E2itxNWAq1KW.Yb34fKsjQIqm8yOs'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.L6YD2oqniddcIdEc
+  duplicateSource: null
+_id: cjD7E2itxNWAq1KW
+sort: 0
+_key: '!journal!cjD7E2itxNWAq1KW'
+

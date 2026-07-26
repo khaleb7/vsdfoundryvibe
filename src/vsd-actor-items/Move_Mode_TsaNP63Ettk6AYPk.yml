@@ -1,0 +1,51 @@
+name: Move Mode
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: note
+  chartype: CharacterVsD
+  group: Variable
+  value: 15
+  formula: '@land / @encumbrance'
+  label: Land
+  entries:
+    - value: 0
+      formula: '0'
+      label: None
+    - value: 0
+      formula: '@land / @encumbrance'
+      label: Land
+    - value: 0
+      formula: '@flight / @encumbrance'
+      label: Flight
+    - value: 0
+      formula: '@swim / @encumbrance'
+      label: Swim
+    - value: 0
+      formula: '@burrow/ @encumbrance'
+      label: Burrow
+  temporary: false
+  once: false
+  sort: -1
+  moddedformula: '0'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667220792937
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: TsaNP63Ettk6AYPk
+sort: 1800000
+_key: '!items!TsaNP63Ettk6AYPk'
+

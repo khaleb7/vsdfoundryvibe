@@ -1,0 +1,237 @@
+name: 2.42 Missile Weapons Fumble Table
+folder: CUIqKKkavMRUhsGr
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-misc-tables.JournalEntry.dl9lwLphLbQT5joy
+  exportSource:
+    world: vsd-vsd-test
+    system: vsd
+    coreVersion: 0.7.9
+    systemVersion: '0.45'
+pages:
+  - name: 2.42 Missile Weapons Fumble Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="missilefumblestable">
+
+        <tbody>
+
+        <tr class="tableheaderrow">
+
+        <td class="roll">Roll</td>
+
+        <td class="resultdescription">Result</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="missilefumble" data-table="2.42
+        Missile Weapons Fumble Table" data-roll="01-75" data-result="The
+        character must make an Assessment Roll during the next Assessment
+        Phase.">
+
+        <td class="roll">01-75</td>
+
+        <td class="resultdescription">The character must make an Assessment Roll
+        during the next Assessment Phase.</td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">76-100</td>
+
+        <td class="resultdescription">The character must make an Assessment Roll
+        during the next Assessment Phase and gets to choose one:
+
+        <ul>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="76-100" data-result="The character must
+        make an Assessment Roll during the next Assessment Phase and Drops
+        weapon.">Drops weapon.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="76-100" data-result="The character must
+        make an Assessment Roll during the next Assessment Phase and Drops all
+        ammunition.">Drops all ammunition.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="76-100" data-result="The character must
+        make an Assessment Roll during the next Assessment Phase and Breaks the
+        weapon’s string (if applicable).">Breaks the weapon’s string (if
+        applicable).</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">101-125</td>
+
+        <td class="resultdescription">The character must make an Assessment Roll
+        during the next Assessment Phase and gets to choose two:
+
+        <ul>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="101-125" data-result="The character
+        must make an Assessment Roll during the next Assessment Phase and Drops
+        weapon.">Drops weapon.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="101-125" data-result="The character
+        must make an Assessment Roll during the next Assessment Phase and Drops
+        all ammunition.">Drops all ammunition.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="101-125" data-result="The character
+        must make an Assessment Roll during the next Assessment Phase and Breaks
+        the weapon’s string - if applicable.">Breaks the weapon’s string (if
+        applicable).</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="101-125" data-result="The character
+        must make an Assessment Roll during the next Assessment Phase and Takes
+        a Superficial Critical Strike of the appropriate type.">Takes a
+        Superficial Critical Strike of the appropriate type.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="101-125" data-result="The character
+        must make an Assessment Roll during the next Assessment Phase and
+        Inflicts a Superficial Critical Strike of the appropriate type on an
+        ally within the weapon’s range (if applicable).">Inflicts a Superficial
+        Critical Strike of the appropriate type on an ally within the weapon’s
+        range (if applicable).</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">126-150</td>
+
+        <td class="resultdescription">The character is Stunned and gets to
+        choose two:
+
+        <ul>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="126-150" data-result="The character
+        must make an Assessment Roll during the next Assessment Phase and Breaks
+        weapon.">Breaks weapon.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="126-150" data-result="The character
+        must make an Assessment Roll during the next Assessment Phase and Drops
+        all ammunition.">Drops all ammunition.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="126-150" data-result="The character
+        must make an Assessment Roll during the next Assessment Phase and Takes
+        a Light Critical Strike of the appropriate type.">Takes a Light Critical
+        Strike of the appropriate type.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="126-150" data-result="The character
+        must make an Assessment Roll during the next Assessment Phase and
+        Inflicts a Light Critical Strike of the appropriate type on an ally
+        within the weapon’s range (if applicable).">Inflicts a Light Critical
+        Strike of the appropriate type on an ally within the weapon’s range (if
+        applicable).</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">151+</td>
+
+        <td class="resultdescription">The character is Stunned and gets to
+        choose three:
+
+        <ul>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="151+" data-result="The character must
+        make an Assessment Roll during the next Assessment Phase and Breaks
+        weapon.">Breaks weapon.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="151+" data-result="The character must
+        make an Assessment Roll during the next Assessment Phase and Drops all
+        ammunition.">Drops all ammunition.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="151+" data-result="The character must
+        make an Assessment Roll during the next Assessment Phase and Takes a
+        Light Critical Strike of the appropriate type.">Takes a Light Critical
+        Strike of the appropriate type.</li>
+
+        <li class="rollable" data-type="missilefumble" data-table="2.42 Missile
+        Weapons Fumble Table" data-roll="151+" data-result="The character must
+        make an Assessment Roll during the next Assessment Phase and Inflicts a
+        Light Critical Strike of the appropriate type on an ally within the
+        weapon’s range (if applicable).">Inflicts a Light Critical Strike of the
+        appropriate type on an ally within the weapon’s range (if
+        applicable).</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+    _id: msFckH2c46GGxTf3
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!419Dytl5QhgPGebW.msFckH2c46GGxTf3'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519512416
+  modifiedTime: 1689519567801
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-misc-tables.JournalEntry.dl9lwLphLbQT5joy
+  duplicateSource: null
+_id: 419Dytl5QhgPGebW
+sort: 0
+_key: '!journal!419Dytl5QhgPGebW'
+

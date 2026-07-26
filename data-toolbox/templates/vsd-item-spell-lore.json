@@ -1,0 +1,10 @@
+{
+    "name": "{{spelllore}}",
+    "type": "Rollable",
+    "data": {
+      "notes": "The level of mastery of the {{spelllore}} Spell Lore.",
+      "value": 0,
+      "formula": "&0",
+      "category": "spell"
+    }
+  }

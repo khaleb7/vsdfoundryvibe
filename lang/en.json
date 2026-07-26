@@ -1,0 +1,688 @@
+{
+  "local": {
+    "system": {
+      "title": "Against the Darkmaster",
+      "description": "A flexible game aid for VsD in the Foundry VTT environment.",
+      "stats": {
+        "Brawn": "Brawn",
+        "brn": "brn",
+        "Swiftness": "Swiftness",
+        "swi": "swi",
+        "Fortitude": "Fortitude",
+        "for": "for",
+        "Wits": "Wits",
+        "wit": "wit",
+        "Wisdom": "Wisdom",
+        "wsd": "wsd",
+        "Bearing": "Bearing",
+        "bea": "bea",
+        "nil": "nil"
+      },
+      "saves": {
+        "Willpower": "Willpower",
+        "Toughness": "Toughness"
+      },
+      "skills": {
+        "Armor": "Armor",
+        "Body": "Body",
+        "Blunt": "Blunt",
+        "Blades": "Blades",
+        "Ranged": "Ranged",
+        "Polearms": "Polearms",
+        "Brawl": "Brawl",
+        "Athletics": "Athletics",
+        "Ride": "Ride",
+        "Hunting": "Hunting",
+        "Nature": "Nature",
+        "Wandering": "Wandering",
+        "Acrobatics": "Acrobatics",
+        "Stealth": "Stealth",
+        "Locks & Traps": "Locks & Traps",
+        "Perception": "Perception",
+        "Deceive": "Deceive",
+        "Arcana": "Arcana",
+        "Charisma": "Charisma",
+        "Cultures": "Cultures",
+        "Healer": "Healer",
+        "Songs & Tales": "Songs & Tales"
+      },
+      "skillcats": {
+        "Armor": "Armor",
+        "Combat": "Combat",
+        "Adventuring": "Adventuring",
+        "Roguery": "Roguery",
+        "Lore": "Lore",
+        "Body": "Body",
+        "Spell Lores": "Spell Lores"
+      }
+    },
+    "sheet": {
+      "edit": "Edit",
+      "clone": "Clone",
+      "delete": "Delete"
+    },
+    "phrases": {
+      "defence": "Makes a <b>{name}</b> roll",
+      "attack": "Attempts an attack with <b>{name}</b>",
+      "damage": "Rolls damage for <b>{name}</b>",
+      "modlist": "The modified value for <b>{name}</b> is:",
+      "skill": "Makes a check against the <b>{name}</b> skill",
+      "spell": "Casts a weave from <b>{name}</b> Lore",
+      "reaction": "Makes a <b>{name}</b> check",
+      "check": "Makes a check against <b>{name}</b>",
+      "dodge": "Makes a Standard roll for <b>{name}</b>",
+      "block": "Makes an Open-Ended roll for <b>{name}</b>",
+      "parry": "Makes an Open-Ended roll for <b>{name}</b>"
+    },
+    "tables": {
+      "action": "2.1 Action Resolution Table",
+      "area": "7.5 Area Spells Attack Table",
+      "beasta": "7.7 Beast Attack Table",
+      "beastc": "7.8 Beast Critical Strikes",
+      "blunt": "7.2 Blunt Attack Table",
+      "bolt": "7.6 Bolt Spells Attack Table",
+      "casting": "2.6 Spell Casting Table",
+      "cut": "7.10 Cut Critical Strikes Table",
+      "dark": "7.16 Dark Magic Critical Strikes",
+      "edged": "7.1 Edged Attack Table",
+      "fear": "3.9 Fear Save Rolls Table",
+      "fire": "7.13 Fire Critical Strikes Table",
+      "frost": "7.15 Frost Critical Strikes Table",
+      "grapple": "7.12 Grapple Critical Strikes Table",
+      "impact": "7.9 Impact Critical Strikes Table",
+      "lightning": "7.14 Lightning Critical Strikes Table",
+      "meleef": "2.42 Melee and Thrown Weapons Fumble Table",
+      "missile": "7.3 Missile Attack Table",
+      "missilef": "2.42 Missile Weapons Fumble Table",
+      "none": "None",
+      "pierce": "7.11 Pierce Critical Strikes Table",
+      "reactc": "3.4 Reaction Rolls (Combat) Table",
+      "reacti": "3.4 Reaction Rolls (Interaction) Table",
+      "resonance": "2.8 Magical Resonance Table",
+      "spellf": "2.10 Spell Failures Table",
+      "unarmed": "7.4 Unarmed/Grapple Attack Table"
+    },
+    "shorttables": {
+      "action": "Action Resolution",
+      "area": "Area Spells",
+      "beasta": "Beast",
+      "beastc": "Beast",
+      "blunt": "Blunt",
+      "bolt": "Bolt Spells",
+      "casting": "Spell Casting",
+      "cut": "Cut",
+      "dark": "Dark Magic",
+      "edged": "Edged",
+      "fear": "Fear",
+      "fire": "Fire",
+      "frost": "Frost",
+      "grapple": "Grapple",
+      "impact": "Impact",
+      "lightning": "Lightning",
+      "meleef": "Melee and Thrown Fumble",
+      "missilef": "Missile Fumble",
+      "missile": "Missile",
+      "none": "None",
+      "pierce": "Pierce",
+      "reactc": "Reaction (Combat)",
+      "reacti": "Reaction (Interaction)",
+      "resonance": "Magical Resonance",
+      "spellf": "Spell Failures",
+      "unarmed": "Unarmed/Grapple"
+    },
+    "rolls": {
+      "critfail": "Critical Failure",
+      "failure": "Failure",
+      "partial": "Partial Success",
+      "success": "Success",
+      "outstanding": "Outstanding Success",
+      "resonance": "Magic Resonance Roll Required",
+      "d100roll": "D100 Roll",
+      "against": "Against",
+      "table": "Table",
+      "roll": "Roll",
+      "attack": {
+        "maxresult": "Max result possible",
+        "attack": "Attack",
+        "critical": "Critical",
+        "d100critroll": "D100 Crit Roll"
+      },
+      "spell": {
+        "lore": "Lore",
+        "sct": "SCTable",
+        "weave": "Weave",
+        "spell": "Spell",
+        "range": "Range",
+        "aoe": "Area of Effect",
+        "duration": "Duration",
+        "save": "Save"
+      },
+      "skill": {
+        "skill": "Skill",
+        "art": "ART"
+      },
+      "saves": {
+        "fear": "Fear Save Rolls"
+      }
+    },
+    "item": {
+      "name": "Name",
+      "notes": "Notes",
+      "category": "Category",
+      "formula": "Formula",
+      "group": "Filtering Group",
+      "temporary": "This will reset every Round of combat.",
+      "once": "This will reset after each roll.",
+      "Variable": {
+        "itemname": "Variable",
+        "label": "Label"
+      },
+      "Equipment": {
+        "itemname": "Equipment",
+        "quantity": "Quantity",
+        "cost": "Cost",
+        "fare": "Fare",
+        "availability": "Availability",
+        "name": "Name",
+        "description": "Description",
+        "notes": "Extra Details",
+        "weight": "Weight",
+        "qty": "Qty"
+      },
+      "Defence": {
+        "itemname": "Saves & Special",
+        "dodge": "Standard",
+        "block": "Open-Ended"
+      },
+      "Hit-Location": {
+        "itemname": "Wound",
+        "outstanding": "Outstanding",
+        "success": "Success",
+        "partial": "Partial",
+        "failure": "Failure",
+        "critical": "Critical Failure",
+        "none": "Not Treated",
+        "na": "N/A",
+        "minor": "Minor",
+        "serious": "Serious",
+        "crippling": "Crippling",
+        "bleeding": "Bleeding per Round",
+        "penalty": "Injury Penalty",
+        "severity": "Injury Severity",
+        "treatment": "Treatment Success",
+        "lingering": "Lingering Wound",
+        "dlth": "Days Left to Heal"
+      },
+      "Melee-Attack": {
+        "itemname": "Melee Attack",
+        "damage": "Attack Table",
+        "damageType": "Primary Critical",
+        "secondary": "Secondary Critical",
+        "weight": "Max Result",
+        "formula": "Offensive Bonus",
+        "armourDiv": "UM Threshold",
+        "minST": "Roll Type",
+        "reach": "Open-ended range",
+        "std": "Standard",
+        "oe": "Open-Ended",
+        "oeh": "Open-Ended High",
+        "oel": "Open-Ended Low"
+      },
+      "Modifier": {
+        "itemname": "Modifier",
+        "attack": "Attacks",
+        "condition": "This is a Condition or Status",
+        "alwaysOn": "This is Always On",
+        "primary": "Primary Attr",
+        "defence": "Special/Saves",
+        "reaction": "Defences",
+        "targets": "Target1, Target2, ..."
+      },
+      "Pool": {
+        "itemname": "Pool",
+        "abbr": "Abbreviation",
+        "state": "Current State",
+        "value": "Current Value",
+        "min": "Minimum Value",
+        "max": "Maximum Value"
+      },
+      "Primary-Attribute": {
+        "itemname": "Stat",
+        "abbr": "Abbreviation",
+        "attr": "Bonus"
+      },
+      "Ranged-Attack": {
+        "itemname": "Ranged Attack",
+        "range": "Range",
+        "damage": "Attack Table",
+        "damageType": "Primary Critical",
+        "secondary": "Secondary Critical",
+        "formula": "Offensive Bonus",
+        "armourDiv": "UM Threshold",
+        "minST": "Roll Type",
+        "rof": "Open-ended range",
+        "accuracy": "Max Result",
+        "none": "None",
+        "std": "Standard",
+        "oe": "Open-Ended",
+        "oeh": "Open-Ended High",
+        "oel": "Open-Ended Low"
+      },
+      "Rollable": {
+        "itemname": "Skill or Spell",
+        "skill": "Skill",
+        "spell": "Spell",
+        "check": "Defence"
+      },
+      "Trait": {
+        "itemname": "Trait",
+        "applied": "This has been achieved/applied.",
+        "advantage": "Revelation",
+        "disadvantage": "Passion",
+        "perk": "Kin Special Trait",
+        "charactertrait": "Character Trait",
+        "language": "Language",
+        "experience": "Experience Hook",
+        "quirk": "Background"
+      },
+      "Container": {
+        "itemname": "Container"
+      }
+    },
+    "header": {
+      "shield": {
+        "title": "Shield Position",
+        "position": {
+          "none": "No Shield",
+          "front": "Shield Front",
+          "side": "Shield Side"
+        }
+      },
+      "toprow": {
+        "kin": "Character Kin",
+        "culture": "Character Culture",
+        "vocation": "Character Vocation",
+        "hitpoints": "Hit Points Tracking",
+        "bleeding": "Cumulative Bleeding Rate",
+        "bleed": "Bleed: ",
+        "round": "rd "
+      },
+      "midrow": {
+        "wealth": "Wealth Level",
+        "wl": "WL: ",
+        "level": "Character Level",
+        "lvl": "Lvl: ",
+        "experience": "XP needed for next level.",
+        "xp": "XP: ",
+        "magicpoints": "Magic Points Tracking",
+        "penalty": "Cumulative Action Penalty",
+        "pen": "Pen: "
+      },
+      "bottomrow": {
+        "encumbrance": "Encumbrance Level",
+        "size": "Character Size",
+        "movemode": "Movement Mode",
+        "moverate": "Movement Rate",
+        "move": "Move: "
+      },
+      "defences": {
+        "mel": "Mel: ",
+        "msl": "Msl: ",
+        "rhp": "RHP: ",
+        "lhp": "LHP: ",
+        "split": "Split: ",
+        "parry": "Parry: ",
+        "at": "AT: ",
+        "surprise": "Surprise: ",
+        "basedb": "Base DB: ",
+        "title": {
+          "mel": "DEF vs Melee with shield",
+          "msl": "DEF vs Missile with shield",
+          "rhp": "Right Hand Parry",
+          "lhp": "Left Hand Parry",
+          "split": "Amount of Parry split to LHP",
+          "parry": "Full amount assigned to Parry",
+          "at": "Armour Type",
+          "surprise": "DEF when Surprised",
+          "basedb": "Base DEF"
+        }
+      }
+    },
+    "actor": {
+      "name": "Actor Name",
+      "gmod": {
+        "abbr": "G-Mod",
+        "name": "Global Modifier"
+      },
+      "stats": {
+        "name": "Name",
+        "abbr": "Abbr",
+        "base": "Base",
+        "kin": "Kin",
+        "spec": "Spec",
+        "total": "Total"
+      },
+      "saves": {
+        "name": "Name",
+        "stat": "Stat",
+        "kin": "Kin",
+        "spec": "Mods",
+        "lvl": "Lvl",
+        "total": "Total"
+      },
+      "skills": {
+        "title": "Skills & Spells",
+        "dp": "DP",
+        "stat": "Stat",
+        "ranks": "Ranks",
+        "voc": "Voc",
+        "kin": "Kin+",
+        "mods": "Mods",
+        "total": "Total",
+        "statT": "The stat representing the natural affinity with the skill.",
+        "ranksT": "The number of skill ranks representing training in the skill (cultural skill ranks, vocational development points,  background options)",
+        "vocT": "The vocational bonus for the skill.",
+        "kinT": "All unconditional bonuses including kin and background.",
+        "modsT": "Any other modifiers applied to all uses of this skill.",
+        "totalT": "The total skill bonus."
+      },
+      "wounds": {
+        "name": "Description",
+        "bleed": "Bleeding",
+        "act": "Action Penalty",
+        "severity": "Injury Severity",
+        "treatment": "Treatment Success",
+        "linger": "Lingering",
+        "days": "Days Left to Heal"
+      },
+      "armour": {
+        "name": "Armor / Shield",
+        "type": "Type",
+        "prot": "Protects",
+        "swi": "Max\nSWI",
+        "move": "Move",
+        "cmb": "CMB",
+        "per": "Per",
+        "mel": "Melee\nDEF",
+        "msl": "Missile\nDEF",
+        "qual": "Qualities",
+        "charvalues": "Applicable Character Values",
+        "title": {
+          "toggle": "A toggle to equip or unequip the armor.",
+          "type": "This refers to the column on the Attack Tables (None NA, Light LA, Medium MA, or Heavy HA).",
+          "prot": "The body parts or zones actually protected by the armor worn.",
+          "swi": "Maximum Swiftness bonus applicable to Defense when wearing the armor. (automatically applied)",
+          "move": "Penalty to Skill Rolls for moving about and casting Spells while wearing the armor. (automatically applied)",
+          "cmb": "Penalty to the Combat Bonus (CMB). This penalty cannot be offset. (automatically applied)",
+          "per": "Penalty to the Perception Skill bonus. This penalty cannot be offset. (automatically applied)",
+          "mel": "Straight bonus to the Defense (DEF) against melee attacks. (automatically applied)",
+          "msl": "Straight bonus to the Defense (DEF) against ranged attacks. (automatically applied)",
+          "qual": "A list of the special Qualities possessed by the armor, if any."
+        }
+      },
+      "attacks": {
+        "atk": "Atk",
+        "name": "Attack Name",
+        "skill": "Skill",
+        "cmb": "CMB",
+        "clumsy": "Clumsy",
+        "atktable": "Attack Table",
+        "crit": "Crit",
+        "crittable": "Critical Table",
+        "title": {
+          "atk": "Roll the Attack.",
+          "skill": "The relevant skill for the Attack.",
+          "cmb": "The Combat Bonus.",
+          "clumsy": "The dice roll range in which a fumble occurs.",
+          "atktable": "The table used by this Attack to determine results.",
+          "crit": "Roll the Critical Strike.",
+          "crittable": "The table used for the primary critical dealt by this Attack."
+        }
+      },
+      "blocks": {
+        "drive": "Drive Points",
+        "hero": "Heroic Path",
+        "stats": "Stats",
+        "saves": "Save Rolls",
+        "passions": "Passions",
+        "revelations": "Milestones and Revelations",
+        "spec": "Special Abilities",
+        "back": "Background Options",
+        "lang": "Known Languages",
+        "char": "Character Traits",
+        "wounds": "Wounds & Injuries",
+        "armour": "Armour and Shields",
+        "attacks": "Attacks",
+        "conditions": "Conditions & Status",
+        "advances": "Advancement Items",
+        "advanceslevel": "Level",
+        "equipment": "Equipment, Gear & Vehicles"
+      }
+    },
+    "owneditems": {
+      "cond": " Cond",
+      "perm": " Perm",
+      "temp": " Temp",
+      "once": " Once"
+    },
+    "tabs": {
+      "main": "Main",
+      "overview": "Overview",
+      "combat": "Combat",
+      "advancement": "Advancement",
+      "skills": "Skills",
+      "spells": "Spells",
+      "equipment": "Notes & Equipment",
+      "items": "All Items",
+      "scripts": {
+        "title": "Scripts",
+        "createT": "Script Processing",
+        "create": "Create Items from Array of JSON objects",
+        "importjsonT": "Import JSON object for inspection in the console",
+        "importjson": " Import JSON data for inspection in the console",
+        "importvsdT": "Import stat block in Against the Darkmaster format",
+        "importvsd": " Import VsD Format",
+        "exportT": "Item Exporting",
+        "export": "Export Items to the textarea"
+      }
+    },
+    "sections": {
+      "itemcreation": "Create Items",
+      "itemlist": "List of All Items",
+      "defencemods": "Defence Modifiers",
+      "attackmods": "Attack Modifiers",
+      "attacks": "Attacks",
+      "damagemods": "Damage Modifiers",
+      "melee": "Melee Attacks",
+      "ranged": "Ranged Attacks",
+      "primods": "Primary Attr Mods",
+      "primaryattributes": "Primary Attributes",
+      "equipment": "Equipment",
+      "skills": "Skills",
+      "specialskills": "Special Skills",
+      "skillmods": "Skill Modifiers",
+      "specificmods": "Modifiers to Specific Items",
+      "techniques": "Techniques",
+      "spells": "Spells",
+      "spelllores": "Spell Lores",
+      "attackspells": "Attack and Area Spells",
+      "spellmods": "Spell Modifiers",
+      "specialrolls": "Special Rolls",
+      "specialmods": "Special Modifiers",
+      "rms": "Ritual Magic Spells",
+      "checkmods": "Check Modifiers",
+      "pools": "Pools",
+      "modifiers": "Modifiers",
+      "variables": "Variables",
+      "containers": "Containers",
+      "hitlocations": "Wounds",
+      "rollables": "Skills & Spells",
+      "defences": "Defences and Saves",
+      "checks": "Defences",
+      "stats": "General Information",
+      "notes": "Notes",
+      "traits": "Traits",
+      "advantages": "Revelations",
+      "disadvantages": "Passions",
+      "perks": "Kin Special Traits",
+      "experience": "Experience Hooks",
+      "quirks": "Backgrounds"
+    },
+    "postures": {
+      "standing": "Standing",
+      "flying": "Flying",
+      "swimming": "Swimming",
+      "crouching": "Crouching",
+      "kneeling": "Kneeling",
+      "crawling": "Crawling",
+      "sitting": "Sitting",
+      "pronef": "Prone (F)",
+      "proneb": "Prone (B)",
+      "prone": "Prone"
+    },
+    "conditions": {
+      "encumbered": "Encumbered",
+      "shock": "Shock",
+      "reeling": "Reeling",
+      "tired": "Tired",
+      "weary": "Weary",
+      "blind": "Blinded",
+      "deaf": "Deafened",
+      "mute": "Silenced",
+      "bruised": "Bruised",
+      "bleeding": "Bleeding",
+      "healing": "Healing",
+      "burning": "Burning",
+      "diseased": "Diseased",
+      "freezing": "Freezing",
+      "poisoned": "Poisoned",
+      "engaged": "Engaged",
+      "shielded": "With Shield",
+      "stealthy": "Stealthy",
+      "frightened": "Frightened",
+      "incapacitated": "Incapacitated",
+      "dying": "Dying",
+      "collapse": "Collapse",
+      "unconscious": "Unconscious",
+      "minushp": "Negative HP",
+      "stunned": "Stunned",
+      "surprised": "Surprised",
+      "held": "Held",
+      "defeated": "Defeated",
+      "none": "",
+      "charging": "Charging",
+      "flanking": "Flanking Attack",
+      "full_half": "Full & Half Action",
+      "on_rear": "Rear Attack",
+      "crippled": "Crippled",
+      "smaller": "Small",
+      "aiming": "Aiming",
+      "loading": "Loading",
+      "concentrating": "Concentrating",
+      "larger": "Large"
+    }
+  },
+  "COMBAT": {
+    "chat_message": {
+      "critical_strike": "critical strike.",
+      "damage": "Has taken {hits} damage.",
+      "db": "EDB has been set to {db}.",
+      "does_not": "Does not",
+      "has": "Has",
+      "healing": "Has regained {hits} health.",
+      "hits": "hits",
+      "severity": "Has set Critical Severity to {crit}.",
+      "souldamage": "Has taken {hits} soul damage.",
+      "wound": "Has suffered a <b>{woundtitle}</b> critical strike{effectMsg}"
+    },
+    "dataset": {
+      "armour": {
+        "no_armor": "No Armor",
+        "light_armor": "Light Armor",
+        "medium_armor": "Medium Armor",
+        "heavy_armor": "Heavy Armor"
+      },
+      "crit": {
+        "superficial": "Superficial",
+        "light": "Light +10",
+        "moderate": "Moderate +20",
+        "grievous": "Grievous +30",
+        "lethal": "Lethal +50"
+      },
+      "sec": {
+        "moderate": "Superficial",
+        "grievous": "Light +10",
+        "lethal": "Moderate +20"
+      }
+    },
+    "effect": {
+      "soul_damage": ", and appears to have suffered <b>Soul Damage</b>.",
+      "stun": ", and appears to have been <b>Stunned</b>."
+    },
+    "Round": "Round",
+    "RoundNext": "Advance the Round and reset all declarations."
+  },
+  "SETTINGS": {
+    "statusEffectChoice": {
+      "name": "Status Effects",
+      "hint": "Which Status Effects will you use?"
+    },
+    "macroDialogDelay": {
+      "name": "Macro Dialog Delay",
+      "hint": "The amount of delay when setting a value in a macro dialog before it refreshes the data from the actor."
+    },
+    "useFAHR": {
+      "name": "Use Four Amigos House Rules",
+      "hint": "Use the Developer's House Rules to alter behaviour."
+    },
+    "preventTablePopUp": {
+      "name": "Prevent Table Popup",
+      "hint": "Prevent Attack tables from popping up when a roll is made."
+    },
+    "rankMode": {
+      "name": "Ranks counting mode",
+      "hint": "Define your rank progression. The pattern is: [0:5:2:1:1], unskilled penalty, first ten ranks, next ten ranks, next ten ranks, remaining ranks"
+    },
+    "combatTrackerInUse": {
+      "name": "Combat Tracker",
+      "hint": "Choose the Combat Tracker you will use."
+    },
+    "systemMigrationVersion": {
+      "name": "System Migration Version",
+      "hint": "The last version to which this was migrated."
+    },
+    "defenceVariables": {
+      "name": "Defence Variables",
+      "hint": "Choose the Variables and Pools to be associated with the Defence group."
+    },
+    "attackVariables": {
+      "name": "Attack Variables",
+      "hint": "Choose the Variables and Pools to be associated with the Attack group."
+    },
+    "skillVariables": {
+      "name": "Skill Variables",
+      "hint": "Choose the Variables and Pools to be associated with the Skill group."
+    },
+    "spellVariables": {
+      "name": "Spell Variables",
+      "hint": "Choose the Variables and Pools to be associated with the Spell group."
+    },
+    "showTestData": {
+      "name": "Show Test Data",
+      "hint": "Show Debug data in the console for testing."
+    },
+    "showHooks": {
+      "name": "Show Hooks",
+      "hint": "Show calls to Hooks in the console for testing."
+    },
+    "narrateJustifyLeft": {
+      "name": "Narrative Tools Left-Justify",
+      "hint": "Narrative Tools chat messages will be left-justified instead of centred."
+    },
+    "tokenEffectSize": {
+      "name": "Token Effect Size",
+      "hint": "Choose the size of the grid for displaying Token Effects."
+    }
+  },
+  "last": "last"
+}

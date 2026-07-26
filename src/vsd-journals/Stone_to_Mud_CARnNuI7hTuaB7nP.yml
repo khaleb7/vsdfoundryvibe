@@ -1,0 +1,61 @@
+name: Stone to Mud
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.WvZw05WGV8VO3m23
+pages:
+  - name: Stone to Mud
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Earth Mould"> <td>Lore:</td> <td>Earth Mould </td> </tr>
+        <tr> <td>Weave:</td> <td>9th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Earth Mould" data-weave="9th"
+        data-spell="Stone to Mud" data-range="30 m" data-aoe="3 m³"
+        data-duration="P" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Stone to Mud </td> </tr> <tr> <td>Range:</td> <td>30 m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>3 m³ </td> </tr> <tr>
+        <td>Duration:</td> <td>P </td> </tr> <tr> <td>Save:</td> <td>N </td>
+        </tr> </tbody> </table>
+    _id: 2QAbCaShinsacwu8
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!CARnNuI7hTuaB7nP.2QAbCaShinsacwu8'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106199
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.WvZw05WGV8VO3m23
+  duplicateSource: null
+_id: CARnNuI7hTuaB7nP
+sort: 0
+_key: '!journal!CARnNuI7hTuaB7nP'
+

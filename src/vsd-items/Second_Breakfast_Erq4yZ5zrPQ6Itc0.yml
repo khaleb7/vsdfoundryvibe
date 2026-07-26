@@ -1,0 +1,33 @@
+name: Second Breakfast
+type: Trait
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Second Breakfast: Your Kin double their HP recovery for the day if they
+    manage to have a lavish meal (a real meal, not rations!) before resting.
+  chartype: CharacterVsD
+  group: kin
+  applied: false
+  category: perk
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689459891397
+  modifiedTime: 1697655934989
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: Erq4yZ5zrPQ6Itc0
+sort: 2000000
+_key: '!items!Erq4yZ5zrPQ6Itc0'
+

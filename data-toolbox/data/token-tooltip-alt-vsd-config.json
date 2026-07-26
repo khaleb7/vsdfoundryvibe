@@ -1,0 +1,1230 @@
+{
+  "gmSettings": {
+    "default": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "system.dynamic.woundsbleed.system.moddedvalue",
+              "icon": "fa-tint",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#99c080"
+            },
+            {
+              "value": "{\nhp=<system.tracked.hp.system.moddedvalue>;\nhpm=<system.tracked.hp.system.max>;\nconcat(string(hp), \"/\", string(hpm))\n}",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "system.defence.meleeDB",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#55883e"
+            },
+            {
+              "value": "system.defence.missileDB",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#efdf38"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "system.dynamic.woundsbleed.system.moddedvalue",
+              "icon": "fa-tint",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#99c080"
+            },
+            {
+              "value": "{\nhp=<system.tracked.hp.system.moddedvalue>;\nhpm=<system.tracked.hp.system.max>;\nconcat(string(hp), \"/\", string(hpm))\n}",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "system.defence.meleeDB",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#55883e"
+            },
+            {
+              "value": "system.defence.missileDB",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#efdf38"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "system.dynamic.woundsbleed.system.moddedvalue",
+              "icon": "fa-tint",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#99c080"
+            },
+            {
+              "value": "{\nhp=<system.tracked.hp.system.moddedvalue>;\nhpm=<system.tracked.hp.system.max>;\nconcat(string(hp), \"/\", string(hpm))\n}",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "system.defence.meleeDB",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#55883e"
+            },
+            {
+              "value": "system.defence.missileDB",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#efdf38"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "useAccentEverywhere": true,
+        "accentColor": "#ab5474",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "CharacterD20": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#7b8cac",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "CharacterOaTS": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#d72320",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "CharacterD100": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#0678ce",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "Character3D6": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#a809f3",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "CharacterVsD": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "{\nhp=<system.tracked.hp.system.moddedvalue>;\nhpm=<system.tracked.hp.system.max>;\nhpbleed=<system.dynamic.woundsbleed.system.moddedvalue>;\nconcat(string(hp), \"/\", string(hpm), \" (\", string(hpbleed), \")\")\n}",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "{\nmp=<system.tracked.mp.system.moddedvalue>;\nmpm=<system.tracked.mp.system.max>;\nconcat(string(mp), \"/\", string(mpm))\n}",
+              "icon": "fa-magic",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#bc4a16"
+            },
+            {
+              "value": "{\nmesh=<system.defence.meshield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmedb=<system.defence.meleeDB>;\nconcat(string(medb), \" [\", string(mesh), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#acae67"
+            },
+            {
+              "value": "{\nmish=<system.defence.mishield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmidb=<system.defence.missileDB>;\nconcat(string(midb), \" [\", string(mish), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#268c9f"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-hand-point-right",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "{\nhp=<system.tracked.hp.system.moddedvalue>;\nhpm=<system.tracked.hp.system.max>;\nhpbleed=<system.dynamic.woundsbleed.system.moddedvalue>;\nconcat(string(hp), \"/\", string(hpm), \" (\", string(hpbleed), \")\")\n}",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "{\nmp=<system.tracked.mp.system.moddedvalue>;\nmpm=<system.tracked.mp.system.max>;\nconcat(string(mp), \"/\", string(mpm))\n}",
+              "icon": "fa-magic",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#bc4a16"
+            },
+            {
+              "value": "{\nmesh=<system.defence.meshield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmedb=<system.defence.meleeDB>;\nconcat(string(medb), \" [\", string(mesh), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#acae67"
+            },
+            {
+              "value": "{\nmish=<system.defence.mishield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmidb=<system.defence.missileDB>;\nconcat(string(midb), \" [\", string(mish), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#268c9f"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-hand-point-right",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "{\nhp=<system.tracked.hp.system.moddedvalue>;\nhpm=<system.tracked.hp.system.max>;\nhpbleed=<system.dynamic.woundsbleed.system.moddedvalue>;\nconcat(string(hp), \"/\", string(hpm), \" (\", string(hpbleed), \")\")\n}",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "{\nmp=<system.tracked.mp.system.moddedvalue>;\nmpm=<system.tracked.mp.system.max>;\nconcat(string(mp), \"/\", string(mpm))\n}",
+              "icon": "fa-magic",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#bc4a16"
+            },
+            {
+              "value": "{\nmesh=<system.defence.meshield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmedb=<system.defence.meleeDB>;\nconcat(string(medb), \" [\", string(mesh), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#acae67"
+            },
+            {
+              "value": "{\nmish=<system.defence.mishield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmidb=<system.defence.missileDB>;\nconcat(string(midb), \" [\", string(mish), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#268c9f"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-hand-point-right",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "useAccentEverywhere": true,
+        "accentColor": "#a3252a",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "CharacterD120": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#274f9b",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "CharacterFragged": {
+      "items": [
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": true,
+        "accentColor": "#a646e1",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    }
+  },
+  "playerSettings": {
+    "default": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "system.dynamic.woundsbleed.system.moddedvalue",
+              "icon": "fa-tint",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#99c080"
+            },
+            {
+              "value": "{\nhp=<system.tracked.hp.system.moddedvalue>;\nhpm=<system.tracked.hp.system.max>;\nconcat(string(hp), \"/\", string(hpm))\n}",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "system.defence.meleeDB",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#55883e"
+            },
+            {
+              "value": "system.defence.missileDB",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#efdf38"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "system.dynamic.woundsbleed.system.moddedvalue",
+              "icon": "fa-tint",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#99c080"
+            },
+            {
+              "value": "{\nhp=<system.tracked.hp.system.moddedvalue>;\nhpm=<system.tracked.hp.system.max>;\nconcat(string(hp), \"/\", string(hpm))\n}",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "system.defence.meleeDB",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#55883e"
+            },
+            {
+              "value": "system.defence.missileDB",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#efdf38"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "system.dynamic.woundsbleed.system.moddedvalue",
+              "icon": "fa-tint",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#99c080"
+            },
+            {
+              "value": "system.tracked.hp.system.state",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "system.defence.meleeDB",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#55883e"
+            },
+            {
+              "value": "system.defence.missileDB",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#efdf38"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "system.dynamic.woundsbleed.system.moddedvalue",
+              "icon": "fa-tint",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#99c080"
+            },
+            {
+              "value": "system.tracked.hp.system.state",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "system.defence.meleeDB",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#55883e"
+            },
+            {
+              "value": "system.defence.missileDB",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#efdf38"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "HOSTILE",
+        "useAccentEverywhere": true,
+        "accentColor": "#921ea9",
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ],
+        "useAccentColorForEverything": false
+      }
+    },
+    "CharacterD20": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#fb6232",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "CharacterOaTS": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#fb501f",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "CharacterD100": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#1cca52",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "Character3D6": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#dde7e2",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "CharacterVsD": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "{\nhp=<system.tracked.hp.system.moddedvalue>;\nhpm=<system.tracked.hp.system.max>;\nhpbleed=<system.dynamic.woundsbleed.system.moddedvalue>;\nconcat(string(hp), \"/\", string(hpm), \" (\", string(hpbleed), \")\")\n}",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "{\nmp=<system.tracked.mp.system.moddedvalue>;\nmpm=<system.tracked.mp.system.max>;\nconcat(string(mp), \"/\", string(mpm))\n}",
+              "icon": "fa-magic",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#bc4a16"
+            },
+            {
+              "value": "{\nmesh=<system.defence.meshield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmedb=<system.defence.meleeDB>;\nconcat(string(medb), \" [\", string(mesh), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#acae67"
+            },
+            {
+              "value": "{\nmish=<system.defence.mishield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmidb=<system.defence.missileDB>;\nconcat(string(midb), \" [\", string(mish), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#268c9f"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-hand-point-right",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": [
+            {
+              "value": "system.dynamic.move_rate.system.moddedvalue",
+              "icon": "fa-shoe-prints",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#6ae817"
+            },
+            {
+              "value": "{\nhp=<system.tracked.hp.system.moddedvalue>;\nhpm=<system.tracked.hp.system.max>;\nhpbleed=<system.dynamic.woundsbleed.system.moddedvalue>;\nconcat(string(hp), \"/\", string(hpm), \" (\", string(hpbleed), \")\")\n}",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "{\nmp=<system.tracked.mp.system.moddedvalue>;\nmpm=<system.tracked.mp.system.max>;\nconcat(string(mp), \"/\", string(mpm))\n}",
+              "icon": "fa-magic",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#bc4a16"
+            },
+            {
+              "value": "{\nmesh=<system.defence.meshield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmedb=<system.defence.meleeDB>;\nconcat(string(medb), \" [\", string(mesh), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#acae67"
+            },
+            {
+              "value": "{\nmish=<system.defence.mishield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmidb=<system.defence.missileDB>;\nconcat(string(midb), \" [\", string(mish), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#268c9f"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-hand-point-right",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": [
+            {
+              "value": "system.tracked.hp.system.state",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "{\nmesh=<system.defence.meshield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmedb=<system.defence.meleeDB>;\nconcat(string(medb), \" [\", string(mesh), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#55883e"
+            },
+            {
+              "value": "{\nmish=<system.defence.mishield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmidb=<system.defence.missileDB>;\nconcat(string(midb), \" [\", string(mish), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#323e25"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-hand-point-right",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": [
+            {
+              "value": "system.tracked.hp.system.state",
+              "icon": "fa-heart",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#ad3288"
+            },
+            {
+              "value": "{\nmesh=<system.defence.meshield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmedb=<system.defence.meleeDB>;\nconcat(string(medb), \" [\", string(mesh), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-shield-alt",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#55883e"
+            },
+            {
+              "value": "{\nmish=<system.defence.mishield>;\nparry=<system.defence.parry.system.moddedvalue>;\nmidb=<system.defence.missileDB>;\nconcat(string(midb), \" [\", string(mish), \"] (\", string(parry), \")\")\n}",
+              "icon": "fa-bullseye",
+              "isFunction": false,
+              "expression": true,
+              "isNumber": false,
+              "color": "#323e25"
+            },
+            {
+              "value": "system.defence.armourType",
+              "icon": "fa-user-shield",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#9e8830"
+            },
+            {
+              "value": "flags.vsd.action",
+              "icon": "fa-hand-point-right",
+              "isFunction": false,
+              "expression": false,
+              "isNumber": false,
+              "color": "#a8d1b3"
+            }
+          ]
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "NEUTRAL",
+        "useAccentEverywhere": true,
+        "accentColor": "#a3252a",
+        "tokenDispositions": [
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "CharacterD120": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#889191",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    },
+    "CharacterFragged": {
+      "items": [
+        {
+          "disposition": "OWNED",
+          "items": []
+        },
+        {
+          "disposition": "FRIENDLY",
+          "items": []
+        },
+        {
+          "disposition": "NEUTRAL",
+          "items": []
+        },
+        {
+          "disposition": "HOSTILE",
+          "items": []
+        }
+      ],
+      "static": {
+        "displayNameInTooltip": "OWNED",
+        "accentColor": "#b35d15",
+        "useAccentColorForEverything": false,
+        "tokenDispositions": [
+          "OWNED",
+          "FRIENDLY",
+          "NEUTRAL",
+          "HOSTILE"
+        ]
+      }
+    }
+  }
+}

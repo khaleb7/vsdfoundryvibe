@@ -1,0 +1,61 @@
+name: Water Blast
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.UZEnWKtBQLiTkInX
+pages:
+  - name: Water Blast
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Eldritch Tide"> <td>Lore:</td> <td>Eldritch Tide </td> </tr>
+        <tr> <td>Weave:</td> <td>4th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Eldritch Tide" data-weave="4th"
+        data-spell="Water Blast" data-range="30 m" data-aoe="1 target"
+        data-duration="-" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Water Blast </td> </tr> <tr> <td>Range:</td> <td>30 m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td> </tr> <tr>
+        <td>Duration:</td> <td>- </td> </tr> <tr> <td>Save:</td> <td>N </td>
+        </tr> </tbody> </table>
+    _id: bBdBatEZskqpLnnA
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!ajGSj1eolFD0Djhh.bBdBatEZskqpLnnA'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.UZEnWKtBQLiTkInX
+  duplicateSource: null
+_id: ajGSj1eolFD0Djhh
+sort: 0
+_key: '!journal!ajGSj1eolFD0Djhh'
+

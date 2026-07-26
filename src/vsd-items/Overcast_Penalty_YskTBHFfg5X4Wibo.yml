@@ -1,0 +1,55 @@
+name: Overcast Penalty
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: lS2E3Pe2AclQDTmR
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-dropbox.Item.wrQcWqrXC5qPOTWi
+system:
+  notes: note
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: false
+  alwaysOn: false
+  attack: true
+  defence: true
+  skill: false
+  spell: true
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 570
+      formula: '-30 + (@overcasting*10)'
+      category: defence
+      targets: Magic Resonance
+    - value: -600
+      formula: '@overcasting*-10'
+      category: spell
+      targets: ''
+    - value: -600
+      formula: '@overcasting*-10'
+      category: attack
+      targets: Chan, Dark, Eart, Eldr, Skir, Weap
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488537
+  modifiedTime: 1697655938032
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-dropbox.Item.wrQcWqrXC5qPOTWi
+  duplicateSource: null
+_id: YskTBHFfg5X4Wibo
+sort: 1500000
+_key: '!items!YskTBHFfg5X4Wibo'
+

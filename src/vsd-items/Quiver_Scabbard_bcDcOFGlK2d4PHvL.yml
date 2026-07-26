@@ -1,0 +1,33 @@
+name: Quiver/Scabbard
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.2zl9VfqlBuwKsyuC
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '0'
+  weight: 0
+  availability: Common
+  description: For a medium sized weapon or up to 20 arrows
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485301
+  modifiedTime: 1697655935031
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.2zl9VfqlBuwKsyuC
+  duplicateSource: null
+_id: bcDcOFGlK2d4PHvL
+sort: 0
+_key: '!items!bcDcOFGlK2d4PHvL'
+

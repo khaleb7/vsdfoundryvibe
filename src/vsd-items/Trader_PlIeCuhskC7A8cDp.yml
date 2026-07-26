@@ -1,0 +1,72 @@
+name: Trader
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.7rmSkJfcqbT3DlER
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Trader
+      type: Trait
+      system:
+        notes: >-
+          You are or were in the trading business, as a member of a great
+          merchant family, a shrewd dealer of rare goods, a provider of
+          specialised services, or a similar occupation.
+
+          - Minor (cost 1 BP):  You get a special +10 bonus to your Deceive and
+          Charisma Rolls whenever you're closing a deal or bargaining for
+          something.
+
+          - Major (cost 3 BP):  Additionally, once per session, when you meet a
+          new NPC, you may spend one point of Drive to declare that they are
+          either an old customer of yours, or a fellow trader.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Trader (Bargaining)
+      type: Modifier
+      system:
+        notes: >-
+          You get a special +10 bonus to your Deceive and Charisma Rolls
+          whenever you're closing a deal or bargaining for something.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Deceive, Charisma
+        tempName: Trader (Bargaining)
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485200
+  modifiedTime: 1697655935011
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.7rmSkJfcqbT3DlER
+  duplicateSource: null
+_id: PlIeCuhskC7A8cDp
+sort: 0
+_key: '!items!PlIeCuhskC7A8cDp'
+

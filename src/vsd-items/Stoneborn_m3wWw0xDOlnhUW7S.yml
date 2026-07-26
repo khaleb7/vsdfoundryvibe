@@ -1,0 +1,124 @@
+name: Stoneborn
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: Qei4vitURpdSkRKG
+      name: Stoneborn (Cannot Swim)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: nACtOyjO49XyJpp6
+      sort: 400000
+      flags:
+        core:
+          sourceId: Actor.cNp0PZCK00ZEAv22.Item.3QUd1UeE9CVPtm3Z
+      system:
+        notes: >-
+          Stoneborn: Your kin cannot swim, but get a +20 bonus to their Nature
+          and Wandering Rolls while underground.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -100
+            formula: '-100'
+            category: skill
+            targets: Athletics
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689460213435
+        modifiedTime: 1689460583623
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - _id: lIH9d6RFLAy0g1NL
+      name: Stoneborn (Underground)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: nACtOyjO49XyJpp6
+      sort: 187500
+      flags:
+        core:
+          sourceId: Actor.cNp0PZCK00ZEAv22.Item.4FNOzUicKiMLyoVn
+      system:
+        notes: >-
+          Stoneborn: Your kin cannot swim, but get a +20 bonus to their Nature
+          and Wandering Rolls while underground.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '+20'
+            category: skill
+            targets: Nature, Wandering
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689460215803
+        modifiedTime: 1689460595174
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485657
+  modifiedTime: 1697655935048
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: m3wWw0xDOlnhUW7S
+sort: 2300000
+_key: '!items!m3wWw0xDOlnhUW7S'
+

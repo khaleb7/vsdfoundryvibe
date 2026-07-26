@@ -1,0 +1,5023 @@
+name: Giant Spider (Lesser)
+type: CharacterVsD
+img: systems/vsd/tokens/vsd-bestiary/giant_spider.png
+items:
+  - _id: cAwO3IlfohmmWTdr
+    name: Acrobatics
+    type: Rollable
+    sort: 100001
+    flags:
+      core:
+        sourceId: Item.dmOehpQnzvMFv8o7
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.dmOehpQnzvMFv8o7
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.cAwO3IlfohmmWTdr'
+  - _id: FNHWxdJjVYCvtjb0
+    name: Arcana
+    type: Rollable
+    sort: 200001
+    flags:
+      core:
+        sourceId: Item.piCurMuDK99RrswG
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.piCurMuDK99RrswG
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.FNHWxdJjVYCvtjb0'
+  - _id: vBRGPghZZxhOV2mH
+    name: Armor
+    type: Rollable
+    sort: 300001
+    flags:
+      core:
+        sourceId: Item.8rMsTsGww4T2Wr4B
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: check
+      value: 0
+      formula: '#0'
+      category: check
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.8rMsTsGww4T2Wr4B
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.vBRGPghZZxhOV2mH'
+  - _id: CxwvYT2Pk2Vf7ERX
+    name: Athletics
+    type: Rollable
+    sort: 500001
+    flags:
+      core:
+        sourceId: Item.h8Hv0V6JLpBPgEf9
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.h8Hv0V6JLpBPgEf9
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.CxwvYT2Pk2Vf7ERX'
+  - _id: kIx7mw83IpWEBFRt
+    name: Blades
+    type: Rollable
+    sort: 700001
+    flags:
+      core:
+        sourceId: Item.WfV2DsASobD918yM
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.WfV2DsASobD918yM
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.kIx7mw83IpWEBFRt'
+  - _id: ZAab93lRiCk25j1J
+    name: Blunt
+    type: Rollable
+    sort: 800001
+    flags:
+      core:
+        sourceId: Item.ypgKHGj1v15TKITG
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.ypgKHGj1v15TKITG
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.ZAab93lRiCk25j1J'
+  - _id: krhA5MGEH1YCQvdH
+    name: Brawl
+    type: Rollable
+    sort: 900001
+    flags:
+      core:
+        sourceId: Item.k7q1wnqBpaCgYprq
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.k7q1wnqBpaCgYprq
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.krhA5MGEH1YCQvdH'
+  - _id: jMDUrscmvF8ntoGK
+    name: Charisma
+    type: Rollable
+    sort: 1000001
+    flags:
+      core:
+        sourceId: Item.JGXtyd7x9of6vguf
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.JGXtyd7x9of6vguf
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.jMDUrscmvF8ntoGK'
+  - _id: Q9w3JngZ4UGcO4Tn
+    name: Cultures
+    type: Rollable
+    sort: 1300001
+    flags:
+      core:
+        sourceId: Item.AJtSkIRw7FKutha2
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.AJtSkIRw7FKutha2
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.Q9w3JngZ4UGcO4Tn'
+  - _id: EWzHrp50R4e37D28
+    name: Deceive
+    type: Rollable
+    sort: 1400001
+    flags:
+      core:
+        sourceId: Item.CPbhTooV3UehdgW7
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.CPbhTooV3UehdgW7
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.EWzHrp50R4e37D28'
+  - _id: 7mMTQxK19hlpa3YC
+    name: Healer
+    type: Rollable
+    sort: 1600001
+    flags:
+      core:
+        sourceId: Item.x8fBTMKB6YhEziBQ
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.x8fBTMKB6YhEziBQ
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.7mMTQxK19hlpa3YC'
+  - _id: Wt9UHKsUkOHJd1Y6
+    name: Hunting
+    type: Rollable
+    sort: 1700001
+    flags:
+      core:
+        sourceId: Item.RF0euQ0wX7uIilBU
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.RF0euQ0wX7uIilBU
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.Wt9UHKsUkOHJd1Y6'
+  - _id: dIxqM8blpmAnuMw8
+    name: Locks & Traps
+    type: Rollable
+    sort: 1900001
+    flags:
+      core:
+        sourceId: Item.U1QDO2DRrlENPFyZ
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.U1QDO2DRrlENPFyZ
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.dIxqM8blpmAnuMw8'
+  - _id: 8XtbZWKv98nc49kk
+    name: Nature
+    type: Rollable
+    sort: 2100001
+    flags:
+      core:
+        sourceId: Item.9XcSGhtaWCJtvThi
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.9XcSGhtaWCJtvThi
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.8XtbZWKv98nc49kk'
+  - _id: EvgwNc2EVbXFhOpb
+    name: Perception
+    type: Rollable
+    sort: 2200001
+    flags:
+      core:
+        sourceId: Item.MraAFO2y4KtoZupk
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.MraAFO2y4KtoZupk
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.EvgwNc2EVbXFhOpb'
+  - _id: s4bRARpCvjjjtxgw
+    name: Polearms
+    type: Rollable
+    sort: 2300001
+    flags:
+      core:
+        sourceId: Item.aHOQ9enJQn6Mn6lv
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.aHOQ9enJQn6Mn6lv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.s4bRARpCvjjjtxgw'
+  - _id: Pg8kdXezcarttj2z
+    name: Ranged
+    type: Rollable
+    sort: 2500001
+    flags:
+      core:
+        sourceId: Item.OKUY3b4VYgbJ3SaQ
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.OKUY3b4VYgbJ3SaQ
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.Pg8kdXezcarttj2z'
+  - _id: 53fLytuqv3ozFiOO
+    name: Ride
+    type: Rollable
+    sort: 2600001
+    flags:
+      core:
+        sourceId: Item.HCh0pq5Qv8ibuqds
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.HCh0pq5Qv8ibuqds
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.53fLytuqv3ozFiOO'
+  - _id: sYcbfEP3VCMSuiMQ
+    name: Songs & Tales
+    type: Rollable
+    sort: 2800001
+    flags:
+      core:
+        sourceId: Item.Owymvw9JyhXP1yNt
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.Owymvw9JyhXP1yNt
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.sYcbfEP3VCMSuiMQ'
+  - _id: wr8vhFsv6GvzW1Ci
+    name: Stealth
+    type: Rollable
+    sort: 2900001
+    flags:
+      core:
+        sourceId: Item.4nx3hZ5DL1Jq8F4o
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.4nx3hZ5DL1Jq8F4o
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.wr8vhFsv6GvzW1Ci'
+  - _id: MGx4Q7SF9FoFXyKd
+    name: Wandering
+    type: Rollable
+    sort: 3300001
+    flags:
+      core:
+        sourceId: Item.WMao39out5Wz3bZq
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: skill
+      value: 0
+      formula: '#0'
+      category: skill
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.WMao39out5Wz3bZq
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.MGx4Q7SF9FoFXyKd'
+  - _id: dDJoxSs6xH4wI6JW
+    name: Save Target
+    type: Modifier
+    sort: 2100001
+    flags:
+      core:
+        sourceId: Item.Kaa8vkljGtlLR6ie
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        The target for a save roll, either from an Attack Level or from a Spell
+        Save.
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: true
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '-@attack_level'
+          category: defence
+          targets: Toughness, Willpower
+          moddedformula: '0'
+        - value: 0
+          formula: '-@sst'
+          category: defence
+          targets: Toughness, Willpower
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Save Target (Spell)
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.Kaa8vkljGtlLR6ie
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.dDJoxSs6xH4wI6JW'
+  - _id: Fu9uHCsOv4yjqoaM
+    name: Spell Save Target
+    type: Primary-Attribute
+    sort: 2600001
+    flags:
+      core:
+        sourceId: Item.U6RDcM4tm9PHM122
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The target roll required to save against a successfully cast spell.
+      chartype: CharacterVsD
+      group: value
+      abbr: SST
+      attr: 0
+      value: 0
+      name: ''
+      state: ''
+      minForm: '0'
+      min: 0
+      maxForm: '150'
+      max: 150
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.U6RDcM4tm9PHM122
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.Fu9uHCsOv4yjqoaM'
+  - _id: zx5zfMZ6l2yHIokA
+    name: Difficulty
+    type: Modifier
+    sort: 900001
+    flags:
+      core:
+        sourceId: Item.2fWulJcxh67CWvlx
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The modifier link for a Variable
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: false
+      skill: true
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@difficulty'
+          category: skill
+          targets: ''
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Difficulty (Standard)
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.2fWulJcxh67CWvlx
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.zx5zfMZ6l2yHIokA'
+  - _id: GTIZg5R7tgkcQJLD
+    name: Difficulty
+    type: Variable
+    sort: 800001
+    flags:
+      core:
+        sourceId: Item.WxLa9nTAcFfjPfCY
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        Possible difficulty levels for any action. Linked to effects by a
+        modifier.
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '+0'
+      label: Standard
+      entries:
+        - value: 0
+          formula: '+0'
+          label: Standard
+        - value: -10
+          formula: '-10'
+          label: Challenging
+        - value: -20
+          formula: '-20'
+          label: Hard
+        - value: -30
+          formula: '-30'
+          label: Very Hard
+        - value: -40
+          formula: '-40'
+          label: Extremely Hard
+        - value: -50
+          formula: '-50'
+          label: Heroic
+        - value: -70
+          formula: '-70'
+          label: Insane
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.WxLa9nTAcFfjPfCY
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.GTIZg5R7tgkcQJLD'
+  - _id: 1SFTIQqkIa75Kh6Y
+    name: Critical Severity
+    type: Modifier
+    sort: 500001
+    flags:
+      core:
+        sourceId: Item.sQr8INoejqXubMjG
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The modifier link for a Variable
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: true
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@critical_severity'
+          category: defence
+          targets: Critical
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Critical Severity (Superficial)
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.sQr8INoejqXubMjG
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.1SFTIQqkIa75Kh6Y'
+  - _id: tSnbkRGNBB3koRpJ
+    name: Critical Severity
+    type: Variable
+    sort: 11000000
+    flags:
+      core:
+        sourceId: Item.4uPcAcwMnnFtGuJH
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '0'
+      label: Superficial
+      entries:
+        - value: 0
+          formula: '0'
+          label: Superficial
+        - value: 10
+          formula: '10'
+          label: Light
+        - value: 20
+          formula: '20'
+          label: Moderate
+        - value: 30
+          formula: '30'
+          label: Grievous
+        - value: 50
+          formula: '50'
+          label: Lethal
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.4uPcAcwMnnFtGuJH
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.tSnbkRGNBB3koRpJ'
+  - _id: UPPxyUf5fdtZ0qOT
+    name: Helpers
+    type: Variable
+    sort: 1100001
+    flags:
+      core:
+        sourceId: Item.XBXxq9Y1AYyfM1Ru
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The number of successful or partially successful helpers for a task.
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '0'
+      label: None
+      entries:
+        - value: 10
+          formula: '10'
+          label: One
+        - value: 20
+          formula: '20'
+          label: Two
+        - value: 30
+          formula: '30'
+          label: Three
+        - value: 40
+          formula: '40'
+          label: Four
+        - value: 0
+          formula: '0'
+          label: None
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.XBXxq9Y1AYyfM1Ru
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.UPPxyUf5fdtZ0qOT'
+  - _id: GA77AlRQCDYpORjP
+    name: Helpers
+    type: Modifier
+    sort: 1200001
+    flags:
+      core:
+        sourceId: Item.zv92z5JQzG4HvXVe
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The modifier link for a Variable
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: false
+      skill: true
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@helpers'
+          category: skill
+          targets: ''
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Helpers (None)
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.zv92z5JQzG4HvXVe
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.GA77AlRQCDYpORjP'
+  - _id: Bn6FndBUmVuhyhPc
+    name: Move Rate
+    type: Variable
+    sort: 1400001
+    flags:
+      core:
+        sourceId: Item.FYz2k0SLceDg5EMR
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Variable
+      value: 15
+      formula: '@move_mode'
+      label: Full Move
+      entries:
+        - value: 0
+          formula: '0'
+          label: No Move
+        - value: 0
+          formula: '@move_mode / 2'
+          label: Half Move
+        - value: 0
+          formula: '@move_mode'
+          label: Full Move
+        - value: 0
+          formula: '@move_mode *2'
+          label: Sprint
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.FYz2k0SLceDg5EMR
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.Bn6FndBUmVuhyhPc'
+  - _id: yJLvaLVl2gssnMUL
+    name: Parry
+    type: Primary-Attribute
+    sort: 4800000
+    flags:
+      core:
+        sourceId: Item.8U4Q9jIVqUhoQ8qP
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The amount of your offensive skill redirected to defence.
+      chartype: CharacterVsD
+      group: value
+      abbr: PARRY
+      attr: 0
+      value: 0
+      name: ''
+      state: ''
+      minForm: '0'
+      min: 0
+      maxForm: '100'
+      max: 100
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.8U4Q9jIVqUhoQ8qP
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.yJLvaLVl2gssnMUL'
+  - _id: uX8ZcpFzd2TgAIXs
+    name: Parry Amount
+    type: Modifier
+    sort: 1500001
+    flags:
+      core:
+        sourceId: Item.eiAjOTtdU3Jnq0oa
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The modifier connected to the Parry Pool value.
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: false
+      spell: false
+      check: false
+      reaction: true
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '-@parry'
+          category: attack
+          targets: ''
+          moddedformula: '0'
+        - value: 0
+          formula: '@parry'
+          category: reaction
+          targets: Melee DB, Missile DB
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Parry Amount
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.eiAjOTtdU3Jnq0oa
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.uX8ZcpFzd2TgAIXs'
+  - _id: tFERqHx4CGrrRCEE
+    name: Posture
+    type: Variable
+    sort: 1600001
+    flags:
+      core:
+        sourceId: Item.u4DQlMoKp8GEjte9
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '0'
+      label: ''
+      entries:
+        - value: 0
+          formula: '0'
+          label: Standing
+        - value: 0
+          formula: '0'
+          label: Kneeling
+        - value: 0
+          formula: '0'
+          label: Crouching
+        - value: 0
+          formula: '0'
+          label: Sitting
+        - value: 0
+          formula: '0'
+          label: Crawling
+        - value: 0
+          formula: '0'
+          label: Prone - face down
+        - value: 0
+          formula: '0'
+          label: Prone - face up
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.u4DQlMoKp8GEjte9
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.tFERqHx4CGrrRCEE'
+  - _id: 71u2Zi3mbiij8OM2
+    name: Toughness Saving Roll
+    type: Defence
+    sort: 3100001
+    flags:
+      core:
+        sourceId: Item.47xKw5RgMNpnNCar
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        Toughness Save Rolls (TSR) represent a character’s innate resistance to
+        physical threats, such as fatigue, poison, disease, and similar effects.
+      chartype: CharacterVsD
+      group: block
+      weight: 0
+      value: 0
+      formula: '0'
+      category: block
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 5
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.47xKw5RgMNpnNCar
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.71u2Zi3mbiij8OM2'
+  - _id: G7f1jRRJmZVcHU0w
+    name: Willpower Saving Roll
+    type: Defence
+    sort: 3200001
+    flags:
+      core:
+        sourceId: Item.JvIphqcG0Y7u3dBv
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        Willpower Save Rolls (WSR) represent a character’s chance to resist
+        attacks and effects influencing his mind, such as fear, illusions, or
+        mind controlling spells.
+      chartype: CharacterVsD
+      group: block
+      weight: 0
+      value: 0
+      formula: '0'
+      category: block
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 5
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.JvIphqcG0Y7u3dBv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.G7f1jRRJmZVcHU0w'
+  - _id: shq5B3oFg5QkEISv
+    name: Combat Tactics
+    type: Trait
+    sort: 100001
+    flags:
+      core:
+        sourceId: Item.3GSGi1Smzqk0umbL
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        Lesser Spiders can’t spin webs, but rely on their Adherence and Jump
+        abilities to assault their opponents, ambushing them from unexpected
+        angles.
+      chartype: CharacterVsD
+      group: disadvantage
+      applied: false
+      category: disadvantage
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.3GSGi1Smzqk0umbL
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.shq5B3oFg5QkEISv'
+  - _id: d3LPzmveeNRwJy4X
+    name: Bearing
+    type: Primary-Attribute
+    sort: 300001
+    flags:
+      core:
+        sourceId: Item.3fK4Jz5rUwm3Kq0O
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: Is a measure of a character’s presence, charisma and social influence.
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: BEA
+      attr: 0
+      value: 0
+      forceUpdate: false
+      sort: -1
+      tempattr: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.3fK4Jz5rUwm3Kq0O
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.d3LPzmveeNRwJy4X'
+  - _id: gCrDtUhLUjC6nHZ2
+    name: Body
+    type: Rollable
+    sort: 500001
+    flags:
+      core:
+        sourceId: Item.lEwYh52T9zc0NHMn
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The Body skill of the character.
+      chartype: CharacterVsD
+      group: check
+      value: 0
+      formula: '#0'
+      category: check
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.lEwYh52T9zc0NHMn
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.gCrDtUhLUjC6nHZ2'
+  - _id: YxiFkpfHq2Akimia
+    name: Brawn
+    type: Primary-Attribute
+    sort: 600001
+    flags:
+      core:
+        sourceId: Item.S99nwOdPdhvoADtn
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: Measures a character’s muscular strength and physical power.
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: BRN
+      attr: 0
+      value: 0
+      forceUpdate: false
+      sort: -1
+      tempattr: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.S99nwOdPdhvoADtn
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.YxiFkpfHq2Akimia'
+  - _id: nhKgotO9iLSV27ls
+    name: Brawn Bonus
+    type: Modifier
+    sort: 700001
+    flags:
+      core:
+        sourceId: Item.qlNo24r66gRcG7dN
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        The skill bonus from the Brawn stat. This is applied to attack rolls for
+        combat skills as well.
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: true
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@brn'
+          category: skill
+          targets: Blunt, Blades, Polearms, Brawl, Athletics
+          moddedformula: '0'
+        - value: 0
+          formula: '@brn'
+          category: attack
+          targets: Blunt, Blades, Polearms, Brawl
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Brawn Bonus
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.qlNo24r66gRcG7dN
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.nhKgotO9iLSV27ls'
+  - _id: bkRaa2M1426oG3Ih
+    name: Fortitude
+    type: Primary-Attribute
+    sort: 2200001
+    flags:
+      core:
+        sourceId: Item.6IqtY9Cn52SdTihv
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: Is the measure of a character's resistance and vigor.
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: FOR
+      attr: 0
+      value: 0
+      forceUpdate: false
+      sort: -1
+      tempattr: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.6IqtY9Cn52SdTihv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.bkRaa2M1426oG3Ih'
+  - _id: Z8z3AN4qoccuu8td
+    name: Melee DB
+    type: Rollable
+    sort: 3900001
+    flags:
+      core:
+        sourceId: Item.nZjtU8kBX6MDLSpE
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The "rollable" defensive bonus calculation for melee attacks.
+      chartype: CharacterVsD
+      group: check
+      value: 0
+      formula: '0'
+      category: check
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.nZjtU8kBX6MDLSpE
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.Z8z3AN4qoccuu8td'
+  - _id: vKTyB472bZ5nPuq7
+    name: Missile DB
+    type: Rollable
+    sort: 4000001
+    flags:
+      core:
+        sourceId: Item.MTk3psbHTe1vR2ND
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The "rollable" defensive bonus calculation for missile attacks.
+      chartype: CharacterVsD
+      group: check
+      value: 0
+      formula: '0'
+      category: check
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.MTk3psbHTe1vR2ND
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.vKTyB472bZ5nPuq7'
+  - _id: vYCf3fRxC47F0vSo
+    name: Description
+    type: Trait
+    sort: 4100001
+    flags:
+      core:
+        sourceId: Item.p3fq7loWyPBUNHxc
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: Massive spider about the same size as a grown halfling.
+      chartype: CharacterVsD
+      group: disadvantage
+      applied: false
+      category: disadvantage
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.p3fq7loWyPBUNHxc
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.vYCf3fRxC47F0vSo'
+  - _id: fEurhRa3EflJg4z0
+    name: Swiftness
+    type: Primary-Attribute
+    sort: 4300001
+    flags:
+      core:
+        sourceId: Item.XZOugUJJbCti2NaI
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        Is the measure of a character’s dexterity, speed, coordination, balance
+        and general agility.
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: SWI
+      attr: 0
+      value: 0
+      forceUpdate: false
+      sort: -1
+      tempattr: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.XZOugUJJbCti2NaI
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.fEurhRa3EflJg4z0'
+  - _id: ThYgKOuGawM4Jva5
+    name: Wisdom
+    type: Primary-Attribute
+    sort: 5700001
+    flags:
+      core:
+        sourceId: Item.NWmV8LRfUGCP85ct
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        Measures a character’s empathy, intuition, willpower, awareness and
+        attention to detail.
+
+        Wisdom value modifies the number of Magic Points an Animist character
+        gains at each level.
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: WSD
+      attr: 0
+      value: 0
+      forceUpdate: false
+      sort: -1
+      tempattr: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.NWmV8LRfUGCP85ct
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.ThYgKOuGawM4Jva5'
+  - _id: KZ0kMh8EzCgcPg98
+    name: Wits
+    type: Primary-Attribute
+    sort: 5900001
+    flags:
+      core:
+        sourceId: Item.Qbhgr2NPUA3lYwiw
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        Measures a character’s reasoning, cleverness, mnemonic ability and
+        mental agility.
+
+        Wits value modifies the number of Magic Points a Wizard character gains
+        at each level.
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: WIT
+      attr: 0
+      value: 0
+      forceUpdate: false
+      sort: -1
+      tempattr: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.Qbhgr2NPUA3lYwiw
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.KZ0kMh8EzCgcPg98'
+  - _id: 3kr8mrgwrkmZTP5C
+    name: Wealth Level
+    type: Variable
+    sort: 11200000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.VHihOAE0QaZQf3tP
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: |-
+        Kin: 0
+        Culture: 0
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '0'
+      label: Serf or Outcast
+      entries:
+        - value: 0
+          formula: '0'
+          label: Serf or Outcast
+        - value: 1
+          formula: '1'
+          label: Struggling
+        - value: 2
+          formula: '2'
+          label: Commoner
+        - value: 3
+          formula: '3'
+          label: Gentry
+        - value: 4
+          formula: '4'
+          label: Lesser Noble
+        - value: 5
+          formula: '5'
+          label: Greater Noble
+      temporary: false
+      once: false
+      abbr: WL
+      name: ''
+      state: ''
+      minForm: '0'
+      min: 0
+      maxForm: '5'
+      max: 5
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.VHihOAE0QaZQf3tP
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.3kr8mrgwrkmZTP5C'
+  - _id: 7DJq0zL1QEZc0ZdV
+    name: Magic Points
+    type: Pool
+    sort: 11300000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.iRx7VxXXj3rTDw87
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: |-
+        Kin: 0
+        Vocation/Lvl: 0
+        Stat/Lvl: 0
+      chartype: CharacterVsD
+      group: Pool
+      abbr: MP
+      name: ''
+      state: ''
+      minForm: '0'
+      min: 0
+      value: 0
+      maxForm: '0'
+      max: 0
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.iRx7VxXXj3rTDw87
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.7DJq0zL1QEZc0ZdV'
+  - _id: Qx5lm67dKKHf03em
+    name: Taking the Time
+    type: Modifier
+    sort: 12000000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-saves-various.UOVYlJGhQknJVo36
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: |-
+        When there’s no hurry or particular stress put on a character to
+        accomplish a task, then the player can declare the character Takes
+        the Time to perform the action more carefully.
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: false
+      alwaysOn: false
+      attack: false
+      defence: false
+      skill: true
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 20
+          formula: '+20'
+          category: skill
+          targets: ''
+          moddedvalue: 20
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Taking the Time
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-saves-various.UOVYlJGhQknJVo36
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.Qx5lm67dKKHf03em'
+  - _id: xZumbWrZdVKgV0fd
+    name: Fumble (Melee/Thrown)
+    type: Defence
+    sort: 12400000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-saves-various.2BPP1yPlbWNU0eVh
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: 2.42 Melee and Thrown Weapons Fumble Table
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-saves-various.2BPP1yPlbWNU0eVh
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.xZumbWrZdVKgV0fd'
+  - _id: FJ8Pfw2km72mg7Cc
+    name: Fumble (Missile)
+    type: Defence
+    sort: 12300000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-saves-various.2BPP1yPlbWNU0eVh
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: 2.42 Missile Weapons Fumble Table
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-saves-various.2BPP1yPlbWNU0eVh
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.FJ8Pfw2km72mg7Cc'
+  - _id: m51nQ2FQhy9DrxCA
+    name: Enemy Defensive Bonus
+    type: Primary-Attribute
+    sort: 5000000
+    flags: {}
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        This is the defensive bonus of the enemy you are attacking.
+
+        You might also include any random factors without their own modifiers to
+        speed up play.
+      chartype: CharacterVsD
+      group: value
+      abbr: EDB
+      attr: 0
+      value: 0
+      name: ''
+      state: ''
+      minForm: '0'
+      min: 0
+      maxForm: '150'
+      max: 150
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.m51nQ2FQhy9DrxCA'
+  - _id: KkveaMxIFTavUUjs
+    name: Fumble Mod
+    type: Variable
+    sort: 13100000
+    flags: {}
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '0'
+      label: None
+      entries:
+        - value: 0
+          formula: '0'
+          label: None
+        - value: 10
+          formula: '+10'
+          label: Short Edged
+        - value: 10
+          formula: '+10'
+          label: Long Impact
+        - value: 10
+          formula: '+10'
+          label: One Handed Axe
+        - value: 10
+          formula: '+10'
+          label: Javelin
+        - value: 20
+          formula: '+20'
+          label: Long Edged
+        - value: 30
+          formula: '+30'
+          label: Two-Handed
+        - value: 30
+          formula: '+30'
+          label: Chain
+        - value: 50
+          formula: '+50'
+          label: Polearm
+        - value: 50
+          formula: '+50'
+          label: Net
+        - value: 50
+          formula: '+50'
+          label: Whip
+        - value: 10
+          formula: '+10'
+          label: Short Bow
+        - value: 10
+          formula: '+10'
+          label: Sling
+        - value: 20
+          formula: '+20'
+          label: Heavy Crossbow
+        - value: 30
+          formula: '+30'
+          label: Composite Bow
+        - value: 50
+          formula: '+50'
+          label: Longbow
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.KkveaMxIFTavUUjs'
+  - _id: Lqj0qrMshx8LIaf4
+    name: Fumble Mod
+    type: Modifier
+    sort: 500001
+    flags:
+      core:
+        sourceId: Item.sQr8INoejqXubMjG
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The modifier link for a Variable
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: true
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@fumble_mod'
+          category: defence
+          targets: Fumble
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Fumble Mod (None)
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.sQr8INoejqXubMjG
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.Lqj0qrMshx8LIaf4'
+  - _id: Eaj6Q74x53xJi1b3
+    name: Enemy Defensive Bonus
+    type: Modifier
+    sort: 5100000
+    flags: {}
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        This modifier links the value in the Poll: Enemy Defensive Bonus to your
+        attack rolls.
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '-@edb'
+          category: attack
+          targets: ''
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Enemy Defensive Bonus
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.Eaj6Q74x53xJi1b3'
+  - _id: EP1wu2llLc2SYLgb
+    name: Preparation/Aim Time
+    type: Modifier
+    sort: 1800001
+    flags:
+      core:
+        sourceId: Item.sWH1lhDuBWTL0jlZ
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The modifier link for a Variable
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: false
+      spell: true
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@prepaim_time'
+          category: attack
+          targets: >-
+            Ranged, Channel, Command, Eldritch, Elven, Heroic, Mind, Skirmish,
+            Spell, Trick, Weapon, Aspect, Chant, Cleans, Commun, Detect, Heal,
+            Lore, Master, Miracle, Movement, Nature, Necro, Soul, Dark, Earth,
+            Enchant, Illus, Sound
+          moddedformula: '0'
+        - value: 0
+          formula: '@prepaim_time'
+          category: spell
+          targets: ''
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Preparation/Aim Time (No Penalty)
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.sWH1lhDuBWTL0jlZ
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.EP1wu2llLc2SYLgb'
+  - _id: JDFA5wef0nzudwKZ
+    name: Fortitude Bonus
+    type: Modifier
+    sort: 13400000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-character-building.hfDHmW1bIyo1FX9a
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        The Body bonus from the Fortitude stat. This is applied to the Body
+        skill represented as a non-rollable Defence item.
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: true
+      skill: false
+      spell: false
+      check: false
+      reaction: true
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@for'
+          category: reaction
+          targets: Body
+          moddedformula: '0'
+        - value: 0
+          formula: '@for'
+          category: defence
+          targets: Toughness
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Fortitude Bonus
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-character-building.hfDHmW1bIyo1FX9a
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.JDFA5wef0nzudwKZ'
+  - _id: kM4jno4zeEwl4qXf
+    name: Missile Range Mod
+    type: Modifier
+    sort: 39600001
+    flags:
+      core:
+        sourceId: Item.CPao3jAenveys7HY
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@missile_range'
+          category: attack
+          targets: Ranged
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Missile Range Mod (Base)
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.CPao3jAenveys7HY
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.kM4jno4zeEwl4qXf'
+  - _id: xr1RpBe8c7i0YDtt
+    name: Missile Range
+    type: Variable
+    sort: 39500001
+    flags:
+      core:
+        sourceId: Item.QoonUEI3JARJzsT8
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: Each step of the weapon Base Range imposes penalties on the attack.
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '0'
+      label: Base
+      entries:
+        - value: 0
+          formula: '0'
+          label: Base
+        - value: -25
+          formula: '-25'
+          label: Medium
+        - value: -50
+          formula: '-50'
+          label: Long
+        - value: -75
+          formula: '-75'
+          label: Extreme
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.QoonUEI3JARJzsT8
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.xr1RpBe8c7i0YDtt'
+  - _id: 7wxCdE0neVmv4u9a
+    name: Level
+    type: Rollable
+    sort: 42700001
+    flags: {}
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The character experience level.
+      chartype: CharacterVsD
+      group: check
+      value: 0
+      formula: '#1'
+      category: check
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.7wxCdE0neVmv4u9a'
+  - _id: LfsrCXwlMbwdkIqs
+    name: Critical (Grapple)
+    type: Defence
+    sort: 40100001
+    flags:
+      core:
+        sourceId: Item.bfkmGlR0a8QfTyzv
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: 7.12 Grapple Critical Strikes Table
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.bfkmGlR0a8QfTyzv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.LfsrCXwlMbwdkIqs'
+  - _id: JgyABKYK0HaTzNY6
+    name: Critical (Impact)
+    type: Defence
+    sort: 40200001
+    flags:
+      core:
+        sourceId: Item.bfkmGlR0a8QfTyzv
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: 7.9 Impact Critical Strikes Table
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.bfkmGlR0a8QfTyzv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.JgyABKYK0HaTzNY6'
+  - _id: d3SgoBuSBOjyqZ7D
+    name: Critical (Pierce)
+    type: Defence
+    sort: 40300001
+    flags:
+      core:
+        sourceId: Item.bfkmGlR0a8QfTyzv
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: 7.11 Pierce Critical Strikes Table
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      forceUpdate: false
+      sort: -1
+      moddedvalue: 0
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.bfkmGlR0a8QfTyzv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.d3SgoBuSBOjyqZ7D'
+  - _id: 60Eh9Ltm7cCCMh1I
+    name: Attack Level
+    type: Variable
+    sort: 200001
+    flags:
+      core:
+        sourceId: Item.VHyPy58aqoAdbcP5
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The Save Roll Attack Level
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '0'
+      label: Spell
+      entries:
+        - value: 0
+          formula: '0'
+          label: Spell
+        - value: 55
+          formula: '55'
+          label: '1'
+        - value: 60
+          formula: '60'
+          label: '2'
+        - value: 65
+          formula: '65'
+          label: '3'
+        - value: 70
+          formula: '70'
+          label: '4'
+        - value: 75
+          formula: '75'
+          label: '5'
+        - value: 80
+          formula: '80'
+          label: '6'
+        - value: 85
+          formula: '85'
+          label: '7'
+        - value: 90
+          formula: '90'
+          label: '8'
+        - value: 95
+          formula: '95'
+          label: '9'
+        - value: 100
+          formula: '100'
+          label: '10'
+        - value: 102
+          formula: '102'
+          label: '11'
+        - value: 104
+          formula: '104'
+          label: '12'
+        - value: 106
+          formula: '106'
+          label: '13'
+        - value: 108
+          formula: '108'
+          label: '14'
+        - value: 110
+          formula: '110'
+          label: '15'
+        - value: 112
+          formula: '112'
+          label: '16'
+        - value: 114
+          formula: '114'
+          label: '17'
+        - value: 116
+          formula: '116'
+          label: '18'
+        - value: 118
+          formula: '118'
+          label: '19'
+        - value: 120
+          formula: '120'
+          label: '20'
+        - value: 121
+          formula: '121'
+          label: '21'
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.VHyPy58aqoAdbcP5
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.60Eh9Ltm7cCCMh1I'
+  - _id: MjDPODgoJgivj7sP
+    name: Wound Action Penalty
+    type: Modifier
+    sort: 8100000
+    flags:
+      core:
+        sourceId: Item.xHj2gr8Gkwr6l9H4
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The action penalty to rolls for wounds sustained.
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: true
+      spell: true
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@woundspen'
+          category: attack
+          targets: ''
+          moddedformula: '0'
+        - value: 0
+          formula: '@woundspen'
+          category: skill
+          targets: ''
+          moddedformula: '0'
+        - value: 0
+          formula: '@woundspen'
+          category: spell
+          targets: ''
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Wound Action Penalty
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.xHj2gr8Gkwr6l9H4
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.MjDPODgoJgivj7sP'
+  - _id: VlJeCuo4lyghFWF9
+    name: Bearing Bonus
+    type: Modifier
+    sort: 400001
+    flags:
+      core:
+        sourceId: Item.Smd9yl2M0STX2AJc
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The skill bonus from the Bearing stat
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: true
+      spell: true
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@bea'
+          category: skill
+          targets: Charisma, Songs & Tales, Intimidation
+          moddedformula: '0'
+        - value: 0
+          formula: '@bea'
+          category: spell
+          targets: >-
+            Channeling, Commanding, Eldritch Might, Eldritch Visions, Elven,
+            Heroic, Mind Control, Skirmish, Spell Songs, Trickery, Weapon
+          moddedformula: '0'
+        - value: 0
+          formula: '@bea'
+          category: attack
+          targets: >-
+            Channeling, Commanding, Eldritch Might, Eldritch Visions, Elven,
+            Heroic, Mind Control, Skirmish, Spell Songs, Trickery, Weapon
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Bearing Bonus
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.Smd9yl2M0STX2AJc
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.VlJeCuo4lyghFWF9'
+  - _id: EPfXffSInfNx7foJ
+    name: Wits Bonus
+    type: Modifier
+    sort: 6000001
+    flags:
+      core:
+        sourceId: Item.QqDNaKjWGOcrkjeI
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The skill bonus from the Wits stat
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: true
+      spell: true
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@wit'
+          category: skill
+          targets: >-
+            Hunting, Locks & Traps, Deceive, Arcana, Cultures, Warfare,
+            Scholarship
+          moddedformula: '0'
+        - value: 0
+          formula: '@wit'
+          category: spell
+          targets: >-
+            Dark, Earth, Enchantment, Illusions, Sounds, Eldritch F, Eldritch H,
+            Eldritch Mo, Eldritch S, Eldritch T, Eldritch W
+          moddedformula: '0'
+        - value: 0
+          formula: '@wit'
+          category: attack
+          targets: >-
+            Dark, Earth, Enchantment, Illusions, Sounds, Eldritch F, Eldritch H,
+            Eldritch Mo, Eldritch S, Eldritch T, Eldritch W
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Wits Bonus
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.QqDNaKjWGOcrkjeI
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.EPfXffSInfNx7foJ'
+  - _id: vV6ByKUqnKfZ7pN7
+    name: Swiftness Bonus
+    type: Modifier
+    sort: 14100000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-character-building.nPExzSo2ftsKVWWb
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: >-
+        The skill bonus from the Swiftness stat. This is applied to ranged
+        attack rolls as well.
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: true
+      spell: false
+      check: false
+      reaction: true
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@swi'
+          category: skill
+          targets: Ranged, Ride, Acrobatics, Stealth, Assassin, Cooking, Swift
+          moddedformula: '0'
+        - value: 0
+          formula: '@swi'
+          category: attack
+          targets: Ranged
+          moddedformula: '0'
+        - value: 0
+          formula: '@swi'
+          category: reaction
+          targets: Melee, Missile
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Swiftness Bonus
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-character-building.nPExzSo2ftsKVWWb
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.vV6ByKUqnKfZ7pN7'
+  - _id: 3r99NjS2ePGuyHFn
+    name: Wisdom Bonus
+    type: Modifier
+    sort: 14200000
+    flags:
+      core:
+        sourceId: Item.JG3nlQmoRdcjh6R1
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: The skill bonus from the Wisdom stat
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: true
+      skill: true
+      spell: true
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@wsd'
+          category: skill
+          targets: >-
+            Nature, Wandering, Perception, Healer, Battle F, Craft, Meditation,
+            Steward
+          moddedformula: '0'
+        - value: 0
+          formula: '@wsd'
+          category: spell
+          targets: >-
+            Aspects, Chant, Clean, Comm, Detect, Heal, Lore, Master, Miracle,
+            Move, Nature, Necro, Soul
+          moddedformula: '0'
+        - value: 0
+          formula: '@wsd'
+          category: defence
+          targets: Willpower
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Wisdom Bonus
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.JG3nlQmoRdcjh6R1
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.3r99NjS2ePGuyHFn'
+  - _id: NHqUM3Iv8cwwxv3K
+    name: Critical (Cut)
+    type: Defence
+    sort: 43600001
+    flags:
+      core:
+        sourceId: Item.bfkmGlR0a8QfTyzv
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: 7.10 Cut Critical Strikes Table
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Item.bfkmGlR0a8QfTyzv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.NHqUM3Iv8cwwxv3K'
+  - _id: IJdsEeYtl3Ug3u5C
+    name: General Information
+    type: Trait
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    sort: 4200001
+    flags:
+      core:
+        sourceId: Item.p3fq7loWyPBUNHxc
+    system:
+      notes: >-
+        Giant Spiders are ancient, wicked monstrosities infesting the dark
+        corners of creation. Drawn to Darkness like moths to the flame, they
+        make blighted forests, deep caves, and forgotten ruins their favorite
+        hunting grounds.
+      chartype: CharacterVsD
+      group: disadvantage
+      applied: false
+      category: disadvantage
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+      m77Jvy9zPLGirbxo: 3
+    _stats:
+      compendiumSource: Item.p3fq7loWyPBUNHxc
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.IJdsEeYtl3Ug3u5C'
+  - _id: H3HGNTbEbCRl67xT
+    name: Encumbrance
+    type: Variable
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core:
+        sourceId: Item.8du8wJe5tzrgRGLp
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: Variable
+      value: 1
+      formula: '1'
+      label: Unencumbered
+      entries:
+        - value: 1
+          formula: '1'
+          label: Unencumbered
+        - value: 1
+          formula: '1'
+          label: Lightly Encumbered
+        - value: 1.5
+          formula: '1.5'
+          label: Encumbered
+        - value: 2
+          formula: '2'
+          label: Heavily Encumbered
+        - value: 4
+          formula: '4'
+          label: Over Encumbered
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+      cImOvPmZNMfQaao2: 3
+    _stats:
+      compendiumSource: Item.8du8wJe5tzrgRGLp
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.H3HGNTbEbCRl67xT'
+  - name: Critical (Beast)
+    type: Defence
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 500000
+    flags:
+      core:
+        sourceId: Item.bfkmGlR0a8QfTyzv
+    system:
+      notes: 7.8 Beast Critical Strikes
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      sort: -1
+    ownership:
+      default: 0
+      8VtokmkrTaxXr4Uk: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.bfkmGlR0a8QfTyzv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: GlkQDFU3HF8evlAZ
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.GlkQDFU3HF8evlAZ'
+  - name: Kin & Vocation HP Bonus
+    type: Primary-Attribute
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 100000
+    flags:
+      core:
+        sourceId: Item.Zg4wOxZhrTUWzNTu
+    system:
+      notes: >-
+        An item to be the target for any bonus or malus to HP, initially those
+        from Kin and Vocation bonuses.
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: KinVoc
+      attr: 0
+      value: 0
+    ownership:
+      default: 0
+      UiCXq4VUwQ5S2thO: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.Zg4wOxZhrTUWzNTu
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: 3BCFrJAjUSU4PrCp
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.3BCFrJAjUSU4PrCp'
+  - name: CMB Penalty
+    type: Primary-Attribute
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 200000
+    flags:
+      core:
+        sourceId: Item.NiToWW7tYnjuahxm
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: CMBPen
+      attr: 0
+      value: 0
+    ownership:
+      default: 0
+      UiCXq4VUwQ5S2thO: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.NiToWW7tYnjuahxm
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: tycgzmtWn9Dbwi34
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.tycgzmtWn9Dbwi34'
+  - name: Armour Penalty
+    type: Primary-Attribute
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 150000
+    flags:
+      core:
+        sourceId: Item.KtIjzRSDtP22cDty
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: ArmPen
+      attr: 0
+      value: 0
+    ownership:
+      default: 0
+      UiCXq4VUwQ5S2thO: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.KtIjzRSDtP22cDty
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: zzceUTAY1TLSK01Q
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.zzceUTAY1TLSK01Q'
+  - name: CMB Penalty
+    type: Modifier
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 300000
+    flags:
+      core:
+        sourceId: Item.TQaYXvp4czmjDGK5
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: false
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '@cmbpen'
+          category: attack
+          targets: Blunt, Blades, Ranged, Polearms, Brawl
+          moddedformula: '0'
+        - value: 0
+          formula: '@cmbpen'
+          category: skill
+          targets: Blunt, Blades, Ranged, Polearms, Brawl
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+    ownership:
+      default: 0
+      UiCXq4VUwQ5S2thO: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.TQaYXvp4czmjDGK5
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: MF1dQhmuikibsqrz
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.MF1dQhmuikibsqrz'
+  - name: Armor Penalty
+    type: Modifier
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 400000
+    flags:
+      core:
+        sourceId: Actor.pPqmFiXJEEfpQby7.Item.3GbPDzaGj225RyEg
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: false
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: min(0, @armor + @armpen)
+          category: skill
+          targets: Athletics, Acrobatics, Ride, Stealth
+          moddedformula: '0'
+        - value: 0
+          formula: min(0, @armor + @armpen)
+          category: spell
+          targets: ''
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+    ownership:
+      default: 0
+      UiCXq4VUwQ5S2thO: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Actor.pPqmFiXJEEfpQby7.Item.3GbPDzaGj225RyEg
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: P2N97IzUsHLCOYWU
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.P2N97IzUsHLCOYWU'
+  - name: Flight
+    type: Primary-Attribute
+    sort: 145313
+    flags:
+      core:
+        sourceId: Item.S99nwOdPdhvoADtn
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: y3JyB5wigBRApYQz
+    system:
+      notes: The movement rate when flying
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: flight
+      attr: 0
+      value: 0
+      forceUpdate: false
+      sort: -1
+      tempattr: 0
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.S99nwOdPdhvoADtn
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: QTWekcMm58Ly4O9y
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.QTWekcMm58Ly4O9y'
+  - name: Land
+    type: Primary-Attribute
+    sort: 146875
+    flags:
+      core:
+        sourceId: Item.S99nwOdPdhvoADtn
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: y3JyB5wigBRApYQz
+    system:
+      notes: The movement rate on land
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: land
+      attr: 0
+      value: 0
+      forceUpdate: false
+      sort: -1
+      tempattr: 0
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.S99nwOdPdhvoADtn
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: QHkuqgD8OuL8x7zA
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.QHkuqgD8OuL8x7zA'
+  - name: Natural Armour
+    type: Modifier
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: y3JyB5wigBRApYQz
+    sort: 143750
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-armor-and-shields.q5xEdPIrb5aNK0H9
+    system:
+      notes: |
+        Fare: 0
+        Type: Light
+        Protects: Full Body
+        Qualities: -
+        Max SWI: -
+      chartype: CharacterVsD
+      group: character
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: true
+      spell: true
+      check: false
+      reaction: true
+      damage: false
+      primary: false
+      entries:
+        - value: 40
+          formula: '40'
+          category: reaction
+          targets: Melee, Missile
+          moddedvalue: 40
+        - value: 0
+          formula: '0'
+          category: primary
+          targets: ArmPen
+          moddedvalue: 0
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+      8VtokmkrTaxXr4Uk: 3
+      DA5mblIZ1RT8WnN2: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-armor-and-shields.q5xEdPIrb5aNK0H9
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: 33vOsJl6gbiSHGIZ
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.33vOsJl6gbiSHGIZ'
+  - name: Prep/Aim Time
+    type: Variable
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: y3JyB5wigBRApYQz
+    sort: 200000
+    flags:
+      core:
+        sourceId: Item.APLwZSaWsh2ZXlof
+    system:
+      notes: >-
+        Possible modifiers due to preparation or aim time spent on a task.
+        Linked to effects by a modifier.
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '0'
+      label: No Penalty
+      entries:
+        - value: 0
+          formula: '0'
+          label: No Penalty
+        - value: -10
+          formula: '-10'
+          label: No Prep/Aim
+        - value: 10
+          formula: '+10'
+          label: 1 round
+        - value: 20
+          formula: '+20'
+          label: 2rounds
+        - value: 30
+          formula: '+30'
+          label: 3 rounds
+        - value: 40
+          formula: '+40'
+          label: 4+ rounds
+      temporary: false
+      once: true
+      sort: -1
+    ownership:
+      default: 0
+      UiCXq4VUwQ5S2thO: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.APLwZSaWsh2ZXlof
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: fb7uhgTO8EhJdRMc
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.fb7uhgTO8EhJdRMc'
+  - name: Swim
+    type: Primary-Attribute
+    sort: 137500
+    flags:
+      core:
+        sourceId: Item.S99nwOdPdhvoADtn
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: y3JyB5wigBRApYQz
+    system:
+      notes: The movement rate when swimming
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: swim
+      attr: 0
+      value: 0
+      forceUpdate: false
+      sort: -1
+      tempattr: 0
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.S99nwOdPdhvoADtn
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: K293XnRWPKPBc7aI
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.K293XnRWPKPBc7aI'
+  - _id: 8CnVmU3O8ArZailq
+    name: Critical (Dark Magic)
+    type: Defence
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core:
+        sourceId: Item.bfkmGlR0a8QfTyzv
+    system:
+      notes: 7.16 Dark Magic Critical Strikes
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      sort: -1
+    ownership:
+      default: 0
+      8VtokmkrTaxXr4Uk: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.bfkmGlR0a8QfTyzv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.8CnVmU3O8ArZailq'
+  - _id: X85Y5Z8rtviTmL1q
+    name: Critical (Fire)
+    type: Defence
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core:
+        sourceId: Item.bfkmGlR0a8QfTyzv
+    system:
+      notes: 7.13 Fire Critical Strikes Table
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      sort: -1
+    ownership:
+      default: 0
+      8VtokmkrTaxXr4Uk: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.bfkmGlR0a8QfTyzv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.X85Y5Z8rtviTmL1q'
+  - _id: DdjBCI6sFQV4alEr
+    name: Critical (Frost)
+    type: Defence
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core:
+        sourceId: Item.bfkmGlR0a8QfTyzv
+    system:
+      notes: 7.15 Frost Critical Strikes Table
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      sort: -1
+    ownership:
+      default: 0
+      8VtokmkrTaxXr4Uk: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.bfkmGlR0a8QfTyzv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.DdjBCI6sFQV4alEr'
+  - _id: iYKGqsvmvXAW8R3M
+    name: Critical (Lightning)
+    type: Defence
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core:
+        sourceId: Item.bfkmGlR0a8QfTyzv
+    system:
+      notes: 7.14 Lightning Critical Strikes Table
+      chartype: CharacterVsD
+      group: dodge
+      weight: 0
+      value: 0
+      formula: '0'
+      category: dodge
+      sort: -1
+    ownership:
+      default: 0
+      8VtokmkrTaxXr4Uk: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.bfkmGlR0a8QfTyzv
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.iYKGqsvmvXAW8R3M'
+  - name: Base Movement Rates
+    type: Modifier
+    sort: 275000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-character-building.KWzVJO5KYTaemcnu
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: character
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 18
+          formula: '18'
+          category: primary
+          targets: Land
+          moddedvalue: 18
+        - value: 0
+          formula: '0'
+          category: primary
+          targets: Flight
+          moddedvalue: 0
+        - value: 0
+          formula: '0'
+          category: primary
+          targets: Swim
+          moddedvalue: 0
+        - value: 0
+          formula: '0'
+          category: primary
+          targets: Burrow
+          moddedvalue: 0
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: Flanking Attack
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-character-building.KWzVJO5KYTaemcnu
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: 8yS6k0YCsUnAzE8v
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.8yS6k0YCsUnAzE8v'
+  - name: Burrow
+    type: Primary-Attribute
+    sort: 281250
+    flags:
+      core:
+        sourceId: Item.S99nwOdPdhvoADtn
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    system:
+      notes: The movement rate when burrowing
+      chartype: CharacterVsD
+      group: Primary-Attribute
+      abbr: burrow
+      attr: 0
+      value: 0
+      forceUpdate: false
+      sort: -1
+      tempattr: 0
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.S99nwOdPdhvoADtn
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: QeVwYh9a5C0X4moS
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.QeVwYh9a5C0X4moS'
+  - name: Hit Points
+    type: Pool
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 250000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.cgYzxFuGzbIlmU6k
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Pool
+      abbr: HP
+      name: ''
+      state: '[INC]'
+      minForm: '-1*(@body+@for+@kinvoc)'
+      min: 0
+      value: 500
+      maxForm: '@body+@for+@kinvoc'
+      max: 0
+      sort: -1
+      hasmin: true
+      hasmax: true
+      moddedvalue: 0
+    ownership:
+      default: 0
+      UiCXq4VUwQ5S2thO: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.cgYzxFuGzbIlmU6k
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: ncGGERiIFIRAPkLf
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.ncGGERiIFIRAPkLf'
+  - _id: J4qEz7kKHF1gAVW4
+    name: 'Kin: Giant Spider'
+    type: Modifier
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 100000
+    flags:
+      core:
+        sourceId: Item.ZN7IxBeCDCP6Fhn7
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: character
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: true
+      skill: false
+      spell: false
+      check: false
+      reaction: true
+      damage: false
+      primary: true
+      entries:
+        - value: 70
+          formula: '70'
+          category: reaction
+          targets: Body
+          moddedvalue: 70
+        - value: 70
+          formula: '70'
+          category: primary
+          targets: KinVoc
+          moddedvalue: 70
+        - value: 5
+          formula: '5'
+          category: defence
+          targets: Willpower
+          moddedvalue: 5
+        - value: 15
+          formula: '15'
+          category: defence
+          targets: Toughness
+          moddedvalue: 15
+      temporary: false
+      once: false
+      condition: false
+      forceUpdate: false
+      sort: -1
+      tempName: 'Kin: NameOfKin'
+    ownership:
+      default: 0
+      cFMVT6Qd4M0fbk5F: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.ZN7IxBeCDCP6Fhn7
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.J4qEz7kKHF1gAVW4'
+  - name: 'Language: NPC'
+    type: Trait
+    img: icons/svg/mystery-man-black.svg
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: ''
+      applied: false
+      category: language
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 287500
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+    flags:
+      core:
+        sourceId: Item.HAFbTcyppMYBkpN8
+    _stats:
+      compendiumSource: Item.HAFbTcyppMYBkpN8
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: hb42qvhC54xmpAbR
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.hb42qvhC54xmpAbR'
+  - name: Move Mode
+    type: Variable
+    sort: 150000
+    flags:
+      core:
+        sourceId: Item.PFLae6vRarSEfz9u
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    system:
+      notes: note
+      chartype: CharacterVsD
+      group: Variable
+      value: 15
+      formula: '@land / @encumbrance'
+      label: Land
+      entries:
+        - value: 0
+          formula: '0'
+          label: None
+        - value: 0
+          formula: '@land / @encumbrance'
+          label: Land
+        - value: 0
+          formula: '@flight / @encumbrance'
+          label: Flight
+        - value: 0
+          formula: '@swim / @encumbrance'
+          label: Swim
+        - value: 0
+          formula: '@burrow/ @encumbrance'
+          label: Burrow
+      temporary: false
+      once: false
+      sort: -1
+      moddedformula: '0'
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.PFLae6vRarSEfz9u
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: 5kR6yOHoyeowxXJd
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.5kR6yOHoyeowxXJd'
+  - name: NPC Base Values
+    type: Modifier
+    sort: 300000
+    flags:
+      core:
+        sourceId: Item.kWb62OHwxVRJXwRy
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: character
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: false
+      skill: true
+      spell: true
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '0'
+          category: attack
+          targets: Blunt
+          moddedvalue: 0
+        - value: 0
+          formula: '0'
+          category: skill
+          targets: Blunt
+          moddedvalue: 0
+        - value: 0
+          formula: '0'
+          category: attack
+          targets: Blades
+          moddedvalue: 0
+        - value: 0
+          formula: '0'
+          category: skill
+          targets: Blades
+          moddedvalue: 0
+        - value: 0
+          formula: '0'
+          category: attack
+          targets: Polearms
+          moddedvalue: 0
+        - value: 0
+          formula: '0'
+          category: skill
+          targets: Polearms
+          moddedvalue: 0
+        - value: 0
+          formula: '0'
+          category: attack
+          targets: Ranged
+          moddedvalue: 0
+        - value: 0
+          formula: '0'
+          category: skill
+          targets: Ranged
+          moddedvalue: 0
+        - value: 90
+          formula: '90'
+          category: attack
+          targets: Brawl
+          moddedvalue: 90
+        - value: 90
+          formula: '90'
+          category: skill
+          targets: Brawl
+          moddedvalue: 90
+        - value: 50
+          formula: '50'
+          category: skill
+          targets: Ath, Ride, Hunt, Nat, Wand
+          moddedvalue: 50
+        - value: 60
+          formula: '60'
+          category: skill
+          targets: Acro, Ste, Lock, Per, Dec
+          moddedvalue: 60
+        - value: 10
+          formula: '10'
+          category: skill
+          targets: Arc, Cha, Cult, Heal, Song
+          moddedvalue: 10
+        - value: 0
+          formula: '0'
+          category: attack
+          targets: >-
+            Channel, Command, Eldritch, Elven, Heroic, Mind, Skirmish, Spell,
+            Trick, Weapon, Aspect, Chant, Cleans, Commun, Detect, Heal, Lore,
+            Master, Miracle, Movement, Nature, Necro, Soul, Dark, Earth,
+            Enchant, Illus, Sound
+          moddedvalue: 0
+        - value: 0
+          formula: '0'
+          category: spell
+          targets: ''
+          moddedvalue: 0
+      temporary: false
+      once: false
+      condition: false
+      sort: -1
+      tempName: NPC Base Values
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.kWb62OHwxVRJXwRy
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: IN8FRg661gbvFf6R
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.IN8FRg661gbvFf6R'
+  - _id: lhq01rMuraCWFCVt
+    name: 'Vocation: Lesser Spider'
+    type: Variable
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 200000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.62jQfPnFwbVjw8GM
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: character
+      value: 1
+      formula: '1'
+      label: Armor
+      entries: []
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+    ownership:
+      default: 0
+      cFMVT6Qd4M0fbk5F: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.62jQfPnFwbVjw8GM
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.lhq01rMuraCWFCVt'
+  - name: Level Mod
+    type: Modifier
+    sort: 800000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-character-building.5s9AJgKJpvDUMQHn
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: yXsZ7zJ9ivSbqYWM
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: true
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 25
+          formula: '@level'
+          category: defence
+          targets: Toughness, Willpower
+          moddedformula: '25'
+      temporary: false
+      once: false
+      condition: false
+      sort: -1
+      tempName: Level Mod
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-character-building.5s9AJgKJpvDUMQHn
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: Qkd57ef61KG96bUX
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.Qkd57ef61KG96bUX'
+  - name: Sizes
+    type: Variable
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: yXsZ7zJ9ivSbqYWM
+    sort: 1100000
+    flags:
+      core:
+        sourceId: Item.MrG1MYTtwrbCcA7e
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: medium
+      label: Small
+      entries:
+        - value: 0
+          formula: small
+          label: Small
+        - value: 0
+          formula: medium
+          label: Medium
+        - value: 0
+          formula: large
+          label: Large
+        - value: 0
+          formula: huge
+          label: Huge
+        - value: 0
+          formula: colossal
+          label: Colossal
+      temporary: false
+      once: false
+    ownership:
+      default: 0
+      xAfxzkcKCVoU4Sz0: 3
+      NGjHOnRrH6sCNw2O: 3
+    _stats:
+      compendiumSource: Item.MrG1MYTtwrbCcA7e
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: OOqALZsD7UhaaHx3
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.OOqALZsD7UhaaHx3'
+  - _id: XMtJ4EHk7WXHA6kP
+    name: Drive
+    type: Primary-Attribute
+    sort: 11400000
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.kdAVS5r8MQbo6ZXD
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: null
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: value
+      abbr: Drive
+      attr: 1
+      value: 1
+      name: ''
+      state: ''
+      minForm: '0'
+      min: 0
+      maxForm: '5'
+      max: 5
+      sort: -1
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+      sGlDK3lZYQBI8GMZ: 3
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.kdAVS5r8MQbo6ZXD
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.XMtJ4EHk7WXHA6kP'
+  - name: 'Ranks: Level'
+    type: Variable
+    sort: 100000
+    flags:
+      core:
+        sourceId: Item.hXruKOFtxTJVbgIy
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: aemuT0ndP2yokfHi
+    system:
+      notes: Set the Level of the creature.
+      chartype: CharacterVsD
+      group: character
+      value: 20
+      formula: '20'
+      label: Level
+      entries:
+        - value: 5
+          formula: '5'
+          label: Level
+      temporary: false
+      once: false
+      sort: -1
+      moddedformula: '20'
+      moddedvalue: 20
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+      pVnKHrzHL0Jnx5B6: 3
+    _stats:
+      compendiumSource: Item.hXruKOFtxTJVbgIy
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: NzOyN8oI1tpDBOhT
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.NzOyN8oI1tpDBOhT'
+  - name: 'Ranks: Baseline'
+    type: Variable
+    img: icons/svg/mystery-man.svg
+    folder: aemuT0ndP2yokfHi
+    system:
+      notes: Set the Level and use the ranks to fine tune any values you like.
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '0'
+      label: Armor
+      entries:
+        - value: 0
+          formula: '0'
+          label: Armor
+        - value: 0
+          formula: '0'
+          label: Blunt
+        - value: 0
+          formula: '0'
+          label: Blades
+        - value: 0
+          formula: '0'
+          label: Ranged
+        - value: 0
+          formula: '0'
+          label: Polearms
+        - value: 0
+          formula: '0'
+          label: Brawl
+        - value: 0
+          formula: '0'
+          label: Athletics
+        - value: 0
+          formula: '0'
+          label: Ride
+        - value: 0
+          formula: '0'
+          label: Hunting
+        - value: 0
+          formula: '0'
+          label: Nature
+        - value: 0
+          formula: '0'
+          label: Wandering
+        - value: 0
+          formula: '0'
+          label: Acrobatics
+        - value: 0
+          formula: '0'
+          label: Stealth
+        - value: 0
+          formula: '0'
+          label: Locks & Traps
+        - value: 0
+          formula: '0'
+          label: Perception
+        - value: 0
+          formula: '0'
+          label: Deceive
+        - value: 0
+          formula: '0'
+          label: Arcana
+        - value: 0
+          formula: '0'
+          label: Charisma
+        - value: 0
+          formula: '0'
+          label: Cultures
+        - value: 0
+          formula: '0'
+          label: Healer
+        - value: 0
+          formula: '0'
+          label: Songs & Tales
+        - value: 0
+          formula: '0'
+          label: Body
+        - value: 0
+          formula: '0'
+          label: Spell Lores
+      temporary: false
+      once: false
+      sort: -1
+      moddedformula: '0'
+      moddedvalue: 0
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+      pVnKHrzHL0Jnx5B6: 3
+    _stats:
+      compendiumSource: Actor.dyVKzFWO7v8F8fAR.Item.Tg3oszIpL5R9h9LC
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: q8bRHS09dGSLYPiM
+    effects: []
+    sort: 150000
+    flags:
+      core:
+        sourceId: Actor.dyVKzFWO7v8F8fAR.Item.Tg3oszIpL5R9h9LC
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.q8bRHS09dGSLYPiM'
+  - name: Adherence
+    type: Trait
+    system:
+      notes: >-
+        Giant Spiders can move on any solid surface with any inclination at
+        their normal Move Rate.
+      chartype: CharacterVsD
+      group: advantage
+      applied: false
+      category: perk
+    _id: HwAxQgZjdLPz3B93
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      5AmFKy3msaSz6yGf: 3
+      CPIkfk92aY610FDP: 3
+    flags:
+      core:
+        sourceId: Actor.1p93RKHwJRcTLuge.Item.m7h5ug77lFJebcDh
+    _stats:
+      compendiumSource: Actor.1p93RKHwJRcTLuge.Item.m7h5ug77lFJebcDh
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.HwAxQgZjdLPz3B93'
+  - name: Darkvision
+    type: Trait
+    system:
+      notes: >-
+        The creature can see in Dim Light and Total Darkness as if they were
+        standing in Bright Light.
+      chartype: CharacterVsD
+      group: advantage
+      applied: false
+      category: perk
+    _id: JE1rZwvAoSmzJoKj
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      5AmFKy3msaSz6yGf: 3
+      CPIkfk92aY610FDP: 3
+    flags:
+      core:
+        sourceId: >-
+          Compendium.world.core-bestiary-in-pc-format.aihPmAv8Go6d000U.Item.fXvtGnVFNjMS9tSa
+    _stats:
+      compendiumSource: >-
+        Compendium.world.core-bestiary-in-pc-format.aihPmAv8Go6d000U.Item.fXvtGnVFNjMS9tSa
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.JE1rZwvAoSmzJoKj'
+  - name: Poison
+    type: Trait
+    system:
+      notes: >-
+        Creatures who suffer a Critical Strike from the Bite attack of a Giant
+        Spider must pass a TSR or become Held for 1d10 minutes. If they fail a
+        SR against another dose of the same poison before its effects wear off,
+        they’ll be completely paralyzed, becoming Incapacitated for 2d10
+        minutes.
+      chartype: CharacterVsD
+      group: advantage
+      applied: false
+      category: perk
+    _id: qvOkh7pCJJGiOVcg
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      5AmFKy3msaSz6yGf: 3
+      CPIkfk92aY610FDP: 3
+    flags:
+      core:
+        sourceId: Actor.1p93RKHwJRcTLuge.Item.vpEdVmU9ut9OutgC
+    _stats:
+      compendiumSource: Actor.1p93RKHwJRcTLuge.Item.vpEdVmU9ut9OutgC
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.qvOkh7pCJJGiOVcg'
+  - name: Common Opponent
+    type: Trait
+    system:
+      notes: >-
+        Usually defeated at CMB/2, Seriously Injured or Severe Bleeding, or
+        Bruised.
+
+
+        Common Opponents may be considered defeated if the penalties they’re
+        suffering from are equal to or greater than half their CMB or -50
+        (equivalent to a Serious Injury), whichever is higher; they’re Bruised
+        (wounded for more than half their HPs); or suffering from Severe
+        Bleeding.
+
+        Furthermore, if a group of Common Opponents are facing the PCs, the GM
+        may decide they would try to flee, surrender, or whatever other means of
+        avoiding combat if half their original number is disabled, killed, or
+        defeated without significant losses for the opposing party.
+      chartype: CharacterVsD
+      group: advantage
+      applied: false
+      category: advantage
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: e4ygKrf6qRo80D1V
+    sort: 100000
+    ownership:
+      default: 0
+      5AmFKy3msaSz6yGf: 3
+      NGjHOnRrH6sCNw2O: 3
+      CPIkfk92aY610FDP: 3
+    flags:
+      core:
+        sourceId: >-
+          Compendium.world.core-bestiary-in-pc-format.aihPmAv8Go6d000U.Item.mvuKxplplDsJqWOq
+    _stats:
+      compendiumSource: >-
+        Compendium.world.core-bestiary-in-pc-format.aihPmAv8Go6d000U.Item.mvuKxplplDsJqWOq
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: RkAcjaTKZ7FQoSPw
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.RkAcjaTKZ7FQoSPw'
+  - name: Jump
+    type: Trait
+    system:
+      notes: >-
+        Lesser Spiders can Jump (as per the Eldritch Movement Spell) as a Half
+        Action. If it Jumps over an enemy, it gains a +20 special bonus to its
+        Attack Rolls. Enemies that suffer a Critical Strike from a Jump attack
+        must pass a TSR or be knocked Prone.
+      chartype: CharacterVsD
+      group: advantage
+      applied: false
+      category: perk
+    _id: pypkboXyxtfLUStY
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      5AmFKy3msaSz6yGf: 3
+      CPIkfk92aY610FDP: 3
+    flags:
+      core:
+        sourceId: Actor.MPTv5BnZbLwoQ5mP.Item.HIoTvjlsq9bGsSW4
+    _stats:
+      compendiumSource: Actor.MPTv5BnZbLwoQ5mP.Item.HIoTvjlsq9bGsSW4
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.pypkboXyxtfLUStY'
+  - name: Jump Attack
+    type: Modifier
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: false
+      alwaysOn: false
+      attack: false
+      defence: false
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 20
+          formula: '20'
+          category: attack
+          targets: Brawl
+          moddedvalue: 20
+      temporary: false
+      once: false
+      condition: false
+    _id: zbEZWW2I4vOvBSha
+    img: icons/svg/mystery-man-black.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      5AmFKy3msaSz6yGf: 3
+      CPIkfk92aY610FDP: 3
+    flags:
+      core:
+        sourceId: Actor.MPTv5BnZbLwoQ5mP.Item.ecVviJ5AZzzi0HuF
+    _stats:
+      compendiumSource: Actor.MPTv5BnZbLwoQ5mP.Item.ecVviJ5AZzzi0HuF
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.zbEZWW2I4vOvBSha'
+  - name: 'Brawl: Large Bite (Beast)'
+    type: Melee-Attack
+    flags:
+      core:
+        sourceId: Compendium.vsd.vsd-weapons.ge3HdROOs8VLycde
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
+    effects: []
+    system:
+      notes: |-
+        Hands: 2H
+        Length: Long
+        Attack Table: Beast
+        Max: 140
+        1st Crit Table: Cut
+        2nd Crit Table: Impact
+        Range: -
+        Qualities: 90/120/140/150/175
+      chartype: CharacterVsD
+      group: Melee-Attack
+      weight: 140
+      damage: 7.7 Beast Attack Table
+      damageType: 7.10 Cut Critical Strikes Table
+      secondary: 7.9 Impact Critical Strikes Table
+      armourDiv: 2
+      minST: oe
+      reach: 5
+      value: 0
+      formula: '@brawl'
+      sort: -1
+      moddedValue: 0
+    _stats:
+      compendiumSource: Compendium.vsd.vsd-weapons.ge3HdROOs8VLycde
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: lsnTtODXSb4cg6FA
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      5AmFKy3msaSz6yGf: 3
+      CPIkfk92aY610FDP: 3
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.lsnTtODXSb4cg6FA'
+  - name: Soul Damage
+    type: Primary-Attribute
+    img: icons/svg/mystery-man-black.svg
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: value
+      abbr: SD
+      attr: 0
+      value: 0
+      name: ''
+      state: '[Empty]'
+      minForm: '0'
+      min: 0
+      maxForm: '400'
+      max: 400
+      hasmin: false
+      hasmax: false
+      moddedvalue: 0
+    folder: NFTeG77SrZyPjFrj
+    ownership:
+      default: 0
+      xAfxzkcKCVoU4Sz0: 3
+      NGjHOnRrH6sCNw2O: 3
+      pVnKHrzHL0Jnx5B6: 3
+    _stats:
+      compendiumSource: Item.9u8CuAuj3a93B8NG
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: qzbYRNh1K07twWDD
+    effects: []
+    sort: 100000
+    flags:
+      core:
+        sourceId: Item.9u8CuAuj3a93B8NG
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.qzbYRNh1K07twWDD'
+  - name: Soul Damage Mod
+    type: Modifier
+    img: icons/svg/mystery-man-black.svg
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: false
+      defence: false
+      skill: false
+      spell: false
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        - value: 0
+          formula: '-1*@sd'
+          category: primary
+          targets: KinVoc
+          moddedformula: '0'
+      temporary: false
+      once: false
+      condition: false
+    folder: NFTeG77SrZyPjFrj
+    ownership:
+      default: 0
+      xAfxzkcKCVoU4Sz0: 3
+      NGjHOnRrH6sCNw2O: 3
+      pVnKHrzHL0Jnx5B6: 3
+    _stats:
+      compendiumSource: Item.Wo2T61ufAEZIDStr
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: dI7Nngd8K1UWw1Ch
+    effects: []
+    sort: 200000
+    flags:
+      core:
+        sourceId: Item.Wo2T61ufAEZIDStr
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.dI7Nngd8K1UWw1Ch'
+  - name: Drive Bonus
+    type: Modifier
+    flags:
+      core: {}
+    img: icons/svg/mystery-man.svg
+    effects: []
+    folder: RSNXauaYr6SrJOuO
+    system:
+      notes: >-
+        The bonus applied to all attack, skill and save rolls made during the
+        current scene due to spending a point of Drive. Edit the entries if more
+        than one point was spent.
+      chartype: CharacterVsD
+      group: Modifier
+      inEffect: true
+      alwaysOn: true
+      attack: true
+      defence: true
+      skill: true
+      spell: true
+      check: false
+      reaction: false
+      damage: false
+      primary: false
+      entries:
+        '0':
+          value: 0
+          formula: '@drive_point_bonus'
+          category: attack
+          targets: ''
+        '1':
+          value: 0
+          formula: '@drive_point_bonus'
+          category: skill
+          targets: ''
+        '2':
+          value: 0
+          formula: '@drive_point_bonus'
+          category: defence
+          targets: Will, Tough
+        '3':
+          value: 0
+          formula: '@drive_point_bonus'
+          category: spell
+          targets: ''
+      temporary: false
+      once: false
+      condition: false
+      sort: -1
+    ownership:
+      default: 0
+      NGjHOnRrH6sCNw2O: 3
+      pVnKHrzHL0Jnx5B6: 3
+    _stats:
+      compendiumSource: Actor.wptOtLp23GrWy7xg.Item.ndxvkZrOa1GvZger
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: dC8knbtwSNAg1Kfl
+    sort: 100000
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.dC8knbtwSNAg1Kfl'
+  - name: Drive Point Bonus
+    type: Variable
+    img: icons/svg/mystery-man.svg
+    folder: RSNXauaYr6SrJOuO
+    system:
+      notes: ''
+      chartype: CharacterVsD
+      group: Variable
+      value: 0
+      formula: '0'
+      label: '+0'
+      entries:
+        '0':
+          value: 0
+          formula: '0'
+          label: '+0'
+        '1':
+          value: 10
+          formula: '+10'
+          label: '+10'
+        '2':
+          value: 20
+          formula: '+20'
+          label: '+20'
+        '3':
+          value: 30
+          formula: '+30'
+          label: '+30'
+        '4':
+          value: 40
+          formula: '+40'
+          label: '+40'
+        '5':
+          value: 50
+          formula: '+50'
+          label: '+50'
+      temporary: false
+      once: false
+      forceUpdate: false
+      sort: -1
+      moddedformula: '0'
+      moddedvalue: 0
+    ownership:
+      default: 0
+      pVnKHrzHL0Jnx5B6: 3
+    _stats:
+      compendiumSource: Actor.wptOtLp23GrWy7xg.Item.OZIrjVtGyvN21SiW
+      duplicateSource: null
+      coreVersion: '12.330'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: uYnbhIDBGyqpDzcU
+    effects: []
+    sort: 200000
+    flags: {}
+    _key: '!actors.items!8OfWuPCJ6HxdonrC.uYnbhIDBGyqpDzcU'
+effects: []
+folder: HAC0fVSeVJ4vDQvf
+flags:
+  world:
+    countRanks: false
+  core:
+    sheetClass: vsd.ActorVsDClassicSheet
+  exportSource:
+    world: new-dawn-of-the-west
+    system: ndotw-vsd
+    coreVersion: '11.306'
+    systemVersion: '2.39'
+system:
+  posture:
+    value: standing
+  gmod:
+    value: 0
+  bs:
+    value: 1
+  languages: ''
+  bm:
+    step: 'null'
+    quarter: 22
+    half: 30
+    move: 45
+    sprint: 60
+    dash: 75
+  defence:
+    armourType: NA
+    shieldposition: none
+    missileDB: 0
+    meleeDB: 0
+    split: 0
+  allitems:
+    Container: false
+    Rollable: false
+    Trait: false
+    Melee-Attack: false
+    Ranged-Attack: false
+    Defence: false
+    Pool: false
+    Modifier: false
+    Variable: false
+    Primary-Attribute: false
+    Hit-Location: false
+    Equipment: false
+  sections:
+    defences: block
+    attacks: block
+    specialrolls: block
+    header: block
+    hitlocations: none
+    skills: block
+    spells: block
+    savesdefences: block
+    traits: block
+    melee: block
+    pools: block
+    modifiers: block
+    variables: block
+    containers: block
+    disadvantages: block
+    stats: block
+    notes: block
+    spelllores: block
+    hitLocations: block
+    primaryattributes: block
+  adminMode: false
+  biography: >-
+    <h1>Description</h1><p>Giant Spiders are ancient, wicked monstrosities
+    infesting the dark corners of creation. Drawn to Darkness like moths to the
+    flame, they make blighted forests, deep caves, and forgotten ruins their
+    favorite hunting grounds.</p><p>The most commonly encountered are their
+    young, the Lesser Spiders. About the size of a grown halfling, they usually
+    form small clusters or hunting packs, not much because they like the company
+    of their own Kin, but to protect themselves from older, larger
+    spiders.</p><h1>Combat Tactics</h1><p>Lesser Spiders can’t spin webs, but
+    rely on their Adherence and Jump abilities to assault their opponents,
+    ambushing them from unexpected angles.</p><h1>Stat Block</h1><ul><li>Name:
+    Lesser Spider</li><li>Type: Giant Spider</li><li>Description: Giant Spiders
+    are ancient, wicked monstrosities infesting the dark corners of
+    creation.</li><li>Level: 5 Common</li><li>MoveRate: 18L</li><li>ArmourType:
+    LA</li><li>Defence: 40</li><li>Toughness: 40</li><li>Willpower:
+    30</li><li>HitPoints: 70</li><li>Attack: 90 ### Large ###
+    Bite</li><li>Special: Darkvision, Poison, Jump,
+    Adherence</li><li>CreatureType: NB</li><li>Roguery: 60</li><li>Adventuring:
+    50</li><li>Lore: 10</li><li>Source: Core Rules p310</li></ul>
+  notes: ''
+  itemscript: ''
+prototypeToken:
+  flags:
+    about-face:
+      indicatorDisabled: false
+      flipOrRotate: rotate
+      facingDirection: ''
+    barbrawl:
+      resourceBars:
+        bar1:
+          id: bar1
+          attribute: tracked.hp
+          max: null
+          mincolor: '#FF0000'
+          maxcolor: '#80FF00'
+          visibility: 40
+          position: bottom-inner
+          style: user
+          ignoreMin: true
+          ignoreMax: true
+          invert: false
+  name: Giant Spider (Lesser)
+  displayName: 30
+  width: 1
+  height: 1
+  lockRotation: true
+  rotation: 0
+  actorLink: false
+  disposition: 1
+  displayBars: 30
+  bar1:
+    attribute: null
+  bar2:
+    attribute: tracked.mp.system
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: systems/vsd/tokens/vsd-bestiary/giant_spider.png
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 5
+    brightness: 0
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: true
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: vsd
+  systemVersion: '12.282'
+  createdTime: 1722950004440
+  modifiedTime: 1742320943043
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_id: 8OfWuPCJ6HxdonrC
+sort: 1400000
+_key: '!actors!8OfWuPCJ6HxdonrC'
+

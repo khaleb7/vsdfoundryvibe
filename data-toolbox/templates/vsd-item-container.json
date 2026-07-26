@@ -1,0 +1,8 @@
+{
+    "name": "{{name}}",
+    "type": "Container",
+    "data": {
+      "notes": "{{data}}",
+      "chartype": "CharacterVsD"
+  }
+}

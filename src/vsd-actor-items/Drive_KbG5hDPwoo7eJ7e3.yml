@@ -1,0 +1,38 @@
+name: Drive
+type: Primary-Attribute
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: value
+  abbr: Drive
+  attr: 1
+  value: 1
+  name: ''
+  state: ''
+  minForm: '0'
+  min: 0
+  maxForm: '5'
+  max: 5
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689521533249
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: KbG5hDPwoo7eJ7e3
+sort: 8200000
+_key: '!items!KbG5hDPwoo7eJ7e3'
+

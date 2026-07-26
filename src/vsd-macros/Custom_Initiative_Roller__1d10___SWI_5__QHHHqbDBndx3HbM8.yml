@@ -1,0 +1,38 @@
+name: Custom Initiative Roller (1d10 + SWI/5)
+type: script
+scope: global
+author: cwpZyEuSkQ36r9mu
+img: icons/skills/trades/gaming-gambling-dice-gray.webp
+command: |-
+  if (canvas.tokens.controlled.length == 0)
+    return ui.notifications.error("Please select at least a single token first");
+
+  for (const token of canvas.tokens.controlled) {
+    const swibonus = token.actor.system.dynamic.swi?.system.value / 5 || 0;
+    const formula = `1d10 + ${swibonus}`;
+    const roll = await new Roll(formula).evaluate();
+    ChatMessage.create({
+      speaker: { actor: token.actor._id },
+      content: `Rolled initiative: ${roll.result} = ${roll.total}.`,
+    });
+  token.actor.update({ ["system.bs.value"]: roll.total });
+  }
+folder: 2xrFKsTdRUax0UPW
+ownership:
+  default: 0
+  cwpZyEuSkQ36r9mu: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.55'
+  coreVersion: '12.328'
+  createdTime: 1690237888691
+  modifiedTime: 1698068234686
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: QHHHqbDBndx3HbM8
+sort: 0
+_key: '!macros!QHHHqbDBndx3HbM8'
+

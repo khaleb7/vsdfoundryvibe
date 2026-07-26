@@ -1,0 +1,36 @@
+.attackmods {
+  .col3();
+}
+
+.attacks {
+  .col2();
+
+  .attack {
+    .col2();
+    .roundedcard();
+
+    .attackname {
+      grid-area: ~"1/1/2/3";
+      .Ubuntu(bolder);
+      padding-bottom: 4px;
+    }
+
+    .skill {
+      grid-area: ~"2/1/3/2";
+      .Ubuntu(bolder, smaller);
+    }
+
+    .damage {
+      grid-area: ~"2/2/3/3";
+      .Ubuntu(bolder, smaller);
+    }
+  }
+
+  .melee {
+    border-color: @melee-colour;
+  }
+
+  .ranged {
+    border-color: @ranged-colour;
+  }
+}

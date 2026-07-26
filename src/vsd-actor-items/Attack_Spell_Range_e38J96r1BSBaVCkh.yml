@@ -1,0 +1,49 @@
+name: Attack Spell Range
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The modifier to spells cast at range.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: true
+  defence: false
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    '0':
+      value: 0
+      formula: '@attack_spell_range'
+      category: attack
+      targets: Chan, Dark, Eart, Eldr, Skir, Weap
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+  tempName: Attack Spell Range (Not applicable)
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689521143877
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: e38J96r1BSBaVCkh
+sort: 12100000
+_key: '!items!e38J96r1BSBaVCkh'
+

@@ -1,0 +1,113 @@
+name: Keen Senses
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: 2j1qZjwgUvp1HALZ
+      name: Keen Senses
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: kID1LsCrOjHGkFAY
+      sort: 300000
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.nSxyGXNQb25Wa2Kv
+      system:
+        notes: >-
+          Keen Senses: Your kin have superior senses that grant them a special
+          +10 bonus to their Perception Skill. Additionally, they can see in
+          natural moonlight or starlight as if it were day, and up to 30m in Dim
+          Light (treating the first 15 m as if they were standing in Bright
+          Light).
+        chartype: CharacterVsD
+        group: Modifier
+        inEffect: false
+        alwaysOn: true
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Perception
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689439981619
+        modifiedTime: 1689461131271
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - _id: 5pphmN42PSdEGOqI
+      name: Keen Senses
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: kID1LsCrOjHGkFAY
+      sort: 350000
+      flags:
+        core:
+          sourceId: Actor.I9PwNHK35JBlpDve.Item.STE5BW8bLz1g8KHj
+      system:
+        notes: >-
+          Keen Senses: Your Kin have superior senses that grant them a special
+          +10 bonus to their Perception Skill. Additionally, they can see in
+          natural moonlight or starlight as if it were day, and up to 30m in Dim
+          Light (treating the first 15 m as if they were standing in Bright
+          Light).
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689512912297
+        modifiedTime: 1689512912297
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485645
+  modifiedTime: 1697655935037
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: dsEB6pMVtxQgDQzr
+sort: 0
+_key: '!items!dsEB6pMVtxQgDQzr'
+

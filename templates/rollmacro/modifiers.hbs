@@ -1,0 +1,165 @@
+{{debug "Modifiers: " this}}
+<form class="mydialog">
+    {{! this is an attack - needs to expand for other rollables }}
+    <div class="rollables">
+        {{#if (contains rollableData.type 'Attack')}}
+        <div class="item entry {{rollableData.system.group}}" data-item-id="{{rollableData._id}}"
+            title="{{rollableData.system.notes}}">
+            <label>{{rollableData.name}}</label>
+            <label class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}"
+                data-modtype="attack" data-type="modlist">[{{rollableData.system.moddedvalue}}]</label>
+            <a class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}"
+                data-threat="{{rollableData.system.armourDiv}}" data-type="attack"
+                data-attacktable="{{rollableData.system.damage}}" data-crittable="{{rollableData.system.damageType}}"
+                data-sectable="{{rollableData.system.secondary}}"
+                data-oerange="{{#if (eq rollableData.type 'Melee-Attack')}}{{rollableData.system.reach}}{{else}}{{rollableData.system.rof}}{{/if}}"
+                data-maxresult="{{#if (eq rollableData.type 'Melee-Attack')}}{{rollableData.system.weight}}{{else}}{{rollableData.system.accuracy}}{{/if}}">
+                <i class="fas fa-dice-d20"></i></a>
+        </div>
+        {{else if (eq rollableData.type 'Primary-Attribute')}}
+        <div class="item entry {{rollableData.system.group}}" data-item-id="{{rollableData._id}}"
+            title="{{rollableData.system.notes}}">
+            <label> {{rollableData.name}} </label>
+            <label>[{{rollableData.system.moddedvalue}}]</label>
+            <a class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}"
+                data-type="skill" data-attacktable="2.1 Action Resolution Table">
+                <i class="fas fa-dice-d20"></i>
+            </a>
+        </div>
+        {{else if (eq rollableData.type 'Defence')}}
+        <div class="item entry {{rollableData.system.group}}" data-item-id="{{rollableData._id}}"
+            title="{{rollableData.system.notes}}">
+            <label> {{rollableData.name}} </label>
+            <label class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}"
+                data-modtype="{{rollableData.system.category}}"
+                data-type="modlist">[{{rollableData.system.moddedvalue}}]</label>
+            <a class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}"
+                data-type="{{rollableData.system.category}}" {{#if (eq rollableData.system.category "dodge" )}}
+                data-attacktable="{{rollableData.system.notes}}" {{/if}}>
+                <i class="fas fa-dice-d20"></i>
+            </a>
+        </div>
+        {{else if (eq rollableData.type 'Rollable')}}
+        <div class="item entry {{rollableData.system.group}}" data-item-id="{{rollableData._id}}"
+            title="{{rollableData.system.notes}}">
+            <label> {{rollableData.name}} [{{rollableData.system.formula}}] </label>
+            <label class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}"
+                data-modtype="{{rollableData.system.category}}"
+                data-type="modlist">[{{rollableData.system.moddedvalue}}]</label>
+            <a class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}"
+                data-type="{{rollableData.system.category}}" data-journal="{{rollableData.name}}" {{#if (eq
+                rollableData.system.category "spell" )}} data-attacktable="2.6 Spell Casting Table" {{else}}
+                data-attacktable="2.1 Action Resolution Table" {{/if}}>
+                <i class="fas fa-dice-d20"></i></a>
+        </div>
+        {{/if}}
+    </div>
+    <hr>
+    {{#if defence}}
+    <div class="defences">
+        {{#if (eq defence.shieldposition "side")}}
+        <div class="toprow">
+            <div class="single setdefence" data-item-id="{{rollableData._id}}" data-db="{{defence.meleeDB}}">Mel:
+                {{defence.meleeDB}}</div>
+            <div class="centre">ShPos: {{defence.shieldposition}}</div>
+            <div class="right setdefence" data-item-id="{{rollableData._id}}" data-db="{{defence.righthand}}"
+                title="Right-Hand Parry">RHP: {{defence.righthand}}</div>
+        </div>
+        <div class="midrow">
+            <div class="single setdefence" data-item-id="{{rollableData._id}}" data-db="{{defence.missileDB}}">Msl:
+                {{defence.missileDB}}</div>
+            <div class="centre">Tgt: {{target}}</div>
+            <div class="right">AT: {{defence.armourType}}</div>
+        </div>
+        {{else if (eq defence.shieldposition "front")}}
+        <div class="toprow">
+            <div class="single setdefence" data-item-id="{{rollableData._id}}" data-db="{{defence.meleeDB}}">Mel:
+                {{defence.meleeDB}}</div>
+            <div class="centre">ShPos: {{defence.shieldposition}}</div>
+            <div class="right setdefence" data-item-id="{{rollableData._id}}" data-db="{{defence.missileDB}}">Msl:
+                {{defence.missileDB}}</div>
+        </div>
+        <div class="midrow">
+            <div class="single"></div>
+            <div class="centre">Tgt: {{target}}</div>
+            <div class="right">AT: {{defence.armourType}}</div>
+        </div>
+        {{else}}
+        <div class="toprow">
+            <div class="single setdefence" data-item-id="{{rollableData._id}}" data-db="{{defence.lefthand}}"
+                title="Left-Hand Parry">LHP: {{defence.lefthand}}</div>
+            <div class="centre">ShPos: {{defence.shieldposition}}</div>
+            <div class="right setdefence" data-item-id="{{rollableData._id}}" data-db="{{defence.righthand}}"
+                title="Right-Hand Parry">RHP: {{defence.righthand}}</div>
+        </div>
+        <div class="midrow">
+            <div class="single"></div>
+            <div class="centre">Tgt: {{target}}</div>
+            <div class="right">AT: {{defence.armourType}}</div>
+        </div>
+        {{/if}}
+        <div class="bottomrow">
+            <div class="single setdefence" data-item-id="{{rollableData._id}}" data-db="{{defence.surprise}}">Surprise:
+                {{defence.surprise}}</div>
+            <div class="right setdefence" data-item-id="{{rollableData._id}}" data-db="{{defence.base}}">Base DB:
+                {{defence.base}}</div>
+        </div>
+    </div>
+    {{else}}
+    <div class="defences">
+        <div class="midrow">
+            <div class="single"></div>
+            <div class="centre">Tgt: {{target}}</div>
+            <div class="right"></div>
+        </div>
+    </div>
+
+    {{/if}}
+    <hr>
+    <div class="modifiers">
+        {{! the global modifier }}
+        <div class="diagmod item" data-item-id="{{item._id}}">
+            {{localize 'local.actor.gmod.name'}}
+            :<input class="gmod iteminput" type="number" value="{{actor.system.gmod.value}}" data-dtype="Number"
+                data-name="system.gmod.value" data-attack-id="{{rollableData._id}}" />
+        </div>
+        {{#each uniquemods as |item|}}
+        {{#unless item.system.alwaysOn}}
+        {{#if (eq item.type 'Modifier')}}
+        {{! modifiers }}
+        <div class="item diamod{{#if item.system.inEffect}} inEffect{{/if}}{{#if (and item.system.attack item.system.damage)}} attackdamagemod{{else if item.system.attack}} attackmod{{else if item.system.damage}} damagemod{{/if}}"
+            data-item-id="{{item._id}}" title="{{item.system.notes}}">
+            <label class="item-toggle" data-attack-id="{{../rollableData._id}}">{{item.name}}</label>
+        </div>
+        {{else if (eq item.type 'Variable')}}
+        {{! variables }}
+        <div class="item diavar" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+            <label class="variablename">{{item.name}}</label>
+            <select class="variable iteminput" data-name="system.label" data-attack-id="{{../rollableData._id}}">
+                {{selectOptions item.system.entries selected=item.system.label valueAttr="label" labelAttr="label"
+                localize=false}}
+            </select>
+        </div>
+        {{else if (eq item.type 'Primary-Attribute')}}
+        {{! primaries }}
+        <div class="item diapool" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+            <label class="poolname">{{item.name}}:</label>
+            <input class="iteminput" type="number" value="{{item.system.value}}" data-dtype="Number"
+                data-name="system.attr" data-attack-id="{{../rollableData._id}}" />
+            <span></span>
+        </div>
+        {{else if (eq item.type 'Pool')}}
+        {{! pools }}
+        <div class="item diapool" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+            <label class="poolname">{{item.name}}:</label>
+            <input class="pool iteminput" type="number" value="{{item.system.value}}" data-dtype="Number"
+                data-name="system.value" data-abbr="{{item.system.abbr}}" data-attack-id="{{../rollableData._id}}" />
+            <span>/ {{item.system.max}}</span>
+        </div>
+        {{else}}
+        {{debug "A Modifier that is not a Modifier, Variable or Pool: " item}}
+        {{/if}}
+        {{/unless}}
+        {{/each}}
+    </div>
+</form>

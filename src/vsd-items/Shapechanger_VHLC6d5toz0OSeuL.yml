@@ -1,0 +1,60 @@
+name: Shapechanger
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.z4ZoztChmKlhXgRl
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Shapechanger
+      type: Trait
+      system:
+        notes: >-
+          The totemic animal of your people blesses you with a righteous fury,
+          granting you the strength to crush your enemies.
+
+          - Minor (cost 2 BPs):  Choose a Medium-sized wild animal (like a wolf,
+          a boar, or a mountain lion) as the totem of your people. Whenever you
+          become Bruised or whenever you gain a point of Drive because of one of
+          your Passions, you can assume the form of the animal you've chosen.
+          While in this form, you have the AT, DEF, HP, natural physical
+          abilities, Skills and attacks (you can choose if using the animal CMB
+          or your Brawl Skill bonus when using these attacks) of your totemic
+          animal, or your own Skill bonus +10, whichever is higher. Your Lore
+          and mental Skills (those Skills that require concentration and human
+          intellect) suffer instead a penalty of -50. While in animal form you
+          can not speak nor cast Spells. You're also pervaded by a bestial fury.
+          At the beginning of each Assessment Phase, if you're not Engaged, you
+          must pass a Perception Roll or attack the nearest creature. You revert
+          to your original form if you're Incapacitated or if there aren't
+          enemies within sight and you pass your Perception Roll. When you
+          return to your original form, you become Weary.
+
+          - Major (cost 4 BPs):  you can also choose a Large animal as your
+          totem, and you can spend a point of Drive to transform into your
+          totemic animal with a Full Action.
+        chartype: CharacterVsD
+        category: quirk
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485237
+  modifiedTime: 1697655935019
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.z4ZoztChmKlhXgRl
+  duplicateSource: null
+_id: VHLC6d5toz0OSeuL
+sort: 0
+_key: '!items!VHLC6d5toz0OSeuL'
+

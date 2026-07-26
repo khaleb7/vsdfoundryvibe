@@ -1,0 +1,75 @@
+name: Doomed
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Doomed: Because of the Darkmaster’s curse, all of your Kin have an
+    additional Passion called Doom. Players must generate their character’s Doom
+    by rolling on the Doom Table [p42]. Doom works exactly like any other
+    Passion, but cannot be changed unless the Darkmaster is defeated. When
+    facing a situation concerning their Doom, your Kin suffer a -20 penalty to
+    all their Rolls and add 20 to the result of any Critical Strike they
+    receive.
+  chartype: CharacterVsD
+  group: kin
+  inEffect: false
+  alwaysOn: false
+  attack: true
+  defence: true
+  skill: true
+  spell: true
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: -20
+      formula: '-20'
+      category: attack
+      targets: ''
+      moddedvalue: -20
+    - value: -20
+      formula: '-20'
+      category: skill
+      targets: ''
+      moddedvalue: -20
+    - value: -20
+      formula: '-20'
+      category: defence
+      targets: ''
+      moddedvalue: -20
+    - value: -20
+      formula: '-20'
+      category: spell
+      targets: ''
+      moddedvalue: -20
+    - value: -20
+      formula: '-20'
+      category: reaction
+      targets: Missile, Melee
+      moddedvalue: -20
+  temporary: false
+  once: true
+  condition: true
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689460014421
+  modifiedTime: 1697655935540
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: 27prjQbTLSRT4iDe
+sort: 2400000
+_key: '!items!27prjQbTLSRT4iDe'
+

@@ -1,0 +1,63 @@
+name: Wits Bonus
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The skill bonus from the Wits stat
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: true
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '@wit'
+      category: skill
+      targets: Hunting, Locks & Traps, Deceive, Arcana, Cultures, Warfare, Scholarship
+      moddedformula: '0'
+    - value: 0
+      formula: '@wit'
+      category: spell
+      targets: >-
+        Dark, Earth, Enchantment, Illusions, Sounds, Eldritch F, Eldritch H,
+        Eldritch Mo, Eldritch S, Eldritch T, Eldritch W
+      moddedformula: '0'
+    - value: 0
+      formula: '@wit'
+      category: attack
+      targets: >-
+        Dark, Earth, Enchantment, Illusions, Sounds, Eldritch F, Eldritch H,
+        Eldritch Mo, Eldritch S, Eldritch T, Eldritch W
+      moddedformula: '0'
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Wits Bonus
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377613546
+  modifiedTime: 1704377613546
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: S8XZPZJ5ltdK1oJp
+sort: 0
+_key: '!items!S8XZPZJ5ltdK1oJp'
+

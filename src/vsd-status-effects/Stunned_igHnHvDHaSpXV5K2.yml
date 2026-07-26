@@ -1,0 +1,60 @@
+name: Stunned
+type: Modifier
+flags:
+  core: {}
+img: systems/vsd/icons/conditions/stunned.svg
+effects: []
+folder: null
+system:
+  notes: >-
+    Stunned characters are temporarily dazed, staggered, or disoriented.
+
+    • They may not take Full Actions
+
+    • They may defend themselves using at most half of their CMB to Parry.
+
+    • Their defensive bonuses are reduced by 20.
+
+    • They remain Stunned until the end of the Other Action phase on the round
+    after they were last Stunned.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: false
+  alwaysOn: true
+  attack: false
+  defence: false
+  skill: false
+  spell: false
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    '0':
+      value: -20
+      formula: '-20'
+      category: reaction
+      targets: Melee, Missile
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Stunned
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+  UiCXq4VUwQ5S2thO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: vsd
+  systemVersion: '12.282'
+  createdTime: 1742311989087
+  modifiedTime: 1742312484704
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+_id: igHnHvDHaSpXV5K2
+sort: 0
+_key: '!items!igHnHvDHaSpXV5K2'
+

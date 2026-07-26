@@ -1,0 +1,93 @@
+.app.window-app.sheet.journal-sheet {
+    background-color: aqua;
+
+    table {
+      P {
+        margin: auto;
+      }
+    }
+  
+    .fearsaverollstable,
+    .reactionrollsinteractiontable,
+    .reactionrollscombattable,
+    .spellfailuretable,
+    .spellcastingtable,
+    .missilefumblestable,
+    .meleethrownfumblestable,
+    .magicalresonancetable,
+    .actionresolutiontable,
+    .attacktable,
+    .criticalstrikestable {
+        .Ubuntu(bolder, small);
+
+        .tableheaderrow {
+            background-color: coral;
+
+            .tableheader {
+                text-align: center;
+                .Ubuntu(bold, medium);
+            }
+        }
+
+        .targetnumber,
+        .roll {
+            text-align: center;
+            width     : 15%;
+        }
+
+        .outcome {
+            text-align: left;
+            width     : 15%;
+        }
+
+        .result-na,
+        .result-la,
+        .result-ma,
+        .result-ha,
+        .result {
+            text-align: center;
+        }
+
+        .outcomeeffects,
+        .resultdescription {
+            text-align: left;
+        }
+
+        .max-lethal,
+        .max-grievous,
+        .max-moderate,
+        .max-light,
+        .max-superficial {
+            background-color: #00ddaa50;
+        }
+    }
+
+    .spelllisttable {
+        .Ubuntu(bolder, small);
+
+        .tableheaderrow {
+            background-color: coral;
+            .Ubuntu(bold, medium);
+        }
+
+        .tablerow {
+            height: 32px;
+            .roundedcard();
+        }
+
+        .weave {
+            text-align: center;
+        }
+
+        .spell {
+            text-align: left;
+        }
+
+        .range,
+        .areaofeffect,
+        .duration,
+        .save {
+            text-align: center;
+        }
+    }
+}

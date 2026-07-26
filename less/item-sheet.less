@@ -1,0 +1,29 @@
+.vsd.sheet.item {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sheet-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .tab {
+      height: 100%;
+
+      textarea {
+        left: 10px;
+        top: 10px;
+        width: calc(100% - 20px);
+        /* calc and viewport to the rescue */
+        height: calc(100% - 20px);
+        resize: none;
+      }
+    }
+  }
+
+  hr {
+    width: 100%;
+  }
+}

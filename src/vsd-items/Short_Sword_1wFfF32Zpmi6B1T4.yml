@@ -1,0 +1,87 @@
+name: Short Sword
+type: Container
+img: systems/vsd/icons/items/weapons/broadsword.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.0fWzeUrbUqsYhbv5
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Blades: Short Sword (Cut)'
+      type: Melee-Attack
+      img: systems/vsd/icons/items/weapons/broadsword.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Short
+          Attack Table: Edged
+          Max: 130
+          Crit Table: Cut
+          Range: -
+          Qualities: Backstab
+        chartype: CharacterVsD
+        group: Melee-Attack
+        sort: -1
+        value: 0
+        formula: '@blades'
+        damage: 7.1 Edged Attack Table
+        damageType: 7.10 Cut Critical Strikes Table
+        armourDiv: 2
+        minST: oe
+        weight: 130
+        reach: 5
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+    - name: 'Blades: Short Sword (Pierce)'
+      type: Melee-Attack
+      img: systems/vsd/icons/items/weapons/broadsword.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Short
+          Attack Table: Edged
+          Max: 130
+          Crit Table: Pierce
+          Range: -
+          Qualities: Backstab
+        chartype: CharacterVsD
+        group: Melee-Attack
+        sort: -1
+        value: 0
+        formula: '@blades'
+        damage: 7.1 Edged Attack Table
+        damageType: 7.11 Pierce Critical Strikes Table
+        armourDiv: 2
+        minST: oe
+        weight: 130
+        reach: 5
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490207
+  modifiedTime: 1697655934964
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.0fWzeUrbUqsYhbv5
+  duplicateSource: null
+_id: 1wFfF32Zpmi6B1T4
+sort: 0
+_key: '!items!1wFfF32Zpmi6B1T4'
+

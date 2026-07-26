@@ -1,0 +1,53 @@
+name: Camel-Ride Mod
+type: Modifier
+img: icons/svg/mystery-man.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.bP5M9cGWZQDLGpRs
+system:
+  notes: >-
+    Availability: Uncommon
+
+    Description: This is a riding camel, for beasts of burden refer to Pack
+    Animal. A camel can resist extremes of heat and dry weather better than a
+    horse.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: false
+  attack: false
+  defence: false
+  skill: true
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - formula: '0'
+      category: skill
+      targets: Ride
+      value: 0
+      moddedvalue: 0
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485371
+  modifiedTime: 1697655938622
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.bP5M9cGWZQDLGpRs
+  duplicateSource: null
+_id: fw3L9LUGk6bu09jJ
+sort: 0
+_key: '!items!fw3L9LUGk6bu09jJ'
+

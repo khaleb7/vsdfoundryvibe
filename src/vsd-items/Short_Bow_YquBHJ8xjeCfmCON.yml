@@ -1,0 +1,64 @@
+name: Short Bow
+type: Container
+img: systems/vsd/icons/items/weapons/pocket-bow.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.xFBDLQVL3zGKuRfM
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Ranged: Short Bow (Pierce)'
+      type: Ranged-Attack
+      img: systems/vsd/icons/items/weapons/pocket-bow.svg
+      system:
+        notes: |-
+          Hands: 2H
+          Length: -
+          Attack Table: Missile
+          Max: 140
+          Crit Table: Pierce
+          Range: 20
+          Qualities: Load (1), Quick Load
+        chartype: CharacterVsD
+        group: Ranged-Attack
+        sort: -1
+        value: 0
+        formula: '@ranged'
+        damage: 7.3 Missile Attack Table
+        damageType: 7.11 Pierce Critical Strikes Table
+        armourDiv: 4
+        minST: oe
+        accuracy: 140
+        range: '20'
+        rof: 5
+        shots: ''
+        bulk: 0
+        recoil: ''
+      folder: GFdYwZsTR7JEVb3q
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+        UX6nCwJ29hO5ENUt: 3
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490251
+  modifiedTime: 1697655935025
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.xFBDLQVL3zGKuRfM
+  duplicateSource: null
+_id: YquBHJ8xjeCfmCON
+sort: 0
+_key: '!items!YquBHJ8xjeCfmCON'
+

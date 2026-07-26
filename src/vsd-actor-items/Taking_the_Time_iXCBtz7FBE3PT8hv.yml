@@ -1,0 +1,52 @@
+name: Taking the Time
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: |-
+    When there’s no hurry or particular stress put on a character to
+    accomplish a task, then the player can declare the character Takes
+    the Time to perform the action more carefully.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: false
+  alwaysOn: false
+  attack: false
+  defence: false
+  skill: true
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 20
+      formula: '+20'
+      category: skill
+      targets: ''
+      moddedvalue: 20
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Taking the Time
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377583566
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: iXCBtz7FBE3PT8hv
+sort: 4900000
+_key: '!items!iXCBtz7FBE3PT8hv'
+

@@ -1,0 +1,61 @@
+name: Fasting
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.KV39kSPnphm40KCt
+pages:
+  - name: Fasting
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Miracles"> <td>Lore:</td> <td>Miracles </td> </tr> <tr>
+        <td>Weave:</td> <td>1st </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Miracles" data-weave="1st"
+        data-spell="Fasting" data-range="0 (self)" data-aoe="caster"
+        data-duration="1 day" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Fasting </td> </tr> <tr> <td>Range:</td> <td>0 (self)
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>caster </td> </tr> <tr>
+        <td>Duration:</td> <td>1 day </td> </tr> <tr> <td>Save:</td> <td>N </td>
+        </tr> </tbody> </table>
+    _id: GbxaoTCaWAtK3O9n
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!nAf1cCHWxXfuZAoB.GbxaoTCaWAtK3O9n'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.KV39kSPnphm40KCt
+  duplicateSource: null
+_id: nAf1cCHWxXfuZAoB
+sort: 0
+_key: '!journal!nAf1cCHWxXfuZAoB'
+

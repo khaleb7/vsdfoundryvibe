@@ -1,0 +1,34 @@
+name: Kin & Vocation MP Bonus
+type: Primary-Attribute
+img: icons/svg/mystery-man-black.svg
+folder: null
+system:
+  notes: >-
+    An item to be the target for any bonus or malus to MP, initially those from
+    Kin and Vocation bonuses.
+  chartype: CharacterVsD
+  group: Primary-Attribute
+  abbr: KinMP
+  attr: 0
+  value: 0
+ownership:
+  default: 0
+  UiCXq4VUwQ5S2thO: 3
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667230679864
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+effects: []
+flags:
+  core: {}
+_id: zbbBRqIEm5kmHPGS
+sort: 100000
+_key: '!items!zbbBRqIEm5kmHPGS'
+

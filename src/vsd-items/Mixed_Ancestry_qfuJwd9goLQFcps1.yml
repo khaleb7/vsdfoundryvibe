@@ -1,0 +1,60 @@
+name: Mixed Ancestry
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.p3IpuWKNaDm5PFhT
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Mixed Ancestry
+      type: Trait
+      system:
+        notes: Your parents came from two different cultures.
+        chartype: CharacterVsD
+        category: disadvantage
+    - name: Mixed Ancestry
+      type: Trait
+      system:
+        notes: >-
+          Your parents came from two different Cultures, or maybe you were
+          raised in a Culture other than the one you were born in.
+
+          - Minor (cost 1 BP):  Choose a Culture other than your character's
+          Culture and write a Passion about how your mixed ancestry influenced
+          your character's life. Select a non-combat Skill in which the chosen
+          Culture grants at least 2 Cultural Skill Ranks. Your character gains 1
+          rank in this Skills. Then choose one of the Culture's Outfitting
+          Options and add that item to your character's starting equipment.
+
+          - Major (cost 3 BPs):  Additionally, select a different Skill in which
+          the chosen Culture grants at least 2 Cultural Skill Ranks. Swap your
+          character's Cultural Skill Ranks with those granted by the chosen
+          Culture.
+
+          - Hint: Drag the ranks item for the other culture onto your sheet and
+          trim away the skills you do not need.
+        chartype: CharacterVsD
+        category: quirk
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485232
+  modifiedTime: 1697655935058
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.p3IpuWKNaDm5PFhT
+  duplicateSource: null
+_id: qfuJwd9goLQFcps1
+sort: 0
+_key: '!items!qfuJwd9goLQFcps1'
+

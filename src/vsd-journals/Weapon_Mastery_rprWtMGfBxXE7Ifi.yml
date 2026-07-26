@@ -1,0 +1,99 @@
+name: Weapon Mastery
+folder: Z9DrIJY8LTitWm9q
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.PfuI6iwf1K0blXhY
+pages:
+  - name: Weapon Mastery
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spelllisttable"> <tbody> <tr class="tableheaderrow"> <td
+        class="weave">Weave</td> <td class="spell">Spell</td> <td
+        class="range">Range</td> <td class="areaofeffect">Area of Effect</td>
+        <td class="duration">Duration</td> <td class="save">Save</td> </tr> <tr
+        class="tablerow open-journal" data-table="Weapon Bond"> <td
+        class="weave">1st</td> <td class="spell">Weapon Bond</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">P</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Bladelight"> <td
+        class="weave">2nd</td> <td class="spell">Bladelight</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 hr/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Dance of Steel"> <td
+        class="weave">3rd</td> <td class="spell">Dance of Steel</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Throw*"> <td
+        class="weave">4th</td> <td class="spell">Throw*</td> <td class="range">0
+        (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Cleaving Strike"> <td
+        class="weave">5th</td> <td class="spell">Cleaving Strike</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Lunging Attacks*"> <td
+        class="weave">6th</td> <td class="spell">Lunging Attacks*</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Rending Strikes"> <td
+        class="weave">7th</td> <td class="spell">Rending Strikes</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Multi-Attack*"> <td
+        class="weave">8th</td> <td class="spell">Multi-Attack*</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 rnd</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Savage Strike*"> <td
+        class="weave">9th</td> <td class="spell">Savage Strike*</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 rnd</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Whirlwind of Steel"> <td
+        class="weave">10th</td> <td class="spell">Whirlwind of Steel</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">1.5m radius</td>
+        <td class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablefootrow"> <td class="stat" colspan="6">Vocations:
+        Champion</td> </tr> <tr class="tablefootrow"> <td class="stat"
+        colspan="4">Stat Value: BEA</td> <td class="page" colspan="2">Page:
+        417</td> </tr> </tbody> </table>
+    _id: fJ3xwb4lsiFfimCD
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!rprWtMGfBxXE7Ifi.fJ3xwb4lsiFfimCD'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519554648
+  modifiedTime: 1689519573070
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.PfuI6iwf1K0blXhY
+  duplicateSource: null
+_id: rprWtMGfBxXE7Ifi
+sort: 0
+_key: '!journal!rprWtMGfBxXE7Ifi'
+

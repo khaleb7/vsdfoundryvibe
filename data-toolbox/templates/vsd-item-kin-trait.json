@@ -1,0 +1,9 @@
+{
+    "name": "{{name}}",
+    "type": "Trait",
+    "data": {
+        "notes": "{{name}}: {{description}}",
+        "chartype": "CharacterVsD",
+        "category": "perk"
+    }
+}

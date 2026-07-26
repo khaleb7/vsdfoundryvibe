@@ -1,0 +1,35 @@
+name: Camel
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.QHNW0flmQPn1MPQP
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '2'
+  weight: 0
+  availability: Uncommon
+  description: >-
+    This is a riding camel, for beasts of burden refer to Pack Animal. A camel
+    can resist extremes of heat and dry weather better than a horse.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485350
+  modifiedTime: 1697655935013
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.QHNW0flmQPn1MPQP
+  duplicateSource: null
+_id: R7zv95wjXpA1G10R
+sort: 0
+_key: '!items!R7zv95wjXpA1G10R'
+

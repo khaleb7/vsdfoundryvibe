@@ -1,0 +1,56 @@
+name: 2.6 Spell Casting Table
+folder: CUIqKKkavMRUhsGr
+flags:
+  exportSource:
+    world: vsd-vsd-test
+    system: vsd
+    coreVersion: 0.7.9
+    systemVersion: '0.45'
+  core:
+    sourceId: Compendium.vsd.vsd-misc-tables.JournalEntry.DLaBMGqyzd8EBgjK
+pages:
+  - name: 2.6 Spell Casting Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: "<table class=\"spellcastingtable\">\n<tbody>\n<tr class=\"tableheaderrow\">\n<td class=\"roll\">Roll</td>\n<td class=\"result\">Target Number</td>\n<td class=\"outcomeeffects\">Outcome &amp; Additional Effects</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"up to 25\" data-result=\"Spell Failure: Roll on the Critical Spell Failure Table\">\n<td class=\"roll\">up to 25</td>\n<td class=\"result\">-</td>\n<td class=\"outcomeeffects\">Spell Failure: Roll on the Critical Spell Failure Table</td>\n</tr>\n<tr class=\"tablerow\">\n<td class=\"roll\">26-50</td>\n<td class=\"result\">-</td>\n<td class=\"outcomeeffects\">Partial Success: Choose the one that applies best:\n<ul>\n<li class=\"rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"26-50\" data-result=\"Partial Success: The target automatically succeeds at their Save Roll if one was required.\">The target automatically succeeds at their Save Roll if one was required.</li>\n<li class=\"rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"26-50\" data-result=\"Partial Success: The spell duration is reduced to half the original duration (rounded down).\">The spell duration is reduced to half the original duration (rounded down).</li>\n<li class=\"rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"26-50\" data-result=\"Partial Success: The spell area of effect is reduced to half the original area (rounded down).\">The spell area of effect is reduced to half the original area (rounded down).</li>\n<li class=\"rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"26-50\" data-result=\"Partial Success: The spell has no effect, but the caster retains the Magic Points.\">The spell has no effect, but the caster retains the Magic Points.</li>\n</ul>\n</td>\n</tr>\n<tr class=\"tablerow\">\n<td colspan=\"3\">Success: If a Save Roll is required, the target is the number shown below.</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"51-80\" data-result=\"Success: If a Save Roll is required, the target is 50\">\n<td class=\"roll\">51-80</td>\n<td class=\"result\">50</td>\n<td>\_</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"81-95\" data-result=\"Success: If a Save Roll is required, the target is 60\">\n<td class=\"roll\">81-95</td>\n<td class=\"result\">60</td>\n<td>\_</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"96-105\" data-result=\"Success: If a Save Roll is required, the target is 65\">\n<td class=\"roll\">96-105</td>\n<td class=\"result\">65</td>\n<td>\_</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"106-110\" data-result=\"Success: If a Save Roll is required, the target is 70\">\n<td class=\"roll\">106-110</td>\n<td class=\"result\">70</td>\n<td>\_</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"111-120\" data-result=\"Success: If a Save Roll is required, the target is 75\">\n<td class=\"roll\">111-120</td>\n<td class=\"result\">75</td>\n<td>\_</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"121-130\" data-result=\"Success: If a Save Roll is required, the target is 80\">\n<td class=\"roll\">121-130</td>\n<td class=\"result\">80</td>\n<td>\_</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"131-135\" data-result=\"Success: If a Save Roll is required, the target is 85\">\n<td class=\"roll\">131-135</td>\n<td class=\"result\">85</td>\n<td>\_</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"135-140\" data-result=\"Success: If a Save Roll is required, the target is 90\">\n<td class=\"roll\">135-140</td>\n<td class=\"result\">90</td>\n<td>\_</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"141-145\" data-result=\"Success: If a Save Roll is required, the target is 95\">\n<td class=\"roll\">141-145</td>\n<td class=\"result\">95</td>\n<td>\_</td>\n</tr>\n<tr class=\"tablerow rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"146-150\" data-result=\"Success: If a Save Roll is required, the target is 100\">\n<td class=\"roll\">146-150</td>\n<td class=\"result\">100</td>\n<td>\_</td>\n</tr>\n<tr class=\"tablerow\">\n<td colspan=\"3\">Outstanding Success: If a Save Roll is required, the target is the number shown below.<br />Furthermore, choose one:\n<ul>\n<li>The Spell costs half the Magic Points to cast.</li>\n<li>You can add a Warping option that costs less than half the Spell cost, for free.</li>\n</ul>\n</td>\n</tr>\n<tr class=\"tablerow\">\n<td class=\"roll\">151-155</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"151-155\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 105, and the Spell costs half the Magic Points to cast.\">Half MP: 105</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"151-155\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 105, and you can add a Warping option that costs less than half the Spell cost, for free.\">Free Warp: 105</td>\n</tr>\n<tr class=\"tablerow\">\n<td class=\"roll\">156-160</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"156-160\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 110, and the Spell costs half the Magic Points to cast.\">Half MP: 110</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"156-160\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 110, and you can add a Warping option that costs less than half the Spell cost, for free.\">Free Warp: 110</td>\n</tr>\n<tr class=\"tablerow\">\n<td class=\"roll\">161-165</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"161-165\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 120, and the Spell costs half the Magic Points to cast.\">Half MP: 120</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"161-165\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 120, and you can add a Warping option that costs less than half the Spell cost, for free.\">Free Warp: 120</td>\n</tr>\n<tr class=\"tablerow\">\n<td class=\"roll\">166-170</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"166-170\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 130, and the Spell costs half the Magic Points to cast.\">Half MP: 130</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"166-170\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 130, and you can add a Warping option that costs less than half the Spell cost, for free.\">Free Warp: 130</td>\n</tr>\n<tr class=\"tablerow\">\n<td class=\"roll\">171-175</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"171-175\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 140, and the Spell costs half the Magic Points to cast.\">Half MP: 140</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"171-175\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 140, and you can add a Warping option that costs less than half the Spell cost, for free.\">Free Warp: 140</td>\n</tr>\n<tr class=\"tablerow\">\n<td class=\"roll\">176+</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"176+\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 150, and the Spell costs half the Magic Points to cast.\">Half MP: 150</td>\n<td class=\"result rollable\" data-type=\"spellcasting\" data-table=\"2.6 Spell Casting Table\" data-roll=\"176+\" data-result=\"Outstanding Success: If a Save Roll is required, the target is 150, and you can add a Warping option that costs less than half the Spell cost, for free.\">Free Warp: 150</td>\n</tr>\n</tbody>\n</table>"
+    _id: 6h0IxU92A9vIOzPU
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!PvO4rV1ZTjLMHvCp.6h0IxU92A9vIOzPU'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519512416
+  modifiedTime: 1689519567801
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-misc-tables.JournalEntry.DLaBMGqyzd8EBgjK
+  duplicateSource: null
+_id: PvO4rV1ZTjLMHvCp
+sort: 0
+_key: '!journal!PvO4rV1ZTjLMHvCp'
+

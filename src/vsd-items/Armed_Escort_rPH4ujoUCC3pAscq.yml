@@ -1,0 +1,35 @@
+name: Armed Escort
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.krMGBDepB0lFgdCY
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '3'
+  weight: 0
+  availability: Uncommon
+  description: >-
+    A patrol escort of a dozen armed men (lvl 1-3 each) for a single travel.
+    Longer travels or more experienced or numerous groups require higher Fare.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485385
+  modifiedTime: 1697655935059
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.krMGBDepB0lFgdCY
+  duplicateSource: null
+_id: rPH4ujoUCC3pAscq
+sort: 0
+_key: '!items!rPH4ujoUCC3pAscq'
+

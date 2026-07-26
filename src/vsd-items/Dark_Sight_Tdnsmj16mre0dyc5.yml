@@ -1,0 +1,34 @@
+name: Dark Sight
+type: Trait
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Dark Sight: Your Kin can see up to 30 m in Dim Light (treating the first 15
+    m as if they were standing in Bright Light); and up to 3 m in Total
+    Darkness.
+  chartype: CharacterVsD
+  group: kin
+  applied: false
+  category: perk
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689460176749
+  modifiedTime: 1697655935017
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: Tdnsmj16mre0dyc5
+sort: 3000000
+_key: '!items!Tdnsmj16mre0dyc5'
+

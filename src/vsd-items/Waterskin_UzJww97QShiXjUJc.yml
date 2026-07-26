@@ -1,0 +1,33 @@
+name: Waterskin
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.vybracz1J9CPImb1
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '0'
+  weight: 0
+  availability: Common
+  description: Holds enough water (or ale!) to quench the thirst of a person for 2 days
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485411
+  modifiedTime: 1697655935018
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.vybracz1J9CPImb1
+  duplicateSource: null
+_id: UzJww97QShiXjUJc
+sort: 0
+_key: '!items!UzJww97QShiXjUJc'
+

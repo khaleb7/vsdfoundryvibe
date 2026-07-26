@@ -1,0 +1,32 @@
+name: Armor
+type: Rollable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: xS9Ebif3Ng5jYWof
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-skills.Item.RqECiIgcJSVCDMDF
+system:
+  notes: note
+  chartype: CharacterVsD
+  group: skill
+  value: 25
+  formula: '0'
+  category: skill
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488296
+  modifiedTime: 1697655935063
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-skills.Item.RqECiIgcJSVCDMDF
+  duplicateSource: null
+_id: tgtxEMR2TK33DR8X
+sort: 0
+_key: '!items!tgtxEMR2TK33DR8X'
+

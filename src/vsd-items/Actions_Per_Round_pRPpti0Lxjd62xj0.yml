@@ -1,0 +1,39 @@
+_id: pRPpti0Lxjd62xj0
+name: Actions Per Round
+type: Primary-Attribute
+sort: 100000
+flags:
+  core:
+    sourceId: Item.8U4Q9jIVqUhoQ8qP
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Yi4jE8C6OAEco2z7
+system:
+  notes: The number of AP you gain each round.
+  chartype: CharacterVsD
+  group: value
+  abbr: APR
+  attr: 5
+  value: 0
+  name: ''
+  state: ''
+  minForm: '0'
+  min: 0
+  maxForm: '100'
+  max: 100
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  cwpZyEuSkQ36r9mu: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.55'
+  coreVersion: '12.328'
+  createdTime: 1697996993989
+  modifiedTime: 1698069313030
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Item.8U4Q9jIVqUhoQ8qP
+  duplicateSource: null
+_key: '!items!pRPpti0Lxjd62xj0'
+

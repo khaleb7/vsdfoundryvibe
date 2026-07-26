@@ -1,0 +1,34 @@
+name: Diminutive
+type: Trait
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Diminutive: Your Kin are of Small Size and count only as half a group member
+    (rounding up) for the purpose of calculating their group’s size when
+    Camping.
+  chartype: CharacterVsD
+  group: kin
+  applied: false
+  category: perk
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689459857430
+  modifiedTime: 1697655935025
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: Z2PlUID2e9NaQjG2
+sort: 2200000
+_key: '!items!Z2PlUID2e9NaQjG2'
+

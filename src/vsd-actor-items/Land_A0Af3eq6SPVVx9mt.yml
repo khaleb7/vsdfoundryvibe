@@ -1,0 +1,34 @@
+name: Land
+type: Primary-Attribute
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The movement rate on land
+  chartype: CharacterVsD
+  group: Primary-Attribute
+  abbr: land
+  attr: 0
+  value: 0
+  forceUpdate: false
+  sort: -1
+  tempattr: 0
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667222028017
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: A0Af3eq6SPVVx9mt
+sort: 200000
+_key: '!items!A0Af3eq6SPVVx9mt'
+

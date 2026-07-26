@@ -1,0 +1,62 @@
+name: Wealth Level
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: |-
+    Kin: 0
+    Culture: 0
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: Serf or Outcast
+  entries:
+    - value: 0
+      formula: '0'
+      label: Serf or Outcast
+    - value: 1
+      formula: '1'
+      label: Struggling
+    - value: 2
+      formula: '2'
+      label: Commoner
+    - value: 3
+      formula: '3'
+      label: Gentry
+    - value: 4
+      formula: '4'
+      label: Lesser Noble
+    - value: 5
+      formula: '5'
+      label: Greater Noble
+  temporary: false
+  once: false
+  abbr: WL
+  name: ''
+  state: ''
+  minForm: '0'
+  min: 0
+  maxForm: '5'
+  max: 5
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377594648
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: Nx8F9guDjGdcW2mL
+sort: 5400000
+_key: '!items!Nx8F9guDjGdcW2mL'
+

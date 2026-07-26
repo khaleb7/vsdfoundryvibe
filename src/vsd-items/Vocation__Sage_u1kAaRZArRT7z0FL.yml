@@ -1,0 +1,173 @@
+name: 'Vocation: Sage'
+type: Container
+img: icons/skills/trades/construction-mason-bricklayer-red.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped:
+    - bjVFVr7jUFM649Rd
+    - YRQkw9lE5IixFsfe
+  entries:
+    - name: 'Vocation: Sage (modifiers)'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: EN9xIDRoS4pOevaN
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.Item.UcjIzImj9TWyi27K
+      system:
+        notes: ''
+        chartype: CharacterVsD
+        group: Modifier
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 0
+            formula: '0'
+            category: reaction
+            targets: Body
+          '1':
+            value: 0
+            formula: '0'
+            category: primary
+            targets: KinVoc
+          '2':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Deceive
+          '3':
+            value: 20
+            formula: '20'
+            category: skill
+            targets: Nature, Perception, Arcana, Charisma, Cultures, Healer, Songs
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        sGlDK3lZYQBI8GMZ: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.59'
+        coreVersion: '11.315'
+        createdTime: 1676409485514
+        modifiedTime: 1701218121098
+        lastModifiedBy: sGlDK3lZYQBI8GMZ
+      _id: bpa8uxChfCJx0BMz
+      sort: -200000
+    - name: 'Vocation: Sage'
+      type: Variable
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: EN9xIDRoS4pOevaN
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.Item.aR7DseRvuOv2MCQx
+      system:
+        notes: |
+          Magic Stat: WSD
+          Spell Lores:
+           WSD - Chanting
+           WSD - Cleansing
+           WSD - Detections
+           BEA - Eldritch Might
+           BEA - Eldritch Visions
+           WIT - Eldritch Wards
+           WSD - Lore of Nature 
+           WSD - Movements of Nature
+           WSD - Nature's Path
+           WIT - Sounds & Lights
+        chartype: CharacterVsD
+        group: character
+        value: 2
+        formula: ''
+        label: Armor
+        entries:
+          '0':
+            value: 0
+            formula: '0'
+            label: Armor
+          '1':
+            value: 2
+            formula: '2'
+            label: Combat
+          '2':
+            value: 2
+            formula: '2'
+            label: Adventuring
+          '3':
+            value: 3
+            formula: '3'
+            label: Roguery
+          '4':
+            value: 6
+            formula: '6'
+            label: Lore
+          '5':
+            value: 2
+            formula: '2'
+            label: Spells
+          '6':
+            value: 0
+            formula: '0'
+            label: Body
+          '7':
+            value: 1
+            formula: '1'
+            label: MP per Level
+        temporary: false
+        once: false
+        sort: -1
+      ownership:
+        default: 0
+        sGlDK3lZYQBI8GMZ: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.Item.aR7DseRvuOv2MCQx
+        duplicateSource: null
+        coreVersion: '12.343'
+        systemId: vsd
+        systemVersion: '12.289'
+        createdTime: 1755872461272
+        modifiedTime: 1755875361337
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+      _id: x2eGlG2tMpZXqObY
+      sort: -100000
+effects: []
+folder: X2A9C0U09t5jbIKV
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+flags:
+  core: {}
+  exportSource:
+    world: the-west
+    system: vsd
+    coreVersion: '11.315'
+    systemVersion: '2.59'
+_stats:
+  systemId: vsd
+  systemVersion: '12.289'
+  coreVersion: '12.343'
+  createdTime: 1689511657905
+  modifiedTime: 1755876934367
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: u1kAaRZArRT7z0FL
+sort: 100000
+_key: '!items!u1kAaRZArRT7z0FL'
+

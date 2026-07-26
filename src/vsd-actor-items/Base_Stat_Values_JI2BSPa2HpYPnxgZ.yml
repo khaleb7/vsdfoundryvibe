@@ -1,0 +1,74 @@
+name: Base Stat Values
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: character
+  inEffect: true
+  alwaysOn: true
+  attack: false
+  defence: false
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: true
+  entries:
+    - value: 0
+      formula: '0'
+      category: primary
+      targets: BRN
+      moddedvalue: 0
+    - value: 0
+      formula: '0'
+      category: primary
+      targets: SWI
+      moddedvalue: 0
+    - value: 0
+      formula: '0'
+      category: primary
+      targets: FOR
+      moddedvalue: 0
+    - value: 0
+      formula: '0'
+      category: primary
+      targets: WIT
+      moddedvalue: 0
+    - value: 0
+      formula: '0'
+      category: primary
+      targets: WSD
+      moddedvalue: 0
+    - value: 0
+      formula: '0'
+      category: primary
+      targets: BEA
+      moddedvalue: 0
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+  tempName: Character Attribute Creation
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667219913298
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: JI2BSPa2HpYPnxgZ
+sort: 12400000
+_key: '!items!JI2BSPa2HpYPnxgZ'
+

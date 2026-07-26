@@ -1,0 +1,53 @@
+name: 'Eldritch Fire: Fireball (Fire)'
+type: Ranged-Attack
+img: systems/vsd/icons/items/attackspells/fireball.svg
+effects: []
+folder: huRuIB2kU4rQcUnb
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-spell-attacks.Item.6BVFvNcaFXgBSUYm
+  cf:
+    id: null
+    color: '#000000'
+system:
+  notes: |-
+    Weave: 8th
+    Area of Effect: 3 m radius
+    Duration: -
+    Save: N
+    Attack Table: Area
+    Max: 175
+    Crit Table: Fire
+    Range: 30 m
+  chartype: CharacterVsD
+  group: Ranged-Attack
+  damage: 7.5 Area Spells Attack Table
+  damageType: 7.13 Fire Critical Strikes Table
+  secondary: none
+  armourDiv: 10
+  minST: oe
+  accuracy: 175
+  range: 30 m
+  rof: 5
+  shots: ''
+  bulk: 0
+  recoil: ''
+  value: 0
+  formula: '@eldritch_fire'
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490143
+  modifiedTime: 1697655934993
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-spell-attacks.Item.6BVFvNcaFXgBSUYm
+  duplicateSource: null
+_id: HObU1i2nokpUU9j3
+sort: 0
+_key: '!items!HObU1i2nokpUU9j3'
+

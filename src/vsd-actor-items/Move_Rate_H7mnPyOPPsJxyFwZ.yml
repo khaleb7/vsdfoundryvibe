@@ -1,0 +1,47 @@
+name: Move Rate
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Variable
+  value: 15
+  formula: '@move_mode'
+  label: Full Move
+  entries:
+    - value: 0
+      formula: '0'
+      label: No Move
+    - value: 0
+      formula: '@move_mode / 2'
+      label: Half Move
+    - value: 0
+      formula: '@move_mode'
+      label: Full Move
+    - value: 0
+      formula: '@move_mode *2'
+      label: Sprint
+  temporary: false
+  once: false
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377523465
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: H7mnPyOPPsJxyFwZ
+sort: 1900000
+_key: '!items!H7mnPyOPPsJxyFwZ'
+

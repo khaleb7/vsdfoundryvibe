@@ -1,0 +1,61 @@
+name: Maddening Wail
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.zl0L8SDbYifbtSQq
+pages:
+  - name: Maddening Wail
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Illusions"> <td>Lore:</td> <td>Illusions </td> </tr> <tr>
+        <td>Weave:</td> <td>8th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Illusions" data-weave="8th"
+        data-spell="Maddening Wail" data-range="0 (self)" data-aoe="15 m radius"
+        data-duration="1 rnd/lvl" data-save="Y"> <td>Spell:</td> <td
+        class="spellname">Maddening Wail </td> </tr> <tr> <td>Range:</td> <td>0
+        (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>15 m radius </td>
+        </tr> <tr> <td>Duration:</td> <td>1 rnd/lvl </td> </tr> <tr>
+        <td>Save:</td> <td>Y </td> </tr> </tbody> </table>
+    _id: Xr5kRLUx8QLRaR0N
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!7XwnIIyxzbjmixIZ.Xr5kRLUx8QLRaR0N'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106433
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.zl0L8SDbYifbtSQq
+  duplicateSource: null
+_id: 7XwnIIyxzbjmixIZ
+sort: 0
+_key: '!journal!7XwnIIyxzbjmixIZ'
+

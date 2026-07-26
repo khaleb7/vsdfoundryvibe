@@ -1,0 +1,53 @@
+name: Armor Penalty
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: null
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: false
+  defence: false
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: min(0, @armor + @armpen)
+      category: skill
+      targets: Athletics, Acrobatics, Ride, Stealth
+      moddedformula: '0'
+    - value: 0
+      formula: min(0, @armor + @armpen)
+      category: spell
+      targets: ''
+      moddedformula: '0'
+  temporary: false
+  once: false
+  condition: false
+ownership:
+  default: 0
+  UiCXq4VUwQ5S2thO: 3
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667230838633
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: 7vIIyIdQchJf2D6x
+sort: 11600000
+_key: '!items!7vIIyIdQchJf2D6x'
+

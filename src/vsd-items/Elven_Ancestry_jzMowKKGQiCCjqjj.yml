@@ -1,0 +1,137 @@
+name: Elven Ancestry
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: XWWF78GTPOTjGstx
+      name: Elven Ancestry (vs Cold)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: Yd7OnqgFDD97xxEq
+      sort: 200000
+      flags:
+        core:
+          sourceId: Actor.hSHpii5JhtQ4oIm3.Item.275DzSrcwmVx3Chu
+      system:
+        notes: >-
+          Elven Ancestry: Your kin are incredibly long lived, if they ever die
+          of old age at all. They are very resistant to disease (+50 to their
+          Toughness Save Rolls against sickness and disease), and impervious to
+          the effects of natural cold (gaining a +5 bonus against any Cold-based
+          threat). Additionally, they need to sleep for only 4 hours to gain the
+          benefits of a night’s rest.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 5
+            formula: '+5'
+            category: defence
+            targets: Toughness, Willpower
+          '1':
+            value: 5
+            formula: '+5'
+            category: reaction
+            targets: Missile, Melee
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689459930165
+        modifiedTime: 1689508018197
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - _id: 5iWU1SDpboA8AunF
+      name: Elven Ancestry (vs Disease)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: Yd7OnqgFDD97xxEq
+      sort: 300000
+      flags:
+        core:
+          sourceId: Actor.hSHpii5JhtQ4oIm3.Item.8SqjlosFo5Succb8
+      system:
+        notes: >-
+          Elven Ancestry: Your kin are incredibly long lived, if they ever die
+          of old age at all. They are very resistant to disease (+50 to their
+          Toughness Save Rolls against sickness and disease), and impervious to
+          the effects of natural cold (gaining a +5 bonus against any Cold-based
+          threat). Additionally, they need to sleep for only 4 hours to gain the
+          benefits of a night’s rest.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 50
+            formula: '+50'
+            category: defence
+            targets: Toughness
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689459933085
+        modifiedTime: 1689508001080
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485664
+  modifiedTime: 1697655935046
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: jzMowKKGQiCCjqjj
+sort: 1800000
+_key: '!items!jzMowKKGQiCCjqjj'
+

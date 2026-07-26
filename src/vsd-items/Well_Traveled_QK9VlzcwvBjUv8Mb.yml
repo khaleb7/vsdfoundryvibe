@@ -1,0 +1,66 @@
+name: Well Traveled
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.gm3WN1HCjn03XPna
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Well Traveled
+      type: Trait
+      system:
+        notes: >-
+          You travelled far and wide, and are familiar with many places and ways
+          unknown to the majority of people.
+
+          - Minor (cost 1 BP):  You gain one rank in Wandering and you know the
+          location of a Safe Haven. Once during the game, unless your character
+          is in the Darklands, you can declare that a Safe Haven is near, and
+          mark it on the map within 1d5 days of travel from your character's
+          position. Once you've done this, you lose this ability, but the Safe
+          Haven remains available to you and your companions.
+
+          - Major (cost 3 BPs):  Additionally, once per session when your party
+          is Preparing for Travel, you may ask the GM to reveal an alternative,
+          secret, or rarely used route to your destination, without any Skill
+          Roll.
+        chartype: CharacterVsD
+        category: quirk
+    - name: 'Ranks:  Well Traveled'
+      type: Variable
+      system:
+        notes: >-
+          You gain one rank in Wandering and you know the location of a Safe
+          Haven.
+        chartype: CharacterVsD
+        value: 0
+        formula: ''
+        label: ''
+        entries:
+          '0':
+            value: 1
+            formula: '1'
+            label: Wandering
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485225
+  modifiedTime: 1697655935011
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.gm3WN1HCjn03XPna
+  duplicateSource: null
+_id: QK9VlzcwvBjUv8Mb
+sort: 0
+_key: '!items!QK9VlzcwvBjUv8Mb'
+

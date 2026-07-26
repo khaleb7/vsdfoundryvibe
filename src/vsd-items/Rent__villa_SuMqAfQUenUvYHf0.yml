@@ -1,0 +1,35 @@
+name: Rent, villa
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.XjHpNSUvFBp25tO4
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '3'
+  weight: 0
+  availability: Uncommon
+  description: >-
+    Renting a luxury villa in the countryside with servants, for a month. Raise
+    Fare by 1 for a one-year rent.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485365
+  modifiedTime: 1697655935016
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.XjHpNSUvFBp25tO4
+  duplicateSource: null
+_id: SuMqAfQUenUvYHf0
+sort: 0
+_key: '!items!SuMqAfQUenUvYHf0'
+

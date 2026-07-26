@@ -1,0 +1,81 @@
+name: Bard of Ancient Tales
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.ItzhNFhxPxwjKkC8
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Bard of Ancient Tales
+      type: Trait
+      system:
+        notes: >-
+          You have been taught the Ancient Tales of your Kin:  tales of heroes,
+          gods, monsters, and mighty deeds, and you use this knowledge to your
+          advantage.
+
+          - Minor (cost 1 BP):  You gain a +10 bonus to your Songs & Tales
+          Skill, and whenever you Help one of your companions, you always add
+          the number of your Songs & Tales ranks (not the Skill Bonus) to the
+          Helping bonus you grant. For example, if you have 12 ranks in the
+          Songs & Tales Skill, when you successfully Help one of your
+          companions, you grant them a total bonus of +22 (+10 for the Helping
+          Roll, and +12 for your ranks in Songs & Tales).
+
+          - Major (cost 3 BPs):  Additionally, when you are in a safe
+          environment with your companions, if there is no unspent Bardic
+          Inspiration Token in play, you may take some time to tell them a tale
+          or sing them a song about a situation similar to the one you're
+          facing. After you've done so, you create a Bardic Inspiration Token
+          (use a glass bead or similar to represent it). Any character that
+          listened to you can spend a Bardic Inspiration Token to gain a bonus
+          equal to your Songs & Tales ranks (not the Skill Bonus) to any Skill,
+          Attack, or Save Roll, even after they've rolled the dice. Once used,
+          the Bardic Inspiration Token is discarded.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Bard of Ancient Tales
+      type: Modifier
+      system:
+        notes: You gain a +10 bonus to your Songs & Tales Skill.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Songs & Tales
+        tempName: Bard of Ancient Tales
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485210
+  modifiedTime: 1697655935023
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.ItzhNFhxPxwjKkC8
+  duplicateSource: null
+_id: XnCCUmjnZWMTocG0
+sort: 0
+_key: '!items!XnCCUmjnZWMTocG0'
+

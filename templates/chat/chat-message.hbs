@@ -1,0 +1,24 @@
+{{!debug "Chatmessage: " this}}
+<li class="chat-message message {{cssClass}}" data-message-id="{{message._id}}">
+    <header class="message-header">
+        <h4 class="message-sender">{{alias}}</h4>
+
+        <span class="whisper-to">{{#if isWhisper}}{{localize 'CHAT.To'}}: {{whisperTo}}{{/if}}</span>
+
+        <span class="message-metadata">
+            <time class="message-timestamp">{{timeSince message.timestamp}}</time>
+            {{#if (or user.isGM (eq user.name author.name)) }}
+            <a class="button message-delete"><i class="fas fa-trash"></i></a>
+            {{/if}}
+        </span>
+
+    </header>
+    {{#if message.flavor}}
+    <span class="flavor-text">{{{message.flavor}}}</span>
+    {{/if}}
+    {{#unless message.flags.hideMessageContent}}
+    <div class="message-content">
+        {{{message.content}}}
+    </div>
+    {{/unless}}
+</li>

@@ -1,0 +1,32 @@
+name: Weapon Specialization
+type: Rollable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: xS9Ebif3Ng5jYWof
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-skills.Item.s4qqhEV0PGJbetMW
+system:
+  notes: Combat
+  chartype: CharacterVsD
+  group: skill
+  value: 0
+  formula: '0'
+  category: skill
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488315
+  modifiedTime: 1697655934967
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-skills.Item.s4qqhEV0PGJbetMW
+  duplicateSource: null
+_id: 2r4px3aUOE08050F
+sort: 0
+_key: '!items!2r4px3aUOE08050F'
+

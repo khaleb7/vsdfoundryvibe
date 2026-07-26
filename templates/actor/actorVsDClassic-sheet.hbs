@@ -1,0 +1,1389 @@
+{{debug "The Classic Sheet object:" this}}
+{{debug "The Classic Sheet data object:" system}}
+
+<form class="sheetform {{cssClass}}" autocomplete="off">
+  <div class="charsheet vsdarkmaster-wrapper">
+    <div class="header-grid-section sticky">
+      <header class="vsd-classic-header">
+        <div class="sectionheader collapsible char-name {{#if (eq system.sections.header 'none')}}collapsed {{/if}}" data-section="header">
+          <img class="header-logo" src="systems/vsd/icons/darkmaster_logo.png" title="Against the Darkmaster: The Classic Game of Fantasy Adventure" alt="Logo: Against the Darkmaster - The Classic Game of Fantasy Adventure">
+          <input class="actorname" name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'local.actor.name'}}" />
+        </div>
+        <div class="content" style="display: {{system.sections.header}}">
+          <div class="layout">
+            <div class="portrait">
+              <img class="portrait" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
+            </div>
+            {{#with system.sheetData.headerinfo as |item|}}
+            <div class="centre">
+              <div class="toprow">
+                <div class="headinfo single" title="{{localize 'local.header.toprow.kin'}}">
+                  {{item.kin}}
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.toprow.culture'}}">
+                  {{item.culture}}
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.toprow.vocation'}}">
+                  {{item.vocation}}
+                </div>
+                <div class="headinfo triple item" data-item-id="{{item.hitpoints._id}}" title="{{localize 'local.header.toprow.hitpoints'}}">
+                  <span class="item-edit"> {{item.hitpoints.system.abbr}}:</span>
+                  <input class="value iteminput pool" type="text" value="{{item.hitpoints.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.hitpoints.system.abbr}}" />
+                  <span>/ {{item.hitpoints.system.max}}</span>
+                </div>
+                <div class="headinfo double" title="{{localize 'local.header.toprow.bleeding'}}">
+                  <span> {{localize 'local.header.toprow.bleed'}}</span>
+                  <span> {{item.woundsbleed}}/
+                    {{localize 'local.header.toprow.round'}}</span>
+                </div>
+              </div>
+              <div class="midrow">
+                <div class="headinfo declaration item" data-item-id="{{item.wealth._id}}" title="{{localize 'local.header.midrow.wealth'}}">
+                  <span class="item-edit"> {{localize 'local.header.midrow.wl'}} {{item.wealth.system.value}} - </span>
+                  <span> {{item.wealth.system.label}}</span>
+                  <select class="value select iteminput" data-name="system.label">
+                    {{selectOptions item.wealth.system.entries selected=item.wealth.system.label valueAttr="label" labelAttr="label" localize=false}}
+                  </select>
+                </div>
+                <div class="headinfo double" title="{{localize 'local.header.midrow.level'}}">
+                  <span> {{localize 'local.header.midrow.lvl'}}</span>
+                  <span> {{item.level}}</span>
+                </div>
+                <div class="headinfo double item" data-item-id="{{item.experience._id}}" title="{{item.experience.system.max}}{{localize 'local.header.midrow.experience'}}">
+                  <span class="item-edit"> {{localize 'local.header.midrow.xp'}}</span>
+                  <span> {{item.experience.system.value}}</span>
+                </div>
+                <div class="headinfo triple item" data-item-id="{{item.magicpoints._id}}" title="{{localize 'local.header.midrow.magicpoints'}}">
+                  <span class="item-edit"> {{item.magicpoints.system.abbr}}:</span>
+                  <input class="value iteminput pool" type="text" value="{{item.magicpoints.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.magicpoints.system.abbr}}" />
+                  <span>/ {{item.magicpoints.system.max}}</span>
+                </div>
+                <div class="headinfo double" title="{{localize 'local.header.midrow.penalty'}}">
+                  <span> {{localize 'local.header.midrow.pen'}}</span>
+                  <span> {{item.woundspen}}</span>
+                </div>
+              </div>
+              <div class="bottomrow">
+                <div class="headinfo declaration item" data-item-id="{{item.encumbrance._id}}" title="{{localize 'local.header.bottomrow.encumbrance'}}">
+                  <span class="item-edit"> {{item.encumbrance.system.label}}</span>
+                  <select class="value select iteminput" data-name="system.label">
+                    {{selectOptions item.encumbrance.system.entries selected=item.encumbrance.system.label valueAttr="label" labelAttr="label" localize=false}}
+                  </select>
+                </div>
+                <div class="headinfo declaration item" data-item-id="{{item.size._id}}" title="{{localize 'local.header.bottomrow.size'}}">
+                  <span class="item-edit"> {{item.size.system.label}}</span>
+                  <select class="value select iteminput" data-name="system.label">
+                    {{selectOptions item.size.system.entries selected=item.size.system.label valueAttr="label" labelAttr="label" localize=false}}
+                  </select>
+                </div>
+                <div class="headinfo move item" data-item-id="{{item.movemode._id}}" title="{{localize 'local.header.bottomrow.movemode'}}">
+                  <span class="item-edit">
+                    {{item.movemode.system.label}}</span>
+                  <select class="value select iteminput" data-name="system.label">
+                    {{selectOptions item.movemode.system.entries selected=item.movemode.system.label valueAttr="label" labelAttr="label" localize=false}}
+                  </select>
+                </div>
+                <div class="headinfo move item" data-item-id="{{item.move._id}}" title="{{localize 'local.header.bottomrow.moverate'}}">
+                  <span class="item-edit"> {{localize 'local.header.bottomrow.move'}}</span>
+                  <span> {{item.move.system.moddedvalue}} m</span>
+                  <select class="value select iteminput" data-name="system.label">
+                    {{selectOptions item.move.system.entries selected=item.move.system.label valueAttr="label" labelAttr="label" localize=false}}
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="defences">
+              {{#if (eq item.defence.shieldposition "side")}}
+              <div class="toprow">
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.mel'}}">
+                  {{localize 'local.header.defences.mel'}}
+                  {{item.defence.meleeDB}}
+                </div>
+                <div class="headinfo" title="{{localize 'local.header.shield.title'}}">
+                  <select class="value select" name="system.defence.shieldposition">
+                    {{#if (eq item.defence.meshield 0)}}
+                    {{selectOptions ../config.selectOptions.withoutshield selected=item.defence.shieldposition valueAttr="value" labelAttr="label" localize=true}}
+                    {{else}}
+                    {{selectOptions ../config.selectOptions.withshield selected=item.defence.shieldposition valueAttr="value" labelAttr="label" localize=true}}
+                    {{/if}}
+                  </select>
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.rhp'}}">
+                  {{localize 'local.header.defences.rhp'}}
+                  {{item.defence.righthand}}
+                </div>
+              </div>
+              <div class="midrow">
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.msl'}}">
+                  {{localize 'local.header.defences.msl'}}
+                  {{item.defence.missileDB}}
+                </div>
+                <div class="headinfo double item" data-item-id="{{item.defence.parry._id}}" title="{{localize 'local.header.defences.title.parry'}}">
+                  {{localize 'local.header.defences.parry'}}<input class="value iteminput" type="number" value="{{item.defence.parry.system.value}}" data-dtype="Number" data-name="system.attr" />
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.at'}}">
+                  {{localize 'local.header.defences.at'}}
+                  {{item.defence.armourType}}
+                </div>
+              </div>
+              <div class="bottomrow">
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.surprise'}}">
+                  {{localize 'local.header.defences.surprise'}}
+                  {{item.defence.surprise}}
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.basedb'}}">
+                  {{localize 'local.header.defences.basedb'}}
+                  {{item.defence.base}}
+                </div>
+              </div>
+              {{else if (eq item.defence.shieldposition "front")}}
+              <div class="toprow">
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.mel'}}">
+                  {{localize 'local.header.defences.mel'}}
+                  {{item.defence.meleeDB}}
+                </div>
+                <div class="headinfo" title="{{localize 'local.header.shield.title'}}">
+                  <select class="value select" name="system.defence.shieldposition">
+                    {{#if (eq item.defence.meshield 0)}}
+                    {{selectOptions ../config.selectOptions.withoutshield selected=item.defence.shieldposition valueAttr="value" labelAttr="label" localize=true}}
+                    {{else}}
+                    {{selectOptions ../config.selectOptions.withshield selected=item.defence.shieldposition valueAttr="value" labelAttr="label" localize=true}}
+                    {{/if}}
+                  </select>
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.msl'}}">
+                  {{localize 'local.header.defences.msl'}}
+                  {{item.defence.missileDB}}
+                </div>
+              </div>
+              <div class="midrow">
+                <div class="headinfo single"></div>
+                <div class="headinfo double item" data-item-id="{{item.defence.parry._id}}" title="{{localize 'local.header.defences.title.parry'}}">
+                  {{localize 'local.header.defences.parry'}}
+                  <input class="value iteminput" type="number" value="{{item.defence.parry.system.value}}" data-dtype="Number" data-name="system.attr" />
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.at'}}">
+                  {{localize 'local.header.defences.at'}}
+                  {{item.defence.armourType}}
+                </div>
+              </div>
+              <div class="bottomrow">
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.surprise'}}">
+                  {{localize 'local.header.defences.surprise'}}
+                  {{item.defence.surprise}}
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.basedb'}}">
+                  {{localize 'local.header.defences.basedb'}}
+                  {{item.defence.base}}
+                </div>
+              </div>
+              {{else}}
+              <div class="toprow">
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.lhp'}}">
+                  {{localize 'local.header.defences.lhp'}}
+                  {{item.defence.lefthand}}
+                </div>
+                <div class="headinfo" title="{{localize 'local.header.shield.title'}}">
+                  <select class="value select" name="system.defence.shieldposition">
+                    {{#if (eq item.defence.meshield 0)}}
+                    {{selectOptions ../config.selectOptions.withoutshield selected=item.defence.shieldposition valueAttr="value" labelAttr="label" localize=true}}
+                    {{else}}
+                    {{selectOptions ../config.selectOptions.withshield selected=item.defence.shieldposition valueAttr="value" labelAttr="label" localize=true}}
+                    {{/if}}
+                  </select>
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.rhp'}}">
+                  {{localize 'local.header.defences.rhp'}}
+                  {{item.defence.righthand}}
+                </div>
+              </div>
+              <div class="midrow">
+                <div class="headinfo double" title="{{localize 'local.header.defences.title.split'}}">
+                  {{localize 'local.header.defences.split'}}
+                  <input class="value" type="number" name="system.defence.split" value="{{item.defence.split}}" data-dtype="Number" />
+                </div>
+                <div class="headinfo double item" data-item-id="{{item.defence.parry._id}}" title="{{localize 'local.header.defences.title.parry'}}">
+                  {{localize 'local.header.defences.parry'}}
+                  <input class="value iteminput" type="number" value="{{item.defence.parry.system.value}}" data-dtype="Number" data-name="system.attr" />
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.at'}}">
+                  {{localize 'local.header.defences.at'}}
+                  {{item.defence.armourType}}
+                </div>
+              </div>
+              <div class="bottomrow">
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.surprise'}}">
+                  {{localize 'local.header.defences.surprise'}}
+                  {{item.defence.surprise}}
+                </div>
+                <div class="headinfo single" title="{{localize 'local.header.defences.title.basedb'}}">
+                  {{localize 'local.header.defences.basedb'}}
+                  {{item.defence.base}}
+                </div>
+              </div>
+              {{/if}}
+            </div>
+            {{/with}}
+          </div>
+        </div>
+        <nav class="sheet-nav tabs" data-group="primary">
+          <div class="buttons">
+            <a class="tabtitle" data-tab="skills">
+              {{localize 'local.tabs.skills'}}</a>
+            <a class="tabtitle" data-tab="combat">
+              {{localize 'local.tabs.combat'}}</a>
+            <a class="tabtitle" data-tab="equipment">
+              {{localize 'local.tabs.equipment'}}</a>
+            {{#if system.adminMode}}
+            <a class="tabtitle" data-tab="advancement">
+              {{localize 'local.tabs.advancement'}}</a>
+            <a class="tabtitle" data-tab="items">
+              {{localize 'local.tabs.items'}}</a>
+            <a class="tabtitle" data-tab="scripts">
+              {{localize 'local.tabs.scripts.title'}}</a>
+            {{else}}
+            <div></div>
+            <div></div>
+            <div></div>
+            {{/if}}
+          </div>
+          <div class="headinfo" title="Admin Mode">
+            <input class="valuefull" type="checkbox" name="system.adminMode" {{checked system.adminMode}} data-dtype="Boolean" />
+          </div>
+        </nav>
+      </header>
+    </div>
+    <section id="tabs" class="sheet-body">
+      {{!-- Personal Tab --}}
+      <div class="tab sheet-personal" data-tab="skills" data-group="primary">
+        <div class="passions-block">
+          <h3 class="collapsible {{#if (eq system.sections.disadvantages 'none')}}collapsed {{/if}}" data-section="disadvantages">
+            {{localize 'local.actor.blocks.passions'}}
+          </h3>
+          <div class="content" style="display: {{system.sections.disadvantages}}">
+            {{#each system.sheetData.disadvantages as |item|}}
+            <div class="item passions-grid-section" data-item-id="{{item._id}}">
+              <input class="iteminput" type="checkbox" data-name="system.applied" {{checked item.system.applied}} data-dtype="Boolean" />
+              <label class="field-label header-field-label item-edit draggable" data-item-id="{{item._id}}">
+                {{item.name}}</label>
+              <div class="field-input" data-item-id="{{item._id}}">
+                <input class="passions-text-field iteminput" type="text" value="{{item.system.notes}}" data-dtype="String" data-name="system.notes" />
+              </div>
+              <a class="rollable" data-name="{{item.name}}" data-roll="{{item.system.notes}}" data-type="tochat">
+                <i class="fas fa-comment"></i>
+              </a>
+            </div>
+            {{/each}}
+            <h3>
+              {{localize 'local.actor.blocks.revelations'}}
+            </h3>
+            {{#each system.sheetData.advantages as |item|}}
+            <div class="item passions-grid-section" data-item-id="{{item._id}}">
+              <input class="iteminput" type="checkbox" data-name="system.applied" {{checked item.system.applied}} data-dtype="Boolean" />
+              <label class="field-label header-field-label item-edit draggable" data-item-id="{{item._id}}">
+                {{item.name}}</label>
+              <div class="field-input" data-item-id="{{item._id}}">
+                <input class="passions-text-field iteminput" type="text" value="{{item.system.notes}}" data-dtype="String" data-name="system.notes" />
+              </div>
+              <a class="rollable" data-name="{{item.name}}" data-roll="{{item.system.notes}}" data-type="tochat">
+                <i class="fas fa-comment"></i>
+              </a>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        <div class="main-grid-section">
+          <div class="block-section leftside">
+            <div class="drive-points">
+              <h3 class="item" data-item-id="{{system.dynamic.drive._id}}">{{localize "local.actor.blocks.drive"}}</h3>
+              <div class="drive-point-markers" data-item-id="{{system.dynamic.drive._id}}" data-name="system.attr">
+                {{#times 5}}
+                <div class="drive-point click-value" data-value="{{@index}}">
+                  <i class="{{#if (lt ../system.dynamic.drive.system.value @index)}}far{{else}}fas{{/if}} fa-square"></i>
+                </div>
+                {{/times}}
+              </div>
+            </div>
+
+            <div class="heroic-path-points">
+              <h3 class="item" data-item-id="{{system.dynamic.hero._id}}">{{localize "local.actor.blocks.hero"}}</h3>
+              <div class="heroic-path-markers" data-item-id="{{system.dynamic.hero._id}}" data-name="system.attr">
+                {{#times 100}}
+                {{#if (isModulus @index 20 10)}}
+                {{! add a space }}
+                <div class="heroic-path-point click-value" data-value="{{@index}}">
+                  {{! a diamond }}
+                  <i class="{{#if (lt ../system.dynamic.hero.system.value @index)}}far{{else}}fas{{/if}} fa-circle"></i>
+                </div>
+                <div class="heroic-path-gap"></div>
+                {{else}}
+                <div class="heroic-path-point click-value" data-value="{{@index}}">
+                  {{#if (isModulus @index 10 0)}}
+                  {{! a diamond }}
+                  <i class="{{#if (lt ../system.dynamic.hero.system.value @index)}}far{{else}}fas{{/if}} fa-circle"></i>
+                  {{else}}
+                  {{! a square }}
+                  <i class="{{#if (lt ../system.dynamic.hero.system.value @index)}}far{{else}}fas{{/if}} fa-square"></i>
+                  {{/if}}
+                </div>
+                {{/if}}
+                {{/times}}
+              </div>
+            </div>
+            <div class="block-section">
+              <h3 title="The measures of one's intrinsic capabilities and basic strengths or flaws.">
+                {{localize 'local.actor.blocks.stats'}}
+              </h3>
+              <div class="like-table">
+                <div class="like-row stats table-header">
+                  <div class="like-cell">
+                    {{localize 'local.actor.stats.name'}}
+                  </div>
+                  <div class="like-cell">
+                    {{localize 'local.actor.stats.abbr'}}
+                  </div>
+                  <div class="like-cell">
+                    {{localize 'local.actor.stats.base'}}
+                  </div>
+                  {{! use this to open the character creation modifiers}}
+                  <div class="like-cell">
+                    {{localize 'local.actor.stats.kin'}}
+                  </div>
+                  {{! use this to open the kin modifiers}}
+                  <div class="like-cell">
+                    {{localize 'local.actor.stats.spec'}}
+                  </div>
+                  <div class="like-cell">
+                    {{localize 'local.actor.stats.total'}}
+                  </div>
+                  <div></div>
+                </div>
+                {{#each system.sheetData.statinfo as |item|}}
+                <div class="like-row stats item" data-item-id="{{item._id}}" title="{{item.title}}">
+                  <div class="like-cell left item-edit">
+                    {{localize (concat 'local.system.stats.' item.name)}}
+                  </div>
+                  <div class="like-cell">
+                    {{localize (concat 'local.system.stats.' item.abbr)}}
+                  </div>
+                  <div class="like-cell">
+                    {{item.base}}
+                  </div>
+                  <div class="like-cell">
+                    {{item.kin}}
+                  </div>
+                  <div class="like-cell">
+                    {{item.spec}}
+                  </div>
+                  <div class="like-cell">
+                    {{item.total}}
+                  </div>
+                  <a class="rollmacro" data-type="Primary" data-target="{{item.name}}">
+                    <i class="fas fa-scroll"></i></a>
+                </div>
+                {{/each}}
+              </div>
+            </div>
+            <div class="block-section">
+              <h3>
+                {{localize 'local.actor.blocks.saves'}}
+              </h3>
+              <div class="like-table">
+                <div class="like-row saves table-header">
+                  <div class="like-cell">
+                    {{localize 'local.actor.saves.name'}}
+                  </div>
+                  <div class="like-cell">
+                    {{localize 'local.actor.saves.stat'}}
+                  </div>
+                  <div class="like-cell">
+                    {{localize 'local.actor.saves.lvl'}}
+                  </div>
+                  <div class="like-cell">
+                    {{localize 'local.actor.saves.kin'}}
+                  </div>
+                  <div class="like-cell">
+                    {{localize 'local.actor.saves.spec'}}
+                  </div>
+                  <div class="like-cell">
+                    {{localize 'local.actor.saves.total'}}
+                  </div>
+                  <div></div>
+                </div>
+                {{#each system.sheetData.saveinfo as |item|}}
+                <div class="like-row saves item" data-item-id="{{item._id}}" title="{{item.title}}">
+                  <div class="like-cell left item-edit">
+                    {{localize (concat 'local.system.saves.' item.name)}}
+                  </div>
+                  <div class="like-cell">
+                    {{item.stat}}
+                  </div>
+                  <div class="like-cell">
+                    {{item.level}}
+                  </div>
+                  <div class="like-cell">
+                    {{item.kin}}
+                  </div>
+                  <div class="like-cell">
+                    {{item.spec}}
+                  </div>
+                  <div class="like-cell rollable" data-name="{{item.fullname}}" data-roll="0" data-modtype="defence" data-type="modlist">
+                    {{item.total}}
+                  </div>
+                  <a class="rollmacro" data-category="block" data-target="{{item.name}}">
+                    <i class="fas fa-scroll"></i></a>
+                </div>
+                {{/each}}
+              </div>
+            </div>
+            <div class="block-section">
+              <h3>
+                {{localize 'local.actor.blocks.spec'}}
+              </h3>
+              {{#each system.sheetData.perks as |item|}}
+              <div class="item chatsender" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="item-edit draggable" data-item-id="{{item._id}}">
+                  {{item.name}}</label>
+                <a class="rollable" data-name="{{item.name}}" data-roll="{{item.system.notes}}" data-type="tochat">
+                  <i class="fas fa-comment"></i>
+                </a>
+              </div>
+              {{/each}}
+            </div>
+            <div class="block-section">
+              <h3>
+                {{localize 'local.actor.blocks.back'}}
+              </h3>
+              {{#each system.sheetData.quirks as |item|}}
+              <div class="item chatsender" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="item-edit draggable" data-item-id="{{item._id}}">
+                  {{item.name}}</label>
+                <a class="rollable" data-name="{{item.name}}" data-roll="{{item.system.notes}}" data-type="tochat">
+                  <i class="fas fa-comment"></i>
+                </a>
+              </div>
+              {{/each}}
+            </div>
+            <div class="block-section">
+              <h3>
+                {{localize 'local.actor.blocks.lang'}}
+              </h3>
+              <input type="text" name="system.languages" value="{{system.languages}}" data-dtype="String" />
+              {{#each system.sheetData.languageitems as |item|}}
+              <div class="item chatsender" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="item-edit draggable" data-item-id="{{item._id}}">
+                  {{item.name}}</label>
+                <a class="rollable" data-name="{{item.name}}" data-roll="{{item.system.notes}}" data-type="tochat">
+                  <i class="fas fa-comment"></i>
+                </a>
+              </div>
+              {{/each}}
+            </div>
+            <div class="block-section">
+              <h3>
+                {{localize 'local.actor.blocks.char'}}
+              </h3>
+              {{#each system.sheetData.charactertraits as |item|}}
+              <div class="item chatsender" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="item-edit draggable" data-item-id="{{item._id}}">
+                  {{item.name}}</label>
+                <a class="rollable" data-name="{{item.name}}" data-roll="{{item.system.notes}}" data-type="tochat">
+                  <i class="fas fa-comment"></i>
+                </a>
+              </div>
+              {{/each}}
+            </div>
+          </div>
+          <div class="block-section rightside">
+            <h3>
+              {{localize 'local.actor.skills.title'}}
+            </h3>
+            <div class="like-table item-list">
+              {{#each system.sheetData.skillinfo as |category|}}
+              <div class="like-row skills table-header">
+                <div class="like-cell">
+                  {{localize 'local.actor.skills.dp'}}:
+                  {{category.devpts}}
+                </div>
+                <div class="like-cell left">
+                  {{localize (concat 'local.system.skillcats.' category.name)}}
+                </div>
+                <div class="like-cell stats" title="{{localize 'local.actor.skills.statT'}}">
+                  {{localize 'local.actor.skills.stat'}}
+                </div>
+                <div class="like-cell ranks" title="{{localize 'local.actor.skills.ranksT'}}">
+                  {{localize 'local.actor.skills.ranks'}}
+                </div>
+                <div class="like-cell" title="{{localize 'local.actor.skills.vocT'}}">
+                  {{localize 'local.actor.skills.voc'}}
+                </div>
+                <div class="like-cell" title="{{localize 'local.actor.skills.kinT'}}">
+                  {{localize 'local.actor.skills.kin'}}
+                </div>
+                <div class="like-cell" title="{{localize 'local.actor.skills.modsT'}}">
+                  {{localize 'local.actor.skills.mods'}}
+                </div>
+                <div class="like-cell" title="{{localize 'local.actor.skills.totalT'}}">
+                  {{localize 'local.actor.skills.total'}}
+                </div>
+              </div>
+              {{#each category.data as |item|}}
+              <div class="like-row skills">
+                <div class="like-cell">
+                  {{#if (or (eq item.name "Body") (eq item.name "Armor"))}}
+                  <a class="rollmacro" data-category="check" data-target="{{item.name}}">
+                    <i class="fas fa-scroll"></i></a>
+                  {{else}}
+                  <a class="rollmacro" data-category="{{item.type}}" data-target="{{item.name}}">
+                    <i class="fas fa-scroll"></i></a>
+                  {{/if}}
+                </div>
+                <div class="like-cell left item" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                  <label class="open-journal stats-name draggable" data-table="{{item.name}}">
+                    {{#if (eq category.name "Spell Lores")}}
+                    {{item.name}}
+                    {{else if item.standard}}
+                    {{localize (concat 'local.system.skills.' item.name)}}
+                    {{else}}
+                    {{item.name}}
+                    {{/if}}
+                  </label>
+                </div>
+                <div class="like-cell">
+                  {{localize (concat 'local.system.stats.' item.statabbr)}}:
+                  {{item.stat}}
+                </div>
+                <div class="like-cell">
+                  {{item.ranks}} [
+                  {{item.value}}]
+                </div>
+                <div class="like-cell">
+                  {{item.voc}}
+                </div>
+                <div class="like-cell">
+                  {{item.kin}}
+                </div>
+                <div class="like-cell">
+                  {{item.spec}}
+                </div>
+                <div class="like-cell total rollable" data-name="{{item.name}}" data-roll="{{item.value}}" data-modtype="{{#if (eq category.name 'Spell Lores')}}spell{{else if (or (eq item.name 'Body' ) (eq item.name 'Armor' ))}}reaction{{else}}skill{{/if}}" data-type="modlist">
+                  {{item.total}}
+                </div>
+              </div>
+              {{/each}}
+              {{/each}}
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="section">
+          <div class="sectionheader collapsible {{#if (eq system.sections.modifiers 'none')}}collapsed {{/if}}" data-section="modifiers">
+            <label>
+              {{localize 'local.sections.modifiers'}}</label>
+          </div>
+          <div class="content" style="display: {{system.sections.modifiers}}">
+            <div class="fourspan item-list">
+              <div class="header">
+                <label>
+                  {{localize 'local.sections.skillmods'}}</label>
+              </div>
+              {{#each system.sheetData.skillvariables as |item|}}
+              {{#if (eq item.type "Pool")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput pool" type="number" value="{{item.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.system.abbr}}" />
+                <span>/ {{item.system.max}}</span>
+              </div>
+              {{else if (eq item.type "Primary-Attribute")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput" type="number" value="{{item.system.value}}" data-dtype="Number" data-name="system.attr" />
+                <span></span>
+              </div>
+              {{else}}
+              <div class="item variable {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="variablename item-edit draggable">
+                  {{item.name}}</label>
+                <select class="select iteminput" data-name="system.label">
+                  {{selectOptions item.system.entries selected=item.system.label valueAttr="label" labelAttr="label" localize=false}}
+                </select>
+                <label class="value">
+                  {{item.system.value}}</label>
+              </div>
+              {{/if}}
+              {{/each}}
+              {{#each system.sheetData.skillmods as |item|}}
+              {{#unless item.system.alwaysOn}}
+              <div class="item modifier{{#if item.system.inEffect}} inEffect{{/if}}" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="item-toggle draggable">
+                  {{item.name}}</label>
+              </div>
+              {{/unless}}
+              {{/each}}
+            </div>
+            <div class="fourspan item-list">
+              <div class="header">
+                <label>
+                  {{localize 'local.sections.spellmods'}}</label>
+              </div>
+              {{#each system.sheetData.spellvariables as |item|}}
+              {{#if (eq item.type "Pool")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput pool" type="text" value="{{item.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.system.abbr}}" />
+                <span>/ {{item.system.max}}</span>
+              </div>
+              {{else if (eq item.type "Primary-Attribute")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput" type="number" value="{{item.system.value}}" data-dtype="Number" data-name="system.attr" />
+                <span></span>
+              </div>
+              {{else}}
+              <div class="item variable {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="variablename item-edit draggable">
+                  {{item.name}}</label>
+                <select class="select iteminput" data-name="system.label">
+                  {{selectOptions item.system.entries selected=item.system.label valueAttr="label" labelAttr="label" localize=false}}
+                </select>
+                <label class="value">
+                  {{item.system.value}}</label>
+              </div>
+              {{/if}}
+              {{/each}}
+              {{#each system.sheetData.specialmods as |item|}}
+              {{#if (eq item.type "Pool")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput pool" type="text" value="{{item.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.system.abbr}}" />
+                <span>/ {{item.system.max}}</span>
+              </div>
+              {{else if (eq item.type "Primary-Attribute")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput" type="number" value="{{item.system.value}}" data-dtype="Number" data-name="system.attr" />
+                <span></span>
+              </div>
+              {{else}}
+              <div class="item variable {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="variablename item-edit draggable">
+                  {{item.name}}</label>
+                <select class="select iteminput" data-name="system.label">
+                  {{selectOptions item.system.entries selected=item.system.label valueAttr="label" labelAttr="label" localize=false}}
+                </select>
+                <label class="value">
+                  {{item.system.value}}</label>
+              </div>
+              {{/if}}
+              {{/each}}
+              {{#each system.sheetData.spellmods as |item|}}
+              {{#unless item.system.alwaysOn}}
+              <div class="item modifier{{#if item.system.inEffect}} inEffect{{/if}}" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="item-toggle draggable">
+                  {{item.name}}</label>
+              </div>
+              {{/unless}}
+              {{/each}}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{!-- Combat Tab --}}
+      <div class="tab sheet-combat" data-tab="combat" data-group="primary">
+        <div class="block-section">
+          <h3>
+            {{localize 'local.actor.blocks.attacks'}}
+          </h3>
+          <div class="like-table">
+            <div class="like-row attacks table-header">
+              <div class="like-cell" title="{{localize 'local.actor.attacks.title.atk'}}">
+                {{localize 'local.actor.attacks.atk'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.actor.attacks.name'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.attacks.title.skill'}}">
+                {{localize 'local.actor.attacks.skill'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.attacks.title.cmb'}}">
+                {{localize 'local.actor.attacks.cmb'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.attacks.title.clumsy'}}">
+                {{localize 'local.actor.attacks.clumsy'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.attacks.title.atktable'}}">
+                {{localize 'local.actor.attacks.atktable'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.attacks.title.crit'}}">
+                {{localize 'local.actor.attacks.crit'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.attacks.title.crittable'}}">
+                {{localize 'local.actor.attacks.crittable'}}
+              </div>
+            </div>
+            {{#each system.sheetData.allattacks as |item|}}
+            <div class="like-row attacks repitem item" data-item-id="{{item._id}}">
+              <div class="like-cell">
+                <a class="rollmacro" data-type="Attack" data-target="{{item.name}}">
+                  <i class="fas fa-scroll"></i></a>
+              </div>
+              <div class="like-cell left item-edit draggable entry {{item.system.group}} {{#if (eq item.type 'Melee-Attack')}}melee{{else}}ranged{{/if}}" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                {{item.attackname}}
+              </div>
+              <div class="like-cell left">
+                {{item.system.formula}}
+              </div>
+              <div class="like-cell">
+                {{item.cmb}}
+              </div>
+              <div class="like-cell">
+                {{item.system.armourDiv}}
+              </div>
+              <div class="like-cell left open-journal" data-table="{{item.system.damage}}">
+                {{item.attacktable}}
+              </div>
+              <div class="like-cell">
+                <a class="rollmacro" data-category="dodge" data-target="{{item.critname}}">
+                  <i class="fas fa-scroll" style="color:maroon"></i></a>
+              </div>
+              <div class="like-cell left open-journal" data-table="{{item.system.damageType}}">
+                {{item.criticaltable}}
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        <div class="block-section">
+          <h3>
+            {{localize 'local.actor.blocks.conditions'}}
+          </h3>
+          <div class="like-table">
+            <div class="like-row conditions item-list">
+              {{#each system.sheetData.conditions as |item|}}
+              {{#unless item.system.alwaysOn}}
+              <div class="item modifier{{#if item.system.inEffect}} inEffect{{/if}}" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="item-toggle draggable">
+                  {{item.name}}</label>
+              </div>
+              {{/unless}}
+              {{/each}}
+            </div>
+          </div>
+        </div>
+        <div class="block-section">
+          <h3 title="">
+            {{localize 'local.actor.blocks.wounds'}}
+          </h3>
+          <div class="like-table item-list">
+            <div class="like-row wounds table-header">
+              <div class="like-cell">
+                {{localize 'local.actor.wounds.name'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.actor.wounds.bleed'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.actor.wounds.act'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.actor.wounds.severity'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.actor.wounds.treatment'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.actor.wounds.linger'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.actor.wounds.days'}}
+              </div>
+            </div>
+            {{#each system.sheetData.hitlocations as |item|}}
+            <div class="like-row wounds item {{item.system.group}}" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+              <div class="like-cell left item-edit draggable">
+                {{item.name}}
+              </div>
+              <div class="like-cell">
+                {{item.system.damageResistance}}/rd
+              </div>
+              <div class="like-cell">
+                {{numberFormat item.system.damage decimals=0 sign=true}}
+              </div>
+              <div class="like-cell">
+                {{item.system.injuryType}}
+              </div>
+              <div class="like-cell">
+                {{item.system.toCripple}}
+              </div>
+              <div class="like-cell">
+                {{item.system.crippled}}
+              </div>
+              <div class="like-cell">
+                {{item.system.toHitPenalty}}
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        <div class="block-section">
+          <h3 title="">
+            {{localize 'local.actor.blocks.armour'}}
+          </h3>
+          <div class="like-table">
+            <div class="like-row armor-grid-section table-header">
+              <div class="like-cell"></div>
+              <div class="like-cell">
+                {{localize 'local.actor.armour.name'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.armour.title.type'}}">
+                {{localize 'local.actor.armour.type'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.armour.title.prot'}}">
+                {{localize 'local.actor.armour.prot'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.armour.title.swi'}}">
+                {{localize 'local.actor.armour.swi'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.armour.title.move'}}">
+                {{localize 'local.actor.armour.move'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.armour.title.cmb'}}">
+                {{localize 'local.actor.armour.cmb'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.armour.title.per'}}">
+                {{localize 'local.actor.armour.per'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.armour.title.mel'}}">
+                {{localize 'local.actor.armour.mel'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.armour.title.msl'}}">
+                {{localize 'local.actor.armour.msl'}}
+              </div>
+              <div class="like-cell" title="{{localize 'local.actor.armour.title.qual'}}">
+                {{localize 'local.actor.armour.qual'}}
+              </div>
+            </div>
+            {{#each system.sheetData.defenceinfo as |itemrepdata|}}
+            <div class="like-row armor-grid-section repitem item" data-item-id="{{itemrepdata._id}}">
+              <div class="like-cell">
+                <input class="iteminput" type="checkbox" {{checked itemrepdata.inEffect}} data-dtype="Boolean" data-name="system.inEffect" />
+              </div>
+              <div class="like-cell left item-edit draggable entry {{itemrepdata.group}}" data-item-id="{{itemrepdata._id}}" title="{{{itemrepdata.notes}}}">
+                {{itemrepdata.name}}
+              </div>
+              <div class="like-cell">
+                {{itemrepdata.type}}
+              </div>
+              <div class="like-cell left">
+                {{itemrepdata.protects}}
+              </div>
+              <div class="like-cell">
+                {{itemrepdata.maxswi}}
+              </div>
+              <div class="like-cell">
+                {{itemrepdata.movepen}}
+              </div>
+              <div class="like-cell">
+                {{itemrepdata.cmbpen}}
+              </div>
+              <div class="like-cell">
+                {{itemrepdata.perpen}}
+              </div>
+              <div class="like-cell">
+                {{itemrepdata.melee}}
+              </div>
+              <div class="like-cell">
+                {{itemrepdata.missile}}
+              </div>
+              <div class="like-cell left">
+                {{itemrepdata.qualities}}
+              </div>
+            </div>
+            {{/each}}
+            <div class="like-row armor-grid-section">
+              <div class="like-cell"></div>
+              <div class="like-cell left">
+                {{localize 'local.actor.armour.charvalues'}}
+              </div>
+              <div class="like-cell"></div>
+              <div class="like-cell"></div>
+              <div class="like-cell">
+                {{system.sheetData.statinfo.swi.total}}
+              </div>
+              <div class="like-cell">
+                {{system.sheetData.skillinfo.Armor.data.armor.total}}
+              </div>
+              <div class="like-cell"></div>
+              <div class="like-cell"></div>
+              <div class="like-cell"></div>
+              <div class="like-cell"></div>
+              <div class="like-cell"></div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="section">
+          <div class="sectionheader collapsible {{#if (eq system.sections.modifiers 'none')}}collapsed {{/if}}" data-section="modifiers">
+            <label>
+              {{localize 'local.sections.modifiers'}}</label>
+          </div>
+          <div class="content" style="display: {{system.sections.modifiers}}">
+            <div class="fourspan item-list">
+              <div class="header">
+                <label>
+                  {{localize 'local.sections.attackmods'}}</label>
+              </div>
+              {{#each system.sheetData.attackvariables as |item|}}
+              {{#if (eq item.type "Pool")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput pool" type="text" value="{{item.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.system.abbr}}" />
+                <span>/ {{item.system.max}}</span>
+              </div>
+              {{else if (eq item.type "Primary-Attribute")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput" type="number" value="{{item.system.value}}" data-dtype="Number" data-name="system.attr" />
+                <span></span>
+              </div>
+              {{else}}
+              <div class="item variable {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="variablename item-edit draggable">
+                  {{item.name}}</label>
+                <select class="select iteminput" data-name="system.label">
+                  {{selectOptions item.system.entries selected=item.system.label valueAttr="label" labelAttr="label" localize=false}}
+                </select>
+                <label class="value">
+                  {{item.system.value}}</label>
+              </div>
+              {{/if}}
+              {{/each}}
+              {{#each system.sheetData.attackDamageMods as |item|}}
+              {{#unless item.system.alwaysOn}}
+              <div class="item modifier{{#if item.system.inEffect}} inEffect{{/if}}" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="item-toggle draggable">
+                  {{item.name}}</label>
+              </div>
+              {{/unless}}
+              {{/each}}
+            </div>
+            <div class="fourspan item-list">
+              <div class="header">
+                <label>
+                  {{localize 'local.sections.defencemods'}}</label>
+              </div>
+              {{#each system.sheetData.defencemodifiers as |item|}}
+              {{#if (eq item.type "Pool")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput pool" type="text" value="{{item.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.system.abbr}}" />
+                <span>/ {{item.system.max}}</span>
+              </div>
+              {{else if (eq item.type "Primary-Attribute")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput" type="number" value="{{item.system.value}}" data-dtype="Number" data-name="system.attr" />
+                <span></span>
+              </div>
+              {{else}}
+              <div class="item variable {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="variablename item-edit draggable">
+                  {{item.name}}</label>
+                <select class="select iteminput" data-name="system.label">
+                  {{selectOptions item.system.entries selected=item.system.label valueAttr="label" labelAttr="label" localize=false}}
+                </select>
+                <label class="value">
+                  {{item.system.value}}</label>
+              </div>
+              {{/if}}
+              {{/each}}
+              {{#each system.sheetData.specialcombatmods as |item|}}
+              {{#if (eq item.type "Pool")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput pool" type="text" value="{{item.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.system.abbr}}" />
+                <span>/ {{item.system.max}}</span>
+              </div>
+              {{else if (eq item.type "Primary-Attribute")}}
+              <div class="item poolstyle {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="poolname item-edit draggable">
+                  {{item.name}}:</label>
+                <input class="value iteminput" type="number" value="{{item.system.value}}" data-dtype="Number" data-name="system.attr" />
+                <span></span>
+              </div>
+              {{else}}
+              <div class="item variable {{item.system.group}}" title="{{item.system.notes}}" data-item-id="{{item._id}}">
+                <label class="variablename item-edit draggable">
+                  {{item.name}}</label>
+                <select class="select iteminput" data-name="system.label">
+                  {{selectOptions item.system.entries selected=item.system.label valueAttr="label" labelAttr="label" localize=false}}
+                </select>
+                <label class="value">
+                  {{item.system.value}}</label>
+              </div>
+              {{/if}}
+              {{/each}}
+              {{#each system.sheetData.defencesavemods as |item|}}
+              {{#unless item.system.alwaysOn}}
+              <div class="item modifier{{#if item.system.inEffect}} inEffect{{/if}}" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="item-toggle draggable">
+                  {{item.name}}</label>
+              </div>
+              {{/unless}}
+              {{/each}}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{!-- Equipment Tab --}}
+      <div class="tab sheet-equipment" data-tab="equipment" data-group="primary">
+        <div class="block-section">
+          <h3>
+            {{localize 'local.actor.blocks.equipment'}}
+          </h3>
+          <div class="like-table">
+            <div class="like-row equipment table-header">
+              <div class="like-cell">
+                {{localize 'local.item.Equipment.name'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.item.Equipment.qty'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.item.Equipment.weight'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.item.Equipment.fare'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.item.Equipment.availability'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.item.Equipment.description'}}
+              </div>
+              <div class="like-cell">
+                {{localize 'local.item.Equipment.notes'}}
+              </div>
+            </div>
+            {{#each system.sheetData.equipment as |item|}}
+            <div class="like-row equipment item {{item.system.group}} separator" data-item-id="{{item._id}}" title="{{item.system.description}}">
+              <div class="like-cell left item-edit draggable" data-item-id="{{item._id}}">
+                {{item.name}}
+              </div>
+              <div class="like-cell">
+                {{item.system.quantity}}
+              </div>
+              <div class="like-cell">
+                {{item.system.weight}} lbs
+              </div>
+              <div class="like-cell">
+                {{item.system.cost}}
+              </div>
+              <div class="like-cell left">
+                {{item.system.availability}}
+              </div>
+              <div class="like-cell left">
+                {{{item.system.description}}}
+              </div>
+              <div class="like-cell left">
+                {{item.system.notes}}
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        <div class="passions-block">
+          <h3>
+            {{localize 'local.sections.experience'}}
+          </h3>
+          {{#each system.sheetData.experienceHooks as |item|}}
+          <div class="item passions-grid-section" data-item-id="{{item._id}}">
+            <input class="iteminput" type="checkbox" data-name="system.applied" {{checked item.system.applied}} data-dtype="Boolean" />
+            <label class="field-label header-field-label item-edit draggable" data-item-id="{{item._id}}">
+              {{item.name}}</label>
+            <div class="field-input" data-item-id="{{item._id}}">
+              <input class="passions-text-field iteminput" type="text" value="{{item.system.notes}}" data-dtype="String" data-name="system.notes" />
+            </div>
+          </div>
+          {{/each}}
+        </div>
+        <div class="notes-section">
+          <h3>
+            {{localize 'local.sections.notes'}}
+          </h3>
+          <div class="biography">
+            {{editor enrichment.system.biography target="system.biography" engine="prosemirror" button=true owner=owner editable=editable}}
+          </div>
+          <div class="notes">
+            <textarea rows="18" name="system.notes">{{{system.notes}}}</textarea>
+          </div>
+        </div>
+      </div>
+      {{!-- Advancement Tab --}}
+      <div class="tab sheet-advancement" data-tab="advancement" data-group="primary">
+        <div class="block-section">
+          <h3>
+            {{localize 'local.actor.blocks.advances'}}
+          </h3>
+          <table class="advances-table">
+            <tr class="advances-row header">
+              {{#with system.sheetData.advancementGrid.vocation as |voc|}}
+              <th class="advances-cell item" data-item-id="{{voc._id}}" title="{{voc.notes}}">
+                <label class="draggable item-edit">
+                  {{voc.name}}</label>
+              </th>
+              {{/with}}
+              <th class="advances-cell left"></th>
+              {{#each system.sheetData.advancementColumns as |column|}}
+              <th class="advances-cell item" data-item-id="{{column._id}}" title="{{column.notes}}">
+                <label class="draggable item-edit">
+                  {{column.name}}</label>
+              </th>
+              {{/each}}
+            </tr>
+            <tr class="advances-row">
+              <td class="advances-cell"></td>
+              <td class="advances-cell left">
+                {{localize 'local.actor.blocks.advanceslevel'}}
+              </td>
+              {{#with system.sheetData.advancementGrid.Level as |skill s|}}
+              {{#each ../system.sheetData.advancementColumns as |column|}}
+              {{#each skill as |col c|}}
+              {{#if (eq c column.name)}}
+              <td class="advances-cell">
+                {{col}}
+              </td>
+              {{/if}}
+              {{/each}}
+              {{/each}}
+              {{/with}}
+            </tr>
+            {{#each system.sheetData.skillinfo as |category|}}
+            <tr class="advances-row category">
+              <td class="advances-cell">
+                {{localize 'local.actor.skills.dp'}}:
+                {{category.devpts}}
+              </td>
+              <td class="advances-cell left categoryname">
+                {{localize (concat 'local.system.skillcats.' category.name)}}
+              </td>
+              {{#each ../system.sheetData.advancementColumns as |column|}}
+              <td class="advances-cell"></td>
+              {{/each}}
+            </tr>
+            {{#each category.data as |item|}}
+            <tr class="advances-row">
+              <td class="advances-cell"></td>
+              <td class="advances-cell left">
+                {{#if (eq category.name "Spell Lores")}}
+                {{item.name}}
+                {{else if item.standard}}
+                {{localize (concat 'local.system.skills.' item.name)}}
+                {{else}}
+                {{item.name}}
+                {{/if}}
+              </td>
+              {{#each ../../system.sheetData.advancementGrid as |skill s|}}
+              {{#if (eq s item.name)}}
+              {{#each ../../../system.sheetData.advancementColumns as |column|}}
+              {{#each skill as |col c|}}
+              {{#if (eq c column.name)}}
+              <td class="advances-cell">
+                {{col}}
+              </td>
+              {{/if}}
+              {{/each}}
+              {{/each}}
+              {{/if}}
+              {{/each}}
+            </tr>
+            {{/each}}
+            {{/each}}
+          </table>
+        </div>
+      </div>
+      {{!-- Owned Items Tab --}}
+      <div class="tab sheet-items" data-tab="items" data-group="primary">
+        {{!-- ITEM CREATION --}}
+        <div class="section">
+          <div class="content" style="display: block">
+            <div class="threespan item-list">
+              <div class="header">
+                <label>{{localize "local.sections.itemcreation"}}</label>
+              </div>
+              {{#each system.sheetData.allitemstemp as |item|}}
+              <div class="entry {{#if item.filtered}}inEffect{{/if}}">
+                <label class="filter" data-type='{{item.name}}'>{{item.localname}}</label>
+                <span></span>
+                <a class="item-create" data-type='{{item.name}}'><i class="fas fa-plus"></i></a>
+              </div>
+              {{/each}}
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="section">
+          <div class="sectionheader">
+            <label>{{localize "local.sections.itemlist"}}</label>
+          </div>
+          <div class="content" style="display: block">
+            <div class="nospan owneditems item-list">
+              {{#each filtereditems as |item|}}
+
+              {{#if (eq item.type "Primary-Attribute")}}
+              <div class="item owneditem ability" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="name draggable item-edit">{{item.name}}</label>
+                <label class="type">{{item.type}}</label>
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.group" value="{{item.system.group}}" />
+                <label class="value">{{item.system.attr}}</label>
+              </div>
+              {{else if (eq item.type "Modifier")}}
+              <div class="item owneditem mod{{#if item.system.inEffect}} inEffect{{/if}}" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="name draggable item-edit">{{item.name}}</label>
+                <label class="type item-toggle">{{item.type}}</label>
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.group" value="{{item.system.group}}" />
+                <div class="check" data-item-id="{{item._id}}">
+                  <input class="value iteminput" type="checkbox" {{checked item.system.condition}} data-dtype="Boolean" data-name="system.condition" />
+                  <span> Cond</span>
+                </div>
+                {{#unless (or item.system.once item.system.temporary)}}
+                <div class="check" data-item-id="{{item._id}}">
+                  <input class="value iteminput" type="checkbox" {{checked item.system.alwaysOn}} data-dtype="Boolean" data-name="system.alwaysOn" />
+                  <span> Perm</span>
+                </div>
+                {{/unless}}
+                {{#unless (or item.system.alwaysOn item.system.once)}}
+                <div class="check" data-item-id="{{item._id}}">
+                  <input class="value iteminput" type="checkbox" {{checked item.system.temporary}} data-dtype="Boolean" data-name="system.temporary" />
+                  <span> Temp</span>
+                </div>
+                {{/unless}}
+                {{#unless (or item.system.alwaysOn item.system.temporary)}}
+                <div class="check" data-item-id="{{item._id}}">
+                  <input class="value iteminput" type="checkbox" {{checked item.system.once}} data-dtype="Boolean" data-name="system.once" />
+                  <span> Once</span>
+                </div>
+                {{/unless}}
+              </div>
+              {{else if (eq item.type "Variable")}}
+              <div class="item owneditem var" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="name draggable item-edit">{{item.name}}</label>
+                <label class="type">{{item.type}}</label>
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.group" value="{{item.system.group}}" />
+                <select class="value select iteminput" data-name="system.label">
+                  {{selectOptions item.system.entries selected=item.system.label valueAttr="label" labelAttr="label"
+                  localize=false}}
+                </select>
+                {{#unless item.system.once}}
+                <div class="check" data-item-id="{{item._id}}">
+                  <input class="value iteminput" type="checkbox" {{checked item.system.temporary}} data-dtype="Boolean" data-name="system.temporary" />
+                  <span> Temp</span>
+                </div>
+                {{/unless}}
+                {{#unless item.system.temporary}}
+                <div class="check" data-item-id="{{item._id}}">
+                  <input class="value iteminput" type="checkbox" {{checked item.system.once}} data-dtype="Boolean" data-name="system.once" />
+                  <span> Once</span>
+                </div>
+                {{/unless}}
+              </div>
+              {{else if (eq item.type "Trait")}}
+              <div class="item owneditem trait" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="name draggable item-edit">{{item.name}}</label>
+                <label class="type">{{item.type}} ({{item.system.category}})</label>
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.group" value="{{item.system.group}}" />
+                <label class="snippet">{{item.system.notes}}</label>
+              </div>
+              {{else if (eq item.type "Pool")}}
+              <div class="item owneditem pool" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="name draggable item-edit">{{item.name}}</label>
+                <label class="type">{{item.type}}</label>
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.group" value="{{item.system.group}}" />
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.minForm" value="{{item.system.minForm}}" />
+                <input class="value iteminput" type="number" data-dtype="Number" data-name="system.value" value="{{item.system.value}}" />
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.maxForm" value="{{item.system.maxForm}}" />
+              </div>
+              {{else if (or (eq item.type "Melee-Attack")(eq item.type "Ranged-Attack"))}}
+              <div class="item owneditem attack" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="name draggable item-edit">{{item.name}}</label>
+                <label class="type">{{item.type}}</label>
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.group" value="{{item.system.group}}" />
+                <label class="value">{{item.system.formula}}</label>
+              </div>
+              {{else if (eq item.type "Rollable")}}
+              <div class="item owneditem roll" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="name draggable item-edit">{{item.name}}</label>
+                <label class="type">{{item.type}} ({{item.system.category}})</label>
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.group" value="{{item.system.group}}" />
+                <label class="value">{{item.system.formula}}</label>
+              </div>
+              {{else if item.system.formula}}
+              <div class="item owneditem" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="name draggable item-edit">{{item.name}}</label>
+                <label class="type">{{item.type}}</label>
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.group" value="{{item.system.group}}" />
+                <label class="value">{{item.system.formula}}</label>
+              </div>
+              {{else}} {{! Everything else }}
+              <div class="item owneditem" data-item-id="{{item._id}}" title="{{item.system.notes}}">
+                <label class="name draggable item-edit">{{item.name}}</label>
+                <label class="type">{{item.type}}</label>
+                <input class="value iteminput" type="text" data-dtype="String" data-name="system.group" value="{{item.system.group}}" />
+                <label class="value">{{item.system.value}}</label>
+              </div>
+              {{/if}}
+              {{/each}}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{!-- Script Engine Tab --}}
+      <div class="tab sheet-scripts" data-tab="scripts" data-group="primary">
+        {{!-- Script Pane --}}
+        <div id="baseitems">
+          <div class="item-controls">
+            <div>
+              <a class="item-control item-create" title="{{localize 'local.tabs.scripts.createT'}}">
+                <i class="fas fa-plus"></i> {{localize "local.tabs.scripts.create"}}
+              </a>
+            </div>
+            <div>
+              <a class="item-control item-export" title="{{localize 'local.tabs.scripts.exportT'}}">
+                <i class="fas fa-minus"></i> {{localize "local.tabs.scripts.export"}}
+              </a>
+            </div>
+            <div>
+              <a class="item-control importJSON" title="{{localize 'local.tabs.scripts.importjsonT'}}">
+                <i class="fas fa-plus"></i> {{localize "local.tabs.scripts.importjson"}}
+              </a>
+            </div>
+            <div>
+              <a class="item-control importVsD" title="{{localize 'local.tabs.scripts.importvsdT'}}">
+                <i class="fas fa-plus"></i> {{localize "local.tabs.scripts.importvsd"}}
+              </a>
+            </div>
+            <div>
+              <a class="item-control importERA" title="Import ERA XML">
+                <i class="fas fa-plus"></i> Import ERA XML
+              </a>
+            </div>
+          </div>
+          <textarea rows="24" name="system.itemscript">{{{actor.system.itemscript}}}</textarea>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script> $("input").focusin(function () { $(this).select(); }); $("textarea").focusin(function () { $(this).select(); }); 
+  </script>
+</form>

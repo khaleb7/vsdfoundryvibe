@@ -1,0 +1,109 @@
+name: 'Ranks: Level X'
+type: Variable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: lS2E3Pe2AclQDTmR
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-dropbox.Item.F5zf5OoErX57HXzp
+system:
+  notes: >-
+    These are the ranks chosen for this Level from the DP specified in Vocation:
+    [VocName].
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: Armor
+  entries:
+    - value: 0
+      formula: '0'
+      label: Armor
+    - value: 0
+      formula: '0'
+      label: Blunt
+    - value: 0
+      formula: '0'
+      label: Blades
+    - value: 0
+      formula: '0'
+      label: Ranged
+    - value: 0
+      formula: '0'
+      label: Polearms
+    - value: 0
+      formula: '0'
+      label: Brawl
+    - value: 0
+      formula: '0'
+      label: Athletics
+    - value: 0
+      formula: '0'
+      label: Ride
+    - value: 0
+      formula: '0'
+      label: Hunting
+    - value: 0
+      formula: '0'
+      label: Nature
+    - value: 0
+      formula: '0'
+      label: Wandering
+    - value: 0
+      formula: '0'
+      label: Acrobatics
+    - value: 0
+      formula: '0'
+      label: Stealth
+    - value: 0
+      formula: '0'
+      label: Locks & Traps
+    - value: 0
+      formula: '0'
+      label: Perception
+    - value: 0
+      formula: '0'
+      label: Deceive
+    - value: 0
+      formula: '0'
+      label: Arcana
+    - value: 0
+      formula: '0'
+      label: Charisma
+    - value: 0
+      formula: '0'
+      label: Cultures
+    - value: 0
+      formula: '0'
+      label: Healer
+    - value: 0
+      formula: '0'
+      label: Songs & Tales
+    - value: 0
+      formula: '0'
+      label: Body
+    - value: 0
+      formula: '0'
+      label: Spell Lores
+    - value: 1
+      formula: '1'
+      label: Level
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488523
+  modifiedTime: 1697655937644
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-dropbox.Item.F5zf5OoErX57HXzp
+  duplicateSource: null
+_id: T3LYcswkaljNkDKY
+sort: 300000
+_key: '!items!T3LYcswkaljNkDKY'
+

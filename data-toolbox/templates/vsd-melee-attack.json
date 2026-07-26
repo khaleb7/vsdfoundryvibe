@@ -1,0 +1,17 @@
+{
+    "name": "{{skillname}}: {{name}} ({{crit}})",
+    "type": "Melee-Attack",
+    "data": {
+        "notes": "Hands: {{hands}}\nLength: {{length}}\nAttack Table: {{attack}}\nMax: {{max}}\nCrit Table: {{crit}}\nRange: {{range}}\nQualities: {{qualities}}",
+        "chartype": "CharacterVsD",
+        "value": 0,
+        "formula": "{{formula}}",
+        "damage": "{{attacktable}}",
+        "damageType": "{{crittable}}",
+        "armourDiv": "{{clumsy}}",
+        "minST": "oe",
+        "weight": "{{max}}",
+        "reach": 5,
+        "moddedvalue": 0
+    }
+}

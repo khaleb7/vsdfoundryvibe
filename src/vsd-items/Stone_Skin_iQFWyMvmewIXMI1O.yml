@@ -1,0 +1,115 @@
+name: Stone Skin
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: xi1V5lRSd4blQ8xx
+      name: Stone Skin
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: 1xJFGI5ep2jpDDD5
+      sort: 103125
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.yFxjgxNC2BgqJgPa
+      system:
+        notes: 'Stone Skin: Your Kin’s bare skin counts as Light Armor.'
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689459587055
+        modifiedTime: 1689509636679
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - name: Stone Skin
+      type: Modifier
+      img: icons/magic/earth/strike-fist-stone-gray.webp
+      effects: []
+      folder: 1xJFGI5ep2jpDDD5
+      sort: 102344
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-armor-and-shields.q5xEdPIrb5aNK0H9
+      system:
+        notes: |
+          Fare: 0
+          Type: Light
+          Protects: Full Body
+          Qualities: Rigid
+          Max SWI: -
+        chartype: CharacterVsD
+        group: Modifier
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: true
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 0
+            formula: '0'
+            category: reaction
+            targets: Melee, Missile
+          '1':
+            value: 0
+            formula: '0'
+            category: primary
+            targets: ArmPen
+        temporary: false
+        once: false
+        condition: false
+        forceUpdate: false
+        sort: -1
+      ownership:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1667216168143
+        modifiedTime: 1689509628206
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+      _id: D84yF7tj9ZK686bg
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485631
+  modifiedTime: 1697655935044
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: iQFWyMvmewIXMI1O
+sort: 400000
+_key: '!items!iQFWyMvmewIXMI1O'
+

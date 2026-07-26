@@ -1,0 +1,33 @@
+name: Rouncey
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.vFA8IwwhjFfuFmkI
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '1'
+  weight: 0
+  availability: Common
+  description: Common riding horse
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485409
+  modifiedTime: 1697655935049
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.vFA8IwwhjFfuFmkI
+  duplicateSource: null
+_id: mRW6KibuDdSv7qvt
+sort: 0
+_key: '!items!mRW6KibuDdSv7qvt'
+

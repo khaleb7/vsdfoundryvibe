@@ -1,0 +1,80 @@
+folder: 6S4cMmMbJkZJpebI
+name: Folder Join Journals
+type: script
+_id: xE8M4TaRZGYmCgCd
+author: UiCXq4VUwQ5S2thO
+img: icons/svg/book.svg
+scope: global
+command: |-
+  /**
+   * Select the target journals folder to be joined into a single Journal of that name.
+   */
+  async function getJournals() {
+    const folders = game.collections.get("Folder").filter(c => { return c.type == "JournalEntry" });
+    const buttons = {};
+    for (const button of folders) {
+      buttons[button.name] = {
+        label: button.name,
+        callback: () => {
+          applyChanges = true;
+          label = button.name
+        }
+      }
+    }
+    let applyChanges = false;
+    new Dialog({
+      title: `Select the target Journals folder`,
+      buttons: buttons,
+      close: async html => {
+        if (applyChanges) {
+          const journalfolder = folders.find(folder => folder.name == label);
+          mergeJournalFolderIntoSingleJournal(journalfolder);
+        }
+      }
+    },
+      {
+        classes: ["mydialog"],
+        width: 175,
+        top: 0,
+        left: 0
+      }).render(true);
+  }
+  /**
+   * Merge all of the Journal pages in a single folder into a new Journal with the same name as the original folder.
+   * @param {Folder} folder source folder to merge
+   */
+  async function mergeJournalFolderIntoSingleJournal(folder) {
+    const newJournal = await JournalEntry.create({ name: folder.name, folder: folder.folder });
+    const pages = [];
+    const oldjournals = folder.contents.sort((a, b) => {
+      if (a.name < b.name) return -1;
+      if (a.name > b.name) return 1;
+      return 0;
+    });
+    for (const journal of oldjournals) {
+      for (const page of journal.pages.contents) {
+        const pageData = page.toObject();
+        delete pageData._id;
+        pageData.title = {show: true, level: 1};
+        pages.push(pageData);
+      };
+    };
+    newJournal.createEmbeddedDocuments("JournalEntryPage", pages);
+  }
+  getJournals();
+sort: 400000
+ownership:
+  default: 0
+  UiCXq4VUwQ5S2thO: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: vsd
+  systemVersion: '12.283'
+  createdTime: 1742378669603
+  modifiedTime: 1742379367082
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+_key: '!macros!xE8M4TaRZGYmCgCd'
+

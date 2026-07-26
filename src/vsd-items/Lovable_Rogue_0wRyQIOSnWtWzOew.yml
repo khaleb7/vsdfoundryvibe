@@ -1,0 +1,82 @@
+name: Lovable Rogue
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.pErQXn4KgDacgwe1
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Lovable Rogue
+      type: Trait
+      system:
+        notes: >-
+          You are a scoundrel, a crook, a liar, a ne'er-do-well. By all reasons,
+          no one should like you, and yet people tend to find you unexplainably
+          charming.
+
+          - Minor (cost 1 BP):  Write what makes you unreliable yet likable in
+          your Nature, and increase the total value of either your Wits or your
+          Bearing by 5 points.
+
+          - Major (cost 3 BPs):  Additionally, once per session, you can attempt
+          to confuse a group of sentient beings with your outrageous behaviour
+          as a Full Action. Your targets must be able to see and hear you, and
+          cannot be engaged in combat for this ability to work. Describe your
+          act and make a Conflicting Action Roll, using your Deceive Skill
+          against their Perception Skill. If you win, your targets are Stunned
+          and will be distracted by your actions until you stop or something
+          else catches their attention.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Lovable Rogue
+      type: Modifier
+      system:
+        notes: >-
+          Increase the value of either your Wits or Bearing attribute by 5
+          points.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: WIT
+          '1':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: BEA
+        tempName: Lovable Rogue
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485233
+  modifiedTime: 1697655934961
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.pErQXn4KgDacgwe1
+  duplicateSource: null
+_id: 0wRyQIOSnWtWzOew
+sort: 0
+_key: '!items!0wRyQIOSnWtWzOew'
+

@@ -1,0 +1,17 @@
+name: Weapons
+type: Item
+folder: null
+_id: giAlKdTjKvCi5VkS
+sorting: a
+sort: 800000
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.42'
+  coreVersion: '11.307'
+  createdTime: 1689515394573
+  modifiedTime: 1691664561971
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+color: '#0060ff'
+_key: '!folders!giAlKdTjKvCi5VkS'
+

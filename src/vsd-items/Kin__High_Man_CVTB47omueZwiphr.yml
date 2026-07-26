@@ -1,0 +1,153 @@
+name: 'Kin: High Man'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: J9h65tAKH1TLBN7k
+      name: Imposing
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 100000
+      flags:
+        core:
+          sourceId: Actor.bknX16wVdIviKdAz.Item.a2TQW4KrYAvQ4rKQ
+      system:
+        notes: 'Imposing: Your kin get a +15 bonus to their Charisma Skill.'
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 15
+            formula: '15'
+            category: skill
+            targets: Charisma
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459791933
+        modifiedTime: 1703274102486
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: bu575FOsujAhzNkV
+      name: 'Kin: High Man'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 0
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: |-
+          Special Traits:
+          - Imposing
+          Cultures: Noble, City or Seafaring
+          Wealth: 1
+          Background: 4
+          Magic Points: 1
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: primary
+            targets: BRN, FOR
+          '1':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: BEA
+          '2':
+            value: 5
+            formula: '5'
+            category: defence
+            targets: Toughness
+          '3':
+            value: 35
+            formula: '35'
+            category: reaction
+            targets: Body
+          '4':
+            value: 35
+            formula: '35'
+            category: primary
+            targets: KinVoc
+          '5':
+            value: 1
+            formula: '1'
+            category: primary
+            targets: KinMP
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459793989
+        modifiedTime: 1703274120061
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703274134968
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: CVTB47omueZwiphr
+sort: 100000
+_key: '!items!CVTB47omueZwiphr'
+

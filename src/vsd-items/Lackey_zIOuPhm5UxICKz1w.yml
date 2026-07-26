@@ -1,0 +1,33 @@
+name: Lackey
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.J7A6GEIlQQVyM0ei
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '1'
+  weight: 0
+  availability: Common
+  description: 'A low profile serf, or a thug for a one-time commitment. '
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485330
+  modifiedTime: 1697655935071
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.J7A6GEIlQQVyM0ei
+  duplicateSource: null
+_id: zIOuPhm5UxICKz1w
+sort: 0
+_key: '!items!zIOuPhm5UxICKz1w'
+

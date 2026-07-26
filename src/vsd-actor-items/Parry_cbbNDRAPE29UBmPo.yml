@@ -1,0 +1,38 @@
+name: Parry
+type: Primary-Attribute
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The amount of your offensive skill redirected to defence.
+  chartype: CharacterVsD
+  group: value
+  abbr: PARRY
+  attr: 0
+  value: 0
+  name: ''
+  state: ''
+  minForm: '0'
+  min: 0
+  maxForm: '100'
+  max: 100
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377534335
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: cbbNDRAPE29UBmPo
+sort: 2400000
+_key: '!items!cbbNDRAPE29UBmPo'
+

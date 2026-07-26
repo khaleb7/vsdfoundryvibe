@@ -1,0 +1,33 @@
+name: Drink, Good Wine
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.88uzODy1imJHZ9Jh
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '2'
+  weight: 0
+  availability: Uncommon
+  description: Enough to get a few people tipsy.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485308
+  modifiedTime: 1697655934976
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.88uzODy1imJHZ9Jh
+  duplicateSource: null
+_id: 7KTae0KIgmw76npL
+sort: 0
+_key: '!items!7KTae0KIgmw76npL'
+

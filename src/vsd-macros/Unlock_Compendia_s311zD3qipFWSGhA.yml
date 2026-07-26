@@ -1,0 +1,32 @@
+name: Unlock Compendia
+type: script
+command: |-
+  const locked = game.packs.filter(p => p.locked);
+  // Unlock
+  for (let p of locked) await p.configure({locked:false});
+img: https://assets.forge-vtt.com/bazaar/core/icons/svg/door-locked-outline.svg
+author: UiCXq4VUwQ5S2thO
+scope: global
+folder: 6S4cMmMbJkZJpebI
+ownership:
+  default: 0
+  UiCXq4VUwQ5S2thO: 3
+flags:
+  exportSource:
+    world: vsd-core-module
+    system: vsd
+    coreVersion: '12.331'
+    systemVersion: '12.282'
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: vsd
+  systemVersion: '12.283'
+  createdTime: 1742379362507
+  modifiedTime: 1742379367082
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+_id: s311zD3qipFWSGhA
+sort: 200000
+_key: '!macros!s311zD3qipFWSGhA'
+

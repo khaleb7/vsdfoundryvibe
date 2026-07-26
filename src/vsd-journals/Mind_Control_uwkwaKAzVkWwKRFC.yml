@@ -1,0 +1,97 @@
+name: Mind Control
+folder: Z9DrIJY8LTitWm9q
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.Fn5PwQwDXKpS5aJR
+pages:
+  - name: Mind Control
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spelllisttable"> <tbody> <tr class="tableheaderrow"> <td
+        class="weave">Weave</td> <td class="spell">Spell</td> <td
+        class="range">Range</td> <td class="areaofeffect">Area of Effect</td>
+        <td class="duration">Duration</td> <td class="save">Save</td> </tr> <tr
+        class="tablerow open-journal" data-table="Sleep"> <td
+        class="weave">1st</td> <td class="spell">Sleep</td> <td class="range">30
+        m</td> <td class="areaofeffect">3 m radius</td> <td class="duration">1
+        min/lvl</td> <td class="save">Y</td> </tr> <tr class="tablerow
+        open-journal" data-table="Charm"> <td class="weave">2nd</td> <td
+        class="spell">Charm</td> <td class="range">30 m</td> <td
+        class="areaofeffect">1 target</td> <td class="duration">1 hr/lvl</td>
+        <td class="save">Y</td> </tr> <tr class="tablerow open-journal"
+        data-table="Fear"> <td class="weave">3rd</td> <td
+        class="spell">Fear</td> <td class="range">20 m</td> <td
+        class="areaofeffect">1 target</td> <td class="duration">1 rnd/lvl</td>
+        <td class="save">Y</td> </tr> <tr class="tablerow open-journal"
+        data-table="Daze"> <td class="weave">4th</td> <td
+        class="spell">Daze</td> <td class="range">30 m</td> <td
+        class="areaofeffect">1 target</td> <td class="duration">1 rnd/5
+        fail</td> <td class="save">Y</td> </tr> <tr class="tablerow
+        open-journal" data-table="Hostility"> <td class="weave">5th</td> <td
+        class="spell">Hostility</td> <td class="range">30 m</td> <td
+        class="areaofeffect">1 target</td> <td class="duration">C</td> <td
+        class="save">Y</td> </tr> <tr class="tablerow open-journal"
+        data-table="Suggestion"> <td class="weave">6th</td> <td
+        class="spell">Suggestion</td> <td class="range">3 m</td> <td
+        class="areaofeffect">1 target</td> <td class="duration">1 hr/lvl</td>
+        <td class="save">Y</td> </tr> <tr class="tablerow open-journal"
+        data-table="Hold Kin"> <td class="weave">7th</td> <td class="spell">Hold
+        Kin</td> <td class="range">30 m</td> <td class="areaofeffect">1
+        target</td> <td class="duration">C</td> <td class="save">Y</td> </tr>
+        <tr class="tablerow open-journal" data-table="Domination"> <td
+        class="weave">8th</td> <td class="spell">Domination</td> <td
+        class="range">20 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">10 min/lvl</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Charm Monsters"> <td
+        class="weave">9th</td> <td class="spell">Charm Monsters</td> <td
+        class="range">30 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 hr/lvl</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Geas"> <td
+        class="weave">10th</td> <td class="spell">Geas</td> <td class="range">3
+        m</td> <td class="areaofeffect">1 target</td> <td class="duration">1
+        day/lvl</td> <td class="save">Y</td> </tr> <tr class="tablefootrow"> <td
+        class="stat" colspan="6">Vocations: Wizard, Dabbler</td> </tr> <tr
+        class="tablefootrow"> <td class="stat" colspan="4">Stat Value: BEA</td>
+        <td class="page" colspan="2">Page: 399</td> </tr> </tbody> </table>
+    _id: BCxfHCpsTXeWAHKY
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!uwkwaKAzVkWwKRFC.BCxfHCpsTXeWAHKY'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519554648
+  modifiedTime: 1689519573070
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.Fn5PwQwDXKpS5aJR
+  duplicateSource: null
+_id: uwkwaKAzVkWwKRFC
+sort: 0
+_key: '!journal!uwkwaKAzVkWwKRFC'
+

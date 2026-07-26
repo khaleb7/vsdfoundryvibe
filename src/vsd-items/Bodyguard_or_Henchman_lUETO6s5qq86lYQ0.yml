@@ -1,0 +1,35 @@
+name: Bodyguard or Henchman
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.T8IlIbS8yXFGw7tO
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '2'
+  weight: 0
+  availability: Common
+  description: >-
+    A personal bodyguard, a trained armsman (up to 4 lvl) for a week. Longer
+    periods or more skilled bodyguards require higher Fare.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485352
+  modifiedTime: 1697655935048
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.T8IlIbS8yXFGw7tO
+  duplicateSource: null
+_id: lUETO6s5qq86lYQ0
+sort: 0
+_key: '!items!lUETO6s5qq86lYQ0'
+

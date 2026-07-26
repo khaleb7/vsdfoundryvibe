@@ -1,0 +1,34 @@
+name: Giantkin
+type: Trait
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Giantkin: Your Kin are Large in Size and reduce any Critical Strike they
+    receive by one Severity degree (Criticals reduced under the Superficial
+    Severity are ignored altogether).
+  chartype: CharacterVsD
+  group: kin
+  applied: false
+  category: perk
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689460019684
+  modifiedTime: 1697655935021
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: WjFObDMWioKnvxQN
+sort: 2800000
+_key: '!items!WjFObDMWioKnvxQN'
+

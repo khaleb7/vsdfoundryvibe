@@ -1,0 +1,58 @@
+name: Boiled Leather
+type: Modifier
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Bxxo1AxxBitNbUjx
+flags:
+  core: {}
+system:
+  notes: |-
+    Fare: 1
+    Type: Light
+    Protects: Torso
+    Qualities: Rigid
+    Max SWI: +30
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: false
+  attack: false
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '0'
+      category: reaction
+      targets: ''
+      moddedvalue: 0
+    - value: -25
+      formula: '-25'
+      category: primary
+      targets: ArmPen
+      moddedvalue: -25
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  8VtokmkrTaxXr4Uk: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485138
+  modifiedTime: 1697655937528
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: RTAqwRiMFpeUcOzN
+sort: 2400000
+_key: '!items!RTAqwRiMFpeUcOzN'
+

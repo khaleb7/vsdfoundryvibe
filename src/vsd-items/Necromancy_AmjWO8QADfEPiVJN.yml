@@ -1,0 +1,32 @@
+name: Necromancy
+type: Rollable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: TXJAMYe6EhhtsnKT
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-spell-lores.Item.EnBpqBs1sKNFOpb2
+system:
+  notes: The level of mastery of the Necromancy Spell Lore.
+  chartype: CharacterVsD
+  group: spell
+  value: 0
+  formula: '#0'
+  category: spell
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485030
+  modifiedTime: 1697655934981
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-spell-lores.Item.EnBpqBs1sKNFOpb2
+  duplicateSource: null
+_id: AmjWO8QADfEPiVJN
+sort: 0
+_key: '!items!AmjWO8QADfEPiVJN'
+

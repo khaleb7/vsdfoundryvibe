@@ -1,0 +1,33 @@
+name: Critical (Lightning)
+type: Defence
+img: icons/svg/mystery-man.svg
+effects: []
+folder: 77heDBYLBGUcZitt
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-saves-criticals-and-failures.Item.ZhJu1xzfulzNHkaa
+system:
+  notes: 7.14 Lightning Critical Strikes Table
+  chartype: CharacterVsD
+  group: dodge
+  weight: 0
+  value: 0
+  formula: '0'
+  category: dodge
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485780
+  modifiedTime: 1697655935037
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-saves-criticals-and-failures.Item.ZhJu1xzfulzNHkaa
+  duplicateSource: null
+_id: eZQISjYG9c3J5NQh
+sort: 0
+_key: '!items!eZQISjYG9c3J5NQh'
+

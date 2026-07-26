@@ -1,0 +1,48 @@
+{{! VsD combat tracker list (ApplicationV2 PART) }}
+<ol class="combat-tracker plain directory-list" id="combat-tracker">
+  {{#each turns}}
+  <li class="combatant actor directory-item vsd {{this.css}}" data-combatant-id="{{this.id}}">
+    <img class="token-image" src="{{this.img}}" alt="{{this.name}}" />
+    <div class="token-name">
+      <div class="namerow">
+        <div class="name{{#if this.ready}} ready{{/if}}">{{this.name}}</div>
+        <div class="token-effects">
+          {{#each this.effects}}
+          <img class="token-effect" src="{{this}}" alt="" />
+          {{/each}}
+        </div>
+        <div class="token-initiative">
+          {{#if this.hasRolled}}
+          {{#if @root.user.isGM}}
+          <input class="initiative" value="{{this.initiative}}" type="text" />
+          {{/if}}
+          {{/if}}
+        </div>
+      </div>
+      <div class="actionrow">
+        <div class="combatant-controls flexrow">
+          {{#if @root.user.isGM}}
+          <button type="button" class="inline-control combatant-control icon fa-solid fa-eye-slash {{#if this.hidden}}active{{/if}}"
+            data-action="toggleHidden" data-tooltip="COMBAT.ToggleVis" aria-label="{{localize 'COMBAT.ToggleVis'}}"></button>
+          <button type="button" class="inline-control combatant-control icon fa-solid fa-skull {{#if this.defeated}}active{{/if}}"
+            data-action="toggleDefeated" data-tooltip="COMBAT.ToggleDead" aria-label="{{localize 'COMBAT.ToggleDead'}}"></button>
+          {{/if}}
+          {{#if this.canPing}}
+          <button type="button" class="inline-control combatant-control icon fa-solid fa-bullseye"
+            data-action="pingCombatant" data-tooltip="COMBAT.PingCombatant" aria-label="{{localize 'COMBAT.PingCombatant'}}"></button>
+          {{/if}}
+        </div>
+        <div class="action">{{this.action}}</div>
+        {{#if this.owner}}
+        <select class="declaredaction" data-name="initiative">
+          {{selectOptions @root.actions selected=this.initiative valueAttr="initiative" labelAttr="action" localize=false}}
+        </select>
+        <a class="interrupt" title="Interrupt"><i class="fas fa-hand-paper"></i></a>
+        {{/if}}
+      </div>
+    </div>
+  </li>
+  {{else}}
+  <li class="combat-tracker-empty">{{localize "COMBAT.None"}}</li>
+  {{/each}}
+</ol>

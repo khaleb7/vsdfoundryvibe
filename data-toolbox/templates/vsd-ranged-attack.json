@@ -1,0 +1,18 @@
+{
+    "name": "{{skillname}}: {{name}} ({{crit}})",
+    "type": "Ranged-Attack",
+    "data": {
+        "notes": "Hands: {{hands}}\nLength: {{length}}\nAttack Table: {{attack}}\nMax: {{max}}\nCrit Table: {{crit}}\nRange: {{range}}\nQualities: {{qualities}}",
+        "chartype": "CharacterVsD",
+        "value": 0,
+        "formula": "{{formula}}",
+        "damage": "{{attacktable}}",
+        "damageType": "{{crittable}}",
+        "armourDiv": "{{clumsy}}",
+        "minST": "oe",
+        "accuracy": "{{max}}",
+        "range": "{{range}}",
+        "rof": 5,
+        "moddedvalue": 0
+    }
+}

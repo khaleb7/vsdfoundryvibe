@@ -1,0 +1,35 @@
+name: Wagon
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.FByVbeengPo14nOc
+system:
+  notes: |-
+    Capacity: 550Kg
+    Crew: 1
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '2'
+  weight: 0
+  availability: Common
+  description: Treat as Mounted, Heavily Encumbered to calculate movement p140
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485323
+  modifiedTime: 1697655935036
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.FByVbeengPo14nOc
+  duplicateSource: null
+_id: dDiw2bjnDnl5flas
+sort: 0
+_key: '!items!dDiw2bjnDnl5flas'
+

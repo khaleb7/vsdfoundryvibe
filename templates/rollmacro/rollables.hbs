@@ -1,0 +1,10 @@
+{{debug "Rollables: " this}}
+<form class="mydialog">
+    <div class="rollables">
+        {{#each rollableData as |item|}}
+        <div class="item rollablename" title="{{item.system.notes}}">
+            <label class="name selectable" data-item-id="{{item._id}}">{{item.name}}</label>
+        </div>
+        {{/each}}
+    </div>
+</form>

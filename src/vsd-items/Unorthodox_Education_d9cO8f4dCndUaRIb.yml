@@ -1,0 +1,80 @@
+name: Unorthodox Education
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.e0h22cJYGgaALgZc
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Unorthodox Education
+      type: Trait
+      system:
+        notes: >-
+          You started learning the ropes of a different Vocation than the one
+          you belong to now, but either soon discovered that it wasn't your
+          calling or were somehow forced to interrupt your training. 
+
+          - Minor (cost 1 BP):  Choose a Skill in which you have no Vocational
+          Bonuses. You gain a special +10 bonus to that Skill.
+
+          - Major (cost 3 BPs):  Additionally, choose a Vocation different than
+          yours and a Skill Category in which that Vocation gets at least 2 DPs
+          each Level. At each Level, you get one less Development Point to spend
+          in the Skill Category your Vocation gets the most DPs (choose one when
+          you select this Option if more Categories get the same number of DPs),
+          and one additional Development Point to spend in the chosen category
+          for the other Vocation. However, you gained the enmity of a powerful
+          individual during your training. Name your enemy and write your
+          Allegiance about them. For example, if you are a Wizard and chose the
+          Warrior Vocation and the Body Skill Category, at each Level you gain
+          one less DP in either the Lore or the Spells Category, and one extra
+          DP in Body.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Unorthodox Education
+      type: Modifier
+      system:
+        notes: >-
+          Choose a Skill in which you have no Vocational Bonuses. You gain a
+          special +10 bonus to that Skill.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Skill Name
+        tempName: Unorthodox Education
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485220
+  modifiedTime: 1697655935035
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.e0h22cJYGgaALgZc
+  duplicateSource: null
+_id: d9cO8f4dCndUaRIb
+sort: 0
+_key: '!items!d9cO8f4dCndUaRIb'
+

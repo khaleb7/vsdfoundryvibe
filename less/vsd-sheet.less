@@ -1,0 +1,170 @@
+.section {
+    .Ubuntu(normal, small);
+    display       : grid;
+    grid-auto-rows: auto;
+    border-radius : 5px;
+    border        : 2px solid @main-colour ;
+
+    .sectionheader {
+        .roundedheader();
+
+        .section-title {
+
+            .title,
+            a {
+                border    : inherit;
+                padding   : inherit;
+                margin    : inherit;
+                background: inherit;
+            }
+
+            .title {
+                color: inherit;
+            }
+        }
+    }
+
+    .content {
+
+        .nospan,
+        .twospan,
+        .threespan,
+        .fourspan {
+            .col4();
+
+            .header {
+                grid-column: span 4;
+                height: fit-content;
+                .roundedheader();
+
+                .section-title {
+
+                    .title,
+                    a {
+                        border    : inherit;
+                        padding   : inherit;
+                        margin    : inherit;
+                        background: inherit;
+                    }
+
+                    .title {
+                        color: inherit;
+                    }
+                }
+            }
+
+            .entry {
+                .rollablecard();
+                .Ubuntu(bolder, smaller);
+                align-items: baseline;
+            }
+
+            .attackentry {
+                .attackcard();
+                .Ubuntu(bolder, smaller);
+            }
+
+            .wound {
+                .woundcard();
+                .Ubuntu(bolder, smaller);
+            }
+
+            .subsection {
+
+                .header {
+                    .roundedheader();
+                    height: fit-content;
+                }
+
+                .entry {
+                    .rollablecard();
+                    .Ubuntu(bolder, smaller);
+                    align-items: baseline;
+                }
+            }
+
+            .doublewide {
+                grid-column: span 2;
+                .rollablecard();
+            }
+
+            .notes {
+                grid-column: span 2;
+                .roundedcard();
+            }
+
+            .rankvariable,
+            .poolstyle,
+            .variable {
+                display              : grid;
+                grid-column          : span 2;
+                grid-template-columns: auto 1fr 36px;
+                .Ubuntu(bolder, smaller);
+                .roundedcard();
+                align-items: baseline;
+
+                .value,
+                .variablename {
+                    text-align: center;
+                }
+
+                .select {
+                    border         : none;
+                    background     : none;
+                    height         : auto;
+                    text-align-last: right;
+                    color          : gray;
+                    font-size      : inherit;
+                    font-weight    : bold;
+                }
+            }
+
+            .rankvariable {
+                grid-template-columns: auto 1fr;
+            }
+
+            .poolstyle {
+                grid-template-columns: auto 36px 36px;
+
+                .value {
+                    height    : auto;
+                    background: none;
+                }
+            }
+        }
+
+        .threespan {
+            .col3();
+
+            .header {
+                grid-column: span 3;
+            }
+
+            .variable,
+            .poolstyle {
+                grid-column: span 1;
+            }
+        }
+
+        .twospan {
+            .col2();
+
+            .header {
+                grid-column: span 2;
+            }
+        }
+
+        .nospan {
+            .col1();
+
+            .header {
+                grid-column: span 1;
+            }
+        }
+ 
+        .biography {
+            min-height: 300px;
+            resize    : none;
+        }
+   }
+}

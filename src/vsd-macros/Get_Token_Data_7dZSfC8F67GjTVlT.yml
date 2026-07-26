@@ -1,0 +1,35 @@
+name: Get Token Data
+type: script
+author: cwpZyEuSkQ36r9mu
+img: icons/svg/aura.svg
+scope: global
+command: |-
+  // Displays actor.system
+
+  console.debug("Actor RollData\n", token.actor.getRollData());
+  console.debug("TokenData\n", token.document);
+  console.debug("actordata\n", token.actor.system);
+folder: 6S4cMmMbJkZJpebI
+sort: 900000
+flags:
+  importid: FFjkxDTGAN4tjv68
+  furnace:
+    runAsGM: false
+  core: {}
+_id: 7dZSfC8F67GjTVlT
+ownership:
+  default: 0
+  8VtokmkrTaxXr4Uk: 3
+  m77Jvy9zPLGirbxo: 3
+  UiCXq4VUwQ5S2thO: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.38'
+  coreVersion: '12.331'
+  createdTime: 1690237903527
+  modifiedTime: 1742379367082
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: null
+  duplicateSource: null
+_key: '!macros!7dZSfC8F67GjTVlT'
+

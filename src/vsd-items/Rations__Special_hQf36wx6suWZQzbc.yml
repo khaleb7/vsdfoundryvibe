@@ -1,0 +1,35 @@
+name: Rations, Special
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.YYoV8ad244sytXKr
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '2'
+  weight: 0
+  availability: Uncommon
+  description: >-
+    2 weeks worth. Light, highly nutritious, delicious-tasting and well
+    preserved food like elven bread, twice baked cakes, or dwarven beef jerky.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485368
+  modifiedTime: 1697655935042
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.YYoV8ad244sytXKr
+  duplicateSource: null
+_id: hQf36wx6suWZQzbc
+sort: 0
+_key: '!items!hQf36wx6suWZQzbc'
+

@@ -1,0 +1,60 @@
+name: Natural Armour
+type: Modifier
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Bxxo1AxxBitNbUjx
+flags:
+  core: {}
+system:
+  notes: |
+    Fare: 0
+    Type: Light
+    Protects: Full Body
+    Qualities: Rigid
+    Max SWI: -
+  chartype: CharacterVsD
+  group: kin
+  inEffect: true
+  alwaysOn: false
+  attack: true
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '0'
+      category: reaction
+      targets: Melee, Missile
+      moddedvalue: 0
+    - value: 0
+      formula: '0'
+      category: primary
+      targets: ArmPen
+      moddedvalue: 0
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  8VtokmkrTaxXr4Uk: 3
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1667216168143
+  modifiedTime: 1697655938339
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: c9pPtvVpseQrxl69
+sort: 0
+_key: '!items!c9pPtvVpseQrxl69'
+

@@ -1,0 +1,674 @@
+.charsheet {
+  select {
+    font-variant: small-caps;
+    .SabonLT(bold, normal);
+  }
+
+  .biography {
+    height: auto;
+
+    .editor {
+      min-height: 300px;
+    }
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+    text-align: center;
+  }
+
+  input:disabled {
+    background-color: whitesmoke;
+    color: dimgray;
+  }
+
+  input[type=number].hundred {
+    width: 30px;
+  }
+
+  input[type=number].thousand {
+    width: 35px;
+  }
+
+  input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-radius: 0px;
+    font-variant: small-caps;
+  }
+
+  input[readonly="readonly"] {
+    border: 0px;
+  }
+
+  .text-field-charname {
+    width: 300px;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  input[type=number].number-field-wide {
+    width: 60px;
+  }
+
+  .number-field-extrawide {
+    width: 70px;
+  }
+
+  .text-field-vocation,
+  .text-field-kin,
+  .text-field-culture {
+    width: 160px;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  label.header-field-label {
+    font-size: 1.0em;
+    font-weight: normal;
+
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .input-w label,
+  .input-w input {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .labeled-field {
+    float: left;
+  }
+
+
+  .header-form-row {
+    display: inline-table;
+    width: 100%;
+  }
+
+  .passions-grid-section {
+    display: grid;
+    grid-template-columns: 32px 1fr 9fr 24px;
+    align-items: baseline;
+  }
+
+  .field-label {
+    font-size: 1.0em;
+    font-weight: normal;
+
+    white-space: nowrap;
+  }
+
+  .passions-text-field {
+    width: 100%;
+  }
+
+  .field-input {
+    display: block;
+    padding: 0 4px 0 6px;
+  }
+
+  .main-grid-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .leftside,
+  .rightside {
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+  }
+
+  .skills-grid-section {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .chatsender {
+    display: grid;
+    grid-template-columns: 1fr 24px;
+  }
+
+  .block {
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    text-align: center;
+  }
+
+  .drive-points,
+  .heroic-path,
+  .stats-block,
+  .saves-block,
+  .abilities-block,
+  .background-block,
+  .languages-block {
+    margin-bottom: 3px;
+  }
+
+  .tablewrapper {
+    width: 100%;
+    clear: both;
+    display: inline-block;
+  }
+
+  .advances-table {
+    width: 100%;
+    text-align: center;
+
+    .advances-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+
+      .advances-cell {
+        flex: 1;
+      }
+
+      .advances-cell.left {
+        flex: 150px;
+        text-align: left;
+      }
+    }
+
+    .category {
+      border-bottom: 1px solid black;
+    }
+
+    .categoryname {
+      font-weight: bold;
+      color: maroon;
+      font-size: larger;
+    }
+  }
+
+  .like-table {
+    width: 100%;
+    text-align: center;
+
+    .like-row {
+      display: grid;
+
+      .like-cell {
+        padding-left: 2px;
+        padding-right: 2px;
+      }
+    }
+
+    .like-row.saves,
+    .like-row.stats {
+      grid-template-columns: 2.5fr repeat(6, 1fr);
+    }
+
+    .like-row.skills {
+      grid-template-columns: 1fr 4fr 1.2fr 1.6fr repeat(4, 1fr);
+    }
+
+    .like-row.advances,
+    .like-row.conditions {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .like-row.devpoints {
+      grid-template-columns: repeat(7, 1fr);
+    }
+
+    .like-row.wounds {
+      grid-template-columns: 2.5fr repeat(6, 1fr);
+    }
+
+    .like-row.equipment {
+      grid-template-columns: 2fr 0.6fr 0.8fr 0.6fr 1.4fr 5fr 2fr;
+    }
+
+    .like-row.attacks {
+      grid-template-columns: 36px 3fr 1.8fr 0.6fr 0.6fr 1.7fr 36px 1.4fr;
+    }
+
+    .left {
+      text-align: left;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    .separator {
+      border-bottom: 1px dashed @border-colour;
+      margin-bottom: 4px;
+    }
+  }
+
+  .table-header {
+    font-weight: bold;
+    margin-top: 5px;
+    border-bottom: 1px solid black;
+  }
+
+  .stats-name {
+    font-weight: normal;
+  }
+
+  .condition-name {
+    font-weight: normal;
+    color: gray;
+  }
+
+  .stat-abbr {
+    text-align: center;
+  }
+
+  .skills-cell {
+    text-align: center;
+  }
+
+
+  .repitem {
+    border-bottom: 1px dashed darkgrey;
+    margin-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .armor-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 24px 4fr 0.8fr 2fr 0.8fr 0.9fr 0.8fr 0.7fr 0.9fr 1fr 1.5fr;
+  }
+
+  .armour-name,
+  .armour-protects {
+    text-align: left;
+  }
+
+  h3 {
+    font-weight: bold;
+    text-align: center;
+    color: @text-alt-colour;
+    border: 2px double @alt-colour;
+    border-radius: 10px;
+    background-color: @alt-colour;
+    margin-top: 5px;
+    margin-bottom: 3px;
+  }
+
+  .status-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 4fr;
+  }
+
+  .conditions-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+    text-align: right;
+  }
+
+  .large-roundborder>input[type=number] {
+    border: 3px double #070707;
+    border-radius: 30px;
+
+    padding: 0px;
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+  }
+
+  input[type=number].current-hit-points {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+
+  .medium-roundborder>input[type=number] {
+    border: 2px double white;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+
+    padding-bottom: 5px;
+  }
+
+  .medium-squareborder>input[type=number] {
+    border: 2px double white;
+    border-radius: 7px;
+    color: whitesmoke;
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+  }
+
+  .small-squareborder>input[type=number] {
+    border: 2px double white;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: dimgray;
+
+    height: 30px;
+    width: 40px;
+    font-size: 14px;
+
+    padding-bottom: 5px;
+  }
+
+  input[type=number].hitpoint-color {
+    background-color: white;
+    color: #070707;
+  }
+
+  input[type=number].defense-color {
+    background-color: #070707;
+    color: whitesmoke;
+  }
+
+  input[type=number].penalty-color {
+    background-color: white;
+    color: #070707;
+  }
+
+  input[type=number].automaticfield-color {
+    background-color: #070707;
+    color: whitesmoke;
+  }
+
+  input[type=number].magic-color {
+    background-color: Teal;
+    color: whitesmoke;
+  }
+
+  input[type=number].defensive-bonus {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+
+  input[type=number].penalty {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+
+  label.penalty-label {
+    text-align: right;
+    width: 100%;
+    margin-bottom: 2px;
+  }
+
+  .roundborder-label {
+    font-size: 1.0em;
+    font-weight: normal;
+
+    color: SlateGray;
+    margin-top: 10px;
+  }
+
+  .hitpoint-grid-section {
+    display: grid;
+    width: 100%;
+    column-gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .character-size-dropdown {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .penalty-grid-section {
+    display: grid;
+    width: 100%;
+    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .penalty-grid-section .penalty-grid-top-row {
+    margin-top: 5px;
+  }
+
+  .movement-defense-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+
+  .encumbrance-dropdown {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 140px;
+  }
+
+  span.emphasize {
+    font-weight: bold;
+    color: #070707;
+  }
+
+  input.emphasize {
+    font-weight: bold;
+    color: #070707;
+
+    border: 1px solid #070707;
+    background-color: ghostwhite;
+  }
+
+  input.status_explanation {
+    text-align: right;
+    font-size: 0.8em;
+
+    padding: 0px;
+    background-color: white;
+    border: none;
+  }
+
+  .magic-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 3.5fr;
+  }
+
+  .magicpoint-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+    text-align: left;
+  }
+
+  .equipment-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .gear-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 3fr;
+  }
+
+  .item-name {
+    width: 150px;
+  }
+
+  .item-location {
+    width: 80px;
+  }
+
+  .item-description {
+    width: 100%;
+  }
+
+  .magicitem,
+  .people,
+  .location {
+    width: 100%;
+  }
+
+  .wealthstatus-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .wealthlevel-dropdown {
+    width: 150px;
+  }
+
+  .companion-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .companion-table {
+    width: 100px;
+  }
+
+  .companion-align {
+    text-align: left;
+  }
+
+  .companion-name,
+  .mount-name {
+    width: 200px;
+    font-weight: bold;
+    font-size: 1.0em;
+  }
+
+  .companion-type,
+  .mount-type {
+    width: 200px;
+  }
+
+  .companion-attacktype,
+  .mount-attacktype {
+    width: 120px;
+  }
+
+  .companion-movement-rate,
+  .mount-movement-rate {
+    width: 100px;
+  }
+
+  input[type=number].companion-number-field {
+    width: 60px;
+  }
+
+  .companion-armortype,
+  .mount-armortype {
+    width: 100px;
+  }
+
+  .notes-grid-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .experience-grid-section {
+    display: grid;
+    width: 100%;
+    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .experience-grid-column {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 12fr;
+    text-align: left;
+  }
+
+  .experience-tracker-description {
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  .settings-grid-section {
+    display: grid;
+    width: 100%;
+    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  button[type=roll].roll-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    background-image: none;
+    text-shadow: none;
+    box-shadow: none;
+
+    font-weight: normal;
+    font-size: inherit;
+    text-align: left;
+    padding: 0px;
+  }
+
+  .dicetext {
+    font-size: 0.7em;
+    font-family: serif;
+  }
+
+  .dice-buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  button[type=roll].rolld100::before {
+    font-family: dicefontd10;
+    content: "t";
+  }
+
+  button[type=roll].roll-button::before {
+    content: "" !important;
+  }
+
+  button[type=roll]:hover,
+  button[type=roll]:hover *,
+  button[type=roll]:hover input[type=text],
+  button[type=roll]:hover * {
+    color: #EC2127;
+  }
+
+  button[type=roll] * {
+    pointer-events: none;
+  }
+}
+
+.vsdarkmaster-wrapper {
+  .SabonLT(normal);
+  font-variant: small-caps;
+  font-size: inherit;
+  color: @text-main-colour;
+  overflow: visible;
+  min-width: 850px;
+}

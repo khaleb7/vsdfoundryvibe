@@ -1,0 +1,252 @@
+name: Kick
+type: Container
+img: systems/vsd/icons/items/weapons/boot-kick.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.FTmgEF1xl6EVo1vJ
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Brawl: Colossal Kick (Impact)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 175
+          Crit Table: Impact
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 175
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 2
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.3eU4zOqYc97M6ard
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531504420
+        modifiedTime: 1744531532617
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: FfgrkIJR2NnOX3wz
+      effects: []
+      sort: 0
+      flags: {}
+    - name: 'Brawl: Huge Kick (Impact)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 150
+          Crit Table: Impact
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 150
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 2
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.3eU4zOqYc97M6ard
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531504420
+        modifiedTime: 1744531554317
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: sywnkoJAoXBNWGVV
+      effects: []
+      sort: 0
+      flags: {}
+    - name: 'Brawl: Large Kick (Impact)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 140
+          Crit Table: Impact
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 140
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 2
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.3eU4zOqYc97M6ard
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531504420
+        modifiedTime: 1744531570098
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: Fcri9WH0eEpQaWMQ
+      effects: []
+      sort: 0
+      flags: {}
+    - name: 'Brawl: Medium Kick (Impact)'
+      type: Melee-Attack
+      flags:
+        core: {}
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: null
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 120
+          Crit Table: Impact
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 120
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 2
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.3eU4zOqYc97M6ard
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744530747250
+        modifiedTime: 1744531401077
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: KdzbEJSJpvXvDOES
+      sort: 9500000
+    - name: 'Brawl: Small Kick (Impact)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 90
+          Crit Table: Impact
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 90
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 2
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.3eU4zOqYc97M6ard
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531504420
+        modifiedTime: 1744531607707
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: ldPwmb4WOKWTdMMK
+      effects: []
+      sort: 0
+      flags: {}
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '12.285'
+  coreVersion: '12.331'
+  createdTime: 1676409490222
+  modifiedTime: 1744532076293
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.FTmgEF1xl6EVo1vJ
+  duplicateSource: null
+_id: UFRiUKF6y3DiPfoV
+sort: 0
+_key: '!items!UFRiUKF6y3DiPfoV'
+

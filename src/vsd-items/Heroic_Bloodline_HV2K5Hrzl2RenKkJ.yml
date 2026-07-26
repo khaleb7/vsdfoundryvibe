@@ -1,0 +1,104 @@
+name: Heroic Bloodline
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.ilJkG7OeiNe4qIsr
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Heroic Bloodline
+      type: Trait
+      system:
+        notes: >-
+          The blood of heroes runs strongly in your veins. Tales are sung about
+          the mighty deeds of your family, of your ancestors. Now these tales
+          live again, through you.
+
+          - Minor (cost 1 BP):  You can take a Half Action to inspire all the
+          allies that can hear you within a radius of 6 meters, granting them a
+          special bonus of +10 to their Willpower Save Rolls, or a special +5
+          bonus to their Attack Bonus and Defense for the current Round. 
+
+          - Major (cost 3 BPs):  You can also reveal your ancestry to someone
+          who doesn't know it as a Free Action. When you reveal yourself to
+          someone, you can either gain a +10 bonus to your Attack Rolls against
+          them for the current Round, or get to re-roll a Charisma or Deceive
+          Roll against them with a +20 bonus.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Heroic Bloodline (Save)
+      type: Modifier
+      system:
+        notes: >-
+          Granted by an Ally with Heroic Bloodline within 6m who has taken a
+          half action to inspire you. Lasts one round.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: defence
+            targets: Willpower
+        tempName: Heroic Bloodline (Save)
+    - name: Heroic Bloodline (Attack)
+      type: Modifier
+      system:
+        notes: >-
+          Granted by an Ally with Heroic Bloodline within 6m who has taken a
+          half action to inspire you. Lasts one round.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: attack
+            targets: ''
+          '1':
+            value: 5
+            formula: '5'
+            category: reaction
+            targets: Melee, Missile
+        tempName: Heroic Bloodline (Attack)
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485227
+  modifiedTime: 1697655934994
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.ilJkG7OeiNe4qIsr
+  duplicateSource: null
+_id: HV2K5Hrzl2RenKkJ
+sort: 0
+_key: '!items!HV2K5Hrzl2RenKkJ'
+

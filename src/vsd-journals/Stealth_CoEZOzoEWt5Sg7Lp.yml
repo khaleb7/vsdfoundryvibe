@@ -1,0 +1,59 @@
+name: Stealth
+flags:
+  monks-enhanced-journal:
+    type: text
+  core:
+    sourceId: >-
+      Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.OdLngzLJyQtWh68o
+pages:
+  - type: text
+    name: Stealth
+    _id: zKfg0LNTmewcbyvl
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p></p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+      core:
+        sourceId: JournalEntry.CoEZOzoEWt5Sg7Lp.JournalEntryPage.zKfg0LNTmewcbyvl
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!CoEZOzoEWt5Sg7Lp.zKfg0LNTmewcbyvl'
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1666903849068
+  modifiedTime: 1689519569944
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.OdLngzLJyQtWh68o
+  duplicateSource: null
+folder: VyFY8CNwgwsRHjuU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_id: CoEZOzoEWt5Sg7Lp
+sort: 0
+_key: '!journal!CoEZOzoEWt5Sg7Lp'
+

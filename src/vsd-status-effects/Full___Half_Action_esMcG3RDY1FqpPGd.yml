@@ -1,0 +1,61 @@
+name: Full & Half Action
+type: Modifier
+flags:
+  core: {}
+img: systems/vsd/icons/full_half.png
+effects: []
+folder: null
+system:
+  notes: >-
+    The penalty for taking a half action with a full action in a round. It may
+    be applied to skills and spells just as well as attacks.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: false
+  alwaysOn: true
+  attack: true
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    '0':
+      value: -20
+      formula: '-20'
+      category: attack
+      targets: ''
+    '1':
+      value: -20
+      formula: '-20'
+      category: skill
+      targets: ''
+    '2':
+      value: -20
+      formula: '-20'
+      category: spell
+      targets: ''
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  sGlDK3lZYQBI8GMZ: 3
+  pVnKHrzHL0Jnx5B6: 3
+  UiCXq4VUwQ5S2thO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: vsd
+  systemVersion: '12.282'
+  createdTime: 1742311941136
+  modifiedTime: 1742316845627
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+_id: esMcG3RDY1FqpPGd
+sort: 0
+_key: '!items!esMcG3RDY1FqpPGd'
+

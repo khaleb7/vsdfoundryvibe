@@ -1,0 +1,55 @@
+name: Underground Uprising
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.Hv1EEtQX1PI4aDHY
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Underground Uprising
+      type: Trait
+      system:
+        notes: >-
+          You spent your youth in the company of thieves, ruffians, or others
+          criminals. You may have left those years behind you, but you have
+          never completely severed your ties with the underworld. 
+
+          - Minor (cost 1 BP):  Write something about your relationship with
+          your criminal contacts in your Allegiance. You can use your network of
+          contacts to call in favors or get better prices in the black market.
+          Whenever you're buying stolen or illegal goods, you can treat your WL
+          as if it were 2 levels higher (up to a maximum WL of 4).
+
+          - Major (cost 3 BPs):  Additionally, once per session whenever you are
+          in a town, city, or other civilized settlement, you may spend one
+          point of Drive to declare that you have a contact in the local
+          criminal underworld that might help you in the situation at hand. Name
+          the NPC introduced this way. They must actually lend you some kind of
+          help to solve the specified situation but, besides that, they're
+          controlled by the GM like any other NPC and aren't forced to help you
+          for free (they're criminals, after all).
+        chartype: CharacterVsD
+        category: quirk
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485207
+  modifiedTime: 1697655934994
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.Hv1EEtQX1PI4aDHY
+  duplicateSource: null
+_id: HgsIiv1KWSgQDHvM
+sort: 0
+_key: '!items!HgsIiv1KWSgQDHvM'
+

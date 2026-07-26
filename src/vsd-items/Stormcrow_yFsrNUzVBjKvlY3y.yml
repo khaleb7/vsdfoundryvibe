@@ -1,0 +1,73 @@
+name: Stormcrow
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.8GqauG0t4fT9f0U6
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Stormcrow
+      type: Trait
+      system:
+        notes: >-
+          You are cursed with a peculiar ability. You see glimpses of the
+          future, now and then, but your visions only show you sorrow, failure,
+          pain, and death. Your associates rarely listen to your counsel,
+          calling you a doomsayer and a bird of ill-omen. But you know what's
+          coming and prepare for the worst.
+
+          - Minor (cost 1 BP):  Write one of your Passions about your visions,
+          and increase the total value of your Wisdom by 5 points.
+
+          - Major (cost 3 BPs):  Additionally, whenever one of your allies
+          spends a point of Drive to re-roll a failed Skill or Save Roll and
+          fails again, you may spend a Free Action to have a vision of doom.
+          When you do so, your companion may accept the failure and get the
+          point of Drive they just spent back.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Stormcrow
+      type: Modifier
+      system:
+        notes: Increase the total value of your Wisdom by 5 points.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: WSD
+        tempName: Stormcrow
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485201
+  modifiedTime: 1697655935070
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.8GqauG0t4fT9f0U6
+  duplicateSource: null
+_id: yFsrNUzVBjKvlY3y
+sort: 0
+_key: '!items!yFsrNUzVBjKvlY3y'
+

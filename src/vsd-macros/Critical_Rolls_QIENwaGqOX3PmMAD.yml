@@ -1,0 +1,60 @@
+_id: QIENwaGqOX3PmMAD
+name: Critical Rolls
+type: script
+author: cwpZyEuSkQ36r9mu
+img: icons/magic/fire/flame-burning-skeleton-explosion.webp
+scope: global
+command: |-
+  /**
+   * Each field is a comma-separated list of the things you want
+   * to include in the result. It matches against the text you
+   * enter, so a category of "s" will match skill, spell and rms.
+   *
+   * type: may be any of {Primary, Melee, Ranged, 
+   * Attack, Rollable, Defence}
+   *
+   * category: applies only to:
+   * Rollable: {check, skill, spell, technique, rms} and
+   * Defence: {dodge, parry, block}
+   * and may be used without specifying the type.
+   *
+   * group: is a user-defined field for use in filtering
+   * this result.
+   *
+   * Target: Any case-sensitive portion of the item name.
+  */
+
+  let data = {
+  position: {
+    width: 300, 
+    top: 100, 
+    left: 100
+  },
+  type: "",
+  category: "dodge",
+  group: "",
+  target: "Crit",
+  };
+
+  if (canvas.tokens.controlled.length != 1)
+      return ui.notifications.error("Please select a single token first");
+
+  canvas.tokens.controlled[0].document.actor.rollables(data);
+folder: 2xrFKsTdRUax0UPW
+sort: 700000
+flags:
+  core: {}
+ownership:
+  default: 0
+  UiCXq4VUwQ5S2thO: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1690237903527
+  modifiedTime: 1697646237538
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_key: '!macros!QIENwaGqOX3PmMAD'
+

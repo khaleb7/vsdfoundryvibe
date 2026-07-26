@@ -1,0 +1,32 @@
+name: Eldritch Tide
+type: Rollable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: TXJAMYe6EhhtsnKT
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-spell-lores.Item.wXqYtmF44WwjBq0k
+system:
+  notes: The level of mastery of the Eldritch Tide Spell Lore.
+  chartype: CharacterVsD
+  group: spell
+  value: 0
+  formula: '#0'
+  category: spell
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485063
+  modifiedTime: 1697655935046
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-spell-lores.Item.wXqYtmF44WwjBq0k
+  duplicateSource: null
+_id: jQySuLvOLrwTrX32
+sort: 0
+_key: '!items!jQySuLvOLrwTrX32'
+

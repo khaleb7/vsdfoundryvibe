@@ -1,0 +1,33 @@
+name: Bearing
+type: Primary-Attribute
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: Is a measure of a character’s presence, charisma and social influence.
+  chartype: CharacterVsD
+  group: Primary-Attribute
+  abbr: BEA
+  attr: 0
+  value: 0
+  forceUpdate: false
+  sort: -1
+  tempattr: 0
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377341316
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: NRTHqdcslAF0rxPM
+sort: 12500000
+_key: '!items!NRTHqdcslAF0rxPM'
+

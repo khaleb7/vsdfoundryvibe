@@ -1,0 +1,61 @@
+name: Rock Shards
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.qpUjTpvWyOZL9Mny
+pages:
+  - name: Rock Shards
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Earth Mould"> <td>Lore:</td> <td>Earth Mould </td> </tr>
+        <tr> <td>Weave:</td> <td>5th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Earth Mould" data-weave="5th"
+        data-spell="Rock Shards" data-range="0 (self)" data-aoe="3 m cone"
+        data-duration="-" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Rock Shards </td> </tr> <tr> <td>Range:</td> <td>0
+        (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>3 m cone </td>
+        </tr> <tr> <td>Duration:</td> <td>- </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: FRlfHBS3TheeBOe4
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!HfrGr4qIH5ARbBlu.FRlfHBS3TheeBOe4'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106433
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.qpUjTpvWyOZL9Mny
+  duplicateSource: null
+_id: HfrGr4qIH5ARbBlu
+sort: 0
+_key: '!journal!HfrGr4qIH5ARbBlu'
+

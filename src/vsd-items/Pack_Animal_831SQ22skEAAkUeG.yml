@@ -1,0 +1,33 @@
+name: Pack Animal
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.3s8dwyFDvcRkse2n
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '1'
+  weight: 0
+  availability: Common
+  description: Usually a Donkey, Mule, Horse or Pony
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485305
+  modifiedTime: 1697655934977
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.3s8dwyFDvcRkse2n
+  duplicateSource: null
+_id: 831SQ22skEAAkUeG
+sort: 0
+_key: '!items!831SQ22skEAAkUeG'
+

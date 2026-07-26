@@ -1,0 +1,61 @@
+name: Dispel Fear
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.IPo6JvFFNSGLBzK7
+pages:
+  - name: Dispel Fear
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Soul Soothing"> <td>Lore:</td> <td>Soul Soothing </td> </tr>
+        <tr> <td>Weave:</td> <td>3rd </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Soul Soothing" data-weave="3rd"
+        data-spell="Dispel Fear" data-range="20 m" data-aoe="1 target"
+        data-duration="1 rnd/lvl" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Dispel Fear </td> </tr> <tr> <td>Range:</td> <td>20 m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td> </tr> <tr>
+        <td>Duration:</td> <td>1 rnd/lvl </td> </tr> <tr> <td>Save:</td> <td>N
+        </td> </tr> </tbody> </table>
+    _id: dYpB4SpsqkBMDazT
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!yJz8QM2KiSe7mtnF.dYpB4SpsqkBMDazT'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.IPo6JvFFNSGLBzK7
+  duplicateSource: null
+_id: yJz8QM2KiSe7mtnF
+sort: 0
+_key: '!journal!yJz8QM2KiSe7mtnF'
+

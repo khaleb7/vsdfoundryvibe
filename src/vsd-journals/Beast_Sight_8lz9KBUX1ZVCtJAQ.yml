@@ -1,0 +1,61 @@
+name: Beast Sight
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.SIgTCqMkbg97Gfmz
+pages:
+  - name: Beast Sight
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Eldritch Visions"> <td>Lore:</td> <td>Eldritch Visions </td>
+        </tr> <tr> <td>Weave:</td> <td>1st </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Eldritch Visions" data-weave="1st"
+        data-spell="Beast Sight" data-range="30 m" data-aoe="1 target"
+        data-duration="C" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Beast Sight </td> </tr> <tr> <td>Range:</td> <td>30 m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td> </tr> <tr>
+        <td>Duration:</td> <td>C </td> </tr> <tr> <td>Save:</td> <td>N </td>
+        </tr> </tbody> </table>
+    _id: a4Y6HrbDI4yatGoS
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!8lz9KBUX1ZVCtJAQ.a4Y6HrbDI4yatGoS'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.SIgTCqMkbg97Gfmz
+  duplicateSource: null
+_id: 8lz9KBUX1ZVCtJAQ
+sort: 0
+_key: '!journal!8lz9KBUX1ZVCtJAQ'
+

@@ -1,0 +1,293 @@
+name: 'Kin: Half Elf'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: 6FWlzX1DUg4A4q8i
+      name: Elven Ancestry (vs Cold)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 100000
+      flags:
+        core:
+          sourceId: Actor.hSHpii5JhtQ4oIm3.Item.275DzSrcwmVx3Chu
+      system:
+        notes: >-
+          Elven Ancestry: Your kin are incredibly long lived, if they ever die
+          of old age at all. They are very resistant to disease (+50 to their
+          Toughness Save Rolls against sickness and disease), and impervious to
+          the effects of natural cold (gaining a +5 bonus against any Cold-based
+          threat). Additionally, they need to sleep for only 4 hours to gain the
+          benefits of a night’s rest.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 5
+            formula: '+5'
+            category: defence
+            targets: Toughness, Willpower
+          '1':
+            value: 5
+            formula: '+5'
+            category: reaction
+            targets: Missile, Melee
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459930165
+        modifiedTime: 1703273781406
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: dCA4asR7DDTsaIqE
+      name: Elven Ancestry (vs Disease)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 0
+      flags:
+        core:
+          sourceId: Actor.hSHpii5JhtQ4oIm3.Item.8SqjlosFo5Succb8
+      system:
+        notes: >-
+          Elven Ancestry: Your kin are incredibly long lived, if they ever die
+          of old age at all. They are very resistant to disease (+50 to their
+          Toughness Save Rolls against sickness and disease), and impervious to
+          the effects of natural cold (gaining a +5 bonus against any Cold-based
+          threat). Additionally, they need to sleep for only 4 hours to gain the
+          benefits of a night’s rest.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 50
+            formula: '+50'
+            category: defence
+            targets: Toughness
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459933085
+        modifiedTime: 1703273787030
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: Ub6o76EM1CdTfzce
+      name: Specialization
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -25000
+      flags:
+        core:
+          sourceId: Actor.hSHpii5JhtQ4oIm3.Item.Vv5YsoPVlz9YVKNR
+      system:
+        notes: >-
+          Specialization: Your kin get a +10 bonus to any one Skill of their
+          choice.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Skill Name
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459951732
+        modifiedTime: 1703273798093
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: rUPbn2thkBMIrNyX
+      name: Star Sight
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -50000
+      flags:
+        core:
+          sourceId: Actor.hSHpii5JhtQ4oIm3.Item.VVk7SHSg09I6r9dE
+      system:
+        notes: >-
+          Star Sight: Your Kin can see in natural moonlight or starlight as if
+          it were day, and up to 30 m in Dim Light (treating the first 15m as if
+          they were standing in Bright Light).
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459955381
+        modifiedTime: 1703273765606
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: WrXqEGPE3ygr2pph
+      name: 'Kin: Half Elf'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: null
+      sort: 101173
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: |-
+          Special Traits:
+          - Star Sight
+          - Elven Ancestry
+          - Specialization
+          Cultures: Fey, Noble or Seafaring
+          Wealth: 1
+          Background: 4
+          Magic Points: 2
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: BRN, SWI, FOR, BEA
+          '1':
+            value: 5
+            formula: '5'
+            category: defence
+            targets: Toughness
+          '2':
+            value: 25
+            formula: '25'
+            category: reaction
+            targets: Body
+          '3':
+            value: 25
+            formula: '25'
+            category: primary
+            targets: KinVoc
+          '4':
+            value: 2
+            formula: '2'
+            category: primary
+            targets: KinMP
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459943365
+        modifiedTime: 1703273953501
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703273962003
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: uN1X9p8mMqKdAAPe
+sort: 200000
+_key: '!items!uN1X9p8mMqKdAAPe'
+

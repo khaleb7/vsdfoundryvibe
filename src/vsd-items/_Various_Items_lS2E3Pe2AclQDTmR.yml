@@ -1,0 +1,17 @@
+name: _Various Items
+type: Item
+folder: null
+_id: lS2E3Pe2AclQDTmR
+sorting: a
+sort: 1000000
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.42'
+  coreVersion: '11.307'
+  createdTime: 1689515834139
+  modifiedTime: 1691664561971
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+color: '#b41359'
+_key: '!folders!lS2E3Pe2AclQDTmR'
+

@@ -1,0 +1,37 @@
+name: Willpower Saving Roll
+type: Defence
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: >-
+    Willpower Save Rolls (WSR) represent a character’s chance to resist attacks
+    and effects influencing his mind, such as fear, illusions, or mind
+    controlling spells.
+  chartype: CharacterVsD
+  group: block
+  weight: 0
+  value: 0
+  formula: '0'
+  category: block
+  forceUpdate: false
+  sort: -1
+  moddedvalue: 5
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.64'
+  coreVersion: '12.328'
+  createdTime: 1704634224794
+  modifiedTime: 1704634224794
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: Cc2gkvGTHvHpDVUW
+sort: 0
+_key: '!items!Cc2gkvGTHvHpDVUW'
+

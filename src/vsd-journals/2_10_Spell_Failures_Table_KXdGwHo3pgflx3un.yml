@@ -1,0 +1,195 @@
+name: 2.10 Spell Failures Table
+folder: CUIqKKkavMRUhsGr
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-misc-tables.JournalEntry.hfX771RITcmNtx7Z
+pages:
+  - name: 2.10 Spell Failures Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spellfailuretable">
+
+        <tbody>
+
+        <tr class="tableheaderrow">
+
+        <td class="roll">Roll</td>
+
+        <td class="resultdescription">Result</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="spellfailure" data-table="2.10
+        Spell Failures Table" data-roll="01-75" data-result="The Caster is
+        Stunned.">
+
+        <td class="roll">01-75</td>
+
+        <td class="resultdescription">The Caster is Stunned.</td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">76-100</td>
+
+        <td class="resultdescription">The Caster is Stunned, and chooses one:
+
+        <ul>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="76-100" data-result="The Caster is Stunned
+        and Loses half the Spell’s Magic Points.">Loses half the Spell’s MPs
+        cost.</li>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="76-100" data-result="The Caster is Stunned
+        and The Spell goes off 2 Rounds later, but the caster must still
+        concentrate on it to get it right.">The Spell goes off 2 Rounds later,
+        but the caster must still concentrate on it to get it right.</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">101-125</td>
+
+        <td class="resultdescription">The Caster is Stunned, and chooses one:
+
+        <ul>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="101-125" data-result="The Caster is Stunned
+        and Loses the Spell's Magic Points.">Loses the Spell’s MPs cost.</li>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="101-125" data-result="The Caster is Stunned
+        and The Spell goes off on a different target within range, if
+        applicable. Determine randomly or GM chooses.">The Spell goes off on a
+        different target within range, if applicable. Determine randomly or GM
+        chooses.</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">126-150</td>
+
+        <td class="resultdescription">The Caster is Stunned, and chooses two:
+
+        <ul>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="126-150" data-result="The character is
+        Stunned and Loses the Spell's Magic Points.">Loses the Spell's Magic
+        Points.</li>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="126-150" data-result="The character is
+        Stunned and The Spell goes off on a different target within range, if
+        applicable. Determine randomly or GM chooses.">The Spell goes off on a
+        different target within range, if applicable. Determine randomly or GM
+        chooses.</li>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="126-150" data-result="The character is
+        Stunned and Roll on the Magical Resonance Table with a special +20 to
+        the roll.">Roll on the Magical Resonance Table with a special +20 to the
+        roll.</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">151+</td>
+
+        <td class="resultdescription">The Caster is Stunned, and chooses two:
+
+        <ul>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="151+" data-result="The character is Stunned
+        and Loses the Spell's Magic Points and becomes Weary.">Loses the Spell's
+        Magic Points and becomes Weary.</li>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="151+" data-result="The character is Stunned
+        and The Spell goes off on a different target within range, if
+        applicable. Determine randomly or GM chooses.">The Spell goes off on a
+        different target within range, if applicable. Determine randomly or GM
+        chooses.</li>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="151+" data-result="The character is Stunned
+        and Roll on the Magical Resonance Table with a special +50 to the
+        roll.">Roll on the Magical Resonance Table with a special +50 to the
+        roll.</li>
+
+        <li class="rollable" data-type="spellfailure" data-table="2.10 Spell
+        Failures Table" data-roll="151+" data-result="The character is Stunned
+        and The caster is knocked out for 6 hours.">The caster is knocked out
+        for 6 hours.</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+    _id: iCt1qh0ckBIFZgOY
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!KXdGwHo3pgflx3un.iCt1qh0ckBIFZgOY'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519512416
+  modifiedTime: 1689519567801
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-misc-tables.JournalEntry.hfX771RITcmNtx7Z
+  duplicateSource: null
+_id: KXdGwHo3pgflx3un
+sort: 0
+_key: '!journal!KXdGwHo3pgflx3un'
+

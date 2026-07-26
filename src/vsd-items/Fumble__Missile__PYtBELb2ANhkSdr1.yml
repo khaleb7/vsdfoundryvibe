@@ -1,0 +1,33 @@
+name: Fumble (Missile)
+type: Defence
+img: icons/svg/mystery-man.svg
+effects: []
+folder: 77heDBYLBGUcZitt
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-saves-criticals-and-failures.Item.OodPN9TyR836wmy4
+system:
+  notes: 2.42 Missile Weapons Fumble Table
+  chartype: CharacterVsD
+  group: dodge
+  weight: 0
+  value: 0
+  formula: '0'
+  category: dodge
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485775
+  modifiedTime: 1697655935010
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-saves-criticals-and-failures.Item.OodPN9TyR836wmy4
+  duplicateSource: null
+_id: PYtBELb2ANhkSdr1
+sort: 0
+_key: '!items!PYtBELb2ANhkSdr1'
+

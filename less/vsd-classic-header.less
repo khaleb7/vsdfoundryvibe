@@ -1,0 +1,153 @@
+.vsd-classic-header {
+    display: grid;
+    grid-auto-rows: auto;
+    background-color: @main-colour;
+    border-radius: 5px;
+
+
+    .sectionheader {
+        .roundedheader();
+        display: grid;
+        grid-template-columns: 200px 1fr 200px;
+        justify-items: center;
+        align-items: center;
+
+        .actorname {
+            .smallinput();
+            width: 80%;
+            font-size: x-large;
+        }
+    }
+
+    .content {
+        .layout {
+            display: grid;
+            grid-template-columns: 75px 2fr 1fr;
+
+            .portrait {
+                display: grid;
+                grid-row: span 3;
+                border: none;
+                max-height: 90px;
+                align-self: center;
+                justify-self: center;
+            }
+
+            .centre {
+                display: grid;
+                grid-template-rows: repeat(3, auto);
+                grid-template-columns: auto;
+
+                .toprow {
+                    display: grid;
+                    grid-template-columns: 16% 20% 23% 23% 18%;
+                }
+
+                .midrow {
+                    display: grid;
+                    grid-template-columns: 36% 11% 12% 23% 18%;
+                }
+
+                .bottomrow {
+                    display: grid;
+                    grid-template-columns: 33% 22% 21% 24%;
+                }
+            }
+
+            .defences {
+                display: grid;
+                grid-template-rows: repeat(3, auto);
+                grid-template-columns: auto;
+
+                .toprow {
+                    display: grid;
+                    grid-template-columns: 28% 44% 28%;
+                }
+
+                .midrow {
+                    display: grid;
+                    grid-template-columns: 28% 44% 28%;
+                }
+
+                .bottomrow {
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                }
+            }
+
+            .headinfo {
+                .select {
+                    margin: 0px;
+                    color: @text-alt-colour;
+                    border: none;
+                    height: auto;
+                }
+
+                .roundedheader();
+                margin: 1px;
+
+                .rollable:hover {
+                    background-color: @main-colour;
+                    color: @text-alt-colour;
+                }
+            }
+
+            .triple,
+            .double,
+            .single {
+                align-items: baseline;
+
+                .value {
+                    .smallinput();
+                }
+
+                .valuefull {
+                    .smallinput();
+                    text-align: left;
+                    width: 100%;
+                }
+            }
+
+            .triple {
+                .col3();
+            }
+
+            .double {
+                display: grid;
+                grid-template-columns: auto 1fr;
+            }
+
+            .move,
+            .declaration {
+                .value {
+                    .smallselect();
+                }
+            }
+        }
+    }
+
+    nav.sheet-nav {
+        padding: 2px;
+        border-top: 4px solid @text-alt-colour;
+        display: grid;
+        grid-template-columns: 1fr 32px;
+
+        .tabtitle {
+            .roundedheader();
+            color: @text-alt-colour;
+        }
+
+        .headinfo {
+            align-self: center;
+        }
+
+        .active {
+            background-color: @main-colour;
+            border-color: @alt-colour;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}

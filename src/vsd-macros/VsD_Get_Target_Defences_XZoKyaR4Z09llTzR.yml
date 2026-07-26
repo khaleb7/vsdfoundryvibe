@@ -1,0 +1,29 @@
+_id: XZoKyaR4Z09llTzR
+name: VsD Get Target Defences
+type: script
+author: cwpZyEuSkQ36r9mu
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+scope: global
+command: |-
+  if (canvas.tokens.controlled.length != 1)
+      return ui.notifications.error("Please select a single token first");
+
+  canvas.tokens.controlled[0].document.actor.postDefences();
+folder: 6S4cMmMbJkZJpebI
+sort: 1000000
+flags:
+  core: {}
+ownership:
+  default: 0
+  UiCXq4VUwQ5S2thO: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.38'
+  coreVersion: '12.331'
+  createdTime: 1690237903527
+  modifiedTime: 1742379367082
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: null
+  duplicateSource: null
+_key: '!macros!XZoKyaR4Z09llTzR'
+

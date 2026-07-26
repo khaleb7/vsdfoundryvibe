@@ -1,0 +1,1169 @@
+{
+  "Version": "2",
+  "name": "Gandrell Windblade",
+  "level": "1",
+  "race": "Dusk Elf",
+  "culture": "Fey",
+  "subCulture": "Default",
+  "profession": "Warrior",
+  "realms": {
+    "realm": {
+      "name": "Willpower"
+    }
+  },
+  "primeStats": {
+    "primeStat": {
+      "shortName": "BEA"
+    }
+  },
+  "bodyDevelopmentProgression": {
+    "progression": "0/5/2/1/1"
+  },
+  "powerPointProgression": {
+    "progression": "0/1/1/1/1"
+  },
+  "abilities": {
+    "injuryRecoveryMultiplier": "1",
+    "initiativeBonus": "0",
+    "offensiveBonus": "0",
+    "movingManeuverBonus": "0",
+    "spellCastingBonus": "0",
+    "strideModification": "0",
+    "spellsPerLevel": "5",
+    "criticalResolution": "-",
+    "sizeCategory": "Medium",
+    "excellentMemory": "false"
+  },
+  "resistances": null,
+  "armor": {
+    "rating": "2",
+    "armorPieces": {
+      "armorPiece": {
+        "armorPartName": "Armor",
+        "armorRating": "2",
+        "dbBonus": "0",
+        "mmBonus": "0",
+        "quicknessBonus": "0",
+        "missileBonus": "0",
+        "perceptionBonus": "0",
+        "spellCastingBonus": "0"
+      }
+    }
+  },
+  "defense": {
+    "defensiveModifications": null
+  },
+  "magicalEnergy": {
+    "baseAdjustment": "0",
+    "castingCostModifier": "0",
+    "multiplier": "1",
+    "recoveryMultiplier": "1"
+  },
+  "description": {
+    "height": "0",
+    "weight": "0",
+    "eyeColor": "",
+    "hairColor": ""
+  },
+  "playerKeptRecords": {
+    "playerKeptRecord": [
+      {
+        "name": "Drive Points",
+        "value": "0"
+      },
+      {
+        "name": "Heroic Path",
+        "value": "0"
+      },
+      {
+        "name": "Wealth",
+        "value": "3"
+      }
+    ]
+  },
+  "trainingPackages": null,
+  "notes": {
+    "#cdata": "Passions\nMotivation: I'll find out the truth about Willow Lake.\nNature: The laws of men do not apply to me, only the rules of Nature bind me.\nAllegiance: Mornien is my friend's pupil, I must see that no harm comes to her.\n\nBackground Options\n3 - Elven Training (Major): You have been raised by the Elves, or have lived among them, learning the ways of the Fair Kin. Choose the Elven community that raised you. You gain the Lore of the Ages Special Trait as if you were a Silver Elf. If you already have this Special Trait, you gain 2 ranks to spend in your Kin Spell Lores as you see fit. You can also use SWI instead of BRN as a Stat modifier for your Blades Skill, provided you´re using a short sword, longsword or scimitar.\n\n"
+  },
+  "avatar": "iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAIAAAD/gAIDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOy8Z3gTV7f3PaPeiyXZklwk23KTe++NTjC9lwAhoZeQQkhCGiSk3BAINUAaJQkldIwNNi7Yxrh3W+5F3erF6tLM88H3yclJOSf385Cc972u+//R1ozW/s3aS2vvtfaAMAwD/9afE+J/24D/P+nfsP4F/RvWv6B/w/oX9G9Y/4L+Detf0L9h/Qv6N6x/Qf+G9S8I9b9twD+l1+k6Ojo8bg+ZTPL19yMSSTabjc1m/2/b9V8E/q8sd9xud2dHh1KpTExKwmAwxcXFNCo1JSUFg8WoxlVGgxFEIpwOR119/ZrVaxhMxt9v4e/q74YFQdDp06e7OruodFpifILH4374sGTr1i1BQcFeDC+jwWCxWn19fW1Wm16vczgce998c9fOXTm5OX+nkX+kvxWW2Wx+7bXXjEaj0+HQ6Q0KpQIAgILnngsLC8/ITA8LDUdj0B0dHVVVVUlJiUmJSUaj0QNBL720MTU15a233kIikX+bqb+rvw+W2WwuKJhbMGdOeHh4d08PCoUaH1cGBgZ6e3tzfX2JeHxIWBgBjwcAAII8jx9XVVRUTps6paOjY/nKldu3bUMgEJcuXUKj0X+Ptb+rvwmWy+V699135xbMbW5uLigo8Hg8Z8+dJZNIuXl5Pj5s/wB/IoEAguAvL/F4PNd/+kmt0djtjvDwsPv373d2dRXevUuj0/8Gg39XfxOso0ePBgYFSiXSmTNnePuw7965U/n4MY1CEYSE+nizhoaGjWbTqpUrIyIifokMhuHOzo6KikovL4bRaKiurrZYLDdv3sRgMH+Dzb8V8oMPPvirv6O+vr6hoQGBQERGRpLJVI1K5YEgiUTiy+VaLBaxRALD8LKly+7cuQtBEI/HMxoMaAwGgUCAIOjjw4Y8nuGhIRCBDAkR1D6tGx4enjZ16q/c8O/RXw5rwmw+dOhQeHi4MEKIxWKZTAaVShWLJU6ni0AgIJFIAoEwYZ64W3gvPS19bGy09smTpOTkivJyPz/fSSL+/gFkMkkhl6tV6oT4uEuXvqdQqXGxsX+p2b+rvxzWkaNHFy5c6Ofr29vfz2Fzrl696ufr29re3tLcDCIQCBDMy8tbsnRJcGBQU2Njampqd0+PRCyeNXv2ndt3KWSywWiYMJuDBQKpVBoXF//gwYMNG1749NPP1qxZg8Vi/1LLf6u/NmadP39erzdAkAeLxZJIJJvNFhcbGxgY2NraOnXadBiGQASipanJi8EICQlxuVzvvPPOunXrHj58SCQSc3Nzm5qaYmNiR0dHuFxuSGjohx9+GBERcefu3eSkZCQS8dZbb/11lv+u/sK14e3bt48cOSoRj+Xl5fX19UmlUp1O9/TpUwKBMGXqVBQK6fF46p4+jYqOCgkJAUEQg0a/+uorx48fj4mJmTVrdsnDEi6X097ejsZgxGKxwWCIiY4uLi4ueG6OUqFobGy0TFj+OuN/V3/VNKytrd33zjuffvoJkUQ6fvwEj8cjEghxsbErVq7SG/ROhwONQml1WqPR1NfX73a7mSwWCIIkIolMoWg0agqZEsALkEhkOr0uIT6+qalJrVJ5MRgTZrPT5TKajFQq1TJhiYmJ+SuM/yP9JZ4lkUhef33P9q3bvv7q68uXL+/YsZ3JZE6fMWPmrFnVVVUSiYTFYhlNJrvNAUOQUqGUyWR9vb0wDAMgmJOd3dnZ5XQ5TSaTXC5PTk4+f+HClClTR0dHWd7eCCQKhULlZGdXVVXvfPnlUydP2u32v2IIv6s/BctoNNpstj9/0wMHDuTn51+/fp3JYi2Yv6CnuycmJobP4xUVFQEA7O3jferUqXv37pEp5O6envjEBKfTWVPzRKvRwjAMgmBCfLxCLr9fWLh69arCwkI2h4PGoAkE4o3r10EQWLJ0qVQmQ6FRbrf7H4c/37lz19+2CPlT07C7p4dMJuPx+D9zx+KiouIHD0AQwfXl8ngBWBw2WBAcHhZWWlpKpdHodPqJEyfoNFpbe3tYaKjFah0cHARgODMr86fr15MSE5EolM1mY7FYBqPRarF4MRgMBuObr79hs9kYDAaAASKRNDo6AkGwRColEYkqlSo6OjogIOD/lcSf0J/yrMSEBPqfW2R4PJ5/HDpEo9PHx5UcNic2Nra/f2D6jBnFxQ8UCgWPxzty5MiEeQJEIOfOm2cyT2h1uqHBobz8/LJHj7Kzs8rKy21Wa3h4+MjoKIfNqW9oyM7ObmpqQqKQFCo1Uhjpcrmqq6uYTKa3N8vpdBJJpGnTpn722WcGg+H/jcOf0jOOWY9KS5FI1ITZnJ+fj8XhioqKX3vt1bt37uj0uhkzZ5w4eTIhISEjIwMBAlGRkVWPHyvk8kWLFzU0NLhcLjaH09XV1dvXi8fjFQoFP4gPwMC9e/dMJvP8efPNZpNcoZiYmBgfH/fz86usfBwdHb1p48aJCQsSibp169aZL7/UaDTPdji/0jOG9bCkhEgg2O2Ovr4+f3+/CGFEdXW12+222+1lZeUcNjsuLg6JRAIgyOfxh0dGQAAkk8l1dXUZGZl3bt/m8/h9ff0Oh2PZsmV1T+vcHrdIJHK7XcGCYLlc0dTU5HI5w8PDFQplQcGcjS+96EWnFxUXPf/88+vWrVu6bNnx4yc++eQTrVb7bAc1qe7unmcMa2JiQqFUEAgEPJ5w8+at4aEhBAKEIAiFRNntNp1Oh0ajiSQSCAAIJOLDDw+o1OpPPv1UpVIFCYLlcnl6RnprS2uvSEQikRgMRnhEhEQiaWxqUqs1FRUVeDyeQqVGx8SUlJRw2GwQAESiHj9fXwwGDQAAg8H44IP3V61adfbs2QP797e0ND/bwB8ZKXyWeRYMw198ccwDQeHh4Xfv3sVisbtfftlud3R1dWp1OoEgJCkx6XFVlUwqXb5iBYPBIJPJdDptoL+/o6OTTqehkKigoOC2tlY2h2O3O0JCBDdv3MzKzLx165YHghRyeWpqilQqdblcDruD7kUHACAyKmratGmfffaPb7/9LiDAPygoiEajZWZmxicmPq2tO3r0SE11jZcX3YfNRiCegVs8S1ggCJ4+/SUEwwKBAI1Gv/32W1ar1WKxOF0up9MpFovz8vJu3rghjIx8bvZsEARBEPQPCMBiMGazqbmppaBgTklJiZ+fv7e3NwqFevDgwQsvrL9+/fq0aVN//PHHqKjIpqZmCpXS3dW9ZcsWUW8vAADisTG32yUUCpFI5KeffVZdVY3D4YODg4kEfFRU9Lx586KioxoaGq9euVJRUaFSq3n+/lgc7v8TsAAA+Omnn7q6uuLi4ubNnavT6xobG/l8vtFoHB4eWbhwwenTX1IplL179/68BgZBMCgoSCgUyuWy4uJiNBoTGhIilUr1Ot3UqVNu3Li1YcOGmzdvEQgEhVyRkpJcXlGBRmOCg4N7eroXLlwkl8uGhoZzcnJGhofDIyK0Gs25r766ePGiRCoj4HD+/v5UKjU2Nnba9Gnp6Rk2i+XylSttbW3RUVH/dztizxLW0NDQ7Vu3srOzExMTTEZTWUX5ggUL8vPyvv/hRzbbp729nUImLV26NCQ09Jd7USAI0un0/Ly8YEFwUVFRVXW10+lcu3ZtW1sbm83p7++bPXv2ndu3x8Ritg+7sbGJQCDI5fItmzefP//djBkzdDq9WCLet2+fx+1WKJRIJCKQz/d4PHfu3Dl+/Hhzc7NcLjebJxAIMCQkdOrUKQAAnD13Do/H/1+kZs9y12HDhg0R4eHmiQkMBtPb2zt/3ryMzMxPP/2spaWFQiFHRESsWbMmJCQEi8X+6sG63W4UCgUAwPj4+JEjR4uKinJysufPmxckEBQXFbHZbIPBePLUSYlEMjFhIRIJ8XHxiUmJ4WFhBAJREBx04dKlID5/3fp1VCqtru7pV199XVZewQvwnzplikwml0glGq12cGAQhUb7+/kFBfIjhMIAf3+9wbB582YvL68/P8Bn5lkTExMHDny4YOEC88REb29vXGxsZlbW0qXLSh89Cg0LXbdu/a5du/z8/CYmJkQikZeX19joKN2LAYKA0+lsamry8/MDQZBAIERHR3l5eZ08dRqJROr1+hXLV5RXlEulMgwao9VqzRMTOCwuKiqKSCA4Xc7e3r7Zs2bn5uYePnxYJOpxudzBwcHr162bPn16Q0PD1Ws/udwuGt3LZDTEx8clJyd70eloDEatUT99+nRwcLCm5klaWhqFQvmTY3xmqYNcLs/KylKNq/pEovi4+ClTpy5fvqK7u9vtdqvVGjQa5YE8MAzT6XQcFnfgwAEimaRRqywWq9FoDA8PBwCgr79/0eLFUdExHR0dN2/8ZDQaK8rLT586aZmwvLBunUQqHVepsrOypkyZ8vTp03nz56WmpmZmpn/62acoFOqTTz4ZHBwaHh7WarTfnT8PAsCNmzcbmxqXLF6Mx+MiIyNjY+MEAoHd4Whta2XQvWbNnp2QkNjW3v7cc3OGBgf/5BifmWcZjUaTySSTSRFIZGxMzFtvv90r6kUikTQqVSIWX79+45uvvr569dq9e4UGvd5qszHpdH4g/9KlS7FxsVqN9vKVKy+8sEEhl8+ZNXPN82vS0zMWLJgvlkju3rmrVCp1Wk1p6aPU1NTXX3/15s1bSqUyIjwCg0bz+UEOhyMwMFAoFAYFBV+6dKm3r/f5tWtHRkfOnf0qNiZm3rx5S5csiYmJGegfqK6pEYQIDn50UK1RQxD06quvhAiCdTrdlWtXV69a/Wdyi2cGi0gk9opELS0ty5YskUikP16+gsVg9u//4Icfvg8NDfPyog8MDrJ92J2dnWXl5TqtFoZhb2/vjo6OZctXnjhxorOjk0ajpaenr1q1MjYmlkQiIRCIzMzM0JCQ8fFxJou1bdu2KVOmfPrZIavVmpuTU/u0dufOXe3tbZHCyPb2dgqFEhkZCcBQa2ubXC4b7B+cPnNGd3f39evXAwICBCEhMTExwcFBAf7+V69eo1Kos5+bfb+wkEgiJSUlgTDY2NiQmZn5PxZBnhksJBLZ3tpqMBqXr1y5dcsWIonk4+Mzf97cqKio6OiojPR0k9EYIYxQKpVyhRKFRL69720CHj/Q3x8aGrZ86VKVSmU2mYRRkRkZGYKQkMl7giDow2aXPCzp7Opqb2sbH1d53K7Q0JD33n/v3LlzkAfKzcmpra11u92xMTFEIjEmJjo+IeHy5Ss+Pt4mo7Grq3vZsqVXrlwV9fRkZWYF8AMmzBM0GjUqKur48eNeXl6+vr7V1dVrVq++ePESiUQMDQ37m2ABAECj0awWy8DAAIPBjAgPhwEgPz+fFxAAgCCOgOfzAzs6OmpqatavX5ubkz1z1qygoKCampr3338vJiYmOirq9T17Fi5axOVyf/mE0SiUSq1uaW7x9fUdGhry9/f/9NNPGQyGQCA4dOhQQkJCUHAwCIBXr10zGox+fn4cDmf27NkNDY3FxQ8wGHRh4f2QEAESiSwqKspIz0AiEFQqdXBwMCMzQ6PRFhUVp6YkG4zG7du3X7x4KSUl5b/fhnqWsJqbmwODghwOh8vlCgkNUSjkEeHher2ewWAgkUgYhisqKt7/4IMX1q/v6+vLysoCQdDhcAQHB2OxWI1Ge/zY8YCAABaLBYIgDMNutxsEweaWlk2bNw8ODgUG8i9evJiRnl5WVhYQEBAeEaFSqS5fvhIcHEylUNIyMqQS8c0bN+rr6+12+9KlS3Nzc9QqlX+Af3t7e+mjR7yAgO+//yElJRmDwZBIJAiG5XKZQCB4WPLQoDeoNaoNGzZ888036enp/03wepawvLy87t27d/HCxUWLF/n5+g4ND1fX1BAIhAvnL0Ae9xdHj+3cuTM2JgYEwZbm5sTERAAEg4KCJoupbLZPbFzc5k2bOjs7fbm+9fX1Q0ODdC+vdevW83n8oeFhrVaXl5dLJpPJZPLVa9eio6KQIFhc/GB4ZMSbxbTb7X5+fomJiUQicXR09OaNmxKJWBgZqVQow8LDp0+b3trWhkQg7xcVsTlsHx8fq8USIRT29fXTqFQP5Onr6x8Y6I+NiysvK0tJSfmjAT7LZja7zeZwOKRyGQAAERERAQEBTAajtPRRpDBi9yuvXb7yY3h4+OQUczidMAAAMKxUKNgczuTlHDb7+vXrJSWlM2fP8uP6nj13dteul0EkgkQikohErVZbUVGRm5ur1+uzs7IOHzq0cNEiLBablpJcV1+Px+Fy8/NVKBQWg0lPTw8ODrZZrS6Hkx/IB0EEFosJEYQ4XU4sBnP9+vXMjIyIiAgAAPg8HhKJePiwJCExoa2l1WQ2U8gUkUg0+d/f6llu0YglEo1GExMdLZPKcHg8i8nE4fFkCllvMFy6dJFIIE7OL6lE4nK5AAAAQdBgMOzfvx+CoFs3bwIAQKPR5s2b+92335aVPerq7GrvaI+NipZJZdOnT8dgsVgs9qerV1NTUsQSyYyZMw/945DL5aJ7eflyua1t7W+9+Wbh/fs+Pj5qtXpwcJDBZEZECgP5fDKZFCkUHjiwf+uWLQgE0uFw3L1378qVKxcvXHC5XTK5PDc3p+rx4whhhNVq7e3r3b9//x8VQZ7lNJTL5TU1NRFCodlkioyM9Pb2bmlpIZPJ9+4Vrn3++Um3aqhvEEskY6OjOTk5IAgymczs7CyLxXL//v3Jv6BQqODgYJfL9dHBg/Pmze3q6ooURg4PD4nF4vFx1fIVy+8XFc2YMZPN9slIz/juwgWnwzFt6lQYhmEYGBgYaG1tBQAwJjp6YsLidDiDg4MyMjLwePz4uJJGpc6YOWPp0qVz5sxBIpF9ff319Q0Gg14ulzOZTJGol0wmAwDQ2trW19c3e/bs32YSzxIWDot9++19s2bNcjicWp0Wi0YPDg56e3srFXI0BjMZC+rr6xEIRFp6uo+P9+RVJpPp7bf37d69m0wiA/9hHgiCudnZ/f0DMADL5HIqlSoeExsM+vz8KTwe7969e4lJiXx+IARB4+Pjfr6+yvHx6dOnKRSKjIwMhUI+rlLV1tai0ai+/oGHDx/0iERPnjytKK8Y6B/o6Ghvb2+PiYlZvXr1/PlzTSZzSekjnU6r1WqJJCICAEEEWFJaEhcXJxAI/kJYBALhUekjBBKhUCj0Oj2FSiWTSIPDw1arbfasmfzAQAAAwsLCiouKHHZ7ZKQQAEG5XLFnz54DB/ZzuVzgFw8SiUS43Z629jadTudxu+ledJY3a2ho2KDXCYIFLBbz5o2bKSkpQUFBn372WVNT0yuvvNLU2JSWltbc3LJy5cqe7h6WN0uj0bqdjpDQUAQAPnnypH9goLW1tbu7B41Cl5aW/nTtp46ODhwOt2nzJovFUltb29Pdk5ScZLVaR4ZH3G7PpAP+VbBGR0ePHTteW1eXlJCYmpZqNpsVCoVCocBhce3tbQkJCRQKBYFApKamXb56ZXBwsL6+/otjxw4dOuTv7/+bm4EwAF+79hOBQMBiMUFBQSHBwYX3i2AYNk+YaTSaVCK9X1S0csXyL8+ckUgkoyMjOTnZdocDgUB0dnUtWbKkrq4Oj8cJBKF+fn4IBGLuvLk52dnCiAg8Dj86NgpDsMVq8UDQ0NDQ0aNfeLO8X331lZbWlrbWtvj4OJVKFRoaCsPw5KL12cOCYXjduvVjY2Mmk8npcrW3t9OoVIfDUfu0Liw0tKT0UVhYmFAoBAAABMGc7JyysrIDBz7ctnXr1D9otoIh+F7hPSQI8ng8JpP5pLa2q6vbYDQSCMTBwQGZXN7S2mo0GmAADg8N6esfQCKRXl702NjYXlHvvXv3Nm7cePPmrQmrpb2tvaq6ZmxMjMFieQEB8+fPX7Bg/pyCguSkRKPRlJWVlZyUeK+wsKSk5OODB1ta22JjYtva2iKEET3d3QUFBb+07ZmlDiPDwzqdjkKh6PR6h93mcbt0Op1Wq9VoNE6nc0wsrqqqWrx48SRWNBq19803CQTCnDkFvyI1WZQGAACBRBgNhiihkEKhIJDIn67fSE9Pe/Kktq2tbcH8eXgiQRgh1OsNSqVyzerVKAzGm8UaHh5++rRu/fp1X3/9zSeffLpt69ZPPv2Uz+fBMHTr1q0ffvgBBEE+n8fhcokEAh6PX7x48bRp081mU1ho2Dfffrvr5Zfff+/9srKy7OyslpbWhPh41fj4z5kN8H+XOvzufuHA4KC/n19gIB+LxS5ZsmTnzp3Nzc29vb0IBKgz6D0ez+PHVU6ns7i4+MiRo9XV1XabbcHChX5+vlKp9N69wqe1tYMDAxcvXjx06JDb7QYAQKvRcH19GUwmj8d75913+TzeqpUrkUgkBEOVVVW9ot7u7m4Yhi9euHjr1u039uxZuGhhV1cXLyDgww8/XLNmNRaLvfTD9wUFBRKp1OF0slgsNAZNoVJGxWKFXGE2m4XCyDf2vikUCq9du4bGoJcuXSIIFuzbty83N9dkMkulkpDQ0B6R6Jdj/LOeZbFYvvrqq66ubjQahUahQAQChULjcDgYgpgsZlJSksPh0Or1VCqFzfbZuGmTx+Xi8/kgANQ8eWI2mydptrW1qVSqqKjIx4+rXnvttbDwcLVK7e3tzePzrBYrAgFu2rSJSqVOPpEntbV0Gk0gCD579iu5XFFYeM+oN2AwGJvNZjAYeDxeVlYWBoPesWPHkqVLEhISAAAovH//5MmTvr6+Z86c9ff3Gx4ZQSJAEonkdDjDwkJRKBSFQkEiEWq12uOBGhsbVyxfBkHQu+++5+XllZAQn5eX+7Su7h+H/pGfl0cikkZGhgXBQb+E8Kc8a3hoaOq0aVKpzGK1qDValVZrMpq8vVkLF8zf88aezZs3UygUFpPpcbu7urr4/EAEAGi12gmzWSZXuD3ugjkFFDLF7XZ//8OPzz//vBfda926tdeuXWtsaNyyZcuFC+d3bN+enp7G5XC4vr6TpR0YBpqbmvOnTBkcHLp27doL69ZPyc9nsJg4HBYAAAiChMKI8XGlRCKJiYl+bvZsg8EwrlQO9A+8/tpre/fu1en1YrGEyWA8N2fO54cPt3d02Gy2vXvfMBgMU/Lz09PTYQCoffpU1CNqbGw8ffqUwWBoaGx68qR2966dYrFkbEzs9nj6+/r4PB4MQT9z+FMB/oP9B8LDwi5fuYwnEFwOh9vldricMpm8pKS0q7NTrdFERUZGRkUuXry4srISjyfk5GSzvL3bOzpwWMyE2aLRalLTUh8/rurr7V279vmRkeFly5bFx8dv2rhxXKk8d+6rgwc/ksnkmVmZ0VFRk+tYg17f0NAQ4O//8iuvBgYGfv/9pe7unp07d2IwGAIebzKbQQSCTqf7+/n19fdxORyjwSCVSnk83pOaGjyBkJuTU1FZ2VDfgEAg16xZI5fJap7URkdFzZs3r7LycV5enkatBgHwaX19eER41eOq9evX1dc3TJhNCCQiPj6+p6dn9epVXK5vd3f3j5evDA4ORUVFYrHYPwWrsPBeT48oPS1tZHi4qaVlXKUaHR21WK2BfF5MbGxfX291dVVKcgqNRsvMyPj+0qVpU6fZnXalQsnhcOQKBZFISk5OGhoe6u8f4HI5q1atbG9rX7FihdVm43C506dNy8vLW79+fWJi4s8rfrFY7MVg7Ny5S6vT3b1zu6u7++OPP96yaTONRq2sfAxBkFwmQ6PRKBTKYrGYzebMrGw+j3f9xg2tVsfn8x0OOwiCfX39Tc1NGenp2dnZJ06eJBDwzz03R6PRSCWSgrkFlY8raVRae0d7WGhYTU1NSEjIyOgo5IF8fHxEvaJ39r0TIghWqdUACDIYXvsPHAgJEfwpWAwGQywei09IKC+v0Ol0LBYThUYlxMUhkEi324XBYLi+fvEJ8UODQ35+fv39/RwOm073UqlUTBZLrdZQKORHjx7FxcSUlZfLpPL169Z1dXcvWLCAzWazWCwymezr6/urjSSrzbZ9x44ekeidd/Z1dnRcvXL19OnT5eXlp8+csdvtMAx7IMhmtyEQyMGhodTUVKVSkZ6ejgRBPA5fWlo6Pq5atWpVZ1fX2NjY8PDw5s2bRT09TU3NQmHECy+sP3L0aEhISERExOjoqMvl6u8fCAsLUyiVGo2GzWaHhYakpaVZrZbCwkJhZGRuTs7Vq1dDQ0PPnDn7p2A9fvx4yZIlNdU1RcXFEARZrTYUEunr6wtAsEAgSEhIRIAgm+1DIBAuXby0e/fukocPw8LCRkdGZs6cicWgn9TUeDEYVBrt0aMy5biSyfTi8wMjIyP/aBt3dHR08ZIlbW3tfB5vXKlEo9D/OPSPI0eOHD9x0uFw/CdQq02v1+v1+mlTpojFYgKBkJiUJJVJHQ4Hj8c7c+bswY8OlldUiEQiBsMrNSVVLpePDI9Ex8bEx8Xdvn0nLy/PbDZ1dnZhMJgekYhCJuPw+L7+fgIBb7FYQ0NDgwIDa5/UXrhwYfHixX39/Vg05n8O8DAMt7W2BQYGXr12zQNBPj4+gXz+jBkzvLwY8QnxJBLJ5XIFBvL5PD6PF6BSqdBotMVibWioj4yKKrx/Pz4hgUyhxMXHS8bGSEQiAABnzn4lEvU6nc7f/a6RkZF169Z3dnZRKBQUCmWz22c/N6ulpfXcV1//NiMzGgxWq9Vqt+PxhEelpWazKSgwcMOGDV1dXWQy+Ztvv9m8eROFQjl//nxMbAwejwMR4P4PPsjJyYFhqLunJyMj4/XXX0OjUFFRkcrxcbVaDcBwY2MTDMMtLc0+bE50dBSL5f3NN99mZ2UNDw//z55VXFTM8vGerJV63G4Igvz9/JYuWTI2JmYwGA6HIygwMC09HYfDAQAIIhDd3d02u80yYQkNDe3t7ZVKpVOmTP3q3Dk/X9/GpqYJi0Wn0xmNRpvVkpqaOhmkYBg2GAydnZ1Xrlzd88aezs4uGIYhCDIajTu2b/PzD3hp40ar1fpH9WCJWJyVlYnB4h4+fMj2YVdXV2/dutU8YT506PDihV83vBYAACAASURBVAtHx0abm1uJBEJuXu7Q0NDIyCgAADt27Dh2/DgGjenr79u5ayeRQMChMTw+Pzw8zGKxKJRKCIIa6htQKHSkUFj84EFfX9/27dv/hzyrp6f7zt07ubm5N2/dgmGIQiHzeXw2hy2Tyylkskwmi4qMyszKJJFIk5/Pzc3ZvfuVV199JT4hQSaXxcfHi0QiNBrN5foCAOByuwAAAACwo7Ozr7//62++DQgIAABYrdEqlUoCHqfV6S2WfzZss9k+H7z/vtFoWrp0qdVqw2Awv3VGDAYDQdDQ8PCjR2Xh4WG+fn7nvjq3adOmd/a9s3nL5gB//6qqKqPR5HQ5T58509TYUFRUlJOb09nZGRMTs3vXrs+PHElLT3///Q+SEhNf3PiS3WbDYDDRMTEtLS03b9xoaWurefKEz+cvW7b0q6+/6e/v/+/K9xKJ5Itjx6bk57/w4ovWCQsWh0tPS7PZbEwmIygoiOXtTSISC+bMYXM4v9y3/umn62lpqRs3bmpsaooURkRFxxDw+B5RD51K6+zq7O0fQCIQSCRCECwQ9fbCMIxAIKBf5DKTQqFQJBLJbrd7PJ6ZM6YnJyWfPH1arVb/2kQQRKOQbrcHhmEul+Pj7U0gEIeGhubPn+d2u0tLH5GIxABeQH1Do9FonDF92vvvvfewpLS8vIwXwHthwwvVVdUjIyMYLHZ4ZPjx4yovOj0lJTklOWXuvLkej8dkNGp1urJHZT/duKHT6ZBI5B/CUqvVH3744aJFi9esWaNSqwEAoNFoCQnxBDwegqCYmNi5cwt4AQFMFutXO/wQBN24fj0wKCg7J1coFGIwGG9vb6PRqFGrVWr1ZPNnTlbW7Tt3uru7vvji2O07dzwez8+XI0AEBP+TXV5uzpIlSx88ePCg5KHb5f7lt+CwWAAEw8NCBSEhN27c/HkUeALeZrMDMMDh+Lz26mtqtdpoMCxYuODEyZNNjU3Tpk2dO3fuQH//Rx9/4uPt/cMP33/55RmNRhMdHYXDYk+cOmU2mQEAoNKor7/6GgiCOr1uy+bNLrd79+5XSkpLfz9mKZXKD/bvj42J3b5jh0arBQCASCT6crlWqzU9I32yO0MoFApCQn5bCxGPiQ0GIx6PR6FQDx4+9GYxFXKFTCal0egADE9YLDAMS2VyuVRKo1Kff/75FzdswGFxw8NDVqsVAAAY+M+HJ5XKioqL+/r7f+l6CAQiIjw8PT3tpY0bExMSTp06DXk8aAwGiUR6PB48Frdm9ar169dlZWU9fPhApzd8fPCgecIMAiAKhRofH0ejUXg8PlIoLC8vf/DgwSu7d4dHRNy7d29MLF61cmV4WLhcLtdoNFXVVWQSKTUt9cgXR/E4/FtvvwVBnt/xrM6Ozh9+/GHevHnVVVXDI6MqtXpkZBgJIhxOx4KFiwAY0un0KBRy7dq1SUlJvwWt1epu3bzZ2tb68cGDmdnZdDqdSCAAMIDD49568y2lanzL5i1anS4qMjIwkF9WVr5s6ZKo6OigwCCH0/G4qqr2yVNRr2hykx4AABQKBcOwx+NBIBAYDMbfz8/Xlzt9+vSEhMT9+/c3NDTAMBwVHZWXl0fA4/9x6DAMw5Nn07lc7sqVK5hMJsPLyzJhEfWK3B6opaW5uPgBw8tr/vz5AABcuHihs7MrLy938+bNPj7sysoKkUhkNBira2omQyeHzT5x4sTDkodSmeyTjz/+L57lcDiOHj364ksvDQwM3Lx1WyaX2212NAbty+FGRkWVlD7a9NJL/QMDWCyGTCLPnz//t+eytFptV2dnb38fDMMWiyU9La2nR7Ro0aLZs58rKJhjtVq9aLQ5BQXlZWVjYvHBjw8+qXlSU1vb0dmpUqtkUimZTF7/wvrt27fzeTwiiQR5POaJCQiCUCgUEolMTEgoKJizf//+vt6+t99+G4FEqFRqHA7ny+XU1zfExcXJZTK9wYBEoWJjY4UR4VgsNj09vfTRIzaHg0AiTCaTVqMJ4AWUV1SYzCY2h71161YqlXrj+s2rV68WFxcxmczwiIgAXoDFahGLxQAATExMPCwpWbt2ncNuf/vtt//Ts86fP3/u3LkAHj/A3x+JRJhMJr3eoNFoQoKDGCzWkiVLNm7ctH79+qamRjabM3VKfn5+PvibOfi0ttZoMvX19rk97i+/PPPgQfG+fe+4XK5FixbQaPSjR45+9tmnBCJxeHhk+YoVs2bOzMzMmDJl6uPHlVcuX7E7nRqNBgSBqVOnajXarKzMqVOnBgQESCUSmVyOx+OTk5NLHj78YP8BtVrtw2YPDAx4PB46ne52u91ud2pKSm9fr0atgWB46pT8WbNm+fv5IRBIEIl4UFQcFx+XkZFBIBD6evvq6uqOHT8OQTCPF+Dn58disUpLSyd7nH85y35O6lBo9JznZifEx/8T1q1bt2qf1oIA4urVq8rxcQAGMFgMnU4PDwsNCAjAYDDh4eF9ff0ms4lOo2Xn5CxcsGCy/eyX8rjdOr3+yJGjeBy2q7vH7XaFhIZOnzb9xRdf3Pvm3qTExL1792ZnZwsEgin5+es3bKipeTI6MpyXl6fR6k6dPLHvnXfeeH0PGoPW6/Q3b93qEYmSEhPoNBqPH8jmcBIS4tvb2va++RYOh1u3bm19Xb2ot9ftdmdmpDe3tAoEwUgUqrmpGYlEQBC8bu1alWp85syZGAzG4/HY7Y6OjnYGgzE8PKJUKva+sefuvcLz5y9OwgFB0MuLrtcbIAiiUKkIBMJms8Ew/PNqYZIag8lE7ntn35HPj2Cx2LNnzz18WDIxMTH5bzQa7e/n5+VFV6vVU/KnVFZWxick/PDDj9NnTE9JTOT8144E4D8SS1GPSCqXQRAUHh6h02m7u7pff+3VY8eORwojR0dG586de+rUqfj4+La2dpVK1dc3oFapFixaiMVgBIKQcbUag0avX7/eZrelpqaymCyrzep0OqlUKuRxa1SqmzduwgAwb+7cmzduKpRKu93u7+8/MjoaFhoyrlLLZFIMBkuhUFwuV2dX15o1qx89KmOzfXQ6XUND/fPPPz9hsXjcbl8/v8ampnnz5hcW3pvcZQQAwOl0kslkh9OJQiKxWAwej3t19+7Hj6t+CctmtSI1ajUMw4c/P6JQKCYDKpvN9vH2fumlF7m+XJ1Wy+Fw0tLS7t+/n5KcfPPGrY0vvejt4+Pt7f0rt7Lb7R3t7RarRRAc3N7e3tjYOGXKlK7unhUrVpw9d25gYIBIJEYJI2AAVCqVDrudRqfVNzQox5X9/QNzZs9WqcY72tq0Wq1Kpfrwo48aGxplMhkIAFOnTC28f18kEvmwOSWlpTOmT39S+yQ4KFgukwEwzGSxNFotk8kcHBz09fUN8PcfHBx0u90eDzQ8PMxhs7u7u5ubW5YvW3b7zl1BUFBmZlZ0THRbW7vH4+bx+CKRaLJDk0KhGAwGLBZrs9mcLhcKjV61chWNTh/o73e63JO4QABA+Pn7nz9/YfIgBwKBwONxGAwmJTlZGCHs6uoikkg+bLbJZDabzSwmE0SAMAz5+fr+yqcsExNDg0NEMhkAgLLy8okJC41G43J9bVarQqEYV6oGBgelUunxk6ciwsO0Wk3t06eTTQ8TExNdXV337hc2NTWbLBPdIlFJaWl5WVltbS2bzTYYjWXl5cMjI6GhoWkpyRAMSaXS3Jwcq82KwWDwBEJYaCgahTQZjWFhoWQyubWtbTKqgACAx+GKiotramqGhod3v/KqxWLp7e3t6uo8dOgwl8tBgKDb7XrpxRcXL1rkdrv1ev3k7xsAAEgkAnJ7WlqaA/z98/Ly/Hw5OCxmMpwhq2ueTB6PAwEAhUIxGcwpebmpaWkSqXR0dDQ4KNhusyuVShweLxAIenp6pk+dGhsX91+cCgSVCiUGgykpKXE5nQQiEYVC3bhx80lt7fJly9Bo9JWr1wAAHBsbA0FwTDy2bOnSrKxMs8lcVl5ht9sRCITFYnG5XRkZmTQqlcvhJCclf7B/f2BQYENDw9q1z2dmZKSkpFz64cdxpdLLi97Y1PTC+vUUMlmlUg0MDvr7BwQHBfYPDI6MjFCpVD6fp9FoARDc+8YbbB/v9vYOj8cDw/DQ0FBzc0vpo0c6na6xqcnb2zs8PFypVO7cscPX17e5peXntRSVSmUxmDk5ORQKGYJgJBLxyccH7xXed7lcSCTyn3EahUJxuRy2D3vXrl1SqbSq6nFsXJzb4zYajSqVatq0qWNjY2g0Oi4uLiQk5FfZGZlCrq+v93g8EAzHxsaOjIzweLyMzIytW7cUP3hQWVEJAICvL1elVusNhobGxvb29ti4OJvVNjIywmB4NTU1YdDo9vZ2nV7nsDvQaFRCQnxnZ9fQ0HBOVtbjqioYBsRi8YTV4u/nx/L2uX37DplMNptNIQKBxWrt7Ow0Gk2ToUCj+efBnfi42JUrV5w/f+FX4cJms7ncbolYolKNazTa3Py87KzMgrkFKrVKPCb2eDw4HI7D5TKZzJiYGIPRYDKaCuYWtLS04HA4FAiCKDQai0bzAwP5AQF+/v5IJGpgYBCJRAkjIioqKkZHR4ODgyIihE2NTfm5uVXV1QaDoaOjUy6XwTBMIBDYbA6DwTCZjAQCwWwyyWQyo8E4Pj6+cuUKEolUXl5BpVLCI8LN5gmH07l82bIzZ8+Ojo62trVv3rSRTqNdv3UrNzd30cKFb7yxx+123759++uvv+FwOEKhkEwitbW3JyYk+vn51tXVmU0mu91e39CIx+GIROLKlatOnDhhs9tdLheIQAjDwyIihBWVFW6X22gydXV3v/HGG75+vrExsTweT9TTA8EQCIA4PL61tRWCoPb2js8++2xcoSDi8XFxcTeu3xCJeppbWgRBQXaH4+nTOhAAYQjy8/MDAYDP5wMwgPL398NisCgUKsDfDwaAyEhhWXmZy+VMTU2x2+wymSwoKDAqOhqJRPr5clevXv3hRx+53a7lK1aQSSQAhhBIpMft1mo0Wp2urbXNYrUyGYzAQD4IAu1t7VartbKyEoKgp0/r8Djc0qVL01KTL1y86HA4QBD88szZJUsWMxleMpn82rWfTp46nZmRsWbN6s2bN1VX1zQ3t0QKhf7+/iQSEY3B+Pj4OJ2u5pbW52bP9vfzq6uv//iTT2AABmBgcqHT3dOrNxg3vLDh7LlzAAC0trZhsVg+j69Wq5KTk0AwkkQimc0mBAJB96JDHg8AA329vQqFHIvFkshkX1/fqKioqKgoGIZhGPby8qqrq2OxWN4+PmaLhclgjI+rkF5ejMSE+NjYWJlMCsNQfHz85ctX8qfkhwgEtU9qMVgMl+ubEBfndrly83KtVhuXw2EymSAIwxAEwzAajfZ4PC63u7DwvkAQ7MNm+/j4WCzWjMyMgoKCb7/79kltLQAA3izWihXLh4eHli5dyvL27uzszMnOHhwaIhIIUpksNjbW19d3wwsvdHZ11dc3VFY+bmtri4wUTp8+HY1Cd3V119fVJcTHZWdnr1y5or2948rVqxKJxNvbG4fDoZCo3NyclOSk0dFRnU7ndDgkMhkEQVabbe6cORAMFxYWhodHtLS0nD17xmq1TkxM8AIC4uLi4uLiQgSCwKBgCIY8Hg+ZTCYQCJMnikAA4LDZZpOZwWRECoV9vb00Gk2lUiHTU9PWrVs/PDwkkUipVJrb7bLZbDnZ2T09IoPRkJGRodXqsrOzEpOSWSwWAMCBQUEBAQFcLtfbx4fFYlGoVIfDUVdf74E8TCYTh8O1d3QQiYT58xdAMLRj5y6j0QgAgNPl6hGJ+gcGHpWVzS0ocDudMoUCBAAEEnn40KH+vr6VK1cVFRcvXbqEQCAGBweZzebvf/jx6rVrT2prUShUXFx8SGhoRWXF558f7evvm1xX2x12j8fz0oYXkEiU2Wzu7Oqa7LKUSqVcDsdmtzO8vFatWnnq1Km+vj6r1To+rrx7997MmbO0Oq1MIjUaTQQiEY/HEYlEPB7v5eVFIBB+/skCQJAXyCcSiTwer6ioKCUlpa21DalSq997772i4mIkAgHDsMPuWLJ0iVgsaW1tmTF9BpVG1et0CxYuwmDQIAji8fhfbjPAMGzQ67///gcSiUTAE7799ruM9HSHw8HhcGJiYn68fPn7778HAAAEQSwWSyQQHE5nXGwsnoAfHhkZHRnlcrlOh7OiojI7O/vhwxKjyXj9+g2TydjU1DRj+gy32zV9+vT6xgYqlVpeXnH5ypW+3j4sDgfBMJVMRqHQMAwlJiSsXLnyfnFxSkoyFovJy8sdHRs1mUwAAISFhZWVl2/ZumVMPNbX1xcTGzM6OrZy5Qqb1YpGo0lEIhqFgiBYoZArFUqX08liMX/1/iQQBEkkEgwAQ8PDBCJxcGgISaXR8nJzmpqacFgsDMAcLjclKbnw/v3IyMiUlGQSkbhg4SIsFvO7xQW73d7S0gIDsEajHRwc9PHxptHpZeUVycnJPF7A2rXrdDodkUh0Op0UCkWr1X7y8cHY2Ngb16/zAni5OdnlFZWJCfHbtm318fb+8fKPJpOJyWSIent1Ov3TurqCOc9hsNiY6Jj+gYFVK5YH8AK6urony1+J8fFK1bgX3ctud9Q3NKxaueJRWZlGo8Vg0GNjYplMbrXaVGoVHo9DgIht27Z+8/U3ixcvXrJkMZlMNpvNer3ebDZDEEQkEplMZlBQUGRkJJvDRaFRvx2kzWYLCw1VKpVOpxMZHhZGIBFJRKLD6dRpdQkJCT2iHiIev+HFDcPDwzm5uVgs9ndJeTxQZ2cnlUotLLyv02lhGJ4ydeq+ffs0avXHHx/87B//uHP3LhaLfW7WrKHh4bkFc6xW64L585/W1b/88su9vSIKlVpRUSHq7eWy2V4MRkxMDAFPyMvLe/edd6gUalNTU2Bg0NVrP23c+NKF8+ejY2NcTqfL6dLqdEgkMiYmesI8QSKRLFarXC4fHBjMzsr2eNyNTU1MBsNqs7ndbiKJGOAf0NLSsmvXLjqdXni/MCwszGQyOR1ONAaDRqFJZDIMwQ6H3Wq16nU6EAHSabTfvvwNjUZjcTg6nV5XV4fMycnp6uxatmzZwMCgw2Gn0qg93T2vvPIKl8vlsNlkMvmPClYwDI0MD5eUlKjVKjqdTiKRpBJJcGDQc8/NxmKwmzZvhmE4PCxs0cKF46rxxQsXqdRqs2Vi166dz80psExM7Nu3r7e3D4lCnjlz5ttvv42Kil63di2TxTxz5kxGRsa6dWu//vprnV7P5/M6uzqVSmWEMLKktBSNRrN9fBRyBQRDBAJ+ZHQ0Ijyc7eMtk8u0Wp1aozEYDfGxMRgsNjcnNzAoqLLyMZlC3rF9++XLVyYmJqZMmUKj0Qh4AgACMATZbXYPBBsNRrvDYbVavby8/mi8OCyWSqMhkEgUiUQiEUlOl5NMJuu02tmzZzmdThKJxGSxfhcTAACQxwNBkF5vAAAgIz3D6XSazGaj0RifEL9mzZoDH33ocrlgGFaOj9sddiKBmJaWplAqY6KjAQCMCA9fsmypn69vWlrqnDkFLBZr67ZtR48eeXn3y4WF94+fOHG/qCgpKentt/fx+XyNRoNEomRSWWNj43vvvvv2W296PB6r3TY2JpZKZSQSSavTKZTj3d09FqtVr9dzOFwYAPoHBq7fuMGg01Eo5NGjX0hlsoMHP3pcVeXt7X39+nUWi+XxQHx+IMvbm0aj0ek0NApls9q6u3tUKhXwu/vsIBgVFYUMD48IDQtVq9Xj4+OBgYEcNic5JdnpdP5eN97PE9Atk8rq6uoyMjIkEsmTmidisZhEJD7//PMoFFIskX700UEAAEAAsFqtcbFxTqdjxqyZ3V2dy5cvp5DJa55fEykUtra2Op3Ohw8frF69+osvvjh16tTq1atOf3nGMmEmk8gut2v+/PlVVdVMBqO+vsHHx+e7b7+ZNWtWRkbGSy+9JJNKW1paJw9YEnA4AARoVKpBb8jNzcnNzvrh8hUEAuFyuVBoNAIEpTJZa2vrnj17kEjkvXuFTc1NHA77/v2ieXMLXG6XTqt1OJ12u8PlctoddpfTSaPRcHj8784mhMfjjoyMrK2tDQ4OwuFwfv5+AAAkJyf/MSmP0WCsq6szGI1Dg4MOuyM7J2tMLA4KCjp2/HhaRsbLu1+GYZhKpS5cuHDZ0iVfnjkbFBTU1NCw+5VXOjs6AQAAQQSbzR4bHZ3sEYRheNmyZRUVFcXFD9wuV0xMzOjYaHlZBQKBwKBQarU6IiK8pqaayWT2dHcvWbLk6dOnhw8f3r5tq8vl6unp6RaJYmNi/Xz9IAjisNm379xdv3bt5IIsNERAJBIBAHj6tO6nn37asnnz4OBASEjIwY8/plIpGq3W7XIHBgUJBAI/fz8qleZyuds7ux48fCgeHfV4PBAE/XJVB4IgMiEhEYNBm0ymqVOnjo+Pk4ikWbNn/e5LLmEYdtjtcpmso6ODy/WVSiX3CgsJePyLG1/68cfLTCbj9df3nD9//uatWwAAREVFZmZkdnd3v/fuO5cvX6l8/Fg8OvbChhe8vb1v3rhRXFxsnphQjqtqn9SOjo5xuRyPxyMRS8LDw0NCQn744cei4uJFixdduHCRQqFcuXy5rKz85KlTmzZtFIlErW1tV65ceWX3ywAMt3e0E/D4pKSkR+Vl4eFh3d09vX19Vqv1jT2vV1RWtra1LVq4sLe3z26319fVL1myJCMj4/Hjqps3buTn5UskEolEgkQiAQC0WCwQ5EGACBqNarfbB/r729vb9Xq9XK4QdXf39fc3NzdXV1WDCxctIhFJefl5ZBKZRCKmpqb+7klYCIKsFotcoXC7XC6Xq76+QaPVREdHb926zeV2k0nEzz//PDg4ODMr+597GCDI5XJ2v/xySWnp7FmzXnt9j7c3i0wmH/n8yIwZ0wEAcLlcSqViktex48fWr12LxmClUmlJSYnD6YyNiY6PT7BZLR999NH7H3zQ3Nxy+/YtMpm8fPlyGAb8fLn37t8/euRIS0vLx598isfjVq1clZiYcOzYcZVak5WZrtXqvH2879y+m52dpVDI+/oHAAAIDwurfFx56uRJiUQSHx/f0d4xMDg4NDxssUx4e/tQyGQEAmF32A16vQeC6DQaAIBWq9XHx4fD5dCoNA6HDcbFxQmFkXv2vF5VVb1z544/+u3zeDwKhZJGo1gtVo/HM65SOR0OPIFY9ujRyOgIi8XauHHj3LnzOjs7ARD8uQ6IRqOXL1s6Y/qMDw4cmDljxvnz5+0Ohy+XSyaTARimM7ySEhM/+uij4uLi06e/nD179qVLl1RqdVxsbFBwkF6nP3ToH2+88QYCgfzyyy/xBDwIANu2bbt46ZJAEJKbnfWgpOStN98cGRn54thxJpNpNBpjY2KkMmlQYKDHA9nsttHRMfOEefrUaffu34c8HgAA5hbMOX/hwpYtW0ZHRvLy8ohEIgGHE4SFIREgCoUBQYBGpYIA6IYhjo8Pl8tFIJEul8vtcskVitGRURSNRg8NDZGIxfPnz/slKYPB0NDQ2N/Xp9ZqRT09KpUKhiEkEjX5GRiGrVYLBouNFEZu27ZVo9Zs3rKlrb0dAAAMBoNGo1NTUuLj47/77ru+vv49r7/O5/FsVuv777/3oLg4Ni5u+rRpAoGASCKdOXN2y5atZ8+ePX/+/JMnNfPnz8NicaWlpZYJy6uvvrp8+YrMzIz9+/ejUP9MF33YHASIkMvlKrU6Lzfv8OHD586dI5FI7773PpVKiY+P27ljx+5XX0Gj0QaDgcPmwDBcWVmZEB/b0tIGQdCDhyV733jj2BdfrFi5Miw0LDUtTaUal0gkfX19wogIFBpjsVjIJDIIAlK3GwAAP39/LBaLxWJDQkJCQkJQMTHR/gEBMADweDwAAJxOZ0d7x49XLl++fBkAwJzs7LS0tJ07ticmJ6OQiMkX0IIgAgAACIIHBwe6urqCgwU1NTXFxQ8mKTtdTgwa/aS21uVyfXH0yMXvv//q62/y8/O1Ws3IyIjFZv/uu/MEPOFpXd36detQKOTde/dOnjyBx+Pf2Lu3tLT022+/nZKfv//A/l07d82Z89zrr78uHhuDYZgXyEcikGQSye3xgADQ3NwiFArj4uKlEukrr+weGxPfvH2ro7Pzxo0bKCRKo9X6+/lt3rR575tvRkdHu5wuf39/sVjscrkuXrwUEBBw8KOD7777jlanCwoKBEFwaGg4Ly9Pq9U67G6z2czlcpkMplqrxROJLCbzP2P8d99+V1FZ+dVX51wu1/XrN06cPGHQGxYtWjR3bkFCQiIej7VYrAgEoqmpyWw2p6Sm6jQaJpNJo9MnqzswDDc3t8yaPXtyRTYZrRAIBAqFYjGZWCxmzZo1IAheu/ZTbExMUFBgwdy523fsMJvMmzdvPnz4MJFE3Lply6KFi7Zu2yYUCsVjY0wm8/Dnh0ZGxi5evPjhhwcG+vtFoh5BSCjDy4vN4fz4w4/bd+70otOwWJzT5eRyuLdu3ayvq/Nhc7788svHjx8LQgTNTc0EItHP19fldo2Pq4wGIw6PxWCwbrdb+x/V9bLSErvDuWLlykmzj31xVBgRoTcYXE7nZGENg8WSSSQmkxkcHIzH4wEQBAAAhcfji4ru375954tjX4yPj+9++eWNGzfhsBgIhh0Oe1Nj08DAgEjUOzg0iMfhurq7J8zmpKQkt8u1YOFCJBJps9m2b99uMpl+7u/AYDBEIoEXwPNieMXHxT1+XBUXG/Pxxx+/9957NruNzeEG8vhUOk2tVtfUVBMIhJaWlukzZ77z9lsoNFqjUR/+/LDb7RYIggP5PLfbPTg0ZDKZm5qaZkyfDoIgAokkEAgeCHI47C63Oy4uzmazfXf+fO3Tuovnz3d2dhr0BhqdPm3qFBaT9fnRo4sWLtDp9UqFUiyR/BxJLRbL5q1b79658/nnh48dO7Zj+w4sBm2emDCbFLgsvAAACeFJREFUzWKxWCaTYdAYH7ZPsEAwMToKAzCfxydTKAAAIENCQ5TK8R8vX165YuW5c2fz8/NsNlvZo7KSkoctzS2TvWoQDLz15l6JRALD8Jw5cwgEgtPpcntcTCbz3ffe/z99XPlXk2cWTvKRkACBbGxhDYJYkiA4DEEWR7QC7UHRUVAsOJ6DVFoUVMCt9IehrQh2OZ5RbNUSx2NbFMR02EQIoMhiQExAQIGEJYGQ70vIvnxZvswPdHp65rS9/8C97znPe9/n3vu8l8fjrQcBAMA6GyQSPVEop81m0+n0u3a9uyiVQhCYl/fBkyddovHxrKw9i/MLG8LDr9fVtbS0WCyWzdFsqWwZgsDz589Pvn5dVVWVtmtXcEgIt74eTyCYzGasC1apUjJCQ1cVCt7PP1MpVLVGY7Parl3711dffcXn9xzMyb5UfbmysvLhw2Z3D3cmk3nt+vWkxEQMBnjxQqBSqXx9vPEEvF6nWydOCoWC380vLzvDZrObm5th2Go2mTEYAIvDIYgTgsD1S0IhU0gkEpVKXc8/AJPJzMzM/LTyk4MHD+JwuObm5tbWtsTErWnp6f50up+/v0qpjI3d0tjUFBoaiiBOAh4/PT2t1+sSOAldXV3nL1xgMZk0b5rZbLZYYBQKhce7GgxGnU5Ho9LUarXVCnPiOSqVSq1WHz6cuyJfgUDQ28dncHDwcvWltLQ0hUIx/EKw/W/bjhcV3b17lxEW9uzps24+Pycn22yBW1v+4+vr64J1IZFIgQEBao26v79ftabSaLT5eXlxcX85dfpMYEDA3NycbHlZIHhx4kQx7xFvcXERwGCSkpPmJfMgBFosFrPZAgAYo8mMcjrX3woIgp4/f15UdDwrK0u+IhcKhQQ3QhgjbHBw4OjRo0Qi8dXYGOJEvLy8NBrNwsKCVqsFvv/++40bN0ZFRU1NTzU1NiVwOMkpyZ6exHWJz8T4eErKtsGhIZUS2v/3/UPDQ5siIyVi8fbU1LGxVwXHCi0Wi7+/f3Jy8p7du2lU6sLCIuJAiESiw+EwGo1kMtlkMtlsNn8/Pzd399mZ2X379i0tSccnxnNzcwUCgWhc5O3tHRQUmLh169DwsHxFvndvlmpN3d7e/ubt2w8/LLTa7JL5+cWFBQADBAUFenl5ffvdTbvdTiGTuVzu2YqKJanU7nBAEOR0OnU6vVwuT+AkjL16tWFDmNFoVKvVNJo3BEEOhyPz/fc1Wq1ep0P9b24ql68+uP+AHR2dmZlJo1L9fP1mZ2fquXc4nPiGhobk5GQymQyB4JJUplRCy7Jl4MaNOgqFuipfXV1VZO3NolIoWq1WCakGB4d8fX0xAKBeW3shEKSlpQ0MDszMzFph+MjRo1NT0/n5+SaTCY1GQyA4Mjo6MDgYGRl58uSJJal0Y0R4Tnb22NiYyWTC4VxdXFzc3dwxaHRERMTU9HRaWhozKurrr78hkckolPOnnxp2797T1d3l708HQXBkZLSo6LhINC4SiYRCYXFx8fDwsKen58LiQmxMjI+PT01Njcloqq2tFYvF3373HTuanZKUPD4x4e7mDlthpVIZs3mzmxvBYDB4eXphMBjFqhyNxiQlJa6tqV+/nvw//mg0Gnk8HgzD6ekZE68n5iUSvUF/re6GyWROSU4xGAwmoxGFQlthKxaH/UVFAwCAn7+fE0FsNhsWix19Oern7+dAEBwOtyyTRUZGlpSWvp2ZPXIk/0B29h0ut6SkxGQybUtJSUpMDA4OctgdSiU0OTkpFAlLTp5YH8qWlZX19vbq9Do0Ch0SGkIikcwWy8aNkeq1tZCQ0EO5h4xGgxWGY2JiPTzcaTTvAwf2C0YEmzZFjoyM5uXlqVSqly9f9vTwi4uLu7v5VhhmslgkEqmey930zqaPPvroyNF/EAiEc+fO1d24gSAIi8mEIMjucMy8nblw4Xx7x2MWiwXDsGpNhcViY2NiW1pa/4hvDw4NdT15kpHx3v4D+11csDBseeedTTqNRq3RWGGrTqvxIBIBDABcvHjRarXxeI8WFxfNZrNOp+vp7Y1ms9++eUMPCPDy8goJDRUKhefOVhwvOq5Rq0tLS+vqblit1qioqJzs7Ddv3rCj2TQqJT0tPSAw4O3MbGPTw4AAOiee09baWnuldnJqymAw6HQ6JpOJd8VbzOag4BA3Aj40JCSMEdbN7yk4VtDa0lpSWvJqbKybzzcYDDt2pJ48WXLgwH69Xq/RaDUazeeffwZCUGdnp9OJ6uvt++Heverq6snJ14dzD7viXTs7OxkMxtT0NIIgGenpJBLpEe/nwmMFd/59l81iiSbGPyw8xr1zx/6LovV3DI1CQUplU2Nje0c7O5pdXlbG4SRAEDQzO8vn9yhA0Gq1KUAFurWlxdPTEwNg7t9/gMPijCbjlStXHj582NTU9OWXX+r1hs7Hj/fu28tghH7zzdVL1dV2mw2FQrm5uZWUnOzu7oYtsKsrTqfXb46OplKpdDp9TixufsTzptEuXrzA5/MrKytramoVoIJMIiclJXoSiS4AkLpzJ5lEvlxTczAn5+atm6dKT/n5+93hcvEEQnBIqEQsXpHLHz/u2JaSMjMz++OPP6wfyWQ2t7e1BwTQYRjO3JO1NYFTWFjY0NAgFovJJPLoy5dZe/ZwOPFzYvHt27fz8/LaOx6r1er13acDAwN/vjvlt00sDw+PxK1bOZz4uLg4fzrdbrMNPB/oe9oHxHM4DgTpf/Y8LCxMr9P3Pu27det215Ou8vJybj2XQiF/kJf36BEvL/9Ia2srgiDrLuPi4p729S0tyWw2m8FgDAoMUqpUgpGR6Ojo8PCIw4cPwbC1nsstKChobGw8ffqMdGlpbW3NZrPRaLSw8HBvKrW7h08mk2O3xDIYDEYYA0GcQUGB8RwO4rDTvGlCoVA8J2ax2BKJOCI8YmVFXnvlSnBg4PbU7dIlaVXVZ940KoVCZbPZZrM5KTFxy5Yt4+PjY6+Efb29BDxhZUUuFkve3bljcmo6JSW5o6Pj16T++8hCo1G/KfWsVqtYInn2rL+h4X59PffevR+Wl5djY2OBjIyMtrZ2FpsFgpADcWSkZ8T/NY7g7mbQ6/9ZVaXTag/l5q73ZH9FLAqFUqlULDbLy8tTqVQZjUaNVruysuLj4z03J965IxWNxuxITd2wYcMnlZ+ePXv2eX9/WUW5SCSCINAVj4+NiSGRSA/uP/i4+GOn0ymRzPf29l6+XL0KgsHBwXR6wPz8/KnTZ4qKjkulMgCDWQVB2bJsYWGhvOKsQa+/du06giAUKlUoEhJc8RUVFV9c+qKtvY3DiZ+Znb169ep7GRkajUYyP0+n0/GuOKPRKJPJ/hxWaDSaSPSA4d//x2C32xUgKBAI/gsmBcu3PhvuxgAAAABJRU5ErkJggg==",
+  "developmentHistory": {
+    "levelUp": {
+      "newLevel": "1",
+      "statGains": null,
+      "skillDevelopments": {
+        "skillDevelopment": [
+          {
+            "skillName": "Armor",
+            "numberOfRanks": "2"
+          },
+          {
+            "skillName": "Athletics",
+            "numberOfRanks": "1"
+          },
+          {
+            "skillName": "Blades",
+            "numberOfRanks": "2"
+          },
+          {
+            "skillName": "Body",
+            "numberOfRanks": "2"
+          },
+          {
+            "skillName": "Brawl",
+            "numberOfRanks": "1"
+          },
+          {
+            "skillName": "Hunting",
+            "numberOfRanks": "2"
+          },
+          {
+            "skillName": "Ranged",
+            "numberOfRanks": "2"
+          },
+          {
+            "skillName": "Ride",
+            "numberOfRanks": "1"
+          },
+          {
+            "skillName": "Stealth",
+            "numberOfRanks": "2"
+          }
+        ]
+      },
+      "trainingPackages": null
+    }
+  },
+  "inventory": {
+    "item": [
+      {
+        "name": "Arrows",
+        "reference": "Culture",
+        "weightInPounds": "0",
+        "organicLivingComposition": "0.0",
+        "organicNonLivingComposition": "0.0",
+        "effect": "",
+        "description": "Chosen from Culture",
+        "carriedItems": {
+          "carriedItem": {
+            "quantity": "1",
+            "location": "Back"
+          }
+        }
+      },
+      {
+        "name": "Flowing cape",
+        "reference": "Culture",
+        "weightInPounds": "0",
+        "organicLivingComposition": "0.0",
+        "organicNonLivingComposition": "0.0",
+        "effect": "",
+        "description": "Chosen from Culture",
+        "carriedItems": {
+          "carriedItem": {
+            "quantity": "1",
+            "location": "Worn"
+          }
+        }
+      },
+      {
+        "name": "Leather Jerkin",
+        "reference": "Leather Jerkin",
+        "weightInPounds": "0.0",
+        "organicLivingComposition": "0.0",
+        "organicNonLivingComposition": "0.0",
+        "effect": "",
+        "description": "",
+        "carriedItems": {
+          "carriedItem": {
+            "quantity": "1",
+            "location": "Worn"
+          }
+        }
+      },
+      {
+        "name": "Longbow",
+        "reference": "Culture",
+        "weightInPounds": "0",
+        "organicLivingComposition": "0.0",
+        "organicNonLivingComposition": "0.0",
+        "effect": "",
+        "description": "Chosen from Culture",
+        "carriedItems": {
+          "carriedItem": {
+            "quantity": "1",
+            "location": "Back"
+          }
+        }
+      },
+      {
+        "name": "Longsword",
+        "reference": "Longsword",
+        "weightInPounds": "0.0",
+        "organicLivingComposition": "0.0",
+        "organicNonLivingComposition": "0.0",
+        "effect": "",
+        "description": "",
+        "carriedItems": {
+          "carriedItem": {
+            "quantity": "1",
+            "location": "Belt"
+          }
+        }
+      },
+      {
+        "name": "Reviving cordial",
+        "reference": "Culture",
+        "weightInPounds": "0",
+        "organicLivingComposition": "0.0",
+        "organicNonLivingComposition": "0.0",
+        "effect": "",
+        "description": "Chosen from Culture",
+        "carriedItems": {
+          "carriedItem": {
+            "quantity": "1",
+            "location": "Pouch"
+          }
+        }
+      },
+      {
+        "name": "Short tunic",
+        "reference": "Culture",
+        "weightInPounds": "0",
+        "organicLivingComposition": "0.0",
+        "organicNonLivingComposition": "0.0",
+        "effect": "",
+        "description": "Chosen from Culture",
+        "carriedItems": {
+          "carriedItem": {
+            "quantity": "1",
+            "location": "Worn"
+          }
+        }
+      }
+    ]
+  },
+  "favoriteSkills": {
+    "favoriteSkill": [
+      {
+        "skillName": "Blades (Longsword)",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Offensive Bonus",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Ranged (Long Bow)",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Offensive Bonus",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      }
+    ]
+  },
+  "remainingDevelopmentPoints": "0",
+  "stats": {
+    "stat": [
+      {
+        "shortName": "BRN",
+        "temporary": "0",
+        "potential": "0",
+        "specialBonus": "0"
+      },
+      {
+        "shortName": "SWI",
+        "temporary": "20",
+        "potential": "20",
+        "specialBonus": "0"
+      },
+      {
+        "shortName": "FOR",
+        "temporary": "15",
+        "potential": "15",
+        "specialBonus": "0"
+      },
+      {
+        "shortName": "WIT",
+        "temporary": "0",
+        "potential": "0",
+        "specialBonus": "0"
+      },
+      {
+        "shortName": "WSD",
+        "temporary": "0",
+        "potential": "0",
+        "specialBonus": "0"
+      },
+      {
+        "shortName": "BEA",
+        "temporary": "15",
+        "potential": "15",
+        "specialBonus": "0"
+      }
+    ]
+  },
+  "categories": {
+    "category": [
+      {
+        "categoryName": "Adventuring",
+        "groupName": "Adventuring",
+        "cost": "1/1",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "developmentModifier": "4"
+      },
+      {
+        "categoryName": "Armor",
+        "groupName": "Armor",
+        "cost": "1/1",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "developmentModifier": "2"
+      },
+      {
+        "categoryName": "Body",
+        "groupName": "Body",
+        "cost": "1/1",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "developmentModifier": "2"
+      },
+      {
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "cost": "1/1",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "developmentModifier": "5"
+      },
+      {
+        "categoryName": "Lore",
+        "groupName": "Lore",
+        "cost": "2/2",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "developmentModifier": "0"
+      },
+      {
+        "categoryName": "Magic Points",
+        "groupName": "Magic Points",
+        "cost": "2/*",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "developmentModifier": "0"
+      },
+      {
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "cost": "1/1",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "developmentModifier": "2"
+      },
+      {
+        "categoryName": "Spell Lores",
+        "groupName": "Spell Lores",
+        "cost": "2/2",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "developmentModifier": "0"
+      }
+    ]
+  },
+  "skills": {
+    "skill": [
+      {
+        "skillName": "Athletics",
+        "categoryName": "Adventuring",
+        "groupName": "Adventuring",
+        "classification": "Moving Maneuver",
+        "cost": "1/1",
+        "ranks": "2",
+        "itemBonus": "0",
+        "levelBonus": "10",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "BRN"
+          }
+        }
+      },
+      {
+        "skillName": "Cooking",
+        "categoryName": "Adventuring",
+        "groupName": "Adventuring",
+        "classification": "Static Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Hunting",
+        "categoryName": "Adventuring",
+        "groupName": "Adventuring",
+        "classification": "Static Maneuver",
+        "cost": "1/1",
+        "ranks": "2",
+        "itemBonus": "0",
+        "levelBonus": "5",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WIT"
+          }
+        }
+      },
+      {
+        "skillName": "Nature",
+        "categoryName": "Adventuring",
+        "groupName": "Adventuring",
+        "classification": "Static Maneuver",
+        "cost": "1/1",
+        "ranks": "2",
+        "itemBonus": "0",
+        "levelBonus": "5",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WSD"
+          }
+        }
+      },
+      {
+        "skillName": "Ride",
+        "categoryName": "Adventuring",
+        "groupName": "Adventuring",
+        "classification": "Moving Maneuver",
+        "cost": "1/1",
+        "ranks": "1",
+        "itemBonus": "0",
+        "levelBonus": "10",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Wandering",
+        "categoryName": "Adventuring",
+        "groupName": "Adventuring",
+        "classification": "Static Maneuver",
+        "cost": "1/1",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "5",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WSD"
+          }
+        }
+      },
+      {
+        "skillName": "Armor",
+        "categoryName": "Armor",
+        "groupName": "Armor",
+        "classification": "Special Maneuver",
+        "cost": "1/1",
+        "ranks": "2",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0"
+      },
+      {
+        "skillName": "Body",
+        "categoryName": "Body",
+        "groupName": "Body",
+        "classification": "Special Maneuver",
+        "cost": "1/1",
+        "ranks": "2",
+        "itemBonus": "0",
+        "levelBonus": "15",
+        "specialBonus": "25",
+        "Stats": {
+          "Stat": {
+            "shortName": "FOR"
+          }
+        }
+      },
+      {
+        "skillName": "Battle Frenzy",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Moving Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WSD"
+          }
+        }
+      },
+      {
+        "skillName": "Blades",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Special Maneuver",
+        "cost": "1/1",
+        "ranks": "3",
+        "itemBonus": "0",
+        "levelBonus": "20",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Blades (Longsword)",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Offensive Bonus",
+        "cost": "1/1",
+        "ranks": "3",
+        "itemBonus": "0",
+        "levelBonus": "20",
+        "specialBonus": "0",
+        "tableName": "Edged",
+        "effectAdjustment": "0",
+        "failure": "4",
+        "effect": "Cut",
+        "maximumResult": "150",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Blunt",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Special Maneuver",
+        "cost": "1/1",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "20",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "BRN"
+          }
+        }
+      },
+      {
+        "skillName": "Brawl",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Special Maneuver",
+        "cost": "1/1",
+        "ranks": "1",
+        "itemBonus": "0",
+        "levelBonus": "20",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "BRN"
+          }
+        }
+      },
+      {
+        "skillName": "Dual Weapons Training",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Special Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0"
+      },
+      {
+        "skillName": "Intimidation",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Static Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "BEA"
+          }
+        }
+      },
+      {
+        "skillName": "Polearms",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Special Maneuver",
+        "cost": "1/1",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "20",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "BRN"
+          }
+        }
+      },
+      {
+        "skillName": "Ranged",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Special Maneuver",
+        "cost": "1/1",
+        "ranks": "4",
+        "itemBonus": "0",
+        "levelBonus": "20",
+        "specialBonus": "10",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Ranged (Long Bow)",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Offensive Bonus",
+        "cost": "1/1",
+        "ranks": "4",
+        "itemBonus": "0",
+        "levelBonus": "20",
+        "specialBonus": "10",
+        "tableName": "Missile",
+        "effectAdjustment": "0",
+        "failure": "6",
+        "effect": "Pierce",
+        "maximumResult": "175",
+        "conditions": "0-35:0;36-70:-25;71-105:-50;106-140:-75",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Swashbuckling",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Special Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0"
+      },
+      {
+        "skillName": "Warfare",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Static Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WIT"
+          }
+        }
+      },
+      {
+        "skillName": "Weapon Specialization",
+        "categoryName": "Combat",
+        "groupName": "Combat",
+        "classification": "Special Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0"
+      },
+      {
+        "skillName": "Arcana",
+        "categoryName": "Lore",
+        "groupName": "Lore",
+        "classification": "Static Maneuver",
+        "cost": "2/2",
+        "ranks": "3",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WIT"
+          }
+        }
+      },
+      {
+        "skillName": "Charisma",
+        "categoryName": "Lore",
+        "groupName": "Lore",
+        "classification": "Static Maneuver",
+        "cost": "2/2",
+        "ranks": "1",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "BEA"
+          }
+        }
+      },
+      {
+        "skillName": "Craftsmanship",
+        "categoryName": "Lore",
+        "groupName": "Lore",
+        "classification": "Static Maneuver",
+        "cost": "2/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WSD"
+          }
+        }
+      },
+      {
+        "skillName": "Cultures",
+        "categoryName": "Lore",
+        "groupName": "Lore",
+        "classification": "Static Maneuver",
+        "cost": "2/2",
+        "ranks": "1",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WIT"
+          }
+        }
+      },
+      {
+        "skillName": "Healer",
+        "categoryName": "Lore",
+        "groupName": "Lore",
+        "classification": "Static Maneuver",
+        "cost": "2/2",
+        "ranks": "1",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WSD"
+          }
+        }
+      },
+      {
+        "skillName": "Meditation",
+        "categoryName": "Lore",
+        "groupName": "Lore",
+        "classification": "Static Maneuver",
+        "cost": "2/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WSD"
+          }
+        }
+      },
+      {
+        "skillName": "Scholarship",
+        "categoryName": "Lore",
+        "groupName": "Lore",
+        "classification": "Static Maneuver",
+        "cost": "2/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WIT"
+          }
+        }
+      },
+      {
+        "skillName": "Songs and Tales",
+        "categoryName": "Lore",
+        "groupName": "Lore",
+        "classification": "Static Maneuver",
+        "cost": "2/2",
+        "ranks": "2",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "BEA"
+          }
+        }
+      },
+      {
+        "skillName": "Stewardship",
+        "categoryName": "Lore",
+        "groupName": "Lore",
+        "classification": "Static Maneuver",
+        "cost": "2/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WSD"
+          }
+        }
+      },
+      {
+        "skillName": "Magic Points",
+        "categoryName": "Magic Points",
+        "groupName": "Magic Points",
+        "classification": "Special Maneuver",
+        "cost": "2/*",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "3",
+        "Stats": {
+          "Stat": {
+            "shortName": "BEA"
+          }
+        }
+      },
+      {
+        "skillName": "Acrobatics",
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "classification": "Moving Maneuver",
+        "cost": "1/1",
+        "ranks": "1",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "10",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Assassination",
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "classification": "Static Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Deceive",
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "classification": "Static Maneuver",
+        "cost": "1/1",
+        "ranks": "1",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WIT"
+          }
+        }
+      },
+      {
+        "skillName": "Intimidation",
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "classification": "Static Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "BEA"
+          }
+        }
+      },
+      {
+        "skillName": "Locks and Traps",
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "classification": "Static Maneuver",
+        "cost": "1/1",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WIT"
+          }
+        }
+      },
+      {
+        "skillName": "Perception",
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "classification": "Static Maneuver",
+        "cost": "1/1",
+        "ranks": "1",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "10",
+        "Stats": {
+          "Stat": {
+            "shortName": "WSD"
+          }
+        }
+      },
+      {
+        "skillName": "Quick Draw",
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "classification": "Special Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0"
+      },
+      {
+        "skillName": "Stealth",
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "classification": "Moving Maneuver",
+        "cost": "1/1",
+        "ranks": "4",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Stealth (natural environment)",
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "classification": "Moving Maneuver",
+        "cost": "1/1",
+        "ranks": "4",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "20",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Swift Step",
+        "categoryName": "Roguery",
+        "groupName": "Roguery",
+        "classification": "Moving Maneuver",
+        "cost": "1/0",
+        "ranks": "0",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "SWI"
+          }
+        }
+      },
+      {
+        "skillName": "Detections (Common)",
+        "categoryName": "Spell Lores",
+        "groupName": "Spell Lores",
+        "classification": "Spell Casting Maneuver",
+        "cost": "2/2",
+        "ranks": "2",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "WSD"
+          }
+        }
+      },
+      {
+        "skillName": "Elven Lore",
+        "categoryName": "Spell Lores",
+        "groupName": "Spell Lores",
+        "classification": "Spell Casting Maneuver",
+        "cost": "@1/1",
+        "ranks": "1",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "BEA"
+          }
+        }
+      },
+      {
+        "skillName": "Spell Songs",
+        "categoryName": "Spell Lores",
+        "groupName": "Spell Lores",
+        "classification": "Spell Casting Maneuver",
+        "cost": "@1/1",
+        "ranks": "1",
+        "itemBonus": "0",
+        "levelBonus": "0",
+        "specialBonus": "0",
+        "Stats": {
+          "Stat": {
+            "shortName": "BEA"
+          }
+        }
+      }
+    ]
+  },
+  "rankBindings": {
+    "skillWithRankBinding": [
+      {
+        "conversionRatio": "1",
+        "skillDefinition": {
+          "skillName": "Stealth (natural environment)",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Moving Maneuver",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        "sourceDefinition": {
+          "skillName": "Stealth",
+          "categoryName": "Roguery",
+          "groupName": "Roguery",
+          "classification": "Moving Maneuver",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        }
+      },
+      {
+        "conversionRatio": "1",
+        "skillDefinition": {
+          "skillName": "Ranged (Long Bow)",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Offensive Bonus",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        "sourceDefinition": {
+          "skillName": "Ranged",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Special Maneuver",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        }
+      },
+      {
+        "conversionRatio": "1",
+        "skillDefinition": {
+          "skillName": "Blades (Longsword)",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Offensive Bonus",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        },
+        "sourceDefinition": {
+          "skillName": "Blades",
+          "categoryName": "Combat",
+          "groupName": "Combat",
+          "classification": "Special Maneuver",
+          "Stats": {
+            "Stat": {
+              "shortName": "SWI"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

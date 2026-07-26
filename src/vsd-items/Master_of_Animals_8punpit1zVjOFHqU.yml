@@ -1,0 +1,32 @@
+name: Master of Animals
+type: Rollable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: TXJAMYe6EhhtsnKT
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-spell-lores.Item.g3cm4xJW8gi4QCHc
+system:
+  notes: The level of mastery of the Master of Animals Spell Lore.
+  chartype: CharacterVsD
+  group: spell
+  value: 0
+  formula: '#0'
+  category: spell
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485047
+  modifiedTime: 1697655934978
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-spell-lores.Item.g3cm4xJW8gi4QCHc
+  duplicateSource: null
+_id: 8punpit1zVjOFHqU
+sort: 0
+_key: '!items!8punpit1zVjOFHqU'
+

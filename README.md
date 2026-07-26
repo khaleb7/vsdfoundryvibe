@@ -10,7 +10,7 @@ Community continuation of the [official Against the Darkmaster Foundry system](h
 2. Paste the **Manifest URL** from the latest GitHub Release:
 
 ```text
-https://github.com/OWNER/vsd/releases/latest/download/system.json
+https://github.com/khaleb7/vsdfoundryvibe/releases/latest/download/system.json
 ```
 
 3. Create or open a world using **Against the Darkmaster**.
@@ -36,19 +36,20 @@ The folder name **must** be `vsd` (matches `"id"` in `system.json`).
 | Field | Value |
 |-------|--------|
 | `compatibility.minimum` | 13 |
-| `compatibility.verified` | 13 (smoke-test V14 before bumping `verified` to 14) |
+| `compatibility.verified` | 14 |
 | `maximum` | *(unset — do not lock out future cores)* |
 
 ### What changed for V13/V14
 
 - ApplicationV2 actor/item sheets (`ActorSheetV2` / `ItemSheetV2`)
-- `template.json` → `documentTypes` + TypeDataModels (`module/data/models.js`)
+- `template.json` removed → `documentTypes` + TypeDataModels (`module/data/models.js`)
 - Combat tracker AppV2 PARTS + VsD action UI
 - Scene controls object API (`controls.tokens.tools…`)
-- Status effects use `name` / `img` (V14-safe)
+- Status effects use `name` / `img`; action toggles use ActiveEffects (V14-safe)
+- Chat message hook uses `renderChatMessageHTML`
 - CSS `@layer vsd` / Theme V2 helpers
 
-See [V13-V14-INVENTORY.md](V13-V14-INVENTORY.md) for the static breakage checklist.
+See [V13-V14-INVENTORY.md](V13-V14-INVENTORY.md) for the breakage checklist status.
 
 ## Packaging a release
 
@@ -56,7 +57,7 @@ See [V13-V14-INVENTORY.md](V13-V14-INVENTORY.md) for the static breakage checkli
 .\tools\package-release.ps1
 ```
 
-Produces `dist/vsd.zip` and a release-ready `dist/system.json` with matching download URLs (edit `OWNER/REPO` in the script or `system.json` first).
+Produces `dist/vsd.zip` and a release-ready `dist/system.json` with download URLs for `khaleb7/vsdfoundryvibe`. Upload both as GitHub Release assets.
 
 ## License & attribution
 

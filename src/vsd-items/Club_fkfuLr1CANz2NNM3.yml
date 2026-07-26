@@ -1,0 +1,60 @@
+name: Club
+type: Container
+img: systems/vsd/icons/items/weapons/wood-club.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.31EHRbSucYk77wEi
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Blunt: Club (Impact)'
+      type: Melee-Attack
+      img: systems/vsd/icons/items/weapons/wood-club.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Blunt
+          Max: 110
+          Crit Table: Impact
+          Range: -
+          Qualities:
+        chartype: CharacterVsD
+        group: Melee-Attack
+        sort: -1
+        value: 0
+        formula: '@blunt'
+        damage: 7.2 Blunt Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        armourDiv: 4
+        minST: oe
+        weight: 110
+        reach: 5
+      folder: GFdYwZsTR7JEVb3q
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+        UX6nCwJ29hO5ENUt: 3
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490214
+  modifiedTime: 1697655935039
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.31EHRbSucYk77wEi
+  duplicateSource: null
+_id: fkfuLr1CANz2NNM3
+sort: 0
+_key: '!items!fkfuLr1CANz2NNM3'
+

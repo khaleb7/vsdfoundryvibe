@@ -1,0 +1,92 @@
+name: Hulking Brute
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: qHFWdaPr32LNbsJ7
+      name: Hulking Brute
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: 1xJFGI5ep2jpDDD5
+      sort: 150000
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.3MJcRbKolAyseDdW
+      system:
+        notes: >-
+          Hulking Brute: Your Kin are Large in Size and reduce any Critical
+          Strike they receive by one Severity degree (Criticals reduced under
+          the Superficial Severity are ignored altogether). They also ignore any
+          Stun result when receiving a critical from a non-magical attack.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689459566319
+        modifiedTime: 1689508899140
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+    - name: Hulking Brute (Crit & Stun)
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: 1xJFGI5ep2jpDDD5
+      sort: 150000
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.3MJcRbKolAyseDdW
+      system:
+        notes: >-
+          Your Kin reduce Crits they receive by one degree and ignore any Stun
+          result from a non-magical attack.
+        chartype: CharacterVsD
+        group: revelation
+        applied: false
+        category: advantage
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.31'
+        coreVersion: '11.305'
+        createdTime: 1689459566319
+        modifiedTime: 1689509119449
+        lastModifiedBy: NGjHOnRrH6sCNw2O
+      _id: UupJvTBkwTEJSI82
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485622
+  modifiedTime: 1697655935033
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: cFrna2bCCO8EChpe
+sort: 600000
+_key: '!items!cFrna2bCCO8EChpe'
+

@@ -1,0 +1,61 @@
+name: Fog
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.1yt2IFWP35BwE1rm
+pages:
+  - name: Fog
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Eldritch Tide"> <td>Lore:</td> <td>Eldritch Tide </td> </tr>
+        <tr> <td>Weave:</td> <td>2nd </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Eldritch Tide" data-weave="2nd"
+        data-spell="Fog" data-range="30 m" data-aoe="3 m/lvl radius"
+        data-duration="P" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Fog </td> </tr> <tr> <td>Range:</td> <td>30 m </td>
+        </tr> <tr> <td>Area of Effect:</td> <td>3 m/lvl radius </td> </tr> <tr>
+        <td>Duration:</td> <td>P </td> </tr> <tr> <td>Save:</td> <td>N </td>
+        </tr> </tbody> </table>
+    _id: iElbQGJD6KNQtHYi
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!W4K0sYTTnkUhEiAl.iElbQGJD6KNQtHYi'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105636
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.1yt2IFWP35BwE1rm
+  duplicateSource: null
+_id: W4K0sYTTnkUhEiAl
+sort: 0
+_key: '!journal!W4K0sYTTnkUhEiAl'
+

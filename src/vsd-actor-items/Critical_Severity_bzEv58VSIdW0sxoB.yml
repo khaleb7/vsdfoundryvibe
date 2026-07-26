@@ -1,0 +1,50 @@
+name: Critical Severity
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: note
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: Superficial
+  entries:
+    - value: 0
+      formula: '0'
+      label: Superficial
+    - value: 10
+      formula: '10'
+      label: Light
+    - value: 20
+      formula: '20'
+      label: Moderate
+    - value: 30
+      formula: '30'
+      label: Grievous
+    - value: 50
+      formula: '50'
+      label: Lethal
+  temporary: false
+  once: false
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377400765
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: bzEv58VSIdW0sxoB
+sort: 11100000
+_key: '!items!bzEv58VSIdW0sxoB'
+

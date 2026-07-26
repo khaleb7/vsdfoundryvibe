@@ -1,0 +1,74 @@
+name: Daredevil
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.wOblB2LwLi9BDtkE
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Daredevil
+      type: Trait
+      system:
+        notes: >-
+          Let others take 'safe' choices and worry about the odds. You are a
+          hero; you are meant for greater things and know that often fortune
+          favors the bold.
+
+          - Minor (cost 1 BP):  Whenever you use at least one point of Drive
+          while attempting an action with a Difficulty of Extremely Hard or
+          higher, you get a special +10 bonus to your Roll, in addition to the
+          normal benefits granted by the Drive expense.
+
+          - Major (cost 3 BPs):  Additionally, once per session when you
+          Critically Fail a Heroic or Insane Skill Roll, you gain a Drive Point.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Daredevil
+      type: Modifier
+      system:
+        notes: >-
+          Whenever you use at least one point of Drive while attempting an
+          action with a Difficulty of Extremely Hard or higher, you get a
+          special +10 bonus to your Roll, in addition to the normal benefits
+          granted by the Drive expense.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: ''
+        tempName: Daredevil
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485236
+  modifiedTime: 1697655935034
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.wOblB2LwLi9BDtkE
+  duplicateSource: null
+_id: cn6HwrxtacU8or5D
+sort: 0
+_key: '!items!cn6HwrxtacU8or5D'
+

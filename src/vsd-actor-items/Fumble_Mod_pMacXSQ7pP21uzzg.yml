@@ -1,0 +1,83 @@
+name: Fumble Mod
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: None
+  entries:
+    - value: 0
+      formula: '0'
+      label: None
+    - value: 10
+      formula: '+10'
+      label: Short Edged
+    - value: 10
+      formula: '+10'
+      label: Long Impact
+    - value: 10
+      formula: '+10'
+      label: One Handed Axe
+    - value: 10
+      formula: '+10'
+      label: Javelin
+    - value: 20
+      formula: '+20'
+      label: Long Edged
+    - value: 30
+      formula: '+30'
+      label: Two-Handed
+    - value: 30
+      formula: '+30'
+      label: Chain
+    - value: 50
+      formula: '+50'
+      label: Polearm
+    - value: 50
+      formula: '+50'
+      label: Net
+    - value: 50
+      formula: '+50'
+      label: Whip
+    - value: 10
+      formula: '+10'
+      label: Short Bow
+    - value: 10
+      formula: '+10'
+      label: Sling
+    - value: 20
+      formula: '+20'
+      label: Heavy Crossbow
+    - value: 30
+      formula: '+30'
+      label: Composite Bow
+    - value: 50
+      formula: '+50'
+      label: Longbow
+  temporary: false
+  once: false
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377461501
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: pMacXSQ7pP21uzzg
+sort: 6900000
+_key: '!items!pMacXSQ7pP21uzzg'
+

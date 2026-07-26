@@ -1,0 +1,696 @@
+13.0.0
+- Community Foundry V13/V14 port (system id remains `vsd`).
+- Migrated Actor/Item sheets to ApplicationV2 (HandlebarsApplicationMixin + ActorSheetV2/ItemSheetV2).
+- Replaced template.json with documentTypes + TypeDataModels in module/data/models.js.
+- Combat tracker updated for ApplicationV2 PARTS; VsD action declaration UI retained.
+- Scene control button registration updated for V13 object-shaped controls.
+- Status effect / token HUD helpers use name+img (V14-safe); removed TokenDocument.effects/overlayEffect usage.
+- CSS wrapped in @layer vsd with Theme V2 scaffolding in test.css.
+- Manifest compatibility: minimum 13, verified 13, maximum removed.
+
+12.290
+- swapped out the Magic Points item in the VsD Actor Items compendium for one 
+with a new formula `((@level.voc+@level.stat) * @level.ranks) + @kinmp` for the 
+max value.
+- updated all of the vocation Container items in the VsD Items compendium to 
+include their Magic Stat and applicable Spell Lores.
+- The max Magic Points are now calculated automatically if you use any of the 
+mechanisms available in the Kin: Modifier items to modify KinMP, or in the 
+Vocation: Variable items to set the MP per Level and/or the Magic Stat.
+
+12.289
+- added a rudimentary ERA xml importer to the scripts tab. Paste the contents 
+of an ERA XML file into the text area, click outside it, then click on the 
+importer text. Wait until the text area clears.
+- added the plain text notes field back onto the sheet below the rich text 
+notes field.
+- bugfix: removed the call to core content actor items as there are none.
+
+12.288
+- fixed a bunch of html mistakes that creep in with auto-formatting that caused 
+behaviour errors. Collapsing sections should collapse again and skill totals 
+should provide a proper accounting again.
+
+12.287
+- added an initiative setting for the Foundry default combat tracker of 
+`CONFIG.Combat.initiative.formula = "@bs.value"` which will draw the initiative 
+value from the sheet whenever you roll, or reroll initiative in the combat 
+tracker. It will not do it automatically when you advance the round; you would 
+have to reset initiative, run a macro to roll the initiative for selected 
+tokens, and then roll all in the tracker to update them with a new initiative 
+value. There are many other options available to you if you alter the CONFIG 
+setting above, because you may access any data values inside the actor.system 
+object from that formula if you know what you are doing, or just change it to 
+"2d10" if you like. Have fun!
+
+12.286
+- updated the token-tooltip-alt-vsd-config.json to work on v12. It is located 
+in data/systems/vsd/data-toolbox/data/
+- the sling attacks now properly indicate whether they are for the 1st round or 
+the 2nd round of prep.
+- the grapple,kick and punch weapon containers now contain all five sized 
+attacks with the max value preset and appropriately named. Actor templates and 
+default actor items have been updated to contain the medium attack size by 
+default.
+- it was noted that while checking the perm setting for a modifier changed the 
+colour to bright green, unchecking it did not revert the colour to dull green. 
+This is because the colour indicates whether or not the modifier is inEffect 
+and while checking perm toggles it to true, unchecking it does not toggle it to 
+false. There was a reason a very long time ago for making it behave like that 
+but I cannot remember what it was. :-)
+
+12.285
+- updated the template actors to make them a bit easier to use.
+
+12.284
+- The Macro Update
+- the code under the macros folder has been cleaned up and the compendium items 
+have been updated.
+- Folder Items (Copy, Delete and Update) - now permit all world actors to be 
+affected at once.
+- Folder Join Journals - combines all journals in a folder into a single 
+journal.
+- Folder PrototypeToken Config - allows you to create and change the Token 
+settings for all actors in a folder.
+- Token Compendium Items Copy - copies all the items from a named world 
+compendium onto the selected tokens.
+- Token Items Delete - is very dangerous and allows you to set some criteria to 
+select the items that will be deleted from the selected tokens.
+- Unlock Compendia - maybe not useful to most but it unlocks all compendia at 
+once. You could easily write a reverser to lock all compendia as well.
+- VsD Health Adjustment - allows you to generate draggable Damage, Healing and 
+Soul Damage in a chat message.
+- VsD Declare Selected Token Actions - allows you to select tokens and make 
+their action declarations. Very useful for the GM.
+- VsD Get Target Defences - generates draggable EDB data in a chat message. 
+Drag the value onto the attacker to set their EDB. Haven't used this one in a 
+while because there is better support in the attack dialog now.
+- VsD Set Combat Tracker Actions - allows you to reconfigure the actions that 
+one can declare in combat. Useful if you want to modify the phased declaration 
+system. It needs to be run after each world refresh, however.
+- VsD Toggle Shield Position - allows you to do this for the selected token.
+- VsD Set Movement Rate - changes the Move Rate item value for the selected 
+tokens.
+- VsD Set Weapon Length - places a light fan in the front arc of the token at 
+the length you choose. The is a house rule that may or may not be useful to 
+you.
+- VsD Vision Light Settings - this is an old one refreshed for v12 and uses 
+the vision trait on the selected tokens to determine their actual vision range 
+and quality based on the lighting conditions where they are. It also allows you 
+to plant a light source on them at the same time. It will not take the light 
+source into account for the vision range so you may need to set them both at 
+the same time.
+
+12.283
+- added a vsd-status-effects compendium to work with the status effects panel
+- added effects for Charging, Flank Attack, Rear Attack and Full & Half Action
+- removed the condition items from all compendium actors as they are now 
+redundant
+
+12.282
+- removed about 2200 lines of old and unused data from each stored actor. Not a 
+huge saving, but it was annoying to filter through when trying to edit actors 
+manually.
+- cleaned up any remaining modifiers or variables with a blank first entry. 
+There were a couple of hundred of them and they are confusing to people just 
+starting to use the system and who missed the transition.
+- added a compendium folder to group the base system compendiums and make the 
+compendium sidebar a bit tidier.
+
+12.281
+- made a style adjustment that affects the core-content module by removing the 
+default shadows behind folder header text. It makes folders with light or 
+bright backgrounds less readable in the base system, however, so darken or dim 
+them a bit to compensate.
+- updated the code in the migration script to avoid deprecation messages for 
+when I next need to use it.
+- tuned the containers a bit so it is obvious that you may now use the notes 
+field for notes and so the deploy and remove items buttons are below the group 
+field.
+
+12.280
+- changed the field name for targets in Modifiers to "Target1, Target2, ..." 
+to help people use them as intended.
+- changed the behaviour of Container items so they do not automatically drop 
+their items when added to an actor but show the Container sheet as with other 
+items. They still remove their items when deleted though. A couple of 
+"buttons" have been added to the Container sheet, so that you may deploy and 
+remove their items from their actor. Be careful not to deploy them more than 
+once or you will orphan previously dropped items; although that is a sneaky 
+way to permanently add some items to your actor before removing the Container.
+- you may now add Containers to other Containers. Be careful with this feature.
+- added a per-client setting to delay the refresh of dialog windows so the 
+update of data has time to take place on the actor.
+- fixed the background colour of the combat tracker action declaration 
+dropdown.
+
+12.279
+- bugfix: compendium containers now deploy items with their correct data.
+- the changelog journal now links to the live changelog document.
+- container notes may now be used for notes instead of for data to build the 
+items contained by them.
+
+12.278
+- added a statusEffectChoice system setting that allows you to choose the 
+foundry default status effects, the ones defined for the ruleset you are using 
+by the system, or to define your own by creating a 'world' compendium for Items 
+named 'Status Effects' and adding your Modifier items to it. They must have a 
+name and an image and must be Always On because they will only be added to the 
+token when the status is set and removed when it is unset. You can use either 
+the token HUD to toggle your status effects or the new Token control Tool to 
+'Assign Status Effects'. Click on the new tool icon to open a dialog with the 
+status effects laid out in large format. Then select as many tokens as you like 
+and toggle the effects you click on. Close the dialog when finished. If you 
+have added modifiers to the Status Effects compendium with the same name as a 
+Foundry or Ruleset Effect, your modifier item will be added and removed from 
+the token as usual. Do have fun with this one.
+- cleaned up the SETTINGS field in en.json and fr.json and added a few items. 
+es.json is very out of date and I would be happy to work with someone to 
+update it.
+
+12.277
+- added dragging death to trigger status effects thanks to Sergio. Made a 
+refinement to provide basic function without extra hooks and to use the v12 
+functions rather than deprecated ones.
+
+12.276
+- bugfix: creating a new actor now only creates one copy of each item, no 
+matter how many GMs are logged in.
+- bugfix: new items are created with the correct icon and data fields 
+populated.
+- bugfix: toggling the "Mark Defeated" icon for a combatant will correctly 
+mark them as defeated.
+- bugfix: a defeated combatant will again be marked with a red background
+- feature: in the event that a token actor has been changed since it was 
+placed on a scene, any rolls, including those triggered by clicking a link in 
+a chat card, will refer to the actor of the selected token rather than the 
+original template actor. The template actor will only be used if the token 
+selected is not of that actor.
+
+12.275
+- ready for public testing and premium content is published for v12
+- removed the dynamic actor sheet from the system. The bestiary has been 
+upgraded with actors compatible with the classic actor sheet but you will have 
+to convert / recreate any actors you have built for dynamic behaviour to 
+classic behaviour. All the items and the new actor templates will likely make 
+that much less painful than it might otherwise be.
+- changed the Drive modifier item to use the Drive Point Bonus variable item to 
+select a bonus from +0 to +50 in 10 point increments. You will have to use the 
+Copy Folder Items macro to copy these items onto existing actors but all new 
+actors will come with them pre-loaded.
+- please let me know quickly if you spot any bugs I have missed.
+
+12.274
+- upgrade to v12 functional and ready for private testing
+
+2.72
+- shifted the code for all Hooks to vsd.js rather than each in a separate file.
+- much more localisation work done by helpful users, to enable them to use 
+homemade material. Many thanks to AntoineleMJ and Spynol for adding to work 
+begun by sedryk.
+- bugfix: the old journals were being opened instead of the premium content
+
+2.71
+- temporary fix to the combat tracker permitting players to end their turn. The 
+End Turn button will be visible to them now, even if it is not their turn so 
+expect an error message if they hit the button on someone elses turn and an 
+info message if they are the last combatant in a round to act, saying that they 
+cannot advance the round and to inform the GM.
+
+2.70
+- added an open-ended dice modifier in the form 1d100oe. Options include 
+oe2<5>96 (max depth, lower and upper targets separately), oe2=5 (max depth and 
+the same range for upper and lower), oe5 (same range for upper and lower with 
+no max depth), oe (default range for upper and lower of 5% of faces and no max 
+depth). In all cases, the results that form an explosion are displayed as 
+inactive immediately following the summarised result.
+- bugfix: corrected a long-standing error in the grapple critical strikes table.
+
+2.69
+- bugfix: clicking on an element in a Journal Entry Page would send two chat 
+messages if the JournalEntry had more than one page. As we are consolidating 
+JournalEntries into combined documents in the premium content module (vsd-core) 
+this would have started happening a lot but I think I have fixed it.
+- renamed the vsd-core packs so references to them in the vsd system have been 
+changed to match.
+
+2.68
+- final changes to enable the premium content.
+
+2.67
+- made a simple css change without which the premium content does not work.
+
+2.66
+- fixed the header section of the VsD Combat Tracker
+
+2.65
+- bugfix: repaired the path to the premium content journals
+- changed the Deep Culture armor ranks from 2 to 3
+
+2.64
+- bugfix: tidied up the migration script to act when it is supposed to.
+- added the functionality to automatically populate an actor, who is created 
+from the sidebar, with the default PC template items (stored in VsD Actor 
+Items so you can edit them if you want) and to open it with the Classic Sheet 
+instead of the original dynamic sheet. This will catch any currently empty 
+actors you may open as well.
+
+2.63
+- made some changes to the appearance of system compendia
+- enabled the lookup of premium content journals in the right priority with 
+system and world journals. None of the journals in compendia need to be 
+imported into the sidebar unless you want to override them.
+- fixed a broken drag behaviour for pools in containers.
+
+2.62
+- fixed the classic sheet variables and modifier sections at the bottom of the 
+Main and Combat tabs to include special and defence variables and modifiers, 
+formatted to function correctly according to their type.
+
+2.61
+- added KinMP and new Magic Points items to the actor templates
+- tidied the Kin Template items so the modifiers and variables don't have an 
+extra entry at the top.
+- added a journal hook so that an entry in a journal with 
+`<p class="open-compendium" data-name="vsd.vsd-items">Some Text</p>` will open 
+the VsD Items compendium when clicked. If you drag a folder in the compendium 
+onto the journal page in edit mode, it will provide the look and the 
+information you need to enable this behaviour for any compendium.
+
+2.60
+- created scripts to clean the databases (compendia)
+- bugfix: skill heading tooltips are now connected properly to localisation
+
+2.59
+- bugfix: script tab export items works again
+- bugfix: dynamic sheet main tab fixed the stats header
+- bugfix: dynamic sheet header fixed move values and labels
+- bugfix: classic sheet combat tab defence variables and modifiers are 
+displayed again.
+- improved the function of difficulty, attack level, overcasting and attack 
+spell range items on template actors and bestiary. The default save roll is now 
+against attack level 1.
+- added some tweaks to fr.json from @Sedryk
+
+2.58
+- added a missed localisation string.
+- tidied the databases and fixed the script to do that
+
+2.57
+- made the Armor and Body skills rollable
+
+2.56
+- caught some more sneaky localisation bugs, populating stat abbreviations 
+with "nil" so they are never empty, and fixing non-standard skills in the 
+advancement tab.
+- automated bleeding each round in FANCombat as well as VsDCombat.
+- bugfix: the modifier dialogs for Body and Armor now work correctly to 
+break down the modifiers for those skills.
+- bugfix: the GMod input on a rollmacro dialog window now applies the modifier 
+for the roll but not in the display. I think that is intentional to avoid 
+applying it twice. You may hit tab or enter to set the value again.
+
+2.55
+- bugfix: Custom and Specialty skills will now be displayed as named along 
+with Spell Lores.
+- added the FANCombat Tracker unlocked by the Four Amigos House Rules system 
+setting for those who prefer a turn-based action point system. Added a couple 
+of items under Various Items in the compendium to make that work properly.
+- added two Custom Initiative Roller macros, one with (1d10 + SWI/5) and the 
+second with (2d10 + SWI/5 + WSD/5).
+- added a Set Move Rate macro to set the move rate of selected tokens to the 
+value of the button selected. It includes a Step move rate which can easily be 
+deleted for a standard game. This works well with Drag Ruler module use.
+- updated the VsDCombat Tracker to allow the players to indicate they are ready 
+by clicking on the combatant name in the tracker to toggle it from red to green.
+
+2.54
+- The final installment (for a while) of changes to enable people to play the 
+game in their own language as started in the previous release.
+
+2.53
+- added some translation for the main tab so stats, skills, saves and skill 
+categories can all be rendered in the users language. More to follow.
+
+2.52
+- bugfix: variables/dropdowns are now displaying the first entry as they are 
+supposed to.
+
+2.51
+- modified all Modifiers and Variables so that all entries are valid and there 
+is not a preparatory entry above the labels anymore. A migration should remove 
+the empty first entries.
+
+2.50
+- added a macro for the gm to copy all items from a named world compendium to 
+all selected tokens. This will allow the gm to prep all tokens with conditions 
+before using the new toggle compendium effects macro during the battle.
+
+2.49
+- updated the toggleFolderEffects macro again to work with new behaviour
+- new: if you drag a critical result containing a bleed or stun result onto a 
+token, the status icon will automatically display. If you have a folder of 
+conditions containing either of those, you can use the toggleFolderEffects 
+macro to turn them off and disable the modifier on the actor at the same time. 
+There will be more draggable effects from critical strikes coming in the 
+future.
+- if using the VsD Combat tracker, when the round is advanced, bleeding damage 
+will be automatically applied to any bleeding combatant.
+
+2.48
+- added localisation elements for attack headers and finished armour
+- fixed an undetected bug in armour so the tooltip works and refactored the 
+section in the process.
+- added localisation for the one element on the advancement tab
+
+2.47
+- more localisation elements added and ready for translation
+
+2.46
+- fixed all the improperly formatted svg files so the system will work on 
+Firefox.
+- rewrote the Toggle Folder Effects macro to work better. It still occasionally 
+and for no known reason hides the status icons of a token behind the token 
+image. Refreshing the world brings them back to the front.
+- fixed a previously undetected bug with storage of modifier references on an 
+actor.
+
+2.45
+- testing updated fr.json
+
+2.44
+- expanding and tidying up localisation (with @sedryk on the French) with 
+scripts, all-items, the header and main completed and ready for substitution.
+- experimenting a bit with unpacking and repacking the new databases (not fun)
+
+2.43
+- compensate for the Foundry trait of wrapping journal table cell contents in 
+<p></p> tags by making the margins of those paragraphs go away.
+- bugfix: dragging traits from the Skills tab now works again.
+- bugfix: modifying the "Defences" Armor and Body now displays that modifier 
+under the Kin column of the skills list.
+- just as any modifiers to Body (Defence) must also be made to KinVoc (Primary) 
+and any modifiers to Attacks must also be made to their governing Skill or 
+Spell, so must modifiers to Armor (Defence) also be made to ArmPen (Primary).
+- bugfix: corrected the Javelin attack bonus to include the Polearms skill.
+
+2.42
+- bugfix: you can delete a Container even if some of its dropped items are no 
+longer on the sheet.
+- removed the redundant _replaceData() function on the item-sheet
+- bugfix: all of the numerical entries of a Variable will calculate their new 
+value even if they are not the entry selected. This is to make placeholder 
+items like Vocation DP work properly.
+
+2.41
+- bugfix: the SVG icons now all have their height and width defined in Pixels 
+so the system will work in Firefox.
+
+2.40
+- bugfix: None of the items in the traits section of the main tab were 
+draggable nor were the conditions and wounds on the combat tab. They are now.
+
+2.39
+- updated the Actor templates to allow NPCs to spend Drive and to change the 
+Move and Attack modifier to Half-Move and Attack.
+- fixed the Nimble kin trait so it modifies Acrobatics and not Athletics.
+- changed the Toggle Folder Conditions macro so it deletes conditions as it 
+toggles them off. It also defaults to a folder named "Conditions" not 
+"conditions".
+- added a Custom Initiative Roller macro for those who want a turn-based 
+combat experience.
+
+2.38
+- bugfix: deleting an entry in a modifier or variable works again.
+- renamed a bunch of elements on the container, modifier and variable 
+item-sheets to allow the same function to work on each of them. The code 
+trade-off was about 6:1 in consolidating the functions so hopefully it is more 
+efficient as well as being much more easily maintained.
+
+2.37
+- ensured that the list of entries in both Variables and Modifiers is always an
+array to save resources used to convert them from an object.
+- cleaned up the migration script in preparation for needing it to adjust for 
+breaking changes in the future.
+- fixed an unknown bug in the header of the classic sheet where move rate was 
+displayed incorrectly.
+- rebuilt Variable item processing so it can detect when the selected entry is 
+out of sync with the data it is storing.
+
+2.36
+- created a process that eliminates the requirement to import any of the 
+system journals and to give priority to any that are imported into the 
+sidebar. It creates and stores the best reference to each journal page for the 
+system to use.
+- created a macro to join pages from different journal entries in a folder 
+into a single journal entry.
+- added a system function to close open journals, centralising that feature.
+
+2.35
+- added a collapsing section to hide the modifiers at the bottom of the Combat 
+and Overview tabs.
+- shifted the arrays of items created for display purposes into the sheetData 
+structure to clean up the view of the actor.
+- removed some redundant processes to improve performance.
+- removed APECS code as that experiment has run its course.
+- created added showJournal(journalName) to the system to centralise this 
+function. It fetches JournalEntries from a memory storage where they have been 
+gathered from various compendia.
+- added slugify(text) to the system to centralise this function. It removes 
+spaces, hyphens and unprintable characters then converts the whole thing to 
+lower case, allowing the result to be used in the code as a valid reference. 
+The function was there already, but distributed.
+
+2.34
+- bugfix: the armor skill value was not displaying properly in Applicable 
+Character Values on the Combat tab.
+- the actor templates needed some adjustment.
+- added support for pow(value, exponent) in formulae
+- added a feature for dialog windows so you can hit Enter to set the value of 
+a field instead of having to click outside the field to set the value.
+- added better detection and prevention of dropping an item back on the actor 
+it came from.
+
+2.33
+- bugfix: the level column of the saves section on the classic sheet was just 
+multiplying level by 5 instead of using the ranks calculation.
+- added a context menu option to clone the item
+
+2.32
+- removed the extra compendia from the system
+- bugfix: system compendia are now uncorrupted and so may open properly
+- added the Language category to Traits
+- added the Character Trait category to Traits and a section to display them
+- added chat bubbles to traits on the skills tab so their notes may be sent to 
+the chat log.
+- added a macro that allows you to set your own combat phases instead of using 
+the default for the system. They only last until the game world is refreshed.
+- separated the macros into player and GM folders so you can restrict player 
+access to those they should use.
+- fixed the actor templates so you can create an NPCs basic abilities without 
+leaving the Skills tab.
+
+2.31
+- The bug in the combat tracker has gone away and was likely in Foundry
+- content has migrated to v11 and a bunch of it has gone missing. Some 
+containers are empty.
+- changing Kin Templates so they are containers, not actors.
+- consolidated the system items into a single compendium
+- consolidated the system actors into a single compendium
+- consolidated the system journals into a single compendium
+- bugfix: token deprecated error fixed
+- removed an override to force actor update when item changed
+- preparing to eliminate the requirement to modify attacks and their skills
+
+2.30
+- start of Foundry VTT v11 development
+- need to fix the bug in the combat tracker
+
+2.29
+- I have changed to Equipment-sheet so the big space is for the big data and 
+changed the display in the classic sheet so you can add html formatting to the 
+description if you like. Let me know if you would like this all to be sent to 
+the chat as a specially formatted message.
+
+2.28
+- At the request of a GM, I have added a system setting that prevents the Table 
+from popping up when a roll is made. They can still be opened from the chat 
+message as usual.
+
+2.27
+- opened the option for you to test a copy of your world in a Node.js server 
+running FoundryVTT v11. Do not replace your v10 install with v11 yet and do 
+not test it with the only copy of your world data. There is no going back 
+from this migration of your data.
+- I have done this and encountered no issues. I would like you to try and let 
+me know if you have any.
+
+2.26
+- bugfix: creating a formula with no valid reference no longer creates an 
+endless loop of searching for it.
+- added more information to error reporting and debugging of bad formulae.
+- changed many debug and error messages to warnings
+
+2.25
+- tweaked containers so they don't choke on hard returns in the item 
+information.
+- bugfix: MPs in the header were broken.
+
+2.24
+- French labels are just about finished by @risto74
+- Fixed the Weapon and Background Compendia with their containers properly 
+updated.
+
+2.23
+- improved Container function
+- expanded localisation support and reconfigured and trimmed it in en.json. It 
+is not finished but is much closer than before. Thank you @risto74
+
+2.22
+- improved Containers so they build the dropped list when you paste item 
+definitions into them if they are on an actor. This allows legacy Containers 
+to be linked to items they have previously dropped.
+- removed the attempt to delete legacy Containers from actors in the 
+migration script.
+
+2.21
+- bugfix: creating the items of a container from an Array of JSON objects 
+pasted into the notes field will now update the item so it remembers to keep 
+them. This will work for legacy compendium items as well.
+
+2.20
+- bugfix: deleting a legacy Container from an actor no longer causes an error.
+- added a migration step to clean up some items and to remove containers from 
+most actors; I cannot remove them from unlinked tokens on a scene. The same 
+step preps any remaining containers to be corrected after the world is 
+refreshed a second time. Excpect a lot of errors on the migration pass, but 
+none on the one after that.
+
+2.19
+- fixed the broken labels in All Items
+- added an item filter to All Items. Click on the names of the item types you 
+wish to see, or none for unfiltered.
+- upgraded the Container Item type:
+  - to allow visual identification of the contents
+  - to permit dragging individual items from the container onto actors/tokens
+  - to permit items to be dragged onto the container to fill it
+  - to paste an Array of JSON objects into the notes field to populate it
+  - to drop the container onto an actor/token then, when deleted, remove all 
+  the items thus created from the actor/token as well (in case of mistakes).
+
+2.18
+- enabled editor enrichment for the actor notes so you can drop links to other 
+documents again.
+- Fixed the Journal hook that was trying to identify spell journals.
+
+2.17
+- Enabled dual item function. A non-trait item can be displayed with and 
+behave like a trait if the first word of the group field is Passion, 
+Revelation, Kin or Background.
+- modifier entries now have a moddedvalue.
+
+2.16
+- bugfix: Now the sheet will open too :-)
+
+2.15
+- added a warning in the combat tracker for advancing the round.
+- bugfix: the skills will now roll on the dynamic sheet. Thanks @Skellan
+
+2.14
+- bugfix: found and fixed many unmigrated hyphens in the system data.
+- bugfix: soul damage is applied properly again, now that Soul Damage is a 
+Primary-Attribute instead of a Pool.
+- NOTE: if you are having trouble with unrecognised roll types, it is likely 
+that your system did not migrate properly to 2.13. Change the system setting 
+for system version from 2.13 to 2.0, save and refresh. Do not touch the system 
+until it says it has finished the migration. If all is not sorted by that, try 
+once more, then contact me.
+- improved the efficiency of data management when displaying the actor sheet.
+- bugfix: Because of the fix to VsD combat, the End Turn button sometimes did 
+not display for players. It now displays for them all the time.
+- feature: VsD Combat now advances the round automatically when the last 
+combatant ends their turn, unless it is a player, in which case the player is 
+told to notify the GM to advance the round manually. Advancing the round 
+manually will also reset any non-null initiatives so can act as a reset button 
+or may be used to clear the current declarations.
+
+2.13
+- APECS fixes and upgrades (more to come, but this is the best version yet)
+- conversion to integrated items (huge refactoring under the hood)
+- migration script to help convert all references to the underscore model 
+instead of hyphens.
+
+2.12
+- bugfix: At last! I think I have solved the combat tracker issue where a 
+combatant who performs and interrupt not only moves to the top and looks like 
+they are selected, but actually are the person who completes their turn when 
+you hit end turn.
+
+2.11
+- added drag and drop behaviour for Variables and Modifiers (even between a 
+Modifier and a Variable).
+
+2.10
+- bugfix: tokens will again rotate while the sheet is open.
+- updated the All Items tab to a new look and function.
+- am considering upgrading the entire system to the new, fully integrated item 
+approach. A lot of work for no visible effect (except a performance gain) but 
+then easier to maintain in common with my other systems on Foundry.
+- added an updated guide to APECS in the journal compendium.
+
+2.09
+- enhanced the system settings behaviour and fixed a bug regarding the 
+variable and pool placements.
+- made defeated combatants a bit more obvious.
+- tried to shift any APECS code out of standard VsD classes and am working on 
+tidying that up incrementally.
+- added the ping icon to the combat tracker. It replaces the Pings module.
+- A massive overhaul of APECS, under the hood, to change it from phased to 
+strictly timeline behaviour. Testing soon to see if I got it right this 
+time :-)
+
+2.08
+- added the Health Adjustment macro to allow application of rolled Damage, 
+Healing and Soul Damage by the GM.
+- added a link to the skill description journal in skill roll chat messages.
+
+2.07
+- undid the size restriction for 2nd crit. Too many exceptions.
+- added soul damage mechanic. Check the items dropbox for more stuff. You 
+need to have the HP, KinVoc, Soul Damage and Soul Damage Mod from there to 
+make it work. The HP that uses KinVoc for Max has been around for a while.
+
+2.06
+- actors that the system knows are medium or small will not inflict secondary 
+critical strikes.
+- fixed the rollmacro attacks to provide the correct critical tables
+- tidied up the critical strike chat messages.
+- updated the sizes and wealth level items in the dropbox compendium to 
+default to medium and commoner respectively and removed non-canon sizes.
+
+2.05
+- added the secondary critical field for attacks and to the chat messages as 
+necessary.
+- fixed a bug where critical severity would drop on the token actor but the 
+critical would be rolled from the sheet actor.
+- added a blank skill description journal for each skill to prevent error 
+messages.
+
+2.04
+- Updated all the macros to V10 with some improvements
+
+2.03
+- ?
+
+2.02
+- cleanup warnings
+- removed redundant section from classic skills tab
+- fixed token config display
+- fixed the roll-macro function returning multiple values
+
+2.01
+- fixed "close" buttons
+- fixed roll-macro functions from the classic sheet
+
+2.00
+- testing version for FoundryVTT v10 stable

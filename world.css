@@ -1,0 +1,49 @@
+#chat-log .message.narrator-chat {
+    padding    : 0px 8px 5px;
+    border     : 1px solid maroon;
+    color      : silver;
+    text-align : center;
+    line-height: normal;
+    box-shadow : 0px 0px 10px inset black;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+#chat-log .message.narrator-chat.left {
+    text-align: left;
+}
+
+.item.variable.skill,
+.item.poolstyle.skill,
+.item.entry.skill {
+    background-color: aquamarine;
+}
+
+.item.variable.spell,
+.item.poolstyle.spell,
+.item.entry.spell {
+    background-color: aqua;
+}
+
+.item.variable.dodge,
+.item.poolstyle.dodge,
+.item.entry.dodge {
+    background-color: blueviolet;
+}
+
+.item.variable.block,
+.item.poolstyle.block,
+.item.entry.block {
+    background-color: brown;
+}
+
+.item.variable.Melee-Attack,
+.item.poolstyle.Melee-Attack,
+.item.entry.Melee-Attack {
+    background-color: coral;
+}
+
+.item.variable.Ranged-Attack,
+.item.poolstyle.Ranged-Attack,
+.item.entry.Ranged-Attack {
+    background-color: cornflowerblue;
+}

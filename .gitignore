@@ -1,0 +1,15 @@
+# IDE
+.idea/
+.vs/
+
+# samples
+#.samples/
+
+# Node Modules
+npm-debug.log
+node_modules/
+
+vsd.code-workspace
+
+# Release staging
+dist/

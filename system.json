@@ -1,0 +1,163 @@
+{
+  "id": "vsd",
+  "title": "Against the Darkmaster",
+  "description": "Community Foundry V13/V14 continuation of the Against the Darkmaster system (originally by James Huddleston / Open Ended Games). Not an official Open Ended Games release.",
+  "version": "13.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "James Huddleston",
+      "discord": "jameshuddleston",
+      "email": "jbhuddleston@gmail.com",
+      "url": "https://www.youtube.com/channel/UC-WeR6LCq_UuPpldldbGDvw",
+      "flags": {}
+    },
+    {
+      "name": "Community V13/V14 Port",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "vsd.js"
+  ],
+  "styles": [
+    "vsd.css",
+    "test.css"
+  ],
+  "packs": [
+    {
+      "name": "vsd-macros",
+      "label": "VsD Macros",
+      "system": "vsd",
+      "path": "packs/vsd-macros.db",
+      "type": "Macro",
+      "banner": "systems/vsd/icons/darkmaster_logo_offset.png",
+      "flags": {}
+    },
+    {
+      "name": "vsd-items",
+      "label": "VsD Items",
+      "system": "vsd",
+      "path": "packs/vsd-items.db",
+      "type": "Item",
+      "banner": "systems/vsd/icons/darkmaster_logo_offset.png",
+      "flags": {}
+    },
+    {
+      "name": "vsd-actor-items",
+      "label": "VsD Actor Items",
+      "system": "vsd",
+      "path": "packs/vsd-actor-items",
+      "type": "Item",
+      "banner": "systems/vsd/icons/darkmaster_logo_offset.png",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "vsd-status-effects",
+      "label": "VsD Status Effects",
+      "system": "vsd",
+      "path": "packs/vsd-status-effects",
+      "type": "Item",
+      "banner": "systems/vsd/icons/darkmaster_logo_offset.png",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "vsd-journals",
+      "label": "VsD Journals",
+      "system": "vsd",
+      "path": "packs/vsd-journals",
+      "type": "JournalEntry",
+      "banner": "systems/vsd/icons/darkmaster_logo_offset.png",
+      "flags": {}
+    },
+    {
+      "name": "vsd-actors",
+      "label": "VsD Actors",
+      "system": "vsd",
+      "path": "packs/vsd-actors",
+      "type": "Actor",
+      "banner": "systems/vsd/icons/darkmaster_logo_offset.png",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "VsD System",
+      "sorting": "a",
+      "color": "#00dd00",
+      "packs": [
+        "vsd-items",
+        "vsd-macros",
+        "vsd-journals",
+        "vsd-actors",
+        "vsd-actor-items",
+        "vsd-status-effects"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json",
+      "flags": {}
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "CharacterVsD": {
+        "htmlFields": ["biography", "notes"]
+      }
+    },
+    "Item": {
+      "Container": {},
+      "Rollable": {},
+      "Trait": {},
+      "Melee-Attack": {},
+      "Ranged-Attack": {},
+      "Defence": {},
+      "Pool": {},
+      "Modifier": {},
+      "Variable": {},
+      "Primary-Attribute": {},
+      "Equipment": {},
+      "Hit-Location": {}
+    }
+  },
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "tracked.hp",
+  "url": "https://github.com/OWNER/vsd",
+  "manifest": "https://github.com/OWNER/vsd/releases/latest/download/system.json",
+  "download": "https://github.com/OWNER/vsd/releases/latest/download/vsd.zip",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": "https://github.com/OWNER/vsd/issues"
+}

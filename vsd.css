@@ -1,0 +1,2668 @@
+﻿@font-face {
+  font-family: "Ubuntu";
+  src: url("fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("fonts/Ubuntu-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("fonts/Ubuntu-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("fonts/Ubuntu-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("fonts/Ubuntu-Medium.ttf");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("fonts/Ubuntu-MediumItalic.ttf");
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("fonts/Ubuntu-Light.ttf");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("fonts/Ubuntu-LightItalic.ttf");
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("fonts/sabonltstd-roman.otf");
+}
+
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("fonts/sabonltstd-bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("fonts/sabonltstd-italic.otf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("fonts/sabonltstd-bolditalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@layer vsd {
+  :root {
+    --vsd-font-body: "Ubuntu", sans-serif;
+    --vsd-font-display: "Sabon LT Std", serif;
+    --vsd-accent: #c02020;
+  }
+:root {
+  --vsd-font-sans: "Ubuntu";
+  --vsd-font-serif: "Sabon LT Std";
+}
+.window-app {
+  font-size: 10pt;
+}
+.deployItems:hover,
+.removeItems:hover,
+.open-journal:hover,
+.setdefence:hover,
+.rollable:hover,
+.rollable:focus,
+.minus:hover {
+  color: black;
+  text-shadow: 0 0 10px red;
+  cursor: pointer;
+}
+div.collapsible:hover,
+h3.collapsible:hover {
+  color: cyan;
+}
+h3.collapsible.collapsed,
+div.collapsible.collapsed {
+  background-color: dimgrey;
+}
+.plus:hover {
+  color: black;
+  text-shadow: 0 0 10px green;
+  cursor: pointer;
+}
+.roundedcard {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+}
+.rollablecard {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: 1fr 32px 16px;
+  justify-items: center;
+}
+.attackcard {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: 3fr 32px 1fr 16px;
+  justify-items: center;
+}
+.woundcard {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-evenly;
+}
+.roundedheader {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  color: silver;
+  text-align: center;
+  border: 2px solid black;
+}
+.small {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+}
+.smallinput {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+}
+.smallselect {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+  width: 18px;
+}
+.row2 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.col1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.col2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.col3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.col4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.radio-toolbar label {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  color: silver;
+  text-align: center;
+  border: 2px solid black;
+}
+.radio-toolbar label :hover {
+  background-color: black;
+  border-color: maroon;
+  color: silver;
+}
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+.radio-toolbar input[type="radio"] :checked + label {
+  background-color: maroon;
+  border-color: black;
+  color: silver;
+}
+.select {
+  margin-left: 5px;
+}
+.select option {
+  background-color: darkgray;
+  color: maroon;
+}
+.select option:disabled {
+  color: silver;
+}
+input[type="checkbox"] {
+  height: 12px;
+  margin: 3px 0px 0px 0px;
+}
+img.result-image {
+  max-width: 64px;
+  max-height: 64px;
+}
+.compendium-sidebar .directory-item.compendium {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.compendium-sidebar .directory-item.compendium .compendium-name {
+  margin: unset;
+  background: rgba(0, 0, 0, 0.6);
+  color: darkgray;
+}
+.compendium-sidebar .directory-item.compendium .compendium-footer .source {
+  color: lightgray;
+}
+.compendium.directory .directory-header .header-banner {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.compendium.directory .directory-header .compendium-name {
+  margin: unset;
+  background: rgba(0, 0, 0, 0.6);
+  color: darkgray;
+}
+.vsd.sheet.item form {
+  display: flex;
+  flex-direction: column;
+}
+.vsd.sheet.item .sheet-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.vsd.sheet.item .sheet-body .tab {
+  height: 100%;
+}
+.vsd.sheet.item .sheet-body .tab textarea {
+  left: 10px;
+  top: 10px;
+  width: calc(100% - 20px);
+  /* calc and viewport to the rescue */
+  height: calc(100% - 20px);
+  resize: none;
+}
+.vsd.sheet.item hr {
+  width: 100%;
+}
+.section-title {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+  font-family: var(--vsd-font-sans);
+  font-weight: normal;
+  font-size: larger;
+  font-style: normal;
+}
+.section-title a {
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  background-color: burlywood;
+  padding: 2px;
+  margin: 2px;
+}
+.section-title .title {
+  background-color: darkgreen;
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+}
+.vsd.sheet.actor {
+  min-width: 600px;
+  align-content: flex-start;
+}
+.vsd.sheet.actor #context-menu.expand-down {
+  bottom: calc(100% + 2px);
+  top: auto;
+}
+.vsd.sheet.actor .sheet-header {
+  display: grid;
+  grid-template-columns: 50px 9fr 4fr 50px 6fr;
+  font-family: var(--vsd-font-sans);
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  background-color: #ffdead;
+}
+.vsd.sheet.actor .sheet-header .portrait {
+  height: 50px;
+  background: transparent;
+}
+.vsd.sheet.actor .sheet-header .portrait img {
+  height: 100%;
+  width: 100%;
+}
+.vsd.sheet.actor .sheet-header .actorname {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  font-weight: bold;
+}
+.vsd.sheet.actor .sheet-header .posture {
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+}
+.vsd.sheet.actor .sheet-header .initiative {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-auto-rows: auto;
+  justify-items: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: small;
+}
+.vsd.sheet.actor .sheet-header .movement {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: small;
+}
+.vsd.sheet.actor .sheet-header .movement label {
+  justify-self: center;
+  align-self: center;
+  font-weight: 400;
+}
+.vsd.sheet.actor .sheet-header .oats {
+  grid-template-columns: repeat(2, 50%);
+}
+.vsd.sheet.actor .sheet-header .d100 {
+  grid-template-columns: repeat(6, 1fr);
+}
+.vsd.sheet.actor .sheet-header .vsd {
+  grid-template-columns: repeat(6, 1fr);
+}
+.vsd.sheet.actor .sheet-header input {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.vsd.sheet nav.sheet-tabs {
+  font-family: var(--vsd-font-sans);
+  font-weight: bold;
+  font-size: small;
+  font-style: normal;
+  padding: 2px;
+  height: unset;
+  line-height: unset;
+  border-bottom: 2px solid black;
+}
+.vsd.sheet nav.sheet-tabs .tabtitle {
+  text-align: center;
+  padding: 2px;
+  border: 1px dotted black;
+  border-radius: 3px;
+  margin: 2px;
+  background-color: cadetblue;
+}
+.vsd.sheet nav.sheet-tabs .active {
+  background-color: darkolivegreen;
+  color: aliceblue;
+  font-weight: normal;
+}
+.tracked {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+.tracked .trackedpool {
+  display: grid;
+  min-height: 60px;
+  justify-items: center;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid darkgoldenrod;
+  border-radius: 5px;
+  margin: 2px;
+}
+.tracked .abbr {
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+.tracked .valuelabel {
+  grid-area: 1/2/2/3;
+  font-size: smaller;
+}
+.tracked .value {
+  grid-area: 2/2/4/3;
+  height: 80%;
+  width: 36px;
+  text-align: center;
+}
+.tracked .maxlabel {
+  grid-area: 1/3/2/4;
+  font-size: smaller;
+}
+.tracked .max {
+  grid-area: 2/3/4/4;
+}
+.attackmods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.attacks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.attacks .attack {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+}
+.attacks .attack .attackname {
+  grid-area: 1/1/2/3;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: medium;
+  font-style: normal;
+  padding-bottom: 4px;
+}
+.attacks .attack .skill {
+  grid-area: 2/1/3/2;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+.attacks .attack .damage {
+  grid-area: 2/2/3/3;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+.attacks .melee {
+  border-color: darkkhaki;
+}
+.attacks .ranged {
+  border-color: lightcyan;
+}
+.global-modifier,
+.modifier {
+  font-family: var(--vsd-font-sans);
+  font-weight: bold;
+  font-size: smaller;
+  font-style: normal;
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  border-color: black;
+}
+.action.modifier {
+  font-family: var(--vsd-font-sans);
+  font-weight: bold;
+  font-size: smaller;
+  font-style: normal;
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  border-color: black;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+.action.modifier .actionimage {
+  width: 24px;
+  margin-right: 2px;
+  border: none;
+}
+.action.modifier .actiondata {
+  width: 48px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: auto auto;
+}
+.action.modifier .actiondata .actionrate {
+  color: darkgreen;
+}
+.action.modifier .actiondata .actionreq {
+  color: darkred;
+}
+.action.modifier .actiondata .actionvalue {
+  text-align: right;
+}
+.attackmod {
+  border-color: blue;
+}
+.damagemod {
+  border-color: red;
+}
+.attackdamagemod {
+  border-color: purple;
+}
+.global-modifier,
+.genmod {
+  background-color: rgba(255, 127, 80, 0.25);
+}
+.specmod {
+  background-color: rgba(95, 158, 160, 0.25);
+}
+.inEffect {
+  background-color: #88cc88;
+}
+.variables {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.variables .variable {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr 4fr;
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+}
+.variables .variable .variablename {
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: small;
+  font-style: normal;
+  padding-bottom: 4px;
+  grid-column: span 2;
+  text-align: center;
+  align-self: center;
+}
+.variables .variable .value {
+  text-align: center;
+  align-self: center;
+  font-family: var(--vsd-font-sans);
+  font-weight: medium;
+  font-size: small;
+  font-style: normal;
+}
+.variables .variable select,
+.variables .variable option {
+  font-family: var(--vsd-font-sans);
+  font-weight: medium;
+  font-size: small;
+  font-style: normal;
+}
+.defencemods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.defences {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.defences .defence {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+.primarymods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.primaries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.primaries .primary {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+.skillmods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.skills .skill {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+.spellmods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.spells {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.spells .spell {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 1fr 0fr;
+}
+.checkmods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.checks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.checks .check {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+.owneditems .owneditem {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 2fr 1.4fr 1fr 3fr;
+  align-items: center;
+}
+.owneditems .owneditem .iteminput {
+  height: auto;
+}
+.owneditems .containeritem {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 2fr 1.4fr 3fr 20px;
+  align-items: center;
+}
+.owneditems .containeritem .iteminput {
+  height: auto;
+}
+.owneditems .check {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  align-items: center;
+}
+.owneditems .attack {
+  background-color: rgba(255, 48, 48, 0.5);
+}
+.owneditems .roll {
+  background-color: rgba(48, 96, 224, 0.3);
+}
+.owneditems .ability {
+  background-color: rgba(224, 48, 224, 0.3);
+}
+.owneditems .pool {
+  display: grid;
+  grid-template-columns: 2fr 1.4fr 1fr 1.3fr 0.4fr 1.3fr;
+  background-color: rgba(128, 128, 24, 0.3);
+}
+.owneditems .var {
+  display: grid;
+  grid-template-columns: 2fr 1.4fr 1fr 1.5fr 0.75fr 0.75fr;
+  background-color: rgba(48, 96, 48, 0.3);
+}
+.owneditems .mod {
+  display: grid;
+  grid-template-columns: 2fr 1.4fr 1fr 0.75fr 0.75fr 0.75fr 0.75fr;
+  background-color: rgba(0, 192, 0, 0.3);
+}
+.owneditems .containeritem.pool {
+  grid-template-columns: 2fr 1.4fr 1.3fr 0.4fr 1.3fr 20px;
+}
+.owneditems .containeritem.var {
+  grid-template-columns: 2fr 1.4fr 1.5fr 0.75fr 0.75fr 20px;
+}
+.owneditems .containeritem.mod {
+  grid-template-columns: 2fr 1.4fr 0.75fr 0.75fr 0.75fr 0.75fr 20px;
+}
+.owneditems .mod.inEffect {
+  background-color: #00e000;
+}
+.owneditems .adv,
+.owneditems .pwr,
+.owneditems .trait {
+  background-color: rgba(255, 127, 80, 0.3);
+}
+.owneditems .adv .snippet,
+.owneditems .pwr .snippet,
+.owneditems .trait .snippet {
+  height: 12px;
+  overflow: hidden;
+}
+.owneditems .adv {
+  background-color: rgba(128, 128, 48, 0.3);
+}
+.owneditems .pwr {
+  background-color: rgba(192, 192, 64, 0.3);
+}
+.reactions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.reactions .reaction {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+/* fix the message background */
+.message {
+  background-color: #e0e0e0;
+  color: #404040;
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+}
+.message .message-header {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto auto;
+}
+.message .message-header .message-sender {
+  color: #404040;
+}
+.message .message-header .whisper-to {
+  color: #804040;
+}
+.message .message-header .message-metadata {
+  color: #804040;
+}
+.message .flavor-text {
+  color: #404040;
+}
+.message .message-content .dice-roll .dice-result .dice-formula {
+  display: none;
+}
+.message .message-content .dice-roll .dice-result .dice-total {
+  font-family: var(--vsd-font-sans);
+  font-weight: bold;
+  font-size: medium;
+  font-style: normal;
+}
+.message .chatmod {
+  font-size: 80%;
+  white-space: nowrap;
+}
+.message .critfail {
+  font-weight: bold;
+  color: #800;
+}
+.message .critsuccess {
+  font-weight: bold;
+  color: #080;
+}
+.message .failure {
+  color: #800;
+}
+.message .success {
+  color: #080;
+}
+.message .open-journal:hover {
+  color: #000;
+  text-shadow: 0 0 10px red;
+  cursor: pointer;
+}
+.message .spell-choice,
+.message .critical-result,
+.message .attack-result {
+  font-size: smaller;
+}
+.message .spell-choice .spellname,
+.message .critical-result .spellname,
+.message .attack-result .spellname {
+  font-weight: bold;
+  color: #800;
+}
+.message .critseverity,
+.message .defencevalue,
+.message .damageresult,
+.message .critresult {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  color: silver;
+  text-align: center;
+  border: 2px solid black;
+}
+.message .defencevalue {
+  padding: 0px;
+}
+.mydialog {
+  font-family: var(--vsd-font-serif);
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  font-variant: small-caps;
+  font-size: inherit;
+  overflow: visible;
+}
+.mydialog .rollables .rollablename {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+}
+.mydialog .rollables .rollablename .name {
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+  padding-bottom: 2px;
+}
+.mydialog .rollables .attackitem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+}
+.mydialog .rollables .attackitem .attackname {
+  grid-area: 1/1/2/3;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+  padding-bottom: 4px;
+}
+.mydialog .rollables .attackitem .skill {
+  grid-area: 2/1/3/2;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+.mydialog .rollables .attackitem .damage {
+  grid-area: 2/2/3/3;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+.mydialog .rollables .entry {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: 1fr 32px 16px;
+  justify-items: center;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+  align-items: baseline;
+  background-color: lightcyan;
+}
+.mydialog .rollables .melee {
+  border-color: darkkhaki;
+}
+.mydialog .rollables .ranged {
+  border-color: lightcyan;
+}
+.mydialog .rollables .spell {
+  border-color: blueviolet;
+}
+.mydialog .defences {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: auto;
+}
+.mydialog .defences .toprow {
+  display: grid;
+  grid-template-columns: 28% 44% 28%;
+}
+.mydialog .defences .midrow {
+  display: grid;
+  grid-template-columns: 28% 44% 28%;
+}
+.mydialog .defences .bottomrow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.mydialog .defences .centre {
+  text-align: center;
+}
+.mydialog .defences .right {
+  text-align: right;
+}
+.mydialog .modifiers .diagmod {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: rgba(192, 0, 192, 0.25);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: baseline;
+}
+.mydialog .modifiers .diavar {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: baseline;
+}
+.mydialog .modifiers .diavar .iteminput {
+  height: auto;
+}
+.mydialog .modifiers .diapool {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: auto 15% 15%;
+}
+.mydialog .modifiers .diapool .iteminput {
+  height: auto;
+}
+.mydialog .modifiers .diamod {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+}
+.mydialog .rollmacros {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-items: center;
+}
+.mydialog .rollmacros .actionimage {
+  width: 42px;
+  border-radius: 5px;
+}
+.mydialog .vsd-classic-header {
+  display: grid;
+  grid-auto-rows: auto;
+  background-color: unset;
+  border-radius: 5px;
+}
+.mydialog .vsd-classic-header .content .layout {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.mydialog .vsd-classic-header .content .layout .defences {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: auto;
+}
+.mydialog .vsd-classic-header .content .layout .defences .toprow {
+  display: grid;
+  grid-template-columns: 28% 44% 28%;
+}
+.mydialog .vsd-classic-header .content .layout .defences .midrow {
+  display: grid;
+  grid-template-columns: 28% 44% 28%;
+}
+.mydialog .vsd-classic-header .content .layout .defences .bottomrow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.mydialog .vsd-classic-header .content .layout .headinfo {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  text-align: center;
+  background-color: unset;
+  color: unset;
+  font-size: smaller;
+  font-weight: bold;
+}
+.mydialog .vsd-classic-header .content .layout .diavalue {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: unset;
+}
+.mydialog .vsd-classic-header .content .layout .diaselect {
+  margin: 0px;
+  border: none;
+  height: auto;
+  color: unset;
+}
+.mydialog .vsd-classic-header .content .withend {
+  background-color: coral;
+}
+.mydialog .vsd-classic-header .content .can {
+  background-color: palegreen;
+}
+.mydialog .vsd-classic-header .content .maynot {
+  background-color: red;
+}
+.mydialog .movement {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mydialog .movement .movementoptions .actionimage {
+  width: 40px;
+  border-radius: 5px;
+}
+.mydialog .movement .movementoptions .actionimage.active {
+  border: 5px solid maroon;
+}
+.mydialog .movement .movementoptions .moverate {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+}
+.mydialog .movement .movementoptions .moverate .mrname {
+  color: maroon;
+  font-weight: bold;
+}
+.mydialog .movement .movementoptions .moverate .mrvalue {
+  font-weight: bold;
+}
+.mydialog .movement .movementoptions .forward {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.mydialog .movement .movementoptions .backward {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+}
+.mydialog .status-effects {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.vsd.sheet.item.modifier .modentry {
+  display: grid;
+  grid-template-columns: 1fr 0.75fr 2fr 15px 18px 18px;
+  padding-right: 7px;
+}
+.vsd.sheet.item.variable .varentry {
+  display: grid;
+  grid-template-columns: 1fr 2fr 15px 18px 18px;
+  padding-right: 7px;
+}
+.app.window-app.sheet.journal-sheet {
+  background-color: aqua;
+}
+.app.window-app.sheet.journal-sheet table P {
+  margin: auto;
+}
+.app.window-app.sheet.journal-sheet .fearsaverollstable,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable,
+.app.window-app.sheet.journal-sheet .spellfailuretable,
+.app.window-app.sheet.journal-sheet .spellcastingtable,
+.app.window-app.sheet.journal-sheet .missilefumblestable,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable,
+.app.window-app.sheet.journal-sheet .magicalresonancetable,
+.app.window-app.sheet.journal-sheet .actionresolutiontable,
+.app.window-app.sheet.journal-sheet .attacktable,
+.app.window-app.sheet.journal-sheet .criticalstrikestable {
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: small;
+  font-style: normal;
+}
+.app.window-app.sheet.journal-sheet .fearsaverollstable .tableheaderrow,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .tableheaderrow,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .tableheaderrow,
+.app.window-app.sheet.journal-sheet .spellfailuretable .tableheaderrow,
+.app.window-app.sheet.journal-sheet .spellcastingtable .tableheaderrow,
+.app.window-app.sheet.journal-sheet .missilefumblestable .tableheaderrow,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .tableheaderrow,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .tableheaderrow,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .tableheaderrow,
+.app.window-app.sheet.journal-sheet .attacktable .tableheaderrow,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .tableheaderrow {
+  background-color: coral;
+}
+.app.window-app.sheet.journal-sheet .fearsaverollstable .tableheaderrow .tableheader,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .tableheaderrow .tableheader,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .tableheaderrow .tableheader,
+.app.window-app.sheet.journal-sheet .spellfailuretable .tableheaderrow .tableheader,
+.app.window-app.sheet.journal-sheet .spellcastingtable .tableheaderrow .tableheader,
+.app.window-app.sheet.journal-sheet .missilefumblestable .tableheaderrow .tableheader,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .tableheaderrow .tableheader,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .tableheaderrow .tableheader,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .tableheaderrow .tableheader,
+.app.window-app.sheet.journal-sheet .attacktable .tableheaderrow .tableheader,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .tableheaderrow .tableheader {
+  text-align: center;
+  font-family: var(--vsd-font-sans);
+  font-weight: bold;
+  font-size: medium;
+  font-style: normal;
+}
+.app.window-app.sheet.journal-sheet .fearsaverollstable .targetnumber,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .targetnumber,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .targetnumber,
+.app.window-app.sheet.journal-sheet .spellfailuretable .targetnumber,
+.app.window-app.sheet.journal-sheet .spellcastingtable .targetnumber,
+.app.window-app.sheet.journal-sheet .missilefumblestable .targetnumber,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .targetnumber,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .targetnumber,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .targetnumber,
+.app.window-app.sheet.journal-sheet .attacktable .targetnumber,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .targetnumber,
+.app.window-app.sheet.journal-sheet .fearsaverollstable .roll,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .roll,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .roll,
+.app.window-app.sheet.journal-sheet .spellfailuretable .roll,
+.app.window-app.sheet.journal-sheet .spellcastingtable .roll,
+.app.window-app.sheet.journal-sheet .missilefumblestable .roll,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .roll,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .roll,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .roll,
+.app.window-app.sheet.journal-sheet .attacktable .roll,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .roll {
+  text-align: center;
+  width: 15%;
+}
+.app.window-app.sheet.journal-sheet .fearsaverollstable .outcome,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .outcome,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .outcome,
+.app.window-app.sheet.journal-sheet .spellfailuretable .outcome,
+.app.window-app.sheet.journal-sheet .spellcastingtable .outcome,
+.app.window-app.sheet.journal-sheet .missilefumblestable .outcome,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .outcome,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .outcome,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .outcome,
+.app.window-app.sheet.journal-sheet .attacktable .outcome,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .outcome {
+  text-align: left;
+  width: 15%;
+}
+.app.window-app.sheet.journal-sheet .fearsaverollstable .result-na,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .result-na,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .result-na,
+.app.window-app.sheet.journal-sheet .spellfailuretable .result-na,
+.app.window-app.sheet.journal-sheet .spellcastingtable .result-na,
+.app.window-app.sheet.journal-sheet .missilefumblestable .result-na,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .result-na,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .result-na,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .result-na,
+.app.window-app.sheet.journal-sheet .attacktable .result-na,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .result-na,
+.app.window-app.sheet.journal-sheet .fearsaverollstable .result-la,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .result-la,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .result-la,
+.app.window-app.sheet.journal-sheet .spellfailuretable .result-la,
+.app.window-app.sheet.journal-sheet .spellcastingtable .result-la,
+.app.window-app.sheet.journal-sheet .missilefumblestable .result-la,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .result-la,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .result-la,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .result-la,
+.app.window-app.sheet.journal-sheet .attacktable .result-la,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .result-la,
+.app.window-app.sheet.journal-sheet .fearsaverollstable .result-ma,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .result-ma,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .result-ma,
+.app.window-app.sheet.journal-sheet .spellfailuretable .result-ma,
+.app.window-app.sheet.journal-sheet .spellcastingtable .result-ma,
+.app.window-app.sheet.journal-sheet .missilefumblestable .result-ma,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .result-ma,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .result-ma,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .result-ma,
+.app.window-app.sheet.journal-sheet .attacktable .result-ma,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .result-ma,
+.app.window-app.sheet.journal-sheet .fearsaverollstable .result-ha,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .result-ha,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .result-ha,
+.app.window-app.sheet.journal-sheet .spellfailuretable .result-ha,
+.app.window-app.sheet.journal-sheet .spellcastingtable .result-ha,
+.app.window-app.sheet.journal-sheet .missilefumblestable .result-ha,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .result-ha,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .result-ha,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .result-ha,
+.app.window-app.sheet.journal-sheet .attacktable .result-ha,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .result-ha,
+.app.window-app.sheet.journal-sheet .fearsaverollstable .result,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .result,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .result,
+.app.window-app.sheet.journal-sheet .spellfailuretable .result,
+.app.window-app.sheet.journal-sheet .spellcastingtable .result,
+.app.window-app.sheet.journal-sheet .missilefumblestable .result,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .result,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .result,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .result,
+.app.window-app.sheet.journal-sheet .attacktable .result,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .result {
+  text-align: center;
+}
+.app.window-app.sheet.journal-sheet .fearsaverollstable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .spellfailuretable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .spellcastingtable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .missilefumblestable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .attacktable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .outcomeeffects,
+.app.window-app.sheet.journal-sheet .fearsaverollstable .resultdescription,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .resultdescription,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .resultdescription,
+.app.window-app.sheet.journal-sheet .spellfailuretable .resultdescription,
+.app.window-app.sheet.journal-sheet .spellcastingtable .resultdescription,
+.app.window-app.sheet.journal-sheet .missilefumblestable .resultdescription,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .resultdescription,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .resultdescription,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .resultdescription,
+.app.window-app.sheet.journal-sheet .attacktable .resultdescription,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .resultdescription {
+  text-align: left;
+}
+.app.window-app.sheet.journal-sheet .fearsaverollstable .max-lethal,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .max-lethal,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .max-lethal,
+.app.window-app.sheet.journal-sheet .spellfailuretable .max-lethal,
+.app.window-app.sheet.journal-sheet .spellcastingtable .max-lethal,
+.app.window-app.sheet.journal-sheet .missilefumblestable .max-lethal,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .max-lethal,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .max-lethal,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .max-lethal,
+.app.window-app.sheet.journal-sheet .attacktable .max-lethal,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .max-lethal,
+.app.window-app.sheet.journal-sheet .fearsaverollstable .max-grievous,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .max-grievous,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .max-grievous,
+.app.window-app.sheet.journal-sheet .spellfailuretable .max-grievous,
+.app.window-app.sheet.journal-sheet .spellcastingtable .max-grievous,
+.app.window-app.sheet.journal-sheet .missilefumblestable .max-grievous,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .max-grievous,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .max-grievous,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .max-grievous,
+.app.window-app.sheet.journal-sheet .attacktable .max-grievous,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .max-grievous,
+.app.window-app.sheet.journal-sheet .fearsaverollstable .max-moderate,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .max-moderate,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .max-moderate,
+.app.window-app.sheet.journal-sheet .spellfailuretable .max-moderate,
+.app.window-app.sheet.journal-sheet .spellcastingtable .max-moderate,
+.app.window-app.sheet.journal-sheet .missilefumblestable .max-moderate,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .max-moderate,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .max-moderate,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .max-moderate,
+.app.window-app.sheet.journal-sheet .attacktable .max-moderate,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .max-moderate,
+.app.window-app.sheet.journal-sheet .fearsaverollstable .max-light,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .max-light,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .max-light,
+.app.window-app.sheet.journal-sheet .spellfailuretable .max-light,
+.app.window-app.sheet.journal-sheet .spellcastingtable .max-light,
+.app.window-app.sheet.journal-sheet .missilefumblestable .max-light,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .max-light,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .max-light,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .max-light,
+.app.window-app.sheet.journal-sheet .attacktable .max-light,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .max-light,
+.app.window-app.sheet.journal-sheet .fearsaverollstable .max-superficial,
+.app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .max-superficial,
+.app.window-app.sheet.journal-sheet .reactionrollscombattable .max-superficial,
+.app.window-app.sheet.journal-sheet .spellfailuretable .max-superficial,
+.app.window-app.sheet.journal-sheet .spellcastingtable .max-superficial,
+.app.window-app.sheet.journal-sheet .missilefumblestable .max-superficial,
+.app.window-app.sheet.journal-sheet .meleethrownfumblestable .max-superficial,
+.app.window-app.sheet.journal-sheet .magicalresonancetable .max-superficial,
+.app.window-app.sheet.journal-sheet .actionresolutiontable .max-superficial,
+.app.window-app.sheet.journal-sheet .attacktable .max-superficial,
+.app.window-app.sheet.journal-sheet .criticalstrikestable .max-superficial {
+  background-color: #00ddaa50;
+}
+.app.window-app.sheet.journal-sheet .spelllisttable {
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: small;
+  font-style: normal;
+}
+.app.window-app.sheet.journal-sheet .spelllisttable .tableheaderrow {
+  background-color: coral;
+  font-family: var(--vsd-font-sans);
+  font-weight: bold;
+  font-size: medium;
+  font-style: normal;
+}
+.app.window-app.sheet.journal-sheet .spelllisttable .tablerow {
+  height: 32px;
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+}
+.app.window-app.sheet.journal-sheet .spelllisttable .weave {
+  text-align: center;
+}
+.app.window-app.sheet.journal-sheet .spelllisttable .spell {
+  text-align: left;
+}
+.app.window-app.sheet.journal-sheet .spelllisttable .range,
+.app.window-app.sheet.journal-sheet .spelllisttable .areaofeffect,
+.app.window-app.sheet.journal-sheet .spelllisttable .duration,
+.app.window-app.sheet.journal-sheet .spelllisttable .save {
+  text-align: center;
+}
+.vsd-header {
+  font-family: var(--vsd-font-sans);
+  font-weight: normal;
+  font-size: small;
+  font-style: normal;
+  display: grid;
+  grid-auto-rows: auto;
+  background-color: maroon;
+  border-radius: 5px;
+}
+.vsd-header .sectionheader {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  color: silver;
+  text-align: center;
+  border: 2px solid black;
+}
+.vsd-header .sectionheader .actorname {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+}
+.vsd-header .content .layout {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 75px 1fr;
+}
+.vsd-header .content .layout .portrait {
+  display: grid;
+  grid-row: span 3;
+  border: none;
+}
+.vsd-header .content .layout .toprow {
+  display: grid;
+  grid-template-columns: 20% 18% 20% 12% 10% 10% 10%;
+}
+.vsd-header .content .layout .toprowpalladium {
+  display: grid;
+  grid-template-columns: 20% 32% 48%;
+}
+.vsd-header .content .layout .midrow {
+  display: grid;
+  grid-template-columns: 40% 18% 20% 22%;
+}
+.vsd-header .content .layout .midrowpalladium {
+  display: grid;
+  grid-template-columns: 28% 12% 12% 16% 20% 12%;
+}
+.vsd-header .content .layout .bottomrow {
+  display: grid;
+  grid-template-columns: 24% 18% 16% 20% 22%;
+}
+.vsd-header .content .layout .bottomrowpalladium {
+  display: grid;
+  grid-template-columns: 94% 6%;
+}
+.vsd-header .content .layout .headinfo {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  color: silver;
+  text-align: center;
+  border: 2px solid black;
+  margin: 1px;
+}
+.vsd-header .content .layout .headinfo .rollable:hover {
+  background-color: maroon;
+  color: silver;
+}
+.vsd-header .content .layout .triple,
+.vsd-header .content .layout .double,
+.vsd-header .content .layout .single {
+  align-items: baseline;
+}
+.vsd-header .content .layout .triple .value,
+.vsd-header .content .layout .double .value,
+.vsd-header .content .layout .single .value {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+}
+.vsd-header .content .layout .triple .valuefull,
+.vsd-header .content .layout .double .valuefull,
+.vsd-header .content .layout .single .valuefull {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+  text-align: left;
+  width: 100%;
+}
+.vsd-header .content .layout .triple {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.vsd-header .content .layout .double {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.vsd-header .content .layout .move .value,
+.vsd-header .content .layout .declaration .value {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+  width: 18px;
+}
+.vsd-header nav.sheet-nav {
+  font-family: var(--vsd-font-sans);
+  font-weight: normal;
+  font-size: small;
+  font-style: normal;
+  padding: 2px;
+  border-top: 4px solid silver;
+}
+.vsd-header nav.sheet-nav .tabtitle {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  text-align: center;
+  border: 2px solid black;
+  color: silver;
+}
+.vsd-header nav.sheet-nav .headinfo {
+  align-self: center;
+}
+.vsd-header nav.sheet-nav .active {
+  background-color: maroon;
+  border-color: black;
+}
+.vsd-classic-header {
+  display: grid;
+  grid-auto-rows: auto;
+  background-color: maroon;
+  border-radius: 5px;
+}
+.vsd-classic-header .sectionheader {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  color: silver;
+  text-align: center;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  justify-items: center;
+  align-items: center;
+}
+.vsd-classic-header .sectionheader .actorname {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+  width: 80%;
+  font-size: x-large;
+}
+.vsd-classic-header .content .layout {
+  display: grid;
+  grid-template-columns: 75px 2fr 1fr;
+}
+.vsd-classic-header .content .layout .portrait {
+  display: grid;
+  grid-row: span 3;
+  border: none;
+  max-height: 90px;
+  align-self: center;
+  justify-self: center;
+}
+.vsd-classic-header .content .layout .centre {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: auto;
+}
+.vsd-classic-header .content .layout .centre .toprow {
+  display: grid;
+  grid-template-columns: 16% 20% 23% 23% 18%;
+}
+.vsd-classic-header .content .layout .centre .midrow {
+  display: grid;
+  grid-template-columns: 36% 11% 12% 23% 18%;
+}
+.vsd-classic-header .content .layout .centre .bottomrow {
+  display: grid;
+  grid-template-columns: 33% 22% 21% 24%;
+}
+.vsd-classic-header .content .layout .defences {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: auto;
+}
+.vsd-classic-header .content .layout .defences .toprow {
+  display: grid;
+  grid-template-columns: 28% 44% 28%;
+}
+.vsd-classic-header .content .layout .defences .midrow {
+  display: grid;
+  grid-template-columns: 28% 44% 28%;
+}
+.vsd-classic-header .content .layout .defences .bottomrow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.vsd-classic-header .content .layout .headinfo {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  color: silver;
+  text-align: center;
+  border: 2px solid black;
+  margin: 1px;
+}
+.vsd-classic-header .content .layout .headinfo .select {
+  margin: 0px;
+  color: silver;
+  border: none;
+  height: auto;
+}
+.vsd-classic-header .content .layout .headinfo .rollable:hover {
+  background-color: maroon;
+  color: silver;
+}
+.vsd-classic-header .content .layout .triple,
+.vsd-classic-header .content .layout .double,
+.vsd-classic-header .content .layout .single {
+  align-items: baseline;
+}
+.vsd-classic-header .content .layout .triple .value,
+.vsd-classic-header .content .layout .double .value,
+.vsd-classic-header .content .layout .single .value {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+}
+.vsd-classic-header .content .layout .triple .valuefull,
+.vsd-classic-header .content .layout .double .valuefull,
+.vsd-classic-header .content .layout .single .valuefull {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+  text-align: left;
+  width: 100%;
+}
+.vsd-classic-header .content .layout .triple {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.vsd-classic-header .content .layout .double {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.vsd-classic-header .content .layout .move .value,
+.vsd-classic-header .content .layout .declaration .value {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  color: silver;
+  width: 18px;
+}
+.vsd-classic-header nav.sheet-nav {
+  padding: 2px;
+  border-top: 4px solid silver;
+  display: grid;
+  grid-template-columns: 1fr 32px;
+}
+.vsd-classic-header nav.sheet-nav .tabtitle {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  text-align: center;
+  border: 2px solid black;
+  color: silver;
+}
+.vsd-classic-header nav.sheet-nav .headinfo {
+  align-self: center;
+}
+.vsd-classic-header nav.sheet-nav .active {
+  background-color: maroon;
+  border-color: black;
+}
+.vsd-classic-header nav.sheet-nav .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.charsheet select {
+  font-variant: small-caps;
+  font-family: var(--vsd-font-serif);
+  font-weight: bold;
+  font-size: normal;
+  font-style: normal;
+}
+.charsheet .biography {
+  height: auto;
+}
+.charsheet .biography .editor {
+  min-height: 300px;
+}
+.charsheet input::-webkit-outer-spin-button,
+.charsheet input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.charsheet input[type=number] {
+  -moz-appearance: textfield;
+  text-align: center;
+}
+.charsheet input:disabled {
+  background-color: whitesmoke;
+  color: dimgray;
+}
+.charsheet input[type=number].hundred {
+  width: 30px;
+}
+.charsheet input[type=number].thousand {
+  width: 35px;
+}
+.charsheet input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-radius: 0px;
+  font-variant: small-caps;
+}
+.charsheet input[readonly="readonly"] {
+  border: 0px;
+}
+.charsheet .text-field-charname {
+  width: 300px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.charsheet input[type=number].number-field-wide {
+  width: 60px;
+}
+.charsheet .number-field-extrawide {
+  width: 70px;
+}
+.charsheet .text-field-vocation,
+.charsheet .text-field-kin,
+.charsheet .text-field-culture {
+  width: 160px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.charsheet label.header-field-label {
+  font-size: 1em;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+}
+.charsheet .input-w label,
+.charsheet .input-w input {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.charsheet .labeled-field {
+  float: left;
+}
+.charsheet .header-form-row {
+  display: inline-table;
+  width: 100%;
+}
+.charsheet .passions-grid-section {
+  display: grid;
+  grid-template-columns: 32px 1fr 9fr 24px;
+  align-items: baseline;
+}
+.charsheet .field-label {
+  font-size: 1em;
+  font-weight: normal;
+  white-space: nowrap;
+}
+.charsheet .passions-text-field {
+  width: 100%;
+}
+.charsheet .field-input {
+  display: block;
+  padding: 0 4px 0 6px;
+}
+.charsheet .main-grid-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.charsheet .leftside,
+.charsheet .rightside {
+  padding-top: 5px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+}
+.charsheet .skills-grid-section {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.charsheet .chatsender {
+  display: grid;
+  grid-template-columns: 1fr 24px;
+}
+.charsheet .block {
+  padding-top: 5px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  text-align: center;
+}
+.charsheet .drive-points,
+.charsheet .heroic-path,
+.charsheet .stats-block,
+.charsheet .saves-block,
+.charsheet .abilities-block,
+.charsheet .background-block,
+.charsheet .languages-block {
+  margin-bottom: 3px;
+}
+.charsheet .tablewrapper {
+  width: 100%;
+  clear: both;
+  display: inline-block;
+}
+.charsheet .advances-table {
+  width: 100%;
+  text-align: center;
+}
+.charsheet .advances-table .advances-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.charsheet .advances-table .advances-row .advances-cell {
+  flex: 1;
+}
+.charsheet .advances-table .advances-row .advances-cell.left {
+  flex: 150px;
+  text-align: left;
+}
+.charsheet .advances-table .category {
+  border-bottom: 1px solid black;
+}
+.charsheet .advances-table .categoryname {
+  font-weight: bold;
+  color: maroon;
+  font-size: larger;
+}
+.charsheet .like-table {
+  width: 100%;
+  text-align: center;
+}
+.charsheet .like-table .like-row {
+  display: grid;
+}
+.charsheet .like-table .like-row .like-cell {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.charsheet .like-table .like-row.saves,
+.charsheet .like-table .like-row.stats {
+  grid-template-columns: 2.5fr repeat(6, 1fr);
+}
+.charsheet .like-table .like-row.skills {
+  grid-template-columns: 1fr 4fr 1.2fr 1.6fr repeat(4, 1fr);
+}
+.charsheet .like-table .like-row.advances,
+.charsheet .like-table .like-row.conditions {
+  grid-template-columns: repeat(4, 1fr);
+}
+.charsheet .like-table .like-row.devpoints {
+  grid-template-columns: repeat(7, 1fr);
+}
+.charsheet .like-table .like-row.wounds {
+  grid-template-columns: 2.5fr repeat(6, 1fr);
+}
+.charsheet .like-table .like-row.equipment {
+  grid-template-columns: 2fr 0.6fr 0.8fr 0.6fr 1.4fr 5fr 2fr;
+}
+.charsheet .like-table .like-row.attacks {
+  grid-template-columns: 36px 3fr 1.8fr 0.6fr 0.6fr 1.7fr 36px 1.4fr;
+}
+.charsheet .like-table .left {
+  text-align: left;
+}
+.charsheet .like-table .right {
+  text-align: right;
+}
+.charsheet .like-table .separator {
+  border-bottom: 1px dashed darkgray;
+  margin-bottom: 4px;
+}
+.charsheet .table-header {
+  font-weight: bold;
+  margin-top: 5px;
+  border-bottom: 1px solid black;
+}
+.charsheet .stats-name {
+  font-weight: normal;
+}
+.charsheet .condition-name {
+  font-weight: normal;
+  color: gray;
+}
+.charsheet .stat-abbr {
+  text-align: center;
+}
+.charsheet .skills-cell {
+  text-align: center;
+}
+.charsheet .repitem {
+  border-bottom: 1px dashed darkgrey;
+  margin-top: 3px;
+  padding-bottom: 3px;
+}
+.charsheet .armor-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 24px 4fr 0.8fr 2fr 0.8fr 0.9fr 0.8fr 0.7fr 0.9fr 1fr 1.5fr;
+}
+.charsheet .armour-name,
+.charsheet .armour-protects {
+  text-align: left;
+}
+.charsheet h3 {
+  font-weight: bold;
+  text-align: center;
+  color: silver;
+  border: 2px double black;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+.charsheet .status-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr 4fr;
+}
+.charsheet .conditions-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr;
+  text-align: right;
+}
+.charsheet .large-roundborder > input[type=number] {
+  border: 3px double #070707;
+  border-radius: 30px;
+  padding: 0px;
+  height: 60px;
+  width: 60px;
+  font-size: 25px;
+}
+.charsheet input[type=number].current-hit-points {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.charsheet .medium-roundborder > input[type=number] {
+  border: 2px double white;
+  border-radius: 20px;
+  color: whitesmoke;
+  padding: 0px;
+  height: 40px;
+  width: 40px;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+.charsheet .medium-squareborder > input[type=number] {
+  border: 2px double white;
+  border-radius: 7px;
+  color: whitesmoke;
+  padding: 0px;
+  height: 40px;
+  width: 40px;
+  font-size: 18px;
+}
+.charsheet .small-squareborder > input[type=number] {
+  border: 2px double white;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: dimgray;
+  height: 30px;
+  width: 40px;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.charsheet input[type=number].hitpoint-color {
+  background-color: white;
+  color: #070707;
+}
+.charsheet input[type=number].defense-color {
+  background-color: #070707;
+  color: whitesmoke;
+}
+.charsheet input[type=number].penalty-color {
+  background-color: white;
+  color: #070707;
+}
+.charsheet input[type=number].automaticfield-color {
+  background-color: #070707;
+  color: whitesmoke;
+}
+.charsheet input[type=number].magic-color {
+  background-color: Teal;
+  color: whitesmoke;
+}
+.charsheet input[type=number].defensive-bonus {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.charsheet input[type=number].penalty {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.charsheet label.penalty-label {
+  text-align: right;
+  width: 100%;
+  margin-bottom: 2px;
+}
+.charsheet .roundborder-label {
+  font-size: 1em;
+  font-weight: normal;
+  color: SlateGray;
+  margin-top: 10px;
+}
+.charsheet .hitpoint-grid-section {
+  display: grid;
+  width: 100%;
+  column-gap: 1rem;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.charsheet .character-size-dropdown {
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.charsheet .penalty-grid-section {
+  display: grid;
+  width: 100%;
+  column-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+.charsheet .penalty-grid-section .penalty-grid-top-row {
+  margin-top: 5px;
+}
+.charsheet .movement-defense-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+.charsheet .encumbrance-dropdown {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 140px;
+}
+.charsheet span.emphasize {
+  font-weight: bold;
+  color: #070707;
+}
+.charsheet input.emphasize {
+  font-weight: bold;
+  color: #070707;
+  border: 1px solid #070707;
+  background-color: ghostwhite;
+}
+.charsheet input.status_explanation {
+  text-align: right;
+  font-size: 0.8em;
+  padding: 0px;
+  background-color: white;
+  border: none;
+}
+.charsheet .magic-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 3.5fr;
+}
+.charsheet .magicpoint-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr;
+  text-align: left;
+}
+.charsheet .equipment-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr;
+}
+.charsheet .gear-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr 3fr;
+}
+.charsheet .item-name {
+  width: 150px;
+}
+.charsheet .item-location {
+  width: 80px;
+}
+.charsheet .item-description {
+  width: 100%;
+}
+.charsheet .magicitem,
+.charsheet .people,
+.charsheet .location {
+  width: 100%;
+}
+.charsheet .wealthstatus-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.charsheet .wealthlevel-dropdown {
+  width: 150px;
+}
+.charsheet .companion-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+.charsheet .companion-table {
+  width: 100px;
+}
+.charsheet .companion-align {
+  text-align: left;
+}
+.charsheet .companion-name,
+.charsheet .mount-name {
+  width: 200px;
+  font-weight: bold;
+  font-size: 1em;
+}
+.charsheet .companion-type,
+.charsheet .mount-type {
+  width: 200px;
+}
+.charsheet .companion-attacktype,
+.charsheet .mount-attacktype {
+  width: 120px;
+}
+.charsheet .companion-movement-rate,
+.charsheet .mount-movement-rate {
+  width: 100px;
+}
+.charsheet input[type=number].companion-number-field {
+  width: 60px;
+}
+.charsheet .companion-armortype,
+.charsheet .mount-armortype {
+  width: 100px;
+}
+.charsheet .notes-grid-section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+.charsheet .experience-grid-section {
+  display: grid;
+  width: 100%;
+  column-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+.charsheet .experience-grid-column {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 12fr;
+  text-align: left;
+}
+.charsheet .experience-tracker-description {
+  width: 100%;
+  padding-right: 10px;
+}
+.charsheet .settings-grid-section {
+  display: grid;
+  width: 100%;
+  column-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.charsheet button[type=roll].roll-button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  background-image: none;
+  text-shadow: none;
+  box-shadow: none;
+  font-weight: normal;
+  font-size: inherit;
+  text-align: left;
+  padding: 0px;
+}
+.charsheet .dicetext {
+  font-size: 0.7em;
+  font-family: serif;
+}
+.charsheet .dice-buttons {
+  width: 100%;
+  text-align: center;
+}
+.charsheet button[type=roll].rolld100::before {
+  font-family: dicefontd10;
+  content: "t";
+}
+.charsheet button[type=roll].roll-button::before {
+  content: "" !important;
+}
+.charsheet button[type=roll]:hover,
+.charsheet button[type=roll]:hover *,
+.charsheet button[type=roll]:hover input[type=text],
+.charsheet button[type=roll]:hover * {
+  color: #EC2127;
+}
+.charsheet button[type=roll] * {
+  pointer-events: none;
+}
+.vsdarkmaster-wrapper {
+  font-family: var(--vsd-font-serif);
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  font-variant: small-caps;
+  font-size: inherit;
+  color: black;
+  overflow: visible;
+  min-width: 850px;
+}
+.section {
+  font-family: var(--vsd-font-sans);
+  font-weight: normal;
+  font-size: small;
+  font-style: normal;
+  display: grid;
+  grid-auto-rows: auto;
+  border-radius: 5px;
+  border: 2px solid maroon;
+}
+.section .sectionheader {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  color: silver;
+  text-align: center;
+  border: 2px solid black;
+}
+.section .sectionheader .section-title .title,
+.section .sectionheader .section-title a {
+  border: inherit;
+  padding: inherit;
+  margin: inherit;
+  background: inherit;
+}
+.section .sectionheader .section-title .title {
+  color: inherit;
+}
+.section .content .nospan,
+.section .content .twospan,
+.section .content .threespan,
+.section .content .fourspan {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.section .content .nospan .header,
+.section .content .twospan .header,
+.section .content .threespan .header,
+.section .content .fourspan .header {
+  grid-column: span 4;
+  height: fit-content;
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  color: silver;
+  text-align: center;
+  border: 2px solid black;
+}
+.section .content .nospan .header .section-title .title,
+.section .content .twospan .header .section-title .title,
+.section .content .threespan .header .section-title .title,
+.section .content .fourspan .header .section-title .title,
+.section .content .nospan .header .section-title a,
+.section .content .twospan .header .section-title a,
+.section .content .threespan .header .section-title a,
+.section .content .fourspan .header .section-title a {
+  border: inherit;
+  padding: inherit;
+  margin: inherit;
+  background: inherit;
+}
+.section .content .nospan .header .section-title .title,
+.section .content .twospan .header .section-title .title,
+.section .content .threespan .header .section-title .title,
+.section .content .fourspan .header .section-title .title {
+  color: inherit;
+}
+.section .content .nospan .entry,
+.section .content .twospan .entry,
+.section .content .threespan .entry,
+.section .content .fourspan .entry {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: 1fr 32px 16px;
+  justify-items: center;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+  align-items: baseline;
+}
+.section .content .nospan .attackentry,
+.section .content .twospan .attackentry,
+.section .content .threespan .attackentry,
+.section .content .fourspan .attackentry {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: 3fr 32px 1fr 16px;
+  justify-items: center;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+.section .content .nospan .wound,
+.section .content .twospan .wound,
+.section .content .threespan .wound,
+.section .content .fourspan .wound {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-evenly;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+}
+.section .content .nospan .subsection .header,
+.section .content .twospan .subsection .header,
+.section .content .threespan .subsection .header,
+.section .content .fourspan .subsection .header {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: black;
+  color: silver;
+  text-align: center;
+  border: 2px solid black;
+  height: fit-content;
+}
+.section .content .nospan .subsection .entry,
+.section .content .twospan .subsection .entry,
+.section .content .threespan .subsection .entry,
+.section .content .fourspan .subsection .entry {
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: 1fr 32px 16px;
+  justify-items: center;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+  align-items: baseline;
+}
+.section .content .nospan .doublewide,
+.section .content .twospan .doublewide,
+.section .content .threespan .doublewide,
+.section .content .fourspan .doublewide {
+  grid-column: span 2;
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: 1fr 32px 16px;
+  justify-items: center;
+}
+.section .content .nospan .notes,
+.section .content .twospan .notes,
+.section .content .threespan .notes,
+.section .content .fourspan .notes {
+  grid-column: span 2;
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+}
+.section .content .nospan .rankvariable,
+.section .content .twospan .rankvariable,
+.section .content .threespan .rankvariable,
+.section .content .fourspan .rankvariable,
+.section .content .nospan .poolstyle,
+.section .content .twospan .poolstyle,
+.section .content .threespan .poolstyle,
+.section .content .fourspan .poolstyle,
+.section .content .nospan .variable,
+.section .content .twospan .variable,
+.section .content .threespan .variable,
+.section .content .fourspan .variable {
+  display: grid;
+  grid-column: span 2;
+  grid-template-columns: auto 1fr 36px;
+  font-family: var(--vsd-font-sans);
+  font-weight: bolder;
+  font-size: smaller;
+  font-style: normal;
+  padding: 3px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 2px;
+  align-items: baseline;
+}
+.section .content .nospan .rankvariable .value,
+.section .content .twospan .rankvariable .value,
+.section .content .threespan .rankvariable .value,
+.section .content .fourspan .rankvariable .value,
+.section .content .nospan .poolstyle .value,
+.section .content .twospan .poolstyle .value,
+.section .content .threespan .poolstyle .value,
+.section .content .fourspan .poolstyle .value,
+.section .content .nospan .variable .value,
+.section .content .twospan .variable .value,
+.section .content .threespan .variable .value,
+.section .content .fourspan .variable .value,
+.section .content .nospan .rankvariable .variablename,
+.section .content .twospan .rankvariable .variablename,
+.section .content .threespan .rankvariable .variablename,
+.section .content .fourspan .rankvariable .variablename,
+.section .content .nospan .poolstyle .variablename,
+.section .content .twospan .poolstyle .variablename,
+.section .content .threespan .poolstyle .variablename,
+.section .content .fourspan .poolstyle .variablename,
+.section .content .nospan .variable .variablename,
+.section .content .twospan .variable .variablename,
+.section .content .threespan .variable .variablename,
+.section .content .fourspan .variable .variablename {
+  text-align: center;
+}
+.section .content .nospan .rankvariable .select,
+.section .content .twospan .rankvariable .select,
+.section .content .threespan .rankvariable .select,
+.section .content .fourspan .rankvariable .select,
+.section .content .nospan .poolstyle .select,
+.section .content .twospan .poolstyle .select,
+.section .content .threespan .poolstyle .select,
+.section .content .fourspan .poolstyle .select,
+.section .content .nospan .variable .select,
+.section .content .twospan .variable .select,
+.section .content .threespan .variable .select,
+.section .content .fourspan .variable .select {
+  border: none;
+  background: none;
+  height: auto;
+  text-align-last: right;
+  color: gray;
+  font-size: inherit;
+  font-weight: bold;
+}
+.section .content .nospan .rankvariable,
+.section .content .twospan .rankvariable,
+.section .content .threespan .rankvariable,
+.section .content .fourspan .rankvariable {
+  grid-template-columns: auto 1fr;
+}
+.section .content .nospan .poolstyle,
+.section .content .twospan .poolstyle,
+.section .content .threespan .poolstyle,
+.section .content .fourspan .poolstyle {
+  grid-template-columns: auto 36px 36px;
+}
+.section .content .nospan .poolstyle .value,
+.section .content .twospan .poolstyle .value,
+.section .content .threespan .poolstyle .value,
+.section .content .fourspan .poolstyle .value {
+  height: auto;
+  background: none;
+}
+.section .content .threespan {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.section .content .threespan .header {
+  grid-column: span 3;
+}
+.section .content .threespan .variable,
+.section .content .threespan .poolstyle {
+  grid-column: span 1;
+}
+.section .content .twospan {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.section .content .twospan .header {
+  grid-column: span 2;
+}
+.section .content .nospan {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.section .content .nospan .header {
+  grid-column: span 1;
+}
+.section .content .biography {
+  min-height: 300px;
+  resize: none;
+}
+.combat-sidebar li.combatant.defeated {
+  color: #e0736e;
+  background-color: rgba(128, 0, 0, 0.8);
+}
+.combat-sidebar .combatant {
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+}
+.combat-sidebar .combatant .token-name {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}
+.combat-sidebar .combatant .token-name .namerow {
+  display: grid;
+  grid-template-columns: 1fr;
+  line-height: 30px;
+  align-items: center;
+}
+.combat-sidebar .combatant .token-name .namerow .name {
+  text-align: left;
+  max-height: 24px;
+  overflow: hidden;
+  color: #ff8f8f;
+}
+.combat-sidebar .combatant .token-name .namerow .name.ready {
+  color: #8fbc8f;
+}
+.combat-sidebar .combatant .token-name .combatant-controls {
+  text-align: center;
+}
+.combat-sidebar .combatant .token-name .combatant-controls .actions,
+.combat-sidebar .combatant .token-name .combatant-controls .shotCost {
+  color: silver;
+  height: 20px;
+  max-width: 28px;
+  border: none;
+  background-color: #800;
+  text-align: center;
+}
+.combat-sidebar .combatant .token-initiative .initiative {
+  color: silver;
+  height: 20px;
+  border: none;
+  background-color: #800;
+  text-align: center;
+}
+.combat-sidebar .combatant.vsd {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+}
+.combat-sidebar .combatant.vsd .token-name {
+  display: grid;
+  grid-template-rows: auto;
+}
+.combat-sidebar .combatant.vsd .token-name .namerow {
+  display: grid;
+  grid-template-columns: 1fr 80px 28px;
+  line-height: 24px;
+  align-items: center;
+}
+.combat-sidebar .combatant.vsd .token-name .actionrow {
+  display: grid;
+  grid-template-columns: 60px 1fr 28px 20px;
+  line-height: 24px;
+  align-items: center;
+}
+.combat-sidebar .combatant.vsd .token-name .action {
+  color: black;
+  line-height: 18px;
+  border-radius: 3px;
+  background-color: silver;
+  text-align: center;
+  font-size: smaller;
+  text-shadow: 0 0 black;
+}
+.combat-sidebar .combatant.vsd .token-name .declaredaction {
+  color: silver;
+  height: 20px;
+  border: none;
+  text-align: center;
+  width: 18px;
+  background-color: black;
+}
+.combat-sidebar .combatant.vsd .token-name .declaredaction option {
+  background-color: black;
+}
+.combat-sidebar .combatant.vsd .token-initiative {
+  padding-top: inherit;
+}
+.combat-sidebar .combatant.vsd .token-initiative .initiative {
+  color: silver;
+  height: 20px;
+  border: none;
+  background-color: #800;
+  text-align: center;
+}
+.combat-sidebar .combatant.vsd .token-initiative .roll {
+  transform: scale(0.8);
+  height: 30px;
+}
+.drive-points .drive-point-markers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.drive-points .drive-point-markers .drive-point {
+  margin: 1px;
+  font-size: smaller;
+}
+.dice-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.heroic-path-points .heroic-path-markers {
+  display: grid;
+  grid-template-columns: repeat(21, 1fr);
+}
+.heroic-path-points .heroic-path-markers .heroic-path-point {
+  margin: 1px;
+}
+.heroic-path-points .heroic-path-markers .heroic-path-point .fa-square {
+  font-size: smaller;
+}
+.heroic-path-points .heroic-path-markers .heroic-path-gap {
+  width: 10px;
+}
+}
+

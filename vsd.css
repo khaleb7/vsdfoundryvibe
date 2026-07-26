@@ -72,6 +72,12 @@
 .window-app {
   font-size: 10pt;
 }
+.window-app input,
+.window-app select,
+.window-app textarea {
+  background-color: #f3ead8;
+  color: #1a1814;
+}
 .deployItems:hover,
 .removeItems:hover,
 .open-journal:hover,

@@ -24,8 +24,8 @@
   }
 
   input:disabled {
-    background-color: whitesmoke;
-    color: dimgray;
+    background-color: @paper-alt-colour;
+    color: @ink-faded;
   }
 
   input[type=number].hundred {
@@ -189,7 +189,7 @@
 
     .categoryname {
       font-weight: bold;
-      color: maroon;
+      color: @main-colour;
       font-size: larger;
     }
   }
@@ -317,7 +317,7 @@
   }
 
   .large-roundborder>input[type=number] {
-    border: 3px double #070707;
+    border: 3px double @ink-colour;
     border-radius: 30px;
 
     padding: 0px;
@@ -328,14 +328,14 @@
 
   input[type=number].current-hit-points {
     font-weight: bold;
-    color: white;
+    color: @paper-colour;
     text-align: center;
   }
 
   .medium-roundborder>input[type=number] {
-    border: 2px double white;
+    border: 2px double @paper-colour;
     border-radius: 20px;
-    color: whitesmoke;
+    color: @paper-colour;
     padding: 0px;
     height: 40px;
     width: 40px;
@@ -345,9 +345,9 @@
   }
 
   .medium-squareborder>input[type=number] {
-    border: 2px double white;
+    border: 2px double @paper-colour;
     border-radius: 7px;
-    color: whitesmoke;
+    color: @paper-colour;
     padding: 0px;
     height: 40px;
     width: 40px;
@@ -355,10 +355,10 @@
   }
 
   .small-squareborder>input[type=number] {
-    border: 2px double white;
+    border: 2px double @paper-colour;
     border-radius: 5px;
-    color: whitesmoke;
-    background-color: dimgray;
+    color: @paper-colour;
+    background-color: @ink-faded;
 
     height: 30px;
     width: 40px;
@@ -368,39 +368,39 @@
   }
 
   input[type=number].hitpoint-color {
-    background-color: white;
-    color: #070707;
+    background-color: @paper-colour;
+    color: @ink-colour;
   }
 
   input[type=number].defense-color {
-    background-color: #070707;
-    color: whitesmoke;
+    background-color: @ink-colour;
+    color: @paper-colour;
   }
 
   input[type=number].penalty-color {
-    background-color: white;
-    color: #070707;
+    background-color: @paper-colour;
+    color: @ink-colour;
   }
 
   input[type=number].automaticfield-color {
-    background-color: #070707;
-    color: whitesmoke;
+    background-color: @ink-colour;
+    color: @paper-colour;
   }
 
   input[type=number].magic-color {
-    background-color: Teal;
-    color: whitesmoke;
+    background-color: @ink-faded;
+    color: @paper-colour;
   }
 
   input[type=number].defensive-bonus {
     font-weight: bold;
-    color: white;
+    color: @paper-colour;
     text-align: center;
   }
 
   input[type=number].penalty {
     font-weight: bold;
-    color: white;
+    color: @paper-colour;
     text-align: center;
   }
 
@@ -414,7 +414,7 @@
     font-size: 1.0em;
     font-weight: normal;
 
-    color: SlateGray;
+    color: @ink-faded;
     margin-top: 10px;
   }
 
@@ -464,15 +464,15 @@
 
   span.emphasize {
     font-weight: bold;
-    color: #070707;
+    color: @ink-colour;
   }
 
   input.emphasize {
     font-weight: bold;
-    color: #070707;
+    color: @ink-colour;
 
-    border: 1px solid #070707;
-    background-color: ghostwhite;
+    border: 1px solid @ink-colour;
+    background-color: @paper-alt-colour;
   }
 
   input.status_explanation {
@@ -480,7 +480,7 @@
     font-size: 0.8em;
 
     padding: 0px;
-    background-color: white;
+    background-color: @paper-colour;
     border: none;
   }
 
@@ -656,7 +656,7 @@
   button[type=roll]:hover *,
   button[type=roll]:hover input[type=text],
   button[type=roll]:hover * {
-    color: #EC2127;
+    color: @main-colour;
   }
 
   button[type=roll] * {

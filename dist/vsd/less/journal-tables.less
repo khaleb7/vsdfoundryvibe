@@ -1,12 +1,12 @@
 .app.window-app.sheet.journal-sheet {
-    background-color: aqua;
+    background-color: @paper-colour;
 
     table {
       P {
         margin: auto;
       }
     }
-  
+
     .fearsaverollstable,
     .reactionrollsinteractiontable,
     .reactionrollscombattable,
@@ -21,7 +21,8 @@
         .Ubuntu(bolder, small);
 
         .tableheaderrow {
-            background-color: coral;
+            background-color: @sepia-accent;
+            color: @paper-colour;
 
             .tableheader {
                 text-align: center;
@@ -58,7 +59,7 @@
         .max-moderate,
         .max-light,
         .max-superficial {
-            background-color: #00ddaa50;
+            background-color: fade(@ink-faded, 18%);
         }
     }
 
@@ -66,7 +67,8 @@
         .Ubuntu(bolder, small);
 
         .tableheaderrow {
-            background-color: coral;
+            background-color: @sepia-accent;
+            color: @paper-colour;
             .Ubuntu(bold, medium);
         }
 

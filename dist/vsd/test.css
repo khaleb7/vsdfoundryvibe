@@ -27,13 +27,14 @@ li.folder>.folder-header {
     font-family: var(--vsd-font-body, Ubuntu, sans-serif);
   }
   .application.vsd.sheet .window-content {
-    background: var(--vsd-panel, #2a2a2a);
-    color: var(--vsd-text, #e8e8e8);
+    background: var(--vsd-panel, #f3ead8);
+    color: var(--vsd-text, #1a1814);
   }
   .application.vsd.sheet input,
   .application.vsd.sheet select,
   .application.vsd.sheet textarea {
-    color: inherit;
+    color: var(--vsd-text, #1a1814);
+    background-color: var(--vsd-panel, #f3ead8);
   }
   #combat-tracker .combatant.vsd .actionrow {
     display: flex;
@@ -42,7 +43,7 @@ li.folder>.folder-header {
     flex-wrap: wrap;
   }
   #combat-tracker .combatant.vsd .name.ready {
-    color: #7dcea0;
+    color: #f3ead8;
     font-weight: bold;
   }
 }

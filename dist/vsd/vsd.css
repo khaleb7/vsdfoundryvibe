@@ -1,89 +1,82 @@
-﻿@font-face {
+@font-face {
   font-family: "Ubuntu";
   src: url("fonts/Ubuntu-Regular.ttf");
 }
-
 @font-face {
   font-family: "Ubuntu";
   src: url("fonts/Ubuntu-Italic.ttf");
   font-style: italic;
 }
-
 @font-face {
   font-family: "Ubuntu";
   src: url("fonts/Ubuntu-Bold.ttf");
   font-weight: bold;
 }
-
 @font-face {
   font-family: "Ubuntu";
   src: url("fonts/Ubuntu-BoldItalic.ttf");
   font-weight: bold;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Ubuntu";
   src: url("fonts/Ubuntu-Medium.ttf");
   font-weight: bolder;
 }
-
 @font-face {
   font-family: "Ubuntu";
   src: url("fonts/Ubuntu-MediumItalic.ttf");
   font-weight: bolder;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Ubuntu";
   src: url("fonts/Ubuntu-Light.ttf");
   font-weight: lighter;
 }
-
 @font-face {
   font-family: "Ubuntu";
   src: url("fonts/Ubuntu-LightItalic.ttf");
   font-weight: lighter;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Sabon LT Std";
   src: url("fonts/sabonltstd-roman.otf");
 }
-
 @font-face {
   font-family: "Sabon LT Std";
   src: url("fonts/sabonltstd-bold.otf");
   font-weight: bold;
 }
-
 @font-face {
   font-family: "Sabon LT Std";
   src: url("fonts/sabonltstd-italic.otf");
   font-style: italic;
 }
-
 @font-face {
   font-family: "Sabon LT Std";
   src: url("fonts/sabonltstd-bolditalic.otf");
   font-weight: bold;
   font-style: italic;
 }
-
-@layer vsd {
-  :root {
-    --vsd-font-body: "Ubuntu", sans-serif;
-    --vsd-font-display: "Sabon LT Std", serif;
-    --vsd-accent: #c02020;
-  }
 :root {
   --vsd-font-sans: "Ubuntu";
   --vsd-font-serif: "Sabon LT Std";
+  --vsd-font-body: "Ubuntu", sans-serif;
+  --vsd-font-display: "Sabon LT Std", serif;
+  --vsd-accent: #3d3428;
+  --vsd-panel: #f3ead8;
+  --vsd-text: #1a1814;
 }
 .window-app {
   font-size: 10pt;
+}
+.window-app input,
+.window-app select,
+.window-app textarea {
+  background-color: #f3ead8;
+  color: #1a1814;
 }
 .deployItems:hover,
 .removeItems:hover,
@@ -92,32 +85,32 @@
 .rollable:hover,
 .rollable:focus,
 .minus:hover {
-  color: black;
-  text-shadow: 0 0 10px red;
+  color: #1a1814;
+  text-shadow: 0 0 8px rgba(92, 87, 78, 0.55);
   cursor: pointer;
 }
 div.collapsible:hover,
 h3.collapsible:hover {
-  color: cyan;
+  color: #3d3428;
 }
 h3.collapsible.collapsed,
 div.collapsible.collapsed {
-  background-color: dimgrey;
+  background-color: rgba(92, 87, 78, 0.35);
 }
 .plus:hover {
-  color: black;
-  text-shadow: 0 0 10px green;
+  color: #1a1814;
+  text-shadow: 0 0 8px rgba(138, 129, 112, 0.55);
   cursor: pointer;
 }
 .roundedcard {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
 }
 .rollablecard {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -126,7 +119,7 @@ div.collapsible.collapsed {
 }
 .attackcard {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -135,7 +128,7 @@ div.collapsible.collapsed {
 }
 .woundcard {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -144,34 +137,34 @@ div.collapsible.collapsed {
 }
 .roundedheader {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
-  color: silver;
+  background-color: #1a1814;
+  color: #f3ead8;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #1a1814;
 }
 .small {
   background: none;
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
 }
 .smallinput {
   background: none;
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
 }
 .smallselect {
   background: none;
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
   width: 18px;
 }
 .row2 {
@@ -196,18 +189,18 @@ div.collapsible.collapsed {
 }
 .radio-toolbar label {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
-  color: silver;
+  background-color: #1a1814;
+  color: #f3ead8;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #1a1814;
 }
 .radio-toolbar label :hover {
-  background-color: black;
-  border-color: maroon;
-  color: silver;
+  background-color: #1a1814;
+  border-color: #3d3428;
+  color: #f3ead8;
 }
 .radio-toolbar input[type="radio"] {
   opacity: 0;
@@ -215,19 +208,19 @@ div.collapsible.collapsed {
   width: 0;
 }
 .radio-toolbar input[type="radio"] :checked + label {
-  background-color: maroon;
-  border-color: black;
-  color: silver;
+  background-color: #3d3428;
+  border-color: #1a1814;
+  color: #f3ead8;
 }
 .select {
   margin-left: 5px;
 }
 .select option {
-  background-color: darkgray;
-  color: maroon;
+  background-color: #ebe1cc;
+  color: #3d3428;
 }
 .select option:disabled {
-  color: silver;
+  color: #5c574e;
 }
 input[type="checkbox"] {
   height: 12px;
@@ -290,17 +283,18 @@ img.result-image {
   font-style: normal;
 }
 .section-title a {
-  border: 2px solid black;
+  border: 2px solid #1a1814;
   width: 100%;
   text-align: center;
   border-radius: 5px;
-  background-color: burlywood;
+  background-color: #ebe1cc;
+  color: #1a1814;
   padding: 2px;
   margin: 2px;
 }
 .section-title .title {
-  background-color: darkgreen;
-  color: aliceblue;
+  background-color: #3d3428;
+  color: #f3ead8;
   width: 100%;
   text-align: center;
   border-radius: 5px;
@@ -322,7 +316,7 @@ img.result-image {
   font-weight: normal;
   font-size: medium;
   font-style: normal;
-  background-color: #ffdead;
+  background-color: #ebe1cc;
 }
 .vsd.sheet.actor .sheet-header .portrait {
   height: 50px;
@@ -390,19 +384,20 @@ img.result-image {
   padding: 2px;
   height: unset;
   line-height: unset;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #1a1814;
 }
 .vsd.sheet nav.sheet-tabs .tabtitle {
   text-align: center;
   padding: 2px;
-  border: 1px dotted black;
+  border: 1px dotted #1a1814;
   border-radius: 3px;
   margin: 2px;
-  background-color: cadetblue;
+  background-color: #ebe1cc;
+  color: #1a1814;
 }
 .vsd.sheet nav.sheet-tabs .active {
-  background-color: darkolivegreen;
-  color: aliceblue;
+  background-color: #3d3428;
+  color: #f3ead8;
   font-weight: normal;
 }
 .tracked {
@@ -415,7 +410,7 @@ img.result-image {
   justify-items: center;
   align-items: center;
   padding: 5px;
-  border: 2px solid darkgoldenrod;
+  border: 2px solid #8a8170;
   border-radius: 5px;
   margin: 2px;
 }
@@ -452,7 +447,7 @@ img.result-image {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
 }
@@ -479,10 +474,10 @@ img.result-image {
   font-style: normal;
 }
 .attacks .melee {
-  border-color: darkkhaki;
+  border-color: #5c574e;
 }
 .attacks .ranged {
-  border-color: lightcyan;
+  border-color: #ebe1cc;
 }
 .global-modifier,
 .modifier {
@@ -491,10 +486,10 @@ img.result-image {
   font-size: smaller;
   font-style: normal;
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  border-color: black;
+  border-color: #1a1814;
 }
 .action.modifier {
   font-family: var(--vsd-font-sans);
@@ -502,10 +497,10 @@ img.result-image {
   font-size: smaller;
   font-style: normal;
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  border-color: black;
+  border-color: #1a1814;
   display: grid;
   grid-template-columns: auto 1fr auto;
 }
@@ -521,32 +516,33 @@ img.result-image {
   grid-template-columns: auto auto;
 }
 .action.modifier .actiondata .actionrate {
-  color: darkgreen;
+  color: #1a1814;
+  font-weight: bold;
 }
 .action.modifier .actiondata .actionreq {
-  color: darkred;
+  color: #6b5344;
 }
 .action.modifier .actiondata .actionvalue {
   text-align: right;
 }
 .attackmod {
-  border-color: blue;
+  border-color: #3d3428;
 }
 .damagemod {
-  border-color: red;
+  border-color: #5c574e;
 }
 .attackdamagemod {
-  border-color: purple;
+  border-color: #8a8170;
 }
 .global-modifier,
 .genmod {
-  background-color: rgba(255, 127, 80, 0.25);
+  background-color: rgba(138, 129, 112, 0.22);
 }
 .specmod {
-  background-color: rgba(95, 158, 160, 0.25);
+  background-color: rgba(92, 87, 78, 0.18);
 }
 .inEffect {
-  background-color: #88cc88;
+  background-color: rgba(26, 24, 20, 0.22);
 }
 .variables {
   display: grid;
@@ -557,7 +553,7 @@ img.result-image {
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: 1fr 4fr;
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
 }
@@ -596,7 +592,7 @@ img.result-image {
 }
 .defences .defence {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   font-family: var(--vsd-font-sans);
@@ -614,7 +610,7 @@ img.result-image {
 }
 .primaries .primary {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   font-family: var(--vsd-font-sans);
@@ -632,7 +628,7 @@ img.result-image {
 }
 .skills .skill {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   font-family: var(--vsd-font-sans);
@@ -650,7 +646,7 @@ img.result-image {
 }
 .spells .spell {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   font-family: var(--vsd-font-sans);
@@ -670,7 +666,7 @@ img.result-image {
 }
 .checks .check {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   font-family: var(--vsd-font-sans);
@@ -680,7 +676,7 @@ img.result-image {
 }
 .owneditems .owneditem {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   font-family: var(--vsd-font-sans);
@@ -696,7 +692,7 @@ img.result-image {
 }
 .owneditems .containeritem {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   font-family: var(--vsd-font-sans);
@@ -716,28 +712,28 @@ img.result-image {
   align-items: center;
 }
 .owneditems .attack {
-  background-color: rgba(255, 48, 48, 0.5);
+  background-color: rgba(26, 24, 20, 0.18);
 }
 .owneditems .roll {
-  background-color: rgba(48, 96, 224, 0.3);
+  background-color: rgba(26, 24, 20, 0.08);
 }
 .owneditems .ability {
-  background-color: rgba(224, 48, 224, 0.3);
+  background-color: rgba(92, 87, 78, 0.22);
 }
 .owneditems .pool {
   display: grid;
   grid-template-columns: 2fr 1.4fr 1fr 1.3fr 0.4fr 1.3fr;
-  background-color: rgba(128, 128, 24, 0.3);
+  background-color: rgba(61, 52, 40, 0.14);
 }
 .owneditems .var {
   display: grid;
   grid-template-columns: 2fr 1.4fr 1fr 1.5fr 0.75fr 0.75fr;
-  background-color: rgba(48, 96, 48, 0.3);
+  background-color: rgba(138, 129, 112, 0.22);
 }
 .owneditems .mod {
   display: grid;
   grid-template-columns: 2fr 1.4fr 1fr 0.75fr 0.75fr 0.75fr 0.75fr;
-  background-color: rgba(0, 192, 0, 0.3);
+  background-color: rgba(26, 24, 20, 0.12);
 }
 .owneditems .containeritem.pool {
   grid-template-columns: 2fr 1.4fr 1.3fr 0.4fr 1.3fr 20px;
@@ -749,12 +745,12 @@ img.result-image {
   grid-template-columns: 2fr 1.4fr 0.75fr 0.75fr 0.75fr 0.75fr 20px;
 }
 .owneditems .mod.inEffect {
-  background-color: #00e000;
+  background-color: rgba(26, 24, 20, 0.28);
 }
 .owneditems .adv,
 .owneditems .pwr,
 .owneditems .trait {
-  background-color: rgba(255, 127, 80, 0.3);
+  background-color: rgba(138, 129, 112, 0.18);
 }
 .owneditems .adv .snippet,
 .owneditems .pwr .snippet,
@@ -763,10 +759,10 @@ img.result-image {
   overflow: hidden;
 }
 .owneditems .adv {
-  background-color: rgba(128, 128, 48, 0.3);
+  background-color: rgba(92, 87, 78, 0.16);
 }
 .owneditems .pwr {
-  background-color: rgba(192, 192, 64, 0.3);
+  background-color: rgba(61, 52, 40, 0.2);
 }
 .reactions {
   display: grid;
@@ -774,7 +770,7 @@ img.result-image {
 }
 .reactions .reaction {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   font-family: var(--vsd-font-sans);
@@ -782,12 +778,12 @@ img.result-image {
   font-size: smaller;
   font-style: normal;
 }
-/* fix the message background */
+/* Aged-paper chat message tones */
 .message {
-  background-color: #e0e0e0;
-  color: #404040;
+  background-color: #f3ead8;
+  color: #1a1814;
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
 }
@@ -796,16 +792,16 @@ img.result-image {
   grid-template-columns: auto auto 1fr auto auto;
 }
 .message .message-header .message-sender {
-  color: #404040;
+  color: #1a1814;
 }
 .message .message-header .whisper-to {
-  color: #804040;
+  color: #5c574e;
 }
 .message .message-header .message-metadata {
-  color: #804040;
+  color: #5c574e;
 }
 .message .flavor-text {
-  color: #404040;
+  color: #1a1814;
 }
 .message .message-content .dice-roll .dice-result .dice-formula {
   display: none;
@@ -822,21 +818,21 @@ img.result-image {
 }
 .message .critfail {
   font-weight: bold;
-  color: #800;
+  color: #6b5344;
 }
 .message .critsuccess {
   font-weight: bold;
-  color: #080;
+  color: #1a1814;
 }
 .message .failure {
-  color: #800;
+  color: #6b5344;
 }
 .message .success {
-  color: #080;
+  color: #1a1814;
 }
 .message .open-journal:hover {
-  color: #000;
-  text-shadow: 0 0 10px red;
+  color: #1a1814;
+  text-shadow: 0 0 8px rgba(92, 87, 78, 0.55);
   cursor: pointer;
 }
 .message .spell-choice,
@@ -848,20 +844,20 @@ img.result-image {
 .message .critical-result .spellname,
 .message .attack-result .spellname {
   font-weight: bold;
-  color: #800;
+  color: #6b5344;
 }
 .message .critseverity,
 .message .defencevalue,
 .message .damageresult,
 .message .critresult {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
-  color: silver;
+  background-color: #1a1814;
+  color: #f3ead8;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #1a1814;
 }
 .message .defencevalue {
   padding: 0px;
@@ -877,7 +873,7 @@ img.result-image {
 }
 .mydialog .rollables .rollablename {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
 }
@@ -892,7 +888,7 @@ img.result-image {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
 }
@@ -920,7 +916,7 @@ img.result-image {
 }
 .mydialog .rollables .entry {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -931,16 +927,16 @@ img.result-image {
   font-size: smaller;
   font-style: normal;
   align-items: baseline;
-  background-color: lightcyan;
+  background-color: #ebe1cc;
 }
 .mydialog .rollables .melee {
-  border-color: darkkhaki;
+  border-color: #5c574e;
 }
 .mydialog .rollables .ranged {
-  border-color: lightcyan;
+  border-color: #ebe1cc;
 }
 .mydialog .rollables .spell {
-  border-color: blueviolet;
+  border-color: #3d3428;
 }
 .mydialog .defences {
   display: grid;
@@ -967,17 +963,17 @@ img.result-image {
 }
 .mydialog .modifiers .diagmod {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: rgba(192, 0, 192, 0.25);
+  background-color: rgba(92, 87, 78, 0.18);
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: baseline;
 }
 .mydialog .modifiers .diavar {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -989,7 +985,7 @@ img.result-image {
 }
 .mydialog .modifiers .diapool {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -1000,7 +996,7 @@ img.result-image {
 }
 .mydialog .modifiers .diamod {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -1043,7 +1039,7 @@ img.result-image {
 }
 .mydialog .vsd-classic-header .content .layout .headinfo {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   text-align: center;
@@ -1066,13 +1062,13 @@ img.result-image {
   color: unset;
 }
 .mydialog .vsd-classic-header .content .withend {
-  background-color: coral;
+  background-color: rgba(138, 129, 112, 0.35);
 }
 .mydialog .vsd-classic-header .content .can {
-  background-color: palegreen;
+  background-color: #ebe1cc;
 }
 .mydialog .vsd-classic-header .content .maynot {
-  background-color: red;
+  background-color: rgba(107, 83, 68, 0.4);
 }
 .mydialog .movement {
   display: grid;
@@ -1083,11 +1079,11 @@ img.result-image {
   border-radius: 5px;
 }
 .mydialog .movement .movementoptions .actionimage.active {
-  border: 5px solid maroon;
+  border: 5px solid #3d3428;
 }
 .mydialog .movement .movementoptions .moverate {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -1096,7 +1092,7 @@ img.result-image {
   align-items: center;
 }
 .mydialog .movement .movementoptions .moverate .mrname {
-  color: maroon;
+  color: #3d3428;
   font-weight: bold;
 }
 .mydialog .movement .movementoptions .moverate .mrvalue {
@@ -1125,7 +1121,7 @@ img.result-image {
   padding-right: 7px;
 }
 .app.window-app.sheet.journal-sheet {
-  background-color: aqua;
+  background-color: #f3ead8;
 }
 .app.window-app.sheet.journal-sheet table P {
   margin: auto;
@@ -1157,7 +1153,8 @@ img.result-image {
 .app.window-app.sheet.journal-sheet .actionresolutiontable .tableheaderrow,
 .app.window-app.sheet.journal-sheet .attacktable .tableheaderrow,
 .app.window-app.sheet.journal-sheet .criticalstrikestable .tableheaderrow {
-  background-color: coral;
+  background-color: #3d3428;
+  color: #f3ead8;
 }
 .app.window-app.sheet.journal-sheet .fearsaverollstable .tableheaderrow .tableheader,
 .app.window-app.sheet.journal-sheet .reactionrollsinteractiontable .tableheaderrow .tableheader,
@@ -1351,7 +1348,7 @@ img.result-image {
 .app.window-app.sheet.journal-sheet .actionresolutiontable .max-superficial,
 .app.window-app.sheet.journal-sheet .attacktable .max-superficial,
 .app.window-app.sheet.journal-sheet .criticalstrikestable .max-superficial {
-  background-color: #00ddaa50;
+  background-color: rgba(92, 87, 78, 0.18);
 }
 .app.window-app.sheet.journal-sheet .spelllisttable {
   font-family: var(--vsd-font-sans);
@@ -1360,7 +1357,8 @@ img.result-image {
   font-style: normal;
 }
 .app.window-app.sheet.journal-sheet .spelllisttable .tableheaderrow {
-  background-color: coral;
+  background-color: #3d3428;
+  color: #f3ead8;
   font-family: var(--vsd-font-sans);
   font-weight: bold;
   font-size: medium;
@@ -1369,7 +1367,7 @@ img.result-image {
 .app.window-app.sheet.journal-sheet .spelllisttable .tablerow {
   height: 32px;
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
 }
@@ -1392,25 +1390,25 @@ img.result-image {
   font-style: normal;
   display: grid;
   grid-auto-rows: auto;
-  background-color: maroon;
+  background-color: #3d3428;
   border-radius: 5px;
 }
 .vsd-header .sectionheader {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
-  color: silver;
+  background-color: #1a1814;
+  color: #f3ead8;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #1a1814;
 }
 .vsd-header .sectionheader .actorname {
   background: none;
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
 }
 .vsd-header .content .layout {
   display: grid;
@@ -1448,18 +1446,18 @@ img.result-image {
 }
 .vsd-header .content .layout .headinfo {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
-  color: silver;
+  background-color: #1a1814;
+  color: #f3ead8;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #1a1814;
   margin: 1px;
 }
 .vsd-header .content .layout .headinfo .rollable:hover {
-  background-color: maroon;
-  color: silver;
+  background-color: #3d3428;
+  color: #f3ead8;
 }
 .vsd-header .content .layout .triple,
 .vsd-header .content .layout .double,
@@ -1473,7 +1471,7 @@ img.result-image {
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
 }
 .vsd-header .content .layout .triple .valuefull,
 .vsd-header .content .layout .double .valuefull,
@@ -1482,7 +1480,7 @@ img.result-image {
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
   text-align: left;
   width: 100%;
 }
@@ -1500,7 +1498,7 @@ img.result-image {
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
   width: 18px;
 }
 .vsd-header nav.sheet-nav {
@@ -1509,40 +1507,40 @@ img.result-image {
   font-size: small;
   font-style: normal;
   padding: 2px;
-  border-top: 4px solid silver;
+  border-top: 4px solid #f3ead8;
 }
 .vsd-header nav.sheet-nav .tabtitle {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
+  background-color: #1a1814;
   text-align: center;
-  border: 2px solid black;
-  color: silver;
+  border: 2px solid #1a1814;
+  color: #f3ead8;
 }
 .vsd-header nav.sheet-nav .headinfo {
   align-self: center;
 }
 .vsd-header nav.sheet-nav .active {
-  background-color: maroon;
-  border-color: black;
+  background-color: #3d3428;
+  border-color: #1a1814;
 }
 .vsd-classic-header {
   display: grid;
   grid-auto-rows: auto;
-  background-color: maroon;
+  background-color: #3d3428;
   border-radius: 5px;
 }
 .vsd-classic-header .sectionheader {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
-  color: silver;
+  background-color: #1a1814;
+  color: #f3ead8;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #1a1814;
   display: grid;
   grid-template-columns: 200px 1fr 200px;
   justify-items: center;
@@ -1553,7 +1551,7 @@ img.result-image {
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
   width: 80%;
   font-size: x-large;
 }
@@ -1605,24 +1603,24 @@ img.result-image {
 }
 .vsd-classic-header .content .layout .headinfo {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
-  color: silver;
+  background-color: #1a1814;
+  color: #f3ead8;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #1a1814;
   margin: 1px;
 }
 .vsd-classic-header .content .layout .headinfo .select {
   margin: 0px;
-  color: silver;
+  color: #f3ead8;
   border: none;
   height: auto;
 }
 .vsd-classic-header .content .layout .headinfo .rollable:hover {
-  background-color: maroon;
-  color: silver;
+  background-color: #3d3428;
+  color: #f3ead8;
 }
 .vsd-classic-header .content .layout .triple,
 .vsd-classic-header .content .layout .double,
@@ -1636,7 +1634,7 @@ img.result-image {
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
 }
 .vsd-classic-header .content .layout .triple .valuefull,
 .vsd-classic-header .content .layout .double .valuefull,
@@ -1645,7 +1643,7 @@ img.result-image {
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
   text-align: left;
   width: 100%;
 }
@@ -1663,31 +1661,31 @@ img.result-image {
   border: none;
   width: auto;
   height: auto;
-  color: silver;
+  color: #f3ead8;
   width: 18px;
 }
 .vsd-classic-header nav.sheet-nav {
   padding: 2px;
-  border-top: 4px solid silver;
+  border-top: 4px solid #f3ead8;
   display: grid;
   grid-template-columns: 1fr 32px;
 }
 .vsd-classic-header nav.sheet-nav .tabtitle {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
+  background-color: #1a1814;
   text-align: center;
-  border: 2px solid black;
-  color: silver;
+  border: 2px solid #1a1814;
+  color: #f3ead8;
 }
 .vsd-classic-header nav.sheet-nav .headinfo {
   align-self: center;
 }
 .vsd-classic-header nav.sheet-nav .active {
-  background-color: maroon;
-  border-color: black;
+  background-color: #3d3428;
+  border-color: #1a1814;
 }
 .vsd-classic-header nav.sheet-nav .buttons {
   display: flex;
@@ -1716,8 +1714,8 @@ img.result-image {
   text-align: center;
 }
 .charsheet input:disabled {
-  background-color: whitesmoke;
-  color: dimgray;
+  background-color: #ebe1cc;
+  color: #5c574e;
 }
 .charsheet input[type=number].hundred {
   width: 30px;
@@ -1850,7 +1848,7 @@ img.result-image {
 }
 .charsheet .advances-table .categoryname {
   font-weight: bold;
-  color: maroon;
+  color: #3d3428;
   font-size: larger;
 }
 .charsheet .like-table {
@@ -1894,7 +1892,7 @@ img.result-image {
   text-align: right;
 }
 .charsheet .like-table .separator {
-  border-bottom: 1px dashed darkgray;
+  border-bottom: 1px dashed #8a8170;
   margin-bottom: 4px;
 }
 .charsheet .table-header {
@@ -1932,10 +1930,10 @@ img.result-image {
 .charsheet h3 {
   font-weight: bold;
   text-align: center;
-  color: silver;
-  border: 2px double black;
+  color: #f3ead8;
+  border: 2px double #1a1814;
   border-radius: 10px;
-  background-color: black;
+  background-color: #1a1814;
   margin-top: 5px;
   margin-bottom: 3px;
 }
@@ -1951,7 +1949,7 @@ img.result-image {
   text-align: right;
 }
 .charsheet .large-roundborder > input[type=number] {
-  border: 3px double #070707;
+  border: 3px double #1a1814;
   border-radius: 30px;
   padding: 0px;
   height: 60px;
@@ -1960,13 +1958,13 @@ img.result-image {
 }
 .charsheet input[type=number].current-hit-points {
   font-weight: bold;
-  color: white;
+  color: #f3ead8;
   text-align: center;
 }
 .charsheet .medium-roundborder > input[type=number] {
-  border: 2px double white;
+  border: 2px double #f3ead8;
   border-radius: 20px;
-  color: whitesmoke;
+  color: #f3ead8;
   padding: 0px;
   height: 40px;
   width: 40px;
@@ -1974,52 +1972,52 @@ img.result-image {
   padding-bottom: 5px;
 }
 .charsheet .medium-squareborder > input[type=number] {
-  border: 2px double white;
+  border: 2px double #f3ead8;
   border-radius: 7px;
-  color: whitesmoke;
+  color: #f3ead8;
   padding: 0px;
   height: 40px;
   width: 40px;
   font-size: 18px;
 }
 .charsheet .small-squareborder > input[type=number] {
-  border: 2px double white;
+  border: 2px double #f3ead8;
   border-radius: 5px;
-  color: whitesmoke;
-  background-color: dimgray;
+  color: #f3ead8;
+  background-color: #5c574e;
   height: 30px;
   width: 40px;
   font-size: 14px;
   padding-bottom: 5px;
 }
 .charsheet input[type=number].hitpoint-color {
-  background-color: white;
-  color: #070707;
+  background-color: #f3ead8;
+  color: #1a1814;
 }
 .charsheet input[type=number].defense-color {
-  background-color: #070707;
-  color: whitesmoke;
+  background-color: #1a1814;
+  color: #f3ead8;
 }
 .charsheet input[type=number].penalty-color {
-  background-color: white;
-  color: #070707;
+  background-color: #f3ead8;
+  color: #1a1814;
 }
 .charsheet input[type=number].automaticfield-color {
-  background-color: #070707;
-  color: whitesmoke;
+  background-color: #1a1814;
+  color: #f3ead8;
 }
 .charsheet input[type=number].magic-color {
-  background-color: Teal;
-  color: whitesmoke;
+  background-color: #5c574e;
+  color: #f3ead8;
 }
 .charsheet input[type=number].defensive-bonus {
   font-weight: bold;
-  color: white;
+  color: #f3ead8;
   text-align: center;
 }
 .charsheet input[type=number].penalty {
   font-weight: bold;
-  color: white;
+  color: #f3ead8;
   text-align: center;
 }
 .charsheet label.penalty-label {
@@ -2030,7 +2028,7 @@ img.result-image {
 .charsheet .roundborder-label {
   font-size: 1em;
   font-weight: normal;
-  color: SlateGray;
+  color: #5c574e;
   margin-top: 10px;
 }
 .charsheet .hitpoint-grid-section {
@@ -2073,19 +2071,19 @@ img.result-image {
 }
 .charsheet span.emphasize {
   font-weight: bold;
-  color: #070707;
+  color: #1a1814;
 }
 .charsheet input.emphasize {
   font-weight: bold;
-  color: #070707;
-  border: 1px solid #070707;
-  background-color: ghostwhite;
+  color: #1a1814;
+  border: 1px solid #1a1814;
+  background-color: #ebe1cc;
 }
 .charsheet input.status_explanation {
   text-align: right;
   font-size: 0.8em;
   padding: 0px;
-  background-color: white;
+  background-color: #f3ead8;
   border: none;
 }
 .charsheet .magic-grid-section {
@@ -2229,7 +2227,7 @@ img.result-image {
 .charsheet button[type=roll]:hover *,
 .charsheet button[type=roll]:hover input[type=text],
 .charsheet button[type=roll]:hover * {
-  color: #EC2127;
+  color: #3d3428;
 }
 .charsheet button[type=roll] * {
   pointer-events: none;
@@ -2241,7 +2239,7 @@ img.result-image {
   font-style: normal;
   font-variant: small-caps;
   font-size: inherit;
-  color: black;
+  color: #1a1814;
   overflow: visible;
   min-width: 850px;
 }
@@ -2253,17 +2251,17 @@ img.result-image {
   display: grid;
   grid-auto-rows: auto;
   border-radius: 5px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
 }
 .section .sectionheader {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
-  color: silver;
+  background-color: #1a1814;
+  color: #f3ead8;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #1a1814;
 }
 .section .sectionheader .section-title .title,
 .section .sectionheader .section-title a {
@@ -2289,13 +2287,13 @@ img.result-image {
   grid-column: span 4;
   height: fit-content;
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
-  color: silver;
+  background-color: #1a1814;
+  color: #f3ead8;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #1a1814;
 }
 .section .content .nospan .header .section-title .title,
 .section .content .twospan .header .section-title .title,
@@ -2321,7 +2319,7 @@ img.result-image {
 .section .content .threespan .entry,
 .section .content .fourspan .entry {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -2338,7 +2336,7 @@ img.result-image {
 .section .content .threespan .attackentry,
 .section .content .fourspan .attackentry {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -2354,7 +2352,7 @@ img.result-image {
 .section .content .threespan .wound,
 .section .content .fourspan .wound {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -2370,13 +2368,13 @@ img.result-image {
 .section .content .threespan .subsection .header,
 .section .content .fourspan .subsection .header {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
-  background-color: black;
-  color: silver;
+  background-color: #1a1814;
+  color: #f3ead8;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #1a1814;
   height: fit-content;
 }
 .section .content .nospan .subsection .entry,
@@ -2384,7 +2382,7 @@ img.result-image {
 .section .content .threespan .subsection .entry,
 .section .content .fourspan .subsection .entry {
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -2402,7 +2400,7 @@ img.result-image {
 .section .content .fourspan .doublewide {
   grid-column: span 2;
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   display: grid;
@@ -2415,7 +2413,7 @@ img.result-image {
 .section .content .fourspan .notes {
   grid-column: span 2;
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
 }
@@ -2439,7 +2437,7 @@ img.result-image {
   font-size: smaller;
   font-style: normal;
   padding: 3px;
-  border: 2px solid maroon;
+  border: 2px solid #3d3428;
   border-radius: 5px;
   margin: 2px;
   align-items: baseline;
@@ -2539,8 +2537,8 @@ img.result-image {
   resize: none;
 }
 .combat-sidebar li.combatant.defeated {
-  color: #e0736e;
-  background-color: rgba(128, 0, 0, 0.8);
+  color: #ebe1cc;
+  background-color: rgba(92, 87, 78, 0.75);
 }
 .combat-sidebar .combatant {
   display: grid;
@@ -2561,28 +2559,29 @@ img.result-image {
   text-align: left;
   max-height: 24px;
   overflow: hidden;
-  color: #ff8f8f;
+  color: #f3ead8;
 }
 .combat-sidebar .combatant .token-name .namerow .name.ready {
-  color: #8fbc8f;
+  color: #f3ead8;
+  font-weight: bold;
 }
 .combat-sidebar .combatant .token-name .combatant-controls {
   text-align: center;
 }
 .combat-sidebar .combatant .token-name .combatant-controls .actions,
 .combat-sidebar .combatant .token-name .combatant-controls .shotCost {
-  color: silver;
+  color: #f3ead8;
   height: 20px;
   max-width: 28px;
   border: none;
-  background-color: #800;
+  background-color: #3d3428;
   text-align: center;
 }
 .combat-sidebar .combatant .token-initiative .initiative {
-  color: silver;
+  color: #f3ead8;
   height: 20px;
   border: none;
-  background-color: #800;
+  background-color: #3d3428;
   text-align: center;
 }
 .combat-sidebar .combatant.vsd {
@@ -2606,33 +2605,33 @@ img.result-image {
   align-items: center;
 }
 .combat-sidebar .combatant.vsd .token-name .action {
-  color: black;
+  color: #1a1814;
   line-height: 18px;
   border-radius: 3px;
-  background-color: silver;
+  background-color: #f3ead8;
   text-align: center;
   font-size: smaller;
   text-shadow: 0 0 black;
 }
 .combat-sidebar .combatant.vsd .token-name .declaredaction {
-  color: silver;
+  color: #f3ead8;
   height: 20px;
   border: none;
   text-align: center;
   width: 18px;
-  background-color: black;
+  background-color: #1a1814;
 }
 .combat-sidebar .combatant.vsd .token-name .declaredaction option {
-  background-color: black;
+  background-color: #1a1814;
 }
 .combat-sidebar .combatant.vsd .token-initiative {
   padding-top: inherit;
 }
 .combat-sidebar .combatant.vsd .token-initiative .initiative {
-  color: silver;
+  color: #f3ead8;
   height: 20px;
   border: none;
-  background-color: #800;
+  background-color: #3d3428;
   text-align: center;
 }
 .combat-sidebar .combatant.vsd .token-initiative .roll {
@@ -2664,5 +2663,3 @@ img.result-image {
 .heroic-path-points .heroic-path-markers .heroic-path-gap {
   width: 10px;
 }
-}
-

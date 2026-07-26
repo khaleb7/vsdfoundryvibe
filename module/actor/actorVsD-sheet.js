@@ -229,19 +229,4 @@ export class ActorVsDClassicSheet extends BaseActorSheet {
     });
   };
 
-  /**
-   * Convert this trait to a Modifier
-   * @param {Event} event   The originating click event
-   * @private
-   */
-  async _deployItems(container) {
-    // unpack the container
-    const created = await this.actor.createEmbeddedDocuments("Item", container.system.entries);
-    const dropped = [];
-    for (let item of created) {
-      dropped.push(item.id);
-    }
-    await container.update({ 'system.dropped': dropped });
-  }
-
 }

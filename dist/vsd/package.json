@@ -7,6 +7,7 @@
   "private": true,
   "dependencies": {
     "bash": "^0.0.1",
+    "classic-level": "^3.0.0",
     "gulp": "^4.0.2",
     "gulp-less": "^5.0.0"
   },

@@ -1,10 +1,10 @@
-/* fix the message background */
-@message-back         : #e0e0e0;
-@message-colour       : #404040;
-@message-border-colour: darkolivegreen;
-@message-alt-colour   : #804040;
-@success              : #080;
-@failure              : #800;
+/* Aged-paper chat message tones */
+@message-back         : @paper-colour;
+@message-colour       : @ink-colour;
+@message-border-colour: @ink-border;
+@message-alt-colour   : @ink-faded;
+@success              : @success-ink;
+@failure              : @failure-ink;
 
 .message {
     background-color: @message-back;
@@ -70,8 +70,8 @@
     }
 
     .open-journal:hover {
-        color      : #000;
-        text-shadow: 0 0 10px red;
+        color      : @ink-colour;
+        text-shadow: 0 0 8px fade(@ink-faded, 55%);
         cursor     : pointer;
     }
 
@@ -82,7 +82,7 @@
 
         .spellname {
             font-weight: bold;
-            color      : #800;
+            color      : @failure-ink;
         }
     }
 

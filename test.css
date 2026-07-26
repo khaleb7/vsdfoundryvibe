@@ -33,7 +33,8 @@ li.folder>.folder-header {
   .application.vsd.sheet input,
   .application.vsd.sheet select,
   .application.vsd.sheet textarea {
-    color: inherit;
+    color: var(--vsd-text, #1a1814);
+    background-color: var(--vsd-panel, #f3ead8);
   }
   #combat-tracker .combatant.vsd .actionrow {
     display: flex;

@@ -842,13 +842,28 @@ export class BaseActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
 
   async dropItem(item) {
+    // ActorSheetV2 returns a single Item; V1 returned an array
+    const itemId = item?.id ?? item?.[0]?.id;
+    const baseitem = itemId ? this.actor.items.get(itemId) : null;
+    if (!baseitem) return item;
 
-    // the item has already been created on the actor sheet
-    const baseitem = await this.actor.items.get(item[0].id);
+    // Kin / Vocation containers: unpack packed Modifiers/Traits onto the actor
+    if (baseitem.type === "Container") {
+      await this._deployItems(baseitem);
+      return baseitem;
+    }
 
-    // show the item sheet
     baseitem.sheet.render(true);
     return baseitem;
+  }
+
+  /**
+   * Unpack a Container's packed entries onto the actor.
+   * @param {Item} container
+   */
+  async _deployItems(container) {
+    const created = await this.actor.createEmbeddedDocuments("Item", container.system.entries);
+    await container.update({ "system.dropped": created.map(i => i.id) });
   }
 
   async dropData(dragItem, token) {

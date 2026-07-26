@@ -1705,8 +1705,11 @@ export class BaseActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       }
     }
     await this.actor.createEmbeddedDocuments("Item", [item]);
-    await this.actor.update({ "system.biography": biography });
-    await this.actor.update({ "system.itemscript": "" });
+    await this.actor.update({
+      "system.biography": biography,
+      "system.itemscript": "",
+      "flags.core.sheetClass": "vsd.ActorVsDClassicSheet"
+    });
     ui.notifications.info("Stat block import complete");
   }
 

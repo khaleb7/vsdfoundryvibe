@@ -1,6 +1,7 @@
 // Import Modules
 import { BaseActor } from "./module/actor/baseActor.js";
 import { ActorVsDClassicSheet } from "./module/actor/actorVsD-sheet.js";
+import { ActorVsDFormSheet } from "./module/actor/actorVsD-form-sheet.js";
 import { BaseItem } from "./module/item/item.js";
 import { BaseItemSheet, PoolItemSheet, ModifierItemSheet, VariableItemSheet, ContainerItemSheet } from "./module/item/item-sheet.js";
 import { system } from "./module/config.js";
@@ -386,11 +387,17 @@ Hooks.once('init', () => {
   const ActorsCollection = foundry.documents.collections.Actors;
   const ItemsCollection = foundry.documents.collections.Items;
   ActorsCollection.unregisterSheet("core", foundry.appv1?.sheets?.ActorSheet ?? ActorSheet);
-  ActorsCollection.registerSheet("vsd", ActorVsDClassicSheet, {
+  ActorsCollection.registerSheet("vsd", ActorVsDFormSheet, {
     types: ["CharacterVsD"],
     makeDefault: true,
+    label: "Form Fillable Character Sheet"
+  });
+  ActorsCollection.registerSheet("vsd", ActorVsDClassicSheet, {
+    types: ["CharacterVsD"],
+    makeDefault: false,
     label: "Classic VsD Character Sheet"
   });
+
   ItemsCollection.unregisterSheet("core", foundry.appv1?.sheets?.ItemSheet ?? ItemSheet);
   ItemsCollection.registerSheet("vsd", BaseItemSheet, {
     types: ["Primary-Attribute", "Melee-Attack", "Ranged-Attack", "Container", "Rollable", "Trait", "Defence", "Equipment", "Hit-Location"],
@@ -758,7 +765,7 @@ Hooks.on("preCreateActor", (document, data, options, userId) => {
   if (data.img) return;
 
   const updates = {
-    flags: { core: { sheetClass: "vsd.ActorVsDClassicSheet" } }
+    flags: { core: { sheetClass: "vsd.ActorVsDFormSheet" } }
   };
 
   // set the basic features according to system requirements

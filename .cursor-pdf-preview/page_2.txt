@@ -1,0 +1,74 @@
+Conditions
+Injuries
+Defense 
+Melee Defense
+Ranged Defense
+SWI Bonus
+Shield Bonus
+Item Bonus
+Spec Bonus
+Total
+Current
+Hit Points
+Bleed
+Penalties
+Wounds
+Weapons / Attacks
+Hands
+Length
+Skill(s) 
+Used
+CR
+Attack 
+Table
+Maximum 
+Result
+Primary 
+Critical
+Alternate 
+Critical
+Base 
+Range
+Qualities
+Weapons & Attack
+Qualities
+Armor / Shield
+ Type
+Zones 
+Protected
+Max SWI 
+to DEF
+Move 
+Penalty
+CMB 
+Penalty
+Perception 
+Penalty
+Melee 
+Bonus
+Ranged 
+Bonus
+Armor and Shield
+Location
+Items and Descriptions
+Equipment
+Held
+-30 CMB and Def
+Prone
+-20 CMB
+Stun
++20 CMB Against
+Bruised
+-20 all actions
+Worn
+Wealth
+Wealth Level
+Status
+Movement
+Encumbrance Level
+Move Rate
+Soul 
+Damage
+Exhaustion 
+Penalties
+Weary

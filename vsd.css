@@ -2243,6 +2243,437 @@ img.result-image {
   overflow: visible;
   min-width: 850px;
 }
+/* Form-fillable PDF-style character sheet (scoped) */
+.vsd-form-sheet .window-content {
+  background: #f7f5f0;
+  color: #1a1a1a;
+}
+.vsd-form-sheet .vsd-form-wrapper {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem 0.75rem;
+}
+.vsd-form-sheet .vsd-form-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #f7f5f0;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #c8c4bb;
+  margin-bottom: 0.5rem;
+}
+.vsd-form-sheet .form-logo-row {
+  display: grid;
+  grid-template-columns: auto 1fr 72px;
+  gap: 0.75rem;
+  align-items: start;
+}
+.vsd-form-sheet .header-logo {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+}
+.vsd-form-sheet .portrait {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border: 1px solid #888;
+  border-radius: 0;
+}
+.vsd-form-sheet .form-identity {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.vsd-form-sheet .form-id-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-end;
+}
+.vsd-form-sheet .uline-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.vsd-form-sheet .uline-field.grow {
+  flex: 1;
+}
+.vsd-form-sheet .uline-field.narrow {
+  width: 4.5rem;
+  flex: 0 0 auto;
+}
+.vsd-form-sheet .uline-field > span:last-child {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #555;
+  margin-top: 1px;
+}
+.vsd-form-sheet .uline-field input,
+.vsd-form-sheet .uline-field .readonly {
+  border: none;
+  border-bottom: 1px solid #333;
+  border-radius: 0;
+  background: transparent;
+  height: 1.4rem;
+  padding: 0 2px;
+  font-family: inherit;
+  font-size: 13px;
+  width: 100%;
+}
+.vsd-form-sheet .uline-field .readonly {
+  display: block;
+  line-height: 1.4rem;
+  min-height: 1.4rem;
+}
+.vsd-form-sheet .actorname {
+  font-weight: bold;
+  font-size: 15px !important;
+}
+.vsd-form-sheet .sheet-nav {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+.vsd-form-sheet .sheet-nav .tabtitle {
+  flex: 1;
+  text-align: center;
+  padding: 0.35rem 0.5rem;
+  background: #d9d5cc;
+  color: #222;
+  border: 1px solid #b0aaa0;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-decoration: none;
+}
+.vsd-form-sheet .sheet-nav .tabtitle.active {
+  background: #4a4640;
+  color: #f7f5f0;
+}
+.vsd-form-sheet .sheet-body {
+  max-height: calc(100% - 140px);
+  overflow: auto;
+}
+.vsd-form-sheet .form-section {
+  margin-bottom: 0.65rem;
+}
+.vsd-form-sheet .form-section-title {
+  margin: 0 0 0.35rem;
+  padding: 0.2rem 0.45rem;
+  background: #cfcabe;
+  color: #1a1a1a;
+  font-size: 13px;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  border: none;
+}
+.vsd-form-sheet .form-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1.35fr;
+  gap: 0.75rem;
+}
+.vsd-form-sheet .form-two-col.conditions-defense,
+.vsd-form-sheet .form-two-col.wealth-move,
+.vsd-form-sheet .form-two-col.animals-row {
+  grid-template-columns: 1fr 1fr;
+}
+.vsd-form-sheet .form-grid-area {
+  min-height: 4rem;
+  padding: 0.35rem;
+  background: linear-gradient(#e8e4db 1px, transparent 1px) 0 0 / 100% 18px, linear-gradient(90deg, #e8e4db 1px, transparent 1px) 0 0 / 18px 100%;
+  background-color: #faf8f3;
+  border: 1px solid #c8c4bb;
+}
+.vsd-form-sheet .passion-line,
+.vsd-form-sheet .trait-line {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+.vsd-form-sheet .passion-line label,
+.vsd-form-sheet .trait-line label,
+.vsd-form-sheet .passion-line .item-edit,
+.vsd-form-sheet .trait-line .item-edit {
+  min-width: 5rem;
+  font-weight: bold;
+}
+.vsd-form-sheet .passion-line input,
+.vsd-form-sheet .trait-line input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #666;
+  border-radius: 0;
+  background: transparent;
+}
+.vsd-form-sheet .drive-point-markers {
+  display: flex;
+  gap: 0.55rem;
+  padding: 0.35rem 0.5rem;
+}
+.vsd-form-sheet .drive-point,
+.vsd-form-sheet .heroic-path-point {
+  cursor: pointer;
+  color: #333;
+}
+.vsd-form-sheet .drive-point i,
+.vsd-form-sheet .heroic-path-point i {
+  font-size: 14px;
+}
+.vsd-form-sheet .form-heroic {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  padding: 0.35rem 0.5rem;
+  align-items: flex-start;
+}
+.vsd-form-sheet .form-heroic .heroic-path-point {
+  position: relative;
+  text-align: center;
+  min-width: 1.4rem;
+}
+.vsd-form-sheet .form-heroic .heroic-path-point i {
+  font-size: 14px;
+}
+.vsd-form-sheet .form-heroic .heroic-path-point .hp-label {
+  display: block;
+  font-size: 9px;
+  line-height: 1.1;
+  color: #666;
+  margin-top: 2px;
+}
+.vsd-form-sheet .form-table {
+  width: 100%;
+  border: 1px solid #b0aaa0;
+}
+.vsd-form-sheet .form-row {
+  display: grid;
+  align-items: center;
+  border-bottom: 1px solid #ddd9d0;
+  min-height: 1.35rem;
+}
+.vsd-form-sheet .form-row.header {
+  background: #e5e1d7;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.vsd-form-sheet .form-row.cat-header {
+  background: #ece8df;
+  font-weight: bold;
+  font-variant: small-caps;
+  grid-template-columns: 1fr auto;
+}
+.vsd-form-sheet .form-row.cat-header .dp {
+  padding-right: 0.35rem;
+  font-size: 10px;
+  text-align: right;
+}
+.vsd-form-sheet .form-row .cell {
+  padding: 1px 3px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.vsd-form-sheet .form-row .cell.name {
+  text-align: left;
+}
+.vsd-form-sheet .form-row .cell.tot {
+  background: #f0ede6;
+  font-weight: bold;
+  border-left: 1px solid #b0aaa0;
+}
+.vsd-form-sheet .stats-table .form-row,
+.vsd-form-sheet .saves-table .form-row:not(.cat-header) {
+  grid-template-columns: 1.6fr repeat(3, 0.7fr) 0.75fr;
+}
+.vsd-form-sheet .saves-table .form-row:not(.cat-header) {
+  grid-template-columns: 1.2fr repeat(4, 0.65fr) 0.75fr;
+}
+.vsd-form-sheet .skill-cols {
+  grid-template-columns: 1.8fr repeat(6, 0.7fr) 0.75fr;
+}
+.vsd-form-sheet .armor-cols {
+  grid-template-columns: 1.4fr 0.5fr 1fr repeat(6, 0.7fr) 1fr;
+  font-size: 11px;
+}
+.vsd-form-sheet .weapon-cols {
+  grid-template-columns: 1.3fr 0.45fr 0.5fr 1fr 0.4fr 0.9fr 0.55fr 0.9fr 0.7fr 0.7fr 1fr;
+  font-size: 10px;
+}
+.vsd-form-sheet .equip-cols {
+  grid-template-columns: 0.7fr 2.5fr;
+}
+.vsd-form-sheet .equip-cols .loc,
+.vsd-form-sheet .equip-cols .desc {
+  text-align: left;
+  white-space: normal;
+}
+.vsd-form-sheet .spell-extra-cols {
+  grid-template-columns: 1.5fr repeat(5, 0.8fr);
+}
+.vsd-form-sheet .roll-label {
+  color: #1a1a1a;
+  text-decoration: none;
+  cursor: pointer;
+}
+.vsd-form-sheet .roll-label:hover {
+  color: #6b2a1f;
+  text-decoration: underline;
+}
+.vsd-form-sheet .form-top-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+}
+.vsd-form-sheet .hp-fields,
+.vsd-form-sheet .mp-fields,
+.vsd-form-sheet .inline-fields,
+.vsd-form-sheet .def-totals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.35rem 0.5rem;
+  align-items: center;
+}
+.vsd-form-sheet .boxed {
+  display: inline-block;
+  min-width: 2.5rem;
+  padding: 0.15rem 0.35rem;
+  border: 1px solid #333;
+  background: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.vsd-form-sheet input.boxed {
+  width: 3rem;
+  height: auto;
+  margin: 0;
+}
+.vsd-form-sheet .conditions-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.35rem;
+}
+.vsd-form-sheet .conditions-grid .modifier {
+  padding: 0.15rem 0.4rem;
+  border: 1px solid #aaa;
+  background: #f3f0ea;
+  cursor: pointer;
+}
+.vsd-form-sheet .conditions-grid .modifier.inEffect {
+  background: #4a4640;
+  color: #f7f5f0;
+}
+.vsd-form-sheet .defense-breakdown {
+  padding: 0.35rem 0.5rem;
+}
+.vsd-form-sheet .defense-breakdown .def-line {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 0.5rem;
+  align-items: end;
+  margin-bottom: 0.25rem;
+}
+.vsd-form-sheet .defense-breakdown .def-line .uline {
+  border-bottom: 1px solid #333;
+  min-height: 1.2rem;
+  text-align: center;
+}
+.vsd-form-sheet .injuries-list {
+  padding: 0.35rem 0.5rem;
+}
+.vsd-form-sheet .injuries-list h4 {
+  margin: 0.25rem 0;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.vsd-form-sheet .injuries-list .injury-line {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  padding: 0.1rem 0;
+}
+.vsd-form-sheet .magic-items-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.vsd-form-sheet .magic-items-grid .magic-item {
+  border: 1px solid #c8c4bb;
+  padding: 0.35rem;
+  background: #faf8f3;
+}
+.vsd-form-sheet .magic-items-grid .magic-item .name {
+  font-weight: bold;
+  border-bottom: 1px solid #333;
+  margin-bottom: 0.25rem;
+}
+.vsd-form-sheet .magic-items-grid .magic-item .meta {
+  font-size: 11px;
+  color: #555;
+}
+.vsd-form-sheet .magic-items-grid .magic-item .powers {
+  font-size: 11px;
+  margin-top: 0.25rem;
+}
+.vsd-form-sheet .dp-inline {
+  float: right;
+  font-weight: normal;
+  font-size: 11px;
+}
+.vsd-form-sheet .form-hint {
+  margin: 0.35rem;
+  color: #666;
+  font-style: italic;
+}
+.vsd-form-sheet .biography {
+  min-height: 120px;
+  border: 1px solid #c8c4bb;
+  background: #fff;
+  margin-bottom: 0.35rem;
+}
+.vsd-form-sheet .biography .editor {
+  min-height: 120px;
+}
+.vsd-form-sheet .form-notes {
+  width: 100%;
+  border: 1px solid #c8c4bb;
+  background: linear-gradient(#e8e4db 1px, transparent 1px) 0 0 / 100% 18px;
+  background-color: #faf8f3;
+  font-family: inherit;
+  resize: vertical;
+}
+.vsd-form-sheet .xp-hooks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.35rem;
+}
+.vsd-form-sheet .xp-line {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+}
+.vsd-form-sheet .xp-line .grow {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #666;
+  border-radius: 0;
+  background: transparent;
+}
+.vsd-form-sheet select {
+  font-family: inherit;
+  border: none;
+  border-bottom: 1px solid #333;
+  border-radius: 0;
+  background: transparent;
+}
 .section {
   font-family: var(--vsd-font-sans);
   font-weight: normal;

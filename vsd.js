@@ -757,22 +757,19 @@ Hooks.on("preCreateActor", (document, data, options, userId) => {
   // if the actor has an image, it already exists. No reason to be doing anything to it here yet.
   if (data.img) return;
 
-  const newdata = {};
+  const updates = {
+    flags: { core: { sheetClass: "vsd.ActorVsDClassicSheet" } }
+  };
 
   // set the basic features according to system requirements
   switch (data.type) {
     case "CharacterVsD": {
-      newdata.bm = {
-        step: 15,
-      };
+      updates.system = { bm: { step: 15 } };
       break;
     }
   }
-  data.system = newdata;
-  data.flags = { core: { sheetClass: "vsd.ActorVsDClassicSheet" } };
 
-  // TODO:document updates require an _id to function and this cannot have one
-  document.updateSource(data);
+  document.updateSource(updates);
 });
 
 /**

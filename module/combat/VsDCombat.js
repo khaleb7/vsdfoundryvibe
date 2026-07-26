@@ -1,5 +1,7 @@
 import { system } from "../config.js";
 
+const Combat = foundry.documents.Combat;
+const Combatant = foundry.documents.Combatant;
 const CombatTracker = foundry.applications?.sidebar?.tabs?.CombatTracker ?? globalThis.CombatTracker;
 const CombatantConfig = foundry.applications?.sheets?.CombatantConfig
   ?? foundry.appv1?.sheets?.CombatantConfig

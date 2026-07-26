@@ -27,8 +27,8 @@ export class BaseActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
 
   /** Resolve item id from a ContextMenu callback element (jQuery or HTMLElement). */
   static #itemIdFromElement(element) {
-    const el = element?.jquery ? element : $(element);
-    return el.data("item-id") ?? element?.dataset?.itemId;
+    const el = element?.jquery ? element[0] : element;
+    return el?.dataset?.itemId ?? el?.closest?.(".item")?.dataset?.itemId;
   }
 
   itemContextMenu = [
@@ -634,7 +634,8 @@ export class BaseActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     });
 
     const ContextMenuCls = foundry.applications?.ux?.ContextMenu?.implementation ?? ContextMenu;
-    new ContextMenuCls(html, ".item", this.itemContextMenu, { jQuery: true });
+    // Pass HTMLElement (not jQuery) — required since V13; jQuery support removed in V15
+    new ContextMenuCls(this.element, ".item", this.itemContextMenu, { jQuery: false });
 
     const handler = (ev) => this._onDragStart(ev);
     html.find(".draggable").each((i, li) => {

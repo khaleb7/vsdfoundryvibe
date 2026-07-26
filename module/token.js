@@ -1,3 +1,7 @@
+const TokenDocument = foundry.documents.TokenDocument;
+const Token = foundry.canvas.placeables.Token;
+const TokenHUD = foundry.applications.hud.TokenHUD;
+
 export class VsDTokenDocument extends TokenDocument {
 
   /**

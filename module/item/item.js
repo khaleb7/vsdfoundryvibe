@@ -2,6 +2,8 @@
  * Extend the basic Item with some very simple modifications.
  * @extends {Item}
  */
+const Item = foundry.documents.Item;
+
 export class BaseItem extends Item {
   /**
    * Augment the basic Item data model with additional dynamic data.

@@ -1,6 +1,8 @@
 import { system } from "../config.js";
 import { MyDialog } from "../dialog.js";
 
+const Actor = foundry.documents.Actor;
+
 /**
  * Extend the base Actor document by defining a custom roll data structure which is ideal for the Simple system.
  * @extends {Actor}
@@ -10,6 +12,9 @@ export class BaseActor extends Actor {
    * Fetch and sort all the items, even though they will be prepared internally after this stage.
    */
   prepareBaseData() {
+    // V14+: Actor#_clearData initializes tokenActiveEffectChanges / AE phase tracking
+    super.prepareBaseData();
+
     const actordata = this.system;
     if (CONFIG.system.testMode)
       console.debug("entering prepareBaseData()\n", [this, actordata]);
@@ -1898,7 +1903,7 @@ export class BaseActor extends Actor {
   async rollabledialog(rollableData, macroData) {
     const actor = this;
     const template = "systems/vsd/templates/rollmacro/rollables.hbs";
-    const html = await renderTemplate(template, { rollableData });
+    const html = await foundry.applications.handlebars.renderTemplate(template, { rollableData });
 
     new MyDialog({
       title: `Rollables: ${actor.name}`,
@@ -2002,7 +2007,7 @@ export class BaseActor extends Actor {
     }
 
     const template = "systems/vsd/templates/rollmacro/modifiers.hbs";
-    const html = await renderTemplate(template, {
+    const html = await foundry.applications.handlebars.renderTemplate(template, {
       actor,
       rollableData,
       uniquemods,

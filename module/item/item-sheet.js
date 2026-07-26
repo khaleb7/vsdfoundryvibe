@@ -28,14 +28,11 @@ export class BaseItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
     return `${this.document.name} [${this.document.type}]`;
   }
 
-  /** @override */
-  _configureRenderOptions(options) {
-    super._configureRenderOptions(options);
-    options.parts = {
-      body: {
-        template: `systems/vsd/templates/item/${this.document.type.toLowerCase()}-sheet.hbs`
-      }
-    };
+  /** @override — pick per-type template; options.parts must remain an array of part ids */
+  _configureRenderParts(options) {
+    const parts = super._configureRenderParts(options);
+    parts.body.template = `systems/vsd/templates/item/${this.document.type.toLowerCase()}-sheet.hbs`;
+    return parts;
   }
 
   /* -------------------------------------------- */

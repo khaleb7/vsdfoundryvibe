@@ -1,3 +1,11 @@
+14.0.1
+- Fixed actor create crash: BaseActor.prepareBaseData now calls super (V14 Active Effect phase init).
+- Softened preCreateActor updateSource payload (no longer wipes system data).
+- ContextMenu uses HTMLElement instead of jQuery.
+- Token/Combat/Actor classes use Foundry V13+ namespaces (removes Token global deprecation).
+- Item sheets: fix options.parts (use _configureRenderParts, not object assignment).
+- renderTemplate → foundry.applications.handlebars.renderTemplate.
+
 14.0.0
 - Foundry V14 compliance pass (system id remains `vsd`).
 - Fixed pack paths for vsd-macros and vsd-items (LevelDB folders, not missing `.db` files).

@@ -1,3 +1,10 @@
+14.0.3
+- Dragging Kin/Vocation Containers onto a PC sheet now auto-deploys packed Modifiers/Traits (ActorSheetV2 drop return shape fixed).
+- Sheet form controls use paper background + ink text (fixes black-on-black inputs under Theme V2).
+
+14.0.2
+- Aged-paper monochrome UI theme for sheets, chat, combat rows, and dialogs.
+
 14.0.1
 - Fixed actor create crash: BaseActor.prepareBaseData now calls super (V14 Active Effect phase init).
 - Softened preCreateActor updateSource payload (no longer wipes system data).

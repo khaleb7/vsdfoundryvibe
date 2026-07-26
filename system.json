@@ -2,7 +2,7 @@
   "id": "vsd",
   "title": "Against the Darkmaster",
   "description": "Community Foundry V13/V14 continuation of the Against the Darkmaster system (originally by James Huddleston / Open Ended Games). Not an official Open Ended Games release.",
-  "version": "14.0.2",
+  "version": "14.0.3",
   "compatibility": {
     "minimum": "13",
     "verified": "14"

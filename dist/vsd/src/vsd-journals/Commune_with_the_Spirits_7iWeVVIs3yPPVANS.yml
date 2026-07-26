@@ -1,0 +1,61 @@
+name: Commune with the Spirits
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.CJ2VnKszgGPJixqK
+pages:
+  - name: Commune with the Spirits
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Communion"> <td>Lore:</td> <td>Communion </td> </tr> <tr>
+        <td>Weave:</td> <td>10th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Communion" data-weave="10th"
+        data-spell="Commune with the Spirits" data-range="0 (self)"
+        data-aoe="caster" data-duration="-" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Commune with the Spirits </td> </tr> <tr>
+        <td>Range:</td> <td>0 (self) </td> </tr> <tr> <td>Area of Effect:</td>
+        <td>caster </td> </tr> <tr> <td>Duration:</td> <td>- </td> </tr> <tr>
+        <td>Save:</td> <td>N </td> </tr> </tbody> </table>
+    _id: f2iKNGApl8MIWaxN
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!7iWeVVIs3yPPVANS.f2iKNGApl8MIWaxN'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105636
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.CJ2VnKszgGPJixqK
+  duplicateSource: null
+_id: 7iWeVVIs3yPPVANS
+sort: 0
+_key: '!journal!7iWeVVIs3yPPVANS'
+

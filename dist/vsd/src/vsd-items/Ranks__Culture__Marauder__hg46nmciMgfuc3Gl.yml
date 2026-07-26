@@ -1,0 +1,84 @@
+_id: hg46nmciMgfuc3Gl
+name: 'Ranks: Culture (Marauder)'
+type: Variable
+img: icons/environment/people/group.webp
+effects: []
+folder: abW3nFLArLLC7tFt
+sort: 103125
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.hg46nmciMgfuc3Gl
+system:
+  notes: 'Wealth Level: +0'
+  chartype: CharacterVsD
+  group: Variable
+  value: 3
+  formula: ''
+  label: Armor
+  entries:
+    '0':
+      value: 3
+      formula: '3'
+      label: Armor
+    '1':
+      value: 2
+      formula: '2'
+      label: Blunt
+    '2':
+      value: 3
+      formula: '3'
+      label: Blades
+    '3':
+      value: 2
+      formula: '2'
+      label: Ranged
+    '4':
+      value: 1
+      formula: '1'
+      label: Polearms
+    '5':
+      value: 2
+      formula: '2'
+      label: Brawl
+    '6':
+      value: 1
+      formula: '1'
+      label: Athletics
+    '7':
+      value: 1
+      formula: '1'
+      label: Ride
+    '8':
+      value: 1
+      formula: '1'
+      label: Hunting
+    '9':
+      value: 1
+      formula: '1'
+      label: Acrobatics
+    '10':
+      value: 1
+      formula: '1'
+      label: Perception
+    '11':
+      value: 3
+      formula: '3'
+      label: Body
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  cFMVT6Qd4M0fbk5F: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.62'
+  coreVersion: '12.328'
+  createdTime: 1676409485529
+  modifiedTime: 1703703320540
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.hg46nmciMgfuc3Gl
+  duplicateSource: null
+_key: '!items!hg46nmciMgfuc3Gl'
+

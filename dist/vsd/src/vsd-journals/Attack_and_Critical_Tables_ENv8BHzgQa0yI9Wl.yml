@@ -1,0 +1,17 @@
+name: Attack and Critical Tables
+type: JournalEntry
+folder: null
+_id: ENv8BHzgQa0yI9Wl
+sorting: a
+sort: 100000
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '11.305'
+  createdTime: 1689519505706
+  modifiedTime: 1689519593939
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+color: '#0060ff'
+_key: '!folders!ENv8BHzgQa0yI9Wl'
+

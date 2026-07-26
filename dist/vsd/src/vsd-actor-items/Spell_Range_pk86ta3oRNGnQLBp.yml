@@ -1,0 +1,56 @@
+name: Spell Range
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: Modifiers applied to a spell roll.
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: Not applicable
+  entries:
+    - value: 0
+      formula: '0'
+      label: Not Applicable
+    - value: 30
+      formula: '+30'
+      label: Touching
+    - value: 10
+      formula: '+10'
+      label: up to 3m
+    - value: 0
+      formula: '0'
+      label: 4-15m
+    - value: -10
+      formula: '-10'
+      label: 16-30m
+    - value: -20
+      formula: '-20'
+      label: 31-90m
+    - value: -30
+      formula: '-30'
+      label: More than 90m
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689520924726
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: pk86ta3oRNGnQLBp
+sort: 4100000
+_key: '!items!pk86ta3oRNGnQLBp'
+

@@ -1,0 +1,56 @@
+name: Brawn Bonus
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: >-
+    The skill bonus from the Brawn stat. This is applied to attack rolls for
+    combat skills as well.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: true
+  defence: false
+  skill: true
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '@brn'
+      category: skill
+      targets: Blunt, Blades, Polearms, Brawl, Athletics
+      moddedformula: '0'
+    - value: 0
+      formula: '@brn'
+      category: attack
+      targets: Blunt, Blades, Polearms, Brawl
+      moddedformula: '0'
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Brawn Bonus
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377367932
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: 0MpFRzDRytbolIIN
+sort: 9800000
+_key: '!items!0MpFRzDRytbolIIN'
+

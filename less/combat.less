@@ -1,7 +1,7 @@
 .combat-sidebar {
   li.combatant.defeated {
-    color: #e0736e;
-    background-color: rgba(128, 0, 0, 0.8);
+    color: @paper-alt-colour;
+    background-color: fade(@ink-faded, 75%);
   }
 
   .combatant {
@@ -23,11 +23,12 @@
           text-align: left;
           max-height: 24px;
           overflow: hidden;
-          color: #ff8f8f;
+          color: @paper-colour;
         }
 
         .name.ready {
-          color: #8fbc8f;
+          color: @paper-colour;
+          font-weight: bold;
         }
       }
 
@@ -36,11 +37,11 @@
 
         .actions,
         .shotCost {
-          color: silver;
+          color: @paper-colour;
           height: 20px;
           max-width: 28px;
           border: none;
-          background-color: #800;
+          background-color: @sepia-accent;
           text-align: center;
         }
       }
@@ -48,10 +49,10 @@
 
     .token-initiative {
       .initiative {
-        color: silver;
+        color: @paper-colour;
         height: 20px;
         border: none;
-        background-color: #800;
+        background-color: @sepia-accent;
         text-align: center;
       }
     }
@@ -107,10 +108,10 @@
       padding-top: inherit;
 
       .initiative {
-        color: silver;
+        color: @paper-colour;
         height: 20px;
         border: none;
-        background-color: #800;
+        background-color: @sepia-accent;
         text-align: center;
       }
 

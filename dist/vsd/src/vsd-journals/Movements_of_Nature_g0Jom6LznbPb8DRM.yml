@@ -1,0 +1,99 @@
+name: Movements of Nature
+folder: Z9DrIJY8LTitWm9q
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.EghQGbWk0RHodr32
+pages:
+  - name: Movements of Nature
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spelllisttable"> <tbody> <tr class="tableheaderrow"> <td
+        class="weave">Weave</td> <td class="spell">Spell</td> <td
+        class="range">Range</td> <td class="areaofeffect">Area of Effect</td>
+        <td class="duration">Duration</td> <td class="save">Save</td> </tr> <tr
+        class="tablerow open-journal" data-table="Wanderer's Stride"> <td
+        class="weave">1st</td> <td class="spell">Wanderer's Stride</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">10 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Squirrel's Step"> <td
+        class="weave">2nd</td> <td class="spell">Squirrel's Step</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Wolf's Speed"> <td
+        class="weave">3rd</td> <td class="spell">Wolf's Speed</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">10 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Otter's Breath"> <td
+        class="weave">4th</td> <td class="spell">Otter's Breath</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Water Walk"> <td
+        class="weave">5th</td> <td class="spell">Water Walk</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Burrowing"> <td
+        class="weave">6th</td> <td class="spell">Burrowing</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Spider Climb"> <td
+        class="weave">7th</td> <td class="spell">Spider Climb</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="One with Nature"> <td
+        class="weave">8th</td> <td class="spell">One with Nature</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Hawk Flight"> <td
+        class="weave">9th</td> <td class="spell">Hawk Flight</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Ghostwalk"> <td
+        class="weave">10th</td> <td class="spell">Ghostwalk</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablefootrow"> <td class="stat" colspan="6">Vocations: Common,
+        Animist, Dabbler</td> </tr> <tr class="tablefootrow"> <td class="stat"
+        colspan="4">Stat Value: WSD</td> <td class="page" colspan="2">Page:
+        403</td> </tr> </tbody> </table>
+    _id: vExMhQ3Mv6bQsEVZ
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!g0Jom6LznbPb8DRM.vExMhQ3Mv6bQsEVZ'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519554648
+  modifiedTime: 1689519573070
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.EghQGbWk0RHodr32
+  duplicateSource: null
+_id: g0Jom6LznbPb8DRM
+sort: 0
+_key: '!journal!g0Jom6LznbPb8DRM'
+

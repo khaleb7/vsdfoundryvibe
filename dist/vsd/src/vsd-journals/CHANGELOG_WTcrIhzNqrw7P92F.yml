@@ -1,0 +1,53 @@
+name: CHANGELOG
+pages:
+  - sort: 100000
+    name: CHANGELOG
+    type: text
+    _id: veTh0wPvxGaVjomZ
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><a
+        href="https://gitlab.com/jbhuddleston/vsd/-/raw/main/CHANGELOG">VsD Base
+        CHANGELOG</a></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      pVnKHrzHL0Jnx5B6: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: vsd
+      systemVersion: '12.274'
+      createdTime: null
+      modifiedTime: 1729170865926
+      lastModifiedBy: pVnKHrzHL0Jnx5B6
+    _key: '!journal.pages!WTcrIhzNqrw7P92F.veTh0wPvxGaVjomZ'
+folder: null
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.330'
+  systemId: vsd
+  systemVersion: '12.274'
+  createdTime: 1723036439451
+  modifiedTime: 1723036439451
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+_id: WTcrIhzNqrw7P92F
+sort: 0
+_key: '!journal!WTcrIhzNqrw7P92F'
+

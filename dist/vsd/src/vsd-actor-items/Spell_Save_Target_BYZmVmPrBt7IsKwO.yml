@@ -1,0 +1,38 @@
+name: Spell Save Target
+type: Primary-Attribute
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The target roll required to save against a successfully cast spell.
+  chartype: CharacterVsD
+  group: value
+  abbr: SST
+  attr: 0
+  value: 0
+  name: ''
+  state: ''
+  minForm: '0'
+  min: 0
+  maxForm: '150'
+  max: 150
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377571049
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: BYZmVmPrBt7IsKwO
+sort: 4200000
+_key: '!items!BYZmVmPrBt7IsKwO'
+

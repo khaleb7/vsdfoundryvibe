@@ -1,0 +1,66 @@
+name: VsD Declare Selected Token Actions
+type: script
+author: cwpZyEuSkQ36r9mu
+img: icons/svg/combat.svg
+scope: global
+command: |-
+  const buttondata = CONFIG.system.combat;
+
+  const buttons = {};
+  for (const button of buttondata) {
+      buttons[button.action] = {
+          label: button.action,
+          callback: () => {
+              label = button.action,
+              init = button.initiative,
+              d.render(true)
+          }
+      }
+  }
+
+  let d = new Dialog({
+      title: `Set Action Declaration`,
+      buttons: buttons,
+      close: async html => {
+          if (label) {
+              const tokens = canvas.tokens.controlled;
+              for (const token of tokens) {
+                  if (token.inCombat) {
+                      token.combatant.update({ ["flags.vsd.action"]: label, initiative: Number(init) });
+                      // token.combatant.actor.setFlag("vsd", "action", label);
+                  }
+              }
+              label = "", init = 0;
+          }
+      }
+  },
+      {
+          width: 200,
+          classes: ["mydialog"],
+          top: 0,
+          left: 0
+      });
+  d.render(true);
+flags:
+  furnace:
+    runAsGM: true
+  core: {}
+ownership:
+  default: 0
+  8VtokmkrTaxXr4Uk: 3
+  Bo2O6HF5ZofTjQp9: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.38'
+  coreVersion: '12.331'
+  createdTime: 1664903344475
+  modifiedTime: 1742379367082
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: null
+  duplicateSource: null
+folder: 6S4cMmMbJkZJpebI
+sort: 1500000
+_id: 94atb9qKksOtAVwz
+_key: '!macros!94atb9qKksOtAVwz'
+

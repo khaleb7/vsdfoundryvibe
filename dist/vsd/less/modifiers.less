@@ -1,0 +1,63 @@
+.global-modifier,
+.modifier {
+    .Ubuntu(bold, smaller);
+    .roundedcard();
+    border-color: black;
+}
+
+.action.modifier {
+    .Ubuntu(bold, smaller);
+    .roundedcard();
+    border-color: black;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+
+    .actionimage {
+        width: 24px;
+        margin-right: 2px;
+        border: none;
+    }
+
+    .actiondata {
+        width: 48px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: auto auto;
+
+        .actionrate {
+            color: darkgreen;
+        }
+        .actionreq {
+            color: darkred;
+        }
+
+        .actionvalue {
+            text-align: right;
+        }
+    }
+}
+
+.attackmod {
+    border-color: @attackmod-colour;
+}
+
+.damagemod {
+    border-color: @damagemod-colour;
+}
+
+.attackdamagemod {
+    border-color: @attackdamagemod-colour;
+}
+
+.global-modifier,
+.genmod {
+    background-color: rgba(255, 127, 80, 0.25);
+}
+
+.specmod {
+    background-color: rgba(95, 158, 160, 0.25);
+}
+
+.inEffect {
+    background-color: #88cc88;
+}

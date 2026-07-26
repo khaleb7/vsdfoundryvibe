@@ -1,0 +1,35 @@
+name: Warship
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.o85RG0Uq8n01oPYw
+system:
+  notes: |-
+    Capacity: 12t
+    Crew: 40
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '4'
+  weight: 0
+  availability: Rare
+  description: See Travelling by Water p141
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485393
+  modifiedTime: 1697655934981
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.o85RG0Uq8n01oPYw
+  duplicateSource: null
+_id: AxYSmxHevBxY2p1O
+sort: 0
+_key: '!items!AxYSmxHevBxY2p1O'
+

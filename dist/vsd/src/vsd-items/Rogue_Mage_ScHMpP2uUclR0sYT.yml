@@ -1,0 +1,52 @@
+name: Rogue Mage
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.4ydniixreQJ0UwuY
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Rogue Mage
+      type: Trait
+      system:
+        notes: >-
+          You were born with an innate magical ability or developed it after a
+          unique occurance. You can't really explain why or how your magic
+          works, but using it is as natural as breathing to you. 
+
+          - Minor (cost 1 BP):  Include something about your magical ability in
+          one of your Passions. Select any one Spell Lore of your choosing and
+          add it to your Kin Spell Lores (see Magic chapter for more information
+          on Spell Lores).
+
+          - Major (cost 3 BPs):  Additionally, you can spend one point of Drive
+          to gain the ability of casting spells from the chosen Spell Lore
+          without spending MPs for a scene. At the end of that scene, you become
+          Weary if you weren't Weary, and you drop unconscious for 1d10 hours if
+          you were. However, you're hunted by a powerful NPC because of your
+          powers.
+        chartype: CharacterVsD
+        category: quirk
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485199
+  modifiedTime: 1697655935016
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.4ydniixreQJ0UwuY
+  duplicateSource: null
+_id: ScHMpP2uUclR0sYT
+sort: 0
+_key: '!items!ScHMpP2uUclR0sYT'
+

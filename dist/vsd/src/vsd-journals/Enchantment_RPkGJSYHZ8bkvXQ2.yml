@@ -1,0 +1,99 @@
+name: Enchantment
+folder: Z9DrIJY8LTitWm9q
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.xp3LVGjhyCkCaWFW
+pages:
+  - name: Enchantment
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spelllisttable"> <tbody> <tr class="tableheaderrow"> <td
+        class="weave">Weave</td> <td class="spell">Spell</td> <td
+        class="range">Range</td> <td class="areaofeffect">Area of Effect</td>
+        <td class="duration">Duration</td> <td class="save">Save</td> </tr> <tr
+        class="tablerow open-journal" data-table="Wizard's Staff"> <td
+        class="weave">1st</td> <td class="spell">Wizard's Staff</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">P</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Rune of Warning"> <td
+        class="weave">2nd</td> <td class="spell">Rune of Warning</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">10 m radius</td>
+        <td class="duration">10 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Spell Storing"> <td
+        class="weave">3rd</td> <td class="spell">Spell Storing</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">1 spell</td> <td
+        class="duration">varies</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Rune of Good Luck"> <td
+        class="weave">4th</td> <td class="spell">Rune of Good Luck</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">10 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Runes of Power"> <td
+        class="weave">5th</td> <td class="spell">Runes of Power</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">varies</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Rune of Archery"> <td
+        class="weave">6th</td> <td class="spell">Rune of Archery</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Rune of Parrying"> <td
+        class="weave">7th</td> <td class="spell">Rune of Parrying</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Rune of Awe"> <td
+        class="weave">8th</td> <td class="spell">Rune of Awe</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Thaumaturgy"> <td
+        class="weave">9th</td> <td class="spell">Thaumaturgy</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Rune of Victory"> <td
+        class="weave">10th</td> <td class="spell">Rune of Victory</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablefootrow"> <td class="stat" colspan="6">Vocations:
+        Wizard</td> </tr> <tr class="tablefootrow"> <td class="stat"
+        colspan="4">Stat Value: WIT</td> <td class="page" colspan="2">Page:
+        385</td> </tr> </tbody> </table>
+    _id: NNkBVrNOfmQPk1ia
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!RPkGJSYHZ8bkvXQ2.NNkBVrNOfmQPk1ia'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519554648
+  modifiedTime: 1689519573070
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.xp3LVGjhyCkCaWFW
+  duplicateSource: null
+_id: RPkGJSYHZ8bkvXQ2
+sort: 0
+_key: '!journal!RPkGJSYHZ8bkvXQ2'
+

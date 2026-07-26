@@ -1,0 +1,96 @@
+_id: OBppb8cLiwHK8vxE
+name: 'Ranks: Culture (Desert)'
+type: Variable
+img: icons/environment/people/group.webp
+effects: []
+folder: abW3nFLArLLC7tFt
+sort: 125000
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.OBppb8cLiwHK8vxE
+system:
+  notes: 'Wealth Level: +1'
+  chartype: CharacterVsD
+  group: Variable
+  value: 3
+  formula: ''
+  label: Armor
+  entries:
+    '0':
+      value: 3
+      formula: '3'
+      label: Armor
+    '1':
+      value: 1
+      formula: '1'
+      label: Blades
+    '2':
+      value: 1
+      formula: '1'
+      label: Ranged
+    '3':
+      value: 1
+      formula: '1'
+      label: Polearms
+    '4':
+      value: 2
+      formula: '2'
+      label: Athletics
+    '5':
+      value: 2
+      formula: '2'
+      label: Ride
+    '6':
+      value: 1
+      formula: '1'
+      label: Nature
+    '7':
+      value: 2
+      formula: '2'
+      label: Wandering
+    '8':
+      value: 1
+      formula: '1'
+      label: Acrobatics
+    '9':
+      value: 1
+      formula: '1'
+      label: Perception
+    '10':
+      value: 2
+      formula: '2'
+      label: Deceive
+    '11':
+      value: 2
+      formula: '2'
+      label: Charisma
+    '12':
+      value: 2
+      formula: '2'
+      label: Cultures
+    '13':
+      value: 1
+      formula: '1'
+      label: Songs & Tales
+    '14':
+      value: 1
+      formula: '1'
+      label: Body
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  cFMVT6Qd4M0fbk5F: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.62'
+  coreVersion: '12.328'
+  createdTime: 1676409485505
+  modifiedTime: 1703703322663
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.OBppb8cLiwHK8vxE
+  duplicateSource: null
+_key: '!items!OBppb8cLiwHK8vxE'
+

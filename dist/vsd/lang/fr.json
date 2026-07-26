@@ -1,0 +1,679 @@
+{
+  "local": {
+    "system": {
+      "title": "Against the Darkmaster",
+      "description": "Une aide de jeu flexible pour Against The Darkmaster dans l'environnement Foundry VTT.",
+      "stats": {
+        "Brawn": "Puissance",
+        "brn": "PUI",
+        "Swiftness": "Coordination",
+        "swi": "COO",
+        "Fortitude": "Endurance",
+        "for": "END",
+        "Wits": "Esprit",
+        "wit": "ESP",
+        "Wisdom": "Clairvoyance",
+        "wsd": "CLA",
+        "Bearing": "Allure",
+        "bea": "ALL"
+      },
+      "saves": {
+        "Willpower": "Volonté",
+        "Toughness": "Résistance"
+      },
+      "skills": {
+        "Armor": "Armure",
+        "Body": "Corps",
+        "Blunt": "Masses",
+        "Blades": "Lames",
+        "Ranged": "Armes à distance",
+        "Polearms": "Armes d'hast",
+        "Brawl": "Bagarre",
+        "Athletics": "Athlétisme",
+        "Ride": "Équitation",
+        "Hunting": "Chasse",
+        "Nature": "Nature",
+        "Wandering": "Voyage",
+        "Acrobatics": "Acrobaties",
+        "Stealth": "Furtivité",
+        "Locks & Traps": "Serrures & Pièges",
+        "Perception": "Perception",
+        "Deceive": "Duperie",
+        "Arcana": "Arcanes",
+        "Charisma": "Charisme",
+        "Cultures": "Cultures",
+        "Healer": "Soins",
+        "Songs & Tales": "Chants & Contes"
+      },
+      "skillcats": {
+        "Armor": "Armure",
+        "Combat": "Combat",
+        "Adventuring": "Aventure",
+        "Roguery": "Roublardise",
+        "Lore": "Savoir",
+        "Body": "Corps",
+        "Spell Lores": "Traditions Magiques"
+      }
+    },
+    "sheet": {
+      "edit": "Editer",
+      "clone": "Cloner",
+      "delete": "Supprimer"
+    },
+    "phrases": {
+      "defence": "Faire un jet de <b>{name}</b>",
+      "attack": "Essaye d'attaquer avec <b>{name}</b>",
+      "damage": "Jet de dégâts pour <b>{name}</b>",
+      "modlist": "La valeur modifiée pour <b>{name}</b> est :",
+      "skill": "Faire une test contre la compétence <b>{name}</b>",
+      "spell": "Incante un Tissage d'une Connaissance de <b>{name}</b>",
+      "reaction": "Faire un test de <b>{name}</b>",
+      "check": "Fait un test contre <b>{name}</b>",
+      "dodge": "Faire un jet standard de <b>{name}</b>",
+      "block": "Faire un jet ouvert de <b>{name}</b>",
+      "parry": "Faire un jet ouvert supérieur pour <b>{name}</b>"
+    },
+    "tables": {
+      "fear": "Table 3.9 Jets de Sauvegarde de Peur",
+      "reacti": "Table 3.4 Jets de Réaction (Interaction)",
+      "reactc": "Table 3.4 Jets de Réaction (Combat)",
+      "resonance": "Table 2.8 Résonance Magique",
+      "casting": "Table 2.6 Table d’Incantation",
+      "missilef": "Table 2.42 Échecs Critiques sur les Armes à projectiles",
+      "meleef": "Table 2.42 Échecs Critiques des Armes de mêlées et de jets",
+      "spellf": "Table 2.10 Échecs de Sorts",
+      "action": "Table 2.1 Résolution d'Actions",
+      "impact": "Table 7.9 Coups Critiques d’Impact",
+      "beastc": "Table 7.8 Coups Critiques de Bêtes",
+      "beasta": "Table 7.7 Attaques des Bêtes",
+      "bolt": "Table 7.6 Attaque des Sorts de Projectile",
+      "area": "Table 7.5 Attaques de sorts de zone",
+      "unarmed": "Table 7.4 Attaque Non Armée/de Saisie",
+      "missile": "Table 7.3 Attaque des Armes à Distance",
+      "blunt": "Table 7.2 Attaque des Armes Contondantes",
+      "dark": "Table 7.16 Coups Critiques de Magie Noire",
+      "frost": "Table 7.15 Coups Critiques de Froid",
+      "lightning": "Table 7.14 Coups Critiques de Foudre",
+      "fire": "Table 7.13 Coups Critiques de Feu",
+      "grapple": "Table 7.12 Coups Critiques de Saisie",
+      "pierce": "Table 7.11 Coups Critiques de Perforation",
+      "cut": "Table 7.10 Coups Critiques de Taille",
+      "edged": "Table 7.1 Attaques des Armes Tranchantes",
+      "none": "Aucun"
+    },
+    "rolls": {
+      "critfail": "Échec Critique",
+      "failure": "Échec",
+      "partial": "Succès Partiel",
+      "success": "Succès",
+      "outstanding": "Succès Remarquable",
+      "resonance": "Jet de Résonance de Magie Nécessaire",
+      "d100roll": "Jet de D100",
+      "against": "Contre",
+      "table": "Table",
+      "roll": "Jet",
+      "attack": {
+        "maxresult": "Résultat Max Possible",
+        "attack": "Attaque",
+        "critical": "Critique",
+        "d100critroll": "Jet D100 Crit"
+      },
+      "spell": {
+        "lore": "Tradition",
+        "sct": "Table d’Incantation",
+        "weave": "Amplitude",
+        "spell": "Sort",
+        "range": "Portée",
+        "aoe": "Zone d'Effet",
+        "duration": "Durée",
+        "save": "Sauvegarde"
+      },
+      "skill": {
+        "skill": "Compétence",
+        "art": "ART"
+      },
+      "saves": {
+        "fear": "Jet contre la Peur"
+      }
+    },
+    "item": {
+      "name": "Nom",
+      "notes": "Notes",
+      "category": "Catégorie",
+      "formula": "Formule",
+      "group": "Filtrer le groupe",
+      "temporary": "Réinitialisation de chaque round de combat.",
+      "once": "Réinitialisation après chaque jet.",
+      "Variable": {
+        "itemname": "Variable",
+        "label": "Étiquette"
+      },
+      "Equipment": {
+        "itemname": "Équipement",
+        "quantity": "Quantité",
+        "cost": "Coût",
+        "fare": "Tarif",
+        "availability": "Disponibilité",
+        "name": "Nom",
+        "description": "Description",
+        "notes": "Détails",
+        "weight": "poids",
+        "qty": "Qté"
+      },
+      "Defence": {
+        "itemname": "Sauvegarde & Spécial",
+        "dodge": "Standard",
+        "block": "Open-Ended"
+      },
+      "Hit-Location": {
+        "itemname": "Plaie",
+        "outstanding": "Remarquable",
+        "success": "Succès",
+        "partial": "Partiel",
+        "failure": "Échec",
+        "critical": "Échec Critique",
+        "none": "Non traité",
+        "na": "N/A",
+        "minor": "Mineur",
+        "serious": "Sérieux",
+        "crippling": "Handicapant",
+        "bleeding": "Saignement par Round",
+        "penalty": "Malus de Blessure",
+        "severity": "Sévérité",
+        "treatment": "Traitement",
+        "lingering": "Blessure Persistante",
+        "dlth": "Jours avant la guérison"
+      },
+      "Melee-Attack": {
+        "itemname": "Attaque de Mêlée",
+        "damage": "Table d'Attaque",
+        "damageType": "Critique Primaire",
+        "secondary": "Critique Alternatif",
+        "weight": "Résultat Max",
+        "formula": "Bonus Offensif",
+        "armourDiv": "Jet non-modifié",
+        "minST": "Type de jet",
+        "reach": "Rang de Jet Ouvert",
+        "std": "Standard",
+        "oe": "Jet Ouvert",
+        "oeh": "Jet Ouvert +",
+        "edged": "Tranchant",
+        "blunt": "Contondant",
+        "pierce": "Perforant",
+        "unarmed": "Non armé/Saisie",
+        "beasta": "Bêtes",
+        "beastc": "Bêtes",
+        "impact": "Impact",
+        "cut": "Taille",
+        "grapple": "Saisie",
+        "none": "Aucun",
+        "oel": "Jet Ouvert -"
+      },
+      "Modifier": {
+        "itemname": "Modificateur",
+        "attack": "Attaques",
+        "condition": "Condition ou Statut",
+        "alwaysOn": "Toujours porté",
+        "primary": "Att Primaire",
+        "defence": "Spécial/Sauvegarde",
+        "reaction": "Défenses",
+        "targets": "Cible1, Cible2, ..."
+      },
+      "Pool": {
+        "itemname": "Pool",
+        "abbr": "Abréviation",
+        "state": "État Actuel",
+        "value": "Valeur Actuelle",
+        "min": "Valeur Min",
+        "max": "Valeur Max"
+      },
+      "Primary-Attribute": {
+        "itemname": "Stat",
+        "abbr": "Abréviation",
+        "attr": "Bonus"
+      },
+      "Ranged-Attack": {
+        "itemname": "Attaque à Distance",
+        "range": "Portée",
+        "missile": "Munitions",
+        "area": "Zone",
+        "bolt": "Projectile",
+        "pierce": "Perforant",
+        "impact": "Impact",
+        "cut": "Taille",
+        "fire": "Feux",
+        "lightning": "Foudre",
+        "frost": "Froid",
+        "dark": "Magie Noire",
+        "damage": "Table d'Attaque",
+        "damageType": "Critique Primaire",
+        "secondary": "Critique Alternatif",
+        "formula": "Bonus Offensif",
+        "armourDiv": "Jet non-modifié",
+        "minST": "Type de Jet",
+        "rof": "Rang de Jet Ouvert",
+        "accuracy": "Résultat Max",
+        "none": "Aucun",
+        "std": "Standard",
+        "oe": "Jet Ouvert",
+        "oeh": "Jet Ouvert +",
+        "oel": "Jet Ouvert -"
+      },
+      "Rollable": {
+        "itemname": "Compétence ou Sort",
+        "skill": "Compétence",
+        "spell": "Sort",
+        "check": "Défense"
+      },
+      "Trait": {
+        "itemname": "Trait",
+        "applied": "Achevé/appliqué.",
+        "advantage": "Révélation",
+        "disadvantage": "Passion",
+        "perk": "Trait d'Ascendance",
+        "charactertrait": "Trait de caractère",
+        "language": "Language",
+        "experience": "Expérience",
+        "quirk": "Historique"
+      },
+      "Container": {
+        "itemname": "Contenant"
+      }
+    },
+    "header": {
+      "shield": {
+        "title": "Position du Bouclier",
+        "position": {
+          "none": "Pas de Bouclier",
+          "front": "Bouclier de Front",
+          "side": "Bouclier de Côté"
+        }
+      },
+      "toprow": {
+        "kin": "Ascendance",
+        "culture": "Culture",
+        "vocation": "Vocation",
+        "hitpoints": "Points de Vie",
+        "bleeding": "Saignements",
+        "bleed": "Sgt/r: ",
+        "round": "rd "
+      },
+      "midrow": {
+        "wealth": "Niveau de Richesse",
+        "wl": "NR: ",
+        "level": "Niveau",
+        "lvl": "Niv: ",
+        "experience": "XP restant pour le prochain Niveau.",
+        "xp": "XP: ",
+        "magicpoints": "Points de Magie",
+        "penalty": "Pénalité D'Actions Cumulatives",
+        "pen": "Pén: "
+      },
+      "bottomrow": {
+        "encumbrance": "Encombrement",
+        "size": "Taille",
+        "movemode": "Type de Déplacement",
+        "moverate": "Déplacement",
+        "move": "Mvt: "
+      },
+      "defences": {
+        "mel": "Mêl: ",
+        "msl": "Dst: ",
+        "rhp": "PMD: ",
+        "lhp": "PMG: ",
+        "split": "Split: ",
+        "parry": "Parade: ",
+        "at": "TA: ",
+        "surprise": "Surprise: ",
+        "basedb": "DEF de Base: ",
+        "title": {
+          "mel": "DEF vs Mêlée avec bouclier",
+          "msl": "DEF vs attaque à distance avec bouclier",
+          "rhp": "Parade de la main droite",
+          "lhp": "Parade de la main gauche",
+          "split": "Valeur de la parade divisé en PMD",
+          "parry": "Valeur total attribué à Parade",
+          "at": "Type d'armure",
+          "surprise": "DEF quand surpris",
+          "basedb": "DEF de base"
+        }
+      }
+    },
+    "actor": {
+      "name": "Nom du Personnage",
+      "gmod": {
+        "abbr": "Mod-G",
+        "name": "Modificateur Global"
+      },
+      "stats": {
+        "name": "Nom",
+        "abbr": "Abr",
+        "base": "Base",
+        "kin": "Asc",
+        "spec": "Spéc",
+        "total": "Total"
+      },
+      "saves": {
+        "name": "Nom",
+        "stat": "Stat",
+        "kin": "Asc",
+        "spec": "Mod",
+        "lvl": "Niv",
+        "total": "Total"
+      },
+      "skills": {
+        "title": "Compétences & Sorts",
+        "dp": "PÉ",
+        "stat": "Stat",
+        "ranks": "Rang",
+        "voc": "Voc",
+        "kin": "Asc+",
+        "mods": "Mod",
+        "total": "Total",
+        "statT": "La stat représentant l'affinité naturelle avec la compétence.",
+        "ranksT": "Le nombre de rangs de compétences représentant la formation dans la compétence (culturelles, points de vocation, options d’historique)",
+        "vocT": "Bonus de vocation pour la compétence.",
+        "kinT": "Bonus inconditionnels notamment : Ascendances et historiques.",
+        "modsT": "Tous les autres modificateurs appliqués à toutes les utilisations de cette compétence.",
+        "totalT": "Bonus total de la compétence"
+      },
+      "wounds": {
+        "name": "Description",
+        "bleed": "Saignement",
+        "act": "Pénalité d'Action",
+        "severity": "Gravité des Blessures",
+        "treatment": "Succès du Traitement",
+        "linger": "Persistant",
+        "days": "Nombre de jours avant Guérison"
+      },
+      "armour": {
+        "name": "Armures / Boucliers",
+        "type": "Type",
+        "prot": "Zones protégées",
+        "swi": "COO Max à la DEF",
+        "move": "Malus de Mvt",
+        "cmb": "Malus de BC",
+        "per": "Malus de percep.",
+        "mel": "Bonus DEF à distance",
+        "msl": "Bonus DEF en mêlée",
+        "qual": "Qualités",
+        "charvalues": "Valeurs applicables au personnage",
+        "title": {
+          "toggle": "Un bouton pour enfiler et retirer l'armure, la rendant active ou inactive par rapport aux mécanismes automatiques.",
+          "type": "Cela fait référence à la colonne des Tables d'Attaque (Aucun NA, Légére LA, Moyenne MA, ou Lourde HA).",
+          "prot": "Les parties du corps ou les zones effectivement protégées par l'armure portée.",
+          "swi": "Bonus de coordination maximum applicable à la défense lorsque l'on porte l'armure. (appliqué automatiquement)",
+          "move": "Pénalité aux jets de compétences pour se déplacer et lancer des sorts en portant l'armure. (appliqué automatiquement)",
+          "cmb": "Pénalité au bonus de combat (BC). Cette pénalité ne peut être compensée. (appliqué automatiquement)",
+          "per": "Pénalité au bonus de la compétence Perception. Cette pénalité ne peut être compensée. (appliqué automatiquement)",
+          "mel": "Bonus direct à la Défense (DEF) contre les attaques de mêlée. (appliqué automatiquement)",
+          "msl": "Bonus direct à la Défense (DEF) contre les attaques à distance. (appliqué automatiquement)",
+          "qual": "Liste des qualités spéciales que possède l'armure, le cas échéant."
+        }
+      },
+      "attacks": {
+        "atk": "Att",
+        "name": "Attaque",
+        "skill": "Compétence",
+        "cmb": "BC",
+        "clumsy": "Maladroit",
+        "atktable": "Table d'Attaque",
+        "crit": "Crit",
+        "crittable": "Table de Critique",
+        "title": {
+          "atk": "Lancez l'attaque.",
+          "skill": "La compétence pertinente pour l’Attaque.",
+          "cmb": "Bonus de combat.",
+          "clumsy": "Plage d'échec critique.",
+          "atktable": "La table utilisé par cette attaque pour déterminer les résultats.",
+          "crit": "Lancez un coup critique.",
+          "crittable": "La table utilisé pour le coup critique principal de cette attaque."
+        }
+      },
+      "blocks": {
+        "drive": "Points d’Évolution",
+        "hero": "Voie Héroïque",
+        "stats": "Caractéristiques",
+        "saves": "Sauvegardes",
+        "passions": "Passions",
+        "revelations": "Étapes et révélations",
+        "spec": "Aptitudes spéciales",
+        "back": "Options d'historique",
+        "lang": "Langues connues",
+        "char": "Traits Spéciaux",
+        "wounds": "Plaies et blessures",
+        "armour": "Armures et Boucliers",
+        "attacks": "Attaques",
+        "conditions": "Conditions et statut",
+        "advances": "Progression",
+        "advanceslevel": "Niveau",
+        "equipment": "Équipement, outils & véhicules"
+      }
+    },
+    "owneditems": {
+      "cond": " Cond",
+      "perm": " Perm",
+      "temp": " Temp",
+      "once": " Once"
+    },
+    "tabs": {
+      "main": "Principal",
+      "overview": "Aperçu",
+      "combat": "Combat",
+      "advancement": "Avancement",
+      "skills": "Compétences",
+      "spells": "Sorts",
+      "equipment": "Notes et équipement",
+      "items": "Tous les Objets",
+      "scripts": {
+        "title": "Scripts",
+        "createT": "Traitement du Script",
+        "create": "Créer des éléments à partir d'un tableau d'objets JSON",
+        "importjsonT": "Importer un objet JSON pour inspection dans la console",
+        "importjson": " Importer des données JSON pour inspection dans la console",
+        "importvsdT": "Importer un bloc de statistiques au format Against the Darkmaster",
+        "importvsd": " Importer VsD Format",
+        "exportT": "Export d'Objet",
+        "export": "Export d'Objet dans la zone de Texte"
+      }
+    },
+    "sections": {
+      "itemcreation": "Création d'objet",
+      "itemlist": "Liste de tous les objets",
+      "defencemods": "Modificateurs de défense",
+      "attackmods": "Modificateurs d'attaque",
+      "attacks": "Attaques",
+      "damagemods": "Modificateurs aux dégâts",
+      "melee": "Attaque de mêlée",
+      "ranged": "Attaque à distance",
+      "primods": "Mod Att Primaires",
+      "primaryattributes": "Attributs Primaires",
+      "equipment": "Équipement",
+      "skills": "Compétences",
+      "specialskills": "Compétences Spéciales",
+      "skillmods": "Modificateurs de Compétence",
+      "specificmods": "Modificateurs Spécifiques d'Objets",
+      "techniques": "Techniques",
+      "spells": "Sorts",
+      "spelllores": "Traditions Magiques",
+      "attackspells": "Sorts d'Attaque et de Zone",
+      "spellmods": "Modificateurs de Sorts",
+      "specialrolls": "Jets Spéciaux",
+      "specialmods": "Modificateurs Spéciaux",
+      "rms": "Sorts de Magie Rituelle",
+      "checkmods": "Vérification des Modificateurs",
+      "pools": "Pools",
+      "modifiers": "Modificateurs",
+      "variables": "Variables",
+      "containers": "Contenant",
+      "hitlocations": "Blessures",
+      "rollables": "Compétences & Sorts",
+      "defences": "Sauvegarde & Défense",
+      "checks": "Défenses",
+      "stats": "Information Générale",
+      "notes": "Notes",
+      "traits": "Traits",
+      "advantages": "Révélations",
+      "disadvantages": "Passions",
+      "perks": "Traits Spéciaux d'Ascendance",
+      "experience": "Expérience",
+      "quirks": "Historique"
+    },
+    "postures": {
+      "standing": "Debout",
+      "flying": "Vole",
+      "swimming": "Nage",
+      "crouching": "Accroupi",
+      "kneeling": "A Genoux",
+      "crawling": "Rampe",
+      "sitting": "Assis",
+      "pronef": "Vulnérable (F)",
+      "proneb": "Vulnérable (B)",
+      "prone": "Vulnérable"
+    },
+    "conditions": {
+      "encumbered": "Encombré",
+      "shock": "Choqué",
+      "reeling": "Ébranlé",
+      "tired": "Fatigué",
+      "weary": "Epuisé",
+      "blind": "Aveuglé",
+      "deaf": "Sourd",
+      "mute": "Muet",
+      "bruised": "Meurtri",
+      "bleeding": "Saignement",
+      "healing": "Guérison",
+      "burning": "Brûlé",
+      "diseased": "Malade",
+      "freezing": "Congelé",
+      "poisoned": "Empoisonné",
+      "engaged": "Engagé",
+      "shielded": "Avec Bouclier",
+      "stealthy": "Furtif",
+      "frightened": "Effrayé",
+      "incapacitated": "Inapte",
+      "dying": "Mourant",
+      "collapse": "A Terre",
+      "unconscious": "Inconscient",
+      "minushp": "PV Négatifs",
+      "stunned": "Sonné",
+      "surprised": "Surpris",
+      "held": "Bloqué",
+      "defeated": "Vaincu",
+      "none": "Aucun",
+      "charging": "Charging",
+      "flanking": "Flanking Attack",
+      "full_half": "Full & Half Action",
+      "on_rear": "Rear Attack",
+      "crippled": "Paralysé",
+      "smaller": "Rapetissé",
+      "aiming": "Visée",
+      "loading": "Rechargement",
+      "concentrating": "Concentré",
+      "larger": "Agrandit"
+    }
+  },
+  "COMBAT": {
+    "chat_message": {
+      "critical_strike": "coup critique.",
+      "damage": "A subit {hits} dégats.",
+      "db": "Le bonus de défense de l'ennemie a été mis à {db}.",
+      "does_not": "N'a pas",
+      "has": "A un/une",
+      "healing": "A regagné {hits} points de vie.",
+      "hits": "dégâts",
+      "severity": "A fixé la gravité critique sur {crit}.",
+      "souldamage": "A subit {hits} dégats d'âme.",
+      "wound": "A subit une attaque critique <b>{woundtitle}</b> {effectMsg}"
+    },
+    "dataset": {
+      "armour": {
+        "no_armor": "Sans armure",
+        "light_armor": "Armure légère",
+        "medium_armor": "Armure moyenne",
+        "heavy_armor": "Armure lourde"
+      },
+      "crit": {
+        "superficial": "Superficiel",
+        "light": "Léger +10",
+        "moderate": "Modéré +20",
+        "grievous": "Grave +30",
+        "lethal": "Mortel +50"
+      },
+      "sec": {
+        "moderate": "Superficiel",
+        "grievous": "Léger +10",
+        "lethal": "Modéré +20"
+      }
+    },
+    "effect": {
+      "soul_damage": ", et semble avoir subit <b>Dégats d'âme</b>.",
+      "stun": ", et semble avoir été <b>étourdi</b>."
+    },
+    "Round": "Round",
+    "RoundNext": "Avancer le tour et réinitialiser toutes les déclarations."
+  },
+  "SETTINGS": {
+    "statusEffectChoice": {
+      "name": "Status Effects",
+      "hint": "Which Status Effects will you use?"
+    },
+    "macroDialogDelay": {
+      "name": "Macro Dialog Delay",
+      "hint": "The amount of delay when setting a value in a macro dialog before it refreshes the data from the actor."
+    },
+    "useFAHR": {
+      "name": "Use Four Amigos House Rules",
+      "hint": "Utiliser les règles du développeur pour modifier le comportement."
+    },
+    "preventTablePopUp": {
+      "name": "Prévenir l'ouverture de tables",
+      "hint": "Empêchez les tables d'attaque d'apparaître lorsqu'un jet est effectué."
+    },
+    "rankMode": {
+      "name": "Compteur de Rang",
+      "hint": "Définissez votre progression en termes de rangs. Le modèle est le suivant : [0:5:2:1:1], pénalité non qualifiée, dix premiers rangs, dix rangs suivants, dix rangs suivants, rangs restants."
+    },
+    "combatTrackerInUse": {
+      "name": "Suivi de combat",
+      "hint": "Choisissez le traqueur de combat que vous allez utiliser."
+    },
+    "systemMigrationVersion": {
+      "name": "Version Système Migration",
+      "hint": "Numéro de version du système lors de la dernière migration."
+    },
+    "defenceVariables": {
+      "name": "Variables Défense",
+      "hint": "Choisissez les variables et les pools à associer au groupe de Défense."
+    },
+    "attackVariables": {
+      "name": "Variables Attaques",
+      "hint": "Choisissez les variables et les pools à associer au groupe d'Attaque."
+    },
+    "skillVariables": {
+      "name": "Variables Compétences",
+      "hint": "Choisissez les variables et les pools à associer au groupe de Compétences."
+    },
+    "spellVariables": {
+      "name": "Variables Sorts",
+      "hint": "Choisissez les variables et les pools à associer au groupe de Sorts."
+    },
+    "showTestData": {
+      "name": "Afficher les données de test",
+      "hint": "Afficher les données de débogage dans la console pour les tests."
+    },
+    "showHooks": {
+      "name": "Montrer Hooks",
+      "hint": "Afficher les appels aux Hooks dans la console à des fins de test."
+    },
+    "narrateJustifyLeft": {
+      "name": "Outil de justification à Gauche",
+      "hint": "Les messages de chat des outils narratifs seront justifiés à gauche au lieu d'être centrés."
+    },
+    "tokenEffectSize": {
+      "name": "Token Effet Taille",
+      "hint": "Choisissez la taille de la grille pour l'affichage des effets des Tokens."
+    }
+  },
+  "last": "fin"
+}

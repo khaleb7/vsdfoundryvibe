@@ -1,0 +1,96 @@
+name: Heavy Crossbow
+type: Container
+img: systems/vsd/icons/items/weapons/crossbow.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.Wx0Fys4UE8N0wvGK
+  exportSource:
+    world: sotnwthursday
+    system: vsd
+    coreVersion: 0.8.9
+    systemVersion: '1.14'
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Ranged: Heavy Crossbow (Pierce)'
+      type: Ranged-Attack
+      img: systems/vsd/icons/items/weapons/crossbow.svg
+      system:
+        notes: |-
+          Hands: 2H
+          Length: -
+          Attack Table: Missile
+          Max: 175
+          Crit Table: Pierce
+          Range: 30
+          Qualities: Load (2)
+        chartype: CharacterVsD
+        group: Ranged-Attack
+        sort: -1
+        value: 0
+        formula: '@ranged'
+        damage: 7.3 Missile Attack Table
+        damageType: 7.11 Pierce Critical Strikes Table
+        armourDiv: 4
+        minST: oe
+        accuracy: 175
+        range: '30'
+        rof: 5
+        shots: ''
+        bulk: 0
+        recoil: ''
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+    - name: Heavy Crossbow (<15 meters)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      system:
+        notes: note
+        chartype: CharacterVsD
+        group: Modifier
+        sort: -1
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '20'
+            category: attack
+            targets: 'Ranged: Heavy Crossbow'
+      folder: null
+      permission:
+        default: 0
+        OxYGvqLVXSV3pvbk: 3
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490234
+  modifiedTime: 1697655935043
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.Wx0Fys4UE8N0wvGK
+  duplicateSource: null
+_id: hfRMbhGpm7ZOFK9K
+sort: 0
+_key: '!items!hfRMbhGpm7ZOFK9K'
+

@@ -1,0 +1,237 @@
+folder: X2A9C0U09t5jbIKV
+name: 'Vocation: Champion'
+type: Container
+img: icons/skills/trades/construction-mason-bricklayer-red.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped:
+    - bjVFVr7jUFM649Rd
+    - YRQkw9lE5IixFsfe
+  entries:
+    - name: 'Vocation: Champion (modifiers)'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: nzenJvOYicdXBzd3
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.Item.UcjIzImj9TWyi27K
+      system:
+        notes: |-
+          Set one Combat Skill to 5 for both attack and skill rolls.
+          Set one Combat Skill to 10 for both attack and skill rolls.
+          Set one Combat Skill to 15 for both attack and skill rolls.
+          Delete any with 0 when you are done.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: true
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: reaction
+            targets: Body
+          '1':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: KinVoc
+          '2':
+            value: 5
+            formula: '5'
+            category: skill
+            targets: Hunting, Nature, Wandering, Acrobatics, Perception, Arcana
+          '3':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Athletics, Ride, Charisma
+          '4':
+            value: 5
+            formula: '5'
+            category: spell
+            targets: ''
+          '5':
+            value: 5
+            formula: '5'
+            category: attack
+            targets: >-
+              Channel, Command, Eldritch, Elven, Heroic, Mind, Skirmish, Spell,
+              Trick, Weapon, Aspect, Chant, Cleans, Commun, Detect, Heal, Lore,
+              Master, Miracle, Movement, Nature, Necro, Soul, Dark, Earth,
+              Enchant, Illus, Sound
+          '6':
+            value: 0
+            formula: '0'
+            category: skill
+            targets: Blades
+          '7':
+            value: 0
+            formula: '0'
+            category: attack
+            targets: Blades
+          '8':
+            value: 0
+            formula: '0'
+            category: skill
+            targets: Blunt
+          '9':
+            value: 0
+            formula: '0'
+            category: attack
+            targets: Blunt
+          '10':
+            value: 0
+            formula: '0'
+            category: skill
+            targets: Ranged
+          '11':
+            value: 0
+            formula: '0'
+            category: attack
+            targets: Ranged
+          '12':
+            value: 0
+            formula: '0'
+            category: skill
+            targets: Polearms
+          '13':
+            value: 0
+            formula: '0'
+            category: attack
+            targets: Polearms
+          '14':
+            value: 0
+            formula: '0'
+            category: skill
+            targets: Brawl
+          '15':
+            value: 0
+            formula: '0'
+            category: attack
+            targets: Brawl
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        sGlDK3lZYQBI8GMZ: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.30'
+        coreVersion: '11.305'
+        createdTime: 1676409485514
+        modifiedTime: 1689511579802
+        lastModifiedBy: sGlDK3lZYQBI8GMZ
+      _id: 5hQ5PkFiocnnafTl
+      sort: 0
+    - name: 'Vocation: Champion'
+      type: Variable
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: nzenJvOYicdXBzd3
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.Item.aR7DseRvuOv2MCQx
+      system:
+        notes: |-
+          Magic Stat: BEA
+          Spell Lores:
+           WSD - Aspects of Nature
+           WSD - Chanting
+           BEA - Commanding Presence
+           WIT - Eldritch Hand
+           BEA - Eldritch Might
+           BEA - Heroic Defense
+           WSD - Nature's Path
+           BEA - Weapon Mastery
+        chartype: CharacterVsD
+        group: Variable
+        value: 2
+        formula: '2'
+        label: Armor
+        entries:
+          '0':
+            value: 2
+            formula: '2'
+            label: Armor
+          '1':
+            value: 3
+            formula: '3'
+            label: Combat
+          '2':
+            value: 3
+            formula: '3'
+            label: Adventuring
+          '3':
+            value: 0
+            formula: '0'
+            label: Roguery
+          '4':
+            value: 1
+            formula: '1'
+            label: Lore
+          '5':
+            value: 3
+            formula: '3'
+            label: Spells
+          '6':
+            value: 2
+            formula: '2'
+            label: Body
+          '7':
+            value: 1
+            formula: '1'
+            label: MP per Level
+        temporary: false
+        once: false
+        sort: -1
+        moddedformula: '2'
+        moddedvalue: 2
+      ownership:
+        default: 0
+        sGlDK3lZYQBI8GMZ: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.Item.aR7DseRvuOv2MCQx
+        duplicateSource: null
+        coreVersion: '12.343'
+        systemId: vsd
+        systemVersion: '12.289'
+        createdTime: 1755872441119
+        modifiedTime: 1755875513187
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+      _id: aI75Kfnpwnxm1wXV
+      sort: 0
+effects: []
+ownership:
+  default: 0
+  sGlDK3lZYQBI8GMZ: 3
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '12.289'
+  coreVersion: '12.343'
+  createdTime: 1689511657905
+  modifiedTime: 1755876968286
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: H4Ty4jRqOHq6pj05
+sort: 600000
+_key: '!items!H4Ty4jRqOHq6pj05'
+

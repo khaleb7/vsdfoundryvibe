@@ -1,0 +1,47 @@
+name: MRR Location
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: Neutral
+  entries:
+    - value: 0
+      formula: '0'
+      label: Neutral
+    - value: -20
+      formula: '-20'
+      label: In a Safe Haven
+    - value: 20
+      formula: '+20'
+      label: In a Blighted Land
+    - value: 20
+      formula: '+20'
+      label: In a Darkland
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689520872438
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: cRn2d6vgihpsjkRv
+sort: 700000
+_key: '!items!cRn2d6vgihpsjkRv'
+

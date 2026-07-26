@@ -1,0 +1,88 @@
+_id: cIga3PQ7ILvJ5Dv1
+name: 'Ranks: Culture (Weald)'
+type: Variable
+img: icons/environment/people/group.webp
+effects: []
+folder: abW3nFLArLLC7tFt
+sort: 100098
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.cIga3PQ7ILvJ5Dv1
+system:
+  notes: 'Wealth Level: +1'
+  chartype: CharacterVsD
+  group: Variable
+  value: 1
+  formula: ''
+  label: Armor
+  entries:
+    '0':
+      value: 1
+      formula: '1'
+      label: Armor
+    '1':
+      value: 1
+      formula: '1'
+      label: Blunt
+    '2':
+      value: 1
+      formula: '1'
+      label: Ranged
+    '3':
+      value: 1
+      formula: '1'
+      label: Polearms
+    '4':
+      value: 1
+      formula: '1'
+      label: Brawl
+    '5':
+      value: 2
+      formula: '2'
+      label: Athletics
+    '6':
+      value: 3
+      formula: '3'
+      label: Hunting
+    '7':
+      value: 2
+      formula: '2'
+      label: Nature
+    '8':
+      value: 2
+      formula: '2'
+      label: Wandering
+    '9':
+      value: 2
+      formula: '2'
+      label: Stealth
+    '10':
+      value: 1
+      formula: '1'
+      label: Perception
+    '11':
+      value: 2
+      formula: '2'
+      label: Cultures
+    '12':
+      value: 2
+      formula: '2'
+      label: Body
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  cFMVT6Qd4M0fbk5F: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.62'
+  coreVersion: '12.328'
+  createdTime: 1676409485526
+  modifiedTime: 1703703316996
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.cIga3PQ7ILvJ5Dv1
+  duplicateSource: null
+_key: '!items!cIga3PQ7ILvJ5Dv1'
+

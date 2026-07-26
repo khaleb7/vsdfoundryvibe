@@ -1,0 +1,79 @@
+name: Mystical Training
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.DcG0XsJS7OuEI2TA
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Mystical Training
+      type: Trait
+      system:
+        notes: >-
+          You've been raised and trained since you were a child in a secluded
+          place or monastery under the guidance of a wise mentor, developing
+          mystical fighting skills.
+
+          - Minor (cost 1 BP):  Write your Nature about the teachings of your
+          master. Your unarmed attacks are one Size larger than what they should
+          normally be (up to a maximum of Colossal).
+
+          - Major (cost 3 BPs):  Additionally, a visible, mystical aura of
+          holiness surrounds you when you're in danger, granting you a special
+          +20 bonus to your Defense and Save Rolls if you are unarmed and aren't
+          wearing any armor.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Mystical Training
+      type: Modifier
+      system:
+        notes: >-
+          A visible, mystical aura of holiness surrounds you when you're in
+          danger, granting you a special +20 bonus to your Defense and Save
+          Rolls if you are unarmed and aren't wearing any armor.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '20'
+            category: defence
+            targets: Willpower, Toughness
+          '1':
+            value: 20
+            formula: '20'
+            category: reaction
+            targets: Missile, Melee
+        tempName: Mystical Training
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485204
+  modifiedTime: 1697655935040
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.DcG0XsJS7OuEI2TA
+  duplicateSource: null
+_id: fxPOTnwTuXQ9DaOC
+sort: 0
+_key: '!items!fxPOTnwTuXQ9DaOC'
+

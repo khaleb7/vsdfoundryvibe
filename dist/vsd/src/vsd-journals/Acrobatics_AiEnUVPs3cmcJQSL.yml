@@ -1,0 +1,59 @@
+name: Acrobatics
+flags:
+  monks-enhanced-journal:
+    type: text
+  core:
+    sourceId: >-
+      Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.UZDM59KqJCysqCrt
+pages:
+  - type: text
+    name: Acrobatics
+    _id: csgJJgeOSfpwBolv
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p></p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+      core:
+        sourceId: JournalEntry.AiEnUVPs3cmcJQSL.JournalEntryPage.csgJJgeOSfpwBolv
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!AiEnUVPs3cmcJQSL.csgJJgeOSfpwBolv'
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1666903664062
+  modifiedTime: 1689519569944
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.UZDM59KqJCysqCrt
+  duplicateSource: null
+folder: VyFY8CNwgwsRHjuU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_id: AiEnUVPs3cmcJQSL
+sort: 0
+_key: '!journal!AiEnUVPs3cmcJQSL'
+

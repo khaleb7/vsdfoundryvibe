@@ -1,0 +1,53 @@
+name: 'Dark Sorcery: Demon''s Breath (Dark)'
+type: Ranged-Attack
+img: systems/vsd/icons/items/attackspells/energy-breath.svg
+effects: []
+folder: huRuIB2kU4rQcUnb
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-spell-attacks.Item.7uqBFnE38BPf4X4e
+  cf:
+    id: null
+    color: '#000000'
+system:
+  notes: |-
+    Weave: 8th
+    Area of Effect: 15 m × 6 m cone
+    Duration: -
+    Save: N
+    Attack Table: Area
+    Max: 140
+    Crit Table: Dark
+    Range: 0 (self)
+  chartype: CharacterVsD
+  group: Ranged-Attack
+  damage: 7.5 Area Spells Attack Table
+  damageType: 7.16 Dark Magic Critical Strikes
+  secondary: none
+  armourDiv: 10
+  minST: oe
+  accuracy: 140
+  range: 0 (self)
+  rof: 5
+  shots: ''
+  bulk: 0
+  recoil: ''
+  value: 0
+  formula: '@dark_sorcery'
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490146
+  modifiedTime: 1697655935006
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-spell-attacks.Item.7uqBFnE38BPf4X4e
+  duplicateSource: null
+_id: NLEImUYosaAUqztt
+sort: 0
+_key: '!items!NLEImUYosaAUqztt'
+

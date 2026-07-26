@@ -1,0 +1,61 @@
+name: Distraction
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.VLhKc2Y8ulA2Inpg
+pages:
+  - name: Distraction
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Trickery"> <td>Lore:</td> <td>Trickery </td> </tr> <tr>
+        <td>Weave:</td> <td>1st </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Trickery" data-weave="1st"
+        data-spell="Distraction" data-range="15 m" data-aoe="1 target"
+        data-duration="C" data-save="-"> <td>Spell:</td> <td
+        class="spellname">Distraction </td> </tr> <tr> <td>Range:</td> <td>15 m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td> </tr> <tr>
+        <td>Duration:</td> <td>C </td> </tr> <tr> <td>Save:</td> <td>- </td>
+        </tr> </tbody> </table>
+    _id: PueFzGldIXuAf1O9
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!TdFTC7Eln3wET81I.PueFzGldIXuAf1O9'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.VLhKc2Y8ulA2Inpg
+  duplicateSource: null
+_id: TdFTC7Eln3wET81I
+sort: 0
+_key: '!journal!TdFTC7Eln3wET81I'
+

@@ -1,0 +1,72 @@
+{{debug "this:" this}}
+<form class="{{cssClass}}" autocomplete="off">
+
+    {{!-- Sheet Header --}}
+    <header class="sheet-header">
+        <img class="portrait" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{localize " local.item.name"}}" />
+    </header>
+    <hr>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Ranged-Attack.formula"}}</label>
+            <input type="text" name="system.formula" value="{{item.system.formula}}" data-dtype="String" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Ranged-Attack.damage"}}</label>
+            <select name="system.damage">
+                {{selectOptions config.selectOptions.ranged_damage selected=item.system.damage valueAttr="value"
+                labelAttr="label" localize=true}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Ranged-Attack.damageType"}}</label>
+            <select name="system.damageType">
+                {{selectOptions config.selectOptions.ranged_damageType selected=item.system.damageType valueAttr="value"
+                labelAttr="label" localize=true}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Ranged-Attack.secondary"}}</label>
+            <select name="system.secondary">
+                {{selectOptions config.selectOptions.ranged_secondary selected=item.system.secondary valueAttr="value"
+                labelAttr="label" localize=true}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Ranged-Attack.armourDiv"}}</label>
+            <input type="text" name="system.armourDiv" value="{{item.system.armourDiv}}" data-dtype="Number" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Ranged-Attack.rof"}}</label>
+            <input type="text" name="system.rof" value="{{item.system.rof}}" data-dtype="Number" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Ranged-Attack.accuracy"}}</label>
+            <input type="text" name="system.accuracy" value="{{item.system.accuracy}}" data-dtype="Number" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Ranged-Attack.range"}}</label>
+            <input type="text" name="system.range" value="{{item.system.range}}" data-dtype="String" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.group"}}</label>
+            <input type="text" name="system.group" value="{{item.system.group}}" data-dtype="String" />
+        </div>
+        <hr>
+        <h3>{{localize "local.item.notes"}}</h3>
+        <div class="tab">
+            <textarea rows="18" name="system.notes">{{{system.notes}}}</textarea>
+        </div>
+        <script>
+            $("input").focusin(function () {
+                $(this).select();
+            });
+            $("textarea").focusin(function () {
+                $(this).select();
+            }); 
+        </script>
+    </section>
+</form>

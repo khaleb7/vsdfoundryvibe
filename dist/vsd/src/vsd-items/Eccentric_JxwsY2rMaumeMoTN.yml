@@ -1,0 +1,75 @@
+name: Eccentric
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.2WjIV3a2n4Ky9jYc
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Eccentric
+      type: Trait
+      system:
+        notes: >-
+          Other people often tell you that you're strange. Some would take
+          offense to that, but you're proud of what you are.
+
+          - Minor (cost 1 BP):  Choose a Stat in which your Kin has a negative
+          modifier. Increase the total value of that Stat by 5 points.
+
+          - Major (cost 3 BPs):  Additionally, choose one of your Kin's Special
+          Traits (like the Orcs' Sun Sensitivity Trait). You ignore the effects
+          of that Trait. However, other members of your Kin tend to find you
+          weird or unnatural.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Eccentric
+      type: Modifier
+      system:
+        notes: >-
+          Choose a Stat in which your Kin has a negative modifier. Increase the
+          total value of that Stat by 5 points.
+
+
+          Enter the three letter abbreviation for the chosen primary attribute
+          ALL CAPS.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: Primary Attribute ABBR
+        tempName: Eccentric
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485197
+  modifiedTime: 1697655934998
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.2WjIV3a2n4Ky9jYc
+  duplicateSource: null
+_id: JxwsY2rMaumeMoTN
+sort: 0
+_key: '!items!JxwsY2rMaumeMoTN'
+

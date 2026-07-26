@@ -1,0 +1,439 @@
+name: 'Kin: Dusk Elf'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: S4cYmNlYiYxqf8ne
+      name: Immortal (vs Cold)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: LabKzfGIJI1g4ne1
+      sort: -37500
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.41tIlmdrQ7iCUyC4
+      system:
+        notes: >-
+          Immortal: Your kin do not age, are immune to disease, and are
+          resistant to the effects of natural cold (gaining a +10 bonus against
+          any Cold-based threat). They don’t need to sleep, and will gain the
+          benefits of a night’s rest simply by meditating for 3 hours.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: defence
+            targets: Willpower, Toughness
+          '1':
+            value: 10
+            formula: '+10'
+            category: reaction
+            targets: Melee, Missile
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689439978029
+        modifiedTime: 1703270367911
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: vWDRQjFTGvt9iTPO
+      name: Keen Senses
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: LabKzfGIJI1g4ne1
+      sort: -50000
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.nSxyGXNQb25Wa2Kv
+      system:
+        notes: >-
+          Keen Senses: Your kin have superior senses that grant them a special
+          +10 bonus to their Perception Skill. Additionally, they can see in
+          natural moonlight or starlight as if it were day, and up to 30m in Dim
+          Light (treating the first 15 m as if they were standing in Bright
+          Light).
+        chartype: CharacterVsD
+        group: Modifier
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Perception
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689439981619
+        modifiedTime: 1703270391601
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: YJMq8Gy7wn4T8a5G
+      name: Keen Senses
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: LabKzfGIJI1g4ne1
+      sort: -31250
+      flags:
+        core:
+          sourceId: Actor.I9PwNHK35JBlpDve.Item.STE5BW8bLz1g8KHj
+      system:
+        notes: >-
+          Keen Senses: Your Kin have superior senses that grant them a special
+          +10 bonus to their Perception Skill. Additionally, they can see in
+          natural moonlight or starlight as if it were day, and up to 30m in Dim
+          Light (treating the first 15 m as if they were standing in Bright
+          Light).
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1703270402017
+        modifiedTime: 1703270402017
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: tR2zIB5xaeQmjTGu
+      name: 'Kin: Dusk Elf'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: LabKzfGIJI1g4ne1
+      sort: 100000
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: |-
+          Special Traits:
+          - Keen Senses
+          - Immortal
+          - Light-Footed
+          - Sure-Shot
+          - Lithe and Graceful
+          Cultures: Fey or Woad
+          Wealth: 1
+          Background: 3
+          Magic Points: 3
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: primary
+            targets: SWI
+          '1':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: WIT
+          '2':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: BEA
+          '3':
+            value: 10
+            formula: '10'
+            category: defence
+            targets: Toughness
+          '4':
+            value: 25
+            formula: '25'
+            category: reaction
+            targets: Body
+          '5':
+            value: 25
+            formula: '25'
+            category: primary
+            targets: KinVoc
+          '6':
+            value: 3
+            formula: '3'
+            category: primary
+            targets: KinMP
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689439995189
+        modifiedTime: 1703270317435
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: cZvZT2mooH4s5AIZ
+      name: Light-Footed
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: LabKzfGIJI1g4ne1
+      sort: -34375
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.ERWmQ6WTQehQGAf4
+      system:
+        notes: >-
+          Light-Footed: Rough Terrain does not affect the movements of Elves, as
+          long as they are unencumbered and wearing light or no armor.
+          Additionally, each elf counts only as half a group member (rounding
+          up) for the purpose of calculating their group’s size when Camping.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689439951356
+        modifiedTime: 1703270405267
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: KfST27N5Gn0yLDFc
+      name: Lithe and Graceful
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: LabKzfGIJI1g4ne1
+      sort: 0
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.qWDBSLRzz1zCaP0A
+      system:
+        notes: >-
+          Lithe and Graceful: Your kin must assign one of their three highest
+          Stat Values to their Bearing before Kin Modifiers are applied. They
+          get a +10 bonus to their Acrobatics skill, and a +20 bonus to their
+          Stealth Rolls in any natural environment.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Acrobatics
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689440001643
+        modifiedTime: 1703270389950
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: hU0ciMrmyu3J2ErP
+      name: Lithe and Graceful (In Nature)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: LabKzfGIJI1g4ne1
+      sort: -25000
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.9jj0B7Je8tF7U4AD
+      system:
+        notes: >-
+          Lithe and Graceful: Your kin must assign one of their three highest
+          Stat Values to their Bearing before Kin Modifiers are applied. They
+          get a +10 bonus to their Acrobatics skill, and a +20 bonus to their
+          Stealth Rolls in any natural environment.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '+20'
+            category: skill
+            targets: Stealth
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689440003787
+        modifiedTime: 1703270389437
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: UcXGrE8lbquFWxlv
+      name: Sure-Shot
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: LabKzfGIJI1g4ne1
+      sort: -100000
+      flags:
+        core:
+          sourceId: Actor.fjMBE656arG15HLw.Item.LnXudQSFUuW3zkSm
+      system:
+        notes: 'Sure-Shot: Your kin get a special +10 bonus to their Ranged Skill.'
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Ranged
+          '1':
+            value: 10
+            formula: '+10'
+            category: attack
+            targets: Ranged
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689440012251
+        modifiedTime: 1703270388814
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703270490618
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: GCeaDYDd68u7jJ4v
+sort: 600000
+_key: '!items!GCeaDYDd68u7jJ4v'
+

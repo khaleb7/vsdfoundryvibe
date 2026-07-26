@@ -1,0 +1,51 @@
+name: Vigilant
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.ZODTDY8obXwpWsD5
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Vigilant
+      type: Trait
+      system:
+        notes: >-
+          An adventurous life taught you to sleep lightly and be always ready
+          for trouble.
+
+          - Minor (cost 1 BP):  Four hours of rest are enough to give you the
+          benefits of a full night of sleep. This doesn't change your HPs
+          recovery rate, but allows you to recover from the Weary condition and
+          regain all spent MPs with 4 hours of rest.
+
+          - Major (cost 3 BPs):  Additionally, you can take Full Actions,
+          attack, and Parry normally when you are Surprised. You are still
+          considered Surprised for the purpose of resolving your foe's attacks
+          and special abilities. However, there's a reason why you're always
+          watchful. Someone or something is out there to get you. Name your
+          enemy and write an Allegiance about them.
+        chartype: CharacterVsD
+        category: quirk
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485216
+  modifiedTime: 1697655935054
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.ZODTDY8obXwpWsD5
+  duplicateSource: null
+_id: pV8A0EeKTF4QjBq3
+sort: 0
+_key: '!items!pV8A0EeKTF4QjBq3'
+

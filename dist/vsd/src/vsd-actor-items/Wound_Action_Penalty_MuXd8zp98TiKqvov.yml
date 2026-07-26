@@ -1,0 +1,59 @@
+name: Wound Action Penalty
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The action penalty to rolls for wounds sustained.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: true
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '@woundspen'
+      category: attack
+      targets: ''
+      moddedformula: '0'
+    - value: 0
+      formula: '@woundspen'
+      category: skill
+      targets: ''
+      moddedformula: '0'
+    - value: 0
+      formula: '@woundspen'
+      category: spell
+      targets: ''
+      moddedformula: '0'
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Wound Action Penalty
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377615416
+  modifiedTime: 1704377615416
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: MuXd8zp98TiKqvov
+sort: 0
+_key: '!items!MuXd8zp98TiKqvov'
+

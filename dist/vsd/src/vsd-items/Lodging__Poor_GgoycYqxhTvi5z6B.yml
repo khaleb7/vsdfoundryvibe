@@ -1,0 +1,33 @@
+name: Lodging, Poor
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.czGpMFHa8xGnKouD
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '0'
+  weight: 0
+  availability: Common
+  description: Communal sleeping room for 1 night.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485374
+  modifiedTime: 1697655934992
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.czGpMFHa8xGnKouD
+  duplicateSource: null
+_id: GgoycYqxhTvi5z6B
+sort: 0
+_key: '!items!GgoycYqxhTvi5z6B'
+

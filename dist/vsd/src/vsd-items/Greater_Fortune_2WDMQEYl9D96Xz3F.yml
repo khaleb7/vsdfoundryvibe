@@ -1,0 +1,48 @@
+name: Greater Fortune
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.0AdQPOIzp3DH7VRM
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Greater Fortune
+      type: Trait
+      system:
+        notes: >-
+          You come from a wealthy family, or managed to grow in richness and
+          social standing with hard work… or blind luck.
+
+          - Minor (cost 1 BP):  You can raise your starting Wealth Level by one,
+          up to a maximum WL of 4.
+
+          - Major (cost 3 BPs):  Additionally, you're the owner of some land,
+          estate or business. Describe your property and decide where it's
+          located. As long as you can reach it, and you're acquiring something
+          that could be reasonably be provided by it, you can raise your WL by
+          two more levels (up to a maximum WL of 5).
+        chartype: CharacterVsD
+        category: quirk
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485192
+  modifiedTime: 1697655934967
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.0AdQPOIzp3DH7VRM
+  duplicateSource: null
+_id: 2WDMQEYl9D96Xz3F
+sort: 0
+_key: '!items!2WDMQEYl9D96Xz3F'
+

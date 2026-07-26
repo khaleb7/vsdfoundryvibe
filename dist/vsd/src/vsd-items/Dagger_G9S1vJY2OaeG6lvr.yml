@@ -1,0 +1,175 @@
+name: Dagger
+type: Container
+img: systems/vsd/icons/items/weapons/plain-dagger.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.5bEVhKbrUAL1WyBy
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Blades: Dagger (Pierce)'
+      type: Melee-Attack
+      img: systems/vsd/icons/items/weapons/plain-dagger.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Edged
+          Max: 120
+          Crit Table: Pierce
+          Range: -
+          Qualities: Backstab
+        chartype: CharacterVsD
+        group: Melee-Attack
+        sort: -1
+        value: 0
+        formula: '@blades'
+        damage: 7.1 Edged Attack Table
+        damageType: 7.11 Pierce Critical Strikes Table
+        armourDiv: 1
+        minST: oe
+        weight: 120
+        reach: 5
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+    - name: 'Brawl: Dagger (Pierce)'
+      type: Melee-Attack
+      img: systems/vsd/icons/items/weapons/plain-dagger.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Edged
+          Max: 120
+          Crit Table: Pierce
+          Range: -
+          Qualities: Backstab
+        chartype: CharacterVsD
+        group: Melee-Attack
+        sort: -1
+        value: 0
+        formula: '@brawl'
+        damage: 7.1 Edged Attack Table
+        damageType: 7.11 Pierce Critical Strikes Table
+        armourDiv: 1
+        minST: oe
+        weight: 120
+        reach: 5
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+    - name: 'Ranged: Thrown Dagger (Pierce)'
+      type: Ranged-Attack
+      img: systems/vsd/icons/items/weapons/plain-dagger.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: -
+          Attack Table: Missile
+          Max: 110
+          Crit Table: Pierce
+          Range: 3
+          Qualities:
+        chartype: CharacterVsD
+        group: Ranged-Attack
+        sort: -1
+        value: 0
+        formula: '@ranged'
+        damage: 7.3 Missile Attack Table
+        damageType: 7.11 Pierce Critical Strikes Table
+        armourDiv: 2
+        minST: oe
+        accuracy: 110
+        range: '3'
+        rof: 5
+        shots: ''
+        bulk: 0
+        recoil: ''
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+    - name: Dagger (unspecialized ranged)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      system:
+        notes: note
+        chartype: CharacterVsD
+        group: Modifier
+        sort: -1
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -20
+            formula: '-20'
+            category: attack
+            targets: 'Ranged: Thrown Dagger'
+      folder: null
+      permission:
+        default: 0
+        OxYGvqLVXSV3pvbk: 3
+    - name: Dagger (unspecialized melee)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      system:
+        notes: note
+        chartype: CharacterVsD
+        group: Modifier
+        sort: -1
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -20
+            formula: '-20'
+            category: attack
+            targets: 'Blades: Dagger, Brawl: Dagger'
+      folder: null
+      permission:
+        default: 0
+        OxYGvqLVXSV3pvbk: 3
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490218
+  modifiedTime: 1697655934990
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.5bEVhKbrUAL1WyBy
+  duplicateSource: null
+_id: G9S1vJY2OaeG6lvr
+sort: 0
+_key: '!items!G9S1vJY2OaeG6lvr'
+

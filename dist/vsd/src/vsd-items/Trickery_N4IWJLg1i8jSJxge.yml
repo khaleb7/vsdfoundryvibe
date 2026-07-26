@@ -1,0 +1,32 @@
+name: Trickery
+type: Rollable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: TXJAMYe6EhhtsnKT
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-spell-lores.Item.5v393dHutpJqKItm
+system:
+  notes: The level of mastery of the Trickery Spell Lore.
+  chartype: CharacterVsD
+  group: spell
+  value: 0
+  formula: '#0'
+  category: spell
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485023
+  modifiedTime: 1697655935005
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-spell-lores.Item.5v393dHutpJqKItm
+  duplicateSource: null
+_id: N4IWJLg1i8jSJxge
+sort: 0
+_key: '!items!N4IWJLg1i8jSJxge'
+

@@ -5,6 +5,7 @@
 - Token/Combat/Actor classes use Foundry V13+ namespaces (removes Token global deprecation).
 - Item sheets: fix options.parts (use _configureRenderParts, not object assignment).
 - renderTemplate → foundry.applications.handlebars.renderTemplate.
+- Personal-use content: added missing Core Rules bestiary (Boggart, Boggle, Demon, Dragonspawn, Fomorian, Ghost, Merlock, Spirit, Undead Thralls, Wraith); Halfling Superstitious kin trait; pack tooling under tools/.
 
 14.0.0
 - Foundry V14 compliance pass (system id remains `vsd`).

@@ -1,0 +1,58 @@
+name: Leather Helmet
+type: Modifier
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Bxxo1AxxBitNbUjx
+flags:
+  core: {}
+system:
+  notes: |-
+    Fare: 0
+    Type: -
+    Protects: Head
+    Qualities: -
+    Max SWI: -
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: false
+  attack: false
+  defence: false
+  skill: true
+  spell: false
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: -5
+      formula: '-5'
+      category: skill
+      targets: Perception
+      moddedvalue: -5
+    - value: 0
+      formula: '0'
+      category: reaction
+      targets: ''
+      moddedvalue: 0
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  8VtokmkrTaxXr4Uk: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485126
+  modifiedTime: 1697655938756
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: hcI8DTDNVRXyOaMm
+sort: 600000
+_key: '!items!hcI8DTDNVRXyOaMm'
+

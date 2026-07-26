@@ -1,0 +1,31 @@
+name: Motivation
+type: Trait
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: Describe your Motivation
+  chartype: CharacterVsD
+  group: disadvantage
+  applied: false
+  category: disadvantage
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689520621569
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: 7FAbmc4atfozsNvu
+sort: 1700000
+_key: '!items!7FAbmc4atfozsNvu'
+

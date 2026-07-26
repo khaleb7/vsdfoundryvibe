@@ -1,0 +1,61 @@
+name: Swing*
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.Gj3yjec6zFV2jOZD
+pages:
+  - name: Swing*
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Skirmishing Mastery"> <td>Lore:</td> <td>Skirmishing Mastery
+        </td> </tr> <tr> <td>Weave:</td> <td>1st </td> </tr> <tr
+        class="rollable" data-type="spell" data-table="Skirmishing Mastery"
+        data-weave="1st" data-spell="Swing*" data-range="0 (self)"
+        data-aoe="caster" data-duration="1 rnd" data-save="N"> <td>Spell:</td>
+        <td class="spellname">Swing* </td> </tr> <tr> <td>Range:</td> <td>0
+        (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>caster </td> </tr>
+        <tr> <td>Duration:</td> <td>1 rnd </td> </tr> <tr> <td>Save:</td> <td>N
+        </td> </tr> </tbody> </table>
+    _id: rF5E8etvWwZK67sQ
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!jQN3EugzZSMvA97R.rF5E8etvWwZK67sQ'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.Gj3yjec6zFV2jOZD
+  duplicateSource: null
+_id: jQN3EugzZSMvA97R
+sort: 0
+_key: '!journal!jQN3EugzZSMvA97R'
+

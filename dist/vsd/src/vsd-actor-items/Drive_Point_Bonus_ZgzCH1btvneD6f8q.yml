@@ -1,0 +1,60 @@
+name: Drive Point Bonus
+type: Variable
+img: icons/svg/mystery-man.svg
+folder: null
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: '+0'
+  entries:
+    '0':
+      value: 0
+      formula: '0'
+      label: '+0'
+    '1':
+      value: 10
+      formula: '+10'
+      label: '+10'
+    '2':
+      value: 20
+      formula: '+20'
+      label: '+20'
+    '3':
+      value: 30
+      formula: '+30'
+      label: '+30'
+    '4':
+      value: 40
+      formula: '+40'
+      label: '+40'
+    '5':
+      value: 50
+      formula: '+50'
+      label: '+50'
+  temporary: false
+  once: false
+  forceUpdate: false
+  sort: -1
+  moddedformula: '0'
+  moddedvalue: 0
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.330'
+  systemId: vsd
+  systemVersion: '12.274'
+  createdTime: 1723035099579
+  modifiedTime: 1723035099579
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+flags: {}
+_id: ZgzCH1btvneD6f8q
+sort: 0
+_key: '!items!ZgzCH1btvneD6f8q'
+

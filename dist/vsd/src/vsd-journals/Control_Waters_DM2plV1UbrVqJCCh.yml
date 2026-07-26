@@ -1,0 +1,61 @@
+name: Control Waters
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.MCppByJFBVDby4EY
+pages:
+  - name: Control Waters
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Eldritch Tide"> <td>Lore:</td> <td>Eldritch Tide </td> </tr>
+        <tr> <td>Weave:</td> <td>9th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Eldritch Tide" data-weave="9th"
+        data-spell="Control Waters" data-range="0 (self)" data-aoe="10 m radius"
+        data-duration="C" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Control Waters </td> </tr> <tr> <td>Range:</td> <td>0
+        (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>10 m radius </td>
+        </tr> <tr> <td>Duration:</td> <td>C </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: GZUHuXSE4wLyxYKC
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!DM2plV1UbrVqJCCh.GZUHuXSE4wLyxYKC'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.MCppByJFBVDby4EY
+  duplicateSource: null
+_id: DM2plV1UbrVqJCCh
+sort: 0
+_key: '!journal!DM2plV1UbrVqJCCh'
+

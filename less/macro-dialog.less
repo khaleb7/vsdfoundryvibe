@@ -52,7 +52,7 @@
     }
 
     .spell {
-      border-color: blueviolet;
+      border-color: @sepia-accent;
     }
   }
 
@@ -88,7 +88,7 @@
   .modifiers {
     .diagmod {
       .roundedcard();
-      background-color: rgba(192, 0, 192, 0.25);
+      background-color: fade(@ink-faded, 18%);
       display: grid;
       grid-template-columns: 2fr 1fr;
       align-items: baseline;
@@ -166,7 +166,7 @@
 
         .headinfo {
           padding: 3px;
-          border: 2px solid maroon;
+          border: 2px solid @main-colour;
           border-radius: 5px;
           margin: 2px;
           text-align: center;
@@ -193,15 +193,15 @@
       }
 
       .withend {
-        background-color: coral;
+        background-color: fade(@ink-border, 35%);
       }
 
       .can {
-        background-color: palegreen;
+        background-color: @paper-alt-colour;
       }
 
       .maynot {
-        background-color: red;
+        background-color: fade(@failure-ink, 40%);
       }
     }
   }
@@ -218,7 +218,7 @@
       }
 
       .actionimage.active {
-        border: 5px solid maroon;
+        border: 5px solid @main-colour;
       }
 
       .moverate {
@@ -229,7 +229,7 @@
         align-items: center;
 
         .mrname {
-          color: maroon;
+          color: @main-colour;
           font-weight: bold;
         }
 

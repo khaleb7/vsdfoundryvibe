@@ -1,0 +1,57 @@
+name: Immortal (vs Cold)
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Immortal: Your kin do not age, are immune to disease, and are resistant to
+    the effects of natural cold (gaining a +10 bonus against any Cold-based
+    threat). They don’t need to sleep, and will gain the benefits of a night’s
+    rest simply by meditating for 3 hours.
+  chartype: CharacterVsD
+  group: kin
+  inEffect: false
+  alwaysOn: false
+  attack: false
+  defence: true
+  skill: false
+  spell: false
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: 10
+      formula: '+10'
+      category: defence
+      targets: Willpower, Toughness
+      moddedvalue: 10
+    - value: 10
+      formula: '+10'
+      category: reaction
+      targets: Melee, Missile
+      moddedvalue: 10
+  temporary: false
+  once: true
+  condition: true
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689439978029
+  modifiedTime: 1697655938866
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: irCY1htFHvY4mi9j
+sort: 800000
+_key: '!items!irCY1htFHvY4mi9j'
+

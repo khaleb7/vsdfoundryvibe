@@ -1,0 +1,59 @@
+name: Athletics
+flags:
+  monks-enhanced-journal:
+    type: text
+  core:
+    sourceId: >-
+      Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.D24HM6IAkDWxxA1s
+pages:
+  - type: text
+    name: Athletics
+    _id: ZHyuTiboAg0yUBxb
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p></p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+      core:
+        sourceId: JournalEntry.U58fAxQWfLq75Wto.JournalEntryPage.ZHyuTiboAg0yUBxb
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!U58fAxQWfLq75Wto.ZHyuTiboAg0yUBxb'
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1666903168600
+  modifiedTime: 1689519569944
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.D24HM6IAkDWxxA1s
+  duplicateSource: null
+folder: VyFY8CNwgwsRHjuU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_id: U58fAxQWfLq75Wto
+sort: 0
+_key: '!journal!U58fAxQWfLq75Wto'
+

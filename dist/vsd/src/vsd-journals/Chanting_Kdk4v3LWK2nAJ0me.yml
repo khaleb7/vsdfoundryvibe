@@ -1,0 +1,99 @@
+name: Chanting
+folder: Z9DrIJY8LTitWm9q
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.5DJ3CJhva6syz1vR
+pages:
+  - name: Chanting
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spelllisttable"> <tbody> <tr class="tableheaderrow"> <td
+        class="weave">Weave</td> <td class="spell">Spell</td> <td
+        class="range">Range</td> <td class="areaofeffect">Area of Effect</td>
+        <td class="duration">Duration</td> <td class="save">Save</td> </tr> <tr
+        class="tablerow open-journal" data-table="Chant of Courage"> <td
+        class="weave">1st</td> <td class="spell">Chant of Courage</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">3 m radius</td> <td
+        class="duration">C</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Endure the Elements"> <td
+        class="weave">2nd</td> <td class="spell">Endure the Elements</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Nature's Blessing"> <td
+        class="weave">3rd</td> <td class="spell">Nature's Blessing</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Suppress Curse"> <td
+        class="weave">4th</td> <td class="spell">Suppress Curse</td> <td
+        class="range">3 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 hr/lvl</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Repel Magic"> <td
+        class="weave">5th</td> <td class="spell">Repel Magic</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">3 m radius</td> <td
+        class="duration">C</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Sanctuary"> <td
+        class="weave">6th</td> <td class="spell">Sanctuary</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">3 m radius</td> <td
+        class="duration">C</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Dispel Magic"> <td
+        class="weave">7th</td> <td class="spell">Dispel Magic</td> <td
+        class="range">20 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">P</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Break Curse"> <td
+        class="weave">8th</td> <td class="spell">Break Curse</td> <td
+        class="range">3 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">P</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Nature's Cradle"> <td
+        class="weave">9th</td> <td class="spell">Nature's Cradle</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 camp</td> <td
+        class="duration">1 day</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Nature's Shield*"> <td
+        class="weave">10th</td> <td class="spell">Nature's Shield*</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablefootrow"> <td class="stat" colspan="6">Vocations: Common,
+        Animist, Champion</td> </tr> <tr class="tablefootrow"> <td class="stat"
+        colspan="4">Stat Value: WSD</td> <td class="page" colspan="2">Page:
+        351</td> </tr> </tbody> </table>
+    _id: z4dMy5AuzYrW0Pha
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!Kdk4v3LWK2nAJ0me.z4dMy5AuzYrW0Pha'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519554648
+  modifiedTime: 1689519573070
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.5DJ3CJhva6syz1vR
+  duplicateSource: null
+_id: Kdk4v3LWK2nAJ0me
+sort: 0
+_key: '!journal!Kdk4v3LWK2nAJ0me'
+

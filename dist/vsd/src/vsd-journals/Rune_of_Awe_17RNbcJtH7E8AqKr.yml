@@ -1,0 +1,61 @@
+name: Rune of Awe
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.VW9pgFDiFR770FnI
+pages:
+  - name: Rune of Awe
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Enchantment"> <td>Lore:</td> <td>Enchantment </td> </tr>
+        <tr> <td>Weave:</td> <td>8th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Enchantment" data-weave="8th"
+        data-spell="Rune of Awe" data-range="0 (touch)" data-aoe="1 target"
+        data-duration="1 rnd/lvl" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Rune of Awe </td> </tr> <tr> <td>Range:</td> <td>0
+        (touch) </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td>
+        </tr> <tr> <td>Duration:</td> <td>1 rnd/lvl </td> </tr> <tr>
+        <td>Save:</td> <td>N </td> </tr> </tbody> </table>
+    _id: xMAitxGuS33Z8h8d
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!17RNbcJtH7E8AqKr.xMAitxGuS33Z8h8d'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.VW9pgFDiFR770FnI
+  duplicateSource: null
+_id: 17RNbcJtH7E8AqKr
+sort: 0
+_key: '!journal!17RNbcJtH7E8AqKr'
+

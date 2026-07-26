@@ -1,0 +1,58 @@
+name: Preparation/Aim Time
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The modifier link for a Variable
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: true
+  defence: false
+  skill: false
+  spell: true
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '@prepaim_time'
+      category: attack
+      targets: >-
+        Ranged, Channel, Command, Eldritch, Elven, Heroic, Mind, Skirmish,
+        Spell, Trick, Weapon, Aspect, Chant, Cleans, Commun, Detect, Heal, Lore,
+        Master, Miracle, Movement, Nature, Necro, Soul, Dark, Earth, Enchant,
+        Illus, Sound
+      moddedformula: '0'
+    - value: 0
+      formula: '@prepaim_time'
+      category: spell
+      targets: ''
+      moddedformula: '0'
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Preparation/Aim Time (No Penalty)
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377544965
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: xY8HNnAJCSYYDLTI
+sort: 3000000
+_key: '!items!xY8HNnAJCSYYDLTI'
+

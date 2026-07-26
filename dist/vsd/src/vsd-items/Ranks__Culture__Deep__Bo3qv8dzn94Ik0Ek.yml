@@ -1,0 +1,80 @@
+_id: Bo3qv8dzn94Ik0Ek
+name: 'Ranks: Culture (Deep)'
+type: Variable
+img: icons/environment/people/group.webp
+effects: []
+folder: abW3nFLArLLC7tFt
+sort: 150000
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.Bo3qv8dzn94Ik0Ek
+system:
+  notes: 'Wealth Level: +1'
+  chartype: CharacterVsD
+  group: Variable
+  value: 2
+  formula: ''
+  label: Armor
+  entries:
+    '0':
+      value: 3
+      formula: '3'
+      label: Armor
+    '1':
+      value: 4
+      formula: '4'
+      label: Blunt
+    '2':
+      value: 1
+      formula: '1'
+      label: Blades
+    '3':
+      value: 1
+      formula: '1'
+      label: Ranged
+    '4':
+      value: 1
+      formula: '1'
+      label: Brawl
+    '5':
+      value: 2
+      formula: '2'
+      label: Athletics
+    '6':
+      value: 2
+      formula: '2'
+      label: Locks & Traps
+    '7':
+      value: 2
+      formula: '2'
+      label: Perception
+    '8':
+      value: 1
+      formula: '1'
+      label: Cultures
+    '9':
+      value: 1
+      formula: '1'
+      label: Songs & Tales
+    '10':
+      value: 3
+      formula: '3'
+      label: Body
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  cFMVT6Qd4M0fbk5F: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.64'
+  coreVersion: '12.328'
+  createdTime: 1676409485500
+  modifiedTime: 1704591067331
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.Bo3qv8dzn94Ik0Ek
+  duplicateSource: null
+_key: '!items!Bo3qv8dzn94Ik0Ek'
+

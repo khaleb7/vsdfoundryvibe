@@ -1,0 +1,408 @@
+{
+  "local": {
+    "system": {
+      "title": "Generic Role Playing Game Aid",
+      "description": "Una ayuda de juego flexible para JDR en el entorno de Foundry VTT."
+    },
+    "sheet": {
+      "edit": "Editar",
+      "clone": "Clone",
+      "delete": "Borrar"
+    },
+    "phrases": {
+      "defence": "Hace una tirada de <b>{name}</b>",
+      "attack": "Intenta un ataque con <b>{name}</b>",
+      "damage": "Tira daño por <b>{name}</b>",
+      "modlist": "The modified value for <b>{name}</b> is:",
+      "skill": "Hace un chequeo de la habilidad <b>{name}</b>",
+      "spell": "Lanza el sortilegio <b>{name}</b>",
+      "reaction": "Hace un chequeo de <b>{name}</b>",
+      "check": "Hace un chequeo contra <b>{name}</b>",
+      "dodge": "Hace una Tirada Estándar para <b>{name}</b>",
+      "block": "Hace una Tirada Abierta para <b>{name}</b>",
+      "parry": "Hace una Tirada Abierta por Arriba para <b>{name}</b>"
+    },
+    "tables": {
+      "fear": "3.9 Tabla de Tiradas de Salvación contra Miedo",
+      "reacti": "3.4 Tabla de Tiradas de Reacción (Interacción)",
+      "reactc": "3.4 Tabla de Tiradas de Reacción (Combate)",
+      "resonance": "2.8 Tabla de Resonancia Mágica",
+      "casting": "2.6 Tabla de Ejecución de Sortilegios",
+      "missilef": "2.42 Tabla de Pifias con Proyectiles",
+      "meleef": "2.42 Tabla de Pifias Cuerpo a Cuerpo y Arrojadizas",
+      "spellf": "2.10 Tabla de Fracaso de Sortilegios",
+      "action": "2.1 Tabla de Resolución de Acciones",
+      "impact": "7.9 Tabla de Impactos Críticos de Aplastamiento",
+      "beastc": "7.8 Impactos Críticos de Bestias",
+      "beasta": "7.7 Tabla de Ataque de Bestias",
+      "bolt": "7.6 Tabla de Ataque de Sortilegios de Rayo",
+      "area": "7.5 Tabla de Ataque de Sortilegios de Área",
+      "unarmed": "7.4 Tabla de Ataque Desarmado/Presa",
+      "missile": "7.3 Tabla de Ataque de Proyectiles",
+      "blunt": "7.2 Tabla de Ataque de Contundentes",
+      "dark": "7.16 Tabla de Impactos Críticos de Magia Oscura",
+      "frost": "7.15 Tabla de Impactos Críticos de Frío",
+      "lightning": "7.14 Tabla de Impactos Críticos de Relámpago",
+      "fire": "7.13 Tabla de Impactos Críticos de Fuego",
+      "grapple": "7.12 Tabla de Impactos Críticos de Presa",
+      "pierce": "7.11 Tabla de Impactos Críticos de Perforación",
+      "cut": "7.10 Tabla de Impactos Críticos de Tajo",
+      "edged": "7.1 Tabla de Ataque de Filo",
+      "none": "Ninguna"
+    },
+    "rolls": {
+      "critfail": "Fracaso Crítico",
+      "failure": "Fracaso",
+      "partial": "Éxito Parcial",
+      "success": "Éxito",
+      "outstanding": "Éxito Crítico",
+      "resonance": "Magic Resonance Roll Required",
+      "d100roll": "Tirada D100",
+      "against": "Contra",
+      "table": "Tabla",
+      "roll": "Tirada",
+      "attack": {
+        "maxresult": "Max result possible",
+        "attack": "Ataque",
+        "critical": "Crítico",
+        "d100critroll": "Tir Crít D100"
+      },
+      "spell": {
+        "lore": "Esc Sort",
+        "sct": "Tabla ES",
+        "weave": "Urdimbre",
+        "spell": "Sortilegio",
+        "range": "Alcance",
+        "aoe": "Área de Efecto",
+        "duration": "Duración",
+        "save": "Salvación"
+      },
+      "skill": {
+        "art": "ART"
+      },
+      "saves": {
+        "fear": "Tirada Salvación Miedo"
+      }
+    },
+    "item": {
+      "name": "Nombre",
+      "notes": "Notas",
+      "quantity": "Cantidad",
+      "cost": "Coste",
+      "weight": "Peso",
+      "category": "Categoría",
+      "formula": "Fórmula",
+      "label": "Etiqueta",
+      "Defence": {
+        "placeholder": "Roll Purpose",
+        "dodge": "Estándar",
+        "block": "Abierta"
+      },
+      "Hit-Location": {
+        "damage": "Daño",
+        "damageResistance": "Resistencia al Daño",
+        "toCripple": "Incapacitar",
+        "crippled": "Está Incapacitado",
+        "toHitRoll18": "To Hit Roll (3d6)",
+        "toHitRoll6": "To Hit Roll (1d6)",
+        "toHitPenalty": "Penalización para Impactar",
+        "placeholder": "Wound Description",
+        "outstanding": "Éxito Crítico",
+        "success": "Éxito",
+        "partial": "Éxito Parcial",
+        "failure": "Fracaso",
+        "critical": "Fracaso Crítico",
+        "none": "Sin Tratar",
+        "na": "SA",
+        "minor": "Menor",
+        "serious": "Grave",
+        "crippling": "Incapacitante",
+        "bleeding": "Hemorragia por Asalto",
+        "penalty": "Penalización por Herida",
+        "severity": "Gravedad de la Herida",
+        "treatment": "Tratamiento Exitoso",
+        "lingering": "Herida Persistente",
+        "dlth": "Días para Curarse"
+      },
+      "Melee-Attack": {
+        "damage": "Tabla de Ataque",
+        "damageType": "Tabla de Crítico",
+        "weight": "Resultado Máximo",
+        "formula": "Bono Ofensivo",
+        "armourDiv": "Umbral de Pifia",
+        "minST": "Tipo de Tirada",
+        "reach": "Rango de Tirada Abierta",
+        "std": "Estándar",
+        "oe": "Abierta",
+        "oeh": "Abierta por Arriba",
+        "edged": "Filo",
+        "blunt": "Contundente",
+        "pierce": "Perforación",
+        "unarmed": "Desarmado/Presa",
+        "beasta": "Bestia",
+        "beastc": "Bestia",
+        "impact": "Aplastamiento",
+        "cut": "Tajo",
+        "grapple": "Presa",
+        "oel": "Abierta por Abajo"
+      },
+      "modifier": {
+        "inEffect": "En Efecto",
+        "attack": "Modifica las Tiradas de Ataque",
+        "skill": "Modifica las Tiradas de Habilidad",
+        "spell": "Modifica las Tiradas de Sortilegios",
+        "check": "Modifica las Tiradas de Chequeos",
+        "damage": "Modifica las Tiradas de Daño",
+        "primary": "Modifica los Atributos Principales",
+        "defence": "Modifica las Tiradas de Varios",
+        "reaction": "Modifica las Tiradas de Defensa",
+        "targets": "Atributos Específicos, Salvación, Habilidades o Ataques"
+      },
+      "pool": {
+        "abbr": "Abreviatura",
+        "inHeader": "En el Encabezado",
+        "state": "Estado Actual",
+        "value": "Valor Actual",
+        "min": "Valor Mínimo",
+        "max": "Valor Máximo"
+      },
+      "Primary-Attribute": {
+        "abbr": "Abreviatura",
+        "attr": "Atributo"
+      },
+      "Ranged-Attack": {
+        "range": "Alcance",
+        "missile": "Proyectiles",
+        "area": "Área",
+        "bolt": "Rayo",
+        "pierce": "Perforación",
+        "impact": "Aplastamiento",
+        "cut": "Tajo",
+        "fire": "Fuego",
+        "lightning": "Relámpago",
+        "frost": "Escarcha",
+        "dark": "Magia Oscura",
+        "damage": "Tabla de Ataque",
+        "damageType": "Tabla de Crítico",
+        "formula": "Bono Ofensivo",
+        "armourDiv": "Umbral de Pifia",
+        "minST": "Tipo de Tirada",
+        "rof": "Rango de Tirada Abierta",
+        "accuracy": "Resultado Máximo",
+        "std": "Estándar",
+        "oe": "Abierta",
+        "oeh": "Abierta por Arriba",
+        "oel": "Abierta por Abajo"
+      },
+      "rollable": {
+        "skill": "Habilidad",
+        "spell": "Sortilegio",
+        "check": "Defensa"
+      },
+      "trait": {
+        "advantage": "Revelation",
+        "disadvantage": "Passion",
+        "perk": "Kin Special Trait",
+        "quirk": "Background"
+      }
+    },
+    "actor": {
+      "name": "Nombre del Actor",
+      "posture": {
+        "abbr": "ACTD",
+        "name": "Actitud"
+      },
+      "gmod": {
+        "abbr": "Mod-G",
+        "name": "Modificador Global"
+      },
+      "bs": {
+        "abbr": "Inic",
+        "name": "Iniciativa"
+      },
+      "bm": {
+        "abbr": "Mov",
+        "name": "Movimiento",
+        "step": "A",
+        "stepT": "Andar",
+        "quarter": "PR",
+        "quarterT": "Paso Rápido",
+        "half": "Cor",
+        "halfT": "Correr",
+        "move": "Car",
+        "moveT": "Carrera",
+        "sprint": "CR",
+        "sprintT": "Carrera Rápida",
+        "dash": "ES",
+        "dashT": "Esprintar"
+      },
+      "pool": {
+        "statelabel": "Estado",
+        "valuelabel": "Valor",
+        "minlabel": "Min",
+        "maxlabel": "Max"
+      },
+      "equipment": {
+        "qty": "CantQty",
+        "wt": "P",
+        "units": "lb"
+      },
+      "Hit-Location": {
+        "dr": "DR",
+        "pen": "Pen",
+        "crip": "Crip",
+        "pri": "Pri Roll",
+        "sec": "Sec Roll"
+      },
+      "Melee-Attack": {
+        "armourDiv": "CritThreat",
+        "minST": "CritMult",
+        "reach": "Alcance"
+      },
+      "Ranged-Attack": {
+        "range": "Incr Alc"
+      }
+    },
+    "tabs": {
+      "vsd": "Skills & Spells",
+      "main": "Principal",
+      "combat": "Combate",
+      "checks": "Chequeos",
+      "skills": "Habilidades",
+      "spells": "Sortilegios",
+      "items": "All Items",
+      "scripts": {
+        "title": "Scripts",
+        "createT": "Script Processing",
+        "create": "Create Items from Array of JSON objects",
+        "exportT": "Item Exporting",
+        "export": "Export Items to the textarea"
+      }
+    },
+    "sections": {
+      "defencemods": "Modificadores de Defensa",
+      "attackmods": "Modificadores de Ataque",
+      "attacks": "Ataques",
+      "damagemods": "Modificadores de Daño",
+      "melee": "Ataques Cuerpo a Cuerpo",
+      "ranged": "Ataques a Distancia",
+      "primods": "Mod Atrib Principales",
+      "primaryattributes": "Atributos Principales",
+      "equipment": "Equipo",
+      "skills": "Habilidades",
+      "skillmods": "Modificadores de Habilidades",
+      "specificmods": "Modificadores a Objetos Específicos",
+      "techniques": "Técnicas",
+      "spells": "Sortilegios",
+      "spelllores": "Spell Lores",
+      "attackspells": "Attack and Area Spells",
+      "spellmods": "Modificadores a Sortilegios",
+      "specialrolls": "Special Rolls",
+      "specialmods": "Special Modifiers",
+      "rms": "Sortilegios de Rituales Mágicos",
+      "checkmods": "Modificadores de Chequeos",
+      "pools": "Reserva",
+      "modifiers": "Modificadores",
+      "variables": "Variables",
+      "containers": "Contenedores",
+      "hitlocations": "Heridas",
+      "defences": "Defensas y Tiradas de Salvación",
+      "checks": "Defensas",
+      "stats": "General Information",
+      "notes": "Notes and Equipment",
+      "traits": "Traits",
+      "advantage": "Revelations",
+      "disadvantages": "Pasiones",
+      "perks": "Habilidades de Linaje",
+      "quirks": "Trasfondo"
+    },
+    "postures": {
+      "standing": "De pie",
+      "crouching": "Agachado",
+      "kneeling": "Arrodillado",
+      "crawling": "Reptando",
+      "sitting": "Sentado",
+      "pronef": "Derribado (F)",
+      "proneb": "Derribado (B)"
+    },
+    "conditions": {
+      "shock": "Shock",
+      "reeling": "Reeling",
+      "tired": "Tired",
+      "collapse": "Collapse",
+      "unconscious": "Unconscious",
+      "minushp": "Negative HP",
+      "stunned": "Stunned",
+      "surprised": "Surprised",
+      "defeated": "Defeated",
+      "none": "",
+      "charging": "Charging",
+      "flanking": "Flanking Attack",
+      "full_half": "Full & Half Action",
+      "on_rear": "Rear Attack",
+      "crippled": "Crippled",
+      "smaller": "Small",
+      "larger": "Large"
+    }
+  },
+  "COMBAT": {
+    "chat_message": {
+      "critical_strike": "critical strike.",
+      "damage": "Has taken {hits} damage.",
+      "db": "EDB has been set to {db}.",
+      "does_not": "Does not",
+      "has": "Has",
+      "healing": "Has regained {hits} health.",
+      "hits": "hits",
+      "severity": "Has set Critical Severity to {crit}.",
+      "souldamage": "Has taken {hits} soul damage.",
+      "wound": "Has suffered a <b>{woundtitle}</b> critical strike{effectMsg}"
+    },
+    "dataset": {
+      "armour": {
+        "no_armor": "No Armor",
+        "light_armor": "Light Armor",
+        "medium_armor": "Medium Armor",
+        "heavy_armor": "Heavy Armor"
+      },
+      "crit": {
+        "superficial": "Superficial",
+        "light": "Light +10",
+        "moderate": "Moderate +20",
+        "grievous": "Grievous +30",
+        "lethal": "Lethal +50"
+      },
+      "sec": {
+        "moderate": "Superficial",
+        "grievous": "Light +10",
+        "lethal": "Moderate +20"
+      }
+    },
+    "effect": {
+      "soul_damage": ", and appears to have suffered <b>Soul Damage</b>.",
+      "stun": ", and appears to have been <b>Stunned</b>."
+    },
+    "Round": "Round",
+    "RoundNext": "Advance the Round and reset all declarations."
+  },
+  "SETTINGS": {
+    "InitRule": "Reglas de Iniciativa",
+    "InitHint": "Elegir qué método se usará para determinar quién actúa primero en combate.",
+    "InitDefault": "RaW B.324, Sort by highest BS, then DX, then RND",
+    "InitHouse": "Random within BS, Sort by highest BS + (DX + 2d100) / 1000",
+    "InitHouse2": "Shuffle Up and Down, Sort by highest BS + (1d750 / 1000) - .251",
+    "D20": "1d20 + Iniciativa + .00 a .99",
+    "OaTS": "3d6 + Iniciativa + .00 a .99",
+    "D100": "2d10 + Initiative",
+    "vsd": "Valor de Iniciativa Directo",
+    "AutoCriticalRolls": "Auto Crit Rolls (VsD & D100)",
+    "AutoCriticalRollsHint": "The system will automatically generate a critical roll with every attack roll.",
+    "ShowTestData": "Show Test Data",
+    "ShowTestDataHint": "Show Debug data in the console for testing.",
+    "ShowHooks": "Show Hooks",
+    "ShowHooksHint": "Show calls to Hooks in the console for testing.",
+    "UseFAHR": "Use Four Amigos House Rules",
+    "UseFAHRHint": "Use the Four Amigos House Rules for movement, strength, size, techniques, defences and so on."
+  },
+  "last": "last"
+}

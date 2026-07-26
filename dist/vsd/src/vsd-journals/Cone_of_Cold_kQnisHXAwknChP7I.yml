@@ -1,0 +1,61 @@
+name: Cone of Cold
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.j2BWTcmJW07GI8kW
+pages:
+  - name: Cone of Cold
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Eldritch Frost"> <td>Lore:</td> <td>Eldritch Frost </td>
+        </tr> <tr> <td>Weave:</td> <td>9th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Eldritch Frost" data-weave="9th"
+        data-spell="Cone of Cold" data-range="0 (self)" data-aoe="15 m x 3 m
+        cone" data-duration="-" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Cone of Cold </td> </tr> <tr> <td>Range:</td> <td>0
+        (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>15 m x 3 m cone
+        </td> </tr> <tr> <td>Duration:</td> <td>- </td> </tr> <tr>
+        <td>Save:</td> <td>N </td> </tr> </tbody> </table>
+    _id: oL7vndn5SahGng0h
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!kQnisHXAwknChP7I.oL7vndn5SahGng0h'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106199
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.j2BWTcmJW07GI8kW
+  duplicateSource: null
+_id: kQnisHXAwknChP7I
+sort: 0
+_key: '!journal!kQnisHXAwknChP7I'
+

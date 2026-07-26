@@ -1,0 +1,17 @@
+name: Spell Lores
+type: Item
+folder: null
+_id: TXJAMYe6EhhtsnKT
+sorting: a
+sort: 400000
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.42'
+  coreVersion: '11.307'
+  createdTime: 1689515390478
+  modifiedTime: 1691664561971
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+color: '#0060ff'
+_key: '!folders!TXJAMYe6EhhtsnKT'
+

@@ -1,0 +1,77 @@
+name: Dark Past
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.zdidhMQco4Dpw8tp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Dark Past
+      type: Trait
+      system:
+        notes: >-
+          You once served the Darkmaster or one of His lieutenants, but
+          something or someone made you see the errors of your ways. Now you're
+          one of His fiercest enemies.
+
+          - Minor (cost 1 BP):  Your familiarity with the ways of the Enemy
+          makes it easier for you to see through His ploys. You can cast the
+          Sense Darkness Spell once a day without spending MPs or making a Spell
+          Casting Roll.
+
+          - Major (cost 3 BPs):  You also gain a special +20 bonus to your
+          Wandering Rolls when you're travelling through Darklands or Blighted
+          Lands. Additionally, once per session, you may ask the GM to reveal a
+          weakness, vulnerability, or idiosyncrasy of a servant of the
+          Darkmaster you're facing. Your past misdeeds, however, are hard to
+          forget, and many still treat you with suspicion, or even outright
+          hostility.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Dark Past (Wandering)
+      type: Modifier
+      system:
+        notes: >-
+          You gain a special +20 bonus to your Wandering Rolls when you’re
+          travelling through Darklands or Blighted Lands.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '20'
+            category: skill
+            targets: Wandering
+        tempName: Dark Past (Wandering)
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485239
+  modifiedTime: 1697655935048
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.zdidhMQco4Dpw8tp
+  duplicateSource: null
+_id: m8YZx06Qyjy2GhAM
+sort: 0
+_key: '!items!m8YZx06Qyjy2GhAM'
+

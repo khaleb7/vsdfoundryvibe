@@ -1,0 +1,35 @@
+name: Small Ship
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.ESBZLvYBh6hYnkHJ
+system:
+  notes: |-
+    Capacity: 2t
+    Crew: 2
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '3'
+  weight: 0
+  availability: Uncommon
+  description: See Travelling by Water p141
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485322
+  modifiedTime: 1697655935012
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.ESBZLvYBh6hYnkHJ
+  duplicateSource: null
+_id: QvLgvGsVduIH9RaB
+sort: 0
+_key: '!items!QvLgvGsVduIH9RaB'
+

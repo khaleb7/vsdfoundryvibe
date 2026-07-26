@@ -1,0 +1,61 @@
+name: Detect Magic
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.uPDvUMtPyyKGO8iY
+pages:
+  - name: Detect Magic
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Detections"> <td>Lore:</td> <td>Detections </td> </tr> <tr>
+        <td>Weave:</td> <td>1st </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Detections" data-weave="1st"
+        data-spell="Detect Magic" data-range="0 (self)" data-aoe="15 m radius"
+        data-duration="C" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Detect Magic </td> </tr> <tr> <td>Range:</td> <td>0
+        (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>15 m radius </td>
+        </tr> <tr> <td>Duration:</td> <td>C </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: rnXcmVBI2rViJG4U
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!O35qVLUoGfW4tCxU.rnXcmVBI2rViJG4U'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+folder: sqXGFXQTBYcfJbAf
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106433
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.uPDvUMtPyyKGO8iY
+  duplicateSource: null
+_id: O35qVLUoGfW4tCxU
+sort: 0
+_key: '!journal!O35qVLUoGfW4tCxU'
+

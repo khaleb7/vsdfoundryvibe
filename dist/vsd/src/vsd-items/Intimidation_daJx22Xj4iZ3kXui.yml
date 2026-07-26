@@ -1,0 +1,32 @@
+name: Intimidation
+type: Rollable
+img: icons/svg/mystery-man.svg
+effects: []
+folder: xS9Ebif3Ng5jYWof
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-skills.Item.0fuGLgshbZBQ5GHX
+system:
+  notes: Combat or Roguery
+  chartype: CharacterVsD
+  group: skill
+  value: 0
+  formula: '0'
+  category: skill
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488274
+  modifiedTime: 1697655935036
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-skills.Item.0fuGLgshbZBQ5GHX
+  duplicateSource: null
+_id: daJx22Xj4iZ3kXui
+sort: 0
+_key: '!items!daJx22Xj4iZ3kXui'
+

@@ -1,0 +1,47 @@
+name: 'Brawl: Medium Kick (Impact)'
+type: Melee-Attack
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: |-
+    Hands: 1H
+    Length: Hand
+    Attack Table: Unarmed
+    Max: 120
+    Crit Table: Impact
+    Range: -
+    Qualities: -
+  chartype: CharacterVsD
+  group: Melee-Attack
+  weight: 120
+  damage: 7.4 Unarmed/Grapple Attack Table
+  damageType: 7.9 Impact Critical Strikes Table
+  secondary: None
+  armourDiv: 2
+  minST: oe
+  reach: 5
+  value: 0
+  formula: '@brawl'
+  sort: -1
+  moddedvalue: 0
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+  UiCXq4VUwQ5S2thO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: vsd
+  systemVersion: '12.285'
+  createdTime: 1744532265180
+  modifiedTime: 1744532265220
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+_id: hK7y0lrKlrynuYGM
+sort: 50000
+_key: '!items!hK7y0lrKlrynuYGM'
+

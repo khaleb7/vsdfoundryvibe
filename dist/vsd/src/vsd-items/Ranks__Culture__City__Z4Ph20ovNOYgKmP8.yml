@@ -1,0 +1,96 @@
+_id: Z4Ph20ovNOYgKmP8
+name: 'Ranks: Culture (City)'
+type: Variable
+img: icons/environment/people/group.webp
+effects: []
+folder: abW3nFLArLLC7tFt
+sort: 200000
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-culture-vocation-kin.Z4Ph20ovNOYgKmP8
+system:
+  notes: 'Wealth Level: +1'
+  chartype: CharacterVsD
+  group: Variable
+  value: 1
+  formula: ''
+  label: Armor
+  entries:
+    '0':
+      value: 1
+      formula: '1'
+      label: Armor
+    '1':
+      value: 1
+      formula: '1'
+      label: Blades
+    '2':
+      value: 1
+      formula: '1'
+      label: Ranged
+    '3':
+      value: 1
+      formula: '1'
+      label: Polearms
+    '4':
+      value: 1
+      formula: '1'
+      label: Brawl
+    '5':
+      value: 1
+      formula: '1'
+      label: Athletics
+    '6':
+      value: 1
+      formula: '1'
+      label: Acrobatics
+    '7':
+      value: 1
+      formula: '1'
+      label: Stealth
+    '8':
+      value: 1
+      formula: '1'
+      label: Locks & Traps
+    '9':
+      value: 1
+      formula: '1'
+      label: Perception
+    '10':
+      value: 2
+      formula: '2'
+      label: Deceive
+    '11':
+      value: 2
+      formula: '2'
+      label: Charisma
+    '12':
+      value: 4
+      formula: '4'
+      label: Cultures
+    '13':
+      value: 1
+      formula: '1'
+      label: Healer
+    '14':
+      value: 2
+      formula: '2'
+      label: Songs & Tales
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  cFMVT6Qd4M0fbk5F: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.62'
+  coreVersion: '12.328'
+  createdTime: 1676409485518
+  modifiedTime: 1703703324124
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: Compendium.vsd.vsd-item-culture-vocation-kin.Z4Ph20ovNOYgKmP8
+  duplicateSource: null
+_key: '!items!Z4Ph20ovNOYgKmP8'
+

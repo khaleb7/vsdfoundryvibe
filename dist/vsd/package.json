@@ -1,0 +1,17 @@
+{
+  "name": "vsd",
+  "version": "1.0.0",
+  "description": "Compiler for the Against the Darkmaster system",
+  "author": "James Huddleston",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bash": "^0.0.1",
+    "gulp": "^4.0.2",
+    "gulp-less": "^5.0.0"
+  },
+  "scripts": {
+    "pullYMLtoLDB": "bash ./lib/pullYMLtoLDB.sh",
+    "pushLDBtoYML": "bash ./lib/pushLDBtoYML.sh"
+  }
+}

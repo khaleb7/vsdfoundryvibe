@@ -1,0 +1,99 @@
+name: Eldritch Tide
+folder: Z9DrIJY8LTitWm9q
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.KWrEluakDZlTfgn1
+pages:
+  - name: Eldritch Tide
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spelllisttable"> <tbody> <tr class="tableheaderrow"> <td
+        class="weave">Weave</td> <td class="spell">Spell</td> <td
+        class="range">Range</td> <td class="areaofeffect">Area of Effect</td>
+        <td class="duration">Duration</td> <td class="save">Save</td> </tr> <tr
+        class="tablerow open-journal" data-table="Conjure Water"> <td
+        class="weave">1st</td> <td class="spell">Conjure Water</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">10 lt/lvl</td> <td
+        class="duration">P</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Fog"> <td
+        class="weave">2nd</td> <td class="spell">Fog</td> <td class="range">30
+        m</td> <td class="areaofeffect">3 m/lvl radius</td> <td
+        class="duration">P</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Waterwall"> <td
+        class="weave">3rd</td> <td class="spell">Waterwall</td> <td
+        class="range">30 m</td> <td class="areaofeffect">3 m × 3 m × 15 cm</td>
+        <td class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Water Blast"> <td
+        class="weave">4th</td> <td class="spell">Water Blast</td> <td
+        class="range">30 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Downpour"> <td
+        class="weave">5th</td> <td class="spell">Downpour</td> <td
+        class="range">30 m</td> <td class="areaofeffect">6 m radius</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Part Waters"> <td
+        class="weave">6th</td> <td class="spell">Part Waters</td> <td
+        class="range">3 m</td> <td class="areaofeffect">30 m³</td> <td
+        class="duration">C</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Rushing Wave"> <td
+        class="weave">7th</td> <td class="spell">Rushing Wave</td> <td
+        class="range">30 m</td> <td class="areaofeffect">3 m × 3 m × 6 m</td>
+        <td class="duration">-</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Whirpool"> <td
+        class="weave">8th</td> <td class="spell">Whirpool</td> <td
+        class="range">30 m</td> <td class="areaofeffect">6 m radius</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Control Waters"> <td
+        class="weave">9th</td> <td class="spell">Control Waters</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">10 m radius</td>
+        <td class="duration">C</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Tidal Wave"> <td
+        class="weave">10th</td> <td class="spell">Tidal Wave</td> <td
+        class="range">30 m</td> <td class="areaofeffect">10 m × 10 m × 10 m</td>
+        <td class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablefootrow"> <td class="stat" colspan="6">Vocations:
+        Wizard</td> </tr> <tr class="tablefootrow"> <td class="stat"
+        colspan="4">Stat Value: WIT</td> <td class="page" colspan="2">Page:
+        377</td> </tr> </tbody> </table>
+    _id: rLJieVeXN1bKAGGR
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!XIp0Ptn2G4FP4PGH.rLJieVeXN1bKAGGR'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519554648
+  modifiedTime: 1689519573070
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.KWrEluakDZlTfgn1
+  duplicateSource: null
+_id: XIp0Ptn2G4FP4PGH
+sort: 0
+_key: '!journal!XIp0Ptn2G4FP4PGH'
+

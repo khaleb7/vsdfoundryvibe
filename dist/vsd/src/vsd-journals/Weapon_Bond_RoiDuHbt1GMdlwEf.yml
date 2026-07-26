@@ -1,0 +1,61 @@
+name: Weapon Bond
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.S2N7jzaEZNIDxJf2
+pages:
+  - name: Weapon Bond
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Weapon Mastery"> <td>Lore:</td> <td>Weapon Mastery </td>
+        </tr> <tr> <td>Weave:</td> <td>1st </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Weapon Mastery" data-weave="1st"
+        data-spell="Weapon Bond" data-range="0 (touch)" data-aoe="1 target"
+        data-duration="P" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Weapon Bond </td> </tr> <tr> <td>Range:</td> <td>0
+        (touch) </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td>
+        </tr> <tr> <td>Duration:</td> <td>P </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: cWpIgdkLD11ePs2t
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!RoiDuHbt1GMdlwEf.cWpIgdkLD11ePs2t'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.S2N7jzaEZNIDxJf2
+  duplicateSource: null
+_id: RoiDuHbt1GMdlwEf
+sort: 0
+_key: '!journal!RoiDuHbt1GMdlwEf'
+

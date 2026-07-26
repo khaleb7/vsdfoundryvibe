@@ -1,0 +1,61 @@
+name: Herbal Remedy
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.IjbPja0E3tCZeVbD
+pages:
+  - name: Herbal Remedy
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Master of Plants"> <td>Lore:</td> <td>Master of Plants </td>
+        </tr> <tr> <td>Weave:</td> <td>3rd </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Master of Plants" data-weave="3rd"
+        data-spell="Herbal Remedy" data-range="0 (touch)" data-aoe="1 herb"
+        data-duration="P" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Herbal Remedy </td> </tr> <tr> <td>Range:</td> <td>0
+        (touch) </td> </tr> <tr> <td>Area of Effect:</td> <td>1 herb </td> </tr>
+        <tr> <td>Duration:</td> <td>P </td> </tr> <tr> <td>Save:</td> <td>N
+        </td> </tr> </tbody> </table>
+    _id: 5GW6diOr8M3m8Z1Y
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!iWwYVXwHVpIbBSaV.5GW6diOr8M3m8Z1Y'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.IjbPja0E3tCZeVbD
+  duplicateSource: null
+_id: iWwYVXwHVpIbBSaV
+sort: 0
+_key: '!journal!iWwYVXwHVpIbBSaV'
+

@@ -1,0 +1,67 @@
+name: Born to Saddle
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.OLpBhz9vngG1AibJ
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Born to Saddle
+      type: Trait
+      system:
+        notes: >-
+          Your riding ability is renowned among your people.
+
+          - Minor (cost 1 BP):  You gain a superior riding breed of your choice,
+          appropriate for your culture and kin, and a special +10 to your Riding
+          Rolls. Give your mount a name and record it on your character sheet.
+
+          - Major (cost 3 BPs):  You also gain the special ability to
+          automatically pass Riding Rolls during a mounted battle.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Born to Saddle
+      type: Modifier
+      system:
+        notes: You gain a special +10 to your Riding Rolls.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Ride
+        tempName: Born to Saddle
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485211
+  modifiedTime: 1697655934960
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.OLpBhz9vngG1AibJ
+  duplicateSource: null
+_id: 0NATQF69oM1uRKCC
+sort: 0
+_key: '!items!0NATQF69oM1uRKCC'
+

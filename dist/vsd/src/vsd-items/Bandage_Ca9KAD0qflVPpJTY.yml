@@ -1,0 +1,33 @@
+name: Bandage
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.X4ISysoFvlY3KyrA
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '1'
+  weight: 0
+  availability: Common
+  description: Used to stop Bleeding (single use)
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485362
+  modifiedTime: 1697655934985
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.X4ISysoFvlY3KyrA
+  duplicateSource: null
+_id: Ca9KAD0qflVPpJTY
+sort: 0
+_key: '!items!Ca9KAD0qflVPpJTY'
+

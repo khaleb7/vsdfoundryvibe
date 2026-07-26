@@ -1,0 +1,446 @@
+name: 7.10 Cut Critical Strikes Table
+folder: ENv8BHzgQa0yI9Wl
+flags:
+  exportSource:
+    world: vsd-vsd-test
+    system: vsd
+    coreVersion: 0.7.9
+    systemVersion: '0.34'
+  core:
+    sourceId: Compendium.vsd.vsd-tables.JournalEntry.sb8c1ldnD8Dy1nWW
+pages:
+  - name: 7.10 Cut Critical Strikes Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="criticalstrikestable">
+
+        <tbody>
+
+        <tr class="tableheaderrow">
+
+        <td class="roll">Roll</td>
+
+        <td class="resultdescription">Result</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="1-5" data-result="Weak strike doesn't
+        cut through. No extra damage." data-woundtitle="null"
+        data-condition="null" data-hits1="0" data-bleed1="0" data-action1="0"
+        data-effect1="null" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">1-5</td>
+
+        <td class="resultdescription">Weak strike doesn't cut through. No extra
+        damage.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="06-20" data-result="Minor calf wound.
+        1 Bleed." data-woundtitle="Cut to Calf" data-condition="null"
+        data-hits1="0" data-bleed1="1" data-action1="0" data-effect1="null"
+        data-hits2="0" data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">06-20</td>
+
+        <td class="resultdescription">Minor calf wound. 1 Bleed.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="21-35" data-result="Graze to
+        shoulder. +2 Damage and 1 Bleed." data-woundtitle="Cut to Shoulder"
+        data-condition="null" data-hits1="2" data-bleed1="1" data-action1="0"
+        data-effect1="null" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">21-35</td>
+
+        <td class="resultdescription">Graze to shoulder. +2 Damage and 1
+        Bleed.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="36-50" data-result="Minor chest
+        wound. +3 Damage, 1 Bleed, -5 to all actions." data-woundtitle="Cut to
+        Chest" data-condition="null" data-hits1="3" data-bleed1="1"
+        data-action1="5" data-effect1="null" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="null">
+
+        <td class="roll">36-50</td>
+
+        <td class="resultdescription">Minor chest wound. +3 Damage, 1 Bleed, -5
+        to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="51-65" data-result="Minor forearm
+        cut. +4 Damage, 1 Bleed, and Stunned." data-woundtitle="Cut to Forearm"
+        data-condition="null" data-hits1="4" data-bleed1="1" data-action1="0"
+        data-effect1="stun" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">51-65</td>
+
+        <td class="resultdescription">Minor forearm cut. +4 Damage, 1 Bleed, and
+        Stunned.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="66-79" data-result="Slice through
+        side. If the target is wearing armor: +5 Damage, Stunned. If the target
+        is unarmored: +10 Damage, 2 Bleed, Stunned, and -10 to all actions."
+        data-woundtitle="Cut to Side" data-condition="armor" data-hits1="5"
+        data-bleed1="0" data-action1="0" data-effect1="stun" data-hits2="10"
+        data-bleed2="2" data-action2="10" data-effect2="stun">
+
+        <td class="roll">66-79</td>
+
+        <td class="resultdescription">Slice through side. If the target is
+        wearing armor: +5 Damage, Stunned. If the target is unarmored: +10
+        Damage, 2 Bleed, Stunned, and -10 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="80-89" data-result="Deep cut to
+        thigh. If the target is wearing leg armor: +3 Damage. If not, +6 Damage,
+        3 Bleed, Stunned, and -20 to all actions." data-woundtitle="Cut to
+        Thigh" data-condition="leg armor" data-hits1="3" data-bleed1="0"
+        data-action1="0" data-effect1="null" data-hits2="6" data-bleed2="3"
+        data-action2="20" data-effect2="stun">
+
+        <td class="roll">80-89</td>
+
+        <td class="resultdescription">Deep cut to thigh. If the target is
+        wearing leg armor: +3 Damage. If not, +6 Damage, 3 Bleed, Stunned, and
+        -20 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="90-99" data-result="Slash through
+        abdomen, +10 Damage and target is Stunned. If target is wearing armor, 3
+        Bleed. If not, 6 Bleed and -30 to all actions." data-woundtitle="Cut to
+        Abdomen" data-condition="abdomen armor" data-hits1="10" data-bleed1="3"
+        data-action1="0" data-effect1="stun" data-hits2="10" data-bleed2="6"
+        data-action2="30" data-effect2="stun">
+
+        <td class="roll">90-99</td>
+
+        <td class="resultdescription">Slash through abdomen, +10 Damage and
+        target is Stunned. If target is wearing armor, 3 Bleed. If not, 6 Bleed
+        and -30 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-superficial" data-type="critical"
+        data-table="7.10 Cut Critical Strikes Table" data-roll="100"
+        data-result="Slash to the side of the head. If target is not wearing
+        full metal helm, ear is cut off: +10 Damage, 3 Bleed, Stunned, and -20
+        to all actions. If the target is wearing full helm, +4 Damage and
+        Stunned." data-woundtitle="Cut to Head" data-condition="full metal helm"
+        data-hits1="4" data-bleed1="0" data-action1="0" data-effect1="stun"
+        data-hits2="10" data-bleed2="3" data-action2="20" data-effect2="crippled
+        ear">
+
+        <td class="roll">100</td>
+
+        <td class="resultdescription">Slash to the side of the head. If target
+        is not wearing full metal helm, ear is cut off: +10 Damage, 3 Bleed,
+        Stunned, and -20 to all actions. If the target is wearing full helm, +4
+        Damage and Stunned.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="101-106" data-result="Swing to the
+        hand (50R/50L). If the shield is struck: +4 Damage, Stunned, shield
+        unusable. If not: 1d5 fingers severed; 1 Bleed, -10 to all actions for
+        each finger severed, and Stunned." data-woundtitle="Cut to Hand"
+        data-condition="shield" data-hits1="4" data-bleed1="0" data-action1="0"
+        data-effect1="stun" data-hits2="0" data-bleed2="5" data-action2="50"
+        data-effect2="stun, crippled fingers">
+
+        <td class="roll">101-106</td>
+
+        <td class="resultdescription">Swing to the hand (50R/50L). If the shield
+        is struck: +4 Damage, Stunned, shield unusable. If not: 1d5 fingers
+        severed; 1 Bleed, -10 to all actions for each finger severed, and
+        Stunned.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="107-109" data-result="Deep cut to the
+        inside of the leg. Severs tendon and muscles: +12 Damage, Stunned, 6
+        Bleed, and -40 to all actions." data-woundtitle="Cut to Leg"
+        data-condition="null" data-hits1="12" data-bleed1="6" data-action1="40"
+        data-effect1="crippled tendons, crippled muscles" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">107-109</td>
+
+        <td class="resultdescription">Deep cut to the inside of the leg. Severs
+        tendon and muscles: +12 Damage, Stunned, 6 Bleed, and -40 to all
+        actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-light" data-type="critical"
+        data-table="7.10 Cut Critical Strikes Table" data-roll="110"
+        data-result="Deep cut to the lower abdomen. If the target is wearing
+        armor: +10 Damage, Stunned, 6 Bleed, and -30 to all actions. If the
+        target is unarmored, they’re gutted: dies in 12 inactive Rounds."
+        data-woundtitle="Cut to Abdomen" data-condition="armor" data-hits1="10"
+        data-bleed1="6" data-action1="30" data-effect1="stun" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="incapacitated, death[12],
+        crippled abdomen">
+
+        <td class="roll">110</td>
+
+        <td class="resultdescription">Deep cut to the lower abdomen. If the
+        target is wearing armor: +10 Damage, Stunned, 6 Bleed, and -30 to all
+        actions. If the target is unarmored, they’re gutted: dies in 12 inactive
+        Rounds.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="111-116" data-result="Powerful strike
+        to the chest. Target is Prone, Stunned, takes +12 Damage, and -30 to all
+        actions. If the target is not wearing metal armor: 10 Bleed."
+        data-woundtitle="Cut to Chest" data-condition="metal chest armor"
+        data-hits1="12" data-bleed1="0" data-action1="30" data-effect1="stun,
+        prone" data-hits2="12" data-bleed2="10" data-action2="30"
+        data-effect2="stun, prone">
+
+        <td class="roll">111-116</td>
+
+        <td class="resultdescription">Powerful strike to the chest. Target is
+        Prone, Stunned, takes +12 Damage, and -30 to all actions. If the target
+        is not wearing metal armor: 10 Bleed.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="117-119" data-result="Vicious strike
+        to the weapon arm forearm. Target is disarmed, Stunned, and takes +10
+        Damage. If target is not wearing arm armor: arm severed, 10 bleed and
+        -40 to all actions." data-woundtitle="Cut to Forearm"
+        data-condition="arm armor" data-hits1="10" data-bleed1="0"
+        data-action1="0" data-effect1="stun, drop weapon" data-hits2="10"
+        data-bleed2="10" data-action2="40" data-effect2="crippled arm, stun,
+        drop weapon">
+
+        <td class="roll">117-119</td>
+
+        <td class="resultdescription">Vicious strike to the weapon arm forearm.
+        Target is disarmed, Stunned, and takes +10 Damage. If target is not
+        wearing arm armor: arm severed, 10 bleed and -40 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-moderate" data-type="critical"
+        data-table="7.10 Cut Critical Strikes Table" data-roll="120"
+        data-result="Strike to the neck. If the target is wearing neck
+        protection, it is destroyed and the target takes +10 Damage, Stunned,
+        and 6 Bleed. If not: throat cut open, target dies in 8 Rounds while
+        Stunned." data-woundtitle="Cut to Neck" data-condition="neck armor"
+        data-hits1="10" data-bleed1="6" data-action1="0" data-effect1="stun"
+        data-hits2="0" data-bleed2="0" data-action2="0" data-effect2="stun[8],
+        death[8], crippled throat">
+
+        <td class="roll">120</td>
+
+        <td class="resultdescription">Strike to the neck. If the target is
+        wearing neck protection, it is destroyed and the target takes +10
+        Damage, Stunned, and 6 Bleed. If not: throat cut open, target dies in 8
+        Rounds while Stunned.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="121-126" data-result="Swing to the
+        shoulder. Deep cut. If the target has rigid armor: +10 Damage, Stunned,
+        4 Bleed, and -30 to all actions. If not, arm almost severed: +15 Damage,
+        Stunned and 10 Bleed; arm useless and -50 to all actions."
+        data-woundtitle="Cut to Shoulder" data-condition="rigid armor"
+        data-hits1="10" data-bleed1="4" data-action1="30" data-effect1="stun"
+        data-hits2="15" data-bleed2="10" data-action2="50" data-effect2="stun,
+        crippled arm">
+
+        <td class="roll">121-126</td>
+
+        <td class="resultdescription">Swing to the shoulder. Deep cut. If the
+        target has rigid armor: +10 Damage, Stunned, 4 Bleed, and -30 to all
+        actions. If not, arm almost severed: +15 Damage, Stunned and 10 Bleed;
+        arm useless and -50 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="127-129" data-result="Strike severs
+        target's foot. Prone, Stunned, 8 Bleed, and -50 to all actions."
+        data-woundtitle="Foot Severed" data-condition="null" data-hits1="0"
+        data-bleed1="8" data-action1="50" data-effect1="stun, prone, crippled
+        foot" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">127-129</td>
+
+        <td class="resultdescription">Strike severs target's foot. Prone,
+        Stunned, 8 Bleed, and -50 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-grievous" data-type="critical"
+        data-table="7.10 Cut Critical Strikes Table" data-roll="130"
+        data-result="Strike to the face. If the target is wearing helm: helm,
+        nose, and teeth destroyed, +12 Damage, Stunned, 4 Bleed, -40 to all
+        actions, and permanent scar (-10 BEA). If the target has no helm: face
+        split in half, instant death." data-woundtitle="Cut to Face"
+        data-condition="helm" data-hits1="12" data-bleed1="4" data-action1="40"
+        data-effect1="crippled nose, crippled teeth" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="death, crippled face">
+
+        <td class="roll">130</td>
+
+        <td class="resultdescription">Strike to the face. If the target is
+        wearing helm: helm, nose, and teeth destroyed, +12 Damage, Stunned, 4
+        Bleed, -40 to all actions, and permanent scar (-10 BEA). If the target
+        has no helm: face split in half, instant death.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="131-136" data-result="Powerful strike
+        severs weapon arm above the elbow, +12 Damage, Stunned, and 12 Bleed.
+        Arm useless and -40 to all other activities." data-woundtitle="Arm
+        Severed" data-condition="null" data-hits1="12" data-bleed1="12"
+        data-action1="40" data-effect1="stun, crippled arm" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">131-136</td>
+
+        <td class="resultdescription">Powerful strike severs weapon arm above
+        the elbow, +12 Damage, Stunned, and 12 Bleed. Arm useless and -40 to all
+        other activities.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="137-140" data-result="Strike severs
+        leg above the knee: +15 Damage, Prone, Stunned, and 15 Bleed. Cannot
+        walk and -60 to all other actions." data-woundtitle="Leg Severed"
+        data-condition="null" data-hits1="15" data-bleed1="15" data-action1="60"
+        data-effect1="stun, prone, crippled leg" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="null">
+
+        <td class="roll">137-140</td>
+
+        <td class="resultdescription">Strike severs leg above the knee: +15
+        Damage, Prone, Stunned, and 15 Bleed. Cannot walk and -60 to all other
+        actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="141-146" data-result="Powerful slash
+        across the chest. If the target is wearing metal armor: +12 Damage,
+        Stunned, 8 Bleed, and -40 to all actions. If not: lungs destroyed and
+        immediate heart failure - drops and dies in 6 Rounds."
+        data-woundtitle="Slash to Chest" data-condition="metal chest armor"
+        data-hits1="12" data-bleed1="8" data-action1="40" data-effect1="stun"
+        data-hits2="0" data-bleed2="0" data-action2="0" data-effect2="prone,
+        incapacitated, death[6], crippled lungs">
+
+        <td class="roll">141-146</td>
+
+        <td class="resultdescription">Powerful slash across the chest. If the
+        target is wearing metal armor: +12 Damage, Stunned, 8 Bleed, and -40 to
+        all actions. If not: lungs destroyed and immediate heart failure - drops
+        and dies in 6 Rounds.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.10 Cut
+        Critical Strikes Table" data-roll="147-149" data-result="Strike through
+        the side severs target's spine. Drops immediately and is paralyzed from
+        the chest down and -80 to all other actions." data-woundtitle="Cut to
+        Spine" data-condition="null" data-hits1="0" data-bleed1="0"
+        data-action1="80" data-effect1="prone, crippled spine" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">147-149</td>
+
+        <td class="resultdescription">Strike through the side severs target's
+        spine. Drops immediately and is paralyzed from the chest down and -80 to
+        all other actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-lethal" data-type="critical"
+        data-table="7.10 Cut Critical Strikes Table" data-roll="150"
+        data-result="Target is beheaded. Instant death."
+        data-woundtitle="Beheaded" data-condition="null" data-hits1="0"
+        data-bleed1="0" data-action1="0" data-effect1="death" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">150</td>
+
+        <td class="resultdescription">Target is beheaded. Instant death.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+    _id: xebMRBjqjwX3CPbV
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!bPe65xohkrpyqGON.xebMRBjqjwX3CPbV'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519505854
+  modifiedTime: 1689519566104
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-tables.JournalEntry.sb8c1ldnD8Dy1nWW
+  duplicateSource: null
+_id: bPe65xohkrpyqGON
+sort: 0
+_key: '!journal!bPe65xohkrpyqGON'
+

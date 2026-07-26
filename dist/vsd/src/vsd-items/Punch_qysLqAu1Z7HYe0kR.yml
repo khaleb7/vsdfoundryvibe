@@ -1,0 +1,252 @@
+name: Punch
+type: Container
+img: systems/vsd/icons/items/weapons/punch.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.zlfghUC3Hq3I0vn5
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Brawl: Colossal Punch (Impact)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 175
+          Crit Table: Impact
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 175
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 1
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.EIpywPFvO6fhkx3x
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531210363
+        modifiedTime: 1744531355068
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: qnMxP08Lss9hkTA8
+      effects: []
+      sort: 0
+      flags: {}
+    - name: 'Brawl: Huge Punch (Impact)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 150
+          Crit Table: Impact
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 150
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 1
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.EIpywPFvO6fhkx3x
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531208679
+        modifiedTime: 1744531368941
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: GbDpzvXNrEgGuSUA
+      effects: []
+      sort: 0
+      flags: {}
+    - name: 'Brawl: Large Punch (Impact)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 130
+          Crit Table: Impact
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 130
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 1
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.EIpywPFvO6fhkx3x
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531207086
+        modifiedTime: 1744531380682
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: j3F2R3j18bZa4VdP
+      effects: []
+      sort: 0
+      flags: {}
+    - name: 'Brawl: Medium Punch (Impact)'
+      type: Melee-Attack
+      flags:
+        core: {}
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: null
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 110
+          Crit Table: Impact
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 110
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 1
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.EIpywPFvO6fhkx3x
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744530749393
+        modifiedTime: 1744531409845
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: Mgg87nUr40hG8ELU
+      sort: 9600000
+    - name: 'Brawl: Small Punch (Impact)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 80
+          Crit Table: Impact
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 80
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        secondary: None
+        armourDiv: 1
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.EIpywPFvO6fhkx3x
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531205379
+        modifiedTime: 1744531419477
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: ZmFEzrpGbikBiosf
+      effects: []
+      sort: 0
+      flags: {}
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '12.285'
+  coreVersion: '12.331'
+  createdTime: 1676409490254
+  modifiedTime: 1744531490090
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.zlfghUC3Hq3I0vn5
+  duplicateSource: null
+_id: qysLqAu1Z7HYe0kR
+sort: 0
+_key: '!items!qysLqAu1Z7HYe0kR'
+

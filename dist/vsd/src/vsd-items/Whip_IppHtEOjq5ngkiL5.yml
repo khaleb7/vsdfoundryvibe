@@ -1,0 +1,115 @@
+name: Whip
+type: Container
+img: systems/vsd/icons/items/weapons/whip.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.2AUym9fGMpsHs7VI
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Reach Weapon (Whip)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      system:
+        notes: note
+        chartype: CharacterVsD
+        group: Modifier
+        sort: -1
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -20
+            formula: '-20'
+            category: attack
+            targets: 'Blunt: Whip'
+      folder: null
+      permission:
+        default: 0
+        OxYGvqLVXSV3pvbk: 3
+    - name: 'Blunt: Whip (Cut)'
+      type: Melee-Attack
+      img: systems/vsd/icons/items/weapons/whip.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Longest
+          Attack Table: Blunt
+          Max: 130
+          Crit Table: Cut
+          Range: -
+          Qualities: Heavy, Reach, Martial
+        chartype: CharacterVsD
+        group: Melee-Attack
+        sort: -1
+        value: 0
+        formula: '@blunt'
+        damage: 7.2 Blunt Attack Table
+        damageType: 7.10 Cut Critical Strikes Table
+        armourDiv: 8
+        minST: oe
+        weight: 130
+        reach: 5
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+    - name: 'Blunt: Whip (Grapple)'
+      type: Melee-Attack
+      img: systems/vsd/icons/items/weapons/whip.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Longest
+          Attack Table: Blunt
+          Max: 130
+          Crit Table: Grapple
+          Range: -
+          Qualities: Heavy, Reach, Martial
+        chartype: CharacterVsD
+        group: Melee-Attack
+        sort: -1
+        value: 0
+        formula: '@blunt'
+        damage: 7.2 Blunt Attack Table
+        damageType: 7.12 Grapple Critical Strikes Table
+        armourDiv: 8
+        minST: oe
+        weight: 130
+        reach: 5
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490213
+  modifiedTime: 1697655934995
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.2AUym9fGMpsHs7VI
+  duplicateSource: null
+_id: IppHtEOjq5ngkiL5
+sort: 0
+_key: '!items!IppHtEOjq5ngkiL5'
+

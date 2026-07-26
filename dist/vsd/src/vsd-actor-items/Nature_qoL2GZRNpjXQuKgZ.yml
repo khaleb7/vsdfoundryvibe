@@ -1,0 +1,32 @@
+name: Nature
+type: Trait
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+flags:
+  core: {}
+system:
+  notes: Describe your Nature
+  chartype: CharacterVsD
+  group: disadvantage
+  applied: false
+  category: disadvantage
+  sort: -1
+ownership:
+  default: 0
+  m77Jvy9zPLGirbxo: 3
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689520624839
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: qoL2GZRNpjXQuKgZ
+sort: 2100000
+_key: '!items!qoL2GZRNpjXQuKgZ'
+

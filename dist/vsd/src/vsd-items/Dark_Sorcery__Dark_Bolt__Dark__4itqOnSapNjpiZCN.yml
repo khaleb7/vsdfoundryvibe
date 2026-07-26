@@ -1,0 +1,53 @@
+name: 'Dark Sorcery: Dark Bolt (Dark)'
+type: Ranged-Attack
+img: systems/vsd/icons/items/attackspells/arcing-bolt.svg
+effects: []
+folder: huRuIB2kU4rQcUnb
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-spell-attacks.Item.9YxE7PE6a6kVbncJ
+  cf:
+    id: null
+    color: '#000000'
+system:
+  notes: |-
+    Weave: 6th
+    Area of Effect: 1 target
+    Duration: -
+    Save: N
+    Attack Table: Bolt
+    Max: 150
+    Crit Table: Dark
+    Range: 30 m
+  chartype: CharacterVsD
+  group: Ranged-Attack
+  damage: 7.6 Bolt Spells Attack Table
+  damageType: 7.16 Dark Magic Critical Strikes
+  secondary: none
+  armourDiv: 10
+  minST: oe
+  accuracy: 150
+  range: 30 m
+  rof: 5
+  shots: ''
+  bulk: 0
+  recoil: ''
+  value: 0
+  formula: '@dark_sorcery'
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490147
+  modifiedTime: 1697655934971
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-spell-attacks.Item.9YxE7PE6a6kVbncJ
+  duplicateSource: null
+_id: 4itqOnSapNjpiZCN
+sort: 0
+_key: '!items!4itqOnSapNjpiZCN'
+

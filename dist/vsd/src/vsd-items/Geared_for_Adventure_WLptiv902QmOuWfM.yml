@@ -1,0 +1,51 @@
+name: Geared for Adventure
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.RnTqo9wimzvl7brI
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Geared for Adventure
+      type: Trait
+      system:
+        notes: >-
+          Your companions may joke about the quantity of gear you manage to
+          stuff in your backpack, but you know that being prepared always pays
+          well during an adventure.
+
+          - Minor (cost 1 BP):  You can add two items with a Fare of 2 or less
+          (see the Equipment section in the Appendix) or one Fare 3 item to your
+          starting equipment.
+
+          - Major (cost 3 BPs):  Include something about always being well
+          prepared in your Nature. Additionally, once per session you can spend
+          one point of Drive and a Full Action to rummage through your
+          belongings and pull out a Fare 1 or less piece of equipment that would
+          be useful in your current situation, even if said item isn't written
+          on your character sheet.
+        chartype: CharacterVsD
+        category: quirk
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485212
+  modifiedTime: 1697655935020
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.RnTqo9wimzvl7brI
+  duplicateSource: null
+_id: WLptiv902QmOuWfM
+sort: 0
+_key: '!items!WLptiv902QmOuWfM'
+

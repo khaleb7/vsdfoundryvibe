@@ -1,0 +1,63 @@
+name: Leather Armor
+type: Modifier
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Bxxo1AxxBitNbUjx
+flags:
+  core: {}
+system:
+  notes: |-
+    Fare: 1
+    Type: Light
+    Protects: Torso, Arms, Legs
+    Qualities: -
+    Max SWI: +30
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: false
+  attack: true
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '0'
+      category: reaction
+      targets: ''
+      moddedvalue: 0
+    - value: -20
+      formula: '-20'
+      category: primary
+      targets: ArmPen
+      moddedvalue: -20
+    - value: -5
+      formula: '-5'
+      category: primary
+      targets: CMBPen
+      moddedvalue: -5
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  8VtokmkrTaxXr4Uk: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485128
+  modifiedTime: 1697655935835
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: 5T2aqocsHNssYmuI
+sort: 300000
+_key: '!items!5T2aqocsHNssYmuI'
+

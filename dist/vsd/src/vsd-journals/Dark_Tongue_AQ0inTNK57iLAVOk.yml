@@ -1,0 +1,61 @@
+name: Dark Tongue
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.8PEGksVEPfJLngCY
+pages:
+  - name: Dark Tongue
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Dark Sorcery"> <td>Lore:</td> <td>Dark Sorcery </td> </tr>
+        <tr> <td>Weave:</td> <td>2nd </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Dark Sorcery" data-weave="2nd"
+        data-spell="Dark Tongue" data-range="0 (self)" data-aoe="Caster"
+        data-duration="1 min/lvl" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Dark Tongue </td> </tr> <tr> <td>Range:</td> <td>0
+        (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>Caster </td> </tr>
+        <tr> <td>Duration:</td> <td>1 min/lvl </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: oy8GGffzqOBfcv88
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!AQ0inTNK57iLAVOk.oy8GGffzqOBfcv88'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105636
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.8PEGksVEPfJLngCY
+  duplicateSource: null
+_id: AQ0inTNK57iLAVOk
+sort: 0
+_key: '!journal!AQ0inTNK57iLAVOk'
+

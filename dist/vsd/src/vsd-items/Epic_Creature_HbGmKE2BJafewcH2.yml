@@ -1,0 +1,29 @@
+name: Epic Creature
+type: Trait
+system:
+  notes: Reduce all critical strikes inflicted upon them by 2 steps.
+  chartype: CharacterVsD
+  group: disadvantage
+  applied: false
+  category: advantage
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: lS2E3Pe2AclQDTmR
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1667232598287
+  modifiedTime: 1697655934994
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: HbGmKE2BJafewcH2
+sort: 600000
+_key: '!items!HbGmKE2BJafewcH2'
+

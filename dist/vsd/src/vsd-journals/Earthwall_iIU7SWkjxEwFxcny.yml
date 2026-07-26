@@ -1,0 +1,61 @@
+name: Earthwall
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.DKtTT8hXsuN09DMx
+pages:
+  - name: Earthwall
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Earth Mould"> <td>Lore:</td> <td>Earth Mould </td> </tr>
+        <tr> <td>Weave:</td> <td>4th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Earth Mould" data-weave="4th"
+        data-spell="Earthwall" data-range="30 m" data-aoe="3 m × 3 m × 15 cm"
+        data-duration="1 rnd/lvl" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Earthwall </td> </tr> <tr> <td>Range:</td> <td>30 m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>3 m × 3 m × 15 cm </td>
+        </tr> <tr> <td>Duration:</td> <td>1 rnd/lvl </td> </tr> <tr>
+        <td>Save:</td> <td>N </td> </tr> </tbody> </table>
+    _id: 7HboYISqVfoN9XET
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!iIU7SWkjxEwFxcny.7HboYISqVfoN9XET'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105636
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.DKtTT8hXsuN09DMx
+  duplicateSource: null
+_id: iIU7SWkjxEwFxcny
+sort: 0
+_key: '!journal!iIU7SWkjxEwFxcny'
+

@@ -1,0 +1,50 @@
+name: Encumbrance
+type: Variable
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: lS2E3Pe2AclQDTmR
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-dropbox.Item.Vk0Bsa3yZXG1fRzx
+system:
+  notes: note
+  chartype: CharacterVsD
+  group: Variable
+  value: 1
+  formula: '1'
+  label: Unencumbered
+  entries:
+    - value: 1
+      formula: '1'
+      label: Unencumbered
+    - value: 1
+      formula: '1'
+      label: Lightly Encumbered
+    - value: 1.5
+      formula: '1.5'
+      label: Encumbered
+    - value: 2
+      formula: '2'
+      label: Heavily Encumbered
+    - value: 4
+      formula: '4'
+      label: Over Encumbered
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488529
+  modifiedTime: 1697655935950
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-dropbox.Item.Vk0Bsa3yZXG1fRzx
+  duplicateSource: null
+_id: 6BXVn7nATqGG5wLO
+sort: 800000
+_key: '!items!6BXVn7nATqGG5wLO'
+

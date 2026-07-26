@@ -1,0 +1,62 @@
+name: Commander's Authority
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.7HduOuzoFrFK6A5Q
+pages:
+  - name: Commander's Authority
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Commanding Presence"> <td>Lore:</td> <td>Commanding Presence
+        </td> </tr> <tr> <td>Weave:</td> <td>1st </td> </tr> <tr
+        class="rollable" data-type="spell" data-table="Commanding Presence"
+        data-weave="1st" data-spell="Commander's Authority" data-range="0
+        (self)" data-aoe="Caster" data-duration="1 min/lvl" data-save="N">
+        <td>Spell:</td> <td class="spellname">Commander's Authority </td> </tr>
+        <tr> <td>Range:</td> <td>0 (self) </td> </tr> <tr> <td>Area of
+        Effect:</td> <td>Caster </td> </tr> <tr> <td>Duration:</td> <td>1
+        min/lvl </td> </tr> <tr> <td>Save:</td> <td>N </td> </tr> </tbody>
+        </table>
+    _id: 3Ai3WDkMJ7yFTSTa
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!l5VRL5pQC3p72J8J.3Ai3WDkMJ7yFTSTa'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105636
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.7HduOuzoFrFK6A5Q
+  duplicateSource: null
+_id: l5VRL5pQC3p72J8J
+sort: 0
+_key: '!journal!l5VRL5pQC3p72J8J'
+

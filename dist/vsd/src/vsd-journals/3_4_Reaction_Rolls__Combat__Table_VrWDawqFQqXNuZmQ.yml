@@ -1,0 +1,144 @@
+name: 3.4 Reaction Rolls (Combat) Table
+flags:
+  exportSource:
+    world: vsd-vsd-test
+    system: vsd
+    coreVersion: 0.7.9
+    systemVersion: '0.45'
+  core:
+    sourceId: Compendium.vsd.vsd-misc-tables.JournalEntry.5eE4rKUEzB0ymRE1
+pages:
+  - name: 3.4 Reaction Rolls (Combat) Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="reactionrollscombattable">
+
+        <tbody>
+
+        <tr class="tableheaderrow">
+
+        <td class="roll">Roll</td>
+
+        <td class="outcome">Disposition</td>
+
+        <td class="resultdescription">Combat</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="reactionrolls" data-table="3.4
+        Reaction Rolls (Combat) Table" data-roll="0 or less" data-result="Very
+        Unfavourable">
+
+        <td class="roll">0 or less</td>
+
+        <td class="outcome">Very Unfavourable</td>
+
+        <td class="resultdescription">The NPCs are out for the heroes' blood. If
+        they're already engaged in combat, they'll continue to fight viciously
+        even if they're outnumbered or badly wounded. Otherwise, they'll
+        immediately attack the PCs.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="reactionrolls" data-table="3.4
+        Reaction Rolls (Combat) Table" data-roll="01-25"
+        data-result="Unfavourable">
+
+        <td class="roll">01-25</td>
+
+        <td class="outcome">Unfavourable</td>
+
+        <td class="resultdescription">The NPCs are confident in their abilities.
+        They'll keep aggressively fighting the heroes if they're already engaged
+        in combat and will probably attack them even if they aren't.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="reactionrolls" data-table="3.4
+        Reaction Rolls (Combat) Table" data-roll="26-75" data-result="Neutral">
+
+        <td class="roll">26-75</td>
+
+        <td class="outcome">Neutral</td>
+
+        <td class="resultdescription">The NPCs are still gauging their
+        opponents. They'll keep fighting if engaged in combat (possibly
+        selecting the least threatening target in sight) but won't otherwise
+        attack unless provoked.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="reactionrolls" data-table="3.4
+        Reaction Rolls (Combat) Table" data-roll="76-100"
+        data-result="Favourable">
+
+        <td class="roll">76-100</td>
+
+        <td class="outcome">Favourable</td>
+
+        <td class="resultdescription">The NPCs' confidence is shaken and they'll
+        start fighting more defensively. They'll carefully retreat if allowed to
+        and will consider surrender if offered fair conditions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="reactionrolls" data-table="3.4
+        Reaction Rolls (Combat) Table" data-roll="101 or more" data-result="Very
+        Favourable">
+
+        <td class="roll">101 or more</td>
+
+        <td class="outcome">Very Favourable</td>
+
+        <td class="resultdescription">The NPCs are terrified by the heroes'
+        display of martial might and will surrender or flee for their
+        lives.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+    _id: WyR2pzq6TCaiaYcR
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!VrWDawqFQqXNuZmQ.WyR2pzq6TCaiaYcR'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+folder: CUIqKKkavMRUhsGr
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519512416
+  modifiedTime: 1689519567801
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-misc-tables.JournalEntry.5eE4rKUEzB0ymRE1
+  duplicateSource: null
+_id: VrWDawqFQqXNuZmQ
+sort: 0
+_key: '!journal!VrWDawqFQqXNuZmQ'
+

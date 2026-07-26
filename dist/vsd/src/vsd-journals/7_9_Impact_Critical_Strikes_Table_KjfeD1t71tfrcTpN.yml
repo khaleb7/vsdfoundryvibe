@@ -1,0 +1,450 @@
+name: 7.9 Impact Critical Strikes Table
+folder: ENv8BHzgQa0yI9Wl
+flags:
+  exportSource:
+    world: vsd-vsd-test
+    system: vsd
+    coreVersion: 0.7.9
+    systemVersion: '0.34'
+  core:
+    sourceId: Compendium.vsd.vsd-tables.JournalEntry.ImDb8UrN4SXKk13P
+pages:
+  - name: 7.9 Impact Critical Strikes Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="criticalstrikestable">
+
+        <tbody>
+
+        <tr class="tableheaderrow">
+
+        <td class="roll">Roll</td>
+
+        <td class="resultdescription">Result</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="1-5" data-result="Flat but
+        soft strike, no extra damage." data-woundtitle="null"
+        data-condition="null" data-hits1="0" data-bleed1="0" data-action1="0"
+        data-effect1="null" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">1-5</td>
+
+        <td class="resultdescription">Flat but soft strike, no extra
+        damage.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="06-20" data-result="Graze to
+        shoulder. +5 Damage." data-woundtitle="null" data-condition="null"
+        data-hits1="5" data-bleed1="0" data-action1="0" data-effect1="null"
+        data-hits2="0" data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">06-20</td>
+
+        <td class="resultdescription">Graze to shoulder. +5 Damage.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="21-35" data-result="Blow to
+        the upper leg, painful bruise. +5 Damage and -10 activities."
+        data-woundtitle="Upper Leg Impact" data-condition="null" data-hits1="5"
+        data-bleed1="0" data-action1="10" data-effect1="null" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">21-35</td>
+
+        <td class="resultdescription">Blow to the upper leg, painful bruise. +5
+        Damage and -10 activities.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="36-50" data-result="Beat to
+        forearm. Drops weapon or shield. If they aren’t holding one, target
+        Stunned." data-woundtitle="Forearm Impact" data-condition="a held item"
+        data-hits1="0" data-bleed1="0" data-action1="0" data-effect1="drop item"
+        data-hits2="0" data-bleed2="0" data-action2="0" data-effect2="stun">
+
+        <td class="roll">36-50</td>
+
+        <td class="resultdescription">Beat to forearm. Drops weapon or shield.
+        If they aren’t holding one, target Stunned.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="51-65" data-result="Blow to
+        side: breath knocked out. +4 Damage, target Stunned and at -40 for 1
+        Round." data-woundtitle="Flank Impact" data-condition="null"
+        data-hits1="4" data-bleed1="0" data-action1="40" data-effect1="stun"
+        data-hits2="0" data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">51-65</td>
+
+        <td class="resultdescription">Blow to side: breath knocked out. +4
+        Damage, target Stunned and at -40 for 1 Round.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="66-79" data-result="Side
+        strike. Target is Stunned and +6 Damage. If no rigid armor: 1d5 broken
+        ribs, -5 penalty for each broken rib." data-woundtitle="Side Impact"
+        data-condition="rigid armor" data-hits1="6" data-bleed1="0"
+        data-action1="0" data-effect1="stun" data-hits2="6" data-bleed2="0"
+        data-action2="25" data-effect2="stun, crippled ribs">
+
+        <td class="roll">66-79</td>
+
+        <td class="resultdescription">Side strike. Target is Stunned and +6
+        Damage. If no rigid armor: 1d5 broken ribs, -5 penalty for each broken
+        rib.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="80-89" data-result="Blow
+        smashes weapon hand. Hand broken, +8 Damage, target’s Stunned and drops
+        weapon, -20 to all actions." data-woundtitle="Hand Impact"
+        data-condition="a hand" data-hits1="8" data-bleed1="0" data-action1="20"
+        data-effect1="stun, drop weapon" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="null">
+
+        <td class="roll">80-89</td>
+
+        <td class="resultdescription">Blow smashes weapon hand. Hand broken, +8
+        Damage, target’s Stunned and drops weapon, -20 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="90-99" data-result="Abdomen
+        strike. Target is doubled over in pain: Stunned and +12 Damage. If no
+        rigid armor: bruised muscles, +15 Damage and -40 to all actions."
+        data-woundtitle="Abdominal Impact" data-condition="rigid armor"
+        data-hits1="12" data-bleed1="0" data-action1="0" data-effect1="stun"
+        data-hits2="15" data-bleed2="0" data-action2="40" data-effect2="null">
+
+        <td class="roll">90-99</td>
+
+        <td class="resultdescription">Abdomen strike. Target is doubled over in
+        pain: Stunned and +12 Damage. If no rigid armor: bruised muscles, +15
+        Damage and -40 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-superficial" data-type="critical"
+        data-table="7.9 Impact Critical Strikes Table" data-roll="100"
+        data-result="Flat strike to the head. If the target is wearing a helm:
+        +10 Damage, Stunned, and eardrum broken, -20 to all actions and -40
+        hearing Perception. If not: all of the above plus fractured skull, +30
+        Damage and target is in a coma for 4 weeks." data-woundtitle="Head
+        Impact" data-condition="a helm" data-hits1="10" data-bleed1="0"
+        data-action1="20" data-effect1="stun, crippled eardrum" data-hits2="40"
+        data-bleed2="0" data-action2="20" data-effect2="unconscious, crippled
+        eardrum, crippled skull">
+
+        <td class="roll">100</td>
+
+        <td class="resultdescription">Flat strike to the head. If the target is
+        wearing a helm: +10 Damage, Stunned, and eardrum broken, -20 to all
+        actions and -40 hearing Perception. If not: all of the above plus
+        fractured skull, +30 Damage and target is in a coma for 4 weeks.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="101-106" data-result="Blow to
+        thigh. +12 Damage, Stunned and -20 activities. If no leg armor: cracked
+        thigh bone, +15 Damage, Stunned and -40 activities instead."
+        data-woundtitle="Thigh Impact" data-condition="leg armor"
+        data-hits1="12" data-bleed1="0" data-action1="20" data-effect1="stun"
+        data-hits2="15" data-bleed2="0" data-action2="40" data-effect2="stun,
+        crippled thigh">
+
+        <td class="roll">101-106</td>
+
+        <td class="resultdescription">Blow to thigh. +12 Damage, Stunned and -20
+        activities. If no leg armor: cracked thigh bone, +15 Damage, Stunned and
+        -40 activities instead.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="107-109" data-result="Blow to
+        the knee. Target is knocked Prone, +8 Damage and -30 to all actions for
+        a dislocation. If no leg armor: crushed knee, +20 Damage and -60 to all
+        actions." data-woundtitle="Knee Impact" data-condition="leg armor"
+        data-hits1="8" data-bleed1="0" data-action1="30" data-effect1="prone,
+        crippled knee" data-hits2="20" data-bleed2="0" data-action2="60"
+        data-effect2="prone, crippled knee">
+
+        <td class="roll">107-109</td>
+
+        <td class="resultdescription">Blow to the knee. Target is knocked Prone,
+        +8 Damage and -30 to all actions for a dislocation. If no leg armor:
+        crushed knee, +20 Damage and -60 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-light" data-type="critical"
+        data-table="7.9 Impact Critical Strikes Table" data-roll="110"
+        data-result="Vicious strike to lower back. Target is knocked Prone,
+        Stunned and takes +10 Damage and -20 to all actions. If the target is
+        not wearing waist protection: cracked vertebra, -50 to all actions and
+        risk of being paralyzed from the waist down if not treated."
+        data-woundtitle="Lower Back Impact" data-condition="waist protection"
+        data-hits1="10" data-bleed1="0" data-action1="20" data-effect1="prone,
+        stun" data-hits2="10" data-bleed2="0" data-action2="50"
+        data-effect2="prone, stun, crippled vertebra">
+
+        <td class="roll">110</td>
+
+        <td class="resultdescription">Vicious strike to lower back. Target is
+        knocked Prone, Stunned and takes +10 Damage and -20 to all actions. If
+        the target is not wearing waist protection: cracked vertebra, -50 to all
+        actions and risk of being paralyzed from the waist down if not
+        treated.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="111-116" data-result="Mighty
+        blow to chest. Target is knocked Prone and drops any weapons, takes +10
+        Damage, and is Stunned. If no rigid chest armor: broken sternum, -40 to
+        all actions and +20 Damage." data-woundtitle="Chest Impact"
+        data-condition="rigid chest armor" data-hits1="10" data-bleed1="0"
+        data-action1="0" data-effect1="stun, prone, drop weapon" data-hits2="30"
+        data-bleed2="0" data-action2="40" data-effect2="prone, stun, crippled
+        sternum, drop weapon">
+
+        <td class="roll">111-116</td>
+
+        <td class="resultdescription">Mighty blow to chest. Target is knocked
+        Prone and drops any weapons, takes +10 Damage, and is Stunned. If no
+        rigid chest armor: broken sternum, -40 to all actions and +20
+        Damage.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="117-119" data-result="Blow to
+        forearm (50R/50L), fractured bones. If the shield is struck: shield
+        useless and target is Stunned. If not: target drops whatever they’re
+        holding, takes +10 Damage, is Stunned, and -30 to all actions."
+        data-woundtitle="Forearm Impact" data-condition="shield" data-hits1="0"
+        data-bleed1="0" data-action1="0" data-effect1="stun, drop shield"
+        data-hits2="10" data-bleed2="0" data-action2="30" data-effect2="stun,
+        drop item, crippled arm">
+
+        <td class="roll">117-119</td>
+
+        <td class="resultdescription">Blow to forearm (50R/50L), fractured
+        bones. If the shield is struck: shield useless and target is Stunned. If
+        not: target drops whatever they’re holding, takes +10 Damage, is
+        Stunned, and -30 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-moderate" data-type="critical"
+        data-table="7.9 Impact Critical Strikes Table" data-roll="120"
+        data-result="Neck strike. If the target is wearing rigid protection in
+        the neck area: +12 Damage, Stunned, -20 to all actions, and unable to
+        speak or eat solid food until healed. If not, crushed windpipe: target's
+        Stunned and dies in 12 Rounds." data-woundtitle="Neck Impact"
+        data-condition="rigid neck protection" data-hits1="12" data-bleed1="0"
+        data-action1="20" data-effect1="stun, crippled throat" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="stun, crippled throat,
+        death[12]">
+
+        <td class="roll">120</td>
+
+        <td class="resultdescription">Neck strike. If the target is wearing
+        rigid protection in the neck area: +12 Damage, Stunned, -20 to all
+        actions, and unable to speak or eat solid food until healed. If not,
+        crushed windpipe: target's Stunned and dies in 12 Rounds.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="121-126" data-result="Blow
+        breaks shinbone. Target is Prone, Stunned, and at -40 to all actions;
+        +15 Damage." data-woundtitle="Shinbone Impact" data-condition="null"
+        data-hits1="15" data-bleed1="0" data-action1="40" data-effect1="stun,
+        prone, crippled leg" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">121-126</td>
+
+        <td class="resultdescription">Blow breaks shinbone. Target is Prone,
+        Stunned, and at -40 to all actions; +15 Damage.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="127-129" data-result="Blow to
+        shoulder and upper arm. Arm broken and useless: +15 Damage, target is
+        Stunned and at -40 activity." data-woundtitle="Shoulder Impact"
+        data-condition="null" data-hits1="15" data-bleed1="0" data-action1="40"
+        data-effect1="stun, crippled arm" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="null">
+
+        <td class="roll">127-129</td>
+
+        <td class="resultdescription">Blow to shoulder and upper arm. Arm broken
+        and useless: +15 Damage, target is Stunned and at -40 activity.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-grievous" data-type="critical"
+        data-table="7.9 Impact Critical Strikes Table" data-roll="130"
+        data-result="Powerful blow to the jaw. If the target is wearing full
+        helm: jaw shattered, +20 Damage, Stunned, and -30 to all actions, can
+        not speak or eat until repaired. If not, jaw driven into brain, instant
+        death." data-woundtitle="Jaw Impact" data-condition="full helm"
+        data-hits1="20" data-bleed1="0" data-action1="30" data-effect1="crippled
+        jaw, stun" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="death, crippled jaw">
+
+        <td class="roll">130</td>
+
+        <td class="resultdescription">Powerful blow to the jaw. If the target is
+        wearing full helm: jaw shattered, +20 Damage, Stunned, and -30 to all
+        actions, can not speak or eat until repaired. If not, jaw driven into
+        brain, instant death.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="131-136" data-result="Blow
+        shatters elbow in weapon arm. Arm useless and -40 to all actions. Target
+        is Stunned and takes +20 Damage." data-woundtitle="Elbow Impact"
+        data-condition="null" data-hits1="20" data-bleed1="0" data-action1="40"
+        data-effect1="stun, crippled elbow" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="null">
+
+        <td class="roll">131-136</td>
+
+        <td class="resultdescription">Blow shatters elbow in weapon arm. Arm
+        useless and -40 to all actions. Target is Stunned and takes +20
+        Damage.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="137-140" data-result="Blow to
+        hip crushes bones. +35 Damage, Stunned, and -75 to all actions. Target
+        is knocked Prone." data-woundtitle="Hip Impact" data-condition="null"
+        data-hits1="35" data-bleed1="0" data-action1="75" data-effect1="stun,
+        prone, crippled hip" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">137-140</td>
+
+        <td class="resultdescription">Blow to hip crushes bones. +35 Damage,
+        Stunned, and -75 to all actions. Target is knocked Prone.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="141-146" data-result="Powerful
+        blow to lower abdomen crushes a variety of innards. If the target is
+        wearing rigid armor: +12 Damage, Stunned, -20 to all actions. If not:
+        internal bleeding, +20 Damage, Stunned, 12 Bleed, -40 to all actions."
+        data-woundtitle="Abdominal Impact" data-condition="rigid armor"
+        data-hits1="12" data-bleed1="0" data-action1="20" data-effect1="stun"
+        data-hits2="20" data-bleed2="0" data-action2="40" data-effect2="stun,
+        crippled vitals">
+
+        <td class="roll">141-146</td>
+
+        <td class="resultdescription">Powerful blow to lower abdomen crushes a
+        variety of innards. If the target is wearing rigid armor: +12 Damage,
+        Stunned, -20 to all actions. If not: internal bleeding, +20 Damage,
+        Stunned, 12 Bleed, -40 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.9
+        Impact Critical Strikes Table" data-roll="147-149" data-result="Blow to
+        the side crushes ribcage and destroys a variety of internal organs.
+        Target drops unconscious and dies in 6 Rounds." data-woundtitle="Side
+        Impact" data-condition="null" data-hits1="0" data-bleed1="0"
+        data-action1="0" data-effect1="crippled ribcage, crippled organs,
+        unconscious, death[6]" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">147-149</td>
+
+        <td class="resultdescription">Blow to the side crushes ribcage and
+        destroys a variety of internal organs. Target drops unconscious and dies
+        in 6 Rounds.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-lethal" data-type="critical"
+        data-table="7.9 Impact Critical Strikes Table" data-roll="150"
+        data-result="Inexorable blow to the head shatters skull and destroys
+        brain. Instant death." data-woundtitle="Head Impact"
+        data-condition="null" data-hits1="0" data-bleed1="0" data-action1="0"
+        data-effect1="death, crippled skull, crippled brain" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">150</td>
+
+        <td class="resultdescription">Inexorable blow to the head shatters skull
+        and destroys brain. Instant death.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+    _id: JiE6kzmWsCVGSPTJ
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!KjfeD1t71tfrcTpN.JiE6kzmWsCVGSPTJ'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519505854
+  modifiedTime: 1689519566104
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-tables.JournalEntry.ImDb8UrN4SXKk13P
+  duplicateSource: null
+_id: KjfeD1t71tfrcTpN
+sort: 0
+_key: '!journal!KjfeD1t71tfrcTpN'
+

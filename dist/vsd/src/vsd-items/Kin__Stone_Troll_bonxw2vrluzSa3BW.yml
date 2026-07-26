@@ -1,0 +1,539 @@
+name: 'Kin: Stone Troll'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Brawl: Large Claw/Talon (Beast)'
+      type: Melee-Attack
+      sort: 100000
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-weapons.ge3HdROOs8VLycde
+      img: icons/creatures/claws/claw-straight-orange.webp
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      system:
+        notes: |-
+          Hands: 2H
+          Length: Hand
+          Attack Table: Beast
+          Max: 140
+          1st Crit Table: Cut
+          2nd Crit Table: Pierce
+          Range: -
+          Qualities: 90/120/140/150/175
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 140
+        damage: 7.7 Beast Attack Table
+        damageType: 7.10 Cut Critical Strikes Table
+        secondary: 7.11 Pierce Critical Strikes Table
+        armourDiv: 2
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        5AmFKy3msaSz6yGf: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1667230691556
+        modifiedTime: 1703274839337
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+      _id: 9TMg2yB21RW6T2sa
+    - _id: cT55SJZOf6WA57uD
+      name: Feral Predator (in Nature)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -100000
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.9LhL284uvTqKjZPZ
+      system:
+        notes: >-
+          Feral Predator: Your kin gain a +20 bonus to their Hunting and
+          Wandering Skills, as well as to all their Stealth Rolls in any natural
+          environment.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '+20'
+            category: skill
+            targets: Hunting, Wandering, Stealth
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459561935
+        modifiedTime: 1703275000622
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: saTHuRZWiMY0vCsH
+      name: Hulking Brute
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 0
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.3MJcRbKolAyseDdW
+      system:
+        notes: >-
+          Hulking Brute: Your Kin are Large in Size and reduce any Critical
+          Strike they receive by one Severity degree (Criticals reduced under
+          the Superficial Severity are ignored altogether). They also ignore any
+          Stun result when receiving a critical from a non-magical attack.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459566319
+        modifiedTime: 1703274845302
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - name: Hulking Brute (Crit & Stun)
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -200000
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.3MJcRbKolAyseDdW
+      system:
+        notes: >-
+          Your Kin reduce Crits they receive by one degree and ignore any Stun
+          result from a non-magical attack.
+        chartype: CharacterVsD
+        group: revelation
+        applied: false
+        category: advantage
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459566319
+        modifiedTime: 1703274851786
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+      _id: 3eLB3ULUb2jZeIZk
+    - _id: Nt3NPDn240WvjEeY
+      name: 'Kin: Stone Troll'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -50000
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: >-
+          Special Traits:
+
+          - Night Sight
+
+          - Hulking Brute
+
+          - Stone Skin
+
+          - Rending Claws
+
+          - Feral Predator
+
+          - Sun Cursed
+
+          - Superstitious
+
+          Cultures: Deep (Cave Trolls), Woad (Forest Trolls), Arctic (Ice
+          Trolls), or Marauding
+
+          Wealth: 0
+
+          Background: 3
+
+          Magic Points: 0
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 20
+            formula: '20'
+            category: primary
+            targets: BRN
+          '1':
+            value: -10
+            formula: '-10'
+            category: primary
+            targets: SWI, WSD, BEA
+          '2':
+            value: 15
+            formula: '15'
+            category: primary
+            targets: FOR
+          '3':
+            value: -15
+            formula: '-15'
+            category: primary
+            targets: WIT
+          '4':
+            value: 30
+            formula: '30'
+            category: defence
+            targets: Toughness
+          '5':
+            value: 60
+            formula: '60'
+            category: reaction
+            targets: Body
+          '6':
+            value: 60
+            formula: '60'
+            category: primary
+            targets: KinVoc
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459569679
+        modifiedTime: 1703274947024
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: 2mcEHGBzS2JlejT8
+      name: Night Sight
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -25000
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.BGCbsMtfBhFb34lH
+      system:
+        notes: >-
+          Night Sight: Your Kin can see in natural moonlight or starlight as if
+          it were day, and up to 30 m in Dim Light (treating the first 15 m as
+          if they were standing in Bright Light). They can see up to 3 m even in
+          Total Darkness.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459577007
+        modifiedTime: 1703274856653
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: 4BNhzEVbgildpPJ7
+      name: Rending Claws
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -300000
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.3kkHrqt8Iqay3M8i
+      system:
+        notes: >-
+          Rending Claws: Your Kin’s unarmed attacks are treated like Large Claws
+          and resolved on the Beast Attack Table.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459583085
+        modifiedTime: 1703274859486
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - name: Stone Skin
+      type: Modifier
+      img: icons/magic/earth/strike-fist-stone-gray.webp
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -250000
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-armor-and-shields.q5xEdPIrb5aNK0H9
+      system:
+        notes: |
+          Fare: 0
+          Type: Light
+          Protects: Full Body
+          Qualities: Rigid
+          Max SWI: -
+        chartype: CharacterVsD
+        group: Modifier
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 0
+            formula: '0'
+            category: reaction
+            targets: Melee, Missile
+          '1':
+            value: 0
+            formula: '0'
+            category: primary
+            targets: ArmPen
+        temporary: false
+        once: false
+        condition: false
+        forceUpdate: false
+        sort: -1
+      ownership:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1667216168143
+        modifiedTime: 1703274902841
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+      _id: ErqoApzOmMarZ0NG
+    - _id: k4nNjHL8skl4IxMP
+      name: Stone Skin
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -225000
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.yFxjgxNC2BgqJgPa
+      system:
+        notes: 'Stone Skin: Your Kin’s bare skin counts as Light Armor.'
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459587055
+        modifiedTime: 1703274868087
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: FCLSXtZ0JdNbcxF9
+      name: Sun Cursed
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -75000
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.VI3jWorpui9WsDio
+      system:
+        notes: >-
+          Sun Cursed: Your kin are blinded by daylight (suffering a -30 penalty
+          to all their actions) and immediately turn to stone if exposed to
+          direct sunlight. While in this state, they’re essentially stone
+          statues: they cannot take Actions and are oblivious to their
+          surroundings; they don’t need to breathe and are impervious to most
+          attacks. They’re treated as resting for healing purposes, doubling
+          their HPs recovery rate. The effects of any form of Bleeding, poison,
+          or disease from which they are suffering are temporarily halted. They
+          revert to their original state once they’re no longer exposed to
+          sunlight.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: true
+        spell: true
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -30
+            formula: '-30'
+            category: attack
+            targets: ''
+          '1':
+            value: -30
+            formula: '-30'
+            category: defence
+            targets: ''
+          '2':
+            value: -30
+            formula: '-30'
+            category: skill
+            targets: ''
+          '3':
+            value: -30
+            formula: '-30'
+            category: spell
+            targets: ''
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689509749176
+        modifiedTime: 1703274928284
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: HXKH35EMvflJsLFt
+      name: Superstitious
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: -62500
+      flags:
+        core:
+          sourceId: Actor.D2S2g0gZhi7vvGAn.Item.gQ1jcB3nlYmxjdPY
+      system:
+        notes: 'Superstitious: Your Kin can’t be Wizards, Champions or Dabblers.'
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459599751
+        modifiedTime: 1703274873151
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703275046799
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: bonxw2vrluzSa3BW
+sort: 0
+_key: '!items!bonxw2vrluzSa3BW'
+

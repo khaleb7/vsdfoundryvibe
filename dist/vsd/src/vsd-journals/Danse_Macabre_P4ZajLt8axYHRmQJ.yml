@@ -1,0 +1,61 @@
+name: Danse Macabre
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.RrRoh6jFLPwY8NWS
+pages:
+  - name: Danse Macabre
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Necromancy"> <td>Lore:</td> <td>Necromancy </td> </tr> <tr>
+        <td>Weave:</td> <td>2nd </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Necromancy" data-weave="2nd"
+        data-spell="Danse Macabre" data-range="20 m" data-aoe="1 target"
+        data-duration="1 min/lvl" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Danse Macabre </td> </tr> <tr> <td>Range:</td> <td>20
+        m </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td> </tr>
+        <tr> <td>Duration:</td> <td>1 min/lvl </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: 7To2v8UgIRXj8Yck
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!P4ZajLt8axYHRmQJ.7To2v8UgIRXj8Yck'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.RrRoh6jFLPwY8NWS
+  duplicateSource: null
+_id: P4ZajLt8axYHRmQJ
+sort: 0
+_key: '!journal!P4ZajLt8axYHRmQJ'
+

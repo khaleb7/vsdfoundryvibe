@@ -1,0 +1,61 @@
+name: Reverse Spell*
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.Oe0Lcwfewb3A6L7J
+pages:
+  - name: Reverse Spell*
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Eldritch Wards"> <td>Lore:</td> <td>Eldritch Wards </td>
+        </tr> <tr> <td>Weave:</td> <td>10th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Eldritch Wards" data-weave="10th"
+        data-spell="Reverse Spell*" data-range="20 m" data-aoe="1 spell"
+        data-duration="-" data-save="Y"> <td>Spell:</td> <td
+        class="spellname">Reverse Spell* </td> </tr> <tr> <td>Range:</td> <td>20
+        m </td> </tr> <tr> <td>Area of Effect:</td> <td>1 spell </td> </tr> <tr>
+        <td>Duration:</td> <td>- </td> </tr> <tr> <td>Save:</td> <td>Y </td>
+        </tr> </tbody> </table>
+    _id: GTIqvSPWGELssnnu
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!yRuwX7NiHWlovdhY.GTIqvSPWGELssnnu'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.Oe0Lcwfewb3A6L7J
+  duplicateSource: null
+_id: yRuwX7NiHWlovdhY
+sort: 0
+_key: '!journal!yRuwX7NiHWlovdhY'
+

@@ -1,0 +1,420 @@
+name: 'Kin: Orc'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: JbY1VbiOWUHrvjgG
+      name: Flame-Hardened
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 100000
+      flags:
+        core:
+          sourceId: Actor.z3fVfSpOgB6IkZnu.Item.7NGOj1QhEa8JGChN
+      system:
+        notes: >-
+          Flame-Hardened: Your kin get a +30 bonus to their Save Rolls and
+          Defense against heat and flame.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 30
+            formula: '+30'
+            category: defence
+            targets: Toughness, Willpower
+          '1':
+            value: 30
+            formula: '+30'
+            category: reaction
+            targets: Missile, Melee
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459657552
+        modifiedTime: 1703274264687
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: cANiwl2m7hhWUpTX
+      name: 'Kin: Orc'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 200000
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: |-
+          Special Traits:
+          - Night Sight
+          - Flame-Hardened
+          - Sun Sensitivity
+          - Wicked Artifice
+          - Superstitious
+          Cultures: Deep, Woad, Hill, Arctic, or Marauding
+          Wealth: 0
+          Background: 4
+          Magic Points: 0
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: BRN
+          '1':
+            value: 15
+            formula: '15'
+            category: primary
+            targets: FOR
+          '2':
+            value: -5
+            formula: '-5'
+            category: primary
+            targets: WSD
+          '3':
+            value: -10
+            formula: '-10'
+            category: primary
+            targets: BEA
+          '4':
+            value: 10
+            formula: '10'
+            category: defence
+            targets: Toughness
+          '5':
+            value: 35
+            formula: '35'
+            category: reaction
+            targets: Body
+          '6':
+            value: 35
+            formula: '35'
+            category: primary
+            targets: KinVoc
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459664166
+        modifiedTime: 1703274272087
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: 2bzldcVb1oPCipDZ
+      name: Night Sight
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 300000
+      flags:
+        core:
+          sourceId: Actor.z3fVfSpOgB6IkZnu.Item.1aoGOGmzQVMzLdfn
+      system:
+        notes: >-
+          Night Sight: Your Kin can see in natural moonlight or starlight as if
+          it were day, and up to 30 m in Dim Light (treating the first 15 m as
+          if they were standing in Bright Light). They can see up to 3 m even in
+          Total Darkness.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459670118
+        modifiedTime: 1703274241001
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: mJYcKDph1XLGLg0H
+      name: Sun Sensitivity (Dusk or Dawn)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 250000
+      flags:
+        core:
+          sourceId: Actor.z3fVfSpOgB6IkZnu.Item.BVnpylLcAC5y4OHi
+      system:
+        notes: >-
+          Sun Sensitivity: Your kin loathe sunlight. They’re almost blind in
+          full daylight (suffering a -60 penalty to all their actions) and find
+          difficult to get around even on cloudy days or during dusk and dawn
+          (-20 to their activities in these cases).
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: true
+        spell: true
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -20
+            formula: '-20'
+            category: attack
+            targets: ''
+          '1':
+            value: -20
+            formula: '-20'
+            category: skill
+            targets: ''
+          '2':
+            value: -20
+            formula: '-20'
+            category: defence
+            targets: ''
+          '3':
+            value: -20
+            formula: '-20'
+            category: spell
+            targets: ''
+          '4':
+            value: -20
+            formula: '-20'
+            category: reaction
+            targets: ''
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459682318
+        modifiedTime: 1703274285854
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: s7YC7SDtSDDKPxKr
+      name: Sun Sensitivity (Full Daylight)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 225000
+      flags:
+        core:
+          sourceId: Actor.z3fVfSpOgB6IkZnu.Item.VubWnmf304i9T6rv
+      system:
+        notes: >-
+          Sun Sensitivity: Your kin loathe sunlight. They’re almost blind in
+          full daylight (suffering a -60 penalty to all their actions) and find
+          difficult to get around even on cloudy days or during dusk and dawn
+          (-20 to their activities in these cases).
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: true
+        spell: true
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -60
+            formula: '-60'
+            category: attack
+            targets: ''
+          '1':
+            value: -60
+            formula: '-60'
+            category: skill
+            targets: ''
+          '2':
+            value: -60
+            formula: '-60'
+            category: defence
+            targets: ''
+          '3':
+            value: -60
+            formula: '-60'
+            category: spell
+            targets: ''
+          '4':
+            value: -60
+            formula: '-60'
+            category: reaction
+            targets: ''
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459686390
+        modifiedTime: 1703274291310
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: PT3aLJmrWUTPfQ4F
+      name: Superstitious
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 400000
+      flags:
+        core:
+          sourceId: Actor.z3fVfSpOgB6IkZnu.Item.Hg1h4FGHLVQOYNDN
+      system:
+        notes: 'Superstitious: Your Kin can’t be Wizards, Champions or Dabblers.'
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459689695
+        modifiedTime: 1703274247349
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: p9BnSQc3d78nyTN5
+      name: Wicked Artifice
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 350000
+      flags:
+        core:
+          sourceId: Actor.z3fVfSpOgB6IkZnu.Item.OJhOTSvJvfaSiDpf
+      system:
+        notes: >-
+          Wicked Artifice: While your kin seldom make beautiful things,they
+          often create clever mechanisms and contraptions. Your kin gain a
+          special +15 bonus to their Locks & Traps Skill.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 15
+            formula: '+15'
+            category: skill
+            targets: Locks & Traps
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459697871
+        modifiedTime: 1703274308142
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703274338844
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: owypwxpHoLSzEh55
+sort: 0
+_key: '!items!owypwxpHoLSzEh55'
+

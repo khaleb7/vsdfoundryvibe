@@ -1,0 +1,59 @@
+name: Healer
+flags:
+  monks-enhanced-journal:
+    type: text
+  core:
+    sourceId: >-
+      Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.lWYoTKh79154u4nP
+pages:
+  - type: text
+    name: Healer
+    _id: FBzzssVzA2hYmsCy
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p></p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+      core:
+        sourceId: JournalEntry.RgZrtNbatqLr5HEd.JournalEntryPage.FBzzssVzA2hYmsCy
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!RgZrtNbatqLr5HEd.FBzzssVzA2hYmsCy'
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1666904789027
+  modifiedTime: 1689519569944
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.lWYoTKh79154u4nP
+  duplicateSource: null
+folder: VyFY8CNwgwsRHjuU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_id: RgZrtNbatqLr5HEd
+sort: 0
+_key: '!journal!RgZrtNbatqLr5HEd'
+

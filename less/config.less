@@ -71,9 +71,24 @@
   font-weight: bold;
   font-style: italic;
 }
+// Aged-paper monochrome palette
+@paper-colour: #f3ead8;
+@paper-alt-colour: #ebe1cc;
+@ink-colour: #1a1814;
+@ink-faded: #5c574e;
+@ink-border: #8a8170;
+@sepia-accent: #3d3428;
+@success-ink: #1a1814;
+@failure-ink: #6b5344;
+
 :root {
   --vsd-font-sans: "Ubuntu";
   --vsd-font-serif: "Sabon LT Std";
+  --vsd-font-body: "Ubuntu", sans-serif;
+  --vsd-font-display: "Sabon LT Std", serif;
+  --vsd-accent: @sepia-accent;
+  --vsd-panel: @paper-colour;
+  --vsd-text: @ink-colour;
 }
 
 .Ubuntu(@weight: normal, @size: medium, @style: normal) {
@@ -91,19 +106,19 @@
 }
 
 //Colours
-@main-colour: maroon;
-@alt-colour: black;
-@accent-colour: navajowhite;
-@text-main-colour: black;
-@text-alt-colour: silver;
-@border-colour: darkgray;
+@main-colour: @sepia-accent;
+@alt-colour: @ink-colour;
+@accent-colour: @paper-alt-colour;
+@text-main-colour: @ink-colour;
+@text-alt-colour: @paper-colour;
+@border-colour: @ink-border;
 
-@main-border-colour: darkgoldenrod;
-@melee-colour: darkkhaki;
-@ranged-colour: lightcyan;
-@attackmod-colour: blue;
-@damagemod-colour: red;
-@attackdamagemod-colour: purple;
+@main-border-colour: @ink-border;
+@melee-colour: @ink-faded;
+@ranged-colour: @paper-alt-colour;
+@attackmod-colour: @sepia-accent;
+@damagemod-colour: @ink-faded;
+@attackdamagemod-colour: @ink-border;
 
 .window-app {
   font-size: 10pt;
@@ -117,22 +132,22 @@
 .rollable:focus,
 .minus:hover {
   color: @text-main-colour;
-  text-shadow: 0 0 10px red;
+  text-shadow: 0 0 8px fade(@ink-faded, 55%);
   cursor: pointer;
 }
 div.collapsible:hover,
 h3.collapsible:hover {
-  color: cyan;
+  color: @sepia-accent;
 }
 
 h3.collapsible.collapsed,
 div.collapsible.collapsed {
-  background-color: dimgrey;
+  background-color: fade(@ink-faded, 35%);
 }
 
 .plus:hover {
   color: @text-main-colour;
-  text-shadow: 0 0 10px green;
+  text-shadow: 0 0 8px fade(@ink-border, 55%);
   cursor: pointer;
 }
 
@@ -242,12 +257,12 @@ div.collapsible.collapsed {
   margin-left: 5px;
 
   option {
-    background-color: darkgray;
+    background-color: @paper-alt-colour;
     color: @main-colour;
   }
 
   option:disabled {
-    color: @text-alt-colour;
+    color: @ink-faded;
   }
 }
 

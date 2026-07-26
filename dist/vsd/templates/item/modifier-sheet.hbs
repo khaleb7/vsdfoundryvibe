@@ -1,0 +1,81 @@
+{{debug "this:" this}}
+
+<form class="{{cssClass}}" autocomplete="off">
+
+  {{!-- Sheet Header --}}
+  <header class="sheet-header">
+    <img class="portrait" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+    <input name="name" type="text" value="{{item.name}}" placeholder="{{localize " local.item.name"}}" />
+  </header>
+  <hr>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+
+    <div class="flexrow">
+      <input type="checkbox" name="system.condition" {{checked item.system.condition}} data-dtype="Boolean" />
+      <label class="resource-label">{{localize "local.item.Modifier.condition"}}</label>
+    </div>
+    {{#unless (or item.system.temporary item.system.once)}}
+      <div class="flexrow">
+        <input type="checkbox" name="system.alwaysOn" {{checked item.system.alwaysOn}} data-dtype="Boolean" />
+        <label class="resource-label">{{localize "local.item.Modifier.alwaysOn"}}</label>
+      </div>
+    {{/unless}}
+    {{#unless (or item.system.alwaysOn item.system.once)}}
+      <div class="flexrow">
+        <input type="checkbox" name="system.temporary" {{checked item.system.temporary}} data-dtype="Boolean" />
+        <label class="resource-label">{{localize "local.item.temporary"}}</label>
+      </div>
+    {{/unless}}
+    {{#unless (or item.system.alwaysOn item.system.temporary)}}
+      <div class="flexrow">
+        <input type="checkbox" name="system.once" {{checked item.system.once}} data-dtype="Boolean" />
+        <label class="resource-label">{{localize "local.item.once"}}</label>
+      </div>
+    {{/unless}}
+    <hr>
+
+    <div class="modentry item">
+      <label class="resource-label">{{localize "local.item.formula"}}</label>
+      <label class="resource-label">{{localize "local.item.category"}}</label>
+      <label class="resource-label">{{localize "local.item.Modifier.targets"}}</label>
+      <a class="entry-create"><i class="fas fa-plus"></i></a>
+      <span></span>
+      <span></span>
+    </div>
+    <hr>
+
+    {{!-- iterating through the modifier entries --}}
+    {{#each item.system.entries as |entry e|}}
+      <div class="modentry item" data-id="{{@index}}">
+        <input class="value" type="hidden" name="system.entries.{{e}}.value" value="{{entry.value}}" data-dtype="Number" />
+        <input class="formula" type="text" name="system.entries.{{e}}.formula" value="{{entry.formula}}" data-dtype="String" />
+        <select class="category" name="system.entries.{{e}}.category">
+          {{selectOptions ../config.selectOptions.modifier_category selected=entry.category valueAttr="value" labelAttr="label" localize=true}}
+        </select>
+        <input class="targets" type="text" name="system.entries.{{e}}.targets" value="{{entry.targets}}" data-dtype="String" />
+        <a class="entry-delete"><i class="fas fa-trash"></i></a>
+        <a class="entry-clone"><i class="fas fa-clone"></i></a>
+        <a class="draggable" data-item-id="{{../this.item.id}}" data-index="{{@index}}" data-type="modentry" data-value="{{entry.value}}" data-formula="{{entry.formula}}" data-category="{{entry.category}}" data-targets="{{entry.targets}}"><i class="fas fa-anchor"></i></a>
+      </div>
+    {{/each}}
+    <div class="flexrow">
+      <label class="resource-label">{{localize "local.item.group"}}</label>
+      <input type="text" name="system.group" value="{{item.system.group}}" data-dtype="String" />
+    </div>
+    <hr>
+    <h3>{{localize "local.item.notes"}}</h3>
+    <div class="tab">
+      <textarea rows="18" name="system.notes">{{{system.notes}}}</textarea>
+    </div>
+    <script>
+      $("input").focusin(function () {
+        $(this).select();
+      });
+      $("textarea").focusin(function () {
+        $(this).select();
+      }); 
+    </script>
+  </section>
+</form>

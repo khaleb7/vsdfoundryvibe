@@ -1,0 +1,59 @@
+name: Deceive
+flags:
+  monks-enhanced-journal:
+    type: text
+  core:
+    sourceId: >-
+      Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.3fgn5x7Gm9T9t6Wd
+pages:
+  - type: text
+    name: Deceive
+    _id: Vo8cBJk9qekScVWh
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p></p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+      core:
+        sourceId: JournalEntry.YXK3h0aN9SlZ6mkr.JournalEntryPage.Vo8cBJk9qekScVWh
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!YXK3h0aN9SlZ6mkr.Vo8cBJk9qekScVWh'
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1666904257903
+  modifiedTime: 1689519569944
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.3fgn5x7Gm9T9t6Wd
+  duplicateSource: null
+folder: VyFY8CNwgwsRHjuU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_id: YXK3h0aN9SlZ6mkr
+sort: 0
+_key: '!journal!YXK3h0aN9SlZ6mkr'
+

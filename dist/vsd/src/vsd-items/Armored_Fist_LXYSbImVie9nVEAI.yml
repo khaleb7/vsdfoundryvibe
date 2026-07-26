@@ -1,0 +1,60 @@
+name: Armored Fist
+type: Container
+img: systems/vsd/icons/items/weapons/mailed-fist.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.0gqFJvDqWQcP9sTl
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Brawl: Armored Fist (Impact)'
+      type: Melee-Attack
+      img: systems/vsd/icons/items/weapons/mailed-fist.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 120
+          Crit Table: Impact
+          Range: -
+          Qualities: 90/120/140/150/175
+        chartype: CharacterVsD
+        group: Melee-Attack
+        sort: -1
+        value: 0
+        formula: '@brawl'
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.9 Impact Critical Strikes Table
+        armourDiv: 1
+        minST: oe
+        weight: 120
+        reach: 5
+      folder: GFdYwZsTR7JEVb3q
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+        UX6nCwJ29hO5ENUt: 3
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490209
+  modifiedTime: 1697655935004
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.0gqFJvDqWQcP9sTl
+  duplicateSource: null
+_id: LXYSbImVie9nVEAI
+sort: 0
+_key: '!items!LXYSbImVie9nVEAI'
+

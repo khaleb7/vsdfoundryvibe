@@ -1,0 +1,84 @@
+name: Ancient Heirloom
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.jZze0VWbOqykMnxQ
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Ancient Heirloom
+      type: Trait
+      system:
+        notes: >-
+          You've either inherited an ancient artifact, or acquired it under
+          unusual circumstances.\n- Minor (cost 1 BP):  Choose an item in your
+          character's starting equipment. That item either grants you a +10
+          magical Item Modifier to a specific skill, acts as a +1 Magical Focus,
+          or lets you cast a First Weave Spell of your choosing twice a day.
+          Give it a name, an origin, and record it on your character sheet.\n-
+          Major (cost 3 BPs):  The item also lets you cast a Spell up to the
+          Third Weave twice a day, or a Fifth Weave Spell once a day. However,
+          the item is either stolen, or sought by the Darkmaster.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Ancient Heirloom (Spell)
+      type: Pool
+      system:
+        notes: >-
+          Your item allows you to cast a spell of the: \n• Minor - First Weave
+          twice a day\nor\n• Major - Third Weave twice a day\nor\n• Major -
+          Fifth Weave once a day.\n\nChoose one option and delete the others.
+        chartype: CharacterVsD
+        abbr: AH1, AH3, AH5
+        name: ''
+        state: ''
+        min: 0
+        value: 2
+        max: 2
+    - name: Ancient Heirloom (Skill)
+      type: Modifier
+      system:
+        notes: >-
+          Your Ancient Heirloom grants you a +10 magical Item Modifier to a
+          specific skill.\n\nReplace 'Skill Name' with the name of the skill.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Skill Name
+        tempName: Ancient Heirloom (Skill)
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485228
+  modifiedTime: 1697655934963
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.jZze0VWbOqykMnxQ
+  duplicateSource: null
+_id: 1Tfev5ykPNduONoT
+sort: 0
+_key: '!items!1Tfev5ykPNduONoT'
+

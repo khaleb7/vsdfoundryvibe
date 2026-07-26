@@ -1,0 +1,68 @@
+name: Failed Spell Type
+type: Variable
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: lS2E3Pe2AclQDTmR
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-dropbox.Item.78D4HIq4yMSZldVT
+system:
+  notes: Modifiers to a spell failure roll. Linked to effects by a modifier.
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: Healing
+  entries:
+    - value: 0
+      formula: '0'
+      label: Healing
+    - value: 0
+      formula: '0'
+      label: Information
+    - value: 0
+      formula: '0'
+      label: Divination
+    - value: 10
+      formula: '10'
+      label: Utility
+    - value: 10
+      formula: '10'
+      label: Personal
+    - value: 10
+      formula: '10'
+      label: Defensive
+    - value: 10
+      formula: '10'
+      label: Nature
+    - value: 20
+      formula: '20'
+      label: Enchantment
+    - value: 30
+      formula: '30'
+      label: Alteration
+    - value: 50
+      formula: '50'
+      label: Dark
+    - value: 50
+      formula: '50'
+      label: Elemental
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488520
+  modifiedTime: 1697655938674
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-dropbox.Item.78D4HIq4yMSZldVT
+  duplicateSource: null
+_id: gI6pnhX9I7wm6gfK
+sort: 100000
+_key: '!items!gI6pnhX9I7wm6gfK'
+

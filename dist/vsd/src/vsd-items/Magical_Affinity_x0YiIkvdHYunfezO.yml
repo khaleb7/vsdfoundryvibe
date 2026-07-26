@@ -1,0 +1,105 @@
+name: Magical Affinity
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.zHgwd4MfKFJzzZZO
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Magical Affinity
+      type: Trait
+      system:
+        notes: >-
+          A natural talent and specialized studies made you an expert in a
+          particular school of magic.
+
+          - Minor (cost 1 BP):  Choose one of your Vocational Spell Lores to
+          become your favorite Spell Lore. You gain a +10 bonus to all Spell
+          Casting and Arcana Rolls concerning your favorite Spell Lore.
+
+          - Major (cost 3 BPs):  Additionally, you count as if you were one
+          Level higher when casting Spells from your favorite Spell Lore. You
+          also gain one additional MP per level, but you can spend these extra
+          MPs only to cast Spells from your favorite Spell Lore. However, you
+          have a rival who's determined either to discredit you in the academic
+          circle or to prove their magic school's superiority to you.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Magical Affinity (Spell Lore)
+      type: Modifier
+      system:
+        notes: >-
+          Choose one of your Vocational Spell Lores to become your favorite
+          Spell Lore. You gain a +10 bonus to all Spell Casting Rolls concerning
+          your favorite Spell Lore.
+        chartype: CharacterVsD
+        inEffect: true
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: true
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: spell
+            targets: Spell Lore
+          '1':
+            value: 10
+            formula: '+10'
+            category: attack
+            targets: Spell Lore
+        tempName: Magical Affinity (Spell Lore)
+    - name: Magical Affinity (Arcana)
+      type: Modifier
+      system:
+        notes: >-
+          Choose one of your Vocational Spell Lores to become your favorite
+          Spell Lore. You gain a +10 bonus to all Arcana Rolls concerning your
+          favorite Spell Lore.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Arcana
+        tempName: Magical Affinity (Arcana)
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485238
+  modifiedTime: 1697655935067
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.zHgwd4MfKFJzzZZO
+  duplicateSource: null
+_id: x0YiIkvdHYunfezO
+sort: 0
+_key: '!items!x0YiIkvdHYunfezO'
+

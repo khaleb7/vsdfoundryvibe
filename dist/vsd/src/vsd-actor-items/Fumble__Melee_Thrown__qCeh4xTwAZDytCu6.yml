@@ -1,0 +1,34 @@
+name: Fumble (Melee/Thrown)
+type: Defence
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: 2.42 Melee and Thrown Weapons Fumble Table
+  chartype: CharacterVsD
+  group: dodge
+  weight: 0
+  value: 0
+  formula: '0'
+  category: dodge
+  forceUpdate: false
+  sort: -1
+  moddedvalue: 0
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377456549
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: qCeh4xTwAZDytCu6
+sort: 6600000
+_key: '!items!qCeh4xTwAZDytCu6'
+

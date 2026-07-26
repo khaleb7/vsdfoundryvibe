@@ -1,0 +1,34 @@
+name: Star Sight
+type: Trait
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Star Sight: Your Kin can see in natural moonlight or starlight as if it were
+    day, and up to 30 m in Dim Light (treating the first 15m as if they were
+    standing in Bright Light).
+  chartype: CharacterVsD
+  group: kin
+  applied: false
+  category: perk
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689459955381
+  modifiedTime: 1697655935047
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: kIm68hF36mScT3q1
+sort: 1600000
+_key: '!items!kIm68hF36mScT3q1'
+

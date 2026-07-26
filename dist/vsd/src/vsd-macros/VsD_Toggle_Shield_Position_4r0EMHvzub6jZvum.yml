@@ -1,0 +1,42 @@
+name: VsD Toggle Shield Position
+type: script
+scope: global
+author: NGjHOnRrH6sCNw2O
+img: icons/equipment/shield/kite-wooden-axe-blue-black.webp
+command: |-
+  if (canvas.tokens.controlled.length != 1)
+      return ui.notifications.error("Please select a single token first");
+
+  const tokenactor = canvas.tokens.controlled[0].document.actor;
+
+  const position = tokenactor.system.defence.shieldposition;
+
+  switch (position) {
+  case "none":
+      return ui.notifications.error("There is no shield equipped!");
+  case "side":
+      await tokenactor.update({ "system.defence.shieldposition": "front" });
+      return ui.notifications.info("Shield moved to the Front!");
+  case "front":
+      await tokenactor.update({ "system.defence.shieldposition": "side" });
+      return ui.notifications.info("Shield moved to the Side!");
+  }
+folder: 2xrFKsTdRUax0UPW
+ownership:
+  default: 2
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.331'
+  createdTime: 1685789701462
+  modifiedTime: 1742378989958
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: null
+  duplicateSource: null
+_id: 4r0EMHvzub6jZvum
+sort: 200000
+_key: '!macros!4r0EMHvzub6jZvum'
+

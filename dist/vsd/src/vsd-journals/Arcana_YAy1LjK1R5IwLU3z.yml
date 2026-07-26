@@ -1,0 +1,59 @@
+name: Arcana
+flags:
+  monks-enhanced-journal:
+    type: text
+  core:
+    sourceId: >-
+      Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.ucUYWDMIuoo4h8zN
+pages:
+  - type: text
+    name: Arcana
+    _id: q0qSzJvJN1dVM7Yb
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p></p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+      core:
+        sourceId: JournalEntry.YAy1LjK1R5IwLU3z.JournalEntryPage.q0qSzJvJN1dVM7Yb
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!YAy1LjK1R5IwLU3z.q0qSzJvJN1dVM7Yb'
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1666904386768
+  modifiedTime: 1689519569944
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-skill-descriptions.JournalEntry.ucUYWDMIuoo4h8zN
+  duplicateSource: null
+folder: VyFY8CNwgwsRHjuU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_id: YAy1LjK1R5IwLU3z
+sort: 0
+_key: '!journal!YAy1LjK1R5IwLU3z'
+

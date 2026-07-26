@@ -1,0 +1,63 @@
+name: Lamellar Armor
+type: Modifier
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Bxxo1AxxBitNbUjx
+flags:
+  core: {}
+system:
+  notes: |-
+    Fare: 2
+    Type: Medium
+    Protects: Torso, Arms, Legs
+    Qualities: Metal
+    Max SWI: +25
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: false
+  attack: true
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: 5
+      formula: '5'
+      category: reaction
+      targets: Melee, Missile
+      moddedvalue: 5
+    - value: -45
+      formula: '-45'
+      category: primary
+      targets: ArmPen
+      moddedvalue: -45
+    - value: -5
+      formula: '-5'
+      category: primary
+      targets: CMBPen
+      moddedvalue: -5
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  8VtokmkrTaxXr4Uk: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485141
+  modifiedTime: 1697655939312
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: q3o0PlyWQZVsl3Dx
+sort: 200000
+_key: '!items!q3o0PlyWQZVsl3Dx'
+

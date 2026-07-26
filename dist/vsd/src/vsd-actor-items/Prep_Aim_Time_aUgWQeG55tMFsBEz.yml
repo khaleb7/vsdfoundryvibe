@@ -1,0 +1,56 @@
+name: Prep/Aim Time
+type: Variable
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: null
+flags:
+  core: {}
+system:
+  notes: >-
+    Possible modifiers due to preparation or aim time spent on a task. Linked to
+    effects by a modifier.
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: No Penalty
+  entries:
+    - value: 0
+      formula: '0'
+      label: No Penalty
+    - value: -10
+      formula: '-10'
+      label: No Prep/Aim
+    - value: 10
+      formula: '+10'
+      label: 1 round
+    - value: 20
+      formula: '+20'
+      label: 2rounds
+    - value: 30
+      formula: '+30'
+      label: 3 rounds
+    - value: 40
+      formula: '+40'
+      label: 4+ rounds
+  temporary: false
+  once: true
+  sort: -1
+ownership:
+  default: 0
+  UiCXq4VUwQ5S2thO: 3
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667220445860
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: aUgWQeG55tMFsBEz
+sort: 2900000
+_key: '!items!aUgWQeG55tMFsBEz'
+

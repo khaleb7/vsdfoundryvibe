@@ -1,0 +1,41 @@
+name: Magic Points
+type: Pool
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Pool
+  abbr: MP
+  name: ''
+  state: '[1/8]'
+  minForm: '0'
+  min: 0
+  value: 0
+  maxForm: ((@level.voc+@level.stat) * @level.ranks) + @kinmp
+  max: 5
+  forceUpdate: false
+  sort: -1
+  hasmax: true
+  hasmin: true
+  moddedvalue: 1
+  ratio: 4
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '12.289'
+  coreVersion: '12.343'
+  createdTime: 1703268917064
+  modifiedTime: 1755877107848
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: FkRr2fsE9YyANsp6
+sort: 1100000
+_key: '!items!FkRr2fsE9YyANsp6'
+

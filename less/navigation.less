@@ -4,20 +4,21 @@
         padding      : 2px;
         height       : unset;
         line-height  : unset;
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid @ink-colour;
 
         .tabtitle {
             text-align      : center;
             padding         : 2px;
-            border          : 1px dotted black;
+            border          : 1px dotted @ink-colour;
             border-radius   : 3px;
             margin          : 2px;
-            background-color: cadetblue;
+            background-color: @paper-alt-colour;
+            color           : @ink-colour;
         }
 
         .active {
-            background-color: darkolivegreen;
-            color           : aliceblue;
+            background-color: @sepia-accent;
+            color           : @paper-colour;
             font-weight     : normal;
         }
     }

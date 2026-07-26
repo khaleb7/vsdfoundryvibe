@@ -2,13 +2,13 @@
 .modifier {
     .Ubuntu(bold, smaller);
     .roundedcard();
-    border-color: black;
+    border-color: @ink-colour;
 }
 
 .action.modifier {
     .Ubuntu(bold, smaller);
     .roundedcard();
-    border-color: black;
+    border-color: @ink-colour;
     display: grid;
     grid-template-columns: auto 1fr auto;
 
@@ -25,10 +25,11 @@
         grid-template-columns: auto auto;
 
         .actionrate {
-            color: darkgreen;
+            color: @ink-colour;
+            font-weight: bold;
         }
         .actionreq {
-            color: darkred;
+            color: @failure-ink;
         }
 
         .actionvalue {
@@ -51,13 +52,13 @@
 
 .global-modifier,
 .genmod {
-    background-color: rgba(255, 127, 80, 0.25);
+    background-color: fade(@ink-border, 22%);
 }
 
 .specmod {
-    background-color: rgba(95, 158, 160, 0.25);
+    background-color: fade(@ink-faded, 18%);
 }
 
 .inEffect {
-    background-color: #88cc88;
+    background-color: fade(@ink-colour, 22%);
 }

@@ -1,0 +1,33 @@
+name: Torch
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.cQ9rGk7ODUbbgZZQ
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '0'
+  weight: 0
+  availability: Common
+  description: Provides Bright Light in a 3m radius
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485372
+  modifiedTime: 1697655935025
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.cQ9rGk7ODUbbgZZQ
+  duplicateSource: null
+_id: YtEiPzcRtl1A2VLE
+sort: 0
+_key: '!items!YtEiPzcRtl1A2VLE'
+

@@ -1,0 +1,61 @@
+name: Speak with the Dead
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.hcKvE0B37xQJOXTb
+pages:
+  - name: Speak with the Dead
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Communion"> <td>Lore:</td> <td>Communion </td> </tr> <tr>
+        <td>Weave:</td> <td>6th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Communion" data-weave="6th"
+        data-spell="Speak with the Dead" data-range="3 m" data-aoe="1 target"
+        data-duration="-" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Speak with the Dead </td> </tr> <tr> <td>Range:</td>
+        <td>3 m </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td>
+        </tr> <tr> <td>Duration:</td> <td>- </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: KUhQ1la7nK7mdmfh
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!elHMFJQldvn6VF2Y.KUhQ1la7nK7mdmfh'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106199
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.hcKvE0B37xQJOXTb
+  duplicateSource: null
+_id: elHMFJQldvn6VF2Y
+sort: 0
+_key: '!journal!elHMFJQldvn6VF2Y'
+

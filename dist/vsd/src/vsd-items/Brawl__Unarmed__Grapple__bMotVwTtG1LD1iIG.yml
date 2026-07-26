@@ -1,0 +1,43 @@
+name: 'Brawl: Unarmed (Grapple)'
+type: Melee-Attack
+img: systems/vsd/icons/items/weapons/foot-trip.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.okkFeqZhuIOsuIr1
+  cf:
+    id: null
+    color: '#000000'
+system:
+  notes: >-
+    The Unarmed Touch attack used to resolve Touch Range spells when the target
+    is unwilling.
+  chartype: CharacterVsD
+  group: Melee-Attack
+  weight: 100
+  damage: 7.4 Unarmed/Grapple Attack Table
+  damageType: 7.12 Grapple Critical Strikes Table
+  secondary: none
+  armourDiv: 0
+  minST: oe
+  reach: 5
+  value: 0
+  formula: '@brawl'
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490246
+  modifiedTime: 1697655935030
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.okkFeqZhuIOsuIr1
+  duplicateSource: null
+_id: bMotVwTtG1LD1iIG
+sort: 0
+_key: '!items!bMotVwTtG1LD1iIG'
+

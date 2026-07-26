@@ -1,0 +1,283 @@
+name: 'Kin: Halfling'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: yjYDCedHjz8TO97U
+      name: Diminutive
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 100000
+      flags:
+        core:
+          sourceId: Actor.QhBCE7bMLw1UVQYB.Item.Slfx8j77ATN21qYD
+      system:
+        notes: >-
+          Diminutive: Your Kin are of Small Size and count only as half a group
+          member (rounding up) for the purpose of calculating their group’s size
+          when Camping.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459857430
+        modifiedTime: 1703273996422
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: 3SMQodUn5jYWNwqP
+      name: 'Kin: Halfling'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 200000
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: |-
+          Special Traits:
+          - Diminutive
+          - Nimble
+          - Sure-Shot
+          - Second Breakfast
+          - Superstitious
+          Cultures: Pastoral
+          Wealth: 1
+          Background: 5
+          Magic Points: 0
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: -20
+            formula: '-20'
+            category: primary
+            targets: BRN
+          '1':
+            value: 15
+            formula: '15'
+            category: primary
+            targets: SWI
+          '2':
+            value: 10
+            formula: '10'
+            category: primary
+            targets: FOR
+          '3':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: WSD
+          '4':
+            value: 10
+            formula: '10'
+            category: defence
+            targets: Toughness
+          '5':
+            value: 35
+            formula: '35'
+            category: defence
+            targets: Willpower
+          '6':
+            value: 20
+            formula: '20'
+            category: reaction
+            targets: Body
+          '7':
+            value: 20
+            formula: '20'
+            category: primary
+            targets: KinVoc
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459867989
+        modifiedTime: 1703274036016
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - name: Nimble
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      flags:
+        core:
+          sourceId: Compendium.vsd.vsd-items.Item.6n14wnZ5UAi8vRx1
+      system:
+        notes: >-
+          Nimble: Your kin get a special +20 bonus to their Stealth and
+          Acrobatic Skills.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '+20'
+            category: skill
+            targets: Stealth, Acrobatics
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cwpZyEuSkQ36r9mu: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459885077
+        modifiedTime: 1703274043791
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+      _id: Sid4t6E4qzMkt5Kt
+      sort: 400000
+    - _id: XBPMjKHYgsUwX36c
+      name: Second Breakfast
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 300000
+      flags:
+        core:
+          sourceId: Actor.QhBCE7bMLw1UVQYB.Item.7NOGK0DbjM1Fot2b
+      system:
+        notes: >-
+          Second Breakfast: Your Kin double their HP recovery for the day if
+          they manage to have a lavish meal (a real meal, not rations!) before
+          resting.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459891397
+        modifiedTime: 1703274003353
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: Cclqwkeqgw6YKn3r
+      name: Sure-Shot
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 150000
+      flags:
+        core:
+          sourceId: Actor.QhBCE7bMLw1UVQYB.Item.xeQ97HoqW62fAK3G
+      system:
+        notes: 'Sure-Shot: Your kin get a special +10 bonus to their Ranged Skill.'
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Ranged
+          '1':
+            value: 10
+            formula: '+10'
+            category: attack
+            targets: Ranged
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689459896221
+        modifiedTime: 1703274056847
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  cwpZyEuSkQ36r9mu: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703274068647
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: CdCqonzkPQWede6n
+sort: 0
+_key: '!items!CdCqonzkPQWede6n'
+

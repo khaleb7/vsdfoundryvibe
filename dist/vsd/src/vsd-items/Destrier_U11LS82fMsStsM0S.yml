@@ -1,0 +1,33 @@
+name: Destrier
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.FxhUw54hKZfMZzhE
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '3'
+  weight: 0
+  availability: Uncommon
+  description: Heavy warhorse
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485324
+  modifiedTime: 1697655935017
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.FxhUw54hKZfMZzhE
+  duplicateSource: null
+_id: U11LS82fMsStsM0S
+sort: 0
+_key: '!items!U11LS82fMsStsM0S'
+

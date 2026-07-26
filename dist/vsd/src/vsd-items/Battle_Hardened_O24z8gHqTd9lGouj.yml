@@ -1,0 +1,76 @@
+name: Battle Hardened
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.0IlL1ocO6iuQM2Au
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Battle Hardened
+      type: Trait
+      system:
+        notes: >-
+          You survived many battles, and carry their scars on your body, proving
+          your valor and your worth as a seasoned warrior.
+
+          - Minor (cost 1 BP):  You have an impressive scar somewhere on your
+          body; describe it. Increase your starting HPs by 15, and the Max HP
+          for your Kin by 10.
+
+          - Major (cost 3 BPs):  You also never suffer the penalty for being
+          Bruised.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Battle Hardened
+      type: Modifier
+      system:
+        notes: |-
+          Increase your starting HPs by 15, and the Max HP for your Kin by 10.
+
+          Make note of the new Max HP in the Hit Point Pool.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 15
+            formula: '15'
+            category: reaction
+            targets: Body
+          '1':
+            value: 15
+            formula: '15'
+            category: primary
+            targets: KinVoc
+        tempName: Battle Hardened
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485194
+  modifiedTime: 1697655935007
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.0IlL1ocO6iuQM2Au
+  duplicateSource: null
+_id: O24z8gHqTd9lGouj
+sort: 0
+_key: '!items!O24z8gHqTd9lGouj'
+

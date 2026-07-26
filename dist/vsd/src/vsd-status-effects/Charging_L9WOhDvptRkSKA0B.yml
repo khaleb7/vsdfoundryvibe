@@ -1,0 +1,55 @@
+name: Charging
+type: Modifier
+flags:
+  core: {}
+img: systems/vsd/icons/charging.png
+effects: []
+folder: null
+system:
+  notes: |-
+    Charge an opponent at maximum speed to deliver a powerful blow.
+    • Use a Full Action, half move rate, attack with a special +20 bonus;
+    • Must move before attacking;
+    • May not Parry in the same round;
+    • Engaged characters may not Charge.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: false
+  alwaysOn: true
+  attack: true
+  defence: false
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    '0':
+      value: 20
+      formula: '+20'
+      category: attack
+      targets: ''
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Charge
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+  UiCXq4VUwQ5S2thO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: vsd
+  systemVersion: '12.282'
+  createdTime: 1742311888647
+  modifiedTime: 1742319124457
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+_id: L9WOhDvptRkSKA0B
+sort: 0
+_key: '!items!L9WOhDvptRkSKA0B'
+

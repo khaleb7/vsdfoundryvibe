@@ -1,0 +1,50 @@
+name: Sizes
+type: Variable
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: null
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: ''
+  label: Medium
+  entries:
+    - value: 0
+      formula: small
+      label: Small
+    - value: 0
+      formula: medium
+      label: Medium
+    - value: 0
+      formula: large
+      label: Large
+    - value: 0
+      formula: huge
+      label: Huge
+    - value: 0
+      formula: colossal
+      label: Colossal
+  temporary: false
+  once: false
+ownership:
+  default: 0
+  xAfxzkcKCVoU4Sz0: 3
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667685291327
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: PA0fYQ1ABtYp7um2
+sort: 3600000
+_key: '!items!PA0fYQ1ABtYp7um2'
+

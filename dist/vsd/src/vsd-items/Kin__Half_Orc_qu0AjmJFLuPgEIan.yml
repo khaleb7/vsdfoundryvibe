@@ -1,0 +1,242 @@
+name: 'Kin: Half Orc'
+type: Container
+img: icons/environment/people/group.webp
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - _id: a9CLEQhTDMHcTMlh
+      name: Dark Sight
+      type: Trait
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 100000
+      flags:
+        core:
+          sourceId: Actor.kilkzDGM8bD2GBzJ.Item.osSoyWIhI24UvVeg
+      system:
+        notes: >-
+          Dark Sight: Your Kin can see up to 30 m in Dim Light (treating the
+          first 15 m as if they were standing in Bright Light); and up to 3 m in
+          Total Darkness.
+        chartype: CharacterVsD
+        group: kin
+        applied: false
+        category: perk
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460116700
+        modifiedTime: 1703273865443
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: Qq9PcyQSK5ySgIuZ
+      name: Fire-Hardened
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 200000
+      flags:
+        core:
+          sourceId: Actor.kilkzDGM8bD2GBzJ.Item.dxZUKvBYB25HUJRs
+      system:
+        notes: >-
+          Fire-Hardened: Your kin get a +15 bonus to their Save Rolls and
+          Defense against heat and flame.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 15
+            formula: '+15'
+            category: defence
+            targets: Toughness, Willpower
+          '1':
+            value: 15
+            formula: '+15'
+            category: reaction
+            targets: Missile, Melee
+        temporary: false
+        once: true
+        condition: true
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460125067
+        modifiedTime: 1703273886995
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: pGCseLj0cZt8dv2L
+      name: 'Kin: Half Orc'
+      type: Modifier
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 300000
+      flags:
+        core:
+          sourceId: Item.ZN7IxBeCDCP6Fhn7
+      system:
+        notes: |-
+          Special Traits:
+          - Dark Sight
+          - Fire-Hardened
+          - Sneaky
+          Cultures: Deep, Weald, Marauding, or Hill
+          Wealth: 0
+          Background: 5
+          Magic Points: 0
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: true
+        damage: false
+        primary: true
+        entries:
+          '0':
+            value: 5
+            formula: '5'
+            category: primary
+            targets: BRN
+          '1':
+            value: 10
+            formula: '10'
+            category: primary
+            targets: FOR
+          '2':
+            value: -5
+            formula: '-5'
+            category: primary
+            targets: BEA
+          '3':
+            value: 5
+            formula: '5'
+            category: defence
+            targets: Toughness
+          '4':
+            value: 30
+            formula: '30'
+            category: reaction
+            targets: Body
+          '5':
+            value: 30
+            formula: '30'
+            category: primary
+            targets: KinVoc
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        cFMVT6Qd4M0fbk5F: 3
+        UiCXq4VUwQ5S2thO: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460128916
+        modifiedTime: 1703273891156
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+    - _id: kKtdGqT7z9YBpZbb
+      name: Sneaky
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      effects: []
+      folder: mdT0zcYLGFjrYMMj
+      sort: 150000
+      flags:
+        core:
+          sourceId: Actor.kilkzDGM8bD2GBzJ.Item.64GGoEFrQXt2N4Yt
+      system:
+        notes: >-
+          Sneaky: Despised by many kin, your kin quickly learn to avoid unwanted
+          attention. They get a special +10 bonus to their Stealth skill.
+        chartype: CharacterVsD
+        group: kin
+        inEffect: true
+        alwaysOn: true
+        attack: true
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '+10'
+            category: skill
+            targets: Stealth
+        temporary: false
+        once: false
+        condition: false
+        sort: -1
+      ownership:
+        default: 0
+        DA5mblIZ1RT8WnN2: 3
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+      _stats:
+        systemId: vsd
+        systemVersion: '2.60'
+        coreVersion: '11.315'
+        createdTime: 1689460140755
+        modifiedTime: 1703273896434
+        lastModifiedBy: pVnKHrzHL0Jnx5B6
+effects: []
+folder: xHkK3TLKCWJk6luU
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.60'
+  coreVersion: '12.328'
+  createdTime: 1689440641856
+  modifiedTime: 1703273913187
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: qu0AjmJFLuPgEIan
+sort: 300000
+_key: '!items!qu0AjmJFLuPgEIan'
+

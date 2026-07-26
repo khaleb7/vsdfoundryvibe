@@ -1,0 +1,36 @@
+name: Wizard for hire
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.TExy2WQkY9l2w4Tg
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '3'
+  weight: 0
+  availability: Uncommon to Rare
+  description: >-
+    A Wizard of up to lvl 5 hired for a short period of time as personal
+    protection or to enchant/research spells. Higher level Wizards or longer
+    periods require higher Fare and are more Rare to find.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485353
+  modifiedTime: 1697655935058
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.TExy2WQkY9l2w4Tg
+  duplicateSource: null
+_id: qMvaKSGWtEJPmhxL
+sort: 0
+_key: '!items!qMvaKSGWtEJPmhxL'
+

@@ -1,0 +1,92 @@
+name: Strider
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.HqX6gGAQazIPepGw
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Strider
+      type: Trait
+      system:
+        notes: >-
+          You lived most of your life in the wilderness, and are accustomed to
+          the laws of Nature. You are stigmatised as an 'outsider' by most of
+          the civilized people you meet, but you probably don't care.
+
+          - Minor (cost 1 BP):  Write your Nature about why you preferred the
+          harshness of the wilds to the comforts of civilization. You gain a +10
+          bonus to all your Adventuring Skills while you are outdoors, far from
+          civilization. Furthermore, you can travel up to 1.5x the normal
+          overland distance per day, as long as you're on foot and Unencumbered
+          or Lightly Encumbered.
+
+          - Major (cost 3 BPs):  Additionally, you get a +30 bonus on your Save
+          Rolls against Weariness and Starvation, and a +20 bonus to your
+          Stealth and Perception Skills while you are out in the wilderness.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Strider (Outdoors)
+      type: Modifier
+      system:
+        notes: >-
+          Minor - You gain a +10 bonus to all your Adventuring Skills while you
+          are outdoors, far from civilization.
+
+
+          Delete the major effects if they do not apply.
+
+          Major - Additionally, you get a +30 bonus on your Save Rolls against
+          Weariness and Starvation, and a +20 bonus to your Stealth and
+          Perception Skills while you are out in the wilderness.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: true
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Athletics, Ride, Hunting, Nature, Wandering
+          '1':
+            value: 30
+            formula: '30'
+            category: defence
+            targets: Willpower, Toughness
+          '2':
+            value: 20
+            formula: '20'
+            category: skill
+            targets: Stealth, Perception
+        tempName: Strider (Outdoors)
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485206
+  modifiedTime: 1697655935048
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.HqX6gGAQazIPepGw
+  duplicateSource: null
+_id: mGkA6zGyjmeatzPy
+sort: 0
+_key: '!items!mGkA6zGyjmeatzPy'
+

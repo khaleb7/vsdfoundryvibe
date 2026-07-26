@@ -1,0 +1,56 @@
+name: Save Target
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: >-
+    The target for a save roll, either from an Attack Level or from a Spell
+    Save.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: false
+  defence: true
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '-@attack_level'
+      category: defence
+      targets: Toughness, Willpower
+      moddedformula: '0'
+    - value: 0
+      formula: '-@sst'
+      category: defence
+      targets: Toughness, Willpower
+      moddedformula: '0'
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Save Target (Spell)
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377556733
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: sNbHZtUD4H7KguQU
+sort: 3500000
+_key: '!items!sNbHZtUD4H7KguQU'
+

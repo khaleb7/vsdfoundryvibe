@@ -1,0 +1,119 @@
+name: Short Spear
+type: Container
+img: systems/vsd/icons/items/weapons/spear-hook.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.0QaOB9g5ocjBW55t
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Short Spear (1 handed)
+      type: Modifier
+      img: icons/svg/mystery-man-black.svg
+      system:
+        notes: note
+        chartype: CharacterVsD
+        group: Modifier
+        sort: -1
+        inEffect: false
+        alwaysOn: false
+        attack: true
+        defence: false
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: -10
+            formula: '-10'
+            category: attack
+            targets: 'Polearms: Short Spear'
+      folder: null
+      permission:
+        default: 0
+        OxYGvqLVXSV3pvbk: 3
+    - name: 'Polearms: Short Spear (Pierce)'
+      type: Melee-Attack
+      img: systems/vsd/icons/items/weapons/spear-hook.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: Long
+          Attack Table: Edged
+          Max: 140
+          Crit Table: Pierce
+          Range: -
+          Qualities: Hand and a Half
+        chartype: CharacterVsD
+        group: Melee-Attack
+        sort: -1
+        value: 0
+        formula: '@polearms'
+        damage: 7.1 Edged Attack Table
+        damageType: 7.11 Pierce Critical Strikes Table
+        armourDiv: 5
+        minST: oe
+        weight: 140
+        reach: 5
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+    - name: 'Ranged: Thrown Short Spear (Pierce)'
+      type: Ranged-Attack
+      img: systems/vsd/icons/items/weapons/spear-hook.svg
+      system:
+        notes: |-
+          Hands: 1H
+          Length: -
+          Attack Table: Missile
+          Max: 130
+          Crit Table: Pierce
+          Range: 5
+          Qualities:
+        chartype: CharacterVsD
+        group: Ranged-Attack
+        sort: -1
+        value: 0
+        formula: '@ranged'
+        damage: 7.3 Missile Attack Table
+        damageType: 7.11 Pierce Critical Strikes Table
+        armourDiv: 3
+        minST: oe
+        accuracy: 130
+        range: '5'
+        rof: 5
+        shots: ''
+        bulk: 0
+        recoil: ''
+      folder: null
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490205
+  modifiedTime: 1697655934979
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.0QaOB9g5ocjBW55t
+  duplicateSource: null
+_id: 9uUuriVZ8VL5dj4z
+sort: 0
+_key: '!items!9uUuriVZ8VL5dj4z'
+

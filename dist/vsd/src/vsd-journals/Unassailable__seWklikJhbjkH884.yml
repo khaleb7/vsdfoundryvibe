@@ -1,0 +1,61 @@
+name: Unassailable*
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.f8Q9usZ1IusCM6m3
+pages:
+  - name: Unassailable*
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Heroic Defense"> <td>Lore:</td> <td>Heroic Defense </td>
+        </tr> <tr> <td>Weave:</td> <td>8th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Heroic Defense" data-weave="8th"
+        data-spell="Unassailable*" data-range="0 (self)" data-aoe="caster"
+        data-duration="1 rnd/lvl" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Unassailable* </td> </tr> <tr> <td>Range:</td> <td>0
+        (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>caster </td> </tr>
+        <tr> <td>Duration:</td> <td>1 rnd/lvl </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: 2aXURc3s1L6pp4yD
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!seWklikJhbjkH884.2aXURc3s1L6pp4yD'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106199
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.f8Q9usZ1IusCM6m3
+  duplicateSource: null
+_id: seWklikJhbjkH884
+sort: 0
+_key: '!journal!seWklikJhbjkH884'
+

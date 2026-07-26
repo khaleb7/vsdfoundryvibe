@@ -1,0 +1,33 @@
+name: Meal, Normal
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.v4GRZpbl5FTTk6PY
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '1'
+  weight: 0
+  availability: Common
+  description: Enough food for a small family or a group of 5 people.
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485408
+  modifiedTime: 1697655934979
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.v4GRZpbl5FTTk6PY
+  duplicateSource: null
+_id: 9mEcmfvJabSGS20R
+sort: 0
+_key: '!items!9mEcmfvJabSGS20R'
+

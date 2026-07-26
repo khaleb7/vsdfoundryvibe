@@ -1,0 +1,61 @@
+name: Hand of Doom
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.QNI2NwHs2w2ExJ8K
+pages:
+  - name: Hand of Doom
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Dark Sorcery"> <td>Lore:</td> <td>Dark Sorcery </td> </tr>
+        <tr> <td>Weave:</td> <td>4th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Dark Sorcery" data-weave="4th"
+        data-spell="Hand of Doom" data-range="0 (touch)" data-aoe="1 target"
+        data-duration="-" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Hand of Doom </td> </tr> <tr> <td>Range:</td> <td>0
+        (touch) </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td>
+        </tr> <tr> <td>Duration:</td> <td>- </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: dyqAmXX9CnboMFLB
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!dIMV5i9BJQmPfpNb.dyqAmXX9CnboMFLB'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.QNI2NwHs2w2ExJ8K
+  duplicateSource: null
+_id: dIMV5i9BJQmPfpNb
+sort: 0
+_key: '!journal!dIMV5i9BJQmPfpNb'
+

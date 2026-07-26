@@ -1,0 +1,49 @@
+name: Failed Spell Type
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: Links the Spell Failure Mods variable to the Spell Failure roll.
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: false
+  defence: true
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '@failed_spell_type'
+      category: defence
+      targets: Spell Failure
+      moddedformula: '0'
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+  tempName: Failed Spell Type
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689521227196
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: y6pgEl3jtK7QktEG
+sort: 6100000
+_key: '!items!y6pgEl3jtK7QktEG'
+

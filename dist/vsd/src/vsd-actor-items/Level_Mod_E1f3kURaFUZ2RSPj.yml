@@ -1,0 +1,49 @@
+name: Level Mod
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: false
+  defence: true
+  skill: false
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 5
+      formula: '@level'
+      category: defence
+      targets: Toughness, Willpower
+      moddedformula: '5'
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+  tempName: Level Mod
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689521245699
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: E1f3kURaFUZ2RSPj
+sort: 500000
+_key: '!items!E1f3kURaFUZ2RSPj'
+

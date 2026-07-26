@@ -1,0 +1,50 @@
+// Skills
+<div class="item entry {{rollableData.system.group}}" data-item-id="{{rollableData._id}}" title="{{rollableData.system.notes}}">
+    <label class="open-journal" data-table="{{rollableData.name}}"> {{rollableData.name}} [{{rollableData.system.formula}}] </label>
+    <label class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}" data-modtype="{{rollableData.system.category}}" data-type="modlist">[{{rollableData.system.moddedvalue}}]</label>
+    <a class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}" data-type="{{rollableData.system.category}}" data-attacktable="2.1 Action Resolution Table">
+        <i class="fas fa-dice-d20"></i>
+    </a>
+</div>
+
+// Spells
+<div class="item entry {{rollableData.system.group}}" data-item-id="{{rollableData._id}}" title="{{rollableData.system.notes}}">
+    <label class="open-journal" data-table="{{rollableData.name}}"> {{rollableData.name}} [{{rollableData.system.formula}}] </label>
+    <label class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}" data-modtype="{{rollableData.system.category}}" data-type="modlist">[{{rollableData.system.moddedvalue}}]</label>
+    <a class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}" data-type="{{rollableData.system.category}}" data-attacktable="2.6 Spell Casting Table" data-journal="{{rollableData.name}}">
+        <i class="fas fa-dice-d20"></i></a>
+</div>
+
+// Attack spells
+<div class="item entry {{rollableData.system.group}}" data-item-id="{{rollableData._id}}" title="{{rollableData.system.notes}}">
+    <label class="open-journal" data-table="{{rollableData.spellname}}"> {{rollableData.spellnamecrit}} </label>
+    <label class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}" data-modtype="attack" data-type="modlist">[{{rollableData.system.moddedvalue}}]</label>
+    <a class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}" data-threat="{{rollableData.system.armourDiv}}" data-type="attack" data-oerange="{{rollableData.system.rof}}" data-maxresult="{{rollableData.system.accuracy}}" data-attacktable="{{rollableData.system.damage}}"  data-crittable="{{item.system.damageType}}" data-sectable="{{item.system.secondary}}" data-journal="{{rollableData.spellname}}">
+        <i class="fas fa-dice-d20"></i></a>
+</div>
+
+// Physical Attacks
+<div class="item entry {{rollableData.system.group}}" data-item-id="{{rollableData._id}}" title="{{rollableData.system.notes}}">
+    <label class="open-journal" data-table="{{rollableData.system.damage}}">{{rollableData.attacknamecrit}}</label>
+    <label class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}" data-modtype="attack" data-type="modlist">[{{rollableData.system.moddedvalue}}]</label>
+    <a class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}" data-threat="{{rollableData.system.armourDiv}}" data-type="attack" data-attacktable="{{rollableData.system.damage}}"  data-crittable="{{item.system.damageType}}" data-sectable="{{item.system.secondary}}" data-oerange="{{#if (eq rollableData.type 'Melee-Attack')}}{{rollableData.system.reach}}{{else}}{{rollableData.system.rof}}{{/if}}" data-maxresult="{{#if (eq rollableData.type 'Melee-Attack')}}{{rollableData.system.weight}}{{else}}{{rollableData.system.accuracy}}{{/if}}">
+        <i class="fas fa-dice-d20"></i></a>
+</div>
+
+// Defences
+<div class="item entry {{rollableData.system.group}}" data-item-id="{{rollableData._id}}" title="{{rollableData.system.notes}}">
+    <label class="{{#if (eq rollableData.system.category "dodge")}}""open-journal="{{else}}"item-edit="{{/if}} data-table="{{rollableData.system.notes}}"> {{rollableData.name}} </label>
+    <label class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}" data-modtype="{{rollableData.system.category}}" data-type="modlist">[{{rollableData.system.moddedvalue}}]</label>
+    <a class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.system.value}}" data-type="{{rollableData.system.category}}="{{#if (eq rollableData.system.category "dodge")}} data-attacktable="{{rollableData.system.notes}}="{{/if}}>
+        <i class="fas fa-dice-d20"></i>
+    </a>
+</div>
+
+// Saving Throws
+<div class="item entry {{rollableData.group}}" data-item-id="{{rollableData._id}}" title="{{rollableData.notes}}">
+    <label class="item-edit"> {{rollableData.name}} </label>
+    <label class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.value}}" data-modtype="block" data-type="modlist">[{{rollableData.moddedvalue}}]</label>
+    <a class="rollable" data-name="{{rollableData.name}}" data-roll="{{rollableData.value}}" data-type="block">
+        <i class="fas fa-dice-d20"></i>
+    </a>
+</div>

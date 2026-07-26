@@ -1,0 +1,33 @@
+name: Critical (Cut)
+type: Defence
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: 7.10 Cut Critical Strikes Table
+  chartype: CharacterVsD
+  group: dodge
+  weight: 0
+  value: 0
+  formula: '0'
+  category: dodge
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377389530
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: bKZmu6PPczvdzFN4
+sort: 10500000
+_key: '!items!bKZmu6PPczvdzFN4'
+

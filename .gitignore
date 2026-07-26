@@ -11,5 +11,5 @@ node_modules/
 
 vsd.code-workspace
 
-# Release staging
-dist/
+tools/extracted/
+

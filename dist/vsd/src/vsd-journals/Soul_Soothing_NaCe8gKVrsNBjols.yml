@@ -1,0 +1,99 @@
+name: Soul Soothing
+folder: Z9DrIJY8LTitWm9q
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.Adqpxf4oX6B2NN9g
+pages:
+  - name: Soul Soothing
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spelllisttable"> <tbody> <tr class="tableheaderrow"> <td
+        class="weave">Weave</td> <td class="spell">Spell</td> <td
+        class="range">Range</td> <td class="areaofeffect">Area of Effect</td>
+        <td class="duration">Duration</td> <td class="save">Save</td> </tr> <tr
+        class="tablerow open-journal" data-table="Sustain Life"> <td
+        class="weave">1st</td> <td class="spell">Sustain Life</td> <td
+        class="range">3 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Tranquillity"> <td
+        class="weave">2nd</td> <td class="spell">Tranquillity</td> <td
+        class="range">30 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 min/lvl</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Dispel Fear"> <td
+        class="weave">3rd</td> <td class="spell">Dispel Fear</td> <td
+        class="range">20 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Banish Fatigue"> <td
+        class="weave">4th</td> <td class="spell">Banish Fatigue</td> <td
+        class="range">20 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Restoration"> <td
+        class="weave">5th</td> <td class="spell">Restoration</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Inspire*"> <td
+        class="weave">6th</td> <td class="spell">Inspire*</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">6 m radius</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Peace of Mind"> <td
+        class="weave">7th</td> <td class="spell">Peace of Mind</td> <td
+        class="range">3 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">-</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Break Curse"> <td
+        class="weave">8th</td> <td class="spell">Break Curse</td> <td
+        class="range">3 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">-</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Exorcism"> <td
+        class="weave">9th</td> <td class="spell">Exorcism</td> <td
+        class="range">20 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">1 day/10 fail</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="The Secret Flame"> <td
+        class="weave">10th</td> <td class="spell">The Secret Flame</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">caster</td> <td
+        class="duration">1 rnd/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablefootrow"> <td class="stat" colspan="6">Vocations:
+        Animist</td> </tr> <tr class="tablefootrow"> <td class="stat"
+        colspan="4">Stat Value: WSD</td> <td class="page" colspan="2">Page:
+        409</td> </tr> </tbody> </table>
+    _id: wueOEtEgIOm3iNz4
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!NaCe8gKVrsNBjols.wueOEtEgIOm3iNz4'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519554648
+  modifiedTime: 1689519573070
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.Adqpxf4oX6B2NN9g
+  duplicateSource: null
+_id: NaCe8gKVrsNBjols
+sort: 0
+_key: '!journal!NaCe8gKVrsNBjols'
+

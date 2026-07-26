@@ -1,0 +1,75 @@
+name: loading
+type: Modifier
+sort: 0
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-saves-various.kHapUPo68IMGecvg
+img: systems/vsd/icons/conditions/loading.svg
+effects: []
+folder: D2AdAfErQXugML31
+system:
+  notes: When a character falls below 50% hit points
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: false
+  alwaysOn: false
+  attack: true
+  defence: true
+  skill: true
+  spell: true
+  check: true
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: -20
+      formula: '-20'
+      category: attack
+      targets: ''
+      moddedvalue: -20
+    - value: -20
+      formula: '-20'
+      category: defence
+      targets: ''
+      moddedvalue: -20
+    - value: -20
+      formula: '-20'
+      category: skill
+      targets: ''
+      moddedvalue: -20
+    - value: -20
+      formula: '-20'
+      category: spell
+      targets: ''
+      moddedvalue: -20
+    - value: -20
+      formula: '-20'
+      category: attack
+      targets: ''
+      moddedvalue: -20
+    - value: -20
+      formula: '-20'
+      category: reaction
+      targets: Missile, Melee
+      moddedvalue: -20
+  temporary: false
+  once: false
+  condition: true
+  forceUpdate: false
+  sort: -1
+  tempName: Bruised
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1664909138836
+  modifiedTime: 1697655937362
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-saves-various.kHapUPo68IMGecvg
+  duplicateSource: null
+_id: Q60WJkPnCe8VMzIw
+_key: '!items!Q60WJkPnCe8VMzIw'
+

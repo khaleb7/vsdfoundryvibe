@@ -1,0 +1,58 @@
+name: Metal Greaves
+type: Modifier
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Bxxo1AxxBitNbUjx
+flags:
+  core: {}
+system:
+  notes: |-
+    Fare: 1
+    Type: -
+    Protects: Lower Legs
+    Qualities: Metal, Rigid
+    Max SWI: -
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: false
+  attack: false
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '0'
+      category: reaction
+      targets: ''
+      moddedvalue: 0
+    - value: -5
+      formula: '-5'
+      category: primary
+      targets: ArmPen
+      moddedvalue: -5
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  8VtokmkrTaxXr4Uk: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485143
+  modifiedTime: 1697655937285
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: P3RzvOW9WTvMIGUK
+sort: 900000
+_key: '!items!P3RzvOW9WTvMIGUK'
+

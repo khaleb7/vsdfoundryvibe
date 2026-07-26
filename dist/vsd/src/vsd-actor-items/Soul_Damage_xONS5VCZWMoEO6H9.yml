@@ -1,0 +1,41 @@
+name: Soul Damage
+type: Primary-Attribute
+img: icons/svg/mystery-man-black.svg
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: value
+  abbr: SD
+  attr: 0
+  value: 0
+  name: ''
+  state: '[Empty]'
+  minForm: '0'
+  min: 0
+  maxForm: '400'
+  max: 400
+  hasmin: false
+  hasmax: false
+  moddedvalue: 0
+effects: []
+folder: null
+ownership:
+  default: 0
+  xAfxzkcKCVoU4Sz0: 3
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667694698057
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: xONS5VCZWMoEO6H9
+sort: 3800000
+_key: '!items!xONS5VCZWMoEO6H9'
+

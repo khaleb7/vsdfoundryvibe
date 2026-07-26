@@ -1,0 +1,33 @@
+name: Rent, shack
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.KN8yYKWCU5rBJZg7
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '1'
+  weight: 0
+  availability: Common
+  description: 'Renting a barrack for a month. '
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485338
+  modifiedTime: 1697655935065
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.KN8yYKWCU5rBJZg7
+  duplicateSource: null
+_id: uTYeOuWQI4psFDbm
+sort: 0
+_key: '!items!uTYeOuWQI4psFDbm'
+

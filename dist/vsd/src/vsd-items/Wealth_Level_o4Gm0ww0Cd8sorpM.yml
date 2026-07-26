@@ -1,0 +1,52 @@
+name: Wealth Level
+type: Variable
+img: icons/svg/mystery-man-black.svg
+effects: []
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-dropbox.Item.iEZIh53MzVXK9RGu
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: ''
+  label: Commoner
+  entries:
+    - value: 0
+      formula: '0'
+      label: Serf or Outcast
+    - value: 1
+      formula: '1'
+      label: Struggling
+    - value: 2
+      formula: '2'
+      label: Commoner
+    - value: 3
+      formula: '3'
+      label: Gentry
+    - value: 4
+      formula: '4'
+      label: Lesser Noble
+    - value: 5
+      formula: '5'
+      label: Greater Noble
+  temporary: false
+  once: false
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1667685069103
+  modifiedTime: 1697655939130
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-dropbox.Item.iEZIh53MzVXK9RGu
+  duplicateSource: null
+folder: lS2E3Pe2AclQDTmR
+_id: o4Gm0ww0Cd8sorpM
+sort: 1300000
+_key: '!items!o4Gm0ww0Cd8sorpM'
+

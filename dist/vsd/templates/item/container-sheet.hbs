@@ -1,0 +1,155 @@
+{{debug "this:" this}}
+
+<form class="{{cssClass}} containerentry" autocomplete="off">
+
+  {{!-- Sheet Header --}}
+  <header class="sheet-header">
+    <img class="portrait" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+    <input name="name" type="text" value="{{item.name}}" placeholder="{{localize " local.item.name"}}" />
+  </header>
+  <hr>
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+    <div class="section">
+      <div class="sectionheader">
+        <label>{{localize "local.sections.itemlist"}}</label>
+      </div>
+      <div class="content" style="display: block">
+        <div class="nospan owneditems item-list">
+          {{#each item.system.entries as |entry|}}
+
+          {{#if (eq entry.type "Primary-Attribute")}}
+          <div class="item containeritem ability draggable" data-id="{{@index}}" title="{{entry.system.notes}}">
+            <label class="name">{{entry.name}}</label>
+            <label class="type">{{entry.type}}</label>
+            <label class="value">{{entry.system.attr}}</label>
+            <a class="entry-delete"><i class="fas fa-trash"></i></a>
+          </div>
+          {{else if (eq entry.type "Modifier")}}
+          <div class="item containeritem mod{{#if entry.system.inEffect}} inEffect{{/if}} draggable" data-id="{{@index}}" title="{{entry.system.notes}}">
+            <label class="name">{{entry.name}}</label>
+            <label class="type item-toggle">{{entry.type}}</label>
+            <div class="check">
+              <input class="value iteminput" type="checkbox" {{checked entry.system.condition}} disabled />
+              <span> Cond</span>
+            </div>
+            {{#if (or entry.system.once entry.system.temporary)}}
+            <div class="check"></div>
+            {{else}}
+            <div class="check">
+              <input class="value iteminput" type="checkbox" {{checked entry.system.alwaysOn}} disabled />
+              <span> Perm</span>
+            </div>
+            {{/if}}
+            {{#if (or entry.system.alwaysOn entry.system.once)}}
+            <div class="check"></div>
+            {{else}}
+            <div class="check">
+              <input class="value iteminput" type="checkbox" {{checked entry.system.temporary}} disabled />
+              <span> Temp</span>
+            </div>
+            {{/if}}
+            {{#if (or entry.system.alwaysOn entry.system.temporary)}}
+            <div class="check"></div>
+            {{else}}
+            <div class="check">
+              <input class="value iteminput" type="checkbox" {{checked entry.system.once}} disabled />
+              <span> Once</span>
+            </div>
+            {{/if}}
+            <a class="entry-delete"><i class="fas fa-trash"></i></a>
+          </div>
+          {{else if (eq entry.type "Variable")}}
+          <div class="item containeritem var draggable" data-id="{{@index}}" title="{{entry.system.notes}}">
+            <label class="name">{{entry.name}}</label>
+            <label class="type">{{entry.type}}</label>
+            <label class="type">{{entry.system.label}}</label>
+            {{#if entry.system.once}}
+            <div class="check"></div>
+            {{else}}
+            <div class="check">
+              <input class="value iteminput" type="checkbox" {{checked entry.system.temporary}} disabled />
+              <span> Temp</span>
+            </div>
+            {{/if}}
+            {{#if entry.system.temporary}}
+            <div class="check"></div>
+            {{else}}
+            <div class="check">
+              <input class="value iteminput" type="checkbox" {{checked entry.system.once}} disabled />
+              <span> Once</span>
+            </div>
+            {{/if}}
+            <a class="entry-delete"><i class="fas fa-trash"></i></a>
+          </div>
+          {{else if (eq entry.type "Trait")}}
+          <div class="item containeritem trait draggable" data-id="{{@index}}" title="{{entry.system.notes}}">
+            <label class="name">{{entry.name}}</label>
+            <label class="type">{{entry.type}} ({{entry.system.category}})</label>
+            <label class="snippet">{{entry.system.notes}}</label>
+            <a class="entry-delete"><i class="fas fa-trash"></i></a>
+          </div>
+          {{else if (eq entry.type "Pool")}}
+          <div class="item containeritem pool draggable" data-id="{{@index}}" title="{{entry.system.notes}}">
+            <label class="name">{{entry.name}}</label>
+            <label class="name">{{entry.name}}</label>
+            <label class="name">{{entry.system.minForm}}</label>
+            <label class="name">{{entry.system.value}}</label>
+            <label class="name">{{entry.system.maxForm}}</label>
+            <a class="entry-delete"><i class="fas fa-trash"></i></a>
+          </div>
+          {{else if (or (eq entry.type "Melee-Attack")(eq entry.type "Ranged-Attack"))}}
+          <div class="item containeritem attack draggable" data-id="{{@index}}" title="{{entry.system.notes}}">
+            <label class="name">{{entry.name}}</label>
+            <label class="type">{{entry.type}}</label>
+            <label class="value">{{entry.system.formula}}</label>
+            <a class="entry-delete"><i class="fas fa-trash"></i></a>
+          </div>
+          {{else if (eq entry.type "Rollable")}}
+          <div class="item containeritem roll draggable" data-id="{{@index}}" title="{{entry.system.notes}}">
+            <label class="name">{{entry.name}}</label>
+            <label class="type">{{entry.type}} ({{entry.system.category}})</label>
+            <label class="value">{{entry.system.formula}}</label>
+            <a class="entry-delete"><i class="fas fa-trash"></i></a>
+          </div>
+          {{else if entry.system.formula}}
+          <div class="item containeritem draggable" data-id="{{@index}}" title="{{entry.system.notes}}">
+            <label class="name">{{entry.name}}</label>
+            <label class="type">{{entry.type}}</label>
+            <label class="value">{{entry.system.formula}}</label>
+            <a class="entry-delete"><i class="fas fa-trash"></i></a>
+          </div>
+          {{else}} {{! Everything else }}
+          <div class="item containeritem draggable" data-id="{{@index}}" title="{{entry.system.notes}}">
+            <label class="name">{{entry.name}}</label>
+            <label class="type">{{entry.type}}</label>
+            <label class="value">{{entry.system.value}}</label>
+            <a class="entry-delete"><i class="fas fa-trash"></i></a>
+          </div>
+          {{/if}}
+          {{/each}}
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="flexrow">
+      <label class="resource-label">{{localize "local.item.group"}}</label>
+      <input type="text" name="system.group" value="{{item.system.group}}" data-dtype="String" />
+    </div>
+    <hr>
+    <div class="flexrow">
+      <label class="resource-label deployItems">Deploy Items</label>
+      <label class="resource-label removeItems">Remove Items</label>
+    </div>
+    <hr>
+    <h3>{{localize "local.item.notes"}}</h3>
+    <div class="tab">
+      <textarea rows="18" name="system.notes">{{{system.notes}}}</textarea>
+    </div>
+    <script>
+      $("input").focusin(function () {
+        $(this).select();
+      });
+    </script>
+  </section>
+</form>

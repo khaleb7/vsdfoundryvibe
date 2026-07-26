@@ -1,0 +1,98 @@
+/* fix the message background */
+@message-back         : #e0e0e0;
+@message-colour       : #404040;
+@message-border-colour: darkolivegreen;
+@message-alt-colour   : #804040;
+@success              : #080;
+@failure              : #800;
+
+.message {
+    background-color: @message-back;
+    color           : @message-colour;
+    .roundedcard();
+
+    .message-header {
+        display              : grid;
+        grid-template-columns: auto auto 1fr auto auto;
+
+        .message-sender {
+            color: @message-colour;
+        }
+
+        .whisper-to {
+            color: @message-alt-colour;
+        }
+
+        .message-metadata {
+            color: @message-alt-colour;
+        }
+    }
+
+    .flavor-text {
+        color: @message-colour;
+    }
+
+    .message-content {
+        .dice-roll {
+            .dice-result {
+                .dice-formula {
+                    display: none;
+                }
+
+                .dice-total {
+                    .Ubuntu(bold)
+                }
+            }
+        }
+    }
+
+    .chatmod {
+        font-size  : 80%;
+        white-space: nowrap;
+    }
+
+    .critfail {
+        font-weight: bold;
+        color      : @failure;
+    }
+
+    .critsuccess {
+        font-weight: bold;
+        color      : @success;
+    }
+
+    .failure {
+        color: @failure;
+    }
+
+    .success {
+        color: @success;
+    }
+
+    .open-journal:hover {
+        color      : #000;
+        text-shadow: 0 0 10px red;
+        cursor     : pointer;
+    }
+
+    .spell-choice,
+    .critical-result,
+    .attack-result {
+        font-size: smaller;
+
+        .spellname {
+            font-weight: bold;
+            color      : #800;
+        }
+    }
+
+    .critseverity,
+    .defencevalue,
+    .damageresult,
+    .critresult {
+        .roundedheader();
+    }
+    .defencevalue {
+        padding: 0px;
+    }
+}

@@ -1,0 +1,63 @@
+name: Bearing Bonus
+type: Modifier
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The skill bonus from the Bearing stat
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: true
+  attack: true
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 0
+      formula: '@bea'
+      category: skill
+      targets: Charisma, Songs & Tales, Intimidation
+      moddedformula: '0'
+    - value: 0
+      formula: '@bea'
+      category: spell
+      targets: >-
+        Channeling, Commanding, Eldritch Might, Eldritch Visions, Elven, Heroic,
+        Mind Control, Skirmish, Spell Songs, Trickery, Weapon
+      moddedformula: '0'
+    - value: 0
+      formula: '@bea'
+      category: attack
+      targets: >-
+        Channeling, Commanding, Eldritch Might, Eldritch Visions, Elven, Heroic,
+        Mind Control, Skirmish, Spell Songs, Trickery, Weapon
+      moddedformula: '0'
+  temporary: false
+  once: false
+  condition: false
+  forceUpdate: false
+  sort: -1
+  tempName: Bearing Bonus
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377345667
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: NC1EbW49JsJpv6cO
+sort: 11900000
+_key: '!items!NC1EbW49JsJpv6cO'
+

@@ -1,0 +1,17 @@
+name: Vocations
+sorting: a
+folder: null
+type: Item
+_id: X2A9C0U09t5jbIKV
+sort: 500000
+color: '#0060ff'
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.42'
+  coreVersion: '11.307'
+  createdTime: 1689510280562
+  modifiedTime: 1691664561971
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+_key: '!folders!X2A9C0U09t5jbIKV'
+

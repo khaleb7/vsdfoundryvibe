@@ -1,0 +1,61 @@
+name: Tidal Wave
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.qQ9TcARwO6YaLUkH
+pages:
+  - name: Tidal Wave
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Eldritch Tide"> <td>Lore:</td> <td>Eldritch Tide </td> </tr>
+        <tr> <td>Weave:</td> <td>10th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Eldritch Tide" data-weave="10th"
+        data-spell="Tidal Wave" data-range="30 m" data-aoe="10 m × 10 m × 10 m"
+        data-duration="-" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Tidal Wave </td> </tr> <tr> <td>Range:</td> <td>30 m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>10 m × 10 m × 10 m </td>
+        </tr> <tr> <td>Duration:</td> <td>- </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: 42Jpyc3TG0d453pb
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!RwyCjGEWjQg2xAkV.42Jpyc3TG0d453pb'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106433
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.qQ9TcARwO6YaLUkH
+  duplicateSource: null
+_id: RwyCjGEWjQg2xAkV
+sort: 0
+_key: '!journal!RwyCjGEWjQg2xAkV'
+

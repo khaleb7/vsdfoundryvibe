@@ -1,0 +1,47 @@
+name: 'Brawl: Medium Grappling (Grapple)'
+type: Melee-Attack
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: |-
+    Hands: 2H
+    Length: Hand
+    Attack Table: Unarmed
+    Max: 120
+    Crit Table: Grapple
+    Range: -
+    Qualities: -
+  chartype: CharacterVsD
+  group: Melee-Attack
+  weight: 120
+  damage: 7.4 Unarmed/Grapple Attack Table
+  damageType: 7.12 Grapple Critical Strikes Table
+  secondary: None
+  armourDiv: 5
+  minST: oe
+  reach: 5
+  value: 0
+  formula: '@brawl'
+  sort: -1
+  moddedvalue: 0
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+  UiCXq4VUwQ5S2thO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: vsd
+  systemVersion: '12.285'
+  createdTime: 1744532261797
+  modifiedTime: 1744532261797
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+_id: x6lZGTeFZip1Dzdg
+sort: 0
+_key: '!items!x6lZGTeFZip1Dzdg'
+

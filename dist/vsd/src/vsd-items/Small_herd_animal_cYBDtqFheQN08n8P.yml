@@ -1,0 +1,33 @@
+name: Small herd animal
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.uHSpvPBhaJ4VKL0b
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '1'
+  weight: 0
+  availability: Common
+  description: A sheep or goat
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485406
+  modifiedTime: 1697655935034
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.uHSpvPBhaJ4VKL0b
+  duplicateSource: null
+_id: cYBDtqFheQN08n8P
+sort: 0
+_key: '!items!cYBDtqFheQN08n8P'
+

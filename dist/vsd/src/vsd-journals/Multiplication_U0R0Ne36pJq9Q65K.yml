@@ -1,0 +1,61 @@
+name: Multiplication
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.fA8kh9AvslYadM2s
+pages:
+  - name: Multiplication
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Miracles"> <td>Lore:</td> <td>Miracles </td> </tr> <tr>
+        <td>Weave:</td> <td>5th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Miracles" data-weave="5th"
+        data-spell="Multiplication" data-range="0 (touch)" data-aoe="1 target"
+        data-duration="10 min/lvl" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Multiplication </td> </tr> <tr> <td>Range:</td> <td>0
+        (touch) </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td>
+        </tr> <tr> <td>Duration:</td> <td>10 min/lvl </td> </tr> <tr>
+        <td>Save:</td> <td>N </td> </tr> </tbody> </table>
+    _id: Dbv8IUQvD8PBtK56
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!U0R0Ne36pJq9Q65K.Dbv8IUQvD8PBtK56'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106199
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.fA8kh9AvslYadM2s
+  duplicateSource: null
+_id: U0R0Ne36pJq9Q65K
+sort: 0
+_key: '!journal!U0R0Ne36pJq9Q65K'
+

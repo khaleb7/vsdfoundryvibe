@@ -1,0 +1,453 @@
+name: 7.13 Fire Critical Strikes Table
+folder: ENv8BHzgQa0yI9Wl
+flags:
+  exportSource:
+    world: vsd-vsd-test
+    system: vsd
+    coreVersion: 0.7.9
+    systemVersion: '0.34'
+  core:
+    sourceId: Compendium.vsd.vsd-tables.JournalEntry.sBifZWiEzUa4Hoeb
+pages:
+  - name: 7.13 Fire Critical Strikes Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="criticalstrikestable">
+
+        <tbody>
+
+        <tr class="tableheaderrow">
+
+        <td class="roll">Roll</td>
+
+        <td class="resultdescription">Result</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="1-5" data-result="The air around the
+        target warms up. +0 Damage." data-woundtitle="null"
+        data-condition="null" data-hits1="0" data-bleed1="0" data-action1="0"
+        data-effect1="null" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">1-5</td>
+
+        <td class="resultdescription">The air around the target warms up. +0
+        Damage.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="06-20" data-result="Intense heat, the
+        target sweats heavy, but little extra effect. +3 Damage."
+        data-woundtitle="null" data-condition="null" data-hits1="3"
+        data-bleed1="0" data-action1="0" data-effect1="null" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">06-20</td>
+
+        <td class="resultdescription">Intense heat, the target sweats heavy, but
+        little extra effect. +3 Damage.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="21-35" data-result="Minor superficial
+        burns. +8 Damage and 1 Bleed." data-woundtitle="Minor Burn"
+        data-condition="null" data-hits1="8" data-bleed1="1" data-action1="0"
+        data-effect1="null" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">21-35</td>
+
+        <td class="resultdescription">Minor superficial burns. +8 Damage and 1
+        Bleed.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="36-50" data-result="Target's blinded
+        for 1 Round by hot smoke +12 Damage Stunned" data-woundtitle="null"
+        data-condition="null" data-hits1="12" data-bleed1="0" data-action1="0"
+        data-effect1="blind[1], stun" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="null">
+
+        <td class="roll">36-50</td>
+
+        <td class="resultdescription">Target's blinded for 1 Round by hot smoke
+        +12 Damage Stunned</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="51-65" data-result="Target's clothes
+        catch fire. It takes 2 Full Actions to extinguish fire. Target takes 8
+        Damage per Round aflame until the fire is extinguished. After 10 rounds,
+        all clothing is destroyed anyway." data-woundtitle="Clothing Fire"
+        data-condition="null" data-hits1="8" data-bleed1="8" data-action1="0"
+        data-effect1="null" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">51-65</td>
+
+        <td class="resultdescription">Target's clothes catch fire. It takes 2
+        Full Actions to extinguish fire. Target takes 8 Damage per Round aflame
+        until the fire is extinguished. After 10 rounds, all clothing is
+        destroyed anyway.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="66-79" data-result="Target is knocked
+        Prone by a roaring flame blast. Stunned and +12 Damage. Any flammable
+        piece of armor or clothing covering their feet and lower legs is
+        destroyed." data-woundtitle="Armor Fire" data-condition="null"
+        data-hits1="12" data-bleed1="0" data-action1="0" data-effect1="stun,
+        prone" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">66-79</td>
+
+        <td class="resultdescription">Target is knocked Prone by a roaring flame
+        blast. Stunned and +12 Damage. Any flammable piece of armor or clothing
+        covering their feet and lower legs is destroyed.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="80-89" data-result="Fire engulfs
+        target's weapon arm. +10 Damage, 4 Bleed, Stunned. Drops any item and
+        -30 to all actions for deep burns." data-woundtitle="Arm Burns"
+        data-condition="null" data-hits1="10" data-bleed1="4" data-action1="30"
+        data-effect1="stun, drop item" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="null">
+
+        <td class="roll">80-89</td>
+
+        <td class="resultdescription">Fire engulfs target's weapon arm. +10
+        Damage, 4 Bleed, Stunned. Drops any item and -30 to all actions for deep
+        burns.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="90-99" data-result="Fiery blast to
+        the chest spins target around. Disarmed, Stunned, and +12 Damage. Target
+        must Assess at the beginning of next Round with a special -40 penalty."
+        data-woundtitle="null" data-condition="null" data-hits1="12"
+        data-bleed1="0" data-action1="0" data-effect1="drop weapon, stun"
+        data-hits2="0" data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">90-99</td>
+
+        <td class="resultdescription">Fiery blast to the chest spins target
+        around. Disarmed, Stunned, and +12 Damage. Target must Assess at the
+        beginning of next Round with a special -40 penalty.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-superficial" data-type="critical"
+        data-table="7.13 Fire Critical Strikes Table" data-roll="100"
+        data-result="Blast to the face. If the target is wearing some sort of
+        head protection: Stunned, Blinded for 3 Rounds, +15 Damage, and 3 Bleed.
+        If not:knocked unconscious, 6 Bleed, and a horrible scar (-10 BEA)."
+        data-woundtitle="Burned Face" data-condition="helm" data-hits1="15"
+        data-bleed1="3" data-action1="0" data-effect1="blind[3], stun"
+        data-hits2="0" data-bleed2="6" data-action2="0"
+        data-effect2="unconscious, scar[BEA:-10]">
+
+        <td class="roll">100</td>
+
+        <td class="resultdescription">Blast to the face. If the target is
+        wearing some sort of head protection: Stunned, Blinded for 3 Rounds, +15
+        Damage, and 3 Bleed. If not:knocked unconscious, 6 Bleed, and a horrible
+        scar (-10 BEA).</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="101-106" data-result="Fire engulf
+        target's back. All items or clothing carried on the back is destroyed or
+        useless. Target is knocked Prone, Stunned, and takes +12 Damage."
+        data-woundtitle="null" data-condition="null" data-hits1="12"
+        data-bleed1="0" data-action1="0" data-effect1="prone, stun"
+        data-hits2="0" data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">101-106</td>
+
+        <td class="resultdescription">Fire engulf target's back. All items or
+        clothing carried on the back is destroyed or useless. Target is knocked
+        Prone, Stunned, and takes +12 Damage.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="107-109" data-result="Burn to the
+        upper leg. Leg useless due to deep burn and tissue loss. 15 Damage, 5
+        Bleed, and Stunned, -60 to all actions." data-woundtitle="Leg Burn"
+        data-condition="null" data-hits1="15" data-bleed1="5" data-action1="60"
+        data-effect1="stun" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">107-109</td>
+
+        <td class="resultdescription">Burn to the upper leg. Leg useless due to
+        deep burn and tissue loss. 15 Damage, 5 Bleed, and Stunned, -60 to all
+        actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-light" data-type="critical"
+        data-table="7.13 Fire Critical Strikes Table" data-roll="110"
+        data-result="Blast to the neck. If the target is wearing protection: +12
+        Damage, Stunned, and 4 Bleed. If not: target unconscious and Dying in 12
+        Rounds." data-woundtitle="Neck Burn" data-condition="neck armor"
+        data-hits1="12" data-bleed1="4" data-action1="0" data-effect1="stun"
+        data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="unconscious, death[12]">
+
+        <td class="roll">110</td>
+
+        <td class="resultdescription">Blast to the neck. If the target is
+        wearing protection: +12 Damage, Stunned, and 4 Bleed. If not: target
+        unconscious and Dying in 12 Rounds.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="111-116" data-result="Shield arm
+        blast. Shield destroyed along with the hand that wields it. Stunned, 3
+        Bleed, -20 to all actions. If no shield: arm burned to the bone and
+        useless, +12 Damage, Stunned, 6 Bleed, and -30 to all actions."
+        data-woundtitle="Burned Shield Arm" data-condition="shield"
+        data-hits1="0" data-bleed1="3" data-action1="20" data-effect1="stun,
+        crippled hand" data-hits2="12" data-bleed2="6" data-action2="30"
+        data-effect2="stun, crippled arm">
+
+        <td class="roll">111-116</td>
+
+        <td class="resultdescription">Shield arm blast. Shield destroyed along
+        with the hand that wields it. Stunned, 3 Bleed, -20 to all actions. If
+        no shield: arm burned to the bone and useless, +12 Damage, Stunned, 6
+        Bleed, and -30 to all actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="117-119" data-result="Target inhales
+        scalding vapors. +12 Damage, 6 Bleed, target is Prone and incapable of
+        taking any action while coughing for 6 Rounds,then is Stunned."
+        data-woundtitle="Scalding Vapors" data-condition="null" data-hits1="12"
+        data-bleed1="6" data-action1="0" data-effect1="prone, incapacitated[6],
+        stun" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="null">
+
+        <td class="roll">117-119</td>
+
+        <td class="resultdescription">Target inhales scalding vapors. +12
+        Damage, 6 Bleed, target is Prone and incapable of taking any action
+        while coughing for 6 Rounds,then is Stunned.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-moderate" data-type="critical"
+        data-table="7.13 Fire Critical Strikes Table" data-roll="120"
+        data-result="Strike to midsection bathes target in flames. If the target
+        is wearing protection, they are knocked Prone, Stunned, take 8 Bleed,
+        and -60 to all actions for widespread burns. If not: legs destroyed,
+        target dies after 6 Rounds of unconsciousness."
+        data-woundtitle="Midsection Aflame" data-condition="torso protection"
+        data-hits1="0" data-bleed1="8" data-action1="60" data-effect1="prone,
+        stun" data-hits2="0" data-bleed2="0" data-action2="0"
+        data-effect2="crippled legs, death[6], unconscious">
+
+        <td class="roll">120</td>
+
+        <td class="resultdescription">Strike to midsection bathes target in
+        flames. If the target is wearing protection, they are knocked Prone,
+        Stunned, take 8 Bleed, and -60 to all actions for widespread burns. If
+        not: legs destroyed, target dies after 6 Rounds of unconsciousness.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="121-126" data-result="Powerful fiery
+        blast. Target is knocked off their feet and sent flying through the air
+        falling from 3 meters high. Target is disarmed, takes +15 Damage and is
+        Stunned, furthermore, the target takes a Moderate Impact Critical Strike
+        from the fall." data-woundtitle="null" data-condition="null"
+        data-hits1="15" data-bleed1="0" data-action1="0" data-effect1="stun,
+        drop weapon, critical impact[mod]" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="null">
+
+        <td class="roll">121-126</td>
+
+        <td class="resultdescription">Powerful fiery blast. Target is knocked
+        off their feet and sent flying through the air falling from 3 meters
+        high. Target is disarmed, takes +15 Damage and is Stunned, furthermore,
+        the target takes a Moderate Impact Critical Strike from the fall.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="127-129" data-result="Fiery blaze
+        pulverizes target's weapon arm. Arm useless, +12 Damage, 8 Bleed,
+        Stunned, and -40 to all actions." data-woundtitle="Burned Weapon Arm"
+        data-condition="null" data-hits1="12" data-bleed1="8" data-action1="40"
+        data-effect1="stun, crippled arm" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="null">
+
+        <td class="roll">127-129</td>
+
+        <td class="resultdescription">Fiery blaze pulverizes target's weapon
+        arm. Arm useless, +12 Damage, 8 Bleed, Stunned, and -40 to all
+        actions.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-grievous" data-type="critical"
+        data-table="7.13 Fire Critical Strikes Table" data-roll="130"
+        data-result="Fire engulfs target's head. If the target is wearing metal
+        armor: armor fuses on the head and the target dies in 5 Rounds. If the
+        target's wearing non-metal armor: armor destroyed, +12 Damage, 4 Bleed,
+        Stunned, and -20 to all actions. If the target's unarmored: knocked over
+        and dies in 10 minutes due to extensive burns." data-woundtitle="Burned
+        Head" data-condition="non-metal helm" data-hits1="12" data-bleed1="4"
+        data-action1="20" data-effect1="stun" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="prone, death[10 min]">
+
+        <td class="roll">130</td>
+
+        <td class="resultdescription">Fire engulfs target's head. If the target
+        is wearing metal armor: armor fuses on the head and the target dies in 5
+        Rounds. If the target's wearing non-metal armor: armor destroyed, +12
+        Damage, 4 Bleed, Stunned, and -20 to all actions. If the target's
+        unarmored: knocked over and dies in 10 minutes due to extensive
+        burns.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="131-136" data-result="Target is
+        bathed in flames. Extreme heat shock deals +50 Damage. Target falls into
+        a 3-month coma." data-woundtitle="Heat Shock" data-condition="null"
+        data-hits1="50" data-bleed1="0" data-action1="0"
+        data-effect1="unconscious[3 mon]" data-hits2="0" data-bleed2="0"
+        data-action2="0" data-effect2="null">
+
+        <td class="roll">131-136</td>
+
+        <td class="resultdescription">Target is bathed in flames. Extreme heat
+        shock deals +50 Damage. Target falls into a 3-month coma.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="137-140" data-result="Strike to the
+        head. If the target is wearing helm, blinded for 2 weeks, +15 Damage. If
+        not, dies in 6 Rounds due to massive shock." data-woundtitle="Burned
+        Head" data-condition="helm" data-hits1="15" data-bleed1="0"
+        data-action1="0" data-effect1="blind[2 wk]" data-hits2="0"
+        data-bleed2="0" data-action2="0" data-effect2="death[6]">
+
+        <td class="roll">137-140</td>
+
+        <td class="resultdescription">Strike to the head. If the target is
+        wearing helm, blinded for 2 weeks, +15 Damage. If not, dies in 6 Rounds
+        due to massive shock.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="141-146" data-result="Blast to the
+        chest. If the target is wearing chest armor: armor destroyed, +12
+        Damage, 6 Bleed, and Stunned. If not: +20 Damage, 12 Bleed,and target is
+        Incapacitated." data-woundtitle="Burned Chest" data-condition="chest
+        armor" data-hits1="12" data-bleed1="6" data-action1="0"
+        data-effect1="stun" data-hits2="20" data-bleed2="12" data-action2="0"
+        data-effect2="incapacitated">
+
+        <td class="roll">141-146</td>
+
+        <td class="resultdescription">Blast to the chest. If the target is
+        wearing chest armor: armor destroyed, +12 Damage, 6 Bleed, and Stunned.
+        If not: +20 Damage, 12 Bleed,and target is Incapacitated.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="critical" data-table="7.13 Fire
+        Critical Strikes Table" data-roll="147-149" data-result="Target is
+        totally engulfed in roaring flame. All organic material on target is
+        destroyed, and metal melts. Target dies in 6 horrible, screaming
+        Rounds." data-woundtitle="Totally aflame" data-condition="null"
+        data-hits1="0" data-bleed1="0" data-action1="0" data-effect1="death[6]"
+        data-hits2="0" data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">147-149</td>
+
+        <td class="resultdescription">Target is totally engulfed in roaring
+        flame. All organic material on target is destroyed, and metal melts.
+        Target dies in 6 horrible, screaming Rounds.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable max-lethal" data-type="critical"
+        data-table="7.13 Fire Critical Strikes Table" data-roll="150"
+        data-result="All that remains of the target is a smoking pile of charred
+        teeth and bones." data-woundtitle="Ash Pile" data-condition="null"
+        data-hits1="0" data-bleed1="0" data-action1="0" data-effect1="death"
+        data-hits2="0" data-bleed2="0" data-action2="0" data-effect2="null">
+
+        <td class="roll">150</td>
+
+        <td class="resultdescription">All that remains of the target is a
+        smoking pile of charred teeth and bones.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+    _id: Db70qN6Pjx0wfBn9
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!FhM2fuVYXZtE9DY7.Db70qN6Pjx0wfBn9'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519505854
+  modifiedTime: 1689519566104
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-tables.JournalEntry.sBifZWiEzUa4Hoeb
+  duplicateSource: null
+_id: FhM2fuVYXZtE9DY7
+sort: 0
+_key: '!journal!FhM2fuVYXZtE9DY7'
+

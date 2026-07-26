@@ -1,0 +1,99 @@
+name: Cleansing
+folder: Z9DrIJY8LTitWm9q
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.5Al30knCgLOeL2uj
+pages:
+  - name: Cleansing
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spelllisttable"> <tbody> <tr class="tableheaderrow"> <td
+        class="weave">Weave</td> <td class="spell">Spell</td> <td
+        class="range">Range</td> <td class="areaofeffect">Area of Effect</td>
+        <td class="duration">Duration</td> <td class="save">Save</td> </tr> <tr
+        class="tablerow open-journal" data-table="Cleanse Food &amp; Water"> <td
+        class="weave">1st</td> <td class="spell">Cleanse Food &amp; Water</td>
+        <td class="range">3 m</td> <td class="areaofeffect">1 m radius</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Detect Poison"> <td
+        class="weave">2nd</td> <td class="spell">Detect Poison</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">1 m radius</td> <td
+        class="duration">C</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Resist Disease"> <td
+        class="weave">3rd</td> <td class="spell">Resist Disease</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">10 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Resist Poison"> <td
+        class="weave">4th</td> <td class="spell">Resist Poison</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">10 min/lvl</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Cleanse Wound"> <td
+        class="weave">5th</td> <td class="spell">Cleanse Wound</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Cure Disease"> <td
+        class="weave">6th</td> <td class="spell">Cure Disease</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Cure Poison"> <td
+        class="weave">7th</td> <td class="spell">Cure Poison</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablerow open-journal" data-table="Purge Evil"> <td
+        class="weave">8th</td> <td class="spell">Purge Evil</td> <td
+        class="range">20 m</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">-</td> <td class="save">Y</td> </tr> <tr
+        class="tablerow open-journal" data-table="Cleanse the Soil"> <td
+        class="weave">9th</td> <td class="spell">Cleanse the Soil</td> <td
+        class="range">0 (self)</td> <td class="areaofeffect">10 m
+        radius/lvl</td> <td class="duration">-</td> <td class="save">N</td>
+        </tr> <tr class="tablerow open-journal" data-table="Cleanse the Mind">
+        <td class="weave">10th</td> <td class="spell">Cleanse the Mind</td> <td
+        class="range">0 (touch)</td> <td class="areaofeffect">1 target</td> <td
+        class="duration">-</td> <td class="save">N</td> </tr> <tr
+        class="tablefootrow"> <td class="stat" colspan="6">Vocations: Common,
+        Animist</td> </tr> <tr class="tablefootrow"> <td class="stat"
+        colspan="4">Stat Value: WSD</td> <td class="page" colspan="2">Page:
+        353</td> </tr> </tbody> </table>
+    _id: yR0NA40ZJkbMKMqx
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!YVxtOR0zKYEjS6Rj.yR0NA40ZJkbMKMqx'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519554648
+  modifiedTime: 1689519573070
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spell-lores.JournalEntry.5Al30knCgLOeL2uj
+  duplicateSource: null
+_id: YVxtOR0zKYEjS6Rj
+sort: 0
+_key: '!journal!YVxtOR0zKYEjS6Rj'
+

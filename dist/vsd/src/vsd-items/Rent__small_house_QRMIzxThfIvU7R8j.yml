@@ -1,0 +1,35 @@
+name: Rent, small house
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.fZ14kXB7pirWJjCS
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '2'
+  weight: 0
+  availability: Common
+  description: >-
+    Renting a decent town house for a month. Raise Fare by 1 for a one-year
+    rent. 
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485378
+  modifiedTime: 1697655935012
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.fZ14kXB7pirWJjCS
+  duplicateSource: null
+_id: QRMIzxThfIvU7R8j
+sort: 0
+_key: '!items!QRMIzxThfIvU7R8j'
+

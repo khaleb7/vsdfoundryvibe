@@ -1,0 +1,64 @@
+name: Composite Bow
+type: Container
+img: systems/vsd/icons/items/weapons/pocket-bow.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.4uLx9H16qWHRQWI3
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Ranged: Composite Bow (Pierce)'
+      type: Ranged-Attack
+      img: systems/vsd/icons/items/weapons/pocket-bow.svg
+      system:
+        notes: |-
+          Hands: 2H
+          Length: -
+          Attack Table: Missile
+          Max: 150
+          Crit Table: Pierce
+          Range: 25
+          Qualities: Load (1), Quick Load
+        chartype: CharacterVsD
+        group: Ranged-Attack
+        sort: -1
+        value: 0
+        formula: '@ranged'
+        damage: 7.3 Missile Attack Table
+        damageType: 7.11 Pierce Critical Strikes Table
+        armourDiv: 5
+        minST: oe
+        accuracy: 150
+        range: '25'
+        rof: 5
+        shots: ''
+        bulk: 0
+        recoil: ''
+      folder: GFdYwZsTR7JEVb3q
+      permission:
+        default: 0
+        8VtokmkrTaxXr4Uk: 3
+        OxYGvqLVXSV3pvbk: 3
+        UX6nCwJ29hO5ENUt: 3
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409490217
+  modifiedTime: 1697655934990
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.4uLx9H16qWHRQWI3
+  duplicateSource: null
+_id: FwxYsz5k8Ez03PpT
+sort: 0
+_key: '!items!FwxYsz5k8Ez03PpT'
+

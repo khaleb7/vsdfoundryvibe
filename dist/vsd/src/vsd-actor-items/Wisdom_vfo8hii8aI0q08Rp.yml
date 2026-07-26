@@ -1,0 +1,38 @@
+name: Wisdom
+type: Primary-Attribute
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: >-
+    Measures a character’s empathy, intuition, willpower, awareness and
+    attention to detail.
+
+    Wisdom value modifies the number of Magic Points an Animist character gains
+    at each level.
+  chartype: CharacterVsD
+  group: Primary-Attribute
+  abbr: WSD
+  attr: 0
+  value: 0
+  forceUpdate: false
+  sort: -1
+  tempattr: 0
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377602332
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: vfo8hii8aI0q08Rp
+sort: 5800000
+_key: '!items!vfo8hii8aI0q08Rp'
+

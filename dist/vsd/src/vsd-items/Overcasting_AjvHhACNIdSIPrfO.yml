@@ -1,0 +1,65 @@
+name: Overcasting
+type: Variable
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: lS2E3Pe2AclQDTmR
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-dropbox.Item.WLIEAshVcINtPKDs
+system:
+  notes: note
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: Not Applicable
+  entries:
+    - value: 0
+      formula: '0'
+      label: Not Applicable
+    - value: 1
+      formula: '1'
+      label: 1 level
+    - value: 2
+      formula: '2'
+      label: 2 levels
+    - value: 3
+      formula: '3'
+      label: 3 levels
+    - value: 4
+      formula: '4'
+      label: 4 levels
+    - value: 5
+      formula: '5'
+      label: 5 levels
+    - value: 6
+      formula: '6'
+      label: 6 levels
+    - value: 7
+      formula: '7'
+      label: 7 levels
+    - value: 8
+      formula: '8'
+      label: 8 levels
+    - value: 9
+      formula: '9'
+      label: 9 levels
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409488530
+  modifiedTime: 1697655936250
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-dropbox.Item.WLIEAshVcINtPKDs
+  duplicateSource: null
+_id: AjvHhACNIdSIPrfO
+sort: 900000
+_key: '!items!AjvHhACNIdSIPrfO'
+

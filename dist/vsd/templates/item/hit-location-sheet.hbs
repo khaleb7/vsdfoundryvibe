@@ -1,0 +1,63 @@
+{{debug "this:" this}}
+
+<form class="{{cssClass}}" autocomplete="off">
+
+    {{!-- Sheet Header --}}
+    <header class="sheet-header">
+        <img class="portrait" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{localize " local.item.name"}}" />
+    </header>
+    <hr>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Hit-Location.bleeding"}}</label>
+            <input type="text" name="system.damageResistance" value="{{item.system.damageResistance}}"
+                data-dtype="Number" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Hit-Location.penalty"}}</label>
+            <input type="text" name="system.damage" value="{{item.system.damage}}" data-dtype="Number" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Hit-Location.severity"}}</label>
+            <select name="system.injuryType">
+                {{selectOptions config.selectOptions.injuryType selected=item.system.injuryType valueAttr="value"
+                labelAttr="label" localize=true}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Hit-Location.treatment"}}</label>
+            <select name="system.toCripple">
+                {{selectOptions config.selectOptions.toCripple selected=item.system.toCripple valueAttr="value"
+                labelAttr="label" localize=true}}
+            </select>
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Hit-Location.lingering"}}</label>
+            <input type="checkbox" name="system.crippled" {{checked item.system.crippled}} data-dtype="Boolean" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Hit-Location.dlth"}}</label>
+            <input type="text" name="system.toHitPenalty" value="{{item.system.toHitPenalty}}" data-dtype="Number" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.group"}}</label>
+            <input type="text" name="system.group" value="{{item.system.group}}" data-dtype="String" />
+        </div>
+        <hr>
+        <h3>{{localize "local.item.notes"}}</h3>
+        <div class="tab">
+            <textarea rows="18" name="system.notes">{{{system.notes}}}</textarea>
+        </div>
+        <script>
+            $("input").focusin(function () {
+                $(this).select();
+            });
+            $("textarea").focusin(function () {
+                $(this).select();
+            }); 
+        </script>
+    </section>
+</form>

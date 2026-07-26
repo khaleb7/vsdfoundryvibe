@@ -1,0 +1,61 @@
+name: Disappearance
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.5Z0xAth7PwcEKz7n
+pages:
+  - name: Disappearance
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Trickery"> <td>Lore:</td> <td>Trickery </td> </tr> <tr>
+        <td>Weave:</td> <td>9th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Trickery" data-weave="9th"
+        data-spell="Disappearance" data-range="0 (self)" data-aoe="caster"
+        data-duration="-" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Disappearance </td> </tr> <tr> <td>Range:</td> <td>0
+        (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>caster </td> </tr>
+        <tr> <td>Duration:</td> <td>- </td> </tr> <tr> <td>Save:</td> <td>N
+        </td> </tr> </tbody> </table>
+    _id: JVzDGnoFuzNO60dX
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!Kh2r9z6XfnxgqSgQ.JVzDGnoFuzNO60dX'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105636
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.5Z0xAth7PwcEKz7n
+  duplicateSource: null
+_id: Kh2r9z6XfnxgqSgQ
+sort: 0
+_key: '!journal!Kh2r9z6XfnxgqSgQ'
+

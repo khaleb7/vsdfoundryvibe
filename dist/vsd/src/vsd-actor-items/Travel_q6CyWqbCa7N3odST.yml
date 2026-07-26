@@ -1,0 +1,32 @@
+folder: null
+name: Travel
+type: Trait
+img: icons/svg/item-bag.svg
+system:
+  notes: |-
+    You traveled to or explored a location you have never seen before.*
+    XP: 1-3
+  chartype: CharacterVsD
+  group: experience
+  applied: false
+  category: experience
+effects: []
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689517555259
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: q6CyWqbCa7N3odST
+sort: 5200000
+_key: '!items!q6CyWqbCa7N3odST'
+

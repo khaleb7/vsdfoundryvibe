@@ -1,0 +1,50 @@
+name: Attack Spell Range
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: Modifiers applied to an attack spell roll.
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: Not applicable
+  entries:
+    - value: 0
+      formula: '0'
+      label: Not Applicable
+    - value: 35
+      formula: '+35'
+      label: up to 3m
+    - value: 10
+      formula: '+10'
+      label: 4-10m
+    - value: 0
+      formula: '0'
+      label: 11-20m
+    - value: -20
+      formula: '-20'
+      label: 21-30m
+  temporary: false
+  once: false
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689520857765
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: qD5eXk6Yd4Z7QG3W
+sort: 12200000
+_key: '!items!qD5eXk6Yd4Z7QG3W'
+

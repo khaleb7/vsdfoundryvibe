@@ -1,0 +1,51 @@
+{{debug "this:" this}}
+<form class="{{cssClass}}" autocomplete="off">
+
+    {{!-- Sheet Header --}}
+    <header class="sheet-header">
+        <img class="portrait" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{localize " local.item.name"}}" />
+    </header>
+    <hr>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Pool.abbr"}}</label>
+            <input type="text" name="system.abbr" value="{{item.system.abbr}}" data-dtype="String" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Pool.state"}}</label>
+            <label class="resource-label">{{item.system.state}}</label>
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Pool.min"}}</label>
+            <input class="pool" type="text" name="system.minForm" value="{{item.system.minForm}}" data-dtype="String" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Pool.value"}}</label>
+            <input class="pool" type="text" name="system.value" value="{{item.system.value}}" data-dtype="Number" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.Pool.max"}}</label>
+            <input class="pool" type="text" name="system.maxForm" value="{{item.system.maxForm}}" data-dtype="String" />
+        </div>
+        <div class="flexrow">
+            <label class="resource-label">{{localize "local.item.group"}}</label>
+            <input type="text" name="system.group" value="{{item.system.group}}" data-dtype="String" />
+        </div>
+        <hr>
+        <h3>{{localize "local.item.notes"}}</h3>
+        <div class="tab">
+            <textarea rows="18" name="system.notes">{{{system.notes}}}</textarea>
+        </div>
+        <script>
+            $("input").focusin(function () {
+                $(this).select();
+            });
+            $("textarea").focusin(function () {
+                $(this).select();
+            }); 
+        </script>
+    </section>
+</form>

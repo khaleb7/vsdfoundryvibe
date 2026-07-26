@@ -1,0 +1,61 @@
+name: Incandescence
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.nnsyLjKZ7ibVrYkm
+pages:
+  - name: Incandescence
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Eldritch Fire"> <td>Lore:</td> <td>Eldritch Fire </td> </tr>
+        <tr> <td>Weave:</td> <td>3rd </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Eldritch Fire" data-weave="3rd"
+        data-spell="Incandescence" data-range="3 m" data-aoe="30 cm³/lvl"
+        data-duration="C" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Incandescence </td> </tr> <tr> <td>Range:</td> <td>3 m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>30 cm³/lvl </td> </tr>
+        <tr> <td>Duration:</td> <td>C </td> </tr> <tr> <td>Save:</td> <td>N
+        </td> </tr> </tbody> </table>
+    _id: jzpszx0cVJWsvoKu
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!zv01hy06WRf9zCHo.jzpszx0cVJWsvoKu'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106433
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.nnsyLjKZ7ibVrYkm
+  duplicateSource: null
+_id: zv01hy06WRf9zCHo
+sort: 0
+_key: '!journal!zv01hy06WRf9zCHo'
+

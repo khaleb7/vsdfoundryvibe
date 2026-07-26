@@ -1,0 +1,63 @@
+name: Full Plate
+type: Modifier
+img: icons/svg/mystery-man.svg
+effects: []
+folder: Bxxo1AxxBitNbUjx
+flags:
+  core: {}
+system:
+  notes: |-
+    Fare: 3
+    Type: Heavy
+    Protects: Torso, Arms, Legs
+    Qualities: Metal, Rigid
+    Max SWI: +15
+  chartype: CharacterVsD
+  group: Modifier
+  inEffect: true
+  alwaysOn: false
+  attack: true
+  defence: false
+  skill: true
+  spell: true
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    '0':
+      value: 15
+      formula: '15'
+      category: reaction
+      targets: Melee, Missile
+    '1':
+      value: -75
+      formula: '-75'
+      category: primary
+      targets: ArmPen
+    '2':
+      value: -10
+      formula: '-10'
+      category: primary
+      targets: CMBPen
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  8VtokmkrTaxXr4Uk: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.56'
+  coreVersion: '12.328'
+  createdTime: 1676409485151
+  modifiedTime: 1698685736096
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: WU7u96vcGrYhQqS4
+sort: 1600000
+_key: '!items!WU7u96vcGrYhQqS4'
+

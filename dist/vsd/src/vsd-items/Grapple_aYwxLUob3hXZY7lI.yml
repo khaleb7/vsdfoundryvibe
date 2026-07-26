@@ -1,0 +1,252 @@
+name: Grapple
+type: Container
+img: systems/vsd/icons/items/weapons/foot-trip.svg
+effects: []
+folder: giAlKdTjKvCi5VkS
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-weapons-containers.Item.jehqCYLtzdAHee8p
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: 'Brawl: Colossal Grappling (Grapple)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 2H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 175
+          Crit Table: Grapple
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 175
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.12 Grapple Critical Strikes Table
+        secondary: None
+        armourDiv: 5
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.Yu3Y08kiL8mByndC
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531624521
+        modifiedTime: 1744531643833
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: QCMHUNUVyOIVEXUK
+      effects: []
+      sort: 0
+      flags: {}
+    - name: 'Brawl: Huge Grappling (Grapple)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 2H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 150
+          Crit Table: Grapple
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 150
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.12 Grapple Critical Strikes Table
+        secondary: None
+        armourDiv: 5
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.Yu3Y08kiL8mByndC
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531624521
+        modifiedTime: 1744531664699
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: wZAJOak7Mnz0fUjp
+      effects: []
+      sort: 0
+      flags: {}
+    - name: 'Brawl: Large Grappling (Grapple)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 2H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 140
+          Crit Table: Grapple
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 140
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.12 Grapple Critical Strikes Table
+        secondary: None
+        armourDiv: 5
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.Yu3Y08kiL8mByndC
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531624521
+        modifiedTime: 1744531678189
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: UyXM2HhOhxSlnNoW
+      effects: []
+      sort: 0
+      flags: {}
+    - name: 'Brawl: Medium Grappling (Grapple)'
+      type: Melee-Attack
+      flags:
+        core: {}
+      img: icons/svg/mystery-man.svg
+      effects: []
+      folder: null
+      system:
+        notes: |-
+          Hands: 2H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 120
+          Crit Table: Grapple
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 120
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.12 Grapple Critical Strikes Table
+        secondary: None
+        armourDiv: 5
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.Yu3Y08kiL8mByndC
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744530744803
+        modifiedTime: 1744531391229
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: YNK4Fd4ne15Pgdek
+      sort: 9400000
+    - name: 'Brawl: Small Grappling (Grapple)'
+      type: Melee-Attack
+      img: icons/svg/mystery-man.svg
+      folder: null
+      system:
+        notes: |-
+          Hands: 2H
+          Length: Hand
+          Attack Table: Unarmed
+          Max: 80
+          Crit Table: Grapple
+          Range: -
+          Qualities: -
+        chartype: CharacterVsD
+        group: Melee-Attack
+        weight: 80
+        damage: 7.4 Unarmed/Grapple Attack Table
+        damageType: 7.12 Grapple Critical Strikes Table
+        secondary: None
+        armourDiv: 5
+        minST: oe
+        reach: 5
+        value: 0
+        formula: '@brawl'
+        sort: -1
+        moddedvalue: 0
+      ownership:
+        default: 0
+        NGjHOnRrH6sCNw2O: 3
+        pVnKHrzHL0Jnx5B6: 3
+        UiCXq4VUwQ5S2thO: 3
+      _stats:
+        compendiumSource: Compendium.vsd.vsd-actor-items.Item.Yu3Y08kiL8mByndC
+        duplicateSource: null
+        coreVersion: '12.331'
+        systemId: vsd
+        systemVersion: '12.285'
+        createdTime: 1744531624521
+        modifiedTime: 1744531702117
+        lastModifiedBy: UiCXq4VUwQ5S2thO
+      _id: uliXjiF2o2SZv0e0
+      effects: []
+      sort: 0
+      flags: {}
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '12.285'
+  coreVersion: '12.331'
+  createdTime: 1676409490243
+  modifiedTime: 1744532124629
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: Compendium.vsd.vsd-weapons-containers.Item.jehqCYLtzdAHee8p
+  duplicateSource: null
+_id: aYwxLUob3hXZY7lI
+sort: 0
+_key: '!items!aYwxLUob3hXZY7lI'
+

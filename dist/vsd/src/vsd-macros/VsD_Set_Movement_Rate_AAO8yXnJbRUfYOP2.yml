@@ -1,0 +1,71 @@
+name: VsD Set Movement Rate
+type: script
+scope: global
+author: cwpZyEuSkQ36r9mu
+img: icons/skills/movement/figure-running-gray.webp
+command: |-
+  const buttondata = [
+    { label: "No Move" },
+    { label: "Step" },
+    { label: "Half Move" },
+    { label: "Full Move" },
+    { label: "Sprint" }
+  ];
+
+  const buttons = {};
+  for (const button of buttondata) {
+    buttons[button.label] = {
+      label: button.label,
+      callback: () => {
+        label = button.label,
+          d.render(true)
+      }
+    }
+  }
+
+  let d = new Dialog({
+    title: `Set Move Rate`,
+    buttons: buttons,
+    close: async html => {
+      if (label) {
+        const tokens = canvas.tokens.controlled;
+        for (const token of tokens) {
+          const moverate = token.actor.system.dynamic?.move_rate || null;
+          if (moverate != null) {
+            await moverate.setValue(label);
+            ChatMessage.create({
+              speaker: { actor: token.actor._id },
+              content: `Move Rate has been set to ${label}.`,
+            });
+          }
+        }
+        label = "";
+      }
+    }
+  },
+    {
+      width: 200,
+      classes: ["mydialog"],
+      top: 0,
+      left: 0
+    });
+  d.render(true);
+folder: 2xrFKsTdRUax0UPW
+ownership:
+  default: 0
+  cwpZyEuSkQ36r9mu: 3
+flags:
+  core: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.55'
+  coreVersion: '12.331'
+  createdTime: 1697991236189
+  modifiedTime: 1742378954250
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+  compendiumSource: null
+  duplicateSource: null
+_id: AAO8yXnJbRUfYOP2
+sort: 0
+_key: '!macros!AAO8yXnJbRUfYOP2'
+

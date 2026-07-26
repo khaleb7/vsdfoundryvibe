@@ -1,0 +1,55 @@
+name: Flame-Hardened
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Flame-Hardened: Your kin get a +30 bonus to their Save Rolls and Defense
+    against heat and flame.
+  chartype: CharacterVsD
+  group: kin
+  inEffect: false
+  alwaysOn: false
+  attack: false
+  defence: true
+  skill: false
+  spell: false
+  check: false
+  reaction: true
+  damage: false
+  primary: false
+  entries:
+    - value: 30
+      formula: '+30'
+      category: defence
+      targets: Toughness, Willpower
+      moddedvalue: 30
+    - value: 30
+      formula: '+30'
+      category: reaction
+      targets: Missile, Melee
+      moddedvalue: 30
+  temporary: false
+  once: true
+  condition: true
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689459657552
+  modifiedTime: 1697655937339
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: PiZVVpUJKiXvi88E
+sort: 1300000
+_key: '!items!PiZVVpUJKiXvi88E'
+

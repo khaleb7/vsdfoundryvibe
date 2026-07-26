@@ -1,0 +1,133 @@
+name: 2.1 Action Resolution Table
+folder: CUIqKKkavMRUhsGr
+flags:
+  exportSource:
+    world: vsd-vsd-test
+    system: vsd
+    coreVersion: 0.7.9
+    systemVersion: '0.45'
+  core:
+    sourceId: Compendium.vsd.vsd-misc-tables.JournalEntry.p4sFOEpUzxGkhgYJ
+pages:
+  - name: 2.1 Action Resolution Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="actionresolutiontable">
+
+        <tbody>
+
+        <tr class="tableheaderrow">
+
+        <td class="roll">Roll</td>
+
+        <td class="outcome">Outcome</td>
+
+        <td class="resultdescription">Result</td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">4 or less</td>
+
+        <td class="outcome">Critical Failure</td>
+
+        <td class="resultdescription">You don’t get what you were trying to
+        accomplish and you put yourself in danger, break a piece of equipment,
+        take twice the time normally required, or grant your foes a +20 bonus to
+        their next Roll against you</td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">05-74</td>
+
+        <td class="outcome">Failure</td>
+
+        <td class="resultdescription">You don’t get what you were trying to
+        accomplish.</td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">75-99</td>
+
+        <td class="outcome">Partial Success</td>
+
+        <td class="resultdescription">You only partially accomplish what you
+        were trying to do, or manage to do it but with a cost, complication, or
+        trouble.</td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">100-174</td>
+
+        <td class="outcome">Success</td>
+
+        <td class="resultdescription">You accomplish what you were trying to
+        do.</td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">175 or more</td>
+
+        <td class="outcome">Outstanding Success</td>
+
+        <td class="resultdescription">You accomplish what you were trying to do
+        and you get a +20 bonus to your (or one of your ally’s) next related
+        Roll, gain additional information, or take less time than normally
+        required to complete your task.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+    _id: FKzy33qJit1vZ38C
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!n0dJ4M5s3ExME7PQ.FKzy33qJit1vZ38C'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519512416
+  modifiedTime: 1689519567801
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-misc-tables.JournalEntry.p4sFOEpUzxGkhgYJ
+  duplicateSource: null
+_id: n0dJ4M5s3ExME7PQ
+sort: 0
+_key: '!journal!n0dJ4M5s3ExME7PQ'
+

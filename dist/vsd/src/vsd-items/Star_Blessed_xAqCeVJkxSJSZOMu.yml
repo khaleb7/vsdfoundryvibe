@@ -1,0 +1,51 @@
+name: Star-Blessed
+type: Modifier
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Star-Blessed: Your kin must assign their highest Stat Value to their Bearing
+    before Kin Modifiers are applied. They also get a special +20 bonus to their
+    Arcana, Songs & Tales, and Charisma skills.
+  chartype: CharacterVsD
+  group: kin
+  inEffect: false
+  alwaysOn: true
+  attack: false
+  defence: false
+  skill: true
+  spell: false
+  check: false
+  reaction: false
+  damage: false
+  primary: false
+  entries:
+    - value: 20
+      formula: '+20'
+      category: skill
+      targets: Arcana, Songs & Tales, Charisma
+      moddedvalue: 20
+  temporary: false
+  once: false
+  condition: false
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689459229085
+  modifiedTime: 1697655939829
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: xAqCeVJkxSJSZOMu
+sort: 1000000
+_key: '!items!xAqCeVJkxSJSZOMu'
+

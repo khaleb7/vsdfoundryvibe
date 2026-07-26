@@ -1,0 +1,61 @@
+name: Tongues
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.SAnyTSba6JhKKfe2
+pages:
+  - name: Tongues
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Sounds &amp; Lights"> <td>Lore:</td> <td>Sounds &amp; Lights
+        </td> </tr> <tr> <td>Weave:</td> <td>2nd </td> </tr> <tr
+        class="rollable" data-type="spell" data-table="Sounds &amp; Lights"
+        data-weave="2nd" data-spell="Tongues" data-range="20 m" data-aoe="1
+        target" data-duration="C" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Tongues </td> </tr> <tr> <td>Range:</td> <td>20 m
+        </td> </tr> <tr> <td>Area of Effect:</td> <td>1 target </td> </tr> <tr>
+        <td>Duration:</td> <td>C </td> </tr> <tr> <td>Save:</td> <td>N </td>
+        </tr> </tbody> </table>
+    _id: Evtr7BXWEuIEX1XV
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!xQX3esDeXPVLi5it.Evtr7BXWEuIEX1XV'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517105928
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.SAnyTSba6JhKKfe2
+  duplicateSource: null
+_id: xQX3esDeXPVLi5it
+sort: 0
+_key: '!journal!xQX3esDeXPVLi5it'
+

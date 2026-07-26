@@ -1,0 +1,121 @@
+name: Sworn Defender
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.ePl5RviU471f48EO
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Sworn Defender
+      type: Trait
+      system:
+        notes: >-
+          You are part of an elite military order sworn to protect something. It
+          could be a place, an item, a person, or even an ideal, such as justice
+          or honor. Whatever it is, you've vowed to defend it even at the cost
+          of your own life.
+
+          - Minor (cost 1 BP):  Write your Allegiance about your order and its
+          mission. You gain one rank in both Armor and Body. You also get a
+          special +10 bonus to your Charisma Skill Rolls against people who are
+          either part of what your order protects or friendly to their cause.
+
+          - Major (cost 3 BPs):  Additionally, you are immune to fear and gain a
+          +15 bonus to your Save Rolls against mind-influencing effects.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Sworn Defender
+      type: Modifier
+      system:
+        notes: >-
+          You are immune to fear and gain a +15 bonus to your Save Rolls against
+          mind-influencing effects.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: true
+        skill: false
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 15
+            formula: '15'
+            category: defence
+            targets: Willpower
+        tempName: Sworn Defender
+    - name: Sworn Defender (The Cause)
+      type: Modifier
+      system:
+        notes: >-
+          You get a special +10 bonus to your Charisma Skill Rolls against
+          people who are either part of what your order protects or friendly to
+          their cause.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 10
+            formula: '10'
+            category: skill
+            targets: Charisma
+        tempName: Sworn Defender (The Cause)
+    - name: 'Ranks:  Sworn Defender'
+      type: Variable
+      system:
+        notes: |-
+          Armor +1
+          Body:  +1
+        chartype: CharacterVsD
+        value: 1
+        formula: '1'
+        label: Armor
+        entries:
+          '0':
+            value: null
+            formula: ''
+            label: ''
+          '1':
+            value: 1
+            formula: '1'
+            label: Armor
+          '2':
+            value: 1
+            formula: '1'
+            label: Body
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485223
+  modifiedTime: 1697655935026
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.ePl5RviU471f48EO
+  duplicateSource: null
+_id: Z33hACPLXZQN7ovW
+sort: 0
+_key: '!items!Z33hACPLXZQN7ovW'
+

@@ -1,0 +1,38 @@
+name: Heroic Path
+type: Primary-Attribute
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: value
+  abbr: Hero
+  attr: 0
+  value: 0
+  name: ''
+  state: ''
+  minForm: '0'
+  min: 0
+  maxForm: '100'
+  max: 100
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1689521538643
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: DkppPXkNigq2o624
+sort: 7400000
+_key: '!items!DkppPXkNigq2o624'
+

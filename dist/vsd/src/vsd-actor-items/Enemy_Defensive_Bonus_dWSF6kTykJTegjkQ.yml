@@ -1,0 +1,42 @@
+name: Enemy Defensive Bonus
+type: Primary-Attribute
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: >-
+    This is the defensive bonus of the enemy you are attacking.
+
+    You might also include any random factors without their own modifiers to
+    speed up play.
+  chartype: CharacterVsD
+  group: value
+  abbr: EDB
+  attr: 0
+  value: 0
+  name: ''
+  state: ''
+  minForm: '0'
+  min: 0
+  maxForm: '150'
+  max: 150
+  forceUpdate: false
+  sort: -1
+ownership:
+  default: 0
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1704377431516
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: dWSF6kTykJTegjkQ
+sort: 8600000
+_key: '!items!dWSF6kTykJTegjkQ'
+

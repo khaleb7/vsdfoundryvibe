@@ -1,0 +1,35 @@
+name: Aversion to Iron
+type: Trait
+img: icons/svg/mystery-man-black.svg
+effects: []
+folder: Y3tVO70S1XFi5xvt
+flags:
+  core: {}
+system:
+  notes: >-
+    Aversion to Iron: Your Kin avoid touching or wearing iron and other metals
+    on their bare skin, as doing so causes them an unpleasant sensation of cold
+    and numbness. They suffer double the normal Action Penalties for wearing
+    metal armor.
+  chartype: CharacterVsD
+  group: kin
+  applied: false
+  category: perk
+  sort: -1
+ownership:
+  default: 0
+  DA5mblIZ1RT8WnN2: 3
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1689459434496
+  modifiedTime: 1697655934974
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: null
+  duplicateSource: null
+_id: 65cdxNrHEr8aI2by
+sort: 0
+_key: '!items!65cdxNrHEr8aI2by'
+

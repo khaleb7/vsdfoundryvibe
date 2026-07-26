@@ -1,0 +1,124 @@
+name: Attack Level
+type: Variable
+flags:
+  core: {}
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+system:
+  notes: The Save Roll Attack Level
+  chartype: CharacterVsD
+  group: Variable
+  value: 0
+  formula: '0'
+  label: '1'
+  entries:
+    '0':
+      value: 55
+      formula: '55'
+      label: '1: -55'
+    '1':
+      value: 0
+      formula: '0'
+      label: 'Spell: Set SST'
+    '2':
+      value: 60
+      formula: '60'
+      label: '2: -60'
+    '3':
+      value: 65
+      formula: '65'
+      label: '3: -65'
+    '4':
+      value: 70
+      formula: '70'
+      label: '4: -70'
+    '5':
+      value: 75
+      formula: '75'
+      label: '5: -75'
+    '6':
+      value: 80
+      formula: '80'
+      label: '6: -80'
+    '7':
+      value: 85
+      formula: '85'
+      label: '7: -85'
+    '8':
+      value: 90
+      formula: '90'
+      label: '8: -90'
+    '9':
+      value: 95
+      formula: '95'
+      label: '9: -95'
+    '10':
+      value: 100
+      formula: '100'
+      label: '10: -100'
+    '11':
+      value: 102
+      formula: '102'
+      label: '11: -102'
+    '12':
+      value: 104
+      formula: '104'
+      label: '12: -104'
+    '13':
+      value: 106
+      formula: '106'
+      label: '13: -106'
+    '14':
+      value: 108
+      formula: '108'
+      label: '14: -108'
+    '15':
+      value: 110
+      formula: '110'
+      label: '15: -110'
+    '16':
+      value: 112
+      formula: '112'
+      label: '16: -112'
+    '17':
+      value: 114
+      formula: '114'
+      label: '17: -114'
+    '18':
+      value: 116
+      formula: '116'
+      label: '18: -116'
+    '19':
+      value: 118
+      formula: '118'
+      label: '19: -118'
+    '20':
+      value: 120
+      formula: '120'
+      label: '20: -120'
+    '21':
+      value: 121
+      formula: '121'
+      label: '21: -121'
+  temporary: false
+  once: true
+  sort: -1
+ownership:
+  default: 0
+  sGlDK3lZYQBI8GMZ: 3
+  cwpZyEuSkQ36r9mu: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1699532345598
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: hvnabZtyMsEMsif9
+sort: 12000000
+_key: '!items!hvnabZtyMsEMsif9'
+

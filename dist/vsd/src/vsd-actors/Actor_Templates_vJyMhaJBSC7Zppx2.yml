@@ -1,0 +1,20 @@
+name: Actor Templates
+sorting: a
+folder: null
+type: Actor
+_id: vJyMhaJBSC7Zppx2
+sort: 100000
+color: '#0066ff'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: vsd
+  systemVersion: '12.274'
+  createdTime: 1722951259292
+  modifiedTime: 1742320941708
+  lastModifiedBy: UiCXq4VUwQ5S2thO
+description: ''
+_key: '!folders!vJyMhaJBSC7Zppx2'
+

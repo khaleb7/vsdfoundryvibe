@@ -1,0 +1,33 @@
+name: Clothes, Fine
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.xirATLCgzm2wRsEj
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '2'
+  weight: 0
+  availability: Uncommon
+  description: Gentry clothes
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485419
+  modifiedTime: 1697655934968
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.xirATLCgzm2wRsEj
+  duplicateSource: null
+_id: 3MDrsyESPf9T3cWj
+sort: 0
+_key: '!items!3MDrsyESPf9T3cWj'
+

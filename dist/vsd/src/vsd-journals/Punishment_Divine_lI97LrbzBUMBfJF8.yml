@@ -1,0 +1,61 @@
+name: Punishment Divine
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.nkrIImRBVGs6hKek
+pages:
+  - name: Punishment Divine
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Channeling"> <td>Lore:</td> <td>Channeling </td> </tr> <tr>
+        <td>Weave:</td> <td>10th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Channeling" data-weave="10th"
+        data-spell="Punishment Divine" data-range="0 (self)" data-aoe="10 m
+        radius" data-duration="1 rnd/lvl" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Punishment Divine </td> </tr> <tr> <td>Range:</td>
+        <td>0 (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>10 m radius
+        </td> </tr> <tr> <td>Duration:</td> <td>1 rnd/lvl </td> </tr> <tr>
+        <td>Save:</td> <td>N </td> </tr> </tbody> </table>
+    _id: mMvZpi0DYklym7DK
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!lI97LrbzBUMBfJF8.mMvZpi0DYklym7DK'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106433
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.nkrIImRBVGs6hKek
+  duplicateSource: null
+_id: lI97LrbzBUMBfJF8
+sort: 0
+_key: '!journal!lI97LrbzBUMBfJF8'
+

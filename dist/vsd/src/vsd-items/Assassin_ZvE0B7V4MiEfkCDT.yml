@@ -1,0 +1,89 @@
+name: Assassin
+type: Container
+img: icons/svg/mystery-man.svg
+effects: []
+folder: PuYjSdDDAQBrG9jZ
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-item-backgrounds.Item.1NdpL2WdVDv50zWc
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Container
+  dropped: []
+  entries:
+    - name: Assassin
+      type: Trait
+      system:
+        notes: >-
+          You have been trained in the deadly arts by a master assassin.
+
+          - Minor (cost 1 BP):  Write your Allegiance about your ties to your
+          old master. You gain one rank in the Stealth Skill, and a special +20
+          bonus to your Nature Skill Rolls when identifying, using, or preparing
+          poisons.
+
+          - Major (cost 3 BPs):  Additionally, when you attack a Surprised foe
+          with a ranged weapon, you can treat that weapon as if it had the
+          Backstab Quality, provided that your target is within the Base Range
+          of your weapon.
+        chartype: CharacterVsD
+        category: quirk
+    - name: Assassin (Poisons)
+      type: Modifier
+      system:
+        notes: >-
+          You gain a special +20 bonus to your Nature Skill Rolls when
+          identifying, using, or preparing poisons.
+        chartype: CharacterVsD
+        inEffect: false
+        alwaysOn: false
+        attack: false
+        defence: false
+        skill: true
+        spell: false
+        check: false
+        reaction: false
+        damage: false
+        primary: false
+        entries:
+          '0':
+            value: 20
+            formula: '20'
+            category: skill
+            targets: Nature
+        tempName: Assassin (Poisons)
+    - name: 'Ranks:  Assassin'
+      type: Variable
+      system:
+        notes: You gain one rank in the Stealth Skill.
+        chartype: CharacterVsD
+        value: 0
+        formula: ''
+        label: ''
+        entries:
+          '0':
+            value: null
+            formula: ''
+            label: ''
+          '1':
+            value: 1
+            formula: '1'
+            label: Stealth
+  sort: -1
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485196
+  modifiedTime: 1697655935027
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-item-backgrounds.Item.1NdpL2WdVDv50zWc
+  duplicateSource: null
+_id: ZvE0B7V4MiEfkCDT
+sort: 0
+_key: '!items!ZvE0B7V4MiEfkCDT'
+

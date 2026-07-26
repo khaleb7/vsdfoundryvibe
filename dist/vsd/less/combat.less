@@ -1,0 +1,123 @@
+.combat-sidebar {
+  li.combatant.defeated {
+    color: #e0736e;
+    background-color: rgba(128, 0, 0, 0.8);
+  }
+
+  .combatant {
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+
+    .token-name {
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 1fr;
+
+      .namerow {
+        display: grid;
+        grid-template-columns: 1fr;
+        line-height: 30px;
+        align-items: center;
+
+        .name {
+          text-align: left;
+          max-height: 24px;
+          overflow: hidden;
+          color: #ff8f8f;
+        }
+
+        .name.ready {
+          color: #8fbc8f;
+        }
+      }
+
+      .combatant-controls {
+        text-align: center;
+
+        .actions,
+        .shotCost {
+          color: silver;
+          height: 20px;
+          max-width: 28px;
+          border: none;
+          background-color: #800;
+          text-align: center;
+        }
+      }
+    }
+
+    .token-initiative {
+      .initiative {
+        color: silver;
+        height: 20px;
+        border: none;
+        background-color: #800;
+        text-align: center;
+      }
+    }
+  }
+
+  .combatant.vsd {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+
+    .token-name {
+      display: grid;
+      grid-template-rows: auto;
+
+      .namerow {
+        display: grid;
+        grid-template-columns: 1fr 80px 28px;
+        line-height: 24px;
+        align-items: center;
+      }
+
+      .actionrow {
+        display: grid;
+        grid-template-columns: 60px 1fr 28px 20px;
+        line-height: 24px;
+        align-items: center;
+      }
+
+      .action {
+        color: @text-main-colour;
+        line-height: 18px;
+        border-radius: 3px;
+        background-color: @text-alt-colour;
+        text-align: center;
+        font-size: smaller;
+        text-shadow: 0 0 black;
+      }
+
+      .declaredaction {
+        color: @text-alt-colour;
+        height: 20px;
+        border: none;
+        text-align: center;
+        width: 18px;
+        background-color: @alt-colour;
+
+        option {
+          background-color: @alt-colour;
+        }
+      }
+    }
+
+    .token-initiative {
+      padding-top: inherit;
+
+      .initiative {
+        color: silver;
+        height: 20px;
+        border: none;
+        background-color: #800;
+        text-align: center;
+      }
+
+      .roll {
+        transform: scale(0.8);
+        height: 30px;
+      }
+    }
+  }
+}

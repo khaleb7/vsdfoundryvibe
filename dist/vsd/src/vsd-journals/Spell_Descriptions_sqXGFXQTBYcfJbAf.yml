@@ -1,0 +1,17 @@
+name: Spell Descriptions
+type: JournalEntry
+folder: null
+_id: sqXGFXQTBYcfJbAf
+sorting: a
+sort: 100000
+flags: {}
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '11.305'
+  createdTime: 1689517105282
+  modifiedTime: 1689519631640
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+color: '#0060ff'
+_key: '!folders!sqXGFXQTBYcfJbAf'
+

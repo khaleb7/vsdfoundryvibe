@@ -1,0 +1,33 @@
+name: Brothel
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.CpEW3zPyf050D0rz
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '1'
+  weight: 0
+  availability: Uncommon
+  description: 'A night''s comfort for a small group of pals. '
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485317
+  modifiedTime: 1697655934996
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.CpEW3zPyf050D0rz
+  duplicateSource: null
+_id: J7lDZnDrTknJ6Bte
+sort: 0
+_key: '!items!J7lDZnDrTknJ6Bte'
+

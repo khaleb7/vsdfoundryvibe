@@ -1,0 +1,41 @@
+name: Hit Points
+type: Pool
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+flags:
+  core: {}
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Pool
+  abbr: HP
+  name: ''
+  state: '[INC]'
+  minForm: '-1*(@body+@for+@kinvoc)'
+  min: 0
+  value: 0
+  maxForm: '@body+@for+@kinvoc'
+  max: 0
+  sort: -1
+  hasmin: true
+  hasmax: true
+  moddedvalue: 0
+ownership:
+  default: 0
+  UiCXq4VUwQ5S2thO: 3
+  NGjHOnRrH6sCNw2O: 3
+  pVnKHrzHL0Jnx5B6: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.63'
+  coreVersion: '12.328'
+  createdTime: 1667230645329
+  modifiedTime: 1704377610037
+  lastModifiedBy: pVnKHrzHL0Jnx5B6
+  compendiumSource: null
+  duplicateSource: null
+_id: wGbLhsYnYicTUs4m
+sort: 7500000
+_key: '!items!wGbLhsYnYicTUs4m'
+

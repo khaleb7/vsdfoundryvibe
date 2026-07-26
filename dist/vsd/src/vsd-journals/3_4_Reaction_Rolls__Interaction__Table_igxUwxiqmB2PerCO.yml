@@ -1,0 +1,150 @@
+name: 3.4 Reaction Rolls (Interaction) Table
+folder: CUIqKKkavMRUhsGr
+flags:
+  exportSource:
+    world: vsd-vsd-test
+    system: vsd
+    coreVersion: 0.7.9
+    systemVersion: '0.45'
+  core:
+    sourceId: Compendium.vsd.vsd-misc-tables.JournalEntry.QNaCWldESabtLnhB
+pages:
+  - name: 3.4 Reaction Rolls (Interaction) Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="reactionrollsinteractiontable">
+
+        <tbody>
+
+        <tr class="tableheaderrow">
+
+        <td class="roll">Roll</td>
+
+        <td class="outcome">Disposition</td>
+
+        <td class="resultdescription">Interaction</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="reactionrolls" data-table="3.4
+        Reaction Rolls (Interaction) Table" data-roll="0 or less"
+        data-result="Very Unfavourable">
+
+        <td class="roll">0 or less</td>
+
+        <td class="outcome">Very Unfavourable</td>
+
+        <td class="resultdescription">The NPCs seem to despise the heroes for
+        some reason and won't even listen to their requests. If forced to do
+        something, they'll either turn hostile and resort to violence or demand
+        an outrageous price for it.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="reactionrolls" data-table="3.4
+        Reaction Rolls (Interaction) Table" data-roll="01-25"
+        data-result="Unfavourable">
+
+        <td class="roll">01-25</td>
+
+        <td class="outcome">Unfavourable</td>
+
+        <td class="resultdescription">The NPCs don't like the heroes and aren't
+        likely to listen to their requests. If forced to do something, they'll
+        do it reluctantly or will ask a higher than average price for it.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="reactionrolls" data-table="3.4
+        Reaction Rolls (Interaction) Table" data-roll="26-75"
+        data-result="Neutral">
+
+        <td class="roll">26-75</td>
+
+        <td class="outcome">Neutral</td>
+
+        <td class="resultdescription">The NPCs aren't impressed by the heroes
+        and will probably just keep going on with their business. They'll listen
+        to the PCs’ requests if they're polite and reasonable enough but won't
+        run any risk for them and aren't likely to do anything without receiving
+        something in return.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="reactionrolls" data-table="3.4
+        Reaction Rolls (Interaction) Table" data-roll="76-100"
+        data-result="Favourable">
+
+        <td class="roll">76-100</td>
+
+        <td class="outcome">Favourable</td>
+
+        <td class="resultdescription">The NPCs are favourably impressed by the
+        heroes and are likely to grant their requests if little or no costs are
+        involved for them. They'll also be willing to run some small risk for
+        the heroes, but will probably expect a reward of some kind
+        afterwards.</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="reactionrolls" data-table="3.4
+        Reaction Rolls (Interaction) Table" data-roll="101 or more"
+        data-result="Very Favourable">
+
+        <td class="roll">101 or more</td>
+
+        <td class="outcome">Very Favourable</td>
+
+        <td class="resultdescription">The NPCs are very impressed by the heroes.
+        They'll listen to their words carefully and can be convinced to suffer
+        small losses to grant their requests. If offered what they consider to
+        be a fair reward, they'll loyally follow the heroes in spite of any
+        danger.</td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+    _id: ECy6c1ncthfjY04f
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!igxUwxiqmB2PerCO.ECy6c1ncthfjY04f'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519512416
+  modifiedTime: 1689519567801
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-misc-tables.JournalEntry.QNaCWldESabtLnhB
+  duplicateSource: null
+_id: igxUwxiqmB2PerCO
+sort: 0
+_key: '!journal!igxUwxiqmB2PerCO'
+

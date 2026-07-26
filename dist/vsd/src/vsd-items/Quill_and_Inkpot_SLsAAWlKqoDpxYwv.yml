@@ -1,0 +1,33 @@
+name: Quill and Inkpot
+type: Equipment
+img: icons/svg/item-bag.svg
+effects: []
+folder: zoJ5g7hPjdCldTq7
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-equipment.Item.3jEGMGBY6uO7wPXb
+system:
+  notes: ''
+  chartype: CharacterVsD
+  group: Equipment
+  quantity: 1
+  cost: '1'
+  weight: 0
+  availability: Uncommon
+  description: Handwriting kit, enough for hundreds of pages
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.50'
+  coreVersion: '12.328'
+  createdTime: 1676409485304
+  modifiedTime: 1697655935015
+  lastModifiedBy: cwpZyEuSkQ36r9mu
+  compendiumSource: Compendium.vsd.vsd-equipment.Item.3jEGMGBY6uO7wPXb
+  duplicateSource: null
+_id: SLsAAWlKqoDpxYwv
+sort: 0
+_key: '!items!SLsAAWlKqoDpxYwv'
+

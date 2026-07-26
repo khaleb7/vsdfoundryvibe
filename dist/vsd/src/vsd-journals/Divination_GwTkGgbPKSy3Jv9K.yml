@@ -1,0 +1,61 @@
+name: Divination
+folder: sqXGFXQTBYcfJbAf
+flags:
+  core:
+    sourceId: Compendium.vsd.vsd-journal-spells.JournalEntry.XOvhVinAapzEafa9
+pages:
+  - name: Divination
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="spell-choice"> <tbody> <tr class="open-journal"
+        data-table="Communion"> <td>Lore:</td> <td>Communion </td> </tr> <tr>
+        <td>Weave:</td> <td>8th </td> </tr> <tr class="rollable"
+        data-type="spell" data-table="Communion" data-weave="8th"
+        data-spell="Divination" data-range="0 (self)" data-aoe="caster"
+        data-duration="4 hours" data-save="N"> <td>Spell:</td> <td
+        class="spellname">Divination </td> </tr> <tr> <td>Range:</td> <td>0
+        (self) </td> </tr> <tr> <td>Area of Effect:</td> <td>caster </td> </tr>
+        <tr> <td>Duration:</td> <td>4 hours </td> </tr> <tr> <td>Save:</td>
+        <td>N </td> </tr> </tbody> </table>
+    _id: kgUMEMLWM3O0TNoQ
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!GwTkGgbPKSy3Jv9K.kgUMEMLWM3O0TNoQ'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689517106199
+  modifiedTime: 1689519571514
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-journal-spells.JournalEntry.XOvhVinAapzEafa9
+  duplicateSource: null
+_id: GwTkGgbPKSy3Jv9K
+sort: 0
+_key: '!journal!GwTkGgbPKSy3Jv9K'
+

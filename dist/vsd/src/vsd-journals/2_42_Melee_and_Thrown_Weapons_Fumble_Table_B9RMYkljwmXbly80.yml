@@ -1,0 +1,215 @@
+name: 2.42 Melee and Thrown Weapons Fumble Table
+flags:
+  exportSource:
+    world: vsd-vsd-test
+    system: vsd
+    coreVersion: 0.7.9
+    systemVersion: '0.45'
+  core:
+    sourceId: Compendium.vsd.vsd-misc-tables.JournalEntry.fh15VASCMlmxTBKy
+pages:
+  - name: 2.42 Melee and Thrown Weapons Fumble Table
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: >-
+        <table class="meleethrownfumblestable">
+
+        <tbody>
+
+        <tr class="tableheaderrow">
+
+        <td class="roll">Roll</td>
+
+        <td class="resultdescription">Result</td>
+
+        </tr>
+
+        <tr class="tablerow rollable" data-type="meleethrownfumble"
+        data-table="2.42 Melee and Thrown Weapons Fumble Table"
+        data-roll="01-75" data-result="The character must make an Assessment
+        Roll during the next Assessment Phase.">
+
+        <td class="roll">01-75</td>
+
+        <td class="resultdescription">The character must make an Assessment Roll
+        during the next Assessment Phase.</td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">76-100</td>
+
+        <td class="resultdescription">The character must make an Assessment Roll
+        during the next Assessment Phase, and gets to choose one:
+
+        <ul>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="76-100"
+        data-result="The character must make an Assessment Roll during the next
+        Assessment Phase and Drops weapon.">Drops weapon.</li>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="76-100"
+        data-result="The character must make an Assessment Roll during the next
+        Assessment Phase and Takes a Superficial Critical Strike of the
+        appropriate type.">Takes a Superficial Critical Strike of the
+        appropriate type.</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">101-125</td>
+
+        <td class="resultdescription">The character must make an Assessment Roll
+        during the next Assessment Phase, and gets to choose two:
+
+        <ul>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="101-125"
+        data-result="The character must make an Assessment Roll during the next
+        Assessment Phase and Drops weapon.">Drops weapon.</li>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="101-125"
+        data-result="The character must make an Assessment Roll during the next
+        Assessment Phase and Takes a Light Critical Strike of the appropriate
+        type.">Takes a Light Critical Strike of the appropriate type.</li>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="101-125"
+        data-result="The character must make an Assessment Roll during the next
+        Assessment Phase and Inflicts a Superficial Critical Strike upon a
+        nearby ally (if applicable).">Inflicts a Superficial Critical Strike
+        upon a nearby ally (if applicable).</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">126-150</td>
+
+        <td class="resultdescription">The character is Stunned and gets to
+        choose two:
+
+        <ul>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="126-150"
+        data-result="The character is Stunned and Drops weapon.">Drops
+        weapon.</li>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="126-150"
+        data-result="The character is Stunned and Takes a Light Critical Strike
+        of the appropriate type.">Takes a Light Critical Strike of the
+        appropriate type.</li>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="126-150"
+        data-result="The character is Stunned and Inflicts a Light Critical
+        Strike upon a nearby ally (if applicable).">Inflicts a Light Critical
+        Strike upon a nearby ally (if applicable).</li>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="126-150"
+        data-result="The character is Stunned and The weapon breaks.">The weapon
+        breaks.</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        <tr class="tablerow">
+
+        <td class="roll">151+</td>
+
+        <td class="resultdescription">The character is Stunned and gets to
+        choose two:
+
+        <ul>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="151+" data-result="The
+        character is Stunned and Drops weapon.">Drops weapon.</li>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="151+" data-result="The
+        character is Stunned and Takes a Moderate Critical Strike of the
+        appropriate type.">Takes a Moderate Critical Strike of the appropriate
+        type.</li>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="151+" data-result="The
+        character is Stunned and Inflicts a Moderate Critical Strike upon a
+        nearby ally (if applicable).">Inflicts a Moderate Critical Strike upon a
+        nearby ally (if applicable).</li>
+
+        <li class="rollable" data-type="meleethrownfumble" data-table="2.42
+        Melee and Thrown Weapons Fumble Table" data-roll="151+" data-result="The
+        character is Stunned and The weapon breaks.">The weapon breaks.</li>
+
+        </ul>
+
+        </td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+    _id: Hmzc2iL8HGmVtyvh
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.328'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!journal.pages!B9RMYkljwmXbly80.Hmzc2iL8HGmVtyvh'
+ownership:
+  default: 0
+  NGjHOnRrH6sCNw2O: 3
+folder: CUIqKKkavMRUhsGr
+_stats:
+  systemId: vsd
+  systemVersion: '2.31'
+  coreVersion: '12.328'
+  createdTime: 1689519512416
+  modifiedTime: 1689519567801
+  lastModifiedBy: NGjHOnRrH6sCNw2O
+  compendiumSource: Compendium.vsd.vsd-misc-tables.JournalEntry.fh15VASCMlmxTBKy
+  duplicateSource: null
+_id: B9RMYkljwmXbly80
+sort: 0
+_key: '!journal!B9RMYkljwmXbly80'
+

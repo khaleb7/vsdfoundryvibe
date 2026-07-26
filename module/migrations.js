@@ -3,7 +3,7 @@
  * @return {Promise}      A Promise which resolves once the migration is completed
  */
 export const migrateWorld = async function () {
-  ui.notifications.notify(`Beginning Migration to vsd ${game.system.version}`, { permanent: true });
+  ui.notifications.info(`Beginning Migration to vsd ${game.system.version}`, { permanent: true });
 
   // Migrate World Actors
   for (let a of game.actors.contents) {
@@ -58,7 +58,7 @@ export const migrateWorld = async function () {
   }
 
   game.settings.set("vsd", "systemMigrationVersion", game.system.version);
-  ui.notifications.notify(`Migration to VsD ${game.system.version} Finished`, { permanent: true });
+  ui.notifications.info(`Migration to VsD ${game.system.version} Finished`, { permanent: true });
 }
 
 /**
@@ -256,23 +256,35 @@ function _migrateVariables(item, updatedata = {}) {
 /**
  * Ready hook loads tables, and override's foundry's document link functions to provide extension to pseudo entities
  */
-Hooks.once("ready", function () {
+Hooks.once("ready", async function () {
 
   if (CONFIG.system.testMode) console.debug("Starting Ready");
 
   // Determine whether a system migration is required and feasible
   if (!game.user.isGM) return;
   const currentVersion = game.settings.get("vsd", "systemMigrationVersion");
-  const NEEDS_MIGRATION_VERSION = 2.50;
-  const COMPATIBLE_MIGRATION_VERSION = 2.30;
+  // Legacy data migrations stop at 2.50; after that we only track the installed system version.
+  const NEEDS_MIGRATION_VERSION = "2.50";
+  const COMPATIBLE_MIGRATION_VERSION = "2.30";
   const totalDocuments = game.actors.size + game.scenes.size + game.items.size;
-  if (!currentVersion && totalDocuments === 0) return game.settings.set("vsd", "systemMigrationVersion", game.system.version);
+  if (!currentVersion && totalDocuments === 0) {
+    return game.settings.set("vsd", "systemMigrationVersion", game.system.version);
+  }
+  // Already past the legacy migration window (e.g. 12.x / 13.x / 14.x) — just record current.
+  if (currentVersion && foundry.utils.isNewerVersion(currentVersion, NEEDS_MIGRATION_VERSION)) {
+    if (currentVersion !== game.system.version) {
+      await game.settings.set("vsd", "systemMigrationVersion", game.system.version);
+    }
+    return;
+  }
   const needsMigration = !currentVersion || foundry.utils.isNewerVersion(NEEDS_MIGRATION_VERSION, currentVersion);
-  if (!needsMigration) return;
+  if (!needsMigration) {
+    return game.settings.set("vsd", "systemMigrationVersion", game.system.version);
+  }
 
   // Perform the migration
   if (currentVersion && foundry.utils.isNewerVersion(COMPATIBLE_MIGRATION_VERSION, currentVersion)) {
-    const warning = `Your system data appears to have have missed a migration step and might not migrate completely. The process will be attempted, but errors may occur.`;
+    const warning = `Your system data appears to have missed a migration step and might not migrate completely. The process will be attempted, but errors may occur.`;
     ui.notifications.error(warning, { permanent: false });
   }
   return migrateWorld();

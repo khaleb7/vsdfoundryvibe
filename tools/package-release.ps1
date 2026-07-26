@@ -36,8 +36,11 @@ $manifest.url = "https://github.com/$GitHubRepo"
 $manifest.manifest = "$base/system.json"
 $manifest.download = "$base/vsd.zip"
 $manifest.bugs = "https://github.com/$GitHubRepo/issues"
-$manifest | ConvertTo-Json -Depth 20 | Set-Content (Join-Path $dist "system.json") -Encoding utf8
-Copy-Item (Join-Path $dist "system.json") $manifestPath -Force
+# UTF-8 without BOM — Foundry's JSON.parse rejects the EF BB BF prefix from Set-Content -Encoding utf8
+$jsonPath = Join-Path $dist "system.json"
+$utf8NoBom = New-Object System.Text.UTF8Encoding $false
+[System.IO.File]::WriteAllText($jsonPath, ($manifest | ConvertTo-Json -Depth 20), $utf8NoBom)
+Copy-Item $jsonPath $manifestPath -Force
 
 $zip = Join-Path $dist "vsd.zip"
 if (Test-Path $zip) { Remove-Item $zip -Force }

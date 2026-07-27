@@ -2674,6 +2674,53 @@ img.result-image {
   border-radius: 0;
   background: transparent;
 }
+.vsd-form-sheet .form-col-input {
+  width: 100%;
+  max-width: 3.2rem;
+  height: 1.25rem;
+  padding: 0 2px;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid #666;
+  border-radius: 0;
+  background: transparent;
+  text-align: center;
+  font-family: inherit;
+  font-size: 12px;
+  color: inherit;
+}
+.vsd-form-sheet .form-col-input:focus {
+  outline: none;
+  border-bottom-color: #6b2a1f;
+  background: #fff;
+}
+.vsd-form-sheet .form-col-input.boxed {
+  max-width: 3.5rem;
+  border: 1px solid #333;
+  font-weight: bold;
+}
+.vsd-form-sheet .ranks-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  white-space: nowrap;
+}
+.vsd-form-sheet .ranks-cell .ranks-input {
+  max-width: 2.4rem;
+}
+.vsd-form-sheet .ranks-cell .rank-bonus {
+  font-size: 10px;
+  color: #555;
+}
+.vsd-form-sheet input.form-col-input::-webkit-outer-spin-button,
+.vsd-form-sheet input.form-col-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.vsd-form-sheet input.form-col-input[type=number] {
+  -moz-appearance: textfield;
+}
 .section {
   font-family: var(--vsd-font-sans);
   font-weight: normal;

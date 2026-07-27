@@ -158,20 +158,30 @@ export class BaseActor extends Actor {
 
     /**
      * Process Ranks Calculation
+     * "Ranks: Manual" entries override per-skill; other Ranks:* still apply as a base.
      */
     {
       if (CONFIG.system.testMode)
         console.debug("rankitems to be polled:\n", [this, rankitems]);
 
-      // count the rank standard skill items
-      for (const item of rankitems) {
+      const manualRanks = rankitems.find((i) => i.name === "Ranks: Manual");
+      const otherRanks = rankitems.filter((i) => i.name !== "Ranks: Manual");
+
+      for (const item of otherRanks) {
         for (const entry of item.system.entries) {
           let target = system.slugify(entry.label);
-          // if the name is not blank
           if (target) {
             entry.value = Number(entry.formula);
-            // the target may be one that does not exist on the actor so capture it anyway
             actorranks[target] = (actorranks[target]) ? actorranks[target] + entry.value : entry.value;
+          }
+        }
+      }
+      if (manualRanks) {
+        for (const entry of manualRanks.system.entries) {
+          let target = system.slugify(entry.label);
+          if (target) {
+            entry.value = Number(entry.formula);
+            actorranks[target] = entry.value;
           }
         }
       }
@@ -247,57 +257,111 @@ export class BaseActor extends Actor {
         }
       }
 
-      //Populate base, kin and spec mods for Primary Attributes
-      for (const item of primods) {
-        const itemdata = item.system;
-        if (itemdata.inEffect) {
-          for (const entry of itemdata.entries) {
-            if (entry.value == 0) continue;
-            switch (item.name.split(" ")[0]) { // the first word of the item name
-              case "Kin:": {
-                if (entry.targets.includes("BEA"))
-                  pridata.bea.kin = entry.value;
-                if (entry.targets.includes("BRN"))
-                  pridata.brn.kin = entry.value;
-                if (entry.targets.includes("FOR"))
-                  pridata.for.kin = entry.value;
-                if (entry.targets.includes("SWI"))
-                  pridata.swi.kin = entry.value;
-                if (entry.targets.includes("WIT"))
-                  pridata.wit.kin = entry.value;
-                if (entry.targets.includes("WSD"))
-                  pridata.wsd.kin = entry.value;
-                break;
-              }
-              case "Base":
-              case "Character": {
-                if (entry.targets.includes("BEA"))
-                  pridata.bea.base = entry.value;
-                if (entry.targets.includes("BRN"))
-                  pridata.brn.base = entry.value;
-                if (entry.targets.includes("FOR"))
-                  pridata.for.base = entry.value;
-                if (entry.targets.includes("SWI"))
-                  pridata.swi.base = entry.value;
-                if (entry.targets.includes("WIT"))
-                  pridata.wit.base = entry.value;
-                if (entry.targets.includes("WSD"))
-                  pridata.wsd.base = entry.value;
-                break;
-              }
-              default: {
-                if (entry.targets.includes("BEA"))
-                  pridata.bea.spec += entry.value;
-                if (entry.targets.includes("BRN"))
-                  pridata.brn.spec += entry.value;
-                if (entry.targets.includes("FOR"))
-                  pridata.for.spec += entry.value;
-                if (entry.targets.includes("SWI"))
-                  pridata.swi.spec += entry.value;
-                if (entry.targets.includes("WIT"))
-                  pridata.wit.spec += entry.value;
-                if (entry.targets.includes("WSD"))
-                  pridata.wsd.spec += entry.value;
+      // Manual form columns: Base Stat Values / Kin: Manual / Special Bonus only
+      const setStatCol = (col, targets, value) => {
+        const t = (targets || "").toUpperCase();
+        for (const key of system.primarysort.data) {
+          if (t.includes(key.toUpperCase()) && pridata[key]) {
+            pridata[key][col] = Number(value) || 0;
+          }
+        }
+      };
+      const findMod = (name) => mods.find((i) => i.name === name);
+      const baseMod = findMod("Base Stat Values");
+      const kinMod = findMod("Kin: Manual");
+      const specMod = findMod("Special Bonus");
+      // Form sheet ensureManualItems creates these; until then keep legacy column fill
+      const useManualStats = !!(kinMod || specMod || rankitems.find((i) => i.name === "Ranks: Manual"));
+
+      if (useManualStats) {
+        for (const key of Object.keys(pridata)) {
+          pridata[key].base = 0;
+          pridata[key].kin = 0;
+          pridata[key].spec = 0;
+        }
+        if (baseMod?.system.inEffect) {
+          for (const entry of baseMod.system.entries) {
+            if (entry.category !== "primary") continue;
+            actor.processModifierFormula(entry, baseMod.system);
+            setStatCol("base", entry.targets, entry.value);
+          }
+        }
+        if (kinMod?.system.inEffect) {
+          for (const entry of kinMod.system.entries) {
+            if (entry.category !== "primary") continue;
+            actor.processModifierFormula(entry, kinMod.system);
+            setStatCol("kin", entry.targets, entry.value);
+          }
+        }
+        if (specMod?.system.inEffect) {
+          for (const entry of specMod.system.entries) {
+            if (entry.category !== "primary") continue;
+            actor.processModifierFormula(entry, specMod.system);
+            setStatCol("spec", entry.targets, entry.value);
+          }
+        }
+        for (const key of Object.keys(pridata)) {
+          const row = pridata[key];
+          row.total = (Number(row.base) || 0) + (Number(row.kin) || 0) + (Number(row.spec) || 0);
+          const primary = actordata.dynamic[key];
+          if (primary) {
+            primary.system.value = row.total;
+            primary.system.moddedvalue = row.total;
+          }
+        }
+      } else {
+        // Legacy: Populate base, kin and spec mods for Primary Attributes
+        for (const item of primods) {
+          const itemdata = item.system;
+          if (itemdata.inEffect) {
+            for (const entry of itemdata.entries) {
+              if (entry.value == 0) continue;
+              switch (item.name.split(" ")[0]) { // the first word of the item name
+                case "Kin:": {
+                  if (entry.targets.includes("BEA"))
+                    pridata.bea.kin = entry.value;
+                  if (entry.targets.includes("BRN"))
+                    pridata.brn.kin = entry.value;
+                  if (entry.targets.includes("FOR"))
+                    pridata.for.kin = entry.value;
+                  if (entry.targets.includes("SWI"))
+                    pridata.swi.kin = entry.value;
+                  if (entry.targets.includes("WIT"))
+                    pridata.wit.kin = entry.value;
+                  if (entry.targets.includes("WSD"))
+                    pridata.wsd.kin = entry.value;
+                  break;
+                }
+                case "Base":
+                case "Character": {
+                  if (entry.targets.includes("BEA"))
+                    pridata.bea.base = entry.value;
+                  if (entry.targets.includes("BRN"))
+                    pridata.brn.base = entry.value;
+                  if (entry.targets.includes("FOR"))
+                    pridata.for.base = entry.value;
+                  if (entry.targets.includes("SWI"))
+                    pridata.swi.base = entry.value;
+                  if (entry.targets.includes("WIT"))
+                    pridata.wit.base = entry.value;
+                  if (entry.targets.includes("WSD"))
+                    pridata.wsd.base = entry.value;
+                  break;
+                }
+                default: {
+                  if (entry.targets.includes("BEA"))
+                    pridata.bea.spec += entry.value;
+                  if (entry.targets.includes("BRN"))
+                    pridata.brn.spec += entry.value;
+                  if (entry.targets.includes("FOR"))
+                    pridata.for.spec += entry.value;
+                  if (entry.targets.includes("SWI"))
+                    pridata.swi.spec += entry.value;
+                  if (entry.targets.includes("WIT"))
+                    pridata.wit.spec += entry.value;
+                  if (entry.targets.includes("WSD"))
+                    pridata.wsd.spec += entry.value;
+                }
               }
             }
           }
@@ -370,32 +434,73 @@ export class BaseActor extends Actor {
         }
       }
 
-      //Populate base, kin and spec mods for Save Rolls
-      for (const item of defencemods) {
-        const itemdata = item.system;
-        if (itemdata.inEffect) {
-          for (const entry of itemdata.entries) {
-            if (entry.category == "defence") {
-              switch (item.name.split(" ")[0]) { // the first word of the item name
-                case "Kin:": {
-                  if (entry.targets.includes("Will") && savedata["willpower_saving_roll"])
-                    savedata["willpower_saving_roll"].kin = entry.value;
-                  if (entry.targets.includes("Tough") && savedata["toughness_saving_roll"])
-                    savedata["toughness_saving_roll"].kin = entry.value;
-                  break;
+      const kinSaveMod = mods.find((i) => i.name === "Kin: Manual");
+      const specSaveMod = mods.find((i) => i.name === "Special Bonus");
+      const lvlSaveMod = mods.find((i) => i.name === "Form Save Level");
+      const useManualSaves = !!(kinSaveMod || specSaveMod || lvlSaveMod);
+
+      if (useManualSaves) {
+        for (const key of Object.keys(savedata)) {
+          savedata[key].kin = 0;
+          savedata[key].spec = 0;
+        }
+        const applySaveCol = (mod, col) => {
+          if (!mod?.system.inEffect) return;
+          for (const entry of mod.system.entries) {
+            if (entry.category !== "defence") continue;
+            actor.processModifierFormula(entry, mod.system);
+            const t = entry.targets || "";
+            if ((t.includes("Will") || t.includes("Wil")) && savedata.willpower_saving_roll) {
+              if (col === "level") savedata.willpower_saving_roll.level = Number(entry.value) || 0;
+              else savedata.willpower_saving_roll[col] = Number(entry.value) || 0;
+            }
+            if ((t.includes("Tough") || t.includes("Tou")) && savedata.toughness_saving_roll) {
+              if (col === "level") savedata.toughness_saving_roll.level = Number(entry.value) || 0;
+              else savedata.toughness_saving_roll[col] = Number(entry.value) || 0;
+            }
+          }
+        };
+        applySaveCol(kinSaveMod, "kin");
+        applySaveCol(specSaveMod, "spec");
+        applySaveCol(lvlSaveMod, "level");
+        for (const key of Object.keys(savedata)) {
+          const row = savedata[key];
+          const stat = Number(row.stat) || 0;
+          row.total = stat + (Number(row.level) || 0) + (Number(row.kin) || 0) + (Number(row.spec) || 0);
+          const saveItem = actordata.dynamic[key];
+          if (saveItem) {
+            saveItem.system.moddedvalue = row.total;
+            saveItem.system.value = row.total;
+          }
+        }
+      } else {
+        // Legacy: Populate base, kin and spec mods for Save Rolls
+        for (const item of defencemods) {
+          const itemdata = item.system;
+          if (itemdata.inEffect) {
+            for (const entry of itemdata.entries) {
+              if (entry.category == "defence") {
+                switch (item.name.split(" ")[0]) { // the first word of the item name
+                  case "Kin:": {
+                    if (entry.targets.includes("Will") && savedata["willpower_saving_roll"])
+                      savedata["willpower_saving_roll"].kin = entry.value;
+                    if (entry.targets.includes("Tough") && savedata["toughness_saving_roll"])
+                      savedata["toughness_saving_roll"].kin = entry.value;
+                    break;
+                  }
+                  case "Level":
+                  case "Fortitude":
+                  case "Wisdom": {
+                    // these are handled directly in savedata initialisation
+                    break;
+                  }
+                  default:
+                    if (entry.targets.includes("Will") && savedata["willpower_saving_roll"])
+                      savedata["willpower_saving_roll"].spec += entry.value;
+                    if (entry.targets.includes("Tough") && savedata["toughness_saving_roll"])
+                      savedata["toughness_saving_roll"].spec += entry.value;
+                    break;
                 }
-                case "Level":
-                case "Fortitude":
-                case "Wisdom": {
-                  // these are handled directly in savedata initialisation
-                  break;
-                }
-                default:
-                  if (entry.targets.includes("Will") && savedata["willpower_saving_roll"])
-                    savedata["willpower_saving_roll"].spec += entry.value;
-                  if (entry.targets.includes("Tough") && savedata["toughness_saving_roll"])
-                    savedata["toughness_saving_roll"].spec += entry.value;
-                  break;
               }
             }
           }
@@ -556,11 +661,13 @@ export class BaseActor extends Actor {
           stat: "-",
           statabbr: "nil",
           ranks: `#${dyn.system.ranks}`,
+          rankcount: dyn.system.ranks || 0,
           value: dyn.system.value,
           type: "none",
           voc: 0,
           kin: 0,
           spec: 0,
+          item: 0,
           standard: true,
         };
         skilldata.Armor = {
@@ -583,11 +690,13 @@ export class BaseActor extends Actor {
           stat: 0,
           statabbr: "nil",
           ranks: `#${dyn.system.ranks}`,
+          rankcount: dyn.system.ranks || 0,
           value: dyn.system.value,
           type: "skill",
           voc: 0,
           kin: 0,
           spec: 0,
+          item: 0,
           standard: false,
         };
       }
@@ -617,11 +726,13 @@ export class BaseActor extends Actor {
           stat: 0,
           statabbr: "for",
           ranks: `#${dyn.system.ranks}`,
+          rankcount: dyn.system.ranks || 0,
           value: dyn.system.value,
           type: "none",
           voc: 0,
           kin: 0,
           spec: 0,
+          item: 0,
           standard: true,
         };
         skilldata.Body = {
@@ -649,11 +760,13 @@ export class BaseActor extends Actor {
           stat: 0,
           statabbr: "nil",
           ranks: `#${dyn.system.ranks}`,
+          rankcount: dyn.system.ranks || 0,
           value: dyn.system.value,
           type: "spell",
           voc: 0,
           kin: 0,
           spec: 0,
+          item: 0,
           standard: true,
         };
         skillspelldetails[ref] = spelltemp[ref] = skilldata.Spells.data[ref] = spelldata;
@@ -941,6 +1054,71 @@ export class BaseActor extends Actor {
             }
           }
           break;
+        }
+      }
+    }
+
+    /**
+     * Form-sheet Manual skill/spell columns: Voc / Kin / Spec / Item from dedicated
+     * modifiers; TOT = linked stat + rank bonus + columns; sync Rollable.moddedvalue.
+     */
+    {
+      const vocMod = mods.find((i) => i.name === "Vocation: Manual");
+      const kinSkillMod = mods.find((i) => i.name === "Form Skill Kin");
+      const specSkillMod = mods.find((i) => i.name === "Form Skill Spec");
+      const itemSkillMod = mods.find((i) => i.name === "Form Skill Item");
+      const useManualSkills = !!(vocMod || kinSkillMod || specSkillMod || itemSkillMod
+        || rankitems.find((i) => i.name === "Ranks: Manual"));
+
+      if (useManualSkills) {
+        for (const skill of Object.values(skillspelldetails)) {
+          skill.voc = 0;
+          skill.kin = 0;
+          skill.spec = 0;
+          skill.item = 0;
+        }
+
+        const applySkillCol = (mod, col) => {
+          if (!mod?.system.inEffect) return;
+          for (const entry of mod.system.entries) {
+            if (!["skill", "spell", "reaction"].includes(entry.category)) continue;
+            actor.processModifierFormula(entry, mod.system);
+            const targets = (entry.targets || "").split(",").map((w) => w.trim()).filter(Boolean);
+            for (const skill of Object.values(skillspelldetails)) {
+              if (!targets.length || targets.some((t) => skill.name === t || skill.name.startsWith(t))) {
+                skill[col] = Number(entry.value) || 0;
+              }
+            }
+          }
+        };
+        applySkillCol(vocMod, "voc");
+        applySkillCol(kinSkillMod, "kin");
+        applySkillCol(specSkillMod, "spec");
+        applySkillCol(itemSkillMod, "item");
+
+        for (const [ref, skill] of Object.entries(skillspelldetails)) {
+          // Linked stat from primary totals (read-only on form)
+          if (skill.statabbr && skill.statabbr !== "nil" && pridata[skill.statabbr]) {
+            skill.stat = pridata[skill.statabbr].total;
+          } else if (skill.name === "Armor") {
+            skill.stat = "-";
+          }
+          const dyn = actordata.dynamic[ref];
+          if (dyn) {
+            skill.rankcount = dyn.system.ranks || 0;
+            skill.ranks = `#${skill.rankcount}`;
+            skill.value = dyn.system.value || 0;
+          }
+          const statNum = (skill.stat === "-" || skill.stat == null) ? 0 : (Number(skill.stat) || 0);
+          skill.total = statNum
+            + (Number(skill.value) || 0)
+            + (Number(skill.voc) || 0)
+            + (Number(skill.kin) || 0)
+            + (Number(skill.spec) || 0)
+            + (Number(skill.item) || 0);
+          if (dyn) {
+            dyn.system.moddedvalue = skill.total;
+          }
         }
       }
     }

@@ -114,9 +114,15 @@
                       {{localize (concat 'local.system.stats.' item.name)}} ({{localize (concat 'local.system.stats.' item.abbr)}})
                     </a>
                   </div>
-                  <div class="cell">{{item.base}}</div>
-                  <div class="cell">{{item.kin}}</div>
-                  <div class="cell">{{item.spec}}</div>
+                  <div class="cell">
+                    <input class="form-col-input" type="number" value="{{item.base}}" data-manual="stat-base" data-abbr="{{item.abbr}}" />
+                  </div>
+                  <div class="cell">
+                    <input class="form-col-input" type="number" value="{{item.kin}}" data-manual="stat-kin" data-abbr="{{item.abbr}}" />
+                  </div>
+                  <div class="cell">
+                    <input class="form-col-input" type="number" value="{{item.spec}}" data-manual="stat-spec" data-abbr="{{item.abbr}}" />
+                  </div>
                   <div class="cell tot">{{item.total}}</div>
                 </div>
                 {{/each}}
@@ -142,9 +148,15 @@
                     </a>
                   </div>
                   <div class="cell">{{item.stat}}</div>
-                  <div class="cell">{{item.level}}</div>
-                  <div class="cell">{{item.kin}}</div>
-                  <div class="cell">{{item.spec}}</div>
+                  <div class="cell">
+                    <input class="form-col-input" type="number" value="{{item.level}}" data-manual="save-lvl" data-save="{{item.name}}" />
+                  </div>
+                  <div class="cell">
+                    <input class="form-col-input" type="number" value="{{item.kin}}" data-manual="save-kin" data-save="{{item.name}}" />
+                  </div>
+                  <div class="cell">
+                    <input class="form-col-input" type="number" value="{{item.spec}}" data-manual="save-spec" data-save="{{item.name}}" />
+                  </div>
                   <div class="cell tot">{{item.total}}</div>
                 </div>
                 {{/each}}
@@ -209,11 +221,22 @@
                     {{/if}}
                   </div>
                   <div class="cell">{{item.stat}}</div>
-                  <div class="cell">{{item.ranks}} [{{item.value}}]</div>
-                  <div class="cell">{{item.voc}}</div>
-                  <div class="cell">{{item.kin}}</div>
-                  <div class="cell">{{item.spec}}</div>
-                  <div class="cell"></div>
+                  <div class="cell ranks-cell">
+                    <input class="form-col-input ranks-input" type="number" value="{{item.rankcount}}" data-manual="skill-ranks" data-skill="{{item.name}}" data-skilltype="{{item.type}}" title="Ranks" />
+                    <span class="rank-bonus">[{{item.value}}]</span>
+                  </div>
+                  <div class="cell">
+                    <input class="form-col-input" type="number" value="{{item.voc}}" data-manual="skill-voc" data-skill="{{item.name}}" data-skilltype="{{item.type}}" />
+                  </div>
+                  <div class="cell">
+                    <input class="form-col-input" type="number" value="{{item.kin}}" data-manual="skill-kin" data-skill="{{item.name}}" data-skilltype="{{item.type}}" />
+                  </div>
+                  <div class="cell">
+                    <input class="form-col-input" type="number" value="{{item.spec}}" data-manual="skill-spec" data-skill="{{item.name}}" data-skilltype="{{item.type}}" />
+                  </div>
+                  <div class="cell">
+                    <input class="form-col-input" type="number" value="{{item.item}}" data-manual="skill-item" data-skill="{{item.name}}" data-skilltype="{{item.type}}" />
+                  </div>
                   <div class="cell tot">{{item.total}}</div>
                 </div>
                 {{/if}}
@@ -437,9 +460,11 @@
         <section class="form-section mp-section item" data-item-id="{{item.magicpoints._id}}">
           <h3 class="form-section-title">Magic Points</h3>
           <div class="mp-fields">
-            <label>TOT <span class="boxed">{{item.magicpoints.system.max}}</span></label>
+            <label>TOT
+              <input class="form-col-input boxed" type="number" value="{{item.magicpoints.system.max}}" data-manual="mp-max" />
+            </label>
             <label>Current
-              <input class="iteminput boxed" type="text" value="{{item.magicpoints.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.magicpoints.system.abbr}}" />
+              <input class="iteminput boxed pool" type="text" value="{{item.magicpoints.system.value}}" data-dtype="Number" data-name="system.value" data-abbr="{{item.magicpoints.system.abbr}}" />
             </label>
           </div>
         </section>
@@ -470,11 +495,22 @@
                 <a class="rollmacro roll-label" data-category="spell" data-target="{{item.name}}">{{item.name}}</a>
               </div>
               <div class="cell">{{item.stat}}</div>
-              <div class="cell">{{item.ranks}} [{{item.value}}]</div>
-              <div class="cell">{{item.voc}}</div>
-              <div class="cell">{{item.kin}}</div>
-              <div class="cell">{{item.spec}}</div>
-              <div class="cell"></div>
+              <div class="cell ranks-cell">
+                <input class="form-col-input ranks-input" type="number" value="{{item.rankcount}}" data-manual="skill-ranks" data-skill="{{item.name}}" data-skilltype="spell" title="Ranks" />
+                <span class="rank-bonus">[{{item.value}}]</span>
+              </div>
+              <div class="cell">
+                <input class="form-col-input" type="number" value="{{item.voc}}" data-manual="skill-voc" data-skill="{{item.name}}" data-skilltype="spell" />
+              </div>
+              <div class="cell">
+                <input class="form-col-input" type="number" value="{{item.kin}}" data-manual="skill-kin" data-skill="{{item.name}}" data-skilltype="spell" />
+              </div>
+              <div class="cell">
+                <input class="form-col-input" type="number" value="{{item.spec}}" data-manual="skill-spec" data-skill="{{item.name}}" data-skilltype="spell" />
+              </div>
+              <div class="cell">
+                <input class="form-col-input" type="number" value="{{item.item}}" data-manual="skill-item" data-skill="{{item.name}}" data-skilltype="spell" />
+              </div>
               <div class="cell tot">{{item.total}}</div>
             </div>
             {{/if}}

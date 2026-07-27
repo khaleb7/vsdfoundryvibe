@@ -1,3 +1,7 @@
+14.0.5
+- Form sheet stats, skills, saves, and magic columns are manually editable via dedicated Manual Modifier/Variable items.
+- Row TOT auto-sums editable columns and drives click-to-roll (bypasses broken Kin/Vocation container automation for those values).
+
 14.0.4
 - Added Form Fillable Character Sheet (PDF-style layout) as the default for new PCs.
 - Classic sheet remains available and is forced for VsD monster/NPC imports.
